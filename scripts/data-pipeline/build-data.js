@@ -11,6 +11,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const ROOT = path.join(__dirname, '..', '..')
 const G1_FILE = path.join(ROOT, 'src', 'data', 'g1', 'all.json')
 const NEWS_FILE = path.join(ROOT, 'src', 'data', 'news', 'all.json')
+const GENERAL_FILE = path.join(ROOT, 'src', 'data', 'news-general', 'all.json')
 const OUT_FILE = path.join(ROOT, 'src', 'data', 'mandateData.js')
 
 // Ordem de exibição dos governadores: agrupados por região, depois por UF.
@@ -39,12 +40,71 @@ function slugify(s) {
     .replace(/(^-|-$)/g, '')
 }
 
+// Separa notícias GERAIS (do político, não de uma proposta específica) das específicas.
+// Regra: é "geral" a notícia que (a) veio da busca geral do político (newsQuery) OU
+// (b) apareceu em 2+ propostas do mesmo político (sinal de cobertura ampla, ex. "Lula
+// cumpriu 80% das promessas"). O resto fica como atualização específica da proposta.
+function separarNoticiasGerais(propostas, noticiasGeraisFetch) {
+  const urlCount = new Map()
+  for (const p of propostas) {
+    for (const u of p.atualizacoes) {
+      if (u.url) urlCount.set(u.url, (urlCount.get(u.url) || 0) + 1)
+    }
+  }
+
+  const urlsGerais = new Set()
+  const geraisByUrl = new Map()
+
+  // (a) busca dedicada (newsQuery) — gerais por definição
+  for (const g of noticiasGeraisFetch) {
+    if (g.url) {
+      urlsGerais.add(g.url)
+      if (!geraisByUrl.has(g.url)) geraisByUrl.set(g.url, g)
+    }
+  }
+
+  // (b) duplicadas entre propostas
+  for (const [url, count] of urlCount) {
+    if (count >= 2) urlsGerais.add(url)
+  }
+
+  // Remove as gerais das propostas (cada proposta fica só com o específico)
+  const propostasLimpa = propostas.map((p) => ({
+    ...p,
+    atualizacoes: p.atualizacoes.filter((u) => !u.url || !urlsGerais.has(u.url)),
+  }))
+
+  // Junta a lista final de gerais (dedup por URL, prioriza a da busca dedicada)
+  const seen = new Set(geraisByUrl.keys())
+  for (const p of propostas) {
+    for (const u of p.atualizacoes) {
+      if (u.url && urlsGerais.has(u.url) && !seen.has(u.url)) {
+        seen.add(u.url)
+        geraisByUrl.set(u.url, u)
+      }
+    }
+  }
+
+  const noticiasGerais = [...geraisByUrl.values()]
+    .filter((u) => u.url && u.titulo)
+    .sort((a, b) => new Date(b.data || 0) - new Date(a.data || 0))
+
+  return { propostas: propostasLimpa, noticiasGerais }
+}
+
 function main() {
   const g1 = JSON.parse(readFileSync(G1_FILE, 'utf8'))
   const news = JSON.parse(readFileSync(NEWS_FILE, 'utf8'))
+  let generalNews = []
+  try {
+    generalNews = JSON.parse(readFileSync(GENERAL_FILE, 'utf8'))
+  } catch {
+    // sem notícias gerais coletadas ainda — segue só com dedup das duplicadas
+  }
 
   // Índice de notícias por político + proposta (título como chave)
   const newsByPolitician = new Map(news.map((p) => [p.id, p]))
+  const generalByPolitician = new Map(generalNews.map((g) => [g.id, g.noticiasGerais || []]))
 
   const nodes = g1.map((pol) => {
     const newsPol = newsByPolitician.get(pol.id)
@@ -64,6 +124,15 @@ function main() {
         })),
       }
     })
+
+    // Separa notícias GERAIS (do político, não de uma proposta específica) das
+    // específicas. Regra: vira "geral" a notícia que (a) veio da busca geral do
+    // político (newsQuery) OU (b) apareceu em 2+ propostas (sinal de que é ampla).
+    const { propostas: propostasLimpa, noticiasGerais } = separarNoticiasGerais(
+      propostas,
+      generalByPolitician.get(pol.id) || [],
+    )
+
     return {
       id: pol.id,
       nome: pol.name,
@@ -72,7 +141,8 @@ function main() {
       uf: pol.uf,
       foto: null,
       mandato: pol.mandate ? { inicio: pol.mandate.start, fim: pol.mandate.end } : null,
-      propostas,
+      propostas: propostasLimpa,
+      noticiasGerais,
       filhos: [],
     }
   })

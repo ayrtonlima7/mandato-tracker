@@ -14,7 +14,7 @@ export default function PoliticianPage() {
     return (
       <div className="politician-page">
         <Link className="politician-page__voltar" to="/">
-          ← Voltar para a árvore
+          ← Voltar para o mapa
         </Link>
         <p>Político não encontrado.</p>
       </div>
@@ -26,7 +26,7 @@ export default function PoliticianPage() {
   return (
     <div className="politician-page">
       <Link className="politician-page__voltar" to="/">
-        ← Voltar para a árvore
+        ← Voltar para o mapa
       </Link>
 
       <header className="politician-page__header">

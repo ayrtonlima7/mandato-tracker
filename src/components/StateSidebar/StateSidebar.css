@@ -1,0 +1,115 @@
+.state-sidebar {
+  width: 280px;
+  flex-shrink: 0;
+  height: 100%;
+  overflow-y: auto;
+  background: #f3e9d2;
+  border-right: 2px solid rgba(31, 58, 95, 0.3);
+  padding: 20px 16px 24px;
+  position: relative;
+}
+
+.state-sidebar__fechar {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 1.5px solid rgba(31, 58, 95, 0.3);
+  background: #fbf6e9;
+  font-size: 1.1rem;
+  line-height: 1;
+  color: #1f3a5f;
+  cursor: pointer;
+}
+
+.state-sidebar__titulo {
+  font-size: 1.1rem;
+  margin: 0 32px 16px 0;
+}
+
+.state-sidebar__vazio {
+  color: #8a8070;
+  font-size: 0.85rem;
+}
+
+.state-sidebar__grupo {
+  margin-bottom: 18px;
+}
+
+.state-sidebar__grupo-titulo {
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #8a6d3b;
+  margin: 0 0 8px;
+}
+
+.state-sidebar__lista {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.state-sidebar__item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-align: left;
+  background: #fbf6e9;
+  border: 1.5px solid rgba(31, 58, 95, 0.3);
+  border-radius: 10px 12px 9px 11px;
+  box-shadow: 2px 3px 0 rgba(74, 59, 42, 0.14);
+  padding: 8px 10px;
+  cursor: pointer;
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
+}
+
+.state-sidebar__item:hover {
+  transform: translateY(-1px);
+  box-shadow: 3px 4px 0 rgba(74, 59, 42, 0.18);
+}
+
+.state-sidebar__item--selecionado {
+  border-color: #1f3a5f;
+  box-shadow: 0 0 0 2px rgba(31, 58, 95, 0.25);
+}
+
+.state-sidebar__item-texto {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  overflow: hidden;
+}
+
+.state-sidebar__item-texto strong {
+  font-size: 0.85rem;
+  color: #1f3a5f;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.state-sidebar__item-texto small {
+  font-size: 0.7rem;
+  color: #4a4336;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@media (max-width: 767px) {
+  .state-sidebar {
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    z-index: 110;
+    padding: 20px 18px 32px;
+  }
+}

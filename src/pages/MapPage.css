@@ -1,27 +1,27 @@
-.tree-page {
+.map-page {
   display: flex;
   flex-direction: column;
   height: 100vh;
 }
 
-.tree-page__header {
+.map-page__header {
   padding: 18px 24px 14px;
   border-bottom: 2px solid rgba(31, 58, 95, 0.15);
   flex-shrink: 0;
 }
 
-.tree-page__header h1 {
+.map-page__header h1 {
   margin: 0 0 4px;
   font-size: 1.4rem;
 }
 
-.tree-page__header p {
+.map-page__header p {
   margin: 0 0 8px;
   font-size: 0.85rem;
   color: var(--cor-marrom);
 }
 
-.tree-page__aviso {
+.map-page__aviso {
   display: inline-block;
   font-size: 0.66rem;
   font-weight: 700;
@@ -34,18 +34,31 @@
   padding: 2px 10px;
 }
 
-.tree-page__corpo {
+.map-page__corpo {
   flex: 1;
   min-height: 0;
+  display: flex;
+  overflow: hidden;
+}
+
+.map-page__mapa {
+  flex: 1;
+  min-width: 0;
+  min-height: 0;
+  padding: 24px;
   position: relative;
 }
 
 @media (max-width: 767px) {
-  .tree-page__header {
+  .map-page__header {
     padding: 14px 16px 10px;
   }
 
-  .tree-page__header h1 {
+  .map-page__header h1 {
     font-size: 1.15rem;
+  }
+
+  .map-page__mapa {
+    padding: 12px;
   }
 }
