@@ -16,14 +16,14 @@ export default function MandateDrawer({ politico, onClose }) {
 
   if (!politico) return null
 
-  const counts = countByStatus(politico.planos)
+  const counts = countByStatus(politico.propostas)
 
   return (
     <div className="mandate-drawer__overlay" onClick={onClose}>
       <aside
         className="mandate-drawer"
         role="dialog"
-        aria-label={`Planos de mandato de ${politico.nome}`}
+        aria-label={`Propostas de mandato de ${politico.nome}`}
         onClick={(e) => e.stopPropagation()}
       >
         <button className="mandate-drawer__fechar" onClick={onClose} aria-label="Fechar">
@@ -45,17 +45,18 @@ export default function MandateDrawer({ politico, onClose }) {
         </header>
 
         <div className="mandate-drawer__resumo">
-          <span>{counts.concluido} concluídos</span>
-          <span>{counts.em_andamento} em andamento</span>
-          <span>{counts.nao_iniciado} não iniciados</span>
-          <span>{counts.abandonado} abandonados</span>
+          <span>{counts.cumpriu} cumpridas</span>
+          <span>{counts.em_parte} em parte</span>
+          <span>{counts.nao_cumpriu} não cumpridas</span>
         </div>
 
         <div className="mandate-drawer__lista">
-          {politico.planos?.length ? (
-            politico.planos.map((plano) => <MandateCard key={plano.id} plano={plano} />)
+          {politico.propostas?.length ? (
+            politico.propostas.map((proposta) => (
+              <MandateCard key={proposta.id} proposta={proposta} />
+            ))
           ) : (
-            <p className="mandate-drawer__vazio">Nenhum plano de mandato registrado.</p>
+            <p className="mandate-drawer__vazio">Nenhuma proposta de mandato registrada.</p>
           )}
         </div>
       </aside>

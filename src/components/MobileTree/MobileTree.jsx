@@ -6,8 +6,8 @@ import './MobileTree.css'
 
 function MobileNode({ politico, nivel }) {
   const [filhosAbertos, setFilhosAbertos] = useState(nivel === 0)
-  const [planosAbertos, setPlanosAbertos] = useState(false)
-  const counts = countByStatus(politico.planos)
+  const [propostasAbertas, setPropostasAbertas] = useState(false)
+  const counts = countByStatus(politico.propostas)
   const temFilhos = (politico.filhos?.length ?? 0) > 0
 
   return (
@@ -16,7 +16,7 @@ function MobileNode({ politico, nivel }) {
         <button
           type="button"
           className="mobile-node__corpo"
-          onClick={() => setPlanosAbertos((v) => !v)}
+          onClick={() => setPropostasAbertas((v) => !v)}
         >
           <Avatar nome={politico.nome} foto={politico.foto} size={44} />
           <span className="mobile-node__texto">
@@ -27,7 +27,7 @@ function MobileNode({ politico, nivel }) {
             </small>
           </span>
           <span className="mobile-node__contagem">
-            {counts.concluido}✔ {counts.em_andamento}↻
+            ✔{counts.cumpriu} ◐{counts.em_parte} ✘{counts.nao_cumpriu}
           </span>
         </button>
 
@@ -43,12 +43,14 @@ function MobileNode({ politico, nivel }) {
         )}
       </div>
 
-      {planosAbertos && (
-        <div className="mobile-node__planos">
-          {politico.planos?.length ? (
-            politico.planos.map((plano) => <MandateCard key={plano.id} plano={plano} />)
+      {propostasAbertas && (
+        <div className="mobile-node__propostas">
+          {politico.propostas?.length ? (
+            politico.propostas.map((proposta) => (
+              <MandateCard key={proposta.id} proposta={proposta} />
+            ))
           ) : (
-            <p className="mobile-node__vazio">Nenhum plano de mandato registrado.</p>
+            <p className="mobile-node__vazio">Nenhuma proposta de mandato registrada.</p>
           )}
         </div>
       )}

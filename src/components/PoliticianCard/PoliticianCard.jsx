@@ -9,8 +9,8 @@ export default function PoliticianCard({
   onToggleCollapse,
   onAbrirPlanos,
 }) {
-  const counts = countByStatus(politico.planos)
-  const totalPlanos = politico.planos?.length ?? 0
+  const counts = countByStatus(politico.propostas)
+  const totalPropostas = politico.propostas?.length ?? 0
 
   return (
     <div
@@ -32,13 +32,16 @@ export default function PoliticianCard({
       </div>
 
       <div className="politician-card__rodape">
-        <span className="politician-card__contagem" title="Concluídos">
-          ✔ {counts.concluido}
+        <span className="politician-card__contagem" title="Cumpridas">
+          ✔ {counts.cumpriu}
         </span>
-        <span className="politician-card__contagem" title="Em andamento">
-          ↻ {counts.em_andamento}
+        <span className="politician-card__contagem" title="Em parte">
+          ◐ {counts.em_parte}
         </span>
-        <span className="politician-card__total">{totalPlanos} planos</span>
+        <span className="politician-card__contagem" title="Não cumpridas">
+          ✘ {counts.nao_cumpriu}
+        </span>
+        <span className="politician-card__total">{totalPropostas} propostas</span>
       </div>
 
       {hasChildren && (

@@ -73,20 +73,27 @@
 .politician-card__rodape {
   display: flex;
   align-items: center;
-  gap: 10px;
-  font-size: 0.72rem;
+  gap: 6px;
+  font-size: 0.66rem;
   color: #4a4336;
   border-top: 1px dashed rgba(31, 58, 95, 0.22);
   padding-top: 6px;
+  overflow: hidden;
 }
 
 .politician-card__contagem {
   white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .politician-card__total {
   margin-left: auto;
   color: #8a8070;
+  min-width: 0;
+  flex-shrink: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .politician-card__chevron {

@@ -21,7 +21,7 @@ export default function PoliticianPage() {
     )
   }
 
-  const counts = countByStatus(politico.planos)
+  const counts = countByStatus(politico.propostas)
 
   return (
     <div className="politician-page">
@@ -41,17 +41,18 @@ export default function PoliticianPage() {
       </header>
 
       <div className="politician-page__resumo">
-        <span>{counts.concluido} concluídos</span>
-        <span>{counts.em_andamento} em andamento</span>
-        <span>{counts.nao_iniciado} não iniciados</span>
-        <span>{counts.abandonado} abandonados</span>
+        <span>{counts.cumpriu} cumpridas</span>
+        <span>{counts.em_parte} em parte</span>
+        <span>{counts.nao_cumpriu} não cumpridas</span>
       </div>
 
       <div className="politician-page__lista">
-        {politico.planos?.length ? (
-          politico.planos.map((plano) => <MandateCard key={plano.id} plano={plano} />)
+        {politico.propostas?.length ? (
+          politico.propostas.map((proposta) => (
+            <MandateCard key={proposta.id} proposta={proposta} />
+          ))
         ) : (
-          <p>Nenhum plano de mandato registrado.</p>
+          <p>Nenhuma proposta de mandato registrada.</p>
         )}
       </div>
     </div>

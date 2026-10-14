@@ -1,24 +1,24 @@
 import { STATUS } from '../data/mandateData.js'
 
+const STATUS_DESCONHECIDO = { label: 'Sem status', color: '#8a8070' }
+
 export const STATUS_META = {
-  [STATUS.CONCLUIDO]: { label: 'Concluído', color: '#2f6b4f' },
-  [STATUS.EM_ANDAMENTO]: { label: 'Em andamento', color: '#1f3a5f' },
-  [STATUS.NAO_INICIADO]: { label: 'Não iniciado', color: '#8a8070' },
-  [STATUS.ABANDONADO]: { label: 'Abandonado', color: '#8c3b32' },
+  [STATUS.CUMPRIU]: { label: 'Cumprida', color: '#2f6b4f' },
+  [STATUS.EM_PARTE]: { label: 'Em parte', color: '#8a6d3b' },
+  [STATUS.NAO_CUMPRIU]: { label: 'Não cumprida', color: '#8c3b32' },
 }
 
 export function statusMeta(status) {
-  return STATUS_META[status] ?? STATUS_META[STATUS.NAO_INICIADO]
+  return STATUS_META[status] ?? STATUS_DESCONHECIDO
 }
 
-export function countByStatus(planos) {
+export function countByStatus(propostas) {
   const counts = {
-    [STATUS.CONCLUIDO]: 0,
-    [STATUS.EM_ANDAMENTO]: 0,
-    [STATUS.NAO_INICIADO]: 0,
-    [STATUS.ABANDONADO]: 0,
+    [STATUS.CUMPRIU]: 0,
+    [STATUS.EM_PARTE]: 0,
+    [STATUS.NAO_CUMPRIU]: 0,
   }
-  for (const p of planos ?? []) {
+  for (const p of propostas ?? []) {
     counts[p.status] = (counts[p.status] ?? 0) + 1
   }
   return counts
