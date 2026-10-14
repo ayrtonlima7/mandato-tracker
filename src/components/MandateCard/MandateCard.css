@@ -1,0 +1,88 @@
+.mandate-card {
+  background: #fbf6e9;
+  border: 1.5px solid rgba(31, 58, 95, 0.25);
+  border-radius: 10px 12px 11px 13px;
+  box-shadow: 2px 3px 0 rgba(74, 59, 42, 0.12);
+  padding: 14px 16px;
+  margin-bottom: 14px;
+}
+
+.mandate-card__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 6px;
+}
+
+.mandate-card__titulo {
+  font-family: 'Source Serif 4', Georgia, serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #1f3a5f;
+  margin: 0;
+}
+
+.mandate-card__badge {
+  flex-shrink: 0;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  border: 1.5px solid;
+  border-radius: 999px;
+  padding: 3px 9px;
+  white-space: nowrap;
+}
+
+.mandate-card__descricao {
+  font-size: 0.86rem;
+  color: #4a4336;
+  margin: 0 0 10px;
+  line-height: 1.4;
+}
+
+.mandate-card__timeline {
+  list-style: none;
+  margin: 12px 0 0;
+  padding: 10px 0 0;
+  border-top: 1px dashed rgba(31, 58, 95, 0.25);
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.mandate-card__timeline li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.78rem;
+}
+
+.mandate-card__marco-ponto {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  background: #8a8070;
+}
+
+.mandate-card__timeline li.is-feito .mandate-card__marco-ponto {
+  background: #2f6b4f;
+}
+
+.mandate-card__marco-texto {
+  flex: 1;
+  color: #4a4336;
+}
+
+.mandate-card__timeline li.is-feito .mandate-card__marco-texto {
+  color: #1f3a5f;
+  font-weight: 600;
+}
+
+.mandate-card__marco-data {
+  color: #8a8070;
+  font-size: 0.72rem;
+  white-space: nowrap;
+}

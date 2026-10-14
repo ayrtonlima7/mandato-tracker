@@ -1,0 +1,52 @@
+.org-chart {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.org-chart__viewport {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  touch-action: none;
+  cursor: grab;
+}
+
+.org-chart__viewport:active {
+  cursor: grabbing;
+}
+
+.org-chart__inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform-origin: 0 0;
+  will-change: transform;
+}
+
+.org-chart__svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: visible;
+  pointer-events: none;
+}
+
+.org-chart__link path {
+  fill: none;
+  stroke: #1f3a5f;
+  stroke-width: 2.25;
+  stroke-linecap: round;
+  opacity: 0.85;
+}
+
+.org-chart__link-sombra {
+  stroke: #1f3a5f !important;
+  stroke-width: 3.5 !important;
+  opacity: 0.18 !important;
+}
+
+.org-chart__node {
+  position: absolute;
+}

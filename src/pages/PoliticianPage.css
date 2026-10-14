@@ -1,0 +1,48 @@
+.politician-page {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 24px 20px 60px;
+}
+
+.politician-page__voltar {
+  display: inline-block;
+  margin-bottom: 18px;
+  color: var(--cor-azul);
+  font-size: 0.85rem;
+  text-decoration: none;
+}
+
+.politician-page__voltar:hover {
+  text-decoration: underline;
+}
+
+.politician-page__header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.politician-page__header h1 {
+  margin: 0 0 4px;
+  font-size: 1.4rem;
+}
+
+.politician-page__header p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--cor-marrom);
+}
+
+.politician-page__resumo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  font-size: 0.78rem;
+  color: var(--cor-marrom);
+  background: rgba(31, 58, 95, 0.06);
+  border: 1px solid rgba(31, 58, 95, 0.15);
+  border-radius: 10px;
+  padding: 10px 14px;
+  margin-bottom: 20px;
+}
