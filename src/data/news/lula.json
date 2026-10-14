@@ -1,0 +1,1374 @@
+[
+  {
+    "id": "lula",
+    "name": "Luiz Inácio Lula da Silva",
+    "role": "Presidente da República",
+    "party": "PT",
+    "uf": null,
+    "mandate": {
+      "start": "2023-01-01",
+      "end": "2026-12-31"
+    },
+    "g1Url": "https://g1.globo.com/politica/noticia/2026/07/22/promessas-de-lula-governo-aprovou-reforma-tributaria-e-isencao-do-ir-e-nao-recriou-ministerio-da-seguranca.ghtml",
+    "newsQuery": "Lula presidente",
+    "proposals": [
+      {
+        "title": "Aumentar verba da merenda escolar",
+        "theme": "educacao",
+        "status": "cumpriu",
+        "description": "O presidente afirmou em 2022 que ampliaria a verba para a merenda escolar, mas não estabeleceu uma meta. Em março de 2023, o governo federal reajustou em até 39% os repasses. De acordo com o governo, os valores destinados a isso não eram corrigidos havia cinco anos. Procurado, o Ministério da Educação (MEC) afirmou que o Programa Nacional de Alimentação Escolar (PNAE), que atende a cerca de 39 milhões de estudantes em mais de cinco mil municípios, teve o orçamento ampliado de R$ 4 bilhões, em 2023, para R$ 6,8 bilhões, em 2026.",
+        "updates": [
+          {
+            "title": "Promessas de Lula: governo aprovou reforma tributária e isenção do IR, e não recriou Ministério da Segurança",
+            "source": "G1",
+            "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNZVlnb2pmY2VxMVByREtmakh5aTUxd0ZxU01tbXR5dHN6TXlSTlNXLWQxN1FxYS03R3h2NWdpdUVUYkt0UWVRdFduamY0RlNsWS1HbGVxSGl3X3VSYmdPcTVGaEdva0hCY2wwSy1PUjlZb3ZzNmNfQzcta0Z0YWdjbGhHN204T0s4TUs0WTdJTXVkN1dNTHdBc200Szc4YnJXY3JZUTNhWHFrd2pXT1V0c3JyeFQ3MS0zWTNuOFlkVFMtVG5lRXR6MkFjQ3B5bmlSajFUUjRMdWxWRnJuNEZJVUxMZTNxR2RmNl80VHRCWlI3eUXSAYICQVVfeXFMTm8xeTFNbmZsSlBaeGw2UVNtemwwaU5xZU1qTXhGYTk3U0ROSXp0cDBEODBtM3NLSC1PQnBQOW02Y25hVU1rZS1lQ0RrNUxxel9oRWI3dFpsM2hFNmVFSF9tSlhYSXBMSFU4QjVmQUhXXzNiZU51Y2x2YzdCTXhnZGRmRWJ3cEpUWFlBQnU5dkh4aUMtcFNzVzYzSEtkZ3hHZE1NS2hQMFB3TXVtRDJ2Tm9RVERwNVFYRTJyaHFnUjFFZm80dVQxb29Wem1yTFB6elAwNlBiM0NqZDFzdDh2R0tDOGlINzRudEZKLTNGQXRENmxRNnFpSGx4UmpaNTlOWHZR?oc=5",
+            "date": "2026-07-22T07:00:00.000Z"
+          },
+          {
+            "title": "Lula reajusta valor da merenda escolar e GDF recebe R$ 61,4 milhões em 2023",
+            "source": "Sinpro-DF",
+            "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNERydjFMMFExN3dJU25wbmxEOWtsaFdqNDAzLWZOZ0tNNDE5ZFVNTG8zZXJGS0h1MVNobU9ndVpmRzBzQWIwTG1uc241VllLTlQ3Z1ZBVWNNYkhMQ21RTTNsSDJYa0wwbnJ3eTRKRFAwSVBnU1hPd0QtYlA5dXJ2dldKdUMxdGIxYTVjS3hGR3dPcjRiTm9VMy1ueUxvSGtUc2RTdA?oc=5",
+            "date": "2023-04-03T07:00:00.000Z"
+          },
+          {
+            "title": "Governo Federal reajusta repasse da merenda escolar em 14,3% para 2026",
+            "source": "Agência Brasil",
+            "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPT3JjNmdoR09tWW9nbkdCODVwQlZ4YWxJRUJxT21zcHdsekFteHdqV2ZCX3BpWHhweWc3SVY0UjNQOVJOTUdxY2xmNzJCckdsUHNsVE9zbGQyY3U0M1pQYUpfSGoyaVFva2ZOaDM0MmdxQkxCcW1rTFFrbmx0U1B6ejhvaEZvRFF3OG1lUlh0TENzVWNzc0NRQ042UEN6dHlLS3hKSTBoZzh0dV8yVFNTdnExcUVhM0pPOUliejRBa2l0MVpj?oc=5",
+            "date": "2026-02-10T08:00:00.000Z"
+          },
+          {
+            "title": "Merenda escolar e recursos para universidades são as prioridades de Lula na educação - CUT",
+            "source": "Central Única dos Trabalhadores",
+            "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWXp5VHEzWXhxYk8yZ0dXX19PejZWakZkY3hqUEFENUFXdU1TdXVEc1ZJVVpLSUxZdzlYMHFiV3FDdkEydDd6QUNkZ2hxakdPZmxsTHQxcXhEQm1mZTc0OUsxSnZFcGxydkxXU0lfNG9NQlktWldXV0R4ck1XVHJuZXFZaEV2bW1Kczk5VDVIenNWdG0yNW1IUEE5VDhoNUR6X0RzV243dGdCV2d6UmlRN3VuOVdySWZW?oc=5",
+            "date": "2022-11-09T08:00:00.000Z"
+          },
+          {
+            "title": "Aumento no investimento em merenda é fundamental para combater a fome e melhorar o aprendizado",
+            "source": "Sintep-MT",
+            "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOb2JuaUpjcWpWbk5BQldzMkhGLUZqQVJ6eThoY2s2cGlkWmZtQWJDdzIwZzRjWW1LQUZ1THZOekRYYl81eHJLNzJ2T2ZURmxZVWtreW5FOGMtUDlhRThJeDhKYWZ4X0FtQ3NWTC05YVFFcFRWWk1UQi13cDI5Ti1rQWRXVktvdmNVYUx1cjNSU2FKTTRLdWV6bnBucTNXZ01oaUtjTUkxaUtKdmJjeDRQdjM4WkZVc0xfZnJNd05yanRoRV9xa2ljWHQ2R0RYV2M3b3dydFJjNi1YLUV6Q3FTZ2NyVDhxc0xnbUE?oc=5",
+            "date": "2023-03-21T07:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "title": "Ampliação do acesso ao ensino superior",
+        "theme": "educacao",
+        "status": "cumpriu",
+        "description": "Lula prometeu um aumento no número de vagas em universidades e o fortalecimento de ações, como o Exame Nacional do Ensino Médio (Enem) e o Fundo de Financiamento Estudantil (Fies). Conforme dados do Censo da Educação Superior, realizado pelo governo, o número de matrículas em instituições de ensino superior passou de 9,4 milhões, em 2022, para 10,2 milhões, em 2024 – elevação de cerca de 8%. O MEC também disse que o número de contratos do Fies subiu de 14,3 mil, em 2021, para 28,1 mil, em 2025.",
+        "updates": [
+          {
+            "title": "De escolas a tempo integral a 'homeschooling': as propostas dos presidenciáveis para a educação",
+            "source": "JOTA Info",
+            "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNdzNEUDVWcjhTUTVrczJWa2NrUWlwUHNDRUI2bERnQUljeWxpeXNqcEFGb3BGNGluMzJSZlpETUh6ZjNGN1dVT2IwZkxGQ21BbHRJZ0pYS2VuaERsTWtXMTBKZHU1WkZCbjJoSTA5U240RmlJQ2JLdGlLS1hfZUg5MkFJTVZJUGxOTzJUc3c5a2tFX0RGbmVXdnhMS3RfRmNhT2NXUjJJaXpXMXRjY25sVWh6Y0FnaTc4RV9DS1JWT1Fad0xBWDRQX1UwQjNmUUpNZEtv?oc=5",
+            "date": "2026-10-02T07:00:00.000Z"
+          },
+          {
+            "title": "Lula defende acesso dos mais pobres à universidade e promete ampliar empregos de qualidade",
+            "source": "Tribuna do Sertão",
+            "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNRjVQbVlFT0swSjhzM1l3a0VUU1U0WG90WVNfbV9IREo4Uzc5VFE4OXRlUlRGRGpWOEJ3aXM2bUlZUnVGb2xWbFdsdUl0c0lSU1ZYRXQ1SVkzU1dvbjkxVjFBTEd3bmF1QnJKaWhhZkx2cGY1YTRjajJ5eU9qZ2tqazlLWjZIVDBJUlFpWkVka284MXM0eWZKVFNVcUVlX2R1ZFFOLU1tQVRwMkIzV2J0R2N2LWd3SmRFNzl5SHZkeGw5dkxYaHpmZ3I3S2prM1NLX1FmZ09KaTVLU244V2xrQVYtd3oxY2s?oc=5",
+            "date": "2026-09-25T07:00:00.000Z"
+          },
+          {
+            "title": "Promessas de Lula: governo aprovou reforma tributária e isenção do IR, e não recriou Ministério da Segurança",
+            "source": "G1",
+            "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNZVlnb2pmY2VxMVByREtmakh5aTUxd0ZxU01tbXR5dHN6TXlSTlNXLWQxN1FxYS03R3h2NWdpdUVUYkt0UWVRdFduamY0RlNsWS1HbGVxSGl3X3VSYmdPcTVGaEdva0hCY2wwSy1PUjlZb3ZzNmNfQzcta0Z0YWdjbGhHN204T0s4TUs0WTdJTXVkN1dNTHdBc200Szc4YnJXY3JZUTNhWHFrd2pXT1V0c3JyeFQ3MS0zWTNuOFlkVFMtVG5lRXR6MkFjQ3B5bmlSajFUUjRMdWxWRnJuNEZJVUxMZTNxR2RmNl80VHRCWlI3eUXSAYICQVVfeXFMTm8xeTFNbmZsSlBaeGw2UVNtemwwaU5xZU1qTXhGYTk3U0ROSXp0cDBEODBtM3NLSC1PQnBQOW02Y25hVU1rZS1lQ0RrNUxxel9oRWI3dFpsM2hFNmVFSF9tSlhYSXBMSFU4QjVmQUhXXzNiZU51Y2x2YzdCTXhnZGRmRWJ3cEpUWFlBQnU5dkh4aUMtcFNzVzYzSEtkZ3hHZE1NS2hQMFB3TXVtRDJ2Tm9RVERwNVFYRTJyaHFnUjFFZm80dVQxb29Wem1yTFB6elAwNlBiM0NqZDFzdDh2R0tDOGlINzRudEZKLTNGQXRENmxRNnFpSGx4UmpaNTlOWHZR?oc=5",
+            "date": "2026-07-22T07:00:00.000Z"
+          },
+          {
+            "title": "Educação: o que Lula propõe em plano de governo",
+            "source": "SBT News",
+            "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOWUV6ekdKV2xubV90SnRZT2NWY0JlTnBjb0F2YXByV3l1bm4tSGVYSnI3UEtmbHNZek9KcW56MXI5Q2NkUFFHbXBLQ2M5cDFCQS0xS2U1WHpsTG9CdnoxVWI2Nm1YaGFOZ1pYSWRuSTJ4XzNkX2xvLUw4ZU1QeTQ3VE8wVFhFMGhjRmVCUVA2WWJDRXlI?oc=5",
+            "date": "2026-09-03T07:00:00.000Z"
+          },
+          {
+            "title": "Conheça as 13 diretrizes do programa de governo de Lula – Diretriz 4: Garantir o Direito à Educação",
+            "source": "TVT News",
+            "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOZl9fZUh3dUE1MHUzbWIzYm5EQXhPVWlEUEtZUmtDZzFVVDB4ek4xR05fMWNLMi1ERm50MHE3aXNQZmxaOUJHRnQ1NDFsU1hDcWhNTTE4NTlFaHVra0FvTXEydTFzUFJjbndaQV9MTlJtNkdHSjhEZVpqaVVOVU9tMnFwU2xaOGxJYUMwRGxtQk8?oc=5",
+            "date": "2026-08-11T07:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "title": "Recuperação da aprendizagem no pós-pandemia",
+        "theme": "educacao",
+        "status": "em_parte",
+        "description": "O plano de governo de Lula previa a criação de um programa de recuperação da aprendizagem no período pós-Covid-19. O objetivo seria apoiar estados e municípios na recomposição do ensino que foi impactado pelas restrições da pandemia. Em 2025, terceiro ano do mandato atual, o governo criou o Pacto Nacional da Recomposição das Aprendizagens, com apoio técnico, materiais didáticos e orientações às redes de ensino estaduais e municipais. O programa, portanto, foi instituído, mas o governo não forneceu dados que permitam aferir se os estados e municípios colocaram as medidas em prática.",
+        "updates": [
+          {
+            "title": "Promessas de Lula: governo aprovou reforma tributária e isenção do IR, e não recriou Ministério da Segurança",
+            "source": "G1",
+            "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNZVlnb2pmY2VxMVByREtmakh5aTUxd0ZxU01tbXR5dHN6TXlSTlNXLWQxN1FxYS03R3h2NWdpdUVUYkt0UWVRdFduamY0RlNsWS1HbGVxSGl3X3VSYmdPcTVGaEdva0hCY2wwSy1PUjlZb3ZzNmNfQzcta0Z0YWdjbGhHN204T0s4TUs0WTdJTXVkN1dNTHdBc200Szc4YnJXY3JZUTNhWHFrd2pXT1V0c3JyeFQ3MS0zWTNuOFlkVFMtVG5lRXR6MkFjQ3B5bmlSajFUUjRMdWxWRnJuNEZJVUxMZTNxR2RmNl80VHRCWlI3eUXSAYICQVVfeXFMTm8xeTFNbmZsSlBaeGw2UVNtemwwaU5xZU1qTXhGYTk3U0ROSXp0cDBEODBtM3NLSC1PQnBQOW02Y25hVU1rZS1lQ0RrNUxxel9oRWI3dFpsM2hFNmVFSF9tSlhYSXBMSFU4QjVmQUhXXzNiZU51Y2x2YzdCTXhnZGRmRWJ3cEpUWFlBQnU5dkh4aUMtcFNzVzYzSEtkZ3hHZE1NS2hQMFB3TXVtRDJ2Tm9RVERwNVFYRTJyaHFnUjFFZm80dVQxb29Wem1yTFB6elAwNlBiM0NqZDFzdDh2R0tDOGlINzRudEZKLTNGQXRENmxRNnFpSGx4UmpaNTlOWHZR?oc=5",
+            "date": "2026-07-22T07:00:00.000Z"
+          },
+          {
+            "title": "Lula já cumpriu mais de 80% das promessas feitas em 2022",
+            "source": "Vermelho",
+            "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQclVSbWk4d0dXR1NxaFJPSDloUXBSQnFmVm93V0dCM0IwSGpjZUZQbnFxX2tvRU83em95cjR1dW5JYXY1Zm9PRXVJdnh4OUVLbkdZWnd4ek5mX2lXNDYxOFlhMFVpaExSNkR2OEJOa0l5OUEwSkFEeXF0QWx4bEJvQnJjQ25Hb0xjcllZR3g0TmlhU1E?oc=5",
+            "date": "2026-08-04T07:00:00.000Z"
+          },
+          {
+            "title": "10 medidas emergenciais para educação que Lula deve adotar no início do mandato",
+            "source": "BBC",
+            "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1zSjh4MV9rMGQzQ053a05SdTZEV1lPNXhyejN6NUxFUDk3bGZXQ3UtVFBnek5rQnRaLVRjWURUXy1Vb2o4QjZDUHVHSzRWQTNicTRxQ2s2ZUhSd9IBX0FVX3lxTFB4cFBoeEJ4QUR4bXZhaHF1c2c5QXd5M1BhQVk2NEhxVV9NOE16OThEenJqXzVDb2EtTWZWckdlZDNwUjJrZ1VDTWZXcGV6ZmdvTWFUR0g0MjNWRmVEUU0w?oc=5",
+            "date": "2022-12-28T08:00:00.000Z"
+          },
+          {
+            "title": "“Revogaço”: Presidente Lula inicia o resgate da educação pública",
+            "source": "Sinpro-DF",
+            "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNSlhyZlc1M21PbDNGZmJfRE83aWNCTFVQRXpSa2FHMm00VjE2MjBPWjJTSkdGM2l3VVZFU3hDQklILURjWHd0cHY2emV5NVV5MHV3bnFTSHpraFhzcTdGQnQwRjk2eHljQ0gwaUVqRzRnU1ZyWTdxUHFTV2hlbUp0SndkR0hmVjI0RW5DUXpNYjNfM1hR?oc=5",
+            "date": "2023-01-04T08:00:00.000Z"
+          },
+          {
+            "title": "Programa busca garantir recomposição de aprendizagens em contextos de crise",
+            "source": "Nova Escola",
+            "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9jZnd4SUxZZDJjT0VJOE1vQ0JuZ3NsTXJHNXNURk9TbURzN2J1cUlnZkF2UDJRenNxdkJSX1RLeU9jQkJrVUEyWTBLSTdyWmhFVERIWEtzUnBseXdQYmllMDB1NkJ6cTFIVWJhaWZqTmhpa3lxcHdJLUNndGFudw?oc=5",
+            "date": "2025-09-15T07:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "title": "Universalização da banda larga em escolas",
+        "theme": "educacao",
+        "status": "nao_cumpriu",
+        "description": "Lula prometeu disponibilizar internet banda larga em todas as escolas públicas do país. A universalização prometida, contudo, não foi entregue, apesar de avanços em todas as regiões quando se compara 2026 com 2023, especialmente na Região Norte, na zona rural e nas áreas indígenas. Segundo dados do MEC, em abril de 2026, o percentual de escolas públicas com conectividade adequada para fins pedagógicos estava em 72,9%, o que representa 100.720 unidades em um universo de 138.161 estabelecimentos de ensino. Em 2023, o percentual era de 45,4%.",
+        "updates": [
+          {
+            "title": "Promessas de Lula: governo aprovou reforma tributária e isenção do IR, e não recriou Ministério da Segurança",
+            "source": "G1",
+            "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNZVlnb2pmY2VxMVByREtmakh5aTUxd0ZxU01tbXR5dHN6TXlSTlNXLWQxN1FxYS03R3h2NWdpdUVUYkt0UWVRdFduamY0RlNsWS1HbGVxSGl3X3VSYmdPcTVGaEdva0hCY2wwSy1PUjlZb3ZzNmNfQzcta0Z0YWdjbGhHN204T0s4TUs0WTdJTXVkN1dNTHdBc200Szc4YnJXY3JZUTNhWHFrd2pXT1V0c3JyeFQ3MS0zWTNuOFlkVFMtVG5lRXR6MkFjQ3B5bmlSajFUUjRMdWxWRnJuNEZJVUxMZTNxR2RmNl80VHRCWlI3eUXSAYICQVVfeXFMTm8xeTFNbmZsSlBaeGw2UVNtemwwaU5xZU1qTXhGYTk3U0ROSXp0cDBEODBtM3NLSC1PQnBQOW02Y25hVU1rZS1lQ0RrNUxxel9oRWI3dFpsM2hFNmVFSF9tSlhYSXBMSFU4QjVmQUhXXzNiZU51Y2x2YzdCTXhnZGRmRWJ3cEpUWFlBQnU5dkh4aUMtcFNzVzYzSEtkZ3hHZE1NS2hQMFB3TXVtRDJ2Tm9RVERwNVFYRTJyaHFnUjFFZm80dVQxb29Wem1yTFB6elAwNlBiM0NqZDFzdDh2R0tDOGlINzRudEZKLTNGQXRENmxRNnFpSGx4UmpaNTlOWHZR?oc=5",
+            "date": "2026-07-22T07:00:00.000Z"
+          },
+          {
+            "title": "Lula já cumpriu mais de 80% das promessas feitas em 2022",
+            "source": "Vermelho",
+            "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQclVSbWk4d0dXR1NxaFJPSDloUXBSQnFmVm93V0dCM0IwSGpjZUZQbnFxX2tvRU83em95cjR1dW5JYXY1Zm9PRXVJdnh4OUVLbkdZWnd4ek5mX2lXNDYxOFlhMFVpaExSNkR2OEJOa0l5OUEwSkFEeXF0QWx4bEJvQnJjQ25Hb0xjcllZR3g0TmlhU1E?oc=5",
+            "date": "2026-08-04T07:00:00.000Z"
+          },
+          {
+            "title": "Governo diz que 100 mil escolas públicas já têm internet adequada",
+            "source": "Poder360",
+            "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSXJNWngzTEVHZWMxemNnQy1rRmVqS3c4TWJGaEs0b3RqcU9ueFVJdmY4UTg5QzdmVk5vMzV6NkQtQTFoQ25XWUkyN3hrZFFDajFtUHhzcmFqbW5rRmM2NVd4bldUQTNsa0RkNXRUMGlLanNQUEM0SGtCelJETDYtU1FJVXdUeV9sWmY1ek9xYl9pekV6Vk1hRkxmM0JkTFVEMUNGaGdvYjhGMUtn?oc=5",
+            "date": "2026-05-22T07:00:00.000Z"
+          },
+          {
+            "title": "A pedido de Lula, GT de comunicação prepara programa de conexão por banda larga mais barata",
+            "source": "Sul 21",
+            "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPREdrRGY0RTFRTHlQZmc1d1pFR3RzRGh1dlJZMy1vbERWV3VuLWNFeGJjZEpEdnB0WVdrbVVjR3VuOFJBTzNEY3NYaHIxb1JxZllLQktRbzA1MDlLaHZUZ0dfSGxyM1JOc3ItNTNRMVdqVS16elJpck5iWE9TWUxOSFVKdkRQaFoyTUNMVUZWTmQ5d3RBcUNoaHRhcl9xYkRyX3k5SnV1MmVVRXRBcVRyamNKc0R6Sm8zbEo4NFZtUFdPVzl5MVpNSjhuM2lST0tvSHpKQQ?oc=5",
+            "date": "2022-12-11T08:00:00.000Z"
+          },
+          {
+            "title": "Lula diz que é preciso melhorar salários de professores",
+            "source": "Folha PE",
+            "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNY1FRc2ZGNzhGQzFvdzNYMnlqbUdfUUpONUZuVDZfX2JNc2RfUXlXSzBVTmU4TEVVa29ROFVPVWdoWEhyWUhuR0FqWWczWkV4b3FZaUdUM0lEY0FSeFVTNkRMQjFZWGMwUjBTXzRuUVlrNzdIVjMwTDU1Um4wV0JQb0hHeFMyM0gtd1Y3RTNmcFZNS1FPak9SY0o1MlNMd2c40gGkAUFVX3lxTE56aFV2XzNJOEUweU5pSGJwMHJYcWZ6ZkR5RW1BTmktLWVQMGxVamhLUjEzOHZ2VnZzMEZULU9kSGVUODVISTZjeDI2dHl5WE5ZZXotbWsyNTl1bWRXam1hOFR6LUFxN09uQmtoRDFMSUpiUFF1Zk13WGZDLVV5UFAwUUxWQlJ4YjVzVTk1cUdtRXNxTWdYQ3IyZjNOX0xFMFNreWxH?oc=5",
+            "date": "2022-10-27T07:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "title": "Ampliar o Farmácia Popular",
+        "theme": "saude",
+        "status": "cumpriu",
+        "description": "O petista prometeu durante a campanha fortalecer e ampliar o alcance do programa Farmácia Popular para dar maior capilaridade e gratuidade de itens essenciais à população. Segundo o governo, o programa atinge hoje 27 milhões de pessoas, alta de 32% sobre 2022. São 41 medicamentos e produtos — incluindo absorventes e fraldas geriátricas — distribuídos gratuitamente. Dados do Orçamento mostra, que a verba destinada ao programa passou de R$ 2,6 bilhões em 2023 para cerca de R$ 6 bilhões em 2026.",
+        "updates": [
+          {
+            "title": "Flávio Bolsonaro diz que vai manter programas sociais criados por Lula",
+            "source": "G1",
+            "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPT1Y4d0ZpeWF0UkVoRDVPM0tvajNsamFXQ3dOSDRNSjA5dlNRdVJ4emRqM3ZXQzNQNXJ5WWhDQ0htcURlVEpXTnpNRnJUd3dkN2xYY2pmdkFWYjNsS05PU3NHbjd4dzNBeVN3MVFuZmVjZTB5T3o4bk5TcUVRdnFiYUtMRDZUbHYtblFUelFQc0RoS3RPcEN0dUtZcHFxc2o2YkhLV2dpZ2J5OWJNbDZ0eFJGTkFlOWloWm41QlVFS1lRZEhwYWRhckZrOWtWdm9TQzB0QU1MVGNjTUlKclBTTHVR0gHwAUFVX3lxTE90MlN2NDMxYjNnMzJnMk05WlJwaTJTMHdJckNVYzg4WUlXcS1oVi1ubXpySHF0cFBiM0NjSmIwSTBneFQ0ZFVQWXZnSFdyTU1wQWV3Xy1XQ1FSbm5JZ2lvdFNYZ0hXdGlEdi1UN1Q0aldwV2Q3TnV0ZHgzekN2dHUtaDhISURNTjdwUmwxcEVhTzhxa2ZsUFhHRGpud1hRS183UlB1dTVwLVZBVTZjTGNyTlU5SnJOR0F2bXhRaHVYdDZfenBvVHZzSkN1Um9DRlJLLV9xLXVxT192LU9nbnJDNTdFT0hXOFR4RDN3MDlyag?oc=5",
+            "date": "2026-10-09T17:06:05.000Z"
+          },
+          {
+            "title": "Lula e Flávio apresentam propostas para ampliar atendimento pelo SUS",
+            "source": "Dhoje Interior",
+            "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSVEwdDNIV1JpSi04eFlndlIyN1QzZGFiQ0FzRUZBZ1ZKX1BCSFpfTDg5Qi1CNkt2N01XcVZhSkd2bUNsbW9CWDI2cjc5UHdKVFA1WjJ0X1RrbHUwaUJETGtrUmgzOGFnQ2NoVEhZOS1rZ01mOXhhaHBvbEZvNDBPYVd3U0U0ZGJ3T0FPOVJpUnlKdU85Z0ZaX09adFVQaDRUVmRQMHlzQ24yc2k4?oc=5",
+            "date": "2026-10-13T16:38:00.000Z"
+          },
+          {
+            "title": "Lula decide apresentar suas propostas no Flow; os demais candidatos debatem na TV",
+            "source": "Sinpro-DF",
+            "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOcEh5VWJqQlZ4dGVESXRxVW5LZ0F6Y05RS29aQ0d0cFVNZ2Q1R2k2Ni14YllmSlVYUlR5cmQwQU0zN1FFTDRhZmNqMDhhTHlXNlhDeG1Ub0JrS1J1Qk9vSEtxVXNFZGppamNKcTBkZS1tVHV5cUE1N1p4OW0zTld5SVRId2ZtQzN2WF9YUmNpRWpLUVRvdWJNc2preHVGcENNQjZHUXBRaGh6NmN4dkE?oc=5",
+            "date": "2026-10-01T07:00:00.000Z"
+          },
+          {
+            "title": "Vice de Flávio Bolsonaro promete manter Bolsa Família e Farmácia Popular e acusa PT de espalhar fake news",
+            "source": "Portal 98 FM Natal",
+            "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQeFNBZW9vZzlBZG1pNTdZckRPNFBZd2tuV0MzekdQMWxOZ1c5WklyT3BsZUlpRWVtYXoxNVJfZGFuNzZmdmFqY0NCdmVEV0N4d1dnWklmYjlPUEtMNWp1LXVDa3RBdWE1ZVlVRGlBNGhxc3VPcHZiVzFYMkdYWWhHVGsyS0VnRHZSUG04dy1FY2xBZkJianNKV3N2Wko?oc=5",
+            "date": "2026-10-08T14:14:00.000Z"
+          },
+          {
+            "title": "Carretas da saúde chegam a 1 milhão de procedimentos e reduzem filas no SUS",
+            "source": "Partido dos Trabalhadores",
+            "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQUEZOTlVuM3FUd2dCYUY5Sy1VWmhxenZweWllSG1LVW55S19xQ2doZHZvcnN4V2NjMWY1Y2duSXFfOXRiUmhSNEtpUGZPMGZYbGZsY190dTZzSmF0Rm9tamJ4aWEyTnBEUUp0dHh4VWhWcGZuLWgwSnM1MEdJSlFPcVFScWxJU0ZQTnhSb1ZQMnBicnk0Zko0NG5ITTZVMlE1bHIzWEdpRHl3QdIBqgFBVV95cUxQUEZOTlVuM3FUd2dCYUY5Sy1VWmhxenZweWllSG1LVW55S19xQ2doZHZvcnN4V2NjMWY1Y2duSXFfOXRiUmhSNEtpUGZPMGZYbGZsY190dTZzSmF0Rm9tamJ4aWEyTnBEUUp0dHh4VWhWcGZuLWgwSnM1MEdJSlFPcVFScWxJU0ZQTnhSb1ZQMnBicnk0Zko0NG5ITTZVMlE1bHIzWEdpRHl3QQ?oc=5",
+            "date": "2026-09-23T07:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "title": "Retomar o Mais Médicos",
+        "theme": "saude",
+        "status": "cumpriu",
+        "description": "Na campanha de 2022, o presidente prometeu retomar o Mais Médicos e fortalecer a atuação de profissionais na rede pública. O programa foi relançado em 2023 com a meta de subir de 13 mil para 28 mil profissionais de saúde. Segundo o governo, conta hoje com 28.390 vagas ativas em 4.556 municípios. O número de médicos participantes subiu de 13.716 em 2022 para 27.329 em 2025.",
+        "updates": [
+          {
+            "title": "O que importa não é saber a nacionalidade do médico e sim a do paciente, diz Lula em retomada do \"Mais Médicos\"",
+            "source": "CNN Brasil",
+            "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPV2tZbkUzMGVLc3pEZ2c4U2h3QXhPWS11ZmdOVlVkUHRqWW1xbVY1c3M5Q1FnUzVoT2JKZWZvYS1OWHpYMWNtREV6d2YyeVQ2WDk4eTV1M2dRYm0yUnQ4TFRMUjU0R0RsTnZ6Rk1UeUJFT0JJUkdzTEppazF5U05QTW9ZeTJqV3VmTHVkcjRjbnNoWkRKQUUtUl9rdHR2V3VmMFFTUk42S3FqLWZ4b3pMZGhEMGJNME1McU0wME9sVXFQQkdFWkVpMldONGNCTUloUEc1a3RUY3F1Q0lDLWNrVw?oc=5",
+            "date": "2023-03-20T07:00:00.000Z"
+          },
+          {
+            "title": "Governo Federal anuncia a retomada do Programa Mais Médicos",
+            "source": "Conselho Nacional de Secretários de Saúde | Conass",
+            "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNLUtOYkFIUk1OMG1LRDJOc05kUFZ3c1pKZktmM2lfM2N0OUZSak92NmlEREdnUnp4NXdFS0FZYlNhZHBsdFdvUDRFT09YQkFkYkN1ZDZnamNPU2VLb3BNLUwwOWhZeHFONUwweFVrQ2VtR0RsNExTVTZ1cHR0QU9MWnI0b0NJTXdCd0owUlgwOA?oc=5",
+            "date": "2023-03-20T07:00:00.000Z"
+          },
+          {
+            "title": "Lula e PT planejam retomada do Mais Médicos, programa que trouxe cubanos ao Brasil",
+            "source": "Gazeta do Povo",
+            "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPTHpmekhMb3ZpNlZsQUpVY0hTT3VxcF92eWJlbEM5SGRXalp6NDZfbW16Nk5CUkE5YlJ2VEFNeGNXR2VRZzJWRWhtalRta3A2ZVJKclhHejNlMm1RQm9MZDZjUFRUT25jX3Ywa2xCR0hRc0dnY2dwNGE2dmozOW5EUjdlb3AwWjRQVFZDM3pBS1dCU1kzZlJMQTR6bVNQU01kSmVwLXNqMGg0RmxyQVVXbWpPUkp4YUtRRVh1UV82VzN5d29MNWVR?oc=5",
+            "date": "2022-06-17T07:00:00.000Z"
+          },
+          {
+            "title": "Mais Médicos: nova cara do programa não agrada categoria",
+            "source": "O GLOBO",
+            "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVVVWRnRYa0dtMFZ5RGRQQ1FVT1RiczlldUVxaHJ5YUtxOFc1Um5QSnBVc1JYVEh5dm5RX1VJdjV1dlFLMUhSVU9MVGtuM3doXzNHUlg3TVJLUG5fbHV6X2Y5UldKemhmaGNsUTQ4aG9pYnh0VFg5SFVrc1JzcE9CN084N19zNjVDcTlURTNkSkNRRGRINFVUTEdpdUFPNU9VVkUyQk5EYXRTcFFF0gG7AUFVX3lxTFBaQkdHbmcxSG8xcnlfZG1hUHQ1b2stdEk1RXNxS0Q0U3VVRjR5MzRnV1FpWmxlN0ZQb1IwdzlFa1paNjU1bUxZRkEycnBTYlhCM0tsNlNNZk5URE02VUJ4MVFKR28zRUg3dTNhdGY1R1RXbkEwdmhWZ0tyY1pZNjQxQWc4dm5qb2l3dVVUbzZMSWU5bnRweDJ0NEdUaFpXLWY0bUN6UHJwcll6MnV5bU85Q241VXJISUJzcWc?oc=5",
+            "date": "2023-01-23T08:00:00.000Z"
+          },
+          {
+            "title": "A volta do Programa Mais Médicos e o desafio do fortalecimento do SUS",
+            "source": "Brasil de Fato",
+            "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOVWJyc2czQkxBV3RqVHBFMTlsYnMzV3FpX1lnZWJGNmxpd2xkbERPdVVPQXU3dENJc0xmUDc4dW56ckRKbWVTS0dtT21tSmxiVzV4eGJyLWQ3VXlGZjd1ZUU4NER6dFdrcndCN0lFVHBuZ0FGZVEyRnVwd1FBbWFoSmtwcm0zcXFvbkFzU29USU5iMHZzbGk1Yll1ckhyZDZqelI2U3UxN21KdXdCYlBoRGZlQ19IS0dzeW9kTHViQVppVElpSDNkZkRpWHhqNWFVV2c?oc=5",
+            "date": "2023-07-17T07:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "title": "Zerar filas geradas na pandemia",
+        "theme": "saude",
+        "status": "nao_cumpriu",
+        "description": "Lula prometeu acabar com as filas de consultas, exames e cirurgias acumuladas no Sistema Únido de Saúde (SUS) durante a pandemia da Covid-19. O governo disse ter lançado programas, implementado mutirões e ampliado o atendimento, mas a meta de zerar não foi alcançada. O que diz o governo: O Ministério da Saúde afirma que o programa Agora Tem Especialistas, em 2025, promoveu 14,9 milhões de cirurgias eletivas e mais de um bilhão de consultas e exames. No entanto, a pasta afirma não ter havido a extinção total da fila. O Conselho Nacional de Secretarias Municipais de Saúde afirma, inclusive, que não há como saber o tamanho atual da espera.",
+        "updates": [
+          {
+            "title": "Promessas de Lula: governo aprovou reforma tributária e isenção do IR, e não recriou Ministério da Segurança",
+            "source": "G1",
+            "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNZVlnb2pmY2VxMVByREtmakh5aTUxd0ZxU01tbXR5dHN6TXlSTlNXLWQxN1FxYS03R3h2NWdpdUVUYkt0UWVRdFduamY0RlNsWS1HbGVxSGl3X3VSYmdPcTVGaEdva0hCY2wwSy1PUjlZb3ZzNmNfQzcta0Z0YWdjbGhHN204T0s4TUs0WTdJTXVkN1dNTHdBc200Szc4YnJXY3JZUTNhWHFrd2pXT1V0c3JyeFQ3MS0zWTNuOFlkVFMtVG5lRXR6MkFjQ3B5bmlSajFUUjRMdWxWRnJuNEZJVUxMZTNxR2RmNl80VHRCWlI3eUXSAYICQVVfeXFMTm8xeTFNbmZsSlBaeGw2UVNtemwwaU5xZU1qTXhGYTk3U0ROSXp0cDBEODBtM3NLSC1PQnBQOW02Y25hVU1rZS1lQ0RrNUxxel9oRWI3dFpsM2hFNmVFSF9tSlhYSXBMSFU4QjVmQUhXXzNiZU51Y2x2YzdCTXhnZGRmRWJ3cEpUWFlBQnU5dkh4aUMtcFNzVzYzSEtkZ3hHZE1NS2hQMFB3TXVtRDJ2Tm9RVERwNVFYRTJyaHFnUjFFZm80dVQxb29Wem1yTFB6elAwNlBiM0NqZDFzdDh2R0tDOGlINzRudEZKLTNGQXRENmxRNnFpSGx4UmpaNTlOWHZR?oc=5",
+            "date": "2026-07-22T07:00:00.000Z"
+          },
+          {
+            "title": "Lula é oficializado candidato à reeleição hoje em convenção do PT ainda sem cumprir promessas de mandatos passados",
+            "source": "Terra",
+            "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxPUUtRTTM5Xzh5YlpzZkVwVXNNSlZPVTBRSHF1N1lwcTdkMVVnT3kwRkJ5QU9LbFJwazdjcVoyYzNvQ3poS3BtVTM4Ym0tWTdEUjBLa1JINERlYnc4TE1HeWZFVFREaG1rdUtlQlB6ZGNOMDZwU0ttbVd0a1BYeWZnQmdJeXpicGxYT2VTY1dyMVFBTGZGVElwTl90N1hGZTJJWXJqUFNoUFp3NGpTSUJIQW9WMEVSOHA0ZVpCVjk3MDdNMjFTcjdOWlc4alcySThLWDUzU2l6bzhxSkhEdzR5Q1UyXzhyVXlDLWhyLVpJUV9yZnBYdFpOM1FxdFdGQk50TndYYTZKNXBqTm9QbEQzc05pa2xRbDRRSUJ5b0g3OHJEWXMxR2JUNEp2cw?oc=5",
+            "date": "2026-08-02T07:00:00.000Z"
+          },
+          {
+            "title": "Calorão, público devoto e apelo por Haddad em SP: como foi a abertura da campanha de Lula em berço político",
+            "source": "Terra",
+            "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxONUdjbUh1MEViWElQandfNEJnWlZXdWVyMFdtWC12MGhtN2FPdHAtU2xyR3JPblc0UzFJcm9XNzJQSnFzNTZkRlNtY01kMFI1ZEFwQ3lhczY3VEV0bHN4TkhjZVB4Y2hPbTdLQjJrcld6U3hIck9kamI2UFFiSzc2Tm5ybWtTLS1PcDBpMXhFSGh6TTUwMWJUcmxhV2RKX0V3c2hhRWc2S1l1RU1VTi0tMjhZS1dzZDhuWEFEUDJmbVFnYUxXUzFRT0lSNTV1ejR6UjlFWlNjMUNqRjhPRHJhbnpWcHJGdTJQN21tWG05N2ZuSU9BbVo5MXlCWjEtMTNKcFNMRGJWLWVQX2dZMWJwLVpQZUtGYnZtVkQwbGpuQQ?oc=5",
+            "date": "2026-08-18T07:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "title": "Retomar o Programa Nacional de Segurança Pública com Cidadania (Pronasci)",
+        "theme": "seguranca",
+        "status": "cumpriu",
+        "description": "O petista prometeu a retomada do Programa Nacional de Segurança Pública com Cidadania, o Pronasci, para investir na formação e profissionalização de policiais e no apoio à segurança pública. O programa foi retomado com 10 projetos voltados à prevenção de crimes e cidadania. Segundo o governo, 25 estados, o Distrito Federal e 497 municípios estão habilitados. Além disso, foram pagas 185.466 bolsas a agentes de segurança entre 2023 e 2025. O investimento nesse ponto, afirma o Ministério da Justiça, foi de R$ 166,9 milhões.",
+        "updates": [
+          {
+            "title": "Promessas de Lula: governo aprovou reforma tributária e isenção do IR, e não recriou Ministério da Segurança",
+            "source": "G1",
+            "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNZVlnb2pmY2VxMVByREtmakh5aTUxd0ZxU01tbXR5dHN6TXlSTlNXLWQxN1FxYS03R3h2NWdpdUVUYkt0UWVRdFduamY0RlNsWS1HbGVxSGl3X3VSYmdPcTVGaEdva0hCY2wwSy1PUjlZb3ZzNmNfQzcta0Z0YWdjbGhHN204T0s4TUs0WTdJTXVkN1dNTHdBc200Szc4YnJXY3JZUTNhWHFrd2pXT1V0c3JyeFQ3MS0zWTNuOFlkVFMtVG5lRXR6MkFjQ3B5bmlSajFUUjRMdWxWRnJuNEZJVUxMZTNxR2RmNl80VHRCWlI3eUXSAYICQVVfeXFMTm8xeTFNbmZsSlBaeGw2UVNtemwwaU5xZU1qTXhGYTk3U0ROSXp0cDBEODBtM3NLSC1PQnBQOW02Y25hVU1rZS1lQ0RrNUxxel9oRWI3dFpsM2hFNmVFSF9tSlhYSXBMSFU4QjVmQUhXXzNiZU51Y2x2YzdCTXhnZGRmRWJ3cEpUWFlBQnU5dkh4aUMtcFNzVzYzSEtkZ3hHZE1NS2hQMFB3TXVtRDJ2Tm9RVERwNVFYRTJyaHFnUjFFZm80dVQxb29Wem1yTFB6elAwNlBiM0NqZDFzdDh2R0tDOGlINzRudEZKLTNGQXRENmxRNnFpSGx4UmpaNTlOWHZR?oc=5",
+            "date": "2026-07-22T07:00:00.000Z"
+          },
+          {
+            "title": "Oportunidade de ampliar a participação do Estado na vida das comunidades",
+            "source": "Diplomatique",
+            "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZTZ2dE5vOUlKREdCeV91dHlVOUlGcnl5NFk1RkN3SWY3VGdTWUVzWFhZWDNvUW1QbUhxRlltNkdWQ29COGRZcjlWbjlySE1ZeTF6UnhqNDNzcHBNdnBES2JxRUViZjhvYTEydVlLVmp4NVFqc3hzWmtzWHB4SXR0cGJkdzNrLVl2bkZBWlRZRW5LeGdzUUMyYmNvY3p1cGRlc2dv?oc=5",
+            "date": "2023-03-30T07:00:00.000Z"
+          },
+          {
+            "title": "Lula propõe a criação de um Ministério da Segurança Pública",
+            "source": "CNN Brasil",
+            "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxORVRaUkpiRzhfeU44X1JkZHlNbWFsaW1SM1BxUURtTGx0dnRfZzVJazBBS2xDME5jTEdubXk0Q0VWX0VHQXpwNDBGcTdwRDhHdUlOdnltdkJsRW9xQVp1R08wZHptYnN2TVdpZ25KVGl3ZkIxZEVnNW05RUdVMGotYzFET2NWNjBIdXhETFIwLVN6cllLZ2tWMVVGYWJXR2s?oc=5",
+            "date": "2022-08-30T07:00:00.000Z"
+          },
+          {
+            "title": "Metrópoles | Governo Lula começa sem orçamento para principal programa de segurança",
+            "source": "Instituto Sou da Paz",
+            "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOdG9qbk9KMnVKRXNPbVVIUVVMQW1xUUZjX0ZJbXB1aVRKZTB5cnNFZUQ1NXpnd2J4dTdzSG1oakZFbTBGQ3BQbTdCSHVJREtack10a0FMVncyQkt3dUNaZ2I2YzFXM3lQYUl5a1NkZHZBaFMzUWNmY1dzaVNZeUM4YUFsQkh1a2xzeXZENTN1WEhIdjJndXgtdGh4T01ya3g0dlRsN2pn?oc=5",
+            "date": "2023-01-27T08:00:00.000Z"
+          },
+          {
+            "title": "Urgência urgentíssima: segurança pública com cidadania (por Selvino Heck)",
+            "source": "Sul 21",
+            "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNX2dEUTk1TFFXTEJ1aGdQeHJUcFNzQ2lsV0t0a2ZaZmNJMnpLdk1hZjFhVnRPSDFTcXlnNzN4VkJRWmVOMzRhM1RwSW42am1YNnpQZWpZZWYzaGVhcTFRdjZ4bTQ1c2pzWUZMbFNSMlp1azFiVTFmWW5DZzJ6Wkx6VG9QU0wwYVIwbHUyTUtuamRWZEFvYjBvMkRmMTIwdVNTMGFNSmtvVlFHZkFG?oc=5",
+            "date": "2023-08-18T07:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "title": "Revogar decretos de acesso a armas",
+        "theme": "seguranca",
+        "status": "cumpriu",
+        "description": "Em 2022, o então candidato do PT prometeu revogar os decretos assinados pelo ex-presidente Jair Bolsonaro que facilitavam o acesso a armas de fogo. O decreto de Lula suspendeu novos registros e reduziu cotas de armas e munições de uso permitido, além de instituir o recadastramento obrigatório de itens adquiridos desde maio de 2019. A formulação de um novo marco regulatório para o setor ainda não foi entregue pelo grupo de trabalho criado para essa finalidade.",
+        "updates": [
+          {
+            "title": "Lula vai revogar decretos sobre armas de Bolsonaro; acompanhe",
+            "source": "Portal da Câmara dos Deputados",
+            "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOMUZBTTFrNUZydXJ6VzVPVDFYZ1RTeXRGbFdibXhKWGhPaHZkcTQxNWQ3X2o4MDlPcTh1SUxEcTNTOWJlb0hSMHhGVzBGTGZHcHlDR3psTExTX2ZaQTIycnlYUUVKV2E4ZHlMZFo3WUlLOXR0dnRrRlZGOVJLS3p4bWV5ZFZzblNuVjlNRzhzVTdJU1VOMWNGQ0ZyX2FYLTJEaVJwdlJn?oc=5",
+            "date": "2023-01-01T08:00:00.000Z"
+          },
+          {
+            "title": "Governo Lula revoga decretos sobre armas e munições e fixa regras temporárias",
+            "source": "Senado Federal",
+            "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdnduWW9QTS1FbEJIS0RVVzBoNC1vWDZTaVctQUtWeHlURDdBdGxNTnBKQ0hGeXFMbXh3bjNXa0tfd0dLNHhJZWpBVUxaVFRMYUIzUEZuN3JZdzc1OFllbjlYN3Z2cmlKSF83M2ptaVdSclNtcHFYR0RuYVpTdTdLYlhhUWwwM0hOSV9GR1ZIM05SUjhfRE85ZXBGSGlMMVAwc3FyQ2dUZTBvelc2bkVidnMyY0dXbjlvYmFTTDJ3eG9NUlhGNEJ3YQ?oc=5",
+            "date": "2023-01-18T08:00:00.000Z"
+          },
+          {
+            "title": "Lula revoga decretos de Bolsonaro e reduz acesso a armas",
+            "source": "Migalhas",
+            "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPX1NnV3JVUkFrRUl5Q1haZVFPclNtX3Y5ME9McDNUZ1FSMlBKeXJIcThsaEdXcWtIUmI5OFFqUEEtckVXZ0d2VGpkdzNELWEwNUZtdlU2MXNjUFVpMXRGTXRiRk5Sc1c4VmFHUkh5V2ZwZ1pvZVA3OUdWSUllWHZTUFB4OVhWYzcydWNMU3VIelpTak9ZVnNENTdFU0FvSGEt?oc=5",
+            "date": "2023-01-02T08:00:00.000Z"
+          },
+          {
+            "title": "Lula revoga decretos de Bolsonaro sobre armas e munições. Veja o que muda",
+            "source": "JOTA Info",
+            "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbU94eGZjUGI1dWZfeE1uWm1ULUxyZ1M5clpqOGlmM3p5a1ZJWlJnTmhzdFotYlpORFpHaHJOc0VZRHk0UldOMDJCV3NIVEVDYXAxeC01Zk5keWJueW5ZZzEtZmFWU3hSODV6U2ZsbzlPRnozeEdIUnBUaTJOcUhRdkJsQlJJN3cwQll3MGRBMy0zLWpWYmpVbVd1RDJ3cUw5N1VaQlBJbw?oc=5",
+            "date": "2023-01-02T08:00:00.000Z"
+          },
+          {
+            "title": "Lula revoga decretos de Bolsonaro, reduz acesso a armas e prorroga isenção de combustíveis",
+            "source": "CNN Brasil",
+            "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOOTRtODNIVVBSTkJ2N01xN2wxU25uV0Z1cWgzUTlIUXpjdHFqSWNLN1lBVXBzS0N0aEVKaVlRbTRpNTNiMEMyQ3dXN0Z2Y0xPbjVmZjVmQmI5Ym4tR3RXc1VJeEg5T0h3Tk45WWM0Tm40N0lpdVFXaWhLelBDVU5DaEJXZWxYNnpEOHl4RjhtSGVxSkFRNW5Idk9Zbmo2bjdHN3lRY0c2T2RHRHM3Q1VRQkRDeEo2eHlKRGUzQnFjUUw?oc=5",
+            "date": "2023-01-01T08:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "title": "Revogar teto de gastos",
+        "theme": "economia",
+        "status": "cumpriu",
+        "description": "Lula afirmou na campanha que revogaria o teto de gastos e faria uma revisão do regime fiscal brasileiro. Em 2023, primeiro ano do mandato, o arcabouço fiscal substituiu formalmente o teto de gastos, estabelecendo, no entanto, um modelo de controle das despesas públicas considerado mais flexível por alguns economistas. O crescimento de gastos está atrelado ao desempenho da arrecadação. Além disso, o mecanismo trouxe uma banda de tolerância para meta de resultado primário.",
+        "updates": [
+          {
+            "title": "Lula volta a dizer que acabará com teto de gastos caso eleito",
+            "source": "CNN Brasil",
+            "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZjE2ZmhiRVdOQ2hObEZiWDJZb21tLUV3cG9PcjB0bDRwRlJ3QW1MSkRnV0RGcHJtQWFCM3pDU1gzMlJUT3F6dnB6RUluTzZXcFI5RzA1UXdpVkd4NkZhdkhTZUhLRi1zWmpNaUllaVRYOGFRSGx3bXdRMTNSWEEtLXJyZlB3bGFzbG9xaG9tc1NZaEFkQTJQR21kc0w2M0F1cnc?oc=5",
+            "date": "2022-09-26T07:00:00.000Z"
+          },
+          {
+            "title": "Lula defende fim do teto de gastos em postagem no Twitter",
+            "source": "Valor Econômico",
+            "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQNmU5dEItSWtOb1NTMXE2Q2VRdHdHRnoxWHRiZXJSR3pyNnlhZDljQ0ZtakNsWjBLT2xXVldHa2FSZnN3OVJJcnRLUFpvSHZvbk5qblFCdWY2N0ljSkhvNV9GV3NfT3hhX3dvcVlHM3F2S2lnblBFd011NW1FbGNkcm93RVE4dVZvZ2V4V3NoRTFBX1pTU3FuWU9iREN0M1RaZzVHUXVhVndXTmNUaEpnZU1zYTZyQdIBxAFBVV95cUxPWkU5WTI4S1RvSEVqTC0yRUgwZjFzX0FYbHNncWhZUGktVVhxZGtzMEhPbkZfMy1WWUR2NWtObDdTQU4wSHprMnladF9acVZNMy03REc4enFrczh2eXdNRmEyLXc5eW1mNjZINjJHYVdJRk53V1hjWFd6NUtLWnl2NDhKUGRxVXBWdnoxWGppT2FWVDlvTFpZS3Y2X2h2MjliVS1mR0taVXJ2cFRwNDhyNFlsM2EzRmpSMEFiWk5TYkI2WGdY?oc=5",
+            "date": "2021-06-17T07:00:00.000Z"
+          },
+          {
+            "title": "Lula vai revogar decretos sobre armas de Bolsonaro; acompanhe",
+            "source": "Portal da Câmara dos Deputados",
+            "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOMUZBTTFrNUZydXJ6VzVPVDFYZ1RTeXRGbFdibXhKWGhPaHZkcTQxNWQ3X2o4MDlPcTh1SUxEcTNTOWJlb0hSMHhGVzBGTGZHcHlDR3psTExTX2ZaQTIycnlYUUVKV2E4ZHlMZFo3WUlLOXR0dnRrRlZGOVJLS3p4bWV5ZFZzblNuVjlNRzhzVTdJU1VOMWNGQ0ZyX2FYLTJEaVJwdlJn?oc=5",
+            "date": "2023-01-01T08:00:00.000Z"
+          },
+          {
+            "title": "Lula diz que teto de gastos é estupidez e que irá revogá-lo",
+            "source": "Poder360",
+            "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZjRpOW0tRmpZcDZIYi1oMzJPZk1ramloN2FLV0VuZ3lxZTBNbjgydlZEMTQyVVBiZVRud2s2UVhGQVJBY2NZSGtsY24tTFpuWVlrOFQ3Zk5PZGtMUkxaT3ZONVowNTBhZDRxM2VFVHozMHZnYllIRi1uMjRvbm9ScHV5aTFtMjZMd1A5OGpKdzFTWTNaQnowdkMySlo?oc=5",
+            "date": "2023-01-01T08:00:00.000Z"
+          },
+          {
+            "title": "Revogar teto de gastos é essencial para Lula e democracia",
+            "source": "Folha de S.Paulo",
+            "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNTdEV0w4MDFlMmViLUVBMUZUdVczbnBhanBBblpGNFpGSGZuRTB2TEVXSWRvLXBDcXdsNW11aEZuXzloQnNiTDJBYUc4MkJub0NQdDB1ZlpJMURtLTYxUjVKWlBTX3F1Y0Rkbmp2SjJrZW0yZm5NX0FjUzBfeUFHVGZ5UW9GdVFLaDRvOU9nV1F4b0hsbXI2WU9yc3dXLWFKMTEwR29sakdhci1xYzhnOW8xeGnSAboBQVVfeXFMUFQ1NXFPaFBJaWRFNG40b05zX0N6TU12bGhfeVA1ZWZOUTNQdU95YkFjUEpPNDVaVHlhSDRlMm5sLWhMZDRRR3FmUnhBX2ZpcGdLTU9pZDZCSHNWUVBGbll0UTQyeGFwb0pZSXBUcDNsNmVTYV9NU3Q5UTMwT3U1QWx0cGVQTlAtMmljY090WjFfWDN2N2FpVmRyVmJLWVNnUG4yTF9Hc0VoSW9oLVJOMW5vX1JLZW5mZkVR?oc=5",
+            "date": "2022-06-14T07:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "title": "Realizar uma reforma tributária",
+        "theme": "economia",
+        "status": "cumpriu",
+        "description": "Lula prometeu fazer uma reforma tributária que fosse solidária, justa e sustentável para simplificar tributos e garantir que os mais pobres paguem menos e os ricos paguem mais impostos. Com apoio do governo, o Congresso aprovou em 2023 a Reforma Tributária, substituindo cinco tributos por um modelo baseado na Contribuição sobre Bens e Serviços (CBS) e no Imposto sobre Bens e Serviços (IBS). A reforma criou o sistema de cashback para famílias de baixa renda, zerou impostos sobre medicamentos e alimentos da cesta básica. Contudo, muitas inovações ainda não foram implementadas, não sendo possível avaliar por completo os seus impactos.",
+        "updates": [
+          {
+            "title": "Reforma tributária pode ser suspensa ou revogada? Entenda com especialistas",
+            "source": "Valor Econômico",
+            "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPNTVoSWk0aXJzcnZXNzc0NklNN3pqTDhBTVNwRUI4dnExVlhueFROY0xaN0VYVVVNTGZmMm9nWTIyZENBUVFzeFptM3lNVmNCb2x1MXRSYXVzLTA1LUxLeTg3YnBiV1NWaVlXa2RQSXc1T2NveUhyZ0hZNjBIRHNacmxqS0gyNzB0c1R5R0VfOE92SkYxaFZrbHlpaUo3Zk45MkVCaXBYN0FUSlB0VHZyTGQ1V2ZGSkxTNFVMWWwwMnFWckxjSm90ZzdGZWxJd1HSAd4BQVVfeXFMT2lCSUhyVlRtdW53OVpmTXlWZFFTR2czRUpUakp3dURIOS1xckZVY3VTMlpkNHlZY1JJSDYwSm9wbFpKY3gxdWwyM0FYVjNIT3ZQdzdyZGlDTEhBWlYwZHpxR0ZNZGdQN1NEUG9zTDRCbmRxeVlGM09mb2NPRHFYeTZyWHZCRl9yeUNxbDZTRmVoZFpGbDN5MEZHdGFWSTJZZXlQcjlpRWNYWUpzd1A0UHNIT3U1Rm5Md1hxWVBBRGxPWnBLUTlURUx3QWR0eVpIWTJINXk5cUFxY2F0MzdB?oc=5",
+            "date": "2026-10-10T11:00:01.000Z"
+          },
+          {
+            "title": "Ajuste fiscal se faz com combate a privilégios e desperdícios, diz Alckmin",
+            "source": "Partido dos Trabalhadores",
+            "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNWXlGQTY0Rnh6UFZzbnhpZnJGNXpNdE9PR2dULVV3TFRZZ1lXcGxPRk5mMUFwUGNrQ0RlVkI2cE0xOGZXM1dwd3RZSFRrdHZuUGFxVkduU3hPNFFFUWxKUjhFMGtNTEhBLTA2a2tDbVo1ckxpWG00U1ZhN0hQRmQzbzhTajdIUVpqbWtzOG5NdmtHZHVua3dN0gGfAUFVX3lxTFBjSzVHRjBCWE92TjBkazc4OTJIMGxmTnlQc3VQR19VeWduMjJ5YnBJX0NtMlI1SzJsNlBkcTJPc0p2cWt2WVh3SmZNcmZxcVJIN2JWejZDWDFMVzVSUlozVWttclMyUmwxN0JFaFFyRER4amxYanc4MTl5RGc5V3AtaTJkeE1vQnJaRzJSSHdyOHVhTTA1S3VNN25Zc3dIUQ?oc=5",
+            "date": "2026-10-10T17:08:00.000Z"
+          },
+          {
+            "title": "Flávio Bolsonaro x Lula: os contrastes dos projetos de Brasil que vão para o 2º turno",
+            "source": "BBC",
+            "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE96N3g5a0pYQUc0cXFabkF3bWFoZm8yWUhNd0xaTUVxN3FXSlB3Q1V5NERkYkhFYkhxU0pjdVg0bHNUUF9xdGpoQUE3ZUNKNGlSV2d1bTZBUnZYY1QtWjAzSGNmOA?oc=5",
+            "date": "2026-10-04T07:00:00.000Z"
+          },
+          {
+            "title": "O plano de Flávio para a economia é um cheque em branco?",
+            "source": "Nexo Jornal",
+            "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZldpaEEtYWNOOWotLTRQdEJqTnFpNXVLM005WGRtOEt1ZGZNOThjY0dLSmRSdjNtY1NjXzRKMmh2Q3NiTDgwMG5vYnQzUVZiX01uVnRLYTRheVpzTG5sR1V0YWxpd3FMMFUycWgtSHczLTNQeFV1aUc3SzExUGF4VGMzaEc4WlM0VkktUXBCVGlBUVVWLW5iMW5neEViY0V1M09UX0FOQnNpRHhRZUo4?oc=5",
+            "date": "2026-09-24T07:00:00.000Z"
+          },
+          {
+            "title": "Propostas de Flávio e indefinição do governo ampliam incerteza sobre Reforma Tributária",
+            "source": "O GLOBO",
+            "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPbUlpbmF2Zkpsb0k2bndRaUYyNDNJSkQ0Wmc2bXdxMVdza1JKbXF2dXdLVnFTTVhEQUZwaEJKRGxZNy1XRzRtcmJXbTNCUElCN200WFFhUHJSWUJ0eWNTRTUxZXpZWGZ4WEo1WEU5ZlRLcEwtOXJ6NTUyVDE4Z05Ebm5hWldmWFBIQUlJQldsa29Edks0djFvM3E2Y0lpWms4eExaTnREaXpoYUZIY3h1OTFzaHFLclREUk9MRkpFbngtckpRTWJ4VHJtM1BFal85ZEdpcklNTXNJeEHSAeoBQVVfeXFMUGxzLUxEaTlKQjBjUTNMYzRsQzlFWmtnU1NYaDl3eHg5Mk1SOW5jYVEtWGh5YlJMZXJCZzZyNmNTc0k3UzhlMzk1dy11MVVMN0w4elU5LWZwWFJPODFRYVZWRWNaa2k5MmNPQ0FiUTRNMWVTZ0w0Si1HVWJpYndCeks0NW5DQnBmWENQYTNOMXlMYVloaTFTTXlIaFFtajRMdmlCQ1ZwVkFWRDIyNHBNdVdBcHFRNjljYWZTYzktQnJJeGtQRlFhRlprZkxtNG1jNUh5dVRpc2JSWk9lM2dwVVByeW5wbTVOSENR?oc=5",
+            "date": "2026-10-08T07:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "title": "Acabar com modelo de Preço de Paridade de Importação na Petrobras",
+        "theme": "economia",
+        "status": "cumpriu",
+        "description": "O petista prometeu mudar a política de preços dos combustíveis da Petrobras para deixar de nivelar os valores pelo mercado internacional. O modelo estava em vigor desde 2016 e foi extinto em 2023. Conforme essa regra, o preço dos combustíveis no mercado interno acompanhava as oscilações internacionais, ou seja, sem intervenção do governo para garantir preços menores.",
+        "updates": [
+          {
+            "title": "Promessas de Lula: governo aprovou reforma tributária e isenção do IR, e não recriou Ministério da Segurança",
+            "source": "G1",
+            "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNZVlnb2pmY2VxMVByREtmakh5aTUxd0ZxU01tbXR5dHN6TXlSTlNXLWQxN1FxYS03R3h2NWdpdUVUYkt0UWVRdFduamY0RlNsWS1HbGVxSGl3X3VSYmdPcTVGaEdva0hCY2wwSy1PUjlZb3ZzNmNfQzcta0Z0YWdjbGhHN204T0s4TUs0WTdJTXVkN1dNTHdBc200Szc4YnJXY3JZUTNhWHFrd2pXT1V0c3JyeFQ3MS0zWTNuOFlkVFMtVG5lRXR6MkFjQ3B5bmlSajFUUjRMdWxWRnJuNEZJVUxMZTNxR2RmNl80VHRCWlI3eUXSAYICQVVfeXFMTm8xeTFNbmZsSlBaeGw2UVNtemwwaU5xZU1qTXhGYTk3U0ROSXp0cDBEODBtM3NLSC1PQnBQOW02Y25hVU1rZS1lQ0RrNUxxel9oRWI3dFpsM2hFNmVFSF9tSlhYSXBMSFU4QjVmQUhXXzNiZU51Y2x2YzdCTXhnZGRmRWJ3cEpUWFlBQnU5dkh4aUMtcFNzVzYzSEtkZ3hHZE1NS2hQMFB3TXVtRDJ2Tm9RVERwNVFYRTJyaHFnUjFFZm80dVQxb29Wem1yTFB6elAwNlBiM0NqZDFzdDh2R0tDOGlINzRudEZKLTNGQXRENmxRNnFpSGx4UmpaNTlOWHZR?oc=5",
+            "date": "2026-07-22T07:00:00.000Z"
+          },
+          {
+            "title": "Landmark aciona Procon e Metrologia contra preços abusivos e fraude de bandeira em postos de Campo Grande",
+            "source": "Câmara Municipal de Campo Grande",
+            "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAtUTkxSW1XdExkaG5XSFF3dUdiOElacm1NREVrNnpfZzNfNUw3eFota2tMMDl0QTBmVkpyc215Ti15TlNPUkJINnI5X1p1VTdqbGY4VEQzc1ZLdWZ5OEJqekhNbmxLOXkwOEdZ?oc=5",
+            "date": "2026-03-16T07:00:00.000Z"
+          },
+          {
+            "title": "Petrobras entre o mercado e a política: os limites da intervenção estatal",
+            "source": "CNN Brasil",
+            "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPU0VuRWpwMy03X1AxM3pLTTlJSmZpc2JORE96SW5Ib21QQ05Nb1VibThJMHE4MGltTEtmZURtWkx0Y3pMdUxPUjAxUXh4d1lfRFJxLV8taENScnVnQVFkUHhEMjJneVQtSzh1M2NNOFZfeTVkajI2SS1Tdl9HRGhiUlVHX3BUQUw5aHl2RHBpanBuR1A1ZllLa1h3QTlFZmg5NHlsbFlqeHd1TVlD?oc=5",
+            "date": "2026-04-06T07:00:00.000Z"
+          },
+          {
+            "title": "Petrobras vende gasolina 41% mais barata que o preço internacional, diz Itaú BBA",
+            "source": "VEJA",
+            "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSnhnX0JZYldzTEZXQUpwd3R0U2xmZkZtY2RHQThyYXJTQUh3R20xZVh3ejQzbmNtVFQwQmtoWEh6X2RucDBlOXV2bHhFaTZ2VjhJa3poWHA1T0hmNXNWWTkxMmZJMWloR2Q3UzJhR3J4SEdFNV9qdUpBYmtpd0NSZmRvTHYtRURNdVR3ellieWRwRVpRVVZ2MmppVGJWNFM1Ym53V0NGVmFhQXZKbkxQSXFwV1Y?oc=5",
+            "date": "2026-04-15T07:00:00.000Z"
+          },
+          {
+            "title": "Petrobras anuncia nova política de preços e fim da paridade internacional de importação",
+            "source": "Fundação Perseu Abramo",
+            "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPbXJoanJNR0xXWEZGZ0xzaVFKa3d3dFIzWXpLSGhha1Z5M3JOVVZfMThfNzY0djFZaHFnV1NhYUx3Vmh6c2xWY3I2cmZ0WGZEWG12YkdYMWctdnRpUFZWSUFMVFNhd0tPZGRkZ3Nkcl9PRWF5YXpFblQxbF9ieUxxZTJaWDFlQ1E4eDhydjdURDBxZk5QTmlRN2RZYjBFN3lGNHJSTGtLWXlSX0YzcV9aNkRR?oc=5",
+            "date": "2023-05-16T07:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "title": "Criar programa para renegociar dívidas das famílias",
+        "theme": "economia",
+        "status": "cumpriu",
+        "description": "A promessa de campanha previu a negociação de dívidas de famílias que recebem até três salários mínimos para limpar o nome dos consumidores e reaquecer a economia. O governo lançou o Programa Desenrola Brasil em julho de 2023. A primeira etapa, segundo o Ministério da Fazenda, permitiu que mais de 15 milhões de pessoas saíssem da inadimplência, com a renegociação de R$ 53,2 bilhões em dívidas em atraso. Em maio de 2026, o governo anunciou o \"Novo Desenrola\". O programa prevê a renegociação com descontos e a troca por uma dívida mais barata, tendo como público-alvo os brasileiros que ganham até cinco salários-mínimos, ou seja, R$ 8.105.",
+        "updates": [
+          {
+            "title": "Novo Desenrola: governo Lula planeja R$ 15 bi para comprar dívidas dos bancos e aliviar bolso das famílias",
+            "source": "BBC",
+            "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9SUXpiTTQ5UGV4dVVRT2xwb1J3aGFBYXhZWF9TR2daMHpTUTluemhwRUdEam1BTkhuTTRheWM3QV9Za1VjX0R2Vk1QUno0cjktLTRFaEdiN3c5QXUteEx0RWtlb9IBaEFVX3lxTE9FSFNXSmpETExOWjJWbHBudl9CSXNQUHVNWnJCWmpzZnFaRjhzYmw3Y3JvWVJsN2tCMDl2VTgyTEZfNmwzaFVBUWR3aTdGRVpTSWl4LUZiaGpLMEMtS2R0ZHBzRVBSWXNV?oc=5",
+            "date": "2026-09-25T07:00:00.000Z"
+          },
+          {
+            "title": "Lula vai banir bets do Brasil e prepara pacote contra dívidas",
+            "source": "Poder360",
+            "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPUkdhWlU4TDZ2M041ejdVbXltZFZoNk53czJEdzdEbVVQUmtuSFE4N2w2Tnk1blp6M2YwcHJkYnl6U1pYUG92MHBYNkVKQ1RTbTR5SEduOGRVa3ZCV0ExTW54THlZLWdINHBhWTdkc3hORDljYUR3T2lUQm5qUHIzR05ya3g3MzVwUmZLNF8tTEdSc1ZjM3BselVGX0ZlOVFIS1N1UFFBbw?oc=5",
+            "date": "2026-09-25T07:00:00.000Z"
+          },
+          {
+            "title": "No Desenrola 2.0, valor negociado já representa 84% da primeira versão",
+            "source": "O GLOBO",
+            "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQcVlNeTc2YmFHZVZkc2hGX04yQ3dYQTkwVExWbkxBb25xazVzamZZREx0OXZzNC1veHEwemlzbTN6U2M2dmY3NWgxUjdrbUR5UXJ6Y00xUGRnOTNwZE00TDc1dVJzX2JLZTBYNkpZaXNkam1LQ1QxZnhCeUdvNlVYY0ZVdVVQTnVmZUdMZjFRaVJSd1pCVHlwX2JWMTR5YXpWUkRiemUzbUNPZWpFcVpiaVhpY3k3RjBoM2ZmSEw4eUY2d0N3RmpsN2VZQlhuUdIB3AFBVV95cUxOcGF6c3VCZ25ESkhhTVFET0pWcVF0OTJWNEhoZ01ER19WWlVCek5YS0YtOWJCNG9MM0dNSDBHajVOaFBPZHprZDB3ZXN0TXlBSEplZFZEOTNuTFF4SllzekxIcDVxLWcyQmgtV2hObkdIOElWd1BaWktuTTB1OGl1Q0JQRkZOZWlMMFZlS1VKbXN3cFFGa25icHlNeXNJOWk4cjRWLTdtWkpfb19YOGJ1ZzJyYXgxUFh6RnZjT0lnWlg5STJJYUZ2SUdTRDhaMzdZaTk5d3EwZ19CaTVo?oc=5",
+            "date": "2026-07-23T07:00:00.000Z"
+          },
+          {
+            "title": "Lula anuncia Desenrola 3.0 para renegociar dívidas de famílias com bancos",
+            "source": "ncnews.com.br",
+            "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPdUtZcHZQWExJZGN2ZG40cVZ5WmtJSjJ6VXFDakw4WU1RWU1BZkQ3bWRfZTI2R1VRSUFnNzQ1eUdCNHhKaThkTUl5R3pyLWRjWjJlYWc3THFtTWk5bmRSOXVfT2p0X1gzU2xjZWRfdU42WVdKNHZkbWswZGx6dy1GTy0zSm5NdGQ3cnZNMEJ3?oc=5",
+            "date": "2026-09-25T07:00:00.000Z"
+          },
+          {
+            "title": "Lula anuncia novo programa para aliviar dívidas das famílias antes das eleições",
+            "source": "Bloomberg Línea Brasil",
+            "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPcDIzeHkwN2Q5UFFBdHFOc2RrN1Bzb1pVU0lUdG1MVE9DRUxFdnFrbmZlT0hJU2xobWZKNTktWDFVQ3dMaGtXdGNKVF9vVVMzQ0d0c19mUDF3UXliTmstdjc5WnhHT0NPTk1RTzVmVnp5QTFMb3RfcXB3WG5naDkxRjc2S0o3Z19Ubl8zZWs4cnJ6WENQdE5scnRDTE1DR0FOeG5NN3MxTTlLUk5tV3lIa3hKX0lTTzU4eV93dVhPN3LSAdQBQVVfeXFMT2RKNUVWZGtPdjlMYmxsdDdqQWV4b3JHOE4tNVJjdjlOQlZRamN4bk5laXlfcFFvRmhubnI3ZVYyZXVBRVowN29XeVF6UzRWUUlCUE03N19sV281NEVsUi0wSTJyVDRLOHhBQW9fVUZCTHk5ZDZRZy1qZmlWRW5jNllmQTVGMHJfd1FKaXJRQWxuSDE5QnB3TkdTamFxLVI2V2dJZzZHUDIwb3NrdFRFdE43bERpWW4tNEphQm9aaHdwaHdsQmJBNnk5SGFtZmhWcXJyWnI?oc=5",
+            "date": "2026-05-01T07:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "title": "Zerar o Imposto de Renda para quem ganha até R$ 5 mil",
+        "theme": "economia",
+        "status": "cumpriu",
+        "description": "Lula prometeu em 2022 dar isenção do Imposto de Renda para quem ganha até R$ 5 mil por mês. A proposta foi apresentada em março de 2025, terceiro ano de mandato, e aprovada pelo Congresso em novembro daquele ano, estabelecendo a isenção total para quem recebe R$ 5 mil mensais e a faixa parcial para salários de até R$ 7.350.",
+        "updates": [
+          {
+            "title": "Promessas de Lula: governo aprovou reforma tributária e isenção do IR, e não recriou Ministério da Segurança",
+            "source": "G1",
+            "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNZVlnb2pmY2VxMVByREtmakh5aTUxd0ZxU01tbXR5dHN6TXlSTlNXLWQxN1FxYS03R3h2NWdpdUVUYkt0UWVRdFduamY0RlNsWS1HbGVxSGl3X3VSYmdPcTVGaEdva0hCY2wwSy1PUjlZb3ZzNmNfQzcta0Z0YWdjbGhHN204T0s4TUs0WTdJTXVkN1dNTHdBc200Szc4YnJXY3JZUTNhWHFrd2pXT1V0c3JyeFQ3MS0zWTNuOFlkVFMtVG5lRXR6MkFjQ3B5bmlSajFUUjRMdWxWRnJuNEZJVUxMZTNxR2RmNl80VHRCWlI3eUXSAYICQVVfeXFMTm8xeTFNbmZsSlBaeGw2UVNtemwwaU5xZU1qTXhGYTk3U0ROSXp0cDBEODBtM3NLSC1PQnBQOW02Y25hVU1rZS1lQ0RrNUxxel9oRWI3dFpsM2hFNmVFSF9tSlhYSXBMSFU4QjVmQUhXXzNiZU51Y2x2YzdCTXhnZGRmRWJ3cEpUWFlBQnU5dkh4aUMtcFNzVzYzSEtkZ3hHZE1NS2hQMFB3TXVtRDJ2Tm9RVERwNVFYRTJyaHFnUjFFZm80dVQxb29Wem1yTFB6elAwNlBiM0NqZDFzdDh2R0tDOGlINzRudEZKLTNGQXRENmxRNnFpSGx4UmpaNTlOWHZR?oc=5",
+            "date": "2026-07-22T07:00:00.000Z"
+          },
+          {
+            "title": "Haddad joga isenção do IR na cara de Bolsonaro: “Eles zeraram jet ski, nós zeramos até R$ 5 mil”",
+            "source": "Revista Fórum",
+            "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1vRS1QbDc5Ujg2cXFVVkFXakR0OWtiQ1RJV0JqSFNub01oTGczUXoxTXVXTHdEUTlIclNaU2xrOEo0UVpLbHpMdGFaUFVUeTBSSWVfWXl4TUJoRWFDSWVQeVlrdXZaWW9KOHhwV1pXNTNXVDA4?oc=5",
+            "date": "2026-10-06T07:00:00.000Z"
+          },
+          {
+            "title": "Sancionada isenção do Imposto de Renda para quem ganha até R$ 5 mil por mês — Senado Notícias",
+            "source": "Senado",
+            "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQU3N1djlGa21NTVphdERWVUJhMFFqSVFLaFRuUkJyYjNKaVloWi1aOUpUd21DS00xRVEySU14aDA2UlpWbnA5TGFoTXBUS1I2LVNsam50cEVOeVRTYUsyTy1IbktzM293NHktZlJDUlhiZVExcF9RS0EtbTNhWkVGQlY2cEthODNVSERzYnNIOVI4S2MwVWtITTRzbFpVODRYd1JyeXlnWFdzX2lGVzMwUVRzVU1tSFlxTW43U2tlQkJmZ2Zzd2t4SW9FUQ?oc=5",
+            "date": "2025-11-27T08:00:00.000Z"
+          },
+          {
+            "title": "IR zero para quem ganha até R$ 5 mil vale nos salários pagos este mês",
+            "source": "Agência Brasil",
+            "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQN1lDRmFSLTBZSVF4SmtIY3NaR1JILXpqaVJsTjE2M2s0TXRySFMxb25rakIzY2hnVTc5Wm1YdHhCRTJlRzBCc3dxeTNIWEc3QU02SUFWWW52Znd2YmZERWd3a1lOazJZTm56NGhRb1h3bm1yTDF0N0lhS3g5Uk1mcEozdXkyRUp5OVFSdFFUOWp1N1BqOHk3bDEweEpYTDdrcEMxYnJ5a3VVQXRKdFJIM3dCeGFXUQ?oc=5",
+            "date": "2026-02-01T08:00:00.000Z"
+          },
+          {
+            "title": "Imposto de renda: Lula envia isenção até R$ 5 mil ao Congresso; o que pode mudar e impactos da proposta",
+            "source": "BBC",
+            "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9tQzRFUUJQSUpUb2lOaFFJTWFjakFrZEI2X2lJb05ZS2FydzVlcG51aHdEV0xTdEhNdlFBaGVTaHNnYXowZk40VWY3bVBINXhaV1lPaXM4WlEtaHJoZ1VHOTdB0gFnQVVfeXFMTS1MY1o1ZWtmYkN1OGU0T0F2UXVaOFF3clNNTVpuOG5uOXI4VEpTMlNfY2hHb3FlRzQxYTJsOFIwTDNCaFY0VHMwMDF2VE94UFFNaDFKcVlvaU9CYVBFVEllTDRuWnBHNA?oc=5",
+            "date": "2025-03-18T07:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "title": "Reduzir taxa de juros para a agricultura sustentável",
+        "theme": "economia",
+        "status": "cumpriu",
+        "description": "O presidente disse que reduziria as taxas de juros no Plano Safra, no Programa Nacional de Apoio ao Médio Produtor Rural (Pronamp) e no Programa Nacional de Fortalecimento da Agricultura Familiar (Pronaf) para produtores comprometidos com critérios ambientais e sociais. As taxas de juros de custeio, segundo o governo, caíram de 5% ao ano na safra 2022/2023 para 3% ao ano para alimentos da cesta básica e 2% ao ano para sistemas agroecológicos, orgânicos e da sociobiodiversidade no Plano Safra 2025/2026.",
+        "updates": [
+          {
+            "title": "As propostas de Flávio Bolsonaro e Lula para a economia em sete pontos",
+            "source": "VEJA",
+            "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQd2ZyeWVEejItTVNVbHZaRzdSTGFtLVZHeDFyTGY2V05QMEtPZWVNYjFiR0Y0WXpRRFlReTVCOUNGMXFkMkYtVUs2T3VCc2JvTEcxT3hlVGZkWk1PTzNOVlBGSmVrTmFGZEdGRTJlOFJ5QlEtM0FuNkZXSF9uVFVtRE1hY25jREFNS0RzZ0ViLThCd2FzeUVTbVVENUhTREdiaDlrTUg4d2F5UQ?oc=5",
+            "date": "2026-10-08T14:08:12.000Z"
+          },
+          {
+            "title": "Promessas de Lula: governo aprovou reforma tributária e isenção do IR, e não recriou Ministério da Segurança",
+            "source": "G1",
+            "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNZVlnb2pmY2VxMVByREtmakh5aTUxd0ZxU01tbXR5dHN6TXlSTlNXLWQxN1FxYS03R3h2NWdpdUVUYkt0UWVRdFduamY0RlNsWS1HbGVxSGl3X3VSYmdPcTVGaEdva0hCY2wwSy1PUjlZb3ZzNmNfQzcta0Z0YWdjbGhHN204T0s4TUs0WTdJTXVkN1dNTHdBc200Szc4YnJXY3JZUTNhWHFrd2pXT1V0c3JyeFQ3MS0zWTNuOFlkVFMtVG5lRXR6MkFjQ3B5bmlSajFUUjRMdWxWRnJuNEZJVUxMZTNxR2RmNl80VHRCWlI3eUXSAYICQVVfeXFMTm8xeTFNbmZsSlBaeGw2UVNtemwwaU5xZU1qTXhGYTk3U0ROSXp0cDBEODBtM3NLSC1PQnBQOW02Y25hVU1rZS1lQ0RrNUxxel9oRWI3dFpsM2hFNmVFSF9tSlhYSXBMSFU4QjVmQUhXXzNiZU51Y2x2YzdCTXhnZGRmRWJ3cEpUWFlBQnU5dkh4aUMtcFNzVzYzSEtkZ3hHZE1NS2hQMFB3TXVtRDJ2Tm9RVERwNVFYRTJyaHFnUjFFZm80dVQxb29Wem1yTFB6elAwNlBiM0NqZDFzdDh2R0tDOGlINzRudEZKLTNGQXRENmxRNnFpSGx4UmpaNTlOWHZR?oc=5",
+            "date": "2026-07-22T07:00:00.000Z"
+          },
+          {
+            "title": "'Lançamos o maior e melhor Plano Safra da Agricultura Familiar', afirma Fernanda Machiaveli",
+            "source": "PT no Senado",
+            "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQbFNvQThkamRCRFJfN2hpVnlhNWhPTWFKSnVpVDlXQUUyYmVLU0pfeVpYMkpiQS1yZVVCNktOdHJnOWE4YjdwTkhjRVNiVVVqQmdFQ2tmdEtTSlVRaVgySnFhcU5KNWduenhDVUlJaE5MeEtNOWhXR1ZKajVNT2lNZldZeGJnaU5TQmgtaHZhcXh4VVFpeWZrenJILUVlZkgzVGRVWks1azgwZ1lNY25TV3hNdEJLdw?oc=5",
+            "date": "2026-07-01T07:00:00.000Z"
+          },
+          {
+            "title": "Após acordo, governo Lula publica MP que autoriza renegociação das dívidas rurais",
+            "source": "Estadão",
+            "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOODJ5bFptaEhJOHF6TkNCajFCLTRUVVdIWkwyYWF0OWVwRW53bnlZSGlXNFQ4ZHJjTVoxVGNTNmF2M1pfZWJtSk1laTR2eGZkNFJna0hQV0FtTkNUY3FDU1JxTjJmRHF6M040Y0cxQXJ0eFdYT2FteDNvTE8tNTFrSlB3Rm5pb0xkTjM1S1NaOFdrQnlWeW0yVGV6S0lFZUNHMnhYa0J0cm0wMWY5UUVLTHcwdG1NSjBpV1QwV2pkVndCckRoV2wyS3lB0gHPAUFVX3lxTE01YkxiU3g2YWsweVQ3MzVvZWlYVmJ0TnJCVlZac0pUUW1wMUJTcUFtM19ibzlibUVRRjQ2RExRV0xSd0FhME1sQWN4RlRRTXF1d3ZPY1FWWUh1WUdVcW9vRU9nZlJfZ3FLaTVvRnMyc21TM0NlVmFRbXlWNnBWTjhFSFlQdENmNGNZZ3JxNlZtRTNxX1JrM1YtSVhTZ3dPbVdaSWpMOTNKQU5lRDZVdkJHM1E3ZGVNd09jUkxzM2lwa2RBcUhpdFdkeHg3cGswVQ?oc=5",
+            "date": "2026-07-15T07:00:00.000Z"
+          },
+          {
+            "title": "Ministério da Agricultura negocia aumento de 10% no Plano Safra com corte de juros",
+            "source": "Folha de S.Paulo",
+            "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPWjNFODJ3S0phU2ZVZUlHMjZwQTVQM0VBRDkxb3NTODZ6UXV2S2Z2YURsLXdQNEJnWmFKdmJ6OXZjUGRMMWs1UWQ3MDFkWmlZUzdkd3VQZnZ0RklUa3RYLVFBR2N1UUVGbXB5Q285dTdQS2pzRWQ0TXRCaWEyclp1VVNwY2YySkxsYnhjbEJsMmNNUjlEYkFlbXdFbjBUWDNpQ1NYTE9LWXUwRzN1X0xicUtVS2l3V0JmUnBRY001MW1WYkoxeW5yT1hzSmxFdw?oc=5",
+            "date": "2026-06-16T07:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "title": "Propor nova legislação trabalhista",
+        "theme": "economia",
+        "status": "em_parte",
+        "description": "O plano de governo de Lula trazia o compromisso de propor uma nova legislação trabalhista de proteção social, com atenção especial a autônomos e trabalhadores mediados por aplicativos, além de reestabelecer o acesso gratuito à Justiça do Trabalho. O governo articulou no Congresso o fim da escala 6x1, aprovado na Câmara em maio deste ano. O texto, entretanto, não avançou no Senado. A proposta que regulamenta o trabalho de motoristas e entregadores de aplicativo chegou a ser discutida, mas não foi à votação. E a retomada da gratuidade na Justiça do Trabalho não avançou.",
+        "updates": [
+          {
+            "title": "Flávio Bolsonaro no segundo turno: veja o que o candidato propõe caso seja eleito",
+            "source": "G1",
+            "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQbnJDZXMwZTRYWk9nMVgyaFJxM1dScVp1YVNGRE91aDU0ZHdac3YzYnZDMVozOGZYYmUwNERiLXpQdzZhNklFanZncGNBc1VINHhhWHU0R2Z2Y3lBckhnR3E3blVTemVkRXh3cVRNcVVCeWwyVVNjOC1BSVFtcEJRU1ZON3N2YzZkRU5RVlNQQ0prMVJrSS16R3FnMElIU2RWT1dReFQyNm1iWWE5YWZUb2FZeS1VWjNieE9MN2ZxeXYxWTlJYzYtNE40a0Nqc2hIMFJDX1FjMGFfWnd5N0tPRld4RdIB8gFBVV95cUxQZWJmMGNQWWl2SUU2b3g1SXVESFBQanpHZHNhVWRPckpCRk80ME1tSkozS0FSSWlsUFNkQ0gzR0xpd0ctTzhLMlBlZTVHYmxFaThCTUdaSWZnckJXNXJGMVhPQXVsVkxSbkh3TnE0ZmdzbTZMalg5LUs1T01xNUlqU29GUzRJNllyTldYSzlHbE1Ha3ZhWWcyY1ozQWpkdFU5aTBtaEp4bk9wQnpLSXhodG9nVl9XM1VVRGNlRDhxZHNYM2xBWURvN2JsUlZWdTd2amc2bi1RQ2o5ZmJodThZZmJOcEV1SkszRDdvWWtBeDVoQQ?oc=5",
+            "date": "2026-10-05T07:00:00.000Z"
+          },
+          {
+            "title": "Promessas de Lula: governo aprovou reforma tributária e isenção do IR, e não recriou Ministério da Segurança",
+            "source": "G1",
+            "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNZVlnb2pmY2VxMVByREtmakh5aTUxd0ZxU01tbXR5dHN6TXlSTlNXLWQxN1FxYS03R3h2NWdpdUVUYkt0UWVRdFduamY0RlNsWS1HbGVxSGl3X3VSYmdPcTVGaEdva0hCY2wwSy1PUjlZb3ZzNmNfQzcta0Z0YWdjbGhHN204T0s4TUs0WTdJTXVkN1dNTHdBc200Szc4YnJXY3JZUTNhWHFrd2pXT1V0c3JyeFQ3MS0zWTNuOFlkVFMtVG5lRXR6MkFjQ3B5bmlSajFUUjRMdWxWRnJuNEZJVUxMZTNxR2RmNl80VHRCWlI3eUXSAYICQVVfeXFMTm8xeTFNbmZsSlBaeGw2UVNtemwwaU5xZU1qTXhGYTk3U0ROSXp0cDBEODBtM3NLSC1PQnBQOW02Y25hVU1rZS1lQ0RrNUxxel9oRWI3dFpsM2hFNmVFSF9tSlhYSXBMSFU4QjVmQUhXXzNiZU51Y2x2YzdCTXhnZGRmRWJ3cEpUWFlBQnU5dkh4aUMtcFNzVzYzSEtkZ3hHZE1NS2hQMFB3TXVtRDJ2Tm9RVERwNVFYRTJyaHFnUjFFZm80dVQxb29Wem1yTFB6elAwNlBiM0NqZDFzdDh2R0tDOGlINzRudEZKLTNGQXRENmxRNnFpSGx4UmpaNTlOWHZR?oc=5",
+            "date": "2026-07-22T07:00:00.000Z"
+          },
+          {
+            "title": "Lula propõe retomar assistência sindical em demissões",
+            "source": "Brasil 247",
+            "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPYk1vckdfZkViay1pMFBfQWJGX2ZUbVBGVlFoVTlJekMzUzBTYWFKUkd4dGhfY0U0V05xRFlVa3ZXM1ZZUHVOSUJoSFRVazZxTnllTmMtdFhDTW53X0RGTEEzT0ZJUDE0dWJHOVZnLVdKZkwtMEVzbG4tb0QwODR4dE5QY0VET3lWZUlBU283aVg?oc=5",
+            "date": "2026-08-14T07:00:00.000Z"
+          },
+          {
+            "title": "Especialistas propõem idade mínima de 67 anos para aposentadoria",
+            "source": "Poder360",
+            "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQMTRYMll0NmZFWGdUOE1qT0hpWUtRMmZ1NWptOWFrM2V2Zk9LYm14RldkY01QRnI2ZUhoc0JjVWdSZzM0UUxiQ3ZHT3dBd3ZOcjFuWEY2aVpsRWZXQnlTYjdqNUh1YzhEX2t1QVY2WG1IbVB2OXBZSTREYTdsWmp5anU4Q3BjY1pwakkzVTBsLU8tV0R2R3liV2RCaWlvVEg3cE1IYkFtZTY1cHk0ajVoZA?oc=5",
+            "date": "2026-08-27T07:00:00.000Z"
+          },
+          {
+            "title": "Lula é oficializado candidato à reeleição hoje em convenção do PT ainda sem cumprir promessas de mandatos passados",
+            "source": "Terra",
+            "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxPUUtRTTM5Xzh5YlpzZkVwVXNNSlZPVTBRSHF1N1lwcTdkMVVnT3kwRkJ5QU9LbFJwazdjcVoyYzNvQ3poS3BtVTM4Ym0tWTdEUjBLa1JINERlYnc4TE1HeWZFVFREaG1rdUtlQlB6ZGNOMDZwU0ttbVd0a1BYeWZnQmdJeXpicGxYT2VTY1dyMVFBTGZGVElwTl90N1hGZTJJWXJqUFNoUFp3NGpTSUJIQW9WMEVSOHA0ZVpCVjk3MDdNMjFTcjdOWlc4alcySThLWDUzU2l6bzhxSkhEdzR5Q1UyXzhyVXlDLWhyLVpJUV9yZnBYdFpOM1FxdFdGQk50TndYYTZKNXBqTm9QbEQzc05pa2xRbDRRSUJ5b0g3OHJEWXMxR2JUNEp2cw?oc=5",
+            "date": "2026-08-02T07:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "title": "Aumentar verba do Bolsa Atleta",
+        "theme": "esporte",
+        "status": "cumpriu",
+        "description": "A campanha de Lula prometeu reajustar os valores do programa Bolsa Atleta, que completou 20 anos em 2024. Segundo o Ministério do Esporte, foram concedidos aumentos de até 10,86% nos benefícios. O total de atletas auxiliados passou de 8.292 em 2023 para 11.214 em 2026. Os valores da categoria Bolsa Pódio, para medalhistas, subiram para faixas entre R$ 5.543 e R$ 16.629 mensais.",
+        "updates": [
+          {
+            "title": "Lula x Flávio: planos para o esporte opõem incentivo público e financiamento privado",
+            "source": "Estadão",
+            "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOMlBMMUtVdUF5cWc5Mkc0WVdxYThiN3g0R1ZHczNtUkt1dERXQUNicHVEWkozQ0E1em54UFpiZnR4ejFJd0t6LTdPV041enlIcEJIUUtBcWFkX3lyUjdCQW5ndnlKYnlJTmJ3TlFESkJBLVJSaDloNDkxdG0zSU1NV2pXMHRxRDdPMnpUdnJyc1BaY2FmVXpLX3JDcy1xdldTWUI5SjBYajRQYjdLekZVNVAzaE42eUd5RGFmVtIBwgFBVV95cUxPVUg3eWZJUTgzekotWDJNWTc1MlhKRWd5OXU1VDhkZjdsaDFPcW9ZenRjOEFfOW1JVWpyWURtQ1BSdjIzckFVaDVVLTBiRUNpYXdGWjZsa24wODBhdDhLQ0VzaUp5NVVLekdhRGFPRmJhOFJMaGJuWHpBSS12ZzJlb0xSeUR0bDRFNVBldzlxQlR4WW4tV0drVG14aVNFM3prTHZ2eVlrMlNiTXZHZ01yZzN1Zk16Q0c4aTQ3TnloRFE3QQ?oc=5",
+            "date": "2026-10-12T08:30:00.000Z"
+          },
+          {
+            "title": "Lula anuncia reajuste de 15% no Bolsa Família, às vésperas da eleição",
+            "source": "BBC",
+            "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE53UWJUWUFHUlJ5UkcwQURPX19DQ1dKeldIWVpjaXp0bktWdldwUWdkYTBQYXJBVTdXalo0bk1MVldEUU9nR0M5UWU5Uzd1Q1BDa3ppcnM2Z2JQVVVRa0dYcFRtWdIBaEFVX3lxTE9kM3lzcTkzVThQOXZrU3FScXJsbFctc2MtMXN1b05vSjM3bzZtcWxtSGgzdGt4OXVkTXZuU0tlM3VlX0s4QU14WXE5ZmItcVdDWUF6bXRhSnFCMnY2UkVpTUlXd1lOU3dt?oc=5",
+            "date": "2026-09-17T07:00:00.000Z"
+          },
+          {
+            "title": "Lula nega finalidade eleitoral de aumento do Bolsa Família",
+            "source": "Revista Oeste",
+            "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9DYXFOb0ZwaHJjYjhSSF9jakR4UUN2OVk3MDNqWV9PeGdHejZ3aDBkWmRuYUpNR2JCVVhBZ2ZESFQ5UENFVEREZk1lZVVOXzlwRjF2eXpxaWdEUWdyNXZSSEsxR3NNb05NZG9oenBsUUYxRW5f?oc=5",
+            "date": "2026-10-01T07:00:00.000Z"
+          },
+          {
+            "title": "Promessas de Lula: governo aprovou reforma tributária e isenção do IR, e não recriou Ministério da Segurança",
+            "source": "G1",
+            "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNZVlnb2pmY2VxMVByREtmakh5aTUxd0ZxU01tbXR5dHN6TXlSTlNXLWQxN1FxYS03R3h2NWdpdUVUYkt0UWVRdFduamY0RlNsWS1HbGVxSGl3X3VSYmdPcTVGaEdva0hCY2wwSy1PUjlZb3ZzNmNfQzcta0Z0YWdjbGhHN204T0s4TUs0WTdJTXVkN1dNTHdBc200Szc4YnJXY3JZUTNhWHFrd2pXT1V0c3JyeFQ3MS0zWTNuOFlkVFMtVG5lRXR6MkFjQ3B5bmlSajFUUjRMdWxWRnJuNEZJVUxMZTNxR2RmNl80VHRCWlI3eUXSAYICQVVfeXFMTm8xeTFNbmZsSlBaeGw2UVNtemwwaU5xZU1qTXhGYTk3U0ROSXp0cDBEODBtM3NLSC1PQnBQOW02Y25hVU1rZS1lQ0RrNUxxel9oRWI3dFpsM2hFNmVFSF9tSlhYSXBMSFU4QjVmQUhXXzNiZU51Y2x2YzdCTXhnZGRmRWJ3cEpUWFlBQnU5dkh4aUMtcFNzVzYzSEtkZ3hHZE1NS2hQMFB3TXVtRDJ2Tm9RVERwNVFYRTJyaHFnUjFFZm80dVQxb29Wem1yTFB6elAwNlBiM0NqZDFzdDh2R0tDOGlINzRudEZKLTNGQXRENmxRNnFpSGx4UmpaNTlOWHZR?oc=5",
+            "date": "2026-07-22T07:00:00.000Z"
+          },
+          {
+            "title": "Com novo reajuste às vésperas das eleições, custo com Bolsa Família salta 1.380% desde 2004",
+            "source": "Mais Goiás",
+            "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQS0FKdjF5cE51RjNWQktmSDh5Um5CbG9MRVlIRHdCSVg3SEJCemJxVnR1UTZ6RFl5U0VKcWpIaEtnRm8xclFJLXpXcUxBdWRuOExxZ3pPOG9PUTYtcEFGRVpjb3FTWHRnVkpCYlZScjRWREwxU2lPNmVkaW50bVpNUGs0VklVNlNrZ1g0WnZ6d1B0UmM0UmFLQTdycFVxYlh2ejRfbjFyNjF3MlZNeVVvbk5acVYxSE1JQVdESTNHSGx1SDN0R2lv?oc=5",
+            "date": "2026-09-17T07:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "title": "Criar uma Cúpula da Amazônia",
+        "theme": "meio-ambiente",
+        "status": "cumpriu",
+        "description": "Lula comprometeu-se a criar uma Cúpula dos Países Membros do Tratado de Cooperação Amazônica para discutir o desenvolvimento integrado da região com inclusão social e responsabilidade climática. A Organização do Tratado de Cooperação Amazônica realizou sua quinta reunião em Bogotá em agosto de 2025, com a sexta Cúpula agendada para 2027 no Equador.",
+        "updates": [
+          {
+            "title": "Lula sobre a Cúpula da Amazônia: “um marco no debate sobre o clima” — Planalto",
+            "source": "Governo Federal",
+            "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQVjhnbFozNmZ4T3E1SXNRamJqSDlnQnhBUmtNS1RKZWpiRWFzSDdFbmRoYWRLc256TkRZajBKejF2eXNLTTczZkR6SXYwbF9SM1Y2OWNyUlowb0U5bURKVm5PWC1zb1djVUNNMFVuWU5pcmthZXMzMlVLX0Ntcl9MZEVRX1B0NF9PQXprcGZWbGVoVEt3aklxNnp0Y1UxOE1DSVN4Wi1ZbXd0a1BVMGNsdW0yZHZ6LTZhZ1o4THA4Q2wxRjItbnRTZlF1N20tVFJDNFdRVFFNUGVTcGhQ?oc=5",
+            "date": "2023-08-03T07:00:00.000Z"
+          },
+          {
+            "title": "Lula defende resultado da Cúpula da Amazônia e seu documento final",
+            "source": "Agência Brasil",
+            "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQM2JFX0dHVWZCSnpkWnVBRjk5THgwdGhKTGZVN3JjLWZOVXJOZnNUSmduekVRUE5leE1vOXpoZFhSY1ZhTHVGbE1ydlkyQkZCZDRoNzNuVXQxUlg3ZUVxd0JMSS1GSDltZU5wLVpwRU01RjhlMnpaazE0STZDUzRsWVJXRHczd3hGYmhkWHVXdTJJQWFtQmFQS0hIY0V2amtSUllYMjRESmJuRXl2MkFQdEFnTnhZaEJhampaQnhR?oc=5",
+            "date": "2023-08-13T07:00:00.000Z"
+          },
+          {
+            "title": "O que é a Cúpula da Amazônia, o que será discutido e quem virá",
+            "source": "CNN Brasil",
+            "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPaFBhRDJEeTV4bmIwR0pIMVNsNl9xQ3NkSmoxZ0M5bzJxeEFYdXNzSGNRcXdLVlRxd2EzdVpiQy1Ca3JOY0NtY3NmVmJ5SjFoV2VDRGFNZU1XNU9kX1RxcGlhcEpWS2wwal9GV19XZTBOclc4YlpWYjhCRUlCd2dnUVVvSDdRNUt3ZkVVaWphNU5vTFByMVh3V2UxeHZkLVZ6MHc?oc=5",
+            "date": "2023-08-04T07:00:00.000Z"
+          },
+          {
+            "title": "Lula cobra cumprimento de acordos ambientais e diz que fará ‘COP da verdade’",
+            "source": "Brasil de Fato",
+            "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQa2F4MDhURC1FMHgtVjBGdElwZThxQXRJUnk2N25xWWFaUTdHLTU1Q0tVdTB1aE4wZEhna1Y5dndFMVM4R29jcHNzSWRqSEtNOXlhc2ZkcWhQMFZmZzRUMERMNlhQVmZyX1VjN2g1LUlBY0hrSjNpaWtxaFVGOGJnRTFWSk1wVFpGNVVnakVrRXBjTU5SUXFGLUtualpVcXVoZm9xZDJGc1V4cDNjeHBWVWFSNDYtVWlJV3c?oc=5",
+            "date": "2025-08-22T07:00:00.000Z"
+          },
+          {
+            "title": "Cúpula da Amazônia: como 'palco' ambiental de Lula virou alvo de críticas de ambientalistas",
+            "source": "BBC",
+            "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBYTjE5eTJDLVd0dFFKNG9fanowRlJyZC1JTnJKeHgweGNTZm9Cd2pUNWl4NkxIclkyeERlbURhbElyMldnN1U0Qjdtb0lHdGVWNVpqT2locGtEUdIBX0FVX3lxTE5HUl9RT0FhZnozR2ZILUNxaVRHLTRRcV8yeHFza1MybjQ2QWx3MkJQLXI0NkVjclo1MXhpbnFUR2tmdjl1WE9QRmZ1Yk1QOEVkZUo5ZnR1YVlmYWttR0gw?oc=5",
+            "date": "2023-08-10T07:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "title": "Recriar o Ministério da Previdência Social",
+        "theme": "administracao",
+        "status": "cumpriu",
+        "description": "Lula prometeu recriar o Ministério da Previdência Social, o que ocorreu no primeiro dia de governo, em janeiro de 2023.",
+        "updates": [
+          {
+            "title": "Promessas de Lula: governo aprovou reforma tributária e isenção do IR, e não recriou Ministério da Segurança",
+            "source": "G1",
+            "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNZVlnb2pmY2VxMVByREtmakh5aTUxd0ZxU01tbXR5dHN6TXlSTlNXLWQxN1FxYS03R3h2NWdpdUVUYkt0UWVRdFduamY0RlNsWS1HbGVxSGl3X3VSYmdPcTVGaEdva0hCY2wwSy1PUjlZb3ZzNmNfQzcta0Z0YWdjbGhHN204T0s4TUs0WTdJTXVkN1dNTHdBc200Szc4YnJXY3JZUTNhWHFrd2pXT1V0c3JyeFQ3MS0zWTNuOFlkVFMtVG5lRXR6MkFjQ3B5bmlSajFUUjRMdWxWRnJuNEZJVUxMZTNxR2RmNl80VHRCWlI3eUXSAYICQVVfeXFMTm8xeTFNbmZsSlBaeGw2UVNtemwwaU5xZU1qTXhGYTk3U0ROSXp0cDBEODBtM3NLSC1PQnBQOW02Y25hVU1rZS1lQ0RrNUxxel9oRWI3dFpsM2hFNmVFSF9tSlhYSXBMSFU4QjVmQUhXXzNiZU51Y2x2YzdCTXhnZGRmRWJ3cEpUWFlBQnU5dkh4aUMtcFNzVzYzSEtkZ3hHZE1NS2hQMFB3TXVtRDJ2Tm9RVERwNVFYRTJyaHFnUjFFZm80dVQxb29Wem1yTFB6elAwNlBiM0NqZDFzdDh2R0tDOGlINzRudEZKLTNGQXRENmxRNnFpSGx4UmpaNTlOWHZR?oc=5",
+            "date": "2026-07-22T07:00:00.000Z"
+          },
+          {
+            "title": "Lula: ‘Vamos recriar o Ministério da Previdência Social’",
+            "source": "CartaCapital",
+            "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQSE0yR2xQendVdTJTZ0RMZFZ3Vy1EOGxaazEwbjk0UW5BcS0xQjdFVzFIcUlkNUFSWl9fSGhfU3B4bXhEYzExU3puRXhrXzRqQWNsMVBOLTAwY2wwamllUDJlSlpGekpSLW1fTHFhek5lQ2tvODdwOW1oY0hUcXgtY1I4eWRVR2pBcmtEUkgxR0lUUUN1UTBJRHF5czNheEhnVmc?oc=5",
+            "date": "2022-09-22T07:00:00.000Z"
+          },
+          {
+            "title": "Lula fala em recriar Ministério da Previdência Social, e Bolsonaro destaca queda da inflação",
+            "source": "CNN Brasil",
+            "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPeHNSZ1NZQzRsVnZQU0hjNHdfY1B5SkZ0N3JaTGExYVczSUlQZlVnUHE5eHk0YW5XVXh2XzNJOVRTMWtNWDU3YWd2RFRVOGNTM2JGMjJxLUlKd09yLVUzcUxFN3F6RkVCSzZPeXlTV2V1ODVrbFR5YkV2ekRBN0l3YVhCczM5MlFFaGdENzJ5ZFI4Q1hWUUJpY1JuUTltam5QV0U0Z0tVNkZ1ZVVHRkR2bEFramNFZ3UteXZuVlZEcjg4OHVZY1dlVE5R?oc=5",
+            "date": "2022-09-22T07:00:00.000Z"
+          },
+          {
+            "title": "Lula fala em recriar Ministério da Previdência Social",
+            "source": "Poder360",
+            "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNTGJmaTNtM2wyZ1pBVk5DV0F5N3N1VjNuOS00UndJeHRzVXVORUpaMUhZS01tbGViamtwdmsxQnNROFktWllsMENiZnc4QmFwV0xLdTdYcHBrTTJMWktjSEszQ1l6OE84a0RFV043bGl5bFpDVnhkZUNNSzlkQkl0d2xsMXZxNTRKNDIzdE9rSDBVWmp5V3c?oc=5",
+            "date": "2022-09-22T07:00:00.000Z"
+          },
+          {
+            "title": "“Agora, com esse governo, voltou a ser um sacrifício o idoso receber aposentadoria”, diz Lula",
+            "source": "Hora do Povo",
+            "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPWnVXNmZLbXQtNWFRb3VvakV4ZmxpWkFzdmkybDRtRGRYU2VhTVVsTjYzTVNnTFNNUHp2RzBEUlZHZ1F2ZEw0eThWTVJnTHFQZWdBbExqV2I1S1RxMjYtbXRUa2JGSlp3WUNZVWQxMnF3dzBVNGxxb0NBdDRUWWJGOEllSENGOWtmRUhoRnpJc0JKTXVTdEl3c0U0dUJNRmNCS3A5ZmQwLXZaMDdPWl9iVmpRdFdvZw?oc=5",
+            "date": "2022-09-22T07:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "title": "Recriar o Ministério da Pesca",
+        "theme": "administracao",
+        "status": "cumpriu",
+        "description": "A promessa da campanha era recriar o Ministério da Pesca e Aquicultura, separando a área da pesca do Ministério da Agricultura e fortalecendo o setor pesqueiro nacional. A pasta foi reinstalada no primeiro dia do mandato presidencial.",
+        "updates": [
+          {
+            "title": "Promessas de Lula: governo aprovou reforma tributária e isenção do IR, e não recriou Ministério da Segurança",
+            "source": "G1",
+            "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNZVlnb2pmY2VxMVByREtmakh5aTUxd0ZxU01tbXR5dHN6TXlSTlNXLWQxN1FxYS03R3h2NWdpdUVUYkt0UWVRdFduamY0RlNsWS1HbGVxSGl3X3VSYmdPcTVGaEdva0hCY2wwSy1PUjlZb3ZzNmNfQzcta0Z0YWdjbGhHN204T0s4TUs0WTdJTXVkN1dNTHdBc200Szc4YnJXY3JZUTNhWHFrd2pXT1V0c3JyeFQ3MS0zWTNuOFlkVFMtVG5lRXR6MkFjQ3B5bmlSajFUUjRMdWxWRnJuNEZJVUxMZTNxR2RmNl80VHRCWlI3eUXSAYICQVVfeXFMTm8xeTFNbmZsSlBaeGw2UVNtemwwaU5xZU1qTXhGYTk3U0ROSXp0cDBEODBtM3NLSC1PQnBQOW02Y25hVU1rZS1lQ0RrNUxxel9oRWI3dFpsM2hFNmVFSF9tSlhYSXBMSFU4QjVmQUhXXzNiZU51Y2x2YzdCTXhnZGRmRWJ3cEpUWFlBQnU5dkh4aUMtcFNzVzYzSEtkZ3hHZE1NS2hQMFB3TXVtRDJ2Tm9RVERwNVFYRTJyaHFnUjFFZm80dVQxb29Wem1yTFB6elAwNlBiM0NqZDFzdDh2R0tDOGlINzRudEZKLTNGQXRENmxRNnFpSGx4UmpaNTlOWHZR?oc=5",
+            "date": "2026-07-22T07:00:00.000Z"
+          },
+          {
+            "title": "Em encontro com indígenas, Lula promete recriar Ministério da Pesca",
+            "source": "Gazeta do Povo",
+            "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNU3o4dzM4TURSMlpaRzhZbFR0OXlia25JZnFFSjl6cnlMOW8tTWJ6ZzRCX3VSdERrTmtETXB2TGVROVcwaHZoX180VTBYWEVucDVidTE4emdJMThFUEdKYVMyUG1wQk9pdTNvS2Vkdk9xMHhsWmZWcGtrYk9UMU9kTDJXU2V3Mi13NWNmQ2JFQVpkUmc4UUpWekg3ZncyRE9JZ3VrQ3prRjlSbHNzdXJvUG9CSGJvUQ?oc=5",
+            "date": "2022-09-02T07:00:00.000Z"
+          },
+          {
+            "title": "Em audiência, senadores apoiam a pesca e a aquicultura do país — Senado Notícias",
+            "source": "Senado Federal",
+            "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQMWV6dzdodjlNX1BhUWFPR2xKREZ4OE82TWVHRDBnZFVwUkJyMnpsY2hVOEN4RVBLMk9ncUpiM2dDSGtNc0JrMm5JcnlPNnBqNHU2Ni1VYzNzMEFPU1ZPZ0NsRzRyY2Z6Ti1PdENtTlhraFpRTXdqVkJYTUV0UUJTYlBWQ2pGdzBqVXdJQUxEZjFFdjBjcGxUd1pXSl9qMnBzYnl5Vm1GeWEyZURMSW5lTjBsZjZoOHNRVVE?oc=5",
+            "date": "2023-03-30T07:00:00.000Z"
+          },
+          {
+            "title": "Lula promete criação de ministérios voltados à área social e ao meio ambiente",
+            "source": "CNN Brasil",
+            "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNRzE4RzAwZmh5RHAtSkdXbW9PbGRaSHZIbHhaQVNla09VemZoRzhRXzRDZl9PTWRpMGRDaldXdnJOdE9wZS1BU2dwa2IySTAyb19meHNEV0NQM3ZObXZqcE5nV24xY2FuakFELTU4OW90ZVhqYkYyMG92cG55SmJoY3lxOVRNeGtTSHZOR1NpYjJZNGlmb3FrR0FBbnBCaGc3dFdLSzJSTGp1cXpsWWJvT3F3YkR0U0E?oc=5",
+            "date": "2022-09-03T07:00:00.000Z"
+          },
+          {
+            "title": "Aliado de Ibaneis é cotado para chefiar a Pesca no governo Lula",
+            "source": "VEJA",
+            "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdXNzU1habjdxcThJaEQ4Q2tLbENpZzNnVkQ3cEZDaThpOHJkVV9hWkEzTkFWeXJJUGY4QmpEdTdSUkNRTGp1c0RXSzdXQ0RfN3hDcW9meUhHQ2s5T3BwdFZGcW5DSDVHTUxQUlJaRVRrbkF2ZVNFQ2daRGpfQmpCLWl4S3VHUi1zV0w4WWVMb0JFX1JXWmJuS29TUzVmUm4w?oc=5",
+            "date": "2022-12-11T08:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "title": "Criar o Ministério dos Povos Originários",
+        "theme": "administracao",
+        "status": "cumpriu",
+        "description": "Lula prometeu a criação do Ministério dos Povos Indígenas para concentrar as políticas e demandas dos povos originários no primeiro escalão de governo sob a liderança de uma pessoa indígena. O ministério foi criado em 1º de janeiro de 2023, sob o comando de Sonia Guajajara.",
+        "updates": [
+          {
+            "title": "Promessas de Lula: governo aprovou reforma tributária e isenção do IR, e não recriou Ministério da Segurança",
+            "source": "G1",
+            "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNZVlnb2pmY2VxMVByREtmakh5aTUxd0ZxU01tbXR5dHN6TXlSTlNXLWQxN1FxYS03R3h2NWdpdUVUYkt0UWVRdFduamY0RlNsWS1HbGVxSGl3X3VSYmdPcTVGaEdva0hCY2wwSy1PUjlZb3ZzNmNfQzcta0Z0YWdjbGhHN204T0s4TUs0WTdJTXVkN1dNTHdBc200Szc4YnJXY3JZUTNhWHFrd2pXT1V0c3JyeFQ3MS0zWTNuOFlkVFMtVG5lRXR6MkFjQ3B5bmlSajFUUjRMdWxWRnJuNEZJVUxMZTNxR2RmNl80VHRCWlI3eUXSAYICQVVfeXFMTm8xeTFNbmZsSlBaeGw2UVNtemwwaU5xZU1qTXhGYTk3U0ROSXp0cDBEODBtM3NLSC1PQnBQOW02Y25hVU1rZS1lQ0RrNUxxel9oRWI3dFpsM2hFNmVFSF9tSlhYSXBMSFU4QjVmQUhXXzNiZU51Y2x2YzdCTXhnZGRmRWJ3cEpUWFlBQnU5dkh4aUMtcFNzVzYzSEtkZ3hHZE1NS2hQMFB3TXVtRDJ2Tm9RVERwNVFYRTJyaHFnUjFFZm80dVQxb29Wem1yTFB6elAwNlBiM0NqZDFzdDh2R0tDOGlINzRudEZKLTNGQXRENmxRNnFpSGx4UmpaNTlOWHZR?oc=5",
+            "date": "2026-07-22T07:00:00.000Z"
+          },
+          {
+            "title": "Lula anuncia ao mundo Ministério dos Povos Originários em discurso no Egito",
+            "source": "((o))eco | Jornalismo Ambiental",
+            "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNX3g1bzFTRmJNQjBZQTJVNFRfT2tSMWtENVhBLXJBR0JiQUNvQVh0bDY1SnphSk9oUVV2R1FoalJiVTc4R3YyaFZQZnJLVnp5ZzhhSTRXWDdpU1JQWWJQWS1wanhFNUNXNVNweTB0b3J2RzA2MWo4Z3U3cTE4eDdXTUhVZFljQzE5eE5pYlp4M2hwd0x3bTBoRmk1bGZxR0lIMG1mMUhod3JpeGlN?oc=5",
+            "date": "2022-11-16T08:00:00.000Z"
+          },
+          {
+            "title": "APIB declara apoio a Lula no 2º turno das Eleições presidenciais",
+            "source": "Articulação dos Povos Indígenas do Brasil | APIB",
+            "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPSFQyaGpHcXlYVG1ySzdtTVo5b0pRaVdMLVNKNHpTYjd3NElTQzh0akdaSk40aVJib2k1Nm5GWmdPY2phMnZlbHd4VlZKSERmdmtkU2Vvakcta1c4UzEtVnZ1Y2JwYTZWUmxkQ3l6azZwNjV0N2F2TWM5MXl1bWZCNnFfcDBSNE1vdkhKb2xya0hRaGxvUHBVcDlpVWNObXV0bnc?oc=5",
+            "date": "2022-10-13T07:00:00.000Z"
+          },
+          {
+            "title": "O Ministério dos Povos Originários",
+            "source": "Universidade Federal de Santa Catarina (UFSC)",
+            "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1zbGh6UnkxMmNTMlBkVWgtTWRVUUFOYlZaZXdPbkJ4c1VZSUNIcXpqcWV1NGktXzVydTBJeEpqQjZ5V3N6LUJKaGItUF94U0NiektwZEdGVVhNOTAxelBaT0ZjR0owZw?oc=5",
+            "date": "2022-11-16T08:00:00.000Z"
+          },
+          {
+            "title": "Lula promete criar Ministério Indígena",
+            "source": "Amazônia Real",
+            "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE11NmFGUFhLc3ozbHpYWVQwODg3VUctU0Z3bVBBNjBtSGxrMFk4MUFwTDV2Rmg1RUdtdE14NDhfazNGMzFfWktkUUdycnBseUZjTTBDLVlNcVlTbDNZaDlxeFdyRVgxYWhuS1NocldSdTAxT3hSWE9Z?oc=5",
+            "date": "2022-04-12T07:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "title": "Recriar o Ministério da Cultura",
+        "theme": "administracao",
+        "status": "cumpriu",
+        "description": "Na campanha de 2022, Lula prometeu recriar o Ministério da Cultura, que na gestão Bolsonaro havia sido transformado em uma secretaria, que esteve nos guarda-chuvas do Ministério da Cidadania, em um primeiro momento, e do Ministério do Turismo, em uma segunda parte do governo. O petista recriou a pasta no primeiro dia de mandato, em 2023. A cantora Margareth Menezes assumiu a chefia do ministério já no início do governo.",
+        "updates": [
+          {
+            "title": "Promessas de Lula: governo aprovou reforma tributária e isenção do IR, e não recriou Ministério da Segurança",
+            "source": "G1",
+            "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNZVlnb2pmY2VxMVByREtmakh5aTUxd0ZxU01tbXR5dHN6TXlSTlNXLWQxN1FxYS03R3h2NWdpdUVUYkt0UWVRdFduamY0RlNsWS1HbGVxSGl3X3VSYmdPcTVGaEdva0hCY2wwSy1PUjlZb3ZzNmNfQzcta0Z0YWdjbGhHN204T0s4TUs0WTdJTXVkN1dNTHdBc200Szc4YnJXY3JZUTNhWHFrd2pXT1V0c3JyeFQ3MS0zWTNuOFlkVFMtVG5lRXR6MkFjQ3B5bmlSajFUUjRMdWxWRnJuNEZJVUxMZTNxR2RmNl80VHRCWlI3eUXSAYICQVVfeXFMTm8xeTFNbmZsSlBaeGw2UVNtemwwaU5xZU1qTXhGYTk3U0ROSXp0cDBEODBtM3NLSC1PQnBQOW02Y25hVU1rZS1lQ0RrNUxxel9oRWI3dFpsM2hFNmVFSF9tSlhYSXBMSFU4QjVmQUhXXzNiZU51Y2x2YzdCTXhnZGRmRWJ3cEpUWFlBQnU5dkh4aUMtcFNzVzYzSEtkZ3hHZE1NS2hQMFB3TXVtRDJ2Tm9RVERwNVFYRTJyaHFnUjFFZm80dVQxb29Wem1yTFB6elAwNlBiM0NqZDFzdDh2R0tDOGlINzRudEZKLTNGQXRENmxRNnFpSGx4UmpaNTlOWHZR?oc=5",
+            "date": "2026-07-22T07:00:00.000Z"
+          },
+          {
+            "title": "Reconstrução do ministério é primeira tarefa na área da cultura",
+            "source": "Agência Brasil",
+            "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPcG5WUXhpNXhaVlpjR3loa3Z4a2tndVBiS01TWEdXVUdyZnBXLVBQWFRNM0RhQndobHJlc0tPU3ZiOEFhRGZDZm85V3N1WnJTUHhLRmI4OHo3dU01SUxNeGhGbUdSOHJMeWM2aEwwa1FaWTNYTXEyT2poN1MwZHJlQVFQX3o3SEZ3MEpOZEZDRmhGcXJHOU1zbEUxekhlYktELUN6M3JwTmtSbnRfdDd5dlRaYmFRWVFlTUNOUkNR?oc=5",
+            "date": "2022-12-31T08:00:00.000Z"
+          },
+          {
+            "title": "Lula diz que recriará Ministério da Cultura",
+            "source": "Poder360",
+            "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNN05yTXhGSU9HR0ZoZURmV1hvSVNNMzhMUXFqRWtESVotd0xxbmlCemFVRHRpV0ZrMF94ZTVjN242czB1NHhicGh0eWNDM3FoRTFzVkhpek95TjlKaE1Tek10VUxIZ2dQeEhRYWJpU0szSktJc01SLWdvZW9GaE9sdWNIU2hKSFFE?oc=5",
+            "date": "2022-05-11T07:00:00.000Z"
+          },
+          {
+            "title": "“Nunca mais o país entrará na escuridão do fim da cultura”, diz Lula",
+            "source": "Mídia NINJA",
+            "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNV2p6UU84T0VDN3EtSUhwdTl5aGtlOEY4YnNQaEFzc3BlX0VkNHdYaXFJNVR0SUUzX0FmRlcxUThQVmdzaFZhSzB6bllGQWZfQlFYUHNJUTdpMjhHNUdKalhYS1E4ekU1UDQzbl9UVTlIYzhzNFVsa1NtWXpjTjB5blhfcjkzQWRJdEtqZWlxY3cxbVE?oc=5",
+            "date": "2024-03-05T08:00:00.000Z"
+          },
+          {
+            "title": "Margareth Menezes: 'Igrejas encontram espaço em vazios culturais'",
+            "source": "BBC",
+            "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE94dWd1aDhERWpYTU1UZllZYTBUd1NIYTFPd1ZReE85VnF5bVd6U1liNERkdzlTUjc0NEJPY0JHajk3bk5WQVhjS2VUajU2WTQzQVJfX21TR2ppX0xucHBNUVlB0gFnQVVfeXFMT1ZNYXR3cWVha0pBT3JWeDRCTlQ2aWd4REQteGdXRFdpRllnMkJ1cFFMNjBTZjlKdy1vNW9FTXY0NTZSVjg3Vk1TSjdlMWlYTjBPQ3FpcjVBUmtQMHY3WFJ4Vkg2cy1NWQ?oc=5",
+            "date": "2024-03-22T07:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "title": "Fim do orçamento secreto e criação de um orçamento participativo",
+        "theme": "administracao",
+        "status": "em_parte",
+        "description": "Durante a campanha de 2022, Lula prometeu implementar um modelo de orçamento participativo para contrapor o chamado \"orçamento secreto\", apelido dado a um mecanismo de distribuição de dinheiro público por meio das emendas de relator e proibido pelo Supremo Tribunal Federal (STF) por falta de transparência. Criado em 2019, no governo Bolsonaro, o modelo permitia que deputados e senadores destinassem bilhões do orçamento do governo a seus estados e municípios sem que seus nomes fossem revelados e sem a devida transparência sobre o destino desses recursos. Em dezembro de 2022, antes de Lula tomar posse, o \"orçamento secreto\" foi proibido pelo STF por violar a Constituição. Depois disso, o Congresso adotou práticas parecidas usando outros tipos de emenda, como as de comissão. Na prática, continua existindo a distribuição de dinheiro público com pouca transparência sobre quem pediu, para onde foi o recurso e quais critérios foram usados. Relatórios de órgãos de controle e de entidades como a Transparência Brasil mostram que as chamadas emendas de comissão são usadas para driblar as exigências de transparência. Em relação ao orçamento participativo, a Secretaria Geral da Presidência da República (SGPR) realizou, em 2023, reuniões das quais participaram presencialmente 34 mil pessoas. Outras 1,4 milhão deram sugestões por meio da plataforma online disponibilizada pela secretaria, segundo o governo. No total, foram contabilizados mais de 4 milhões de acessos à plataforma.",
+        "updates": [
+          {
+            "title": "Promessas de Lula: governo aprovou reforma tributária e isenção do IR, e não recriou Ministério da Segurança",
+            "source": "G1",
+            "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNZVlnb2pmY2VxMVByREtmakh5aTUxd0ZxU01tbXR5dHN6TXlSTlNXLWQxN1FxYS03R3h2NWdpdUVUYkt0UWVRdFduamY0RlNsWS1HbGVxSGl3X3VSYmdPcTVGaEdva0hCY2wwSy1PUjlZb3ZzNmNfQzcta0Z0YWdjbGhHN204T0s4TUs0WTdJTXVkN1dNTHdBc200Szc4YnJXY3JZUTNhWHFrd2pXT1V0c3JyeFQ3MS0zWTNuOFlkVFMtVG5lRXR6MkFjQ3B5bmlSajFUUjRMdWxWRnJuNEZJVUxMZTNxR2RmNl80VHRCWlI3eUXSAYICQVVfeXFMTm8xeTFNbmZsSlBaeGw2UVNtemwwaU5xZU1qTXhGYTk3U0ROSXp0cDBEODBtM3NLSC1PQnBQOW02Y25hVU1rZS1lQ0RrNUxxel9oRWI3dFpsM2hFNmVFSF9tSlhYSXBMSFU4QjVmQUhXXzNiZU51Y2x2YzdCTXhnZGRmRWJ3cEpUWFlBQnU5dkh4aUMtcFNzVzYzSEtkZ3hHZE1NS2hQMFB3TXVtRDJ2Tm9RVERwNVFYRTJyaHFnUjFFZm80dVQxb29Wem1yTFB6elAwNlBiM0NqZDFzdDh2R0tDOGlINzRudEZKLTNGQXRENmxRNnFpSGx4UmpaNTlOWHZR?oc=5",
+            "date": "2026-07-22T07:00:00.000Z"
+          },
+          {
+            "title": "Lula já cumpriu mais de 80% das promessas feitas em 2022",
+            "source": "Vermelho",
+            "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQclVSbWk4d0dXR1NxaFJPSDloUXBSQnFmVm93V0dCM0IwSGpjZUZQbnFxX2tvRU83em95cjR1dW5JYXY1Zm9PRXVJdnh4OUVLbkdZWnd4ek5mX2lXNDYxOFlhMFVpaExSNkR2OEJOa0l5OUEwSkFEeXF0QWx4bEJvQnJjQ25Hb0xjcllZR3g0TmlhU1E?oc=5",
+            "date": "2026-08-04T07:00:00.000Z"
+          },
+          {
+            "title": "Técnicos apontam desafios para orçamento participativo nacional",
+            "source": "Portal da Câmara dos Deputados",
+            "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPWU5oTmJEQU5ZUE9MYzJrMjdxdGRnUFhKX2lrWnExVVNHZHNKamc5VGVkMGlzblliUFV6VEhrZGpHd3FIb2txeExTTmNEeXZhMUV6dWtoUW5OQm9qUmx3QTBRdTl6TXJ4Z0FFalhPS3BtVXptLXdLNFZOLUVsUUo4SXpkVUxFVXUtbXBjTHlmSkw2QXRwZWJnTWtXMGlFdXJYX2s2Vi02bkdrUQ?oc=5",
+            "date": "2022-11-23T08:00:00.000Z"
+          },
+          {
+            "title": "Lula diz que o orçamento secreto é uma ‘podridão’ e defende ‘orçamento participativo’",
+            "source": "CartaCapital",
+            "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOeWZ2MlFiUWViMEZJUFFRSlk2MTdidVQzM3FxZUhhaHg1MFk4ZUlQdUdFN25mMGVXZkVEMXVlMXNGWVBFZ1VYeG1TcDVDY3F6RC15cWZ4elh6RjFrQXRJSGtDeTdUQzd1UEFQQkxkVXlqak9teVJ6SVVsd1BpenlnUThkVndxRU1lNzJQSnMyenVkS1pFMENxMmF2UWNlYlBWRWU5ZExNMlhJVk4wTnd4T2hqYTJBZTFCYlJ4aDRYZS0?oc=5",
+            "date": "2022-07-13T07:00:00.000Z"
+          },
+          {
+            "title": "Qual a viabilidade de um orçamento participativo federal",
+            "source": "Nexo Jornal",
+            "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQcy1JV2Q3Nl9ubm9yb2NJSnI4c2VTdUU1OF9jUjRjS2NxbnlUSXUxN1lkWEp5SEwySkU0cjJnc0M3eW1JTXI3NXNhempvbVYxU2xSNzR6ME1WSm5aVEs3SmFWcUtrTTRRd1VFejMyRlZWOHpreVZiUXd5QnNidm1BdnZwSGFDNGk3LWRyZzAwZDgyNHYxaVc2dVpfZHVEQ0N6MUR6S3dQYU5xZw?oc=5",
+            "date": "2023-03-12T08:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "title": "Não se candidatar para o 2º mandato",
+        "theme": "administracao",
+        "status": "nao_cumpriu",
+        "description": "Durante a campanha de 2022, Lula afirmou que seria presidente de um mandato só. Essa promessa não foi cumprida, e ele será candidato mais uma vez neste ano tendo Geraldo Alckmin como vice.",
+        "updates": [
+          {
+            "title": "Flávio Bolsonaro (PL) e Lula (PT) vão disputar o 2º turno para a Presidência da República",
+            "source": "Tribunal Superior Eleitoral",
+            "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNajZUMmExR1hxNE5MWjFGVXZNNFZoVDFXbmFQZFl5RS1NQlJ1V3JlNUdudnB4U3F3MEpscFhWWjdFWTZFRDRFVXVhaHV6eFBLYXoyc0luQ3dMOF81TWhSeVdVbXY2THZoQzltWmdqRGpyUkxIMzlId25PblZnZzdPYVNmOWtEZmNlUzlSMGp2bFN1dTZhbUlQSEo4S2hFTHJmbEdocWRZX0NRbEl3UlJCaDl2Y0xOdVAyanFUc1M5R0pIb2phY3dIZnVkUHlLMTVXdkE?oc=5",
+            "date": "2026-10-05T07:00:00.000Z"
+          },
+          {
+            "title": "Flávio e Lula vão disputar 2º turno para presidente da República",
+            "source": "Agência Brasil",
+            "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQdTVNblBWbUV5NHBzRWlNUllGczdtR09LTktPaXptN0RnU1I5aGxHN3dyQXRfdl96TWZyc3JfMmNIMGFYUHI3dXA5NG1jd3dmeVU4eEdVMW5fSi1DR3hhTWJyUmdlWnc3eFZkTE1lQmVlNnpueDIzYklBRzVQNjI2SU1Ud3gyN1h1VHRya2lTWkd6UkYtVFdGQmNBUVN2MkdwWnk1cG1jUUd6MEJ1d1d3VXduWjJGaV95bUhJOC1Bbw?oc=5",
+            "date": "2026-10-04T07:00:00.000Z"
+          },
+          {
+            "title": "Flávio Bolsonaro x Lula: os contrastes dos projetos de Brasil que vão para o 2º turno",
+            "source": "BBC",
+            "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE96N3g5a0pYQUc0cXFabkF3bWFoZm8yWUhNd0xaTUVxN3FXSlB3Q1V5NERkYkhFYkhxU0pjdVg0bHNUUF9xdGpoQUE3ZUNKNGlSV2d1bTZBUnZYY1QtWjAzSGNmOA?oc=5",
+            "date": "2026-10-04T07:00:00.000Z"
+          },
+          {
+            "title": "Lula no segundo turno: veja o que o petista propõe para um quarto mandato, se for reeleito",
+            "source": "G1",
+            "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPbHdGOC0wa3dYdlkwYkVsTXFuU05tWENmUkhlMXhCTWhnTE1MdEc0OUlHbjJXZ2VMWHFkOW1GaEVsc1ZSZWQxUFVoX3liN3ZWZEI3c0Zndm9Cc3hQNks3by1YMkJpZUJVR0hZd09XTXVMMHc3MFZ0cVQtYjFtZkhQWGR2Tks4RzY2b3VNbmt0R3kyckVyQW4za3FDTEdyeXhvekdCZWk3RW9VMkVSRnlxaF96dWtGSElnVWozRDcwRHdOSWUyd0VBMjd5OUNZdkxiUFc1d2gwMVNUclBKd1ZIcXU4V3BUcERNdG0teTB30gH8AUFVX3lxTE1Dck9lMFByZnhMV1h1aGU4ckpPZURuMU9fRzQyMlZ1dmFhS3FXMmdNVUFjX0J4QUMyNnRGd3Y3X2NrdFQwZEg4N09tVTdoblJ5TXhHakdkLUZQS2ZjREkxYVIxa2ZDdjZFNDYtd09xd1JXeHZMRHdiWDBnOTdWeUdGS091T1pQWHQyV3lzbnRWOVR0Q20tUXlXT1pfQlc4TkdYeEdLSGpEalBLM2xUY2hud19RaUk1anBoSDFIcXpiSER6eWpRSjlWNnA2cF9DTldxV1gxVWMtQldaY1E1WW5xSUFrNFN2WU9ERnE4ajA2VzNrMHJpRW5RdjJEUw?oc=5",
+            "date": "2026-10-05T07:00:00.000Z"
+          },
+          {
+            "title": "Flávio Bolsonaro e Lula disputarão 2º turno da eleição presidencial",
+            "source": "CNN Brasil",
+            "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNSGhLNF9iUnlkRkZsbmRwcjI4T2dobTB4TjdpQ3BNbi1lWWhKUTdVVG9Oc2VzbHhyU0RZX0ZVMlNObWowajJQOXlVaTM1UTRYNk9nRkVoWTI3aGZJWmFDYUl4TEJqWW1zMkllY2pLenREcWhmNXlvWTFjcEk0bnVPbUhxbVhZUDZGaURyd0tzdExHR0EwMmxWUGRoa19wLWdDQ1RVaDZJQUlwZw?oc=5",
+            "date": "2026-10-05T07:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "title": "Recriar o Ministério de Segurança Pública",
+        "theme": "administracao",
+        "status": "nao_cumpriu",
+        "description": "Lula prometeu recriar o Ministério da Segurança Pública para aumentar a participação do governo federal no combate ao crime organizado e ao narcotráfico. Pelo modelo vigente, a responsabilidade maior sobre o policiamento recai sobre os governos estaduais, embora a Polícia Federal também atue. A promessa de recriar um ministério da área, que existiu no governo de Michel Temer, não foi cumprida até o momento. Nos últimos meses, Lula tem dito que só vai avançar com essa pauta após o Congresso aprovar a chamada PEC da Segurança, proposta que altera a Constituição e, entre outras medidas, divide a responsabilidade sobre a segurança pública entre o governo federal e os estados. A PEC está parada no Senado, sem perspectiva de votação.",
+        "updates": [
+          {
+            "title": "Lula propõe recriar Ministério da Segurança Pública e promete aumento real do salário mínimo",
+            "source": "CartaCapital",
+            "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQU2RzRHp1dElvMGMtQ3NPYjdoQjBuWWo1VXY4cTR5dGhrV09wS0RQTGNXWVlmaC1fR2FjLVdaTlpkTm55TkxjTm9EUW5SRWZCX29ZWmhqN3VJdnJ6c00zQnFoYk1tSVBrb0RCS1RTRUxBMmVHbVVMZDhFRmNEUnJ0b21ybVE1M0RZVzc3a1RTUW8wSXB6cGF5NVlPdWhPaVRlWW9QRnhHN0l6TWw3dmFEb25oUzd6dDB6ejRTQnJ5a1BGQ0hVcVFXcXFmaXZ0ZXdPREM4?oc=5",
+            "date": "2026-09-18T07:00:00.000Z"
+          },
+          {
+            "title": "‘Atrelar financiamento da segurança a algo tão nocivo como bets é um contrassenso’, diz secretário",
+            "source": "Estadão",
+            "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQTkhITWZ6bXBVZ0Q1dFBVUk9POE52WWdkVXdPU2NqUnB4M1FremdvVm1PTkdfd3c2SW1xX0Q0cklFOEZTNUlMREg0OHdQaEp4UXhaek5ZQm82TFpxQm9fYmh4Tkl5WmNVOWlaRTVVZnlYd1B1czNsMnZVcHJLWXF1M3RLNmh0aG9RbTF2UWZFald5VVdqd3kzd0I5V3NJVzlVcW10RWd6cUlrSG1QblNyR210akFnc1VCOHNFQjl1anhfQjZJVHp6NFBtcFrSAdIBQVVfeXFMT3JURTJxVFAwR1k3Y0pTSjhIcUhtemVia0h3eEdvQUF4eUNGTjUtcDZOTFY4M0RpaUMzLUlQeTBSM2ZOQUhrZ1VxMTZaUmRCR3ZzWWg0YnJBUXdOYkdSVWlnN3N5T0NSTkpNUENWT1pJTnFpSUNuUzF6MEJWVEFjdjJhZkpST3Z4SUd0SUFISXRrM1d1ZkpMTExYUXd6WGg2T0hRWF9BVDV3MkoxNkQzY1Nnc2JpUTUzSjFPZTVuM1ozdGF4UURGUVpuelIxSGlFRlln?oc=5",
+            "date": "2026-09-24T07:00:00.000Z"
+          },
+          {
+            "title": "“O que não pode é o presidente da Corte Eleitoral ter lado na política”, diz Lula",
+            "source": "Jornal O Sul",
+            "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNZkgyamh4MHFiM1JmZE5QRFQ4MllQVE1xeDdpMnk5Z0lPZy1YY3ZNUWYtSHF5Nk9MdF9ZYTA4NDBsSEY2UGZIRmNmbHZKM3RLU0RhelJyU1hCMVhoajY4ekNlZm9HREpCNDJPeHBfOWxFcjFWczBmbnRtcW9Sbkx0Z3Fkb3YxTWRjUTBPTTdoMHR6VW5Pdy0wMmlpMlgzdXJVU09zMllSbjBib3fSAasBQVVfeXFMTWZIMmpoeDBxYjNSZmROUERUODJZUFRNcXg3aTJ5OWdJT2ctWGN2TVFmLUhxeTZPTHRfWWEwODQwbEhGNlBmSEZjZmx2SjN0S1NEYXpSclNYQjFYaGo2OHpDZWZvR0RKQjQyT3hwXzlsRXIxVnMwZm50bXFvUm5MdGdxZG92MU1kY1EwT003aDB0elVuT3ctMDJpaTJYM3VyVVNPczJZUm4wYm93?oc=5",
+            "date": "2026-10-12T23:16:24.000Z"
+          },
+          {
+            "title": "Lista de nomes cotados para assumir o Ministério da Segurança tem mudanças",
+            "source": "PlatôBR",
+            "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOX0R3TXI5enZRWm9pOWJXdzJKdVlmTjlhenV6MEN5aWswV2p0VVpUb05BbklHMkpNTHRjNVlOaGdNOWFrT19TbFNOLW5yOGNVWTQtVnJsT2xqMmtoS2VMMTdGV1N5UXotSGhoU2pMc2JMajRQZXpfTUEyWWpEc2hueFhCM2dDYVFQbng3YUtiNFNLNkVTbDZrVWlleWM5SmNaTUZZcjRn?oc=5",
+            "date": "2026-08-26T07:00:00.000Z"
+          },
+          {
+            "title": "Lula volta a prometer Ministério da Segurança Pública que não criou no atual mandato",
+            "source": "Gazeta do Povo",
+            "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNRVRLdlZoWTNXWEVpZEViMTB3SzQ2dENydXlEMnBJUWZSNENWNGVnMG45WHd1X2dxNjJLWHlYMDY5WTBpeHpvNnpHcUJEMTcxUmN6VjVPYlk1NnE4WThFY1A1ajY0Ym9DYmtCLVFPYm9MVU12V2tfSTZTSDY3QU1udlpjT1N4eS13RnV5NEdnOHlYaHB6UDk0Q3RvNXBiRzk5MXBieW1GWmRObVNZdWc?oc=5",
+            "date": "2026-08-08T07:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "title": "Universalizar acessos a luz e água",
+        "theme": "infraestrutura",
+        "status": "nao_cumpriu",
+        "description": "O então candidato assumiu metas de universalizar o acesso à energia elétrica e à água para populações vulneráveis e áreas isoladas. Conforme o governo, o percentual da população com energia elétrica atingiu 99,8%, e o Programa Luz para Todos foi retomado em 2023 juntamente com as contratações do Programa Cisternas. A universalização plena, contudo, ainda não foi atingida.",
+        "updates": [
+          {
+            "title": "Promessas de Lula: governo aprovou reforma tributária e isenção do IR, e não recriou Ministério da Segurança",
+            "source": "G1",
+            "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNZVlnb2pmY2VxMVByREtmakh5aTUxd0ZxU01tbXR5dHN6TXlSTlNXLWQxN1FxYS03R3h2NWdpdUVUYkt0UWVRdFduamY0RlNsWS1HbGVxSGl3X3VSYmdPcTVGaEdva0hCY2wwSy1PUjlZb3ZzNmNfQzcta0Z0YWdjbGhHN204T0s4TUs0WTdJTXVkN1dNTHdBc200Szc4YnJXY3JZUTNhWHFrd2pXT1V0c3JyeFQ3MS0zWTNuOFlkVFMtVG5lRXR6MkFjQ3B5bmlSajFUUjRMdWxWRnJuNEZJVUxMZTNxR2RmNl80VHRCWlI3eUXSAYICQVVfeXFMTm8xeTFNbmZsSlBaeGw2UVNtemwwaU5xZU1qTXhGYTk3U0ROSXp0cDBEODBtM3NLSC1PQnBQOW02Y25hVU1rZS1lQ0RrNUxxel9oRWI3dFpsM2hFNmVFSF9tSlhYSXBMSFU4QjVmQUhXXzNiZU51Y2x2YzdCTXhnZGRmRWJ3cEpUWFlBQnU5dkh4aUMtcFNzVzYzSEtkZ3hHZE1NS2hQMFB3TXVtRDJ2Tm9RVERwNVFYRTJyaHFnUjFFZm80dVQxb29Wem1yTFB6elAwNlBiM0NqZDFzdDh2R0tDOGlINzRudEZKLTNGQXRENmxRNnFpSGx4UmpaNTlOWHZR?oc=5",
+            "date": "2026-07-22T07:00:00.000Z"
+          },
+          {
+            "title": "Governo amplia Luz para Todos na Amazônia Legal",
+            "source": "Portal do Comércio",
+            "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQR2NUbFJrN05ZTUhhcWgyM0tqTTlWcWRDRHkyMi1qRlVwZXpZdGxFTUozRnk5YVdLQjRUekVfaDF1b0JHLTFPWUp0Y0Vsam50a3BSTVBqVUQ3RVBaOThfOXQ0cjlOM1lfOE81T0xlRWZWWGdCXzAxV0p3N2VwMEFEb1hXX3I0TnlQRVpwd041QnNlVGlRZG9sV1VBWm1ndw?oc=5",
+            "date": "2026-05-12T07:00:00.000Z"
+          },
+          {
+            "title": "Lula disse, mas não fez: o balanço de um mandato de promessas furadas",
+            "source": "Gazeta do Povo",
+            "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOY0NiVXlrOTNkeGJvYUR5T2swMjhRMHU2OXloWTVDQzJsTlIxYVBwRU0zcUs0Y2pGVTA3N2trN2ozSndGcU5sQUYyNzR6cDZGM1dCdWN3OXNBcjB5ZVNFUmlGVlZCY0NKdEtydW9mRXE1ZHdNcHRIdnFsaTRxVjBCS1hKNHNRdTVoWHhCcWYtRQ?oc=5",
+            "date": "2026-08-02T07:00:00.000Z"
+          },
+          {
+            "title": "Rafael prevê investimento de R$ 8 bilhões para acabar com déficit de água no Piauí",
+            "source": "Portal Piauí Hoje",
+            "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPRnhtcTZyNmhfMDBrcUNnWnRrS09zRkg5RlNHbE1NZTNiZXl6amgtZ2swaVRGXzQ1cGEtcXdhUm1PQllwdzBENzFvYnQyd1VvRks0YmlpTTg4TGNndC1zZHZIOEk1OEhxb05oaDZyd3FDM1hoZjRUUzlSeGw0TjdGVV83WjQ3TkUxUUFCaEVodVp5VDBwbXFQMDVudWxCYzgzUVdVZzV2WkdiUlc4TGhvTFNHOFhrYnhhODZQWHl0SjZGQXBDY0ttSUw0V3k2d9IB0wFBVV95cUxNeW5lYWdlem9qc0FWSGx3MGQyRHo5d1owem02RDdYbW5RLVQ5aU43UzdOMVFKd19OY19yeFJvNzVEMVc4MDNXdk1IdHl0THFMQzFiOG9NNVZMUks0S1JRUHl1SE5NeDR3eWhwUnBJMFhNRl9VaXVlMVZpc2hTdFJQbmRqQ1Znak9tbzFSVFY2WUFYOXhKOXFrSmU4cVhDbjl1LVVKUkd0Rm9MVHh3ZkRkZEYtT2xFS19XSENtN3k2TEZXY2pZZkltWlZybWNHNjBqaUVN?oc=5",
+            "date": "2026-09-16T07:00:00.000Z"
+          },
+          {
+            "title": "Lula amplia programa Luz para Todos com foco em regiões rurais da Amazônia",
+            "source": "OpiniãoCE",
+            "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPMmt5ZGo0LXZhNjdnNzFScUZVdmVFUUFVZUNrTG9SSVNjcTJnTFVnREtUQmhXTkx2MGlJTWZMZ0hTQjhzcTNrcndLVmpjSkdRZmxQNldKQ25KLXZIRDRTeEtXd0wzZjB2SWtMdkcyTUg0T2drMW44aVFlMk9ERHg1RkFIUm1qeXhPYl9SNExqbmxzWEdkc1BR?oc=5",
+            "date": "2026-05-11T07:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "title": "Bolsa Família: manter benefício em R$ 600 + R$ 150 por filho",
+        "theme": "direitos-humanos",
+        "status": "cumpriu",
+        "description": "Lula prometeu na campanha reajustar o Bolsa Família para assegurar o piso de R$ 600 por beneficiário e o adicional de R$ 150 por filho de até seis anos de idade. Isso foi feito. Segundo o governo, todas as famílias beneficiárias recebem no mínimo R$ 600, acrescidos do adicional de R$ 150 por criança de até seis anos.",
+        "updates": [
+          {
+            "title": "Promessas de Lula: governo aprovou reforma tributária e isenção do IR, e não recriou Ministério da Segurança",
+            "source": "G1",
+            "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNZVlnb2pmY2VxMVByREtmakh5aTUxd0ZxU01tbXR5dHN6TXlSTlNXLWQxN1FxYS03R3h2NWdpdUVUYkt0UWVRdFduamY0RlNsWS1HbGVxSGl3X3VSYmdPcTVGaEdva0hCY2wwSy1PUjlZb3ZzNmNfQzcta0Z0YWdjbGhHN204T0s4TUs0WTdJTXVkN1dNTHdBc200Szc4YnJXY3JZUTNhWHFrd2pXT1V0c3JyeFQ3MS0zWTNuOFlkVFMtVG5lRXR6MkFjQ3B5bmlSajFUUjRMdWxWRnJuNEZJVUxMZTNxR2RmNl80VHRCWlI3eUXSAYICQVVfeXFMTm8xeTFNbmZsSlBaeGw2UVNtemwwaU5xZU1qTXhGYTk3U0ROSXp0cDBEODBtM3NLSC1PQnBQOW02Y25hVU1rZS1lQ0RrNUxxel9oRWI3dFpsM2hFNmVFSF9tSlhYSXBMSFU4QjVmQUhXXzNiZU51Y2x2YzdCTXhnZGRmRWJ3cEpUWFlBQnU5dkh4aUMtcFNzVzYzSEtkZ3hHZE1NS2hQMFB3TXVtRDJ2Tm9RVERwNVFYRTJyaHFnUjFFZm80dVQxb29Wem1yTFB6elAwNlBiM0NqZDFzdDh2R0tDOGlINzRudEZKLTNGQXRENmxRNnFpSGx4UmpaNTlOWHZR?oc=5",
+            "date": "2026-07-22T07:00:00.000Z"
+          },
+          {
+            "title": "É falso que Lula reduziu Bolsa Família de R$ 600 para R$ 150",
+            "source": "Aos Fatos",
+            "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPSWdZVnNnTjRsMjctdDd2NUltYTZwel9tbFZOWUpabndueFRPa2NqQ0piMXZWakFpQ1J3Ymx4bWlIXzdIaGhwZXJDbl9zMVotSG0yVmVqdmZySFhPQ0pTUUtZYWh4UzVQQ05vampLS1JHTjJvZU9CSm4zOUN4UHRqUG1B?oc=5",
+            "date": "2023-01-18T08:00:00.000Z"
+          },
+          {
+            "title": "PEC da Transição custará entre R$ 170 bi e R$ 175 bi, diz senador",
+            "source": "Agência Brasil",
+            "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQUW9xOUtzNWpCamFRTmV0Q3VzdS1TOExKb09mY2s5RFAzZUNPZUdRZTc5bjRGcmRBZjdRdjJtQWZTRnU1Q0NZaDdrNUljMC00RkltOHREcFZVQzB2dmNRUUhLakt6NFREcnRGV0pNYmFDeDhLY3RsTkctV2hNMkJHNHZDNUxCcjZwWjFHQlhkdTVtenRIeG85U09QR09vdGNNQi1wRF96VXRFc1VyWXFFd0pDbzRWa004S0I4Sw?oc=5",
+            "date": "2022-11-09T08:00:00.000Z"
+          },
+          {
+            "title": "Campanha de Lula promete mais R$ 150 por criança no Bolsa Família em nova ofensiva eleitoral",
+            "source": "Folha de S.Paulo",
+            "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQRXBzX3VGSktBd0J3V1ZmM1p1b3FKZTgtYUdJMWdOOTNSNmFHMVVvRTlpRThCYjNGR29fVDBRa2w0c0M0VmljSkdZa1hGaWZkWFhXOHZDSnFIZDEyYXluTU5LNEo0cTZmTFZYVGxZZFFoWkN5R1Z6T0x0Q0VwSDFwRlBLT3RVWTRpaG5HOG5rQUZfZU9obzVmM0FxU0Exc01wQjN4eTEtOC1reFd2VHB2ZkEtZVZHa04xX1pFamtvdmpicFBYQkZ4UlF0bC1FS3FMNFpRX0pfdUxsNl82Mkx3TnZ6M1VDZ1XSAewBQVVfeXFMTVhoSEhIaC1vVGViVnNSVDlaNlNxSlA4dGliV3g4bHlvMm05Y0xYVWt1c1VzV2VSdEE4MTZDVmRpNExTdnRuWXpDNVE0OVhNaGJ5MjFhYUxISklUN2FOb19UbEZYUUl1TFdwUnRQc0RVREEwbHR3aU9qR2hCWV9IS1VMSVp1RlhjSHl4Z1FvQTJLN1F3MzFfLTRKcElTdlNCYTVXOUxZWUk0TlRLOFhrbUo5bzJqcWtZU2hwcC1OaWNmYzRWVzZoZ0FyZmZYeG0zT3pZZmFJbmg5cGJ0Q1o0NXE0QkpYXzVVM290ODM?oc=5",
+            "date": "2022-08-29T07:00:00.000Z"
+          },
+          {
+            "title": "As promessas de Lula para o eleitor ficar de olho",
+            "source": "BBC",
+            "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1QeXBGX0Foa3RGWlFraE5rWGhJaHJBU291cUQxY1N0a21TVkVlRm8ybHFlOWNPdHBVczhFLVZ6azBtMkVVcEdnZlpfZU1nMTFtZ1lwb0h4RlZLZ9IBX0FVX3lxTE80RThId0ZpWHpfQmVzNkJOM2Z5WEFhZHRmbzNRb215TERmM20xTDN3ejNzZlZQVkZnb0pJQV9DVzRZS0dvMFhIWG1QOVdGMVBiRWlKTmFKenFoSW02ZmtB?oc=5",
+            "date": "2023-01-02T08:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "title": "Aumentar o salário mínimo todo ano acima da inflação",
+        "theme": "direitos-humanos",
+        "status": "cumpriu",
+        "description": "O governo Lula retomou a Política de Valorização do Salário Mínimo em 2023. O cálculo considera a inflação medida pelo Índice Nacional de Preços ao Consumidor (INPC) em 12 meses e o crescimento do PIB dos dois anos anteriores. A correção do salário mínimo está limitada a 2,5%, segundo regras previstas no arcabouço fiscal para limitar o crescimento do gasto público. O valor atual do salário mínimo é R$ 1.621,00.",
+        "updates": [
+          {
+            "title": "A promessa de Flávio Bolsonaro para o aumento do salário mínimo",
+            "source": "VEJA",
+            "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSkV5cmZWbllTX2dJMkxwOC1lWXh1bU9iWjRSUnVuQmQ1akZ5dHljTTljSk94Rm0zZE9CYzJVaHZxSlMzRzB4U3VpU211dnVrcE1UR3BmeF92cEh6SUZTcmNPZ3ZMRDg4M2tsXzdWSVYtVUFWNkRaeENFOW1wblE5VWFPV21TRjluUUFVbkNTSlVxR3ZHX215Y3ZFOXdxT0hlT2ZZQzQ4ZHN0MENzQzBjb2RfcWVqcDFjTnVabw?oc=5",
+            "date": "2026-10-09T17:55:51.000Z"
+          },
+          {
+            "title": "Lula propõe criar Ministério da Segurança e aumento real do mínimo",
+            "source": "Agência Brasil",
+            "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOZm5CVEVCWHNLeTBfbFZhVFJfVnNkWkNiNkY5RnROODlrUzUwd2FPWFRqVmZZU1hDX3gwQXZIQ2wzc2lfaVlHZkdCZERZb3ZkNmlfMnNFNElfTVNyeVZVdmxNUGRkd0JQT2wtQkZEeFp6S1QzRkcyVW9wVW1VNjZvUkxMZmdpVnJZcWdoT2d4cFJLSU9BcHNscjRJakNpTTZoTk1VbjNjckI1c0wtMmRITWhoZ0lQeVJpZFhRRXBYcDhGQQ?oc=5",
+            "date": "2026-09-18T07:00:00.000Z"
+          },
+          {
+            "title": "Promessas de Lula: governo aprovou reforma tributária e isenção do IR, e não recriou Ministério da Segurança",
+            "source": "G1",
+            "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNZVlnb2pmY2VxMVByREtmakh5aTUxd0ZxU01tbXR5dHN6TXlSTlNXLWQxN1FxYS03R3h2NWdpdUVUYkt0UWVRdFduamY0RlNsWS1HbGVxSGl3X3VSYmdPcTVGaEdva0hCY2wwSy1PUjlZb3ZzNmNfQzcta0Z0YWdjbGhHN204T0s4TUs0WTdJTXVkN1dNTHdBc200Szc4YnJXY3JZUTNhWHFrd2pXT1V0c3JyeFQ3MS0zWTNuOFlkVFMtVG5lRXR6MkFjQ3B5bmlSajFUUjRMdWxWRnJuNEZJVUxMZTNxR2RmNl80VHRCWlI3eUXSAYICQVVfeXFMTm8xeTFNbmZsSlBaeGw2UVNtemwwaU5xZU1qTXhGYTk3U0ROSXp0cDBEODBtM3NLSC1PQnBQOW02Y25hVU1rZS1lQ0RrNUxxel9oRWI3dFpsM2hFNmVFSF9tSlhYSXBMSFU4QjVmQUhXXzNiZU51Y2x2YzdCTXhnZGRmRWJ3cEpUWFlBQnU5dkh4aUMtcFNzVzYzSEtkZ3hHZE1NS2hQMFB3TXVtRDJ2Tm9RVERwNVFYRTJyaHFnUjFFZm80dVQxb29Wem1yTFB6elAwNlBiM0NqZDFzdDh2R0tDOGlINzRudEZKLTNGQXRENmxRNnFpSGx4UmpaNTlOWHZR?oc=5",
+            "date": "2026-07-22T07:00:00.000Z"
+          },
+          {
+            "title": "Governo Lula anuncia salário mínimo de R$ 1.741 para 2027, com aumento de 7,4% acima da inflação",
+            "source": "Revista Fórum",
+            "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA0Z0FoaU5EVlpjbkRHNTJDSml3cGZoZUJSY3hISXZFMDV1Nm5qbTY2Y2tuenVIejljZTRPc0pwbERoRUdHRFp4Sm9tRlJtUU9wRW9MMDZVX0piU0IyeHktOHV0TERQQ0NvX0F0c2JvZmtZaFgtUnc?oc=5",
+            "date": "2026-08-25T07:00:00.000Z"
+          },
+          {
+            "title": "Governo brasileiro projeta aumento do salário mínimo para R$ 2.020,00",
+            "source": "Crusoé",
+            "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNWGQ5bDlsRDlCV19Sc1JKXzFuVWJGeF9reXFmSEl5bWRKUkl0X3pqdGYzSjVsRjNCYXNTSFBiUGlmbUd4b1pyZUJHdERPcHphNVJEMUhXbkI3ZHc3RzRCRjV0VHdCeE9jVFlUSjM2MFVWc25qeVI1SzZiWDRmYTRhTlRObk1mQ3otLXpGS1Y5MnhLWHlCeXJuUUNiOHcyNFYwUm0tT2N5QjBLbkFN?oc=5",
+            "date": "2026-07-22T07:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "title": "Tirar o Brasil do Mapa da Fome",
+        "theme": "direitos-humanos",
+        "status": "cumpriu",
+        "description": "Lula prometeu, em 2022, combater a insegurança alimentar e retirar o Brasil do Mapa da Fome. O país voltou a ficar fora da zona de insegurança alimentar grave em 2025, conforme relatório da ONU.",
+        "updates": [
+          {
+            "title": "Lula planeja explorar saída do Brasil do Mapa da Fome em campanha",
+            "source": "CNN Brasil",
+            "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOQm4tVjZjZE03TUgtOFVOcmhxYTBNLWZlcHBQUE1PU05jOVhIaGduaXNjaTNRZHh5UUlrQ3JRZzBlZERQNTRqVUVsekhxYlhYQVF6UEIxOE5nckk2M2N0cW8xTE1FeFJ3UXoweE1yMzBXbWtpMlVvX2VwWV9PbDF3WjV3ejFqX2pEc294MkpqSGl6MDZvaWxlV21wMl9wLW5YU2pFTzNQT1JYQVE2OTN6bTVWUGFucjdhd3h2cmxJZw?oc=5",
+            "date": "2026-07-22T07:00:00.000Z"
+          },
+          {
+            "title": "Promessas de Lula: governo aprovou reforma tributária e isenção do IR, e não recriou Ministério da Segurança",
+            "source": "G1",
+            "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNZVlnb2pmY2VxMVByREtmakh5aTUxd0ZxU01tbXR5dHN6TXlSTlNXLWQxN1FxYS03R3h2NWdpdUVUYkt0UWVRdFduamY0RlNsWS1HbGVxSGl3X3VSYmdPcTVGaEdva0hCY2wwSy1PUjlZb3ZzNmNfQzcta0Z0YWdjbGhHN204T0s4TUs0WTdJTXVkN1dNTHdBc200Szc4YnJXY3JZUTNhWHFrd2pXT1V0c3JyeFQ3MS0zWTNuOFlkVFMtVG5lRXR6MkFjQ3B5bmlSajFUUjRMdWxWRnJuNEZJVUxMZTNxR2RmNl80VHRCWlI3eUXSAYICQVVfeXFMTm8xeTFNbmZsSlBaeGw2UVNtemwwaU5xZU1qTXhGYTk3U0ROSXp0cDBEODBtM3NLSC1PQnBQOW02Y25hVU1rZS1lQ0RrNUxxel9oRWI3dFpsM2hFNmVFSF9tSlhYSXBMSFU4QjVmQUhXXzNiZU51Y2x2YzdCTXhnZGRmRWJ3cEpUWFlBQnU5dkh4aUMtcFNzVzYzSEtkZ3hHZE1NS2hQMFB3TXVtRDJ2Tm9RVERwNVFYRTJyaHFnUjFFZm80dVQxb29Wem1yTFB6elAwNlBiM0NqZDFzdDh2R0tDOGlINzRudEZKLTNGQXRENmxRNnFpSGx4UmpaNTlOWHZR?oc=5",
+            "date": "2026-07-22T07:00:00.000Z"
+          },
+          {
+            "title": "Brasil consolida saída do Mapa da Fome com menor índice histórico",
+            "source": "Vermelho",
+            "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxObEVlSDFLQTloZEVSRkVmTmI5X1p6dkhBRUVZUVZzd21na285VEt4eG5BbHdmYTlmMW45U2xlak14amMwM0loU2RMMFpIQm0zbHVTQUg3aVQzVm5Wa3czMEhaWE9mV0dwTkJsd1NHbkZCSnRLT0lWQUZoaHY3dzJ2RzZGU3dvT1Z6aEZtNld6UDBUaEJxQXJyX09VRjJpZk9EbFQyaFFkcXg4Zw?oc=5",
+            "date": "2026-07-21T07:00:00.000Z"
+          },
+          {
+            "title": "Reportagem do ‘Jornal Nacional’ sobre aumento da fome é de 2022, não de agora",
+            "source": "Estadão",
+            "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQY2RaMkR2WXJuc1c5MUlwZkRlMlphUUlTMjNDNUE1SmZiWUhld0pjcTRjVTFRY2o0TUdXLVZ1bV80cThsZUVDY08zV3k4ZzBFbEg1Y3Zac09BdEFkOWx6UmViWkxrQzNWZXA0WE5EUXVqTTRUOGEtaE1weDRITVYzcW0tUnVHbnhfQlNva1JuQW5yR2JoTUs4Z3Y5VFprb0Z3ZWFOVkJGQmh6SUFCVlo3aUd5eVBvR3BMMFJpRWV6NTZxR05renJ5VFp5ZU_SAdIBQVVfeXFMUHFOeDRUa2FmZUlFYzRRLXFiUi1jSXJIM2RlaG4wTEtUUEZPOUthWGllbDZTcmZVQlVLTXBCWDlLczZBLXN4VUQtcUtLUm9PNzNEV1FPUlZVcWxqT0c2NTJPRF8yaG1wSlU0ZFpGLWx0RUJkbFNwbFRKS3VHRVJPbnIyNWlEejNucmlKSS1VRVVBX3RXbC03V01zakRFRXdtS1ZoTDFuekNrb2JpdnduLTQ1ZUVReTVBVDE4VmVLSm1pQVVaMnlhNi1xU0pKend5TkR3?oc=5",
+            "date": "2026-07-13T07:00:00.000Z"
+          },
+          {
+            "title": "Combate à fome precisa de sensibilidade e política de Estado, diz Lula",
+            "source": "Agência Brasil",
+            "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOR3dMVUZkdW9wbmJCY2tVRXN3c2ZmV3VZbG9ETV9LcFJTUTJCeWdWOUFwZWpaRC1CQUxXeHJPV0pNVm5XWXpiUmk2dEdtRjBIWUhZbGM3UGtpdDU3eFpYN1RDY09zMGNxaW5NaEE3V3ZHamY3MXRpX3RZRlZmenljSms2Tm1oXzhIMmtGWTBMa0VtWVpHWUdJTHBaNWlVZmZzTnJLRDZsRm1sZ0kyVDlaLXRZSFBTVDRTR0ZSbTdNZmdGa00?oc=5",
+            "date": "2025-08-05T07:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "title": "Manter e ampliar as cotas raciais",
+        "theme": "direitos-humanos",
+        "status": "cumpriu",
+        "description": "Em 2022, o então candidato prometeu a continuidade e a ampliação das políticas de cotas sociais e raciais para a educação superior e concursos públicos. O governo assinou decreto fixando o percentual mínimo de 30% de vagas reservadas para pessoas negras em cargos comissionados e de confiança no poder público federal.",
+        "updates": [
+          {
+            "title": "O que Lula e Flávio Bolsonaro propõe para população negra, indígena, quilombola e LGBTQIAPN+ em seus planos de governo?",
+            "source": "Portal Verdade",
+            "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOcTZjbUdteWFSMUt1X1M4TklkODRGNDRRUVZlaTd4bnRLV0VDN29TUjF1M2p5TjZXb3E0OE9qeVM3VWNDUjNQa0hyQVVRNHhhSTZLNFhWR1N4MTJNS2pXb1BST1BwUG1KeG8yS2FpdWZnUXRfczdqcnA4NEpGeFRYbFFJTUdiTDRERGZUMEdJb3ZuLXQ1M3B2bmM3VFF1VW13ZnZVZWFHTzJhLXdiMXNsTGNHTjZ1VnluTGlKNlVTVkt6QjljUHd2VjhwWnFyb1A4MmhZcm1BVGNuelR4Ymc?oc=5",
+            "date": "2026-10-09T17:02:18.000Z"
+          },
+          {
+            "title": "Reserva de vagas e escolas cívico-militares dividem candidatos à Presidência na educação",
+            "source": "O GLOBO",
+            "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQdnNpVENBLU5zTWV3MnFTSFpvXzJhUkFWQWlWRWE4NmpPNGRzWjRCOFg2NkFkT2taX1h2a0NCMWZsejI5YzZEa09GRWx3SjRZQmQ1RDVZQUxiVEJtb1ZWVndUT3l1QmRtNGhrZUc2dTlaaFVTd2pOY2U0MkVkWGZReFpNYUpTbXQzRGVEb0gxcFZ0S29UQjNXUnBWNlFVYlJfUERtQ3ZYb18yc2xxX2Q3VmtZS0s4alN2OFBGZndVdW84cFNoaFE5U3lESm1wMlo0RE1XS2thWDlrWEdwaEZfVFJJZGV1M1lvQkHSAfgBQVVfeXFMUHVYMmpaMldCdnFZb3FrUDBTVXRKNjRzN1RXTDdrc1h0N3BJelhzMlVPeGhJUUh5UzNIX1I2WWdTUUtNRzhTRFpmQTBmbldTQ0hfTU1CenNlSlV5Zmt1dEpqMDl4QnBXRTFlczNlc1JuTVlwVk16cjJxd290U2lzYXpIS0ZEdkhib21INGJScXNTaEZaRlZ6ZlFFRXNsWXRYa1pmczFsWXAwZHJSWllSaFg5X3RwQi1WdXEwRy1HRTFlVFNLQ2txUnNrMWs4QThlYi0taU96Z1JMU0hiV1BKenhncGxoaEgtQ0UtZmVFNW85SkpCWEttM0s?oc=5",
+            "date": "2026-09-04T07:00:00.000Z"
+          },
+          {
+            "title": "Apenas 5 candidatos à Presidência têm propostas para combater racismo",
+            "source": "Alma Preta Jornalismo",
+            "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPUWV1eVBCQUZ3N2h1blBKTXZ5WXFRajJJVW4zRlpSRlY3enNPMHAtQmpoeEYzWVFhdFZldTVvSVlnN3VkWkp4NHB2NXp4VXdMVFVuZzQ0QUJSUXZndURRTU1WRDItRkJxU1AwdUlZMmZ1amd4TmkybS11R2JQZHpzZ2VCaGVrVjRHRThoN1BSU0NBSzQ?oc=5",
+            "date": "2026-08-26T07:00:00.000Z"
+          },
+          {
+            "title": "Promessas de Lula: governo aprovou reforma tributária e isenção do IR, e não recriou Ministério da Segurança",
+            "source": "G1",
+            "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNZVlnb2pmY2VxMVByREtmakh5aTUxd0ZxU01tbXR5dHN6TXlSTlNXLWQxN1FxYS03R3h2NWdpdUVUYkt0UWVRdFduamY0RlNsWS1HbGVxSGl3X3VSYmdPcTVGaEdva0hCY2wwSy1PUjlZb3ZzNmNfQzcta0Z0YWdjbGhHN204T0s4TUs0WTdJTXVkN1dNTHdBc200Szc4YnJXY3JZUTNhWHFrd2pXT1V0c3JyeFQ3MS0zWTNuOFlkVFMtVG5lRXR6MkFjQ3B5bmlSajFUUjRMdWxWRnJuNEZJVUxMZTNxR2RmNl80VHRCWlI3eUXSAYICQVVfeXFMTm8xeTFNbmZsSlBaeGw2UVNtemwwaU5xZU1qTXhGYTk3U0ROSXp0cDBEODBtM3NLSC1PQnBQOW02Y25hVU1rZS1lQ0RrNUxxel9oRWI3dFpsM2hFNmVFSF9tSlhYSXBMSFU4QjVmQUhXXzNiZU51Y2x2YzdCTXhnZGRmRWJ3cEpUWFlBQnU5dkh4aUMtcFNzVzYzSEtkZ3hHZE1NS2hQMFB3TXVtRDJ2Tm9RVERwNVFYRTJyaHFnUjFFZm80dVQxb29Wem1yTFB6elAwNlBiM0NqZDFzdDh2R0tDOGlINzRudEZKLTNGQXRENmxRNnFpSGx4UmpaNTlOWHZR?oc=5",
+            "date": "2026-07-22T07:00:00.000Z"
+          },
+          {
+            "title": "Governo federal: negros ocuparão 30% dos cargos de confiança",
+            "source": "DW.com",
+            "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMko1VFRQaXZoWmswTmtldDhzTlNFXzk2eFlrREkyeUhFNkJ3NGhJTlNLcEVfcVV4X00wYnY1SWdqMUZQSkQ1R19mM3ZpNUxUX1lDT2ZLR1h3VXhadmliY1MwTzAwMk1iMFBsRlBqa3U5Q1JPelJDeWtTNS1oNUVGa0l4ZGtZQ0JjVmJ1Zmx0cmRGeHpIY2tsQjhaOHQxUG1qam9hQ1NId9IBpwFBVV95cUxOeUZwdlFKT0szblFxNk9jQWpNaHMxbXJackc0VnBXSTRzbFJwNDdGdVM2WVd5bC1WaXJFYjQtS1pmLTE1R1ZhSlNTakRjMWt0Y3NUOFl6NjBLMFp1dFB5VW5VYTlMVVRZVHhTb2Q1bHY4OGxXbS1JSVJzWF85SFNZZFlzYWVGcHhrRjFER2pkaUxzdTN3a3BIQjVxcmtzS0J3MkltaC1fbw?oc=5",
+            "date": "2023-03-22T07:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "title": "Retomar o Minha Casa, Minha Vida e criar novas modalidades",
+        "theme": "direitos-humanos",
+        "status": "cumpriu",
+        "description": "Lula prometeu retomar o Minha Casa, Minha Vida para reduzir o déficit habitacional, estimular empregos e criar novas modalidades de atendimento. O programa foi relançado em 2023. A nova versão ampliou as faixas de atendimento e incluiu linhas voltadas à classe média com renda de até R$ 13 mil mensais.",
+        "updates": [
+          {
+            "title": "No Dia da Padroeira, Lula reforça moradia como direito das famílias",
+            "source": "Vermelho",
+            "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNQnRSNWRaT1pUUXZqX19tY3hQU0RXbnQxZ1VzNV9CLVdxWmVCMlpqbGdnWERCeEh3VzZaQk1ZSTBNa19RRkRwM1Y0Nkt3ZDJQazhDUGJJdzdqSUo0Ym1Tbk92bVlTemg1N1FhYzNvbmkxOXNLNUplY1psd0NjeEJpeFM3UklMclJnSjgzb1NkRzYxaXdlaTFFY1E0cDdSRXBtNFphcw?oc=5",
+            "date": "2026-10-12T20:42:00.000Z"
+          },
+          {
+            "title": "Promessas de Lula: governo aprovou reforma tributária e isenção do IR, e não recriou Ministério da Segurança",
+            "source": "G1",
+            "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNZVlnb2pmY2VxMVByREtmakh5aTUxd0ZxU01tbXR5dHN6TXlSTlNXLWQxN1FxYS03R3h2NWdpdUVUYkt0UWVRdFduamY0RlNsWS1HbGVxSGl3X3VSYmdPcTVGaEdva0hCY2wwSy1PUjlZb3ZzNmNfQzcta0Z0YWdjbGhHN204T0s4TUs0WTdJTXVkN1dNTHdBc200Szc4YnJXY3JZUTNhWHFrd2pXT1V0c3JyeFQ3MS0zWTNuOFlkVFMtVG5lRXR6MkFjQ3B5bmlSajFUUjRMdWxWRnJuNEZJVUxMZTNxR2RmNl80VHRCWlI3eUXSAYICQVVfeXFMTm8xeTFNbmZsSlBaeGw2UVNtemwwaU5xZU1qTXhGYTk3U0ROSXp0cDBEODBtM3NLSC1PQnBQOW02Y25hVU1rZS1lQ0RrNUxxel9oRWI3dFpsM2hFNmVFSF9tSlhYSXBMSFU4QjVmQUhXXzNiZU51Y2x2YzdCTXhnZGRmRWJ3cEpUWFlBQnU5dkh4aUMtcFNzVzYzSEtkZ3hHZE1NS2hQMFB3TXVtRDJ2Tm9RVERwNVFYRTJyaHFnUjFFZm80dVQxb29Wem1yTFB6elAwNlBiM0NqZDFzdDh2R0tDOGlINzRudEZKLTNGQXRENmxRNnFpSGx4UmpaNTlOWHZR?oc=5",
+            "date": "2026-07-22T07:00:00.000Z"
+          },
+          {
+            "title": "Presidente Lula anuncia 85 mil moradias do Minha Casa Minha Vida Rural e Entidades com investimento de R$ 10 bilhões",
+            "source": "Jornal Grande Bahia",
+            "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPUGtXMlk4SGtCTUZ6cFRlSTRYdFJyRlExRXdLU1F6X20wVFBvRDJYT1ItZU9hWjJkUmNNR2p5dktXdVB5emJyOGMyS3pEelBoMm1NVWNDX3N2ZV8teDdxQkdHM3R5Y1hqTUxFeEgwa2ZzZ0wxbVdTRnNidkhXZ0xjX0t2d2hhUHNPbGZtTWMzUFdxVTVWLWNfUkE3eDh4blBNSGFTSnA3aHNESHRBbjVNaEt0WnJORUZmanYzRXZGUExNVHpXY19jSzFQUU9pVFFJVGNYX1ltRVhkSTIxdTJpc1h3b1J1REE4WDZzLUxB?oc=5",
+            "date": "2026-06-15T07:00:00.000Z"
+          },
+          {
+            "title": "'Mínimo de respeito que a gente precisa dar ao ser humano', diz Lula sobre o MCMV Rural e Entidades",
+            "source": "ncnews.com.br",
+            "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNb2JKT2g4TW1mck5LdWRQUFBwZHpPdXdxQU03aXVvUC1aTHZNa0g5MFlUbVQtUThxeFVWMmVyRzgyc1lnOHB1am9UVVBnSFo3N05NYWY0OXc3UHVUWDg0UlRnRkdyOUsteFp3aG1fVXRtUGxDNFRONHZrTU5iaUl4RV8xUEgxSHd4STcxaHI0T3VkUUZPU2hrOTJoWEh0X0pDWkdtcXNtZjFYM1pLVkdNXzY5bmNOS0lFc1BqT0lXRmxVWnhvSWc0X19R?oc=5",
+            "date": "2026-06-13T07:00:00.000Z"
+          },
+          {
+            "title": "Caixa atinge R$ 1 trilhão em crédito imobiliário com expansão do MCMV",
+            "source": "Notícias ao Minuto Brasil",
+            "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOQU1TdWxpMUhvbFNiZ0tkUHJ2MWkzN2JHZ3ZwNlYwbm91YzVhTkRhajRtODJtV0JVV2N6YUFaNnVOeUp6YjZ2Tm45Z3MxTVl5ZVdacFRsM3owVnVZUVhFNl92d1p6MjJtWDFMRmFmdjdNaFZuMkZ0clJ6VWlrWDlMbm42cWJLWDlpX0FXY2dXaVdYYTRVQzczUkJFVHF0bHZjNDE5emRmZV85VVVRRUtKb1pTWWJseGZiQ1RESTI3aktpeXhjOG9DcVRXZjlhWVhkaGhfUkI3MmdxRUxR?oc=5",
+            "date": "2026-07-01T07:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "title": "Criar programa de atendimento a mulheres que sofreram violência",
+        "theme": "direitos-humanos",
+        "status": "em_parte",
+        "description": "A promessa citava a expansão da Rede Casa da Mulher Brasileira e o reforço em ações de combate à violência contra as mulheres. O governo retomou o Programa Mulher Viver sem Violência em março de 2023. Fora inaugurados 20 novos serviços especializados entre Casas da Mulher Brasileira e Centros de Referência, mas há lacunas em vários estados e milhares de municípios, que seguem sem apoio especializado para as vítimas.",
+        "updates": [
+          {
+            "title": "Conheça as propostas de Flávio e Lula para a segurança pública",
+            "source": "Agência Brasil",
+            "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRUlONU1hNHpXSnQwajZUZVVaQVFxTWRKakFBNFZJR0ZRdEdiMkNaRjJEX1U2X09WNjdkVnV3TjBlRnVGVFVmaU9DQmpEVEVOYmFITTliOF96Z1JiQ0MtM0NXTXZ4SFFqQ09ETE51SkRRU01Vdjc3ak1TTHUzQkxZU3AtZERMajh6THg5RWlaOUkxVXhCeXc2ZUFnQ082YkRUMWFabEszYWVzX0VUMURBRnZxVUF5dw?oc=5",
+            "date": "2026-10-09T10:10:00.000Z"
+          },
+          {
+            "title": "Flávio x Lula: o que defendem para segurança pública",
+            "source": "SBT News",
+            "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOLWV6VlhMQ21ndHBWMEdmLVJnSUprY3hfMFBFWDEwMFFHNkhpSE5HVUVKNUxpanA4Y2lFb0V3bDZLeWkxXzdCN3hNd0o0NGZaek5rdUV5cjMwOFNxLV8ybUVxUnFRZXB4aEpSN1FZT3ZkOVBadVlZRU1neDdIZERZOV9hWFY4WEk0Y0ltV0hDcDVuS0hDU05PdEo3Yw?oc=5",
+            "date": "2026-10-13T09:00:00.000Z"
+          },
+          {
+            "title": "Lei Maria da Penha, 20 anos: o caminho aberto por Lula pela vida das mulheres",
+            "source": "Partido dos Trabalhadores",
+            "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOM2xIUWhKVmQtc1ZIQ0ZHN2didkRjU2FHRTRVc1pNRkhhaExwX0pDdl96WVBtS1FrTExhdmYxX2wzazc4TzRxY0dZQkJOVkNfeWFJU3Q1eFpVal9aQlU0U1JWQl9NeGJKYThtaDZGSzQ3TXQxRXk0YnNQSVdUb2JIY1VLMEFfUTVqSkgyMEwzVFRCZmhWRUM3RGpB0gGiAUFVX3lxTFBBOE9qcXRDMDhOV0ZjVWZFWUxJcENLU1RCamFqRnRyOG82OFRtRnBVZWxZcGpXeDBOZGUzYWxXUGNxbFJtNlNNRzdTSzY3V3FtT0ZGOTItRldWNHVhQU93VTFZWm9pdlpIUlh1UWRGY0JUQXBCamhxckxYMTlYX2ppS29Ed2d4NkF2cGpFSmY3MmtscmdGeWJRUnZYZkhZUTFtQQ?oc=5",
+            "date": "2026-08-07T07:00:00.000Z"
+          },
+          {
+            "title": "Cartilha do Senado reforça que violência contra mulheres exige prevenção",
+            "source": "Sinpro-DF",
+            "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOUFVuNllGUDNwZnRXR3N5alhJUmVWTlk0Ml9QNDBRWk9sRUZyUzUybjAtOHI0anlHc3FvYk1zZ2laTUlKTWVWWEk3UWlmSTE3b2liOHZnbDRrZVVNY3JCa0FkbEd2UWZiX1lGS2ZfMEVURVY3WE4wOWVNTW9Dd1ROLU9rWUJna2Fhd295RmZKTlh6ekZtYXQ5dXVYSnRYVHd0VkRn?oc=5",
+            "date": "2026-09-04T07:00:00.000Z"
+          },
+          {
+            "title": "Governo Lula lança teleatendimento a mulheres vítimas de violência",
+            "source": "Poder360",
+            "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZGdFMFRNa1YxZW5tVFZOOWxMZ3pabDg0dGxHQVlkY3JfaHBWbk10SHRzbVd4aHdjUmpvNF9CaGg2S1p2R3pmcTV6TUE5eVVCYW9vQTgwMVpNelUtaUIycDB1bElITkJxeEpTNDNkSExEX3U2V3VhME5oZEgzdDRIdHBacnpaNmhiZklSbWlsWlVxWTNKZXNnREhXY2M0MXgzOTA0eEtBRlNudWc?oc=5",
+            "date": "2026-08-24T07:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "title": "Não privatizar o Banco do Brasil",
+        "theme": "privatizacoes",
+        "status": "cumpriu",
+        "description": "O presidente afirmou que não privatizaria o Banco do Brasil nem outras instituições financeiras públicas. A instituição segue sob controle público.",
+        "updates": [
+          {
+            "title": "Petrobras, Correios, BB: de reestatização à privatização, o que os presidenciáveis falaram sobre as estatais",
+            "source": "O GLOBO",
+            "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQZlZ0a0RjUjlkYkpYTVVvVjF6eTBhQ3p1aktoUlIzM3R0TEd4Qjd5dUpWWVd0RmxIM2k0c25kTWROTEpCaENIZ3lseGpWMUl2bi1BQWlvQy1GR3NJOGpIdVhYWWFHT3FmanJiYWhTQUhiSWhfaEVoRVZrX2pWenEtb0s3ekNfWGxpZEJBR0dwNEhjNWd3SV90TWVOZUJoeWtSN0prMDdYU1lsZTlEdXRfbG1GaGt2TVd1cllER0IweXZXWlNsT3Q5UGxLNy1pZUNJdURxMFpmS29tMExZODl6SU5reThTcjU4UlHSAfgBQVVfeXFMUHdnbmRYb3JBRkdGQ1dWdTlLWlJJNlFzb1NEQjF2TGM1SjZjQWVNME40eDUxU3FDcVo2WDNDdHFEUXFHV2dHOWNHWm1aZG5sUlczaExkR1VVNm53bGxvcG1tcG5weTBCRjNFdF9mdjFxQzh1dEptR2VCSENwYVZLSlAtdU5aeHlIVkJRd1puRERLZVdfMGNEOTU1OHhZUVZfb2dGc3lhRzdTYnU5T0tYRTl0T0ctR2VLYUdsSkllcUpKT3R3UFVxQU9WVll0dzN2bHl1cmdLbG93Y3NacTB1TjRMUGt2TWU1UVBySmt1TjJ5TV8tTlZsSkU?oc=5",
+            "date": "2026-09-21T07:00:00.000Z"
+          },
+          {
+            "title": "Flávio Bolsonaro não pretende privatizar Petrobras, Caixa e Banco do Brasil, afirma economista",
+            "source": "Rádio Independente",
+            "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOUERsbTJscml0NFJoQ1FwbXMteHFUNWNfaHB4UFotZjZqcXRkVXppVFBVQzl3TjFteklBMDZlQ1hvUmpBd3R2U3RpOEduYzJUUkl4cWIzZGRpMnItZWhsdWZLVXZmSVBLNVdUVTlxWHl5OTlydkdTeDlYMVFsNFlpQmhkY2hBYzVsM19OM2xuc0FNQ24zbXBQT2h6d2VXakM2aHpyN1BhMUtOT0cyRFRLU3ZfWTBzaDhGdGVmb2JNVU9RTUlWXzhRZGJhaw?oc=5",
+            "date": "2026-10-08T19:28:48.000Z"
+          },
+          {
+            "title": "Petrobras (PETR4) e BB (BBAS3) à venda? Zema promete privatização para bancar obras",
+            "source": "InfoMoney",
+            "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQMV9RaTJucWwzQW90OGVFMGlqbWY3RmM4NFN5ZFhQNVlDWl9UbnlDMVg3amFuS25DSDBOQWtZSE1SRmgyYTRfci1qaTczaS1BYkU5LVRNc1pBeFdFVHh2VnlZTWhCV2U2dFNxU2kxUWU3RU9FRzF0akladnI5djdNNEJ4ZlJQbmFMTG5QSDNkay1xbjNmU3NzVlo4cW02UG8wZ1dNaUV4cjh1QWYxNmFiN2o0a3Y5U3M4alpDamZmVdIBxAFBVV95cUxQV1BicGc0TmVNZUlwNlBkUmstQmQzS3c3WFY2M0hQYXl1YkJUeHNzOWtwVjROM2p0dzJ3UmRpQjN6NTFZUHZFa3FpZUo5SlE3Vy1ZVTgxM2lSSW03X2RNT3NYX1hSZzhNRTNUSUgxemQ5c09MZ2E3LTVtOC16NTVYNXBGNmY3TmEwNHExQlhiMTlQcXhCRE96T1RDLXQ5b1NqTjRYRkM4amYwQ1Frajg2bmpOUEphMlJ5ZWc2X0lScmVVaTJz?oc=5",
+            "date": "2026-07-18T07:00:00.000Z"
+          },
+          {
+            "title": "Zema promete privatizar Petrobras e Banco do Brasil se for eleito",
+            "source": "Correio Braziliense",
+            "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPcEw2WjE4UGRYOEdvaWFZdVpPVUhVUGtrTDB5WVZIakswUXo2a25YTk14Z0NOWUI5NGVKVFhEejF6My12OTh2Z2FDYlEwN19SSXVGRlROQkJha05JVmtNY3VnSWJ6dXREbEhpdG5uNzk2VlltdXNxbHFJNm1SeXV0YTk4RUJMRWl0UXBGWkJLQUIxQmE0bVpaT09ndy1PQUFHbXlZNU1nUHBJbkRDZk1CWUNHWUx2S3plQlFZOVdBQm9rM3dVbWoxZnEzRWxjZ9IB0wFBVV95cUxPSEpfcVhFNkFiaUl2MmdoRXF3U3ZMaDJrWHMtY1U2T3JGMkpHM3haZHYxQ0w2b1ZrbVZOakJXbmRlM1g3OHBuWENKMXVNYndQMDlrWmg1bXJZMUc0ZGoza1JQa2hGOUU1ZXI5MFVPaVBHRTl2RkhnYjV2a0QzSnVRbG9PalBwZmhLNmNvY3JkMjcwMURYMzJVejZrS2tBZFBoUkdRT1FEb3dSeVJzbFo2SUZuZWR3b0lJOTFHVEdvYU12blZwZ2xIblczUFptb0FrYkN3?oc=5",
+            "date": "2026-07-18T07:00:00.000Z"
+          },
+          {
+            "title": "Promessas de Lula: governo aprovou reforma tributária e isenção do IR, e não recriou Ministério da Segurança",
+            "source": "G1",
+            "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNZVlnb2pmY2VxMVByREtmakh5aTUxd0ZxU01tbXR5dHN6TXlSTlNXLWQxN1FxYS03R3h2NWdpdUVUYkt0UWVRdFduamY0RlNsWS1HbGVxSGl3X3VSYmdPcTVGaEdva0hCY2wwSy1PUjlZb3ZzNmNfQzcta0Z0YWdjbGhHN204T0s4TUs0WTdJTXVkN1dNTHdBc200Szc4YnJXY3JZUTNhWHFrd2pXT1V0c3JyeFQ3MS0zWTNuOFlkVFMtVG5lRXR6MkFjQ3B5bmlSajFUUjRMdWxWRnJuNEZJVUxMZTNxR2RmNl80VHRCWlI3eUXSAYICQVVfeXFMTm8xeTFNbmZsSlBaeGw2UVNtemwwaU5xZU1qTXhGYTk3U0ROSXp0cDBEODBtM3NLSC1PQnBQOW02Y25hVU1rZS1lQ0RrNUxxel9oRWI3dFpsM2hFNmVFSF9tSlhYSXBMSFU4QjVmQUhXXzNiZU51Y2x2YzdCTXhnZGRmRWJ3cEpUWFlBQnU5dkh4aUMtcFNzVzYzSEtkZ3hHZE1NS2hQMFB3TXVtRDJ2Tm9RVERwNVFYRTJyaHFnUjFFZm80dVQxb29Wem1yTFB6elAwNlBiM0NqZDFzdDh2R0tDOGlINzRudEZKLTNGQXRENmxRNnFpSGx4UmpaNTlOWHZR?oc=5",
+            "date": "2026-07-22T07:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "title": "Não privatizar os Correios",
+        "theme": "privatizacoes",
+        "status": "cumpriu",
+        "description": "Lula cumpriu a promessa de não privatizar os Correios, mas a estatal vive uma profunda crise financeira e acumula prejuízos bilionários. Para tentar resolver a situação, foi aprovado um plano de reestruturação que inclui empréstimos de bancos e redução de custos com cortes de funcionários e fechamento de agências.",
+        "updates": [
+          {
+            "title": "Lula descarta vender Correios e diz que dívida pública não preocupa",
+            "source": "G1",
+            "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOM2NlckpiWFlNMDN1VGdPM0JiNkhPMjRLbHdEdkFScXJfU2VDaXZ4dzhUOEhJZ1BBN3pDSFF3aEVMa0VOMHBSZ3RCWFZPSUxuM2NQQzREYkNkUDR5Y005SjR0ZTBPSGkxRTNIQkVPN3RUVWF0UGVSWDRCLWt5TmpJVnF2Tk9DYTVISzNaWGJpLVhNSkJqeVk3VHBsdUY3UdIBrAFBVV95cUxQejVjQWhJM0hSNXFvc0JxUEtTZVY5bl8xMmhhMkdTMTlpb1JFYm1rYVhUeklVbU8xZ2VNSTJlV1FhY0hhWjVMblpKbHMtME5mNjhSTjdMMGdmYmhaUzQzQkR5SWtrYm4xSEdOVDcxcXdla3B1VDFDYm4wNFZ5UVluR2pqS1FUWTktemJ1bHc4blpTT2NEZXBPT3YtU3d0QUlNM2s0ck5IRTZxbU51?oc=5",
+            "date": "2026-08-27T07:00:00.000Z"
+          },
+          {
+            "title": "O poço sem fundo dos Correios",
+            "source": "Estadão",
+            "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1DT2RkdFRjeVZZcTV1ZTZiNWUtdFBVU05PbXBfbFhpcVcyUGpkNWstcndBU2ZOckh5ckt5b0huWWxjQXNCXzdvUmc1U2NJbHBjUlNRUHBBZEZoT1hHYXA1WnpKeVZ2cXl1dmRfVEhJZWd5eWs?oc=5",
+            "date": "2026-09-05T07:00:00.000Z"
+          },
+          {
+            "title": "Lula descarta privatização dos Correios, mas trabalhadores cobram ação concreta para tirar a empresa da crise",
+            "source": "FINDECT",
+            "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAyQmNGWmNxY0FpYzF6bVRWSG9QZlVQXzM4OXFaX1NBRDdhXzJ2aEJGTks4X1VvUmsyU1BNSmZhRHQ3WGZrcUtNSmo2anNVaXlCdERIcWo4WGhRTkQycFRrV3JfUVBoYm1vQVFR?oc=5",
+            "date": "2026-08-28T07:00:00.000Z"
+          },
+          {
+            "title": "Lula reafirma que Correios não serão privatizados e CTB-SP cobra fortalecimento da estatal - CTB",
+            "source": "Central dos Trabalhadores e Trabalhadoras do Brasil",
+            "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPSDltbTNSd2FtWXN0MU44bDZ5bUpPZmFYV3ZxbmIyLUZvNjRxLW5XS2x5U2poak5za0dLYUM0aFgzNnhUMzZHTks1SHRldl94NWxxY3VGRTlQRG4xTWFOejVhRTREc2hyNHhRWWxLbWVjUzhpZE4yQ1p3dDNLaTUtQUlseDlyMHozV3l6aDE5cWRKY1RYQnR1MVhBbHI5RENzZ1BQVElCMEFKZU1Vdm9xMDZGTUdiQmtYMFpjVjI3N2c1MmM?oc=5",
+            "date": "2026-08-28T07:00:00.000Z"
+          },
+          {
+            "title": "Petrobras, Correios, BB: de reestatização à privatização, o que os presidenciáveis falaram sobre as estatais",
+            "source": "O GLOBO",
+            "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQZlZ0a0RjUjlkYkpYTVVvVjF6eTBhQ3p1aktoUlIzM3R0TEd4Qjd5dUpWWVd0RmxIM2k0c25kTWROTEpCaENIZ3lseGpWMUl2bi1BQWlvQy1GR3NJOGpIdVhYWWFHT3FmanJiYWhTQUhiSWhfaEVoRVZrX2pWenEtb0s3ekNfWGxpZEJBR0dwNEhjNWd3SV90TWVOZUJoeWtSN0prMDdYU1lsZTlEdXRfbG1GaGt2TVd1cllER0IweXZXWlNsT3Q5UGxLNy1pZUNJdURxMFpmS29tMExZODl6SU5reThTcjU4UlHSAfgBQVVfeXFMUHdnbmRYb3JBRkdGQ1dWdTlLWlJJNlFzb1NEQjF2TGM1SjZjQWVNME40eDUxU3FDcVo2WDNDdHFEUXFHV2dHOWNHWm1aZG5sUlczaExkR1VVNm53bGxvcG1tcG5weTBCRjNFdF9mdjFxQzh1dEptR2VCSENwYVZLSlAtdU5aeHlIVkJRd1puRERLZVdfMGNEOTU1OHhZUVZfb2dGc3lhRzdTYnU5T0tYRTl0T0ctR2VLYUdsSkllcUpKT3R3UFVxQU9WVll0dzN2bHl1cmdLbG93Y3NacTB1TjRMUGt2TWU1UVBySmt1TjJ5TV8tTlZsSkU?oc=5",
+            "date": "2026-09-21T07:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "title": "Não privatizar a Petrobras",
+        "theme": "privatizacoes",
+        "status": "cumpriu",
+        "description": "Lula disse que não venderia a Petrobras, e de fato manteve a empresa sob controle público.",
+        "updates": [
+          {
+            "title": "Flávio Bolsonaro descarta privatização da Petrobras como “boataria”",
+            "source": "InfoMoney",
+            "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOdU5oQW1mdFo0YzBXRFNPLTNiUHNfZTA4T1Q5T2ZJaUdGdTJhdlA5QUVSUW13R2hrZmoyQXJRUlh2ZXVCbUhCWkZrM2kwejJhejBNTVlNejlfVnNIX2pTaDdhQm5BOHphSmdjbXFZd3l6SnZpczQzdHZrX0xOSEVtR3FfZFB6bzBDWWxubGQtWkNQOWVvNm1CSzduM0g3X2pKejFnWXc2c9IBrAFBVV95cUxPUFFVTTlVZVhpZWtIbGJWN3dUN0ZmemdVWTEwNkgyUHVlVXJLbVEtQnMyb3NvcnVVaDVCcl9NYl9LMzJzMDRLc1RwRlVORzRLdFptT3RCNWZUczVVY2toZkFoU0U5X2dHeGJPX2RBb0JGWDVSOU80Z1BSbm1oTWZnaFFtLXJYSmhWcUR3TE5MUTJqT0pObFY2WEFqTW5qS0Ytbzc2bnJMVGV3YzBq?oc=5",
+            "date": "2026-10-09T19:21:38.000Z"
+          },
+          {
+            "title": "Petrobras, Correios, BB: de reestatização à privatização, o que os presidenciáveis falaram sobre as estatais",
+            "source": "O GLOBO",
+            "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQZlZ0a0RjUjlkYkpYTVVvVjF6eTBhQ3p1aktoUlIzM3R0TEd4Qjd5dUpWWVd0RmxIM2k0c25kTWROTEpCaENIZ3lseGpWMUl2bi1BQWlvQy1GR3NJOGpIdVhYWWFHT3FmanJiYWhTQUhiSWhfaEVoRVZrX2pWenEtb0s3ekNfWGxpZEJBR0dwNEhjNWd3SV90TWVOZUJoeWtSN0prMDdYU1lsZTlEdXRfbG1GaGt2TVd1cllER0IweXZXWlNsT3Q5UGxLNy1pZUNJdURxMFpmS29tMExZODl6SU5reThTcjU4UlHSAfgBQVVfeXFMUHdnbmRYb3JBRkdGQ1dWdTlLWlJJNlFzb1NEQjF2TGM1SjZjQWVNME40eDUxU3FDcVo2WDNDdHFEUXFHV2dHOWNHWm1aZG5sUlczaExkR1VVNm53bGxvcG1tcG5weTBCRjNFdF9mdjFxQzh1dEptR2VCSENwYVZLSlAtdU5aeHlIVkJRd1puRERLZVdfMGNEOTU1OHhZUVZfb2dGc3lhRzdTYnU5T0tYRTl0T0ctR2VLYUdsSkllcUpKT3R3UFVxQU9WVll0dzN2bHl1cmdLbG93Y3NacTB1TjRMUGt2TWU1UVBySmt1TjJ5TV8tTlZsSkU?oc=5",
+            "date": "2026-09-21T07:00:00.000Z"
+          },
+          {
+            "title": "Flávio Bolsonaro não pretende privatizar Petrobras, Caixa e Banco do Brasil, afirma economista",
+            "source": "Rádio Independente",
+            "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOUERsbTJscml0NFJoQ1FwbXMteHFUNWNfaHB4UFotZjZqcXRkVXppVFBVQzl3TjFteklBMDZlQ1hvUmpBd3R2U3RpOEduYzJUUkl4cWIzZGRpMnItZWhsdWZLVXZmSVBLNVdUVTlxWHl5OTlydkdTeDlYMVFsNFlpQmhkY2hBYzVsM19OM2xuc0FNQ24zbXBQT2h6d2VXakM2aHpyN1BhMUtOT0cyRFRLU3ZfWTBzaDhGdGVmb2JNVU9RTUlWXzhRZGJhaw?oc=5",
+            "date": "2026-10-08T19:28:48.000Z"
+          },
+          {
+            "title": "Zema promete privatizar Petrobras e Banco do Brasil se for eleito",
+            "source": "Correio Braziliense",
+            "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPcEw2WjE4UGRYOEdvaWFZdVpPVUhVUGtrTDB5WVZIakswUXo2a25YTk14Z0NOWUI5NGVKVFhEejF6My12OTh2Z2FDYlEwN19SSXVGRlROQkJha05JVmtNY3VnSWJ6dXREbEhpdG5uNzk2VlltdXNxbHFJNm1SeXV0YTk4RUJMRWl0UXBGWkJLQUIxQmE0bVpaT09ndy1PQUFHbXlZNU1nUHBJbkRDZk1CWUNHWUx2S3plQlFZOVdBQm9rM3dVbWoxZnEzRWxjZ9IB0wFBVV95cUxPSEpfcVhFNkFiaUl2MmdoRXF3U3ZMaDJrWHMtY1U2T3JGMkpHM3haZHYxQ0w2b1ZrbVZOakJXbmRlM1g3OHBuWENKMXVNYndQMDlrWmg1bXJZMUc0ZGoza1JQa2hGOUU1ZXI5MFVPaVBHRTl2RkhnYjV2a0QzSnVRbG9PalBwZmhLNmNvY3JkMjcwMURYMzJVejZrS2tBZFBoUkdRT1FEb3dSeVJzbFo2SUZuZWR3b0lJOTFHVEdvYU12blZwZ2xIblczUFptb0FrYkN3?oc=5",
+            "date": "2026-07-18T07:00:00.000Z"
+          },
+          {
+            "title": "Zema promete privatizar Petrobras e Banco do Brasil: 'Virar a chave'",
+            "source": "band.com.br",
+            "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPYm5wWVFTT19kNUZEMlU0alMwMlVEZ3JSemlQajRYMUpPdE5NSXBWdE82aVhhamFjSmRhRzJLdkt2SmFWODZ2TkVJdWdyNWRfWGhNM29odlZocUJYNEkzN1pUc1psVl9tUmpxZjFLWi10d2ZPMGhLRXg4VGF4Y0d6Tl9GSkpMcnJhamRYWFFNT1dLZE5pbUplQkk0Sk1YdktsZnB6el8yaWRpcFNFUVFfOEhhZlE2OEE?oc=5",
+            "date": "2026-07-18T07:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "title": "Quebrar sigilos definidos pela gestão Bolsonaro",
+        "theme": "transparencia",
+        "status": "nao_cumpriu",
+        "description": "Lula prometeu revogar por decreto, no primeiro dia de governo, os sigilos de até 100 anos impostos pela gestão anterior. O presidente assinou um despacho determinando a reavaliação de tais sigilos pela Controladoria-Geral da União (CGU). A CGU revisou dezenas de casos com deferimento de acesso a registros do Palácio da Alvorada e outros documentos, mas alguns dados permaneceram condicionados a investigações em andamento de eventuais irregularidades. Por outro lado, o próprio governo Lula impôs sigilo de 100 anos a informações que vão desde a agenda da primeira-dama, Janja da Silva, a comunicações diplomáticas sobre o ex-jogador Robinho, condenado e preso por estupro.",
+        "updates": [
+          {
+            "title": "Promessas de Lula: governo aprovou reforma tributária e isenção do IR, e não recriou Ministério da Segurança",
+            "source": "G1",
+            "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNZVlnb2pmY2VxMVByREtmakh5aTUxd0ZxU01tbXR5dHN6TXlSTlNXLWQxN1FxYS03R3h2NWdpdUVUYkt0UWVRdFduamY0RlNsWS1HbGVxSGl3X3VSYmdPcTVGaEdva0hCY2wwSy1PUjlZb3ZzNmNfQzcta0Z0YWdjbGhHN204T0s4TUs0WTdJTXVkN1dNTHdBc200Szc4YnJXY3JZUTNhWHFrd2pXT1V0c3JyeFQ3MS0zWTNuOFlkVFMtVG5lRXR6MkFjQ3B5bmlSajFUUjRMdWxWRnJuNEZJVUxMZTNxR2RmNl80VHRCWlI3eUXSAYICQVVfeXFMTm8xeTFNbmZsSlBaeGw2UVNtemwwaU5xZU1qTXhGYTk3U0ROSXp0cDBEODBtM3NLSC1PQnBQOW02Y25hVU1rZS1lQ0RrNUxxel9oRWI3dFpsM2hFNmVFSF9tSlhYSXBMSFU4QjVmQUhXXzNiZU51Y2x2YzdCTXhnZGRmRWJ3cEpUWFlBQnU5dkh4aUMtcFNzVzYzSEtkZ3hHZE1NS2hQMFB3TXVtRDJ2Tm9RVERwNVFYRTJyaHFnUjFFZm80dVQxb29Wem1yTFB6elAwNlBiM0NqZDFzdDh2R0tDOGlINzRudEZKLTNGQXRENmxRNnFpSGx4UmpaNTlOWHZR?oc=5",
+            "date": "2026-07-22T07:00:00.000Z"
+          },
+          {
+            "title": "Em meio à crise no STF, Lula pede quebra total de sigilo no caso Master: \"doa a quem doer\"",
+            "source": "Panorama da Bahia",
+            "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQYnZ0ckN6aGtSSms2NFBWd2RjTFExMzJDTDIxQkE3YkwzTGUybDhCTHNhZjEtSGg4c0RRZWs5eEJmX0hUTjg1VGZqVU51RHNqY25oZGVNdnJBVWcyY0F2LUZDTjFlRnJTdUY0NkhiYy02NzZGM1N6S2JHWURUZkZCYmV2aXJaX3ZPc3hPbXF6X2w2NGd2cnhoVnBjaWZqNXljUVZvRmZYY0F1enBYNDltOHh0TWd2X092YWc?oc=5",
+            "date": "2026-09-09T07:00:00.000Z"
+          },
+          {
+            "title": "Presidenciáveis falam de “gangue, escândalo e barganhas” e sobem o tom contra integrantes do Supremo citados nas investigações do Banco Master",
+            "source": "Rádio Pampa",
+            "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPaEJKMEFiSkFObU9qR2Q2LTVvd0tBYkZ6TzRQOG14WWhvSDRaQlR3RFpqRk5oOVRRNWZPUXdYbWdVMUVtUFpoMnRvN2hMYlhNTFBvUnNPN0ZSSGphY2h4aWFEeDB1SVVSU3ZVbVJOZkctUVVMa25vcHBpYlQzWk00U21ZaU9tT3BDYmpLbHdjN2MyWnJ2QlViR0cwTlRrYTFSbkcxVGpPV0thN1luanl3LU05ZnhiaGVfTmNJb0hWcVJqQTUxVS1lSDNKQWlFMWZoWTFSV0JuOXZwRUdPeFROZF85WkJoUDFTSThMMm1FUTYtbVlIUExSeTN3dmVobU0?oc=5",
+            "date": "2026-09-13T01:34:59.000Z"
+          },
+          {
+            "title": "Caiado propõe corte de gastos do governo sem explicar onde e defende anistia a condenados do 8 de janeiro para 'pacificar país'",
+            "source": "G1",
+            "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQcHluTnVzSzNaMmhjWXNsXzY2a0NNdmFSWHhfdzdmTnhhcmVtQkppeUVfMHl3RUdFUTNQYWw1ekhRWC1HNlVxdE1lMFlYbjlqVzBsX244ZERxakZJWk9rajhwbE9NbWVpUG1ZcUhEal9WU0ptYzRTVEU1UG9UZU04RUpXM1dVOWsya0E3YVJ6T0kwcHBHVFlSSDdPV0kwLTNOYkHSAbABQVVfeXFMTTQ1OThiNW9xQnNqNzhVVVh6WGFwWDV1NnBJRmJkWHRWNk5yQllrTFB0N3RWdXR5dGlCcXhwRlpsSzVzekdvb0FUNk1JRWFUZmNTdUd0U0xodmd3Ni1YdmF5cUV4dVktQlpBRFQ0dVJvb1VxYWc5bkg2VXhia2JHR2JVN1paTVFOeUE0SFVqck0xTFZ5QjNBcUxXYkdfbm1LU25QX0tKbzdURmNQTHB5ZWU?oc=5",
+            "date": "2026-08-25T07:00:00.000Z"
+          },
+          {
+            "title": "A reação do Congresso ao STF e os indícios de uma reforma no Judiciário",
+            "source": "O Brasilianista",
+            "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOTTIxSTA1UGl0bzh5WHgzNGFYeUMzdFFrTTZHVnBCaVBHOWdxWnF0Q2pzNFNObkdVTjgzbHc1NTV2alFFa1U1bURDeEI0aENReF90WG92WEdkcXU2VHpvYWhmeEJ2RTZIM3RXZ3J5UmRVcE15R2QtWWZwRXVTU0dMelRBTk9FVmtxc3hMclVaS1V5ZG1MQzJCX25aQ01wcXhv?oc=5",
+            "date": "2026-09-11T09:01:00.000Z"
+          }
+        ]
+      }
+    ],
+    "scrapedAt": "2026-10-14T18:29:04.553Z"
+  }
+]

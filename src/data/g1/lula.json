@@ -1,0 +1,234 @@
+[
+  {
+    "id": "lula",
+    "name": "Luiz Inácio Lula da Silva",
+    "role": "Presidente da República",
+    "party": "PT",
+    "uf": null,
+    "mandate": {
+      "start": "2023-01-01",
+      "end": "2026-12-31"
+    },
+    "g1Url": "https://g1.globo.com/politica/noticia/2026/07/22/promessas-de-lula-governo-aprovou-reforma-tributaria-e-isencao-do-ir-e-nao-recriou-ministerio-da-seguranca.ghtml",
+    "newsQuery": "Lula presidente",
+    "proposals": [
+      {
+        "title": "Aumentar verba da merenda escolar",
+        "theme": "educacao",
+        "status": "cumpriu",
+        "description": "O presidente afirmou em 2022 que ampliaria a verba para a merenda escolar, mas não estabeleceu uma meta. Em março de 2023, o governo federal reajustou em até 39% os repasses. De acordo com o governo, os valores destinados a isso não eram corrigidos havia cinco anos. Procurado, o Ministério da Educação (MEC) afirmou que o Programa Nacional de Alimentação Escolar (PNAE), que atende a cerca de 39 milhões de estudantes em mais de cinco mil municípios, teve o orçamento ampliado de R$ 4 bilhões, em 2023, para R$ 6,8 bilhões, em 2026."
+      },
+      {
+        "title": "Ampliação do acesso ao ensino superior",
+        "theme": "educacao",
+        "status": "cumpriu",
+        "description": "Lula prometeu um aumento no número de vagas em universidades e o fortalecimento de ações, como o Exame Nacional do Ensino Médio (Enem) e o Fundo de Financiamento Estudantil (Fies). Conforme dados do Censo da Educação Superior, realizado pelo governo, o número de matrículas em instituições de ensino superior passou de 9,4 milhões, em 2022, para 10,2 milhões, em 2024 – elevação de cerca de 8%. O MEC também disse que o número de contratos do Fies subiu de 14,3 mil, em 2021, para 28,1 mil, em 2025."
+      },
+      {
+        "title": "Recuperação da aprendizagem no pós-pandemia",
+        "theme": "educacao",
+        "status": "em_parte",
+        "description": "O plano de governo de Lula previa a criação de um programa de recuperação da aprendizagem no período pós-Covid-19. O objetivo seria apoiar estados e municípios na recomposição do ensino que foi impactado pelas restrições da pandemia. Em 2025, terceiro ano do mandato atual, o governo criou o Pacto Nacional da Recomposição das Aprendizagens, com apoio técnico, materiais didáticos e orientações às redes de ensino estaduais e municipais. O programa, portanto, foi instituído, mas o governo não forneceu dados que permitam aferir se os estados e municípios colocaram as medidas em prática."
+      },
+      {
+        "title": "Universalização da banda larga em escolas",
+        "theme": "educacao",
+        "status": "nao_cumpriu",
+        "description": "Lula prometeu disponibilizar internet banda larga em todas as escolas públicas do país. A universalização prometida, contudo, não foi entregue, apesar de avanços em todas as regiões quando se compara 2026 com 2023, especialmente na Região Norte, na zona rural e nas áreas indígenas. Segundo dados do MEC, em abril de 2026, o percentual de escolas públicas com conectividade adequada para fins pedagógicos estava em 72,9%, o que representa 100.720 unidades em um universo de 138.161 estabelecimentos de ensino. Em 2023, o percentual era de 45,4%."
+      },
+      {
+        "title": "Ampliar o Farmácia Popular",
+        "theme": "saude",
+        "status": "cumpriu",
+        "description": "O petista prometeu durante a campanha fortalecer e ampliar o alcance do programa Farmácia Popular para dar maior capilaridade e gratuidade de itens essenciais à população. Segundo o governo, o programa atinge hoje 27 milhões de pessoas, alta de 32% sobre 2022. São 41 medicamentos e produtos — incluindo absorventes e fraldas geriátricas — distribuídos gratuitamente. Dados do Orçamento mostra, que a verba destinada ao programa passou de R$ 2,6 bilhões em 2023 para cerca de R$ 6 bilhões em 2026."
+      },
+      {
+        "title": "Retomar o Mais Médicos",
+        "theme": "saude",
+        "status": "cumpriu",
+        "description": "Na campanha de 2022, o presidente prometeu retomar o Mais Médicos e fortalecer a atuação de profissionais na rede pública. O programa foi relançado em 2023 com a meta de subir de 13 mil para 28 mil profissionais de saúde. Segundo o governo, conta hoje com 28.390 vagas ativas em 4.556 municípios. O número de médicos participantes subiu de 13.716 em 2022 para 27.329 em 2025."
+      },
+      {
+        "title": "Zerar filas geradas na pandemia",
+        "theme": "saude",
+        "status": "nao_cumpriu",
+        "description": "Lula prometeu acabar com as filas de consultas, exames e cirurgias acumuladas no Sistema Únido de Saúde (SUS) durante a pandemia da Covid-19. O governo disse ter lançado programas, implementado mutirões e ampliado o atendimento, mas a meta de zerar não foi alcançada. O que diz o governo: O Ministério da Saúde afirma que o programa Agora Tem Especialistas, em 2025, promoveu 14,9 milhões de cirurgias eletivas e mais de um bilhão de consultas e exames. No entanto, a pasta afirma não ter havido a extinção total da fila. O Conselho Nacional de Secretarias Municipais de Saúde afirma, inclusive, que não há como saber o tamanho atual da espera."
+      },
+      {
+        "title": "Retomar o Programa Nacional de Segurança Pública com Cidadania (Pronasci)",
+        "theme": "seguranca",
+        "status": "cumpriu",
+        "description": "O petista prometeu a retomada do Programa Nacional de Segurança Pública com Cidadania, o Pronasci, para investir na formação e profissionalização de policiais e no apoio à segurança pública. O programa foi retomado com 10 projetos voltados à prevenção de crimes e cidadania. Segundo o governo, 25 estados, o Distrito Federal e 497 municípios estão habilitados. Além disso, foram pagas 185.466 bolsas a agentes de segurança entre 2023 e 2025. O investimento nesse ponto, afirma o Ministério da Justiça, foi de R$ 166,9 milhões."
+      },
+      {
+        "title": "Revogar decretos de acesso a armas",
+        "theme": "seguranca",
+        "status": "cumpriu",
+        "description": "Em 2022, o então candidato do PT prometeu revogar os decretos assinados pelo ex-presidente Jair Bolsonaro que facilitavam o acesso a armas de fogo. O decreto de Lula suspendeu novos registros e reduziu cotas de armas e munições de uso permitido, além de instituir o recadastramento obrigatório de itens adquiridos desde maio de 2019. A formulação de um novo marco regulatório para o setor ainda não foi entregue pelo grupo de trabalho criado para essa finalidade."
+      },
+      {
+        "title": "Revogar teto de gastos",
+        "theme": "economia",
+        "status": "cumpriu",
+        "description": "Lula afirmou na campanha que revogaria o teto de gastos e faria uma revisão do regime fiscal brasileiro. Em 2023, primeiro ano do mandato, o arcabouço fiscal substituiu formalmente o teto de gastos, estabelecendo, no entanto, um modelo de controle das despesas públicas considerado mais flexível por alguns economistas. O crescimento de gastos está atrelado ao desempenho da arrecadação. Além disso, o mecanismo trouxe uma banda de tolerância para meta de resultado primário."
+      },
+      {
+        "title": "Realizar uma reforma tributária",
+        "theme": "economia",
+        "status": "cumpriu",
+        "description": "Lula prometeu fazer uma reforma tributária que fosse solidária, justa e sustentável para simplificar tributos e garantir que os mais pobres paguem menos e os ricos paguem mais impostos. Com apoio do governo, o Congresso aprovou em 2023 a Reforma Tributária, substituindo cinco tributos por um modelo baseado na Contribuição sobre Bens e Serviços (CBS) e no Imposto sobre Bens e Serviços (IBS). A reforma criou o sistema de cashback para famílias de baixa renda, zerou impostos sobre medicamentos e alimentos da cesta básica. Contudo, muitas inovações ainda não foram implementadas, não sendo possível avaliar por completo os seus impactos."
+      },
+      {
+        "title": "Acabar com modelo de Preço de Paridade de Importação na Petrobras",
+        "theme": "economia",
+        "status": "cumpriu",
+        "description": "O petista prometeu mudar a política de preços dos combustíveis da Petrobras para deixar de nivelar os valores pelo mercado internacional. O modelo estava em vigor desde 2016 e foi extinto em 2023. Conforme essa regra, o preço dos combustíveis no mercado interno acompanhava as oscilações internacionais, ou seja, sem intervenção do governo para garantir preços menores."
+      },
+      {
+        "title": "Criar programa para renegociar dívidas das famílias",
+        "theme": "economia",
+        "status": "cumpriu",
+        "description": "A promessa de campanha previu a negociação de dívidas de famílias que recebem até três salários mínimos para limpar o nome dos consumidores e reaquecer a economia. O governo lançou o Programa Desenrola Brasil em julho de 2023. A primeira etapa, segundo o Ministério da Fazenda, permitiu que mais de 15 milhões de pessoas saíssem da inadimplência, com a renegociação de R$ 53,2 bilhões em dívidas em atraso. Em maio de 2026, o governo anunciou o \"Novo Desenrola\". O programa prevê a renegociação com descontos e a troca por uma dívida mais barata, tendo como público-alvo os brasileiros que ganham até cinco salários-mínimos, ou seja, R$ 8.105."
+      },
+      {
+        "title": "Zerar o Imposto de Renda para quem ganha até R$ 5 mil",
+        "theme": "economia",
+        "status": "cumpriu",
+        "description": "Lula prometeu em 2022 dar isenção do Imposto de Renda para quem ganha até R$ 5 mil por mês. A proposta foi apresentada em março de 2025, terceiro ano de mandato, e aprovada pelo Congresso em novembro daquele ano, estabelecendo a isenção total para quem recebe R$ 5 mil mensais e a faixa parcial para salários de até R$ 7.350."
+      },
+      {
+        "title": "Reduzir taxa de juros para a agricultura sustentável",
+        "theme": "economia",
+        "status": "cumpriu",
+        "description": "O presidente disse que reduziria as taxas de juros no Plano Safra, no Programa Nacional de Apoio ao Médio Produtor Rural (Pronamp) e no Programa Nacional de Fortalecimento da Agricultura Familiar (Pronaf) para produtores comprometidos com critérios ambientais e sociais. As taxas de juros de custeio, segundo o governo, caíram de 5% ao ano na safra 2022/2023 para 3% ao ano para alimentos da cesta básica e 2% ao ano para sistemas agroecológicos, orgânicos e da sociobiodiversidade no Plano Safra 2025/2026."
+      },
+      {
+        "title": "Propor nova legislação trabalhista",
+        "theme": "economia",
+        "status": "em_parte",
+        "description": "O plano de governo de Lula trazia o compromisso de propor uma nova legislação trabalhista de proteção social, com atenção especial a autônomos e trabalhadores mediados por aplicativos, além de reestabelecer o acesso gratuito à Justiça do Trabalho. O governo articulou no Congresso o fim da escala 6x1, aprovado na Câmara em maio deste ano. O texto, entretanto, não avançou no Senado. A proposta que regulamenta o trabalho de motoristas e entregadores de aplicativo chegou a ser discutida, mas não foi à votação. E a retomada da gratuidade na Justiça do Trabalho não avançou."
+      },
+      {
+        "title": "Aumentar verba do Bolsa Atleta",
+        "theme": "esporte",
+        "status": "cumpriu",
+        "description": "A campanha de Lula prometeu reajustar os valores do programa Bolsa Atleta, que completou 20 anos em 2024. Segundo o Ministério do Esporte, foram concedidos aumentos de até 10,86% nos benefícios. O total de atletas auxiliados passou de 8.292 em 2023 para 11.214 em 2026. Os valores da categoria Bolsa Pódio, para medalhistas, subiram para faixas entre R$ 5.543 e R$ 16.629 mensais."
+      },
+      {
+        "title": "Criar uma Cúpula da Amazônia",
+        "theme": "meio-ambiente",
+        "status": "cumpriu",
+        "description": "Lula comprometeu-se a criar uma Cúpula dos Países Membros do Tratado de Cooperação Amazônica para discutir o desenvolvimento integrado da região com inclusão social e responsabilidade climática. A Organização do Tratado de Cooperação Amazônica realizou sua quinta reunião em Bogotá em agosto de 2025, com a sexta Cúpula agendada para 2027 no Equador."
+      },
+      {
+        "title": "Recriar o Ministério da Previdência Social",
+        "theme": "administracao",
+        "status": "cumpriu",
+        "description": "Lula prometeu recriar o Ministério da Previdência Social, o que ocorreu no primeiro dia de governo, em janeiro de 2023."
+      },
+      {
+        "title": "Recriar o Ministério da Pesca",
+        "theme": "administracao",
+        "status": "cumpriu",
+        "description": "A promessa da campanha era recriar o Ministério da Pesca e Aquicultura, separando a área da pesca do Ministério da Agricultura e fortalecendo o setor pesqueiro nacional. A pasta foi reinstalada no primeiro dia do mandato presidencial."
+      },
+      {
+        "title": "Criar o Ministério dos Povos Originários",
+        "theme": "administracao",
+        "status": "cumpriu",
+        "description": "Lula prometeu a criação do Ministério dos Povos Indígenas para concentrar as políticas e demandas dos povos originários no primeiro escalão de governo sob a liderança de uma pessoa indígena. O ministério foi criado em 1º de janeiro de 2023, sob o comando de Sonia Guajajara."
+      },
+      {
+        "title": "Recriar o Ministério da Cultura",
+        "theme": "administracao",
+        "status": "cumpriu",
+        "description": "Na campanha de 2022, Lula prometeu recriar o Ministério da Cultura, que na gestão Bolsonaro havia sido transformado em uma secretaria, que esteve nos guarda-chuvas do Ministério da Cidadania, em um primeiro momento, e do Ministério do Turismo, em uma segunda parte do governo. O petista recriou a pasta no primeiro dia de mandato, em 2023. A cantora Margareth Menezes assumiu a chefia do ministério já no início do governo."
+      },
+      {
+        "title": "Fim do orçamento secreto e criação de um orçamento participativo",
+        "theme": "administracao",
+        "status": "em_parte",
+        "description": "Durante a campanha de 2022, Lula prometeu implementar um modelo de orçamento participativo para contrapor o chamado \"orçamento secreto\", apelido dado a um mecanismo de distribuição de dinheiro público por meio das emendas de relator e proibido pelo Supremo Tribunal Federal (STF) por falta de transparência. Criado em 2019, no governo Bolsonaro, o modelo permitia que deputados e senadores destinassem bilhões do orçamento do governo a seus estados e municípios sem que seus nomes fossem revelados e sem a devida transparência sobre o destino desses recursos. Em dezembro de 2022, antes de Lula tomar posse, o \"orçamento secreto\" foi proibido pelo STF por violar a Constituição. Depois disso, o Congresso adotou práticas parecidas usando outros tipos de emenda, como as de comissão. Na prática, continua existindo a distribuição de dinheiro público com pouca transparência sobre quem pediu, para onde foi o recurso e quais critérios foram usados. Relatórios de órgãos de controle e de entidades como a Transparência Brasil mostram que as chamadas emendas de comissão são usadas para driblar as exigências de transparência. Em relação ao orçamento participativo, a Secretaria Geral da Presidência da República (SGPR) realizou, em 2023, reuniões das quais participaram presencialmente 34 mil pessoas. Outras 1,4 milhão deram sugestões por meio da plataforma online disponibilizada pela secretaria, segundo o governo. No total, foram contabilizados mais de 4 milhões de acessos à plataforma."
+      },
+      {
+        "title": "Não se candidatar para o 2º mandato",
+        "theme": "administracao",
+        "status": "nao_cumpriu",
+        "description": "Durante a campanha de 2022, Lula afirmou que seria presidente de um mandato só. Essa promessa não foi cumprida, e ele será candidato mais uma vez neste ano tendo Geraldo Alckmin como vice."
+      },
+      {
+        "title": "Recriar o Ministério de Segurança Pública",
+        "theme": "administracao",
+        "status": "nao_cumpriu",
+        "description": "Lula prometeu recriar o Ministério da Segurança Pública para aumentar a participação do governo federal no combate ao crime organizado e ao narcotráfico. Pelo modelo vigente, a responsabilidade maior sobre o policiamento recai sobre os governos estaduais, embora a Polícia Federal também atue. A promessa de recriar um ministério da área, que existiu no governo de Michel Temer, não foi cumprida até o momento. Nos últimos meses, Lula tem dito que só vai avançar com essa pauta após o Congresso aprovar a chamada PEC da Segurança, proposta que altera a Constituição e, entre outras medidas, divide a responsabilidade sobre a segurança pública entre o governo federal e os estados. A PEC está parada no Senado, sem perspectiva de votação."
+      },
+      {
+        "title": "Universalizar acessos a luz e água",
+        "theme": "infraestrutura",
+        "status": "nao_cumpriu",
+        "description": "O então candidato assumiu metas de universalizar o acesso à energia elétrica e à água para populações vulneráveis e áreas isoladas. Conforme o governo, o percentual da população com energia elétrica atingiu 99,8%, e o Programa Luz para Todos foi retomado em 2023 juntamente com as contratações do Programa Cisternas. A universalização plena, contudo, ainda não foi atingida."
+      },
+      {
+        "title": "Bolsa Família: manter benefício em R$ 600 + R$ 150 por filho",
+        "theme": "direitos-humanos",
+        "status": "cumpriu",
+        "description": "Lula prometeu na campanha reajustar o Bolsa Família para assegurar o piso de R$ 600 por beneficiário e o adicional de R$ 150 por filho de até seis anos de idade. Isso foi feito. Segundo o governo, todas as famílias beneficiárias recebem no mínimo R$ 600, acrescidos do adicional de R$ 150 por criança de até seis anos."
+      },
+      {
+        "title": "Aumentar o salário mínimo todo ano acima da inflação",
+        "theme": "direitos-humanos",
+        "status": "cumpriu",
+        "description": "O governo Lula retomou a Política de Valorização do Salário Mínimo em 2023. O cálculo considera a inflação medida pelo Índice Nacional de Preços ao Consumidor (INPC) em 12 meses e o crescimento do PIB dos dois anos anteriores. A correção do salário mínimo está limitada a 2,5%, segundo regras previstas no arcabouço fiscal para limitar o crescimento do gasto público. O valor atual do salário mínimo é R$ 1.621,00."
+      },
+      {
+        "title": "Tirar o Brasil do Mapa da Fome",
+        "theme": "direitos-humanos",
+        "status": "cumpriu",
+        "description": "Lula prometeu, em 2022, combater a insegurança alimentar e retirar o Brasil do Mapa da Fome. O país voltou a ficar fora da zona de insegurança alimentar grave em 2025, conforme relatório da ONU."
+      },
+      {
+        "title": "Manter e ampliar as cotas raciais",
+        "theme": "direitos-humanos",
+        "status": "cumpriu",
+        "description": "Em 2022, o então candidato prometeu a continuidade e a ampliação das políticas de cotas sociais e raciais para a educação superior e concursos públicos. O governo assinou decreto fixando o percentual mínimo de 30% de vagas reservadas para pessoas negras em cargos comissionados e de confiança no poder público federal."
+      },
+      {
+        "title": "Retomar o Minha Casa, Minha Vida e criar novas modalidades",
+        "theme": "direitos-humanos",
+        "status": "cumpriu",
+        "description": "Lula prometeu retomar o Minha Casa, Minha Vida para reduzir o déficit habitacional, estimular empregos e criar novas modalidades de atendimento. O programa foi relançado em 2023. A nova versão ampliou as faixas de atendimento e incluiu linhas voltadas à classe média com renda de até R$ 13 mil mensais."
+      },
+      {
+        "title": "Criar programa de atendimento a mulheres que sofreram violência",
+        "theme": "direitos-humanos",
+        "status": "em_parte",
+        "description": "A promessa citava a expansão da Rede Casa da Mulher Brasileira e o reforço em ações de combate à violência contra as mulheres. O governo retomou o Programa Mulher Viver sem Violência em março de 2023. Fora inaugurados 20 novos serviços especializados entre Casas da Mulher Brasileira e Centros de Referência, mas há lacunas em vários estados e milhares de municípios, que seguem sem apoio especializado para as vítimas."
+      },
+      {
+        "title": "Não privatizar o Banco do Brasil",
+        "theme": "privatizacoes",
+        "status": "cumpriu",
+        "description": "O presidente afirmou que não privatizaria o Banco do Brasil nem outras instituições financeiras públicas. A instituição segue sob controle público."
+      },
+      {
+        "title": "Não privatizar os Correios",
+        "theme": "privatizacoes",
+        "status": "cumpriu",
+        "description": "Lula cumpriu a promessa de não privatizar os Correios, mas a estatal vive uma profunda crise financeira e acumula prejuízos bilionários. Para tentar resolver a situação, foi aprovado um plano de reestruturação que inclui empréstimos de bancos e redução de custos com cortes de funcionários e fechamento de agências."
+      },
+      {
+        "title": "Não privatizar a Petrobras",
+        "theme": "privatizacoes",
+        "status": "cumpriu",
+        "description": "Lula disse que não venderia a Petrobras, e de fato manteve a empresa sob controle público."
+      },
+      {
+        "title": "Quebrar sigilos definidos pela gestão Bolsonaro",
+        "theme": "transparencia",
+        "status": "nao_cumpriu",
+        "description": "Lula prometeu revogar por decreto, no primeiro dia de governo, os sigilos de até 100 anos impostos pela gestão anterior. O presidente assinou um despacho determinando a reavaliação de tais sigilos pela Controladoria-Geral da União (CGU). A CGU revisou dezenas de casos com deferimento de acesso a registros do Palácio da Alvorada e outros documentos, mas alguns dados permaneceram condicionados a investigações em andamento de eventuais irregularidades. Por outro lado, o próprio governo Lula impôs sigilo de 100 anos a informações que vão desde a agenda da primeira-dama, Janja da Silva, a comunicações diplomáticas sobre o ex-jogador Robinho, condenado e preso por estupro."
+      }
+    ],
+    "scrapedAt": "2026-10-14T18:28:58.649Z"
+  }
+]
