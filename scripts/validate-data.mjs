@@ -1,107 +1,78 @@
-// Validação da integridade dos dados mock e do layout da árvore.
-// Não substitui testes de UI — roda no Node, sem navegador, antes do build.
+// Valida a integridade dos dados reais (presidente + governadores + propostas + notícias).
+// Roda no Node, sem navegador, antes do build.
 import { mandateTree, STATUS } from '../src/data/mandateData.js'
-import { buildLayout } from '../src/lib/layout.js'
-import { flattenTree } from '../src/lib/tree.js'
 
 const erros = []
 const assert = (cond, msg) => {
   if (!cond) erros.push(msg)
 }
 
-const todos = flattenTree(mandateTree)
+const STATUS_VALIDOS = new Set([STATUS.CUMPRIU, STATUS.EM_PARTE, STATUS.NAO_CUMPRIU])
+const UFS = new Set([
+  'AC','AL','AP','AM','BA','CE','DF','ES','GO','MA','MT','MS','MG','PA','PB','PR','PE','PI',
+  'RJ','RN','RS','RO','RR','SC','SP','SE','TO',
+])
 
-const ids = todos.map((n) => n.id)
-assert(new Set(ids).size === ids.length, 'Existem ids duplicados na árvore.')
+// 1) Achata a árvore (presidente → regiões → governadores)
+const regioes = mandateTree.filhos ?? []
+const governadores = regioes.flatMap((r) => r.filhos ?? [])
+const politicos = [mandateTree, ...governadores]
 
-const ministros = mandateTree.filhos
-const secretarios = ministros.flatMap((m) => m.filhos ?? [])
-const prefeitos = secretarios.flatMap((s) => s.filhos ?? [])
-const vereadores = prefeitos.flatMap((p) => p.filhos ?? [])
-
-assert(ministros.length === 5, `Esperado 5 ministros, encontrado ${ministros.length}.`)
-
-for (const ministro of ministros) {
-  const n = ministro.filhos?.length ?? 0
-  assert(n >= 2 && n <= 3, `Ministro "${ministro.nome}" deveria ter 2-3 secretários, tem ${n}.`)
+// 2) Regiões têm marcador tipo='regiao'
+for (const r of regioes) {
+  assert(r.tipo === 'regiao', `Nó "${r.nome}" deveria ter tipo='regiao'.`)
+  assert((r.filhos ?? []).length > 0, `Região "${r.nome}" sem governadores.`)
 }
 
-assert(prefeitos.length === 2, `Esperado 2 prefeitos, encontrado ${prefeitos.length}.`)
-assert(
-  vereadores.length >= 3 && vereadores.length <= 4,
-  `Esperado 3-4 vereadores, encontrado ${vereadores.length}.`,
-)
+// 3) Presidente é a raiz, sem UF
+assert(mandateTree.uf === null, 'O presidente deveria ter uf=null.')
+assert(governadores.length === 27, `Esperado 27 governadores, encontrado ${governadores.length}.`)
 
-for (const pessoa of todos) {
-  const n = pessoa.planos?.length ?? 0
-  const min = pessoa.id === 'lula' ? 5 : 3
-  const max = pessoa.id === 'lula' ? 7 : 5
-  assert(n >= min && n <= max, `"${pessoa.nome}" tem ${n} planos (esperado ${min}-${max}).`)
+// 4) UF válidas e únicas entre governadores
+const ufs = governadores.map((g) => g.uf)
+assert(new Set(ufs).size === ufs.length, 'Existem UFs duplicadas entre governadores.')
+for (const uf of ufs) {
+  assert(UFS.has(uf), `UF inválida: "${uf}".`)
+}
 
-  for (const plano of pessoa.planos ?? []) {
-    if (plano.status === STATUS.CONCLUIDO) {
-      assert(
-        plano.progresso === 100,
-        `Plano "${plano.titulo}" concluído deveria ter 100%, tem ${plano.progresso}%.`,
-      )
+// 5) Ids únicos
+const ids = politicos.map((p) => p.id)
+assert(new Set(ids).size === ids.length, 'Existem ids duplicados.')
+
+// 6) Campos obrigatórios e status/propostas válidos
+for (const p of politicos) {
+  assert(p.nome, `Político "${p.id}" sem nome.`)
+  assert(p.cargo, `"${p.nome}" sem cargo.`)
+  assert(p.mandato?.inicio && p.mandato?.fim, `"${p.nome}" sem mandato completo.`)
+  assert(p.propostas.length > 0, `"${p.nome}" não tem propostas.`)
+
+  for (const prop of p.propostas) {
+    assert(prop.titulo, `Proposta sem título em "${p.nome}".`)
+    assert(STATUS_VALIDOS.has(prop.status), `"${p.nome}": status inválido "${prop.status}" em "${prop.titulo}".`)
+    for (const n of prop.atualizacoes ?? []) {
+      assert(n.url && n.titulo, `Notícia sem url/título em "${p.nome}" → "${prop.titulo}".`)
     }
-    if (plano.status === STATUS.NAO_INICIADO) {
-      assert(
-        plano.progresso === 0,
-        `Plano "${plano.titulo}" não iniciado deveria ter 0%, tem ${plano.progresso}%.`,
-      )
-    }
-    if (plano.status === STATUS.ABANDONADO) {
-      assert(
-        plano.progresso > 0 && plano.progresso < 100,
-        `Plano "${plano.titulo}" abandonado deveria ter progresso parcial, tem ${plano.progresso}%.`,
-      )
-    }
+  }
+
+  for (const n of p.noticiasGerais ?? []) {
+    assert(n.url && n.titulo, `Notícia geral sem url/título em "${p.nome}".`)
   }
 }
 
-const layoutCompleto = buildLayout(mandateTree, new Set())
-assert(
-  Number.isFinite(layoutCompleto.width) && Number.isFinite(layoutCompleto.height),
-  'Largura/altura do layout completo inválidas.',
-)
-for (const node of layoutCompleto.nodes) {
-  assert(Number.isFinite(node.x) && Number.isFinite(node.y), `Nó "${node.id}" com coordenadas inválidas.`)
-}
-for (const link of layoutCompleto.links) {
-  assert(Boolean(link.source) && Boolean(link.target), `Link "${link.id}" com extremidade ausente.`)
-}
-assert(layoutCompleto.nodes.length === todos.length, 'Layout completo perdeu ou duplicou nós.')
-
-const idsMinistros = new Set(ministros.map((m) => m.id))
-const layoutColapsado = buildLayout(mandateTree, idsMinistros)
-assert(
-  layoutColapsado.nodes.length === 1 + ministros.length,
-  'Colapsar todos os ministros deveria esconder todos os seus descendentes.',
-)
-
-if (erros.length > 0) {
-  console.error(`Validação falhou com ${erros.length} problema(s):`)
-  for (const e of erros) console.error(` - ${e}`)
+if (erros.length) {
+  console.error(`❌ ${erros.length} erro(s):`)
+  for (const e of erros) console.error('  - ' + e)
   process.exit(1)
 }
 
-const totalPlanos = todos.reduce((acc, p) => acc + (p.planos?.length ?? 0), 0)
-console.log(
-  `OK — ${todos.length} políticos (${ministros.length} ministros, ${secretarios.length} secretários, ${prefeitos.length} prefeitos, ${vereadores.length} vereadores), ${totalPlanos} planos de mandato, layout sem NaN.`,
-)
-
-function escalaParaViewport(layout, viewportW, viewportH) {
-  const escala = Math.min((viewportW - 48) / layout.width, (viewportH - 48) / layout.height)
-  return Math.max(0.25, Math.min(1.1, escala))
-}
-
-console.log(
-  `Layout completo (23 nós): ${Math.round(layoutCompleto.width)}x${Math.round(layoutCompleto.height)}px` +
-    ` — escala em 1440x800: ${escalaParaViewport(layoutCompleto, 1440, 800).toFixed(2)}`,
+const totalPropostas = politicos.reduce((s, p) => s + p.propostas.length, 0)
+const totalNoticias = politicos.reduce(
+  (s, p) =>
+    s +
+    (p.noticiasGerais?.length ?? 0) +
+    p.propostas.reduce((s2, x) => s2 + x.atualizacoes.length, 0),
+  0,
 )
 console.log(
-  `Layout inicial (ministros colapsados, ${layoutColapsado.nodes.length} nós): ` +
-    `${Math.round(layoutColapsado.width)}x${Math.round(layoutColapsado.height)}px` +
-    ` — escala em 1440x800: ${escalaParaViewport(layoutColapsado, 1440, 800).toFixed(2)}`,
+  `✅ Dados válidos: 1 presidente + ${governadores.length} governadores | ${totalPropostas} propostas | ${totalNoticias} notícias.`,
 )
