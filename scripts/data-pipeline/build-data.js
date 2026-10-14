@@ -14,7 +14,14 @@ const NEWS_FILE = path.join(ROOT, 'src', 'data', 'news', 'all.json')
 const OUT_FILE = path.join(ROOT, 'src', 'data', 'mandateData.js')
 
 // Ordem de exibição dos governadores: agrupados por região, depois por UF.
-const REGIAO_ORDEM = { N: 0, NE: 1, CO: 2, SE: 3, S: 4 }
+const REGIOES = [
+  { sigla: 'N', id: 'regiao-norte', nome: 'Região Norte' },
+  { sigla: 'NE', id: 'regiao-nordeste', nome: 'Região Nordeste' },
+  { sigla: 'CO', id: 'regiao-centro-oeste', nome: 'Região Centro-Oeste' },
+  { sigla: 'SE', id: 'regiao-sudeste', nome: 'Região Sudeste' },
+  { sigla: 'S', id: 'regiao-sul', nome: 'Região Sul' },
+]
+const REGIAO_ORDEM = { N: 0, NE: 1, CO: 2, SE: 3, S: 4 } // eslint-disable-line no-unused-vars
 const UF_REGIAO = {
   AC: 'N', AP: 'N', AM: 'N', PA: 'N', RO: 'N', RR: 'N', TO: 'N',
   AL: 'NE', BA: 'NE', CE: 'NE', MA: 'NE', PB: 'NE', PE: 'NE', PI: 'NE', RN: 'NE', SE: 'NE',
@@ -70,18 +77,27 @@ function main() {
     }
   })
 
-  // Separa presidente (raiz) dos governadores (filhos, ordenados por região/UF)
+  // Separa presidente (raiz) dos governadores, agrupados por região.
   const presidente = nodes.find((n) => !n.uf)
-  const governadores = nodes
-    .filter((n) => n.uf)
-    .sort((a, b) => {
-      const ra = REGIAO_ORDEM[UF_REGIAO[a.uf]] ?? 9
-      const rb = REGIAO_ORDEM[UF_REGIAO[b.uf]] ?? 9
-      if (ra !== rb) return ra - rb
-      return a.uf.localeCompare(b.uf)
-    })
+  const governadores = nodes.filter((n) => n.uf)
 
-  presidente.filhos = governadores
+  presidente.filhos = REGIOES.map((regiao) => {
+    const filhos = governadores
+      .filter((g) => UF_REGIAO[g.uf] === regiao.sigla)
+      .sort((a, b) => a.uf.localeCompare(b.uf))
+    return {
+      id: regiao.id,
+      nome: regiao.nome,
+      cargo: 'Região',
+      tipo: 'regiao',
+      partido: null,
+      uf: null,
+      foto: null,
+      mandato: null,
+      propostas: [],
+      filhos,
+    }
+  }).filter((r) => r.filhos.length > 0)
 
   const generatedAt = new Date().toISOString()
   const body = `// ARQUIVO GERADO AUTOMATICAMENTE pelo pipeline de dados (scripts/data-pipeline).
