@@ -1,53 +1,36 @@
-import { MAPA_LARGURA, MAPA_ALTURA, BOUNDS_POR_UF, CENTROIDE_POR_UF } from './geo.js'
+// Posicionamento da foto do político selecionado no mapa.
+//
+// Regras (atendendo ao pedido do usuário):
+//   - Estados onde a foto CABE dentro (bounding box suficiente): a foto fica
+//     CENTRALIZADA DENTRO do estado.
+//   - Estados pequenos demais: a foto fica FORA da área do país (na margem do
+//     mapa), com uma aresta/linha apontando para o estado.
+//
+// `calcularPosicaoFoto(uf, tamanho)` retorna:
+//   { dentro: true,  x, y }                         — foto dentro do estado
+//   { dentro: false, x, y, ancoraX, ancoraY }       — foto na margem + âncora no estado
 
-const MARGEM = 40
-const DISTANCIA = 90
+import {
+  BOUNDS_BRASIL,
+  CENTROIDE_POR_UF,
+  MAPA_ALTURA,
+  MAPA_LARGURA,
+  MARGEM_MAPA,
+  centroDaFotoNaUf,
+  fotoCabeNaUf,
+} from './geo.js'
 
-// Os 8 estados pequenos do mapa estão todos na metade direita do viewBox
-// (cluster nordestino + RJ/ES + DF). Por isso as direções candidatas sempre
-// priorizam a esquerda — longe da borda direita, onde abre o DetailSidebar —
-// e, em seguida, a direção vertical com mais espaço livre dentro do viewBox
-// a partir do centróide do estado.
-function direcoesCandidatas(centro) {
-  const paraCima = centro.y > MAPA_ALTURA / 2
-  const vy = paraCima ? -1 : 1
-  return [
-    { dx: -1, dy: vy * 0.5 },
-    { dx: -1, dy: 0 },
-    { dx: -0.6, dy: vy },
-    { dx: 0.6, dy: vy },
-    { dx: 1, dy: 0 },
-  ]
-}
-
-// Calcula onde encaixar o callout (foto + linha) de um estado pequeno:
-// testa direções candidatas a partir do centróide e usa a primeira que cai
-// dentro da margem do viewBox e não sobrepõe o próprio estado.
-export function calcularPosicaoCallout(uf) {
-  const bounds = BOUNDS_POR_UF.get(uf)
-  const centro = CENTROIDE_POR_UF.get(uf)
-  if (!bounds || !centro) return null
-
-  const candidatos = direcoesCandidatas(centro)
-
-  for (const dir of candidatos) {
-    const len = Math.hypot(dir.dx, dir.dy) || 1
-    const x = centro.x + (dir.dx / len) * DISTANCIA
-    const y = centro.y + (dir.dy / len) * DISTANCIA
-
-    const dentroDaMargem =
-      x >= MARGEM && x <= MAPA_LARGURA - MARGEM && y >= MARGEM && y <= MAPA_ALTURA - MARGEM
-    const foraDoEstado =
-      x < bounds.x0 - 8 || x > bounds.x1 + 8 || y < bounds.y0 - 8 || y > bounds.y1 + 8
-
-    if (dentroDaMargem && foraDoEstado) {
-      return { x, y, ancoraX: centro.x, ancoraY: centro.y }
-    }
+export function calcularPosicaoFoto(uf, tamanho = 56) {
+  if (fotoCabeNaUf(uf, tamanho)) {
+    const { x, y } = centroDaFotoNaUf(uf)
+    return { dentro: true, x, y }
   }
 
-  const [primeiro] = candidatos
-  const len = Math.hypot(primeiro.dx, primeiro.dy) || 1
-  const x = Math.min(Math.max(centro.x + (primeiro.dx / len) * DISTANCIA, MARGEM), MAPA_LARGURA - MARGEM)
-  const y = Math.min(Math.max(centro.y + (primeiro.dy / len) * DISTANCIA, MARGEM), MAPA_ALTURA - MARGEM)
-  return { x, y, ancoraX: centro.x, ancoraY: centro.y }
+  // Fora do país: na margem do lado mais próximo do estado, y alinhado ao centróide.
+  const centro = CENTROIDE_POR_UF.get(uf) ?? { x: MAPA_LARGURA / 2, y: MAPA_ALTURA / 2 }
+  const [[bx0, by0], [bx1, by1]] = BOUNDS_BRASIL
+  const noLeste = centro.x >= (bx0 + bx1) / 2
+  const x = noLeste ? bx1 + (MAPA_LARGURA - bx1) / 2 : bx0 / 2
+  const y = Math.min(Math.max(centro.y, by0 + 24), by1 - 24)
+  return { dentro: false, x, y, ancoraX: centro.x, ancoraY: centro.y }
 }

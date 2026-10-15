@@ -1,26 +1,35 @@
 import Avatar from '../Avatar/Avatar.jsx'
-import { calcularPosicaoCallout } from '../../lib/calloutPosicao.js'
+import { calcularPosicaoFoto } from '../../lib/calloutPosicao.js'
 
 const TAMANHO_AVATAR = 56
 
-// Callout com foto + aresta para estados pequenos demais para o realce de
-// seleção no mapa ser suficiente (ver ESTADOS_PEQUENOS em lib/geo.js).
-// Desenhado dentro do próprio <svg> do mapa para escalar junto com ele, sem
-// contas de reposicionamento em pixels de tela.
+// Foto do político selecionado sobre o mapa.
+//   - Estado grande: foto centralizada DENTRO do estado.
+//   - Estado pequeno: foto FORA do país (margem do mapa) com aresta/linha até o estado.
+// Desenhado dentro do próprio <svg> para escalar junto com o mapa.
 export default function BrazilMapCallout({ politico }) {
-  const posicao = calcularPosicaoCallout(politico.uf)
+  const posicao = calcularPosicaoFoto(politico.uf, TAMANHO_AVATAR)
   if (!posicao) return null
 
   return (
     <g className="brazil-map__callout" aria-hidden="true">
-      <circle className="brazil-map__callout-pino" cx={posicao.ancoraX} cy={posicao.ancoraY} r={4} />
-      <line
-        className="brazil-map__callout-linha"
-        x1={posicao.ancoraX}
-        y1={posicao.ancoraY}
-        x2={posicao.x}
-        y2={posicao.y}
-      />
+      {!posicao.dentro && (
+        <>
+          <circle
+            className="brazil-map__callout-pino"
+            cx={posicao.ancoraX}
+            cy={posicao.ancoraY}
+            r={4}
+          />
+          <line
+            className="brazil-map__callout-linha"
+            x1={posicao.ancoraX}
+            y1={posicao.ancoraY}
+            x2={posicao.x}
+            y2={posicao.y}
+          />
+        </>
+      )}
       <foreignObject
         x={posicao.x - TAMANHO_AVATAR / 2}
         y={posicao.y - TAMANHO_AVATAR / 2}

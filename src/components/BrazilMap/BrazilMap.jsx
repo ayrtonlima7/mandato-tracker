@@ -112,9 +112,7 @@ export default function BrazilMap({
           </g>
         )}
 
-        {politicoSelecionado?.uf && ESTADOS_PEQUENOS.has(politicoSelecionado.uf) && (
-          <BrazilMapCallout politico={politicoSelecionado} />
-        )}
+        {politicoSelecionado?.uf && <BrazilMapCallout politico={politicoSelecionado} />}
       </svg>
 
       {ufHover && mousePos && (
