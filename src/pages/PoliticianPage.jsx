@@ -3,6 +3,7 @@ import { mandateTree } from '../data/mandateData.js'
 import { findPoliticoById } from '../lib/tree.js'
 import { countByStatus } from '../lib/status.js'
 import Avatar from '../components/Avatar/Avatar.jsx'
+import FotoCredito from '../components/FotoCredito/FotoCredito.jsx'
 import MandateCard from '../components/MandateCard/MandateCard.jsx'
 import './PoliticianPage.css'
 
@@ -37,6 +38,7 @@ export default function PoliticianPage() {
             {politico.cargo}
             {politico.partido ? ` · ${politico.partido}` : ''}
           </p>
+          <FotoCredito credito={politico.fotoCredito} />
         </div>
       </header>
 

@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import Avatar from '../Avatar/Avatar.jsx'
 import MandateCard from '../MandateCard/MandateCard.jsx'
+import FotoCredito from '../FotoCredito/FotoCredito.jsx'
 import NewsFeed from '../NewsFeed/NewsFeed.jsx'
 import { STATUS } from '../../data/mandateData.js'
 import { countByStatus, ordenarPorStatus } from '../../lib/status.js'
@@ -66,6 +67,7 @@ export default function DetailSidebar({ politico, onClose, saindo = false }) {
           <Link className="detail-sidebar__link-pagina" to={`/politico/${politico.id}`}>
             Ver página completa →
           </Link>
+          <FotoCredito credito={politico.fotoCredito} />
         </div>
       </header>
 

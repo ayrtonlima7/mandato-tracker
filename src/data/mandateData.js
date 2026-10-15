@@ -2,7 +2,7 @@
 // NÃO edite à mão — rode: node scripts/data-pipeline/build-data.js
 // Fonte das propostas: projeto "Promessas dos Políticos" (G1). Status: cumpriu | em_parte | nao_cumpriu.
 // Notícias: Google News (feed RSS), atualizadas por scripts/data-pipeline/fetch-news.js.
-// Gerado em: 2026-10-15T15:29:34.347Z
+// Gerado em: 2026-10-15T15:47:03.291Z
 
 export const STATUS = {
   CUMPRIU: 'cumpriu',
@@ -10,7 +10,7 @@ export const STATUS = {
   NAO_CUMPRIU: 'nao_cumpriu',
 }
 
-export const generatedAt = '2026-10-15T15:29:34.347Z'
+export const generatedAt = '2026-10-15T15:47:03.291Z'
 
 export const mandateTree = {
   "id": "lula",
@@ -18,7 +18,12 @@ export const mandateTree = {
   "cargo": "Presidente da República",
   "partido": "PT",
   "uf": null,
-  "foto": null,
+  "foto": "/fotos/lula.jpg",
+  "fotoCredito": {
+    "autor": "Palácio do Planalto from Brasilia, Brasil",
+    "licenca": "CC BY 2.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Foto_oficial_de_Luiz_In%C3%A1cio_Lula_da_Silva_(estreita).jpg"
+  },
   "mandato": {
     "inicio": "2023-01-01",
     "fim": "2026-12-31"
@@ -2101,7 +2106,12 @@ export const mandateTree = {
           "cargo": "Governador do Acre",
           "partido": "PP",
           "uf": "AC",
-          "foto": null,
+          "foto": "/fotos/gladson-cameli.jpg",
+          "fotoCredito": {
+            "autor": "Marcos Oliveira/Agência Senado",
+            "licenca": "CC BY 2.0",
+            "fonte": "https://commons.wikimedia.org/wiki/File:Gladson_Cameli_em_outubro_de_2018.jpg"
+          },
           "mandato": {
             "inicio": "2023-01-01",
             "fim": "2026-12-31"
@@ -2870,7 +2880,12 @@ export const mandateTree = {
           "cargo": "Governador do Amazonas",
           "partido": "UNIÃO",
           "uf": "AM",
-          "foto": null,
+          "foto": "/fotos/wilson-lima.jpg",
+          "fotoCredito": {
+            "autor": "Assembleia do Amazonas - Aleam from Manaus, Brasil",
+            "licenca": "Public domain",
+            "fonte": "https://commons.wikimedia.org/wiki/File:Wilson_Lima,_January_2023_(cropped).jpg"
+          },
           "mandato": {
             "inicio": "2023-01-01",
             "fim": "2026-12-31"
@@ -3590,7 +3605,12 @@ export const mandateTree = {
           "cargo": "Governador do Amapá",
           "partido": "SD",
           "uf": "AP",
-          "foto": null,
+          "foto": "/fotos/clecio-luis.jpg",
+          "fotoCredito": {
+            "autor": "Governo do Amapá",
+            "licenca": "CC BY 3.0",
+            "fonte": "https://commons.wikimedia.org/wiki/File:Foto_oficial_do_governador_do_Estado_do_Amap%C3%A1,_Cl%C3%A9cio_Lu%C3%ADs.jpg"
+          },
           "mandato": {
             "inicio": "2023-01-01",
             "fim": "2026-12-31"
@@ -4223,7 +4243,12 @@ export const mandateTree = {
           "cargo": "Governador do Pará",
           "partido": "MDB",
           "uf": "PA",
-          "foto": null,
+          "foto": "/fotos/helder-barbalho.jpg",
+          "fotoCredito": {
+            "autor": "Palácio do Planalto from Brasilia, Brasil",
+            "licenca": "CC BY 2.0",
+            "fonte": "https://commons.wikimedia.org/wiki/File:Helder_Barbalho,_January_2023_(cropped).jpg"
+          },
           "mandato": {
             "inicio": "2023-01-01",
             "fim": "2026-12-31"
@@ -4872,7 +4897,12 @@ export const mandateTree = {
           "cargo": "Governador de Rondônia",
           "partido": "UNIÃO",
           "uf": "RO",
-          "foto": null,
+          "foto": "/fotos/coronel-marcos-rocha.jpg",
+          "fotoCredito": {
+            "autor": "Luis Macedo/Câmara dos Deputados",
+            "licenca": "CC BY 3.0",
+            "fonte": "https://commons.wikimedia.org/wiki/File:Marcos_Rocha_em_abril_de_2019.jpg"
+          },
           "mandato": {
             "inicio": "2023-01-01",
             "fim": "2026-12-31"
@@ -5298,7 +5328,12 @@ export const mandateTree = {
           "cargo": "Governador de Roraima",
           "partido": "PP",
           "uf": "RR",
-          "foto": null,
+          "foto": "/fotos/antonio-denarium.jpg",
+          "fotoCredito": {
+            "autor": "Washington Costa/MDIC",
+            "licenca": "CC BY-SA 2.0",
+            "fonte": "https://commons.wikimedia.org/wiki/File:Antonio_Denarium.jpg"
+          },
           "mandato": {
             "inicio": "2023-01-01",
             "fim": "2026-12-31"
@@ -5869,7 +5904,12 @@ export const mandateTree = {
           "cargo": "Governador do Tocantins",
           "partido": "REPUBLICANOS",
           "uf": "TO",
-          "foto": null,
+          "foto": "/fotos/wanderlei-barbosa.jpg",
+          "fotoCredito": {
+            "autor": "Marcos Oliveira/Agência Senado",
+            "licenca": "CC BY 2.0",
+            "fonte": "https://commons.wikimedia.org/wiki/File:Wanderlei_Barbosa.jpg"
+          },
           "mandato": {
             "inicio": "2023-01-01",
             "fim": "2026-12-31"
@@ -6600,7 +6640,12 @@ export const mandateTree = {
           "cargo": "Governador de Alagoas",
           "partido": "MDB",
           "uf": "AL",
-          "foto": null,
+          "foto": "/fotos/paulo-dantas.jpg",
+          "fotoCredito": {
+            "autor": "Assembleia legislativa de Alagoas",
+            "licenca": "CC BY-SA 4.0",
+            "fonte": "https://commons.wikimedia.org/wiki/File:Paulo_Dantas_-_Deputado_Estadual.jpg"
+          },
           "mandato": {
             "inicio": "2023-01-01",
             "fim": "2026-12-31"
@@ -7691,7 +7736,12 @@ export const mandateTree = {
           "cargo": "Governador da Bahia",
           "partido": "PT",
           "uf": "BA",
-          "foto": null,
+          "foto": "/fotos/jeronimo-rodrigues.jpg",
+          "fotoCredito": {
+            "autor": "Neusa Cadore from Salvador, Brazil",
+            "licenca": "CC BY 2.0",
+            "fonte": "https://commons.wikimedia.org/wiki/File:PGP_Bacia_do_Jacu%C3%ADpe_em_Capim_Grosso_(52241179839)_(cropped_2).jpg"
+          },
           "mandato": {
             "inicio": "2023-01-01",
             "fim": "2026-12-31"
@@ -9090,7 +9140,12 @@ export const mandateTree = {
           "cargo": "Governador do Ceará",
           "partido": "PT",
           "uf": "CE",
-          "foto": null,
+          "foto": "/fotos/elmano-de-freitas.png",
+          "fotoCredito": {
+            "autor": "Marcelo Augusto",
+            "licenca": "CC BY-SA 4.0",
+            "fonte": "https://commons.wikimedia.org/wiki/File:Elmano_gov_ceara_2023.png"
+          },
           "mandato": {
             "inicio": "2023-01-01",
             "fim": "2026-12-31"
@@ -9771,7 +9826,12 @@ export const mandateTree = {
           "cargo": "Governador do Maranhão",
           "partido": "PSB",
           "uf": "MA",
-          "foto": null,
+          "foto": "/fotos/carlos-brandao.jpg",
+          "fotoCredito": {
+            "autor": "Governo do Maranhão",
+            "licenca": "CC BY 4.0",
+            "fonte": "https://commons.wikimedia.org/wiki/File:Retrato_Oficial_de_Carlos_Brand%C3%A3o_como_governador_do_Maranh%C3%A3o.jpg"
+          },
           "mandato": {
             "inicio": "2023-01-01",
             "fim": "2026-12-31"
@@ -10900,7 +10960,12 @@ export const mandateTree = {
           "cargo": "Governador da Paraíba",
           "partido": "PSB",
           "uf": "PB",
-          "foto": null,
+          "foto": "/fotos/joao-azevedo.jpg",
+          "fotoCredito": {
+            "autor": "Agência Brasília from Brasília, Brasil",
+            "licenca": "CC BY 2.0",
+            "fonte": "https://commons.wikimedia.org/wiki/File:Jo%C3%A3o_Azev%C3%AAdo,_May_2023_(cropped).jpg"
+          },
           "mandato": {
             "inicio": "2023-01-01",
             "fim": "2026-12-31"
@@ -11578,7 +11643,12 @@ export const mandateTree = {
           "cargo": "Governadora de Pernambuco",
           "partido": "PSDB",
           "uf": "PE",
-          "foto": null,
+          "foto": "/fotos/raquel-lyra.jpg",
+          "fotoCredito": {
+            "autor": "Palácio do Planalto from Brasilia, Brasil",
+            "licenca": "CC BY 2.0",
+            "fonte": "https://commons.wikimedia.org/wiki/File:Raquel_Lyra,_June_2023.jpg"
+          },
           "mandato": {
             "inicio": "2023-01-01",
             "fim": "2026-12-31"
@@ -13332,7 +13402,12 @@ export const mandateTree = {
           "cargo": "Governador do Piauí",
           "partido": "PT",
           "uf": "PI",
-          "foto": null,
+          "foto": "/fotos/rafael-fonteles.jpg",
+          "fotoCredito": {
+            "autor": "Ipea",
+            "licenca": "CC BY 2.0",
+            "fonte": "https://commons.wikimedia.org/wiki/File:Ipea_Recebe_o_Governador_do_Piau%C3%AD_Rafael_Fonteles_(54119348754)_(cropped).jpg"
+          },
           "mandato": {
             "inicio": "2023-01-01",
             "fim": "2026-12-31"
@@ -14577,7 +14652,12 @@ export const mandateTree = {
           "cargo": "Governadora do Rio Grande do Norte",
           "partido": "PT",
           "uf": "RN",
-          "foto": null,
+          "foto": "/fotos/fatima-bezerra.jpg",
+          "fotoCredito": {
+            "autor": "Agência Brasília from Brasília, Brasil",
+            "licenca": "CC BY 2.0",
+            "fonte": "https://commons.wikimedia.org/wiki/File:F%C3%A1tima_Bezerra_in_2023_(cropped).jpg"
+          },
           "mandato": {
             "inicio": "2023-01-01",
             "fim": "2026-12-31"
@@ -15018,7 +15098,12 @@ export const mandateTree = {
           "cargo": "Governador de Sergipe",
           "partido": "PSD",
           "uf": "SE",
-          "foto": null,
+          "foto": "/fotos/fabio-mitidieri.jpg",
+          "fotoCredito": {
+            "autor": "Governo do Sergipe",
+            "licenca": "CC BY 2.0",
+            "fonte": "https://commons.wikimedia.org/wiki/File:Foto_oficial_do_governador_F%C3%A1bio_Mitidieri.jpg"
+          },
           "mandato": {
             "inicio": "2023-01-01",
             "fim": "2026-12-31"
@@ -15542,7 +15627,12 @@ export const mandateTree = {
           "cargo": "Governador do Distrito Federal",
           "partido": "MDB",
           "uf": "DF",
-          "foto": null,
+          "foto": "/fotos/ibaneis-rocha.jpg",
+          "fotoCredito": {
+            "autor": "Agência Brasília from Brasília, Brasil",
+            "licenca": "CC BY 2.0",
+            "fonte": "https://commons.wikimedia.org/wiki/File:Ibaneis_Rocha,_January_2023_(cropped).jpg"
+          },
           "mandato": {
             "inicio": "2023-01-01",
             "fim": "2026-12-31"
@@ -16324,7 +16414,12 @@ export const mandateTree = {
           "cargo": "Governador de Goiás",
           "partido": "UNIÃO",
           "uf": "GO",
-          "foto": null,
+          "foto": "/fotos/ronaldo-caiado.jpg",
+          "fotoCredito": {
+            "autor": "Bianca Kida",
+            "licenca": "CC BY 2.0",
+            "fonte": "https://commons.wikimedia.org/wiki/File:Foto_oficial_do_governador_de_Goi%C3%A1s,_Ronaldo_Caiado_em_2023_(ombros).jpg"
+          },
           "mandato": {
             "inicio": "2023-01-01",
             "fim": "2026-12-31"
@@ -17028,7 +17123,12 @@ export const mandateTree = {
           "cargo": "Governador do Mato Grosso do Sul",
           "partido": "PSDB",
           "uf": "MS",
-          "foto": null,
+          "foto": "/fotos/eduardo-riedel.jpg",
+          "fotoCredito": {
+            "autor": "Agência Brasília from Brasília, Brasil",
+            "licenca": "CC BY 2.0",
+            "fonte": "https://commons.wikimedia.org/wiki/File:XIV_Reuni%C3%A3o_do_F%C3%B3rum_Nacional_de_Governadores_em_Bras%C3%ADlia_(52922688344).jpg"
+          },
           "mandato": {
             "inicio": "2023-01-01",
             "fim": "2026-12-31"
@@ -17587,7 +17687,12 @@ export const mandateTree = {
           "cargo": "Governador do Mato Grosso",
           "partido": "UNIÃO",
           "uf": "MT",
-          "foto": null,
+          "foto": "/fotos/mauro-mendes.jpg",
+          "fotoCredito": {
+            "autor": "Palácio do Planalto",
+            "licenca": "CC BY 2.0",
+            "fonte": "https://commons.wikimedia.org/wiki/File:2019_Reuni%C3%A3o_com_Ministros_da_Casa_Civil,_Defesa,_Rela%C3%A7%C3%B5es_Exteriores,_Meio_Ambiente,_Secretaria-Geral,_Secretaria_de_Governo,_GSI_e_Governadores_da_Amaz%C3%B4nia_Legal_-_48630502003_(cropped)_Mauro_Mendes.jpg"
+          },
           "mandato": {
             "inicio": "2023-01-01",
             "fim": "2026-12-31"
@@ -18741,7 +18846,12 @@ export const mandateTree = {
           "cargo": "Governador do Espírito Santo",
           "partido": "PSB",
           "uf": "ES",
-          "foto": null,
+          "foto": "/fotos/renato-casagrande.jpg",
+          "fotoCredito": {
+            "autor": "Senado Federal",
+            "licenca": "CC BY 2.0",
+            "fonte": "https://commons.wikimedia.org/wiki/File:Renato_Casagrande_em_janeiro_de_2017.jpg"
+          },
           "mandato": {
             "inicio": "2023-01-01",
             "fim": "2026-12-31"
@@ -19310,7 +19420,12 @@ export const mandateTree = {
           "cargo": "Governador de Minas Gerais",
           "partido": "NOVO",
           "uf": "MG",
-          "foto": null,
+          "foto": "/fotos/romeu-zema.jpg",
+          "fotoCredito": {
+            "autor": "Andressa Anholete/Agência Senado",
+            "licenca": "CC BY 2.0",
+            "fonte": "https://commons.wikimedia.org/wiki/File:Romeu_Zema,_December_2024_(cropped).jpg"
+          },
           "mandato": {
             "inicio": "2023-01-01",
             "fim": "2026-12-31"
@@ -19741,7 +19856,12 @@ export const mandateTree = {
           "cargo": "Governador do Rio de Janeiro",
           "partido": "PL",
           "uf": "RJ",
-          "foto": null,
+          "foto": "/fotos/claudio-castro.jpg",
+          "fotoCredito": {
+            "autor": "Governo do Estado do Rio de Janeiro",
+            "licenca": "CC BY 2.0 br",
+            "fonte": "https://commons.wikimedia.org/wiki/File:Claudio_Castro_como_Vice_Governador_do_Rio_de_Janeiro.jpg"
+          },
           "mandato": {
             "inicio": "2023-01-01",
             "fim": "2026-12-31"
@@ -20745,7 +20865,12 @@ export const mandateTree = {
           "cargo": "Governador de São Paulo",
           "partido": "REPUBLICANOS",
           "uf": "SP",
-          "foto": null,
+          "foto": "/fotos/tarcisio-de-freitas.jpg",
+          "fotoCredito": {
+            "autor": "Ciete Silvério/Governo do Estado de SP",
+            "licenca": "CC BY 2.0",
+            "fonte": "https://commons.wikimedia.org/wiki/File:Governador_do_Estado_de_S%C3%A3o_Paulo,_Tarc%C3%ADsio_de_Freitas_-_Foto_Oficial.jpg"
+          },
           "mandato": {
             "inicio": "2023-01-01",
             "fim": "2026-12-31"
@@ -22155,7 +22280,12 @@ export const mandateTree = {
           "cargo": "Governador do Paraná",
           "partido": "PSD",
           "uf": "PR",
-          "foto": null,
+          "foto": "/fotos/ratinho-junior.jpg",
+          "fotoCredito": {
+            "autor": "Assembleia Legislativa do Paraná",
+            "licenca": "Public domain",
+            "fonte": "https://commons.wikimedia.org/wiki/File:Ratinho_J%C3%BAnior_as_governor_of_Paran%C3%A1,_January_2023_(cropped).jpg"
+          },
           "mandato": {
             "inicio": "2023-01-01",
             "fim": "2026-12-31"
@@ -23216,7 +23346,12 @@ export const mandateTree = {
           "cargo": "Governador do Rio Grande do Sul",
           "partido": "PSDB",
           "uf": "RS",
-          "foto": null,
+          "foto": "/fotos/eduardo-leite.jpg",
+          "fotoCredito": {
+            "autor": "Governo RS",
+            "licenca": "CC BY-SA 4.0",
+            "fonte": "https://commons.wikimedia.org/wiki/File:09.02.2026_%E2%80%93_Eduardo_Leite_in_February_2026_-_55087496770_(3x4).jpg"
+          },
           "mandato": {
             "inicio": "2023-01-01",
             "fim": "2026-12-31"
@@ -24805,7 +24940,12 @@ export const mandateTree = {
           "cargo": "Governador de Santa Catarina",
           "partido": "PL",
           "uf": "SC",
-          "foto": null,
+          "foto": "/fotos/jorginho-mello.jpg",
+          "fotoCredito": {
+            "autor": "Senado Federal",
+            "licenca": "CC BY 2.0",
+            "fonte": "https://commons.wikimedia.org/wiki/File:Plen%C3%A1rio_do_Senado_(22335628008).jpg"
+          },
           "mandato": {
             "inicio": "2023-01-01",
             "fim": "2026-12-31"

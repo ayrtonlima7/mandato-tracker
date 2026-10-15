@@ -9,12 +9,13 @@
     "preview": "vite preview",
     "validate:data": "node scripts/validate-data.mjs",
     "data:g1": "node scripts/data-pipeline/scrape-g1.js",
+    "data:photos": "node scripts/data-pipeline/fetch-photos.js",
     "data:news": "node scripts/data-pipeline/fetch-news.js",
     "data:general": "node scripts/data-pipeline/fetch-general.js",
     "data:review": "node scripts/data-pipeline/review-match.js",
     "data:build": "node scripts/data-pipeline/build-data.js",
     "data:daily": "npm run data:news && npm run data:general && npm run data:review && npm run data:build && npm run validate:data",
-    "data:weekly": "npm run data:g1 && npm run data:daily"
+    "data:weekly": "npm run data:g1 && npm run data:photos && npm run data:daily"
   },
   "dependencies": {
     "cheerio": "^1.2.0",

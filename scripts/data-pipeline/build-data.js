@@ -3,7 +3,7 @@
 //
 // Uso: node scripts/data-pipeline/build-data.js
 
-import { readFileSync, writeFileSync } from 'node:fs'
+import { existsSync, readFileSync, writeFileSync } from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 
@@ -11,6 +11,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const ROOT = path.join(__dirname, '..', '..')
 const G1_FILE = path.join(ROOT, 'src', 'data', 'g1', 'all.json')
 const NEWS_FILE = path.join(ROOT, 'src', 'data', 'news', 'all.json')
+const FOTOS_FILE = path.join(ROOT, 'src', 'data', 'fotos.json') // gerado por fetch-photos.js
 const GENERAL_FILE = path.join(ROOT, 'src', 'data', 'news-general', 'all.json')
 const OUT_FILE = path.join(ROOT, 'src', 'data', 'mandateData.js')
 
@@ -93,6 +94,7 @@ function separarNoticiasGerais(propostas, noticiasGeraisFetch) {
 }
 
 function main() {
+  const fotos = existsSync(FOTOS_FILE) ? JSON.parse(readFileSync(FOTOS_FILE, 'utf8')) : {}
   const g1 = JSON.parse(readFileSync(G1_FILE, 'utf8'))
   const news = JSON.parse(readFileSync(NEWS_FILE, 'utf8'))
   let generalNews = []
@@ -151,7 +153,10 @@ function main() {
       cargo: pol.role,
       partido: pol.party,
       uf: pol.uf,
-      foto: null,
+      foto: fotos[pol.id] ? `/${fotos[pol.id].arquivo}` : null,
+      fotoCredito: fotos[pol.id]
+        ? { autor: fotos[pol.id].autor, licenca: fotos[pol.id].licenca, fonte: fotos[pol.id].fonte }
+        : null,
       mandato: pol.mandate ? { inicio: pol.mandate.start, fim: pol.mandate.end } : null,
       propostas: propostasLimpa,
       noticiasGerais,

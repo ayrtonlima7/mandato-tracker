@@ -2,6 +2,7 @@
 // Lista de políticos monitorados (Presidente + Governadores, eleitos 2022, mandato 2023–2026).
 // Fonte primária das propostas: projeto "Promessas dos Políticos" do G1 (atualizado jul/2026).
 
+// wikidata: QID fixado (verificado à mão) — evita pegar homônimo numa busca por nome.
 export const POLITICIANS = [
   {
     id: 'lula',
@@ -13,6 +14,7 @@ export const POLITICIANS = [
     g1Url:
       'https://g1.globo.com/politica/noticia/2026/07/22/promessas-de-lula-governo-aprovou-reforma-tributaria-e-isencao-do-ir-e-nao-recriou-ministerio-da-seguranca.ghtml',
     newsQuery: 'Lula presidente',
+    wikidata: 'Q37181',
   },
   {
     id: 'gladson-cameli',
@@ -24,6 +26,7 @@ export const POLITICIANS = [
     g1Url:
       'https://g1.globo.com/ac/acre/noticia/2026/07/22/promessas-de-gladson-cameli-e-mailza-assis-gestores-do-acre-fizeram-concurso-para-policia-penal-e-revitalizaram-biblioteca-da-floresta-meta-de-criar-delegacias-da-mulher-nao-foi-cumprida.ghtml',
     newsQuery: 'Gladson Cameli governador Acre',
+    wikidata: 'Q10290029',
   },
   {
     id: 'paulo-dantas',
@@ -34,6 +37,7 @@ export const POLITICIANS = [
     mandate: { start: '2023-01-01', end: '2026-12-31' },
     g1Url: 'https://g1.globo.com/al/alagoas/noticia/2026/07/22/promessas-de-paulo-dantas-governador-de-alagoas.ghtml',
     newsQuery: 'Paulo Dantas governador Alagoas',
+    wikidata: 'Q58735514',
   },
   {
     id: 'clecio-luis',
@@ -44,6 +48,7 @@ export const POLITICIANS = [
     mandate: { start: '2023-01-01', end: '2026-12-31' },
     g1Url: 'https://g1.globo.com/ap/amapa/noticia/2026/07/22/promessas-de-clecio-luis-governador-do-amapa.ghtml',
     newsQuery: 'Clécio Luís governador Amapá',
+    wikidata: 'Q16337273',
   },
   {
     id: 'wilson-lima',
@@ -54,6 +59,7 @@ export const POLITICIANS = [
     mandate: { start: '2023-01-01', end: '2026-12-31' },
     g1Url: 'https://g1.globo.com/am/amazonas/noticia/2026/07/22/promessas-de-wilson-lima-ex-governador-do-amazonas.ghtml',
     newsQuery: 'Wilson Lima governador Amazonas',
+    wikidata: 'Q58047696',
   },
   {
     id: 'jeronimo-rodrigues',
@@ -64,6 +70,7 @@ export const POLITICIANS = [
     mandate: { start: '2023-01-01', end: '2026-12-31' },
     g1Url: 'https://g1.globo.com/ba/bahia/noticia/2026/07/22/promessas-de-jeronimo-rodrigues-governador-da-bahia.ghtml',
     newsQuery: 'Jerônimo Rodrigues governador Bahia',
+    wikidata: 'Q115058424',
   },
   {
     id: 'elmano-de-freitas',
@@ -74,6 +81,7 @@ export const POLITICIANS = [
     mandate: { start: '2023-01-01', end: '2026-12-31' },
     g1Url: 'https://g1.globo.com/ce/ceara/noticia/2026/07/22/promessas-de-elmano-de-freitas-governador-do-ceara.ghtml',
     newsQuery: 'Elmano de Freitas governador Ceará',
+    wikidata: 'Q18246475',
   },
   {
     id: 'ibaneis-rocha',
@@ -85,6 +93,7 @@ export const POLITICIANS = [
     g1Url:
       'https://g1.globo.com/df/distrito-federal/noticia/2026/07/22/promessas-de-ibaneis-e-celina-governador-e-vice-do-distrito-federal.ghtml',
     newsQuery: 'Ibaneis Rocha governador Distrito Federal',
+    wikidata: 'Q58053056',
   },
   {
     id: 'renato-casagrande',
@@ -96,6 +105,7 @@ export const POLITICIANS = [
     g1Url:
       'https://g1.globo.com/es/espirito-santo/noticia/2026/07/22/promessas-de-renato-casagrande-e-ricardo-ferraco-governador-e-vice-do-espirito-santo.ghtml',
     newsQuery: 'Renato Casagrande governador Espírito Santo',
+    wikidata: 'Q945907',
   },
   {
     id: 'ronaldo-caiado',
@@ -107,6 +117,7 @@ export const POLITICIANS = [
     g1Url:
       'https://g1.globo.com/go/goias/noticia/2026/07/22/promessas-de-ronaldo-caiado-e-daniel-vilela-governador-e-vice-de-goias.ghtml',
     newsQuery: 'Ronaldo Caiado governador Goiás',
+    wikidata: 'Q10364348',
   },
   {
     id: 'carlos-brandao',
@@ -117,6 +128,7 @@ export const POLITICIANS = [
     mandate: { start: '2023-01-01', end: '2026-12-31' },
     g1Url: 'https://g1.globo.com/ma/maranhao/noticia/2026/07/22/promessas-de-carlos-brandao-governador-do-maranhao.ghtml',
     newsQuery: 'Carlos Brandão governador Maranhão',
+    wikidata: 'Q18707872',
   },
   {
     id: 'mauro-mendes',
@@ -128,6 +140,7 @@ export const POLITICIANS = [
     g1Url:
       'https://g1.globo.com/mt/mato-grosso/noticia/2026/07/22/promessas-de-mauro-mendes-e-otaviano-pivetta-governador-e-vice-de-mt-ampliaram-ensino-integral-e-programa-de-cirurgias-eletivas-meta-de-implantacao-do-brt-nao-foi-cumprida.ghtml',
     newsQuery: 'Mauro Mendes governador Mato Grosso',
+    wikidata: 'Q7724122',
   },
   {
     id: 'eduardo-riedel',
@@ -139,6 +152,7 @@ export const POLITICIANS = [
     g1Url:
       'https://g1.globo.com/ms/mato-grosso-do-sul/noticia/2026/07/22/promessas-de-eduardo-riedel-governador-de-mato-grosso-do-sul.ghtml',
     newsQuery: 'Eduardo Riedel governador Mato Grosso do Sul',
+    wikidata: 'Q112407628',
   },
   {
     id: 'romeu-zema',
@@ -149,6 +163,7 @@ export const POLITICIANS = [
     mandate: { start: '2023-01-01', end: '2026-12-31' },
     g1Url: 'https://g1.globo.com/mg/minas-gerais/noticia/2026/07/22/promessas-zema-mateus-simoes-governo-mg.ghtml',
     newsQuery: 'Romeu Zema governador Minas Gerais',
+    wikidata: 'Q57092113',
   },
   {
     id: 'helder-barbalho',
@@ -159,6 +174,7 @@ export const POLITICIANS = [
     mandate: { start: '2023-01-01', end: '2026-12-31' },
     g1Url: 'https://g1.globo.com/pa/para/noticia/2026/07/22/promessas-de-helder-e-hana-ghassan-governador-e-vice-do-para.ghtml',
     newsQuery: 'Helder Barbalho governador Pará',
+    wikidata: 'Q3784499',
   },
   {
     id: 'ratinho-junior',
@@ -170,6 +186,7 @@ export const POLITICIANS = [
     g1Url:
       'https://g1.globo.com/pr/parana/noticia/2026/07/22/promessas-de-ratinho-junior-governador-do-parana-entregou-ponte-de-guaratuba-e-universidade-entrega-terminal-em-londrina-nao-foi-cumprida.ghtml',
     newsQuery: 'Ratinho Junior governador Paraná',
+    wikidata: 'Q10357567',
   },
   {
     id: 'joao-azevedo',
@@ -181,6 +198,7 @@ export const POLITICIANS = [
     g1Url:
       'https://g1.globo.com/pb/paraiba/noticia/2026/07/22/promessas-de-joao-azevedo-e-lucas-ribeiro-governador-e-vice-da-paraiba.ghtml',
     newsQuery: 'João Azevêdo governador Paraíba',
+    wikidata: 'Q56351397',
   },
   {
     id: 'raquel-lyra',
@@ -191,6 +209,7 @@ export const POLITICIANS = [
     mandate: { start: '2023-01-01', end: '2026-12-31' },
     g1Url: 'https://g1.globo.com/pe/pernambuco/noticia/2026/07/22/promessas-de-raquel-lyra-governadora-de-pernambuco.ghtml',
     newsQuery: 'Raquel Lyra governadora Pernambuco',
+    wikidata: 'Q27267587',
   },
   {
     id: 'rafael-fonteles',
@@ -201,6 +220,9 @@ export const POLITICIANS = [
     mandate: { start: '2023-01-01', end: '2026-12-31' },
     g1Url: 'https://g1.globo.com/pi/piaui/noticia/2026/07/22/promessas-de-rafael-fonteles-governador-do-piaui.ghtml',
     newsQuery: 'Rafael Fonteles governador Piauí',
+    wikidata: 'Q111917943',
+    // Sem P18 no Wikidata; foto do Ipea (CC BY 2.0) achada direto no Commons.
+    commonsFile: 'Ipea Recebe o Governador do Piauí Rafael Fonteles (54119348754) (cropped).jpg',
   },
   {
     id: 'claudio-castro',
@@ -211,6 +233,7 @@ export const POLITICIANS = [
     mandate: { start: '2023-01-01', end: '2026-12-31' },
     g1Url: 'https://g1.globo.com/rj/rio-de-janeiro/noticia/2026/07/22/promessas-de-claudio-castro-ex-governador-do-rj.ghtml',
     newsQuery: 'Cláudio Castro governador Rio de Janeiro',
+    wikidata: 'Q57965921',
   },
   {
     id: 'fatima-bezerra',
@@ -222,6 +245,7 @@ export const POLITICIANS = [
     g1Url:
       'https://g1.globo.com/rn/rio-grande-do-norte/noticia/2026/07/22/promessas-de-fatima-bezerra-governadora-do-rio-grande-do-norte.ghtml',
     newsQuery: 'Fátima Bezerra governadora Rio Grande do Norte',
+    wikidata: 'Q10286993',
   },
   {
     id: 'eduardo-leite',
@@ -232,6 +256,7 @@ export const POLITICIANS = [
     mandate: { start: '2023-01-01', end: '2026-12-31' },
     g1Url: 'https://g1.globo.com/rs/rio-grande-do-sul/noticia/2026/07/22/promessas-eduardo-leite-governador-do-rio-grande-do-sul.ghtml',
     newsQuery: 'Eduardo Leite governador Rio Grande do Sul',
+    wikidata: 'Q16337390',
   },
   {
     id: 'coronel-marcos-rocha',
@@ -242,6 +267,7 @@ export const POLITICIANS = [
     mandate: { start: '2023-01-01', end: '2026-12-31' },
     g1Url: 'https://g1.globo.com/ro/rondonia/noticia/2026/07/22/promessas-de-coronel-marcos-rocha-governador-de-rondonia.ghtml',
     newsQuery: 'Coronel Marcos Rocha governador Rondônia',
+    wikidata: 'Q60345250',
   },
   {
     id: 'antonio-denarium',
@@ -252,6 +278,7 @@ export const POLITICIANS = [
     mandate: { start: '2023-01-01', end: '2026-12-31' },
     g1Url: 'https://g1.globo.com/rr/roraima/noticia/2026/07/22/promessas-de-antonio-denarium-ex-governador-de-roraima.ghtml',
     newsQuery: 'Antonio Denarium governador Roraima',
+    wikidata: 'Q59284403',
   },
   {
     id: 'jorginho-mello',
@@ -262,6 +289,7 @@ export const POLITICIANS = [
     mandate: { start: '2023-01-01', end: '2026-12-31' },
     g1Url: 'https://g1.globo.com/sc/santa-catarina/noticia/2026/07/22/promessas-de-jorginho-mello-governador-de-sc.ghtml',
     newsQuery: 'Jorginho Mello governador Santa Catarina',
+    wikidata: 'Q10308318',
   },
   {
     id: 'tarcisio-de-freitas',
@@ -272,6 +300,7 @@ export const POLITICIANS = [
     mandate: { start: '2023-01-01', end: '2026-12-31' },
     g1Url: 'https://g1.globo.com/sp/sao-paulo/noticia/2026/07/22/promessas-de-tarcisio-governador-de-sp.ghtml',
     newsQuery: 'Tarcísio de Freitas governador São Paulo',
+    wikidata: 'Q60392579',
   },
   {
     id: 'fabio-mitidieri',
@@ -282,6 +311,7 @@ export const POLITICIANS = [
     mandate: { start: '2023-01-01', end: '2026-12-31' },
     g1Url: 'https://g1.globo.com/se/sergipe/noticia/2026/07/22/promessas-de-fabio-mitidieri-governador-de-sergipe.ghtml',
     newsQuery: 'Fábio Mitidieri governador Sergipe',
+    wikidata: 'Q48871938',
   },
   {
     id: 'wanderlei-barbosa',
@@ -293,5 +323,6 @@ export const POLITICIANS = [
     g1Url:
       'https://g1.globo.com/to/tocantins/noticia/2026/07/22/promessas-de-wanderlei-barbosa-governador-do-tocantins.ghtml',
     newsQuery: 'Wanderlei Barbosa governador Tocantins',
+    wikidata: 'Q94175645',
   },
 ]

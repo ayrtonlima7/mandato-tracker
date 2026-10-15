@@ -1,7 +1,7 @@
 name: Atualizar dados
 
 # Diário: notícias (fetch-news, fetch-general, review-match, build-data).
-# Semanal (segunda): inclui também o scrape das promessas do G1.
+# Semanal (segunda): inclui também o scrape das promessas do G1 e as fotos (Wikimedia).
 # Horários em UTC (BRT = UTC-3).
 on:
   schedule:
@@ -60,7 +60,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add src/data scripts/data-pipeline/cache
+          git add src/data scripts/data-pipeline/cache public/fotos
           # Ignora diffs que só mudam o carimbo de data do build-data.
           if git diff --cached --quiet -I'^(// Gerado em|export const generatedAt)'; then
             echo "Sem mudanças nos dados."
