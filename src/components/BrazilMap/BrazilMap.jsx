@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Avatar from '../Avatar/Avatar.jsx'
-import { ESTADOS, MAPA_LARGURA, MAPA_ALTURA, PATH_POR_UF } from '../../lib/geo.js'
+import BrazilMapCallout from './BrazilMapCallout.jsx'
+import { ESTADOS, ESTADOS_PEQUENOS, MAPA_LARGURA, MAPA_ALTURA, PATH_POR_UF } from '../../lib/geo.js'
 import { UF_NOME, regiaoPorUf, corDaRegiao, CARGOS_LABEL_POR_UF } from '../../lib/estados.js'
 import './BrazilMap.css'
 
@@ -10,6 +11,7 @@ export default function BrazilMap({
   presidente,
   presidenteSelecionado,
   onSelecionarPresidente,
+  politicoSelecionado,
 }) {
   const [ufHover, setUfHover] = useState(null)
   const [mousePos, setMousePos] = useState(null)
@@ -69,6 +71,23 @@ export default function BrazilMap({
           })}
         </g>
 
+        {/* Área de toque ampliada para os estados pequenos (DF, SE, AL...):
+            um traço largo e invisível por cima do caminho real, hit-testável
+            só em telas de toque (onde o dedo é mais impreciso que o mouse). */}
+        <g className="brazil-map__tap-targets" aria-hidden="true">
+          {ESTADOS.map(({ uf, d }) => {
+            if (!ESTADOS_PEQUENOS.has(uf)) return null
+            return (
+              <path
+                key={uf}
+                d={d}
+                className="brazil-map__estado-tap"
+                onClick={() => onSelecionarUf(uf)}
+              />
+            )
+          })}
+        </g>
+
         {/* Camada de realce desenhada por cima: evita que o traço grosso do
             estado selecionado/hover fique coberto pelos vizinhos. */}
         {(ufSelecionada || ufHover) && (
@@ -91,6 +110,10 @@ export default function BrazilMap({
               />
             )}
           </g>
+        )}
+
+        {politicoSelecionado?.uf && ESTADOS_PEQUENOS.has(politicoSelecionado.uf) && (
+          <BrazilMapCallout politico={politicoSelecionado} />
         )}
       </svg>
 

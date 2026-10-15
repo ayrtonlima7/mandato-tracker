@@ -1,6 +1,6 @@
 .detail-sidebar {
-  width: min(420px, 32vw);
-  min-width: 320px;
+  --detail-sidebar-width: clamp(320px, 32vw, 420px);
+  width: var(--detail-sidebar-width);
   flex-shrink: 0;
   height: 100%;
   overflow-y: auto;
@@ -8,6 +8,37 @@
   border-left: 2px solid rgba(31, 58, 95, 0.3);
   padding: 24px 22px 36px;
   position: relative;
+  animation: detail-sidebar-entrar 0.22s ease;
+}
+
+.detail-sidebar--saindo {
+  animation: detail-sidebar-sair 0.22s ease forwards;
+  pointer-events: none;
+}
+
+/* Margem negativa no lado externo (direito), não transform: a sidebar é
+   item flex, então animar a margem faz o mapa vizinho encolher/crescer em
+   sincronia com o slide, em vez de pular de tamanho no mount/unmount. */
+@keyframes detail-sidebar-entrar {
+  from {
+    margin-right: calc(-1 * var(--detail-sidebar-width));
+    opacity: 0.4;
+  }
+  to {
+    margin-right: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes detail-sidebar-sair {
+  from {
+    margin-right: 0;
+    opacity: 1;
+  }
+  to {
+    margin-right: calc(-1 * var(--detail-sidebar-width));
+    opacity: 0;
+  }
 }
 
 .detail-sidebar__fechar {
@@ -63,6 +94,51 @@
   text-decoration: underline;
 }
 
+.detail-sidebar__noticias-gerais {
+  background: rgba(31, 58, 95, 0.05);
+  border: 1px solid rgba(31, 58, 95, 0.18);
+  border-radius: 10px 12px 11px 13px;
+  padding: 12px 14px;
+  margin-bottom: 16px;
+}
+
+.detail-sidebar__subtitulo {
+  font-family: 'Source Serif 4', Georgia, serif;
+  font-size: 0.88rem;
+  color: #1f3a5f;
+  margin: 0 0 8px;
+}
+
+.detail-sidebar__filtro {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 16px;
+}
+
+.detail-sidebar__filtro-botao {
+  background: #fbf6e9;
+  border: 1.5px solid rgba(31, 58, 95, 0.3);
+  border-radius: 999px;
+  color: #4a4336;
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 5px 11px;
+  cursor: pointer;
+  transition: transform 0.12s ease, box-shadow 0.12s ease, background 0.12s ease;
+}
+
+.detail-sidebar__filtro-botao:hover {
+  transform: translateY(-1px);
+  box-shadow: 2px 3px 0 rgba(74, 59, 42, 0.14);
+}
+
+.detail-sidebar__filtro-botao--ativo {
+  background: #1f3a5f;
+  border-color: #1f3a5f;
+  color: #fbf6e9;
+}
+
 .detail-sidebar__resumo {
   display: flex;
   flex-wrap: wrap;
@@ -89,5 +165,38 @@
     min-width: 0;
     z-index: 120;
     padding: 20px 18px 36px;
+    animation: detail-sidebar-entrar-mobile 0.22s ease;
+  }
+
+  .detail-sidebar--saindo {
+    animation: detail-sidebar-sair-mobile 0.22s ease forwards;
+  }
+
+  @keyframes detail-sidebar-entrar-mobile {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes detail-sidebar-sair-mobile {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(100%);
+    }
+  }
+}
+
+/* Precisa vir depois do bloco mobile: como as seletoras têm a mesma
+   especificidade, uma regra de media query anterior no arquivo perderia
+   para a declaração mobile (que é só condicional, não mais específica). */
+@media (prefers-reduced-motion: reduce) {
+  .detail-sidebar,
+  .detail-sidebar--saindo {
+    animation: none;
   }
 }

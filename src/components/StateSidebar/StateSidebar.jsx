@@ -1,9 +1,20 @@
 import Avatar from '../Avatar/Avatar.jsx'
 import './StateSidebar.css'
 
-export default function StateSidebar({ nomeEstado, grupos, politicoSelecionadoId, onSelecionarPolitico, onClose }) {
+export default function StateSidebar({
+  nomeEstado,
+  grupos,
+  politicoSelecionadoId,
+  onSelecionarPolitico,
+  onClose,
+  saindo = false,
+}) {
   return (
-    <aside className="state-sidebar" role="dialog" aria-label={`Políticos de ${nomeEstado}`}>
+    <aside
+      className={`state-sidebar ${saindo ? 'state-sidebar--saindo' : ''}`}
+      role="dialog"
+      aria-label={`Políticos de ${nomeEstado}`}
+    >
       <button type="button" className="state-sidebar__fechar" onClick={onClose} aria-label="Fechar">
         ×
       </button>

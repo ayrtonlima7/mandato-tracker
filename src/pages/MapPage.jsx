@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from 'react'
 import BrazilMap from '../components/BrazilMap/BrazilMap.jsx'
 import StateSidebar from '../components/StateSidebar/StateSidebar.jsx'
 import DetailSidebar from '../components/DetailSidebar/DetailSidebar.jsx'
+import { usePanelTransition } from '../hooks/usePanelTransition.js'
 import { mandateTree } from '../data/mandateData.js'
 import { UF_NOME, politicosPorUf, agruparPorCargo } from '../lib/estados.js'
 import './MapPage.css'
@@ -10,9 +11,15 @@ export default function MapPage() {
   const [ufSelecionada, setUfSelecionada] = useState(null)
   const [politicoSelecionado, setPoliticoSelecionado] = useState(null)
 
+  const painelEstado = usePanelTransition(ufSelecionada)
+  const painelDetalhe = usePanelTransition(politicoSelecionado)
+
+  // Usa o valor retido pelo hook (painelEstado.value), não ufSelecionada
+  // direto: durante a animação de saída ufSelecionada já é null, mas o
+  // painel ainda está montado e precisa mostrar o conteúdo do último estado.
   const gruposDoEstado = useMemo(
-    () => agruparPorCargo(ufSelecionada ? politicosPorUf.get(ufSelecionada) ?? [] : []),
-    [ufSelecionada],
+    () => agruparPorCargo(painelEstado.value ? politicosPorUf.get(painelEstado.value) ?? [] : []),
+    [painelEstado.value],
   )
 
   function selecionarUf(uf) {
@@ -48,12 +55,13 @@ export default function MapPage() {
       </header>
 
       <div className="map-page__corpo">
-        {ufSelecionada && (
+        {painelEstado.mounted && (
           <StateSidebar
-            nomeEstado={UF_NOME[ufSelecionada]}
+            nomeEstado={UF_NOME[painelEstado.value]}
             grupos={gruposDoEstado}
             politicoSelecionadoId={politicoSelecionado?.id}
             onSelecionarPolitico={setPoliticoSelecionado}
+            saindo={painelEstado.saindo}
             onClose={() => {
               setUfSelecionada(null)
               setPoliticoSelecionado(null)
@@ -68,13 +76,15 @@ export default function MapPage() {
             presidente={mandateTree}
             presidenteSelecionado={politicoSelecionado?.id === mandateTree.id}
             onSelecionarPresidente={selecionarPresidente}
+            politicoSelecionado={politicoSelecionado}
           />
         </div>
 
-        {politicoSelecionado && (
+        {painelDetalhe.mounted && (
           <DetailSidebar
-            key={politicoSelecionado.id}
-            politico={politicoSelecionado}
+            key={painelDetalhe.value.id}
+            politico={painelDetalhe.value}
+            saindo={painelDetalhe.saindo}
             onClose={() => setPoliticoSelecionado(null)}
           />
         )}

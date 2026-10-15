@@ -104,7 +104,19 @@ function main() {
 
   // Índice de notícias por político + proposta (título como chave)
   const newsByPolitician = new Map(news.map((p) => [p.id, p]))
-  const generalByPolitician = new Map(generalNews.map((g) => [g.id, g.noticiasGerais || []]))
+  // Normaliza as notícias gerais para os MESMOS campos em português das propostas
+  // (os arquivos do pipeline usam title/source/url/date; o frontend espera titulo/fonte/data/url).
+  const generalByPolitician = new Map(
+    generalNews.map((g) => [
+      g.id,
+      (g.noticiasGerais || []).map((u) => ({
+        data: u.date,
+        titulo: u.title,
+        fonte: u.source,
+        url: u.url,
+      })),
+    ]),
+  )
 
   const nodes = g1.map((pol) => {
     const newsPol = newsByPolitician.get(pol.id)

@@ -1,0 +1,76 @@
+.news-feed__toggle {
+  background: none;
+  border: none;
+  padding: 0;
+  font-family: inherit;
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: #1f3a5f;
+  cursor: pointer;
+}
+
+.news-feed__toggle:hover {
+  text-decoration: underline;
+}
+
+.news-feed__vazio {
+  color: #8a8070;
+  font-size: 0.8rem;
+  margin: 0;
+}
+
+.news-feed__lista {
+  list-style: none;
+  margin: 10px 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-height: 260px;
+  overflow-y: auto;
+}
+
+/* Prévia parcial (N primeiros itens, antes de "Ver mais"): sem teto de
+   altura/scroll interno — são poucos itens e devem ficar todos visíveis. */
+.news-feed__lista--parcial {
+  max-height: none;
+  overflow: visible;
+}
+
+.news-feed__item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 6px;
+  font-size: 0.78rem;
+  line-height: 1.35;
+}
+
+.news-feed__data {
+  color: #8a8070;
+  font-size: 0.72rem;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.news-feed__titulo {
+  color: #1f3a5f;
+  font-weight: 600;
+  text-decoration: none;
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.news-feed__titulo:hover {
+  text-decoration: underline;
+}
+
+.news-feed__fonte {
+  color: #8a8070;
+  font-size: 0.7rem;
+  white-space: nowrap;
+}
+
+.news-feed__fonte::before {
+  content: '· ';
+}

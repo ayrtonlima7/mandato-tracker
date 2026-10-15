@@ -23,3 +23,18 @@ export function countByStatus(propostas) {
   }
   return counts
 }
+
+const ORDEM_STATUS = [STATUS.CUMPRIU, STATUS.EM_PARTE, STATUS.NAO_CUMPRIU]
+
+// Cumpridas → em parte → não cumpridas; status desconhecido vai para o fim.
+// Array.prototype.sort é estável (ES2019+), então a ordem original dentro de
+// cada grupo é preservada.
+export function ordenarPorStatus(propostas) {
+  return [...(propostas ?? [])].sort((a, b) => {
+    const ia = ORDEM_STATUS.indexOf(a.status)
+    const ib = ORDEM_STATUS.indexOf(b.status)
+    const oa = ia === -1 ? ORDEM_STATUS.length : ia
+    const ob = ib === -1 ? ORDEM_STATUS.length : ib
+    return oa - ob
+  })
+}

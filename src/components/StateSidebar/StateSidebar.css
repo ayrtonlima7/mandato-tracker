@@ -7,6 +7,37 @@
   border-right: 2px solid rgba(31, 58, 95, 0.3);
   padding: 20px 16px 24px;
   position: relative;
+  animation: state-sidebar-entrar 0.22s ease;
+}
+
+.state-sidebar--saindo {
+  animation: state-sidebar-sair 0.22s ease forwards;
+  pointer-events: none;
+}
+
+/* Margem negativa (não transform): como a sidebar é item flex, animar só a
+   margem faz o mapa vizinho encolher/crescer em sincronia com o slide, em
+   vez de pular de tamanho no instante do mount/unmount. */
+@keyframes state-sidebar-entrar {
+  from {
+    margin-left: -280px;
+    opacity: 0.4;
+  }
+  to {
+    margin-left: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes state-sidebar-sair {
+  from {
+    margin-left: 0;
+    opacity: 1;
+  }
+  to {
+    margin-left: -280px;
+    opacity: 0;
+  }
 }
 
 .state-sidebar__fechar {
@@ -111,5 +142,38 @@
     width: 100%;
     z-index: 110;
     padding: 20px 18px 32px;
+    animation: state-sidebar-entrar-mobile 0.22s ease;
+  }
+
+  .state-sidebar--saindo {
+    animation: state-sidebar-sair-mobile 0.22s ease forwards;
+  }
+
+  @keyframes state-sidebar-entrar-mobile {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes state-sidebar-sair-mobile {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+}
+
+/* Precisa vir depois do bloco mobile: como as seletoras têm a mesma
+   especificidade, uma regra de media query anterior no arquivo perderia
+   para a declaração mobile (que é só condicional, não mais específica). */
+@media (prefers-reduced-motion: reduce) {
+  .state-sidebar,
+  .state-sidebar--saindo {
+    animation: none;
   }
 }
