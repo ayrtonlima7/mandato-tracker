@@ -21,7 +21,7 @@ import {
 } from './geo.js'
 
 export function calcularPosicaoFoto(uf, tamanho = 56) {
-  if (fotoCabeNaUf(uf, tamanho)) {
+  if (fotoCabeNaUf(uf)) {
     const { x, y } = centroDaFotoNaUf(uf)
     return { dentro: true, x, y }
   }

@@ -1,4 +1,4 @@
-import { geoMercator, geoPath, geoContains } from 'd3-geo'
+import { geoMercator, geoPath } from 'd3-geo'
 import brasilUfRaw from '../assets/brasil-uf.json'
 
 // O GeoJSON de origem (IBGE) usa o sentido de rotação oposto ao que o d3-geo
@@ -88,61 +88,14 @@ export const ESTADOS_PEQUENOS = new Set(
   ESTADOS.filter((estado) => estado.area < AREA_LIMIAR_ESTADO_PEQUENO).map((estado) => estado.uf),
 )
 
-// Feature original de uma UF (para teste de contenção em coordenadas geográficas).
-const FEATURE_POR_UF = new Map(brasilGeo.features.map((f) => [siglaDaFeature(f), f]))
-
-// Verifica se o ponto (x, y) — em coordenadas do viewBox projetado — está
-// DENTRO do polígono do estado. Usa geoContains na feature original (lon/lat),
-// invertendo a projeção para converter o ponto do viewBox.
-export function pontoDentroDaUf(uf, x, y) {
-  const feature = FEATURE_POR_UF.get(uf)
-  if (!feature) return false
-  let lonlat
-  try {
-    lonlat = projecao.invert([x, y])
-  } catch {
-    return false
-  }
-  return geoContains(feature, lonlat)
+// A foto só cabe DENTRO do estado se ele não for "pequeno" (limiar de área acima).
+// O bounding box não serve aqui: estados alongados (ex.: PE) têm bbox grande
+// mesmo com área pequena, e a foto vazaria para fora do contorno.
+export function fotoCabeNaUf(uf) {
+  return !ESTADOS_PEQUENOS.has(uf)
 }
 
-// Verifica se um avatar de diâmetro `tamanho` cabe dentro do estado, centrado
-// no centro do bounding box. Regra prática: o bounding box precisa ter largura E
-// altura >= tamanho, e o centro (com folga) precisa estar dentro do polígono.
-// Se não couber, o estado é tratado como "pequeno demais para foto interna".
-export function fotoCabeNaUf(uf, tamanho = 56) {
-  const bounds = BOUNDS_POR_UF.get(uf)
-  const centro = CENTROIDE_POR_UF.get(uf)
-  if (!bounds || !centro) return false
-  const [[x0, y0], [x1, y1]] = bounds
-  if (x1 - x0 < tamanho || y1 - y0 < tamanho) return false
-  const cx = (x0 + x1) / 2
-  const cy = (y0 + y1) / 2
-  // usa o centro do bbox se ele estiver dentro do polígono, senão o centróide
-  const [px, py] = pontoDentroDaUf(uf, cx, cy) ? [cx, cy] : [centro.x, centro.y]
-  const r = tamanho / 2
-  const pts = [
-    [px, py],
-    [px + r, py],
-    [px - r, py],
-    [px, py + r],
-    [px, py - r],
-    [px + r * 0.7, py + r * 0.7],
-    [px - r * 0.7, py + r * 0.7],
-    [px + r * 0.7, py - r * 0.7],
-    [px - r * 0.7, py - r * 0.7],
-  ]
-  return pts.every(([ax, ay]) => pontoDentroDaUf(uf, ax, ay))
-}
-
-// Ponto ideal para centralizar a foto DENTRO do estado: centro do bounding box
-// se estiver dentro do polígono; senão, o centróide.
+// Ponto para centralizar a foto DENTRO do estado: o centróide projetado.
 export function centroDaFotoNaUf(uf) {
-  const bounds = BOUNDS_POR_UF.get(uf)
-  const centro = CENTROIDE_POR_UF.get(uf)
-  if (!bounds || !centro) return centro
-  const [[x0, y0], [x1, y1]] = bounds
-  const cx = (x0 + x1) / 2
-  const cy = (y0 + y1) / 2
-  return pontoDentroDaUf(uf, cx, cy) ? { x: cx, y: cy } : centro
+  return CENTROIDE_POR_UF.get(uf) ?? { x: MAPA_LARGURA / 2, y: MAPA_ALTURA / 2 }
 }

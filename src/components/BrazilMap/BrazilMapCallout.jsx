@@ -1,15 +1,17 @@
-import Avatar from '../Avatar/Avatar.jsx'
+import { colorFromName, initialsFromName } from '../../lib/avatar.js'
 import { calcularPosicaoFoto } from '../../lib/calloutPosicao.js'
 
 const TAMANHO_AVATAR = 56
 
-// Foto do político selecionado sobre o mapa.
-//   - Estado grande: foto centralizada DENTRO do estado.
-//   - Estado pequeno: foto FORA do país (margem do mapa) com aresta/linha até o estado.
-// Desenhado dentro do próprio <svg> para escalar junto com o mapa.
+// Renderização totalmente SVG (sem foreignObject): evita incompatibilidades de
+// namespace/DOM ao inserir HTML do Avatar dentro do mapa SVG.
 export default function BrazilMapCallout({ politico }) {
   const posicao = calcularPosicaoFoto(politico.uf, TAMANHO_AVATAR)
   if (!posicao) return null
+
+  const clipId = `foto-${String(politico.id).replace(/[^a-zA-Z0-9_-]/g, '-')}`
+  const r = TAMANHO_AVATAR / 2
+  const bg = colorFromName(politico.nome)
 
   return (
     <g className="brazil-map__callout" aria-hidden="true">
@@ -30,17 +32,45 @@ export default function BrazilMapCallout({ politico }) {
           />
         </>
       )}
-      <foreignObject
-        x={posicao.x - TAMANHO_AVATAR / 2}
-        y={posicao.y - TAMANHO_AVATAR / 2}
-        width={TAMANHO_AVATAR}
-        height={TAMANHO_AVATAR}
-        style={{ overflow: 'visible' }}
-      >
-        <div className="brazil-map__callout-avatar">
-          <Avatar nome={politico.nome} foto={politico.foto} size={TAMANHO_AVATAR} />
-        </div>
-      </foreignObject>
+      <defs>
+        <clipPath id={clipId}>
+          <circle cx={posicao.x} cy={posicao.y} r={r - 2} />
+        </clipPath>
+      </defs>
+      <circle
+        className="brazil-map__callout-fundo"
+        cx={posicao.x}
+        cy={posicao.y}
+        r={r}
+        fill={politico.foto ? '#fbf6e9' : bg}
+      />
+      {politico.foto ? (
+        <image
+          href={politico.foto}
+          x={posicao.x - r + 2}
+          y={posicao.y - r + 2}
+          width={TAMANHO_AVATAR - 4}
+          height={TAMANHO_AVATAR - 4}
+          preserveAspectRatio="xMidYMid slice"
+          clipPath={`url(#${clipId})`}
+        />
+      ) : (
+        <text
+          className="brazil-map__callout-iniciais"
+          x={posicao.x}
+          y={posicao.y}
+          textAnchor="middle"
+          dominantBaseline="central"
+        >
+          {initialsFromName(politico.nome)}
+        </text>
+      )}
+      <circle
+        className="brazil-map__callout-contorno"
+        cx={posicao.x}
+        cy={posicao.y}
+        r={r - 1}
+      />
     </g>
   )
 }

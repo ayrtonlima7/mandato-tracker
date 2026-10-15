@@ -55,6 +55,17 @@ export default function MapPage() {
       </header>
 
       <div className="map-page__corpo">
+        <div className="map-page__mapa">
+          <BrazilMap
+            ufSelecionada={ufSelecionada}
+            onSelecionarUf={selecionarUf}
+            presidente={mandateTree}
+            presidenteSelecionado={politicoSelecionado?.id === mandateTree.id}
+            onSelecionarPresidente={selecionarPresidente}
+            politicoSelecionado={politicoSelecionado}
+          />
+        </div>
+
         {painelEstado.mounted && (
           <StateSidebar
             nomeEstado={UF_NOME[painelEstado.value]}
@@ -69,16 +80,6 @@ export default function MapPage() {
           />
         )}
 
-        <div className="map-page__mapa">
-          <BrazilMap
-            ufSelecionada={ufSelecionada}
-            onSelecionarUf={selecionarUf}
-            presidente={mandateTree}
-            presidenteSelecionado={politicoSelecionado?.id === mandateTree.id}
-            onSelecionarPresidente={selecionarPresidente}
-            politicoSelecionado={politicoSelecionado}
-          />
-        </div>
 
         {painelDetalhe.mounted && (
           <DetailSidebar

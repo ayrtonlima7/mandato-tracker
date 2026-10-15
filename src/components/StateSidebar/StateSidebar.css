@@ -4,7 +4,7 @@
   height: 100%;
   overflow-y: auto;
   background: #f3e9d2;
-  border-right: 2px solid rgba(31, 58, 95, 0.3);
+  border-left: 2px solid rgba(31, 58, 95, 0.3);
   padding: 20px 16px 24px;
   position: relative;
   animation: state-sidebar-entrar 0.22s ease;
@@ -20,22 +20,22 @@
    vez de pular de tamanho no instante do mount/unmount. */
 @keyframes state-sidebar-entrar {
   from {
-    margin-left: -280px;
+    margin-right: -280px;
     opacity: 0.4;
   }
   to {
-    margin-left: 0;
+    margin-right: 0;
     opacity: 1;
   }
 }
 
 @keyframes state-sidebar-sair {
   from {
-    margin-left: 0;
+    margin-right: 0;
     opacity: 1;
   }
   to {
-    margin-left: -280px;
+    margin-right: -280px;
     opacity: 0;
   }
 }
@@ -151,7 +151,7 @@
 
   @keyframes state-sidebar-entrar-mobile {
     from {
-      transform: translateX(-100%);
+      transform: translateX(100%);
     }
     to {
       transform: translateX(0);
@@ -163,7 +163,7 @@
       transform: translateX(0);
     }
     to {
-      transform: translateX(-100%);
+      transform: translateX(100%);
     }
   }
 }
