@@ -15,11 +15,16 @@
 import { readFileSync, writeFileSync } from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { carregarCache, salvarCache } from './lib/review-cache.js'
+import { chaveDeCache, manchetePura } from './lib/pre-filtro.js'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const ROOT = path.join(__dirname, '..', '..')
 const NEWS_FILE = path.join(ROOT, 'src', 'data', 'news', 'all.json')
 const GENERAL_FILE = path.join(ROOT, 'src', 'data', 'news-general', 'all.json')
+
+const CACHE_FILE = path.join(__dirname, 'cache', 'review-cache.json')
+const CATEGORIAS_VALIDAS = new Set(['especifica', 'geral', 'irrelevante'])
 
 const MODEL = 'deepseek-chat'
 const API_URL = 'https://api.deepseek.com/chat/completions'
@@ -93,21 +98,38 @@ async function classificar(chunk, politico) {
   return JSON.parse(content).resultados
 }
 
-async function revisarPolitico(polId, nome, propostas, noticiasGerais, max) {
+async function revisarPolitico(polId, nome, propostas, noticiasGerais, max, cache, vistas) {
   // Achata todas as notícias de propostas com contexto, com índice global
   const flat = []
   let counter = 0
-  const propostaPorId = []
   for (const prop of propostas) {
+    const titulosVistos = new Set() // republicações da mesma matéria na mesma proposta
     for (const n of prop.updates ?? []) {
-      flat.push({ id: counter, proposta: prop.title, manchete: n.title, item: n, propTitle: prop.title })
-      propostaPorId.push(prop.title)
+      const pura = manchetePura(n.title)
+      if (titulosVistos.has(pura)) continue
+      titulosVistos.add(pura)
+      const chave = chaveDeCache(n.url, prop.title, n.title)
+      vistas.add(chave)
+      flat.push({ id: counter, chave, proposta: prop.title, manchete: n.title, item: n, propTitle: prop.title })
       counter++
     }
   }
 
   const categorias = new Map() // id -> categoria
-  const total = max && max < flat.length ? flat.slice(0, max) : flat
+
+  // Cache: só vai para a IA o que ainda não foi classificado em execuções anteriores.
+  let doCache = 0
+  const pendentes = []
+  for (const f of flat) {
+    const cat = cache.get(f.chave)
+    if (cat) {
+      categorias.set(f.id, cat)
+      doCache++
+    } else {
+      pendentes.push(f)
+    }
+  }
+  const total = max && max < pendentes.length ? pendentes.slice(0, max) : pendentes
   const chunks = []
   for (let i = 0; i < total.length; i += CHUNK) chunks.push(total.slice(i, i + CHUNK))
 
@@ -116,7 +138,12 @@ async function revisarPolitico(polId, nome, propostas, noticiasGerais, max) {
     while (tentativas > 0) {
       try {
         const resultados = await classificar(chunk, nome)
-        for (const r of resultados) categorias.set(r.id, r.categoria)
+        for (const r of resultados) {
+          if (!CATEGORIAS_VALIDAS.has(r.categoria)) continue
+          categorias.set(r.id, r.categoria)
+          const f = flat[r.id]
+          if (f) cache.set(f.chave, r.categoria) // só respostas reais entram no cache
+        }
         break
       } catch (e) {
         tentativas--
@@ -157,7 +184,7 @@ async function revisarPolitico(polId, nome, propostas, noticiasGerais, max) {
   }
   noticiasGeraisFinais.sort((a, b) => new Date(b.date || 0) - new Date(a.date || 0))
 
-  return { propostas: propostasRevisadas, noticiasGerais: noticiasGeraisFinais }
+  return { propostas: propostasRevisadas, noticiasGerais: noticiasGeraisFinais, doCache, enviadas: total.length }
 }
 
 async function main() {
@@ -171,17 +198,25 @@ async function main() {
   let totalEspecificas = 0
   let totalGerais = 0
   let totalDescartadas = 0
+  let totalCache = 0
+  let totalEnviadas = 0
+  const cache = carregarCache(CACHE_FILE)
+  const vistas = new Set()
 
   for (const pol of list) {
     const antes = pol.proposals.reduce((s, p) => s + (p.updates?.length ?? 0), 0)
     process.stdout.write(`[${pol.id}] revisando ${antes} notícias`)
-    const { propostas, noticiasGerais } = await revisarPolitico(
+    const { propostas, noticiasGerais, doCache, enviadas } = await revisarPolitico(
       pol.id,
       pol.name,
       pol.proposals,
       generalByPol.get(pol.id) || [],
       max,
+      cache,
+      vistas,
     )
+    totalCache += doCache
+    totalEnviadas += enviadas
     const depois = propostas.reduce((s, p) => s + (p.updates?.length ?? 0), 0)
     totalEspecificas += depois
     totalGerais += noticiasGerais.length
@@ -190,6 +225,9 @@ async function main() {
     pol.noticiasGerais = noticiasGerais
     process.stdout.write(` → ${depois} específicas, ${noticiasGerais.length} gerais\n`)
   }
+
+  // Poda entradas órfãs só em execução completa (com id/max, 'vistas' é parcial).
+  salvarCache(CACHE_FILE, cache, !id && !max ? vistas : null)
 
   // Solo (com id) escreve em {id}.json para NÃO sobrescrever all.json; full escreve all.json.
   const isSolo = Boolean(id)
@@ -203,6 +241,7 @@ async function main() {
   console.log(
     `\nRevisado: ${totalEspecificas} específicas | ${totalGerais} gerais | ${totalDescartadas} descartadas como irrelevantes`,
   )
+  console.log(`IA: ${totalEnviadas} notícias enviadas | ${totalCache} reaproveitadas do cache`)
   console.log(`Escrito em ${newsOut} e ${geralOutFile}`)
 }
 
