@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { colorFromName, initialsFromName } from '../../lib/avatar.js'
+import { colorFromName, initialsFromName, urlDaFoto } from '../../lib/avatar.js'
 import './Avatar.css'
 
 export default function Avatar({ nome, foto, size = 56 }) {
@@ -17,7 +17,7 @@ export default function Avatar({ nome, foto, size = 56 }) {
       }}
     >
       {mostrarFoto ? (
-        <img src={foto} alt={nome} onError={() => setErro(true)} />
+        <img src={urlDaFoto(foto)} alt={nome} onError={() => setErro(true)} />
       ) : (
         <span>{initialsFromName(nome)}</span>
       )}

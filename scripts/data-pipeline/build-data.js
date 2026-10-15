@@ -153,7 +153,7 @@ function main() {
       cargo: pol.role,
       partido: pol.party,
       uf: pol.uf,
-      foto: fotos[pol.id] ? `/${fotos[pol.id].arquivo}` : null,
+      foto: fotos[pol.id] ? fotos[pol.id].arquivo : null,
       fotoCredito: fotos[pol.id]
         ? { autor: fotos[pol.id].autor, licenca: fotos[pol.id].licenca, fonte: fotos[pol.id].fonte }
         : null,

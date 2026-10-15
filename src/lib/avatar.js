@@ -21,3 +21,11 @@ export function initialsFromName(nome) {
 export function colorFromName(nome) {
   return PALETTE[hashString(nome) % PALETTE.length]
 }
+
+// Fotos ficam em public/fotos; o caminho guardado nos dados é relativo à raiz do site,
+// e o BASE_URL do Vite (ex.: /mandato-tracker/ no GitHub Pages) é aplicado aqui.
+export function urlDaFoto(foto) {
+  if (!foto) return null
+  if (/^https?:\/\//.test(foto)) return foto
+  return `${import.meta.env.BASE_URL}${foto.replace(/^\//, '')}`
+}

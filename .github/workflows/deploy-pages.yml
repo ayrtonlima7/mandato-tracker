@@ -1,0 +1,57 @@
+name: Publicar site (GitHub Pages)
+
+# Publica a cada push em main e depois de cada atualização automática de dados
+# (commits feitos pelo GITHUB_TOKEN NÃO disparam o gatilho de push, por isso o workflow_run).
+on:
+  push:
+    branches: [main]
+  workflow_run:
+    workflows: ['Atualizar dados']
+    types: [completed]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  publicar:
+    # Se veio de workflow_run, só publica quando a atualização de dados deu certo.
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Build
+        env:
+          BASE_PATH: /mandato-tracker/
+        run: |
+          npm run build
+          # GitHub Pages não tem fallback de SPA: 404.html = index.html faz /politico/:id funcionar.
+          cp dist/index.html dist/404.html
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+      - id: deployment
+        uses: actions/deploy-pages@v4

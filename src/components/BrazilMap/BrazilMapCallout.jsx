@@ -1,4 +1,4 @@
-import { colorFromName, initialsFromName } from '../../lib/avatar.js'
+import { colorFromName, initialsFromName, urlDaFoto } from '../../lib/avatar.js'
 import { calcularPosicaoFoto } from '../../lib/calloutPosicao.js'
 
 const TAMANHO_AVATAR = 56
@@ -46,7 +46,7 @@ export default function BrazilMapCallout({ politico }) {
       />
       {politico.foto ? (
         <image
-          href={politico.foto}
+          href={urlDaFoto(politico.foto)}
           x={posicao.x - r + 2}
           y={posicao.y - r + 2}
           width={TAMANHO_AVATAR - 4}

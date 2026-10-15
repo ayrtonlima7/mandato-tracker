@@ -2,7 +2,7 @@
 // NÃO edite à mão — rode: node scripts/data-pipeline/build-data.js
 // Fonte das propostas: projeto "Promessas dos Políticos" (G1). Status: cumpriu | em_parte | nao_cumpriu.
 // Notícias: Google News (feed RSS), atualizadas por scripts/data-pipeline/fetch-news.js.
-// Gerado em: 2026-10-15T15:47:03.291Z
+// Gerado em: 2026-10-15T15:52:57.647Z
 
 export const STATUS = {
   CUMPRIU: 'cumpriu',
@@ -10,7 +10,7 @@ export const STATUS = {
   NAO_CUMPRIU: 'nao_cumpriu',
 }
 
-export const generatedAt = '2026-10-15T15:47:03.291Z'
+export const generatedAt = '2026-10-15T15:52:57.647Z'
 
 export const mandateTree = {
   "id": "lula",
@@ -18,7 +18,7 @@ export const mandateTree = {
   "cargo": "Presidente da República",
   "partido": "PT",
   "uf": null,
-  "foto": "/fotos/lula.jpg",
+  "foto": "fotos/lula.jpg",
   "fotoCredito": {
     "autor": "Palácio do Planalto from Brasilia, Brasil",
     "licenca": "CC BY 2.0",
@@ -2106,7 +2106,7 @@ export const mandateTree = {
           "cargo": "Governador do Acre",
           "partido": "PP",
           "uf": "AC",
-          "foto": "/fotos/gladson-cameli.jpg",
+          "foto": "fotos/gladson-cameli.jpg",
           "fotoCredito": {
             "autor": "Marcos Oliveira/Agência Senado",
             "licenca": "CC BY 2.0",
@@ -2880,7 +2880,7 @@ export const mandateTree = {
           "cargo": "Governador do Amazonas",
           "partido": "UNIÃO",
           "uf": "AM",
-          "foto": "/fotos/wilson-lima.jpg",
+          "foto": "fotos/wilson-lima.jpg",
           "fotoCredito": {
             "autor": "Assembleia do Amazonas - Aleam from Manaus, Brasil",
             "licenca": "Public domain",
@@ -3605,7 +3605,7 @@ export const mandateTree = {
           "cargo": "Governador do Amapá",
           "partido": "SD",
           "uf": "AP",
-          "foto": "/fotos/clecio-luis.jpg",
+          "foto": "fotos/clecio-luis.jpg",
           "fotoCredito": {
             "autor": "Governo do Amapá",
             "licenca": "CC BY 3.0",
@@ -4243,7 +4243,7 @@ export const mandateTree = {
           "cargo": "Governador do Pará",
           "partido": "MDB",
           "uf": "PA",
-          "foto": "/fotos/helder-barbalho.jpg",
+          "foto": "fotos/helder-barbalho.jpg",
           "fotoCredito": {
             "autor": "Palácio do Planalto from Brasilia, Brasil",
             "licenca": "CC BY 2.0",
@@ -4897,7 +4897,7 @@ export const mandateTree = {
           "cargo": "Governador de Rondônia",
           "partido": "UNIÃO",
           "uf": "RO",
-          "foto": "/fotos/coronel-marcos-rocha.jpg",
+          "foto": "fotos/coronel-marcos-rocha.jpg",
           "fotoCredito": {
             "autor": "Luis Macedo/Câmara dos Deputados",
             "licenca": "CC BY 3.0",
@@ -5328,7 +5328,7 @@ export const mandateTree = {
           "cargo": "Governador de Roraima",
           "partido": "PP",
           "uf": "RR",
-          "foto": "/fotos/antonio-denarium.jpg",
+          "foto": "fotos/antonio-denarium.jpg",
           "fotoCredito": {
             "autor": "Washington Costa/MDIC",
             "licenca": "CC BY-SA 2.0",
@@ -5904,7 +5904,7 @@ export const mandateTree = {
           "cargo": "Governador do Tocantins",
           "partido": "REPUBLICANOS",
           "uf": "TO",
-          "foto": "/fotos/wanderlei-barbosa.jpg",
+          "foto": "fotos/wanderlei-barbosa.jpg",
           "fotoCredito": {
             "autor": "Marcos Oliveira/Agência Senado",
             "licenca": "CC BY 2.0",
@@ -6640,7 +6640,7 @@ export const mandateTree = {
           "cargo": "Governador de Alagoas",
           "partido": "MDB",
           "uf": "AL",
-          "foto": "/fotos/paulo-dantas.jpg",
+          "foto": "fotos/paulo-dantas.jpg",
           "fotoCredito": {
             "autor": "Assembleia legislativa de Alagoas",
             "licenca": "CC BY-SA 4.0",
@@ -7736,7 +7736,7 @@ export const mandateTree = {
           "cargo": "Governador da Bahia",
           "partido": "PT",
           "uf": "BA",
-          "foto": "/fotos/jeronimo-rodrigues.jpg",
+          "foto": "fotos/jeronimo-rodrigues.jpg",
           "fotoCredito": {
             "autor": "Neusa Cadore from Salvador, Brazil",
             "licenca": "CC BY 2.0",
@@ -9140,7 +9140,7 @@ export const mandateTree = {
           "cargo": "Governador do Ceará",
           "partido": "PT",
           "uf": "CE",
-          "foto": "/fotos/elmano-de-freitas.png",
+          "foto": "fotos/elmano-de-freitas.png",
           "fotoCredito": {
             "autor": "Marcelo Augusto",
             "licenca": "CC BY-SA 4.0",
@@ -9826,7 +9826,7 @@ export const mandateTree = {
           "cargo": "Governador do Maranhão",
           "partido": "PSB",
           "uf": "MA",
-          "foto": "/fotos/carlos-brandao.jpg",
+          "foto": "fotos/carlos-brandao.jpg",
           "fotoCredito": {
             "autor": "Governo do Maranhão",
             "licenca": "CC BY 4.0",
@@ -10960,7 +10960,7 @@ export const mandateTree = {
           "cargo": "Governador da Paraíba",
           "partido": "PSB",
           "uf": "PB",
-          "foto": "/fotos/joao-azevedo.jpg",
+          "foto": "fotos/joao-azevedo.jpg",
           "fotoCredito": {
             "autor": "Agência Brasília from Brasília, Brasil",
             "licenca": "CC BY 2.0",
@@ -11643,7 +11643,7 @@ export const mandateTree = {
           "cargo": "Governadora de Pernambuco",
           "partido": "PSDB",
           "uf": "PE",
-          "foto": "/fotos/raquel-lyra.jpg",
+          "foto": "fotos/raquel-lyra.jpg",
           "fotoCredito": {
             "autor": "Palácio do Planalto from Brasilia, Brasil",
             "licenca": "CC BY 2.0",
@@ -13402,7 +13402,7 @@ export const mandateTree = {
           "cargo": "Governador do Piauí",
           "partido": "PT",
           "uf": "PI",
-          "foto": "/fotos/rafael-fonteles.jpg",
+          "foto": "fotos/rafael-fonteles.jpg",
           "fotoCredito": {
             "autor": "Ipea",
             "licenca": "CC BY 2.0",
@@ -14652,7 +14652,7 @@ export const mandateTree = {
           "cargo": "Governadora do Rio Grande do Norte",
           "partido": "PT",
           "uf": "RN",
-          "foto": "/fotos/fatima-bezerra.jpg",
+          "foto": "fotos/fatima-bezerra.jpg",
           "fotoCredito": {
             "autor": "Agência Brasília from Brasília, Brasil",
             "licenca": "CC BY 2.0",
@@ -15098,7 +15098,7 @@ export const mandateTree = {
           "cargo": "Governador de Sergipe",
           "partido": "PSD",
           "uf": "SE",
-          "foto": "/fotos/fabio-mitidieri.jpg",
+          "foto": "fotos/fabio-mitidieri.jpg",
           "fotoCredito": {
             "autor": "Governo do Sergipe",
             "licenca": "CC BY 2.0",
@@ -15627,7 +15627,7 @@ export const mandateTree = {
           "cargo": "Governador do Distrito Federal",
           "partido": "MDB",
           "uf": "DF",
-          "foto": "/fotos/ibaneis-rocha.jpg",
+          "foto": "fotos/ibaneis-rocha.jpg",
           "fotoCredito": {
             "autor": "Agência Brasília from Brasília, Brasil",
             "licenca": "CC BY 2.0",
@@ -16414,7 +16414,7 @@ export const mandateTree = {
           "cargo": "Governador de Goiás",
           "partido": "UNIÃO",
           "uf": "GO",
-          "foto": "/fotos/ronaldo-caiado.jpg",
+          "foto": "fotos/ronaldo-caiado.jpg",
           "fotoCredito": {
             "autor": "Bianca Kida",
             "licenca": "CC BY 2.0",
@@ -17123,7 +17123,7 @@ export const mandateTree = {
           "cargo": "Governador do Mato Grosso do Sul",
           "partido": "PSDB",
           "uf": "MS",
-          "foto": "/fotos/eduardo-riedel.jpg",
+          "foto": "fotos/eduardo-riedel.jpg",
           "fotoCredito": {
             "autor": "Agência Brasília from Brasília, Brasil",
             "licenca": "CC BY 2.0",
@@ -17687,7 +17687,7 @@ export const mandateTree = {
           "cargo": "Governador do Mato Grosso",
           "partido": "UNIÃO",
           "uf": "MT",
-          "foto": "/fotos/mauro-mendes.jpg",
+          "foto": "fotos/mauro-mendes.jpg",
           "fotoCredito": {
             "autor": "Palácio do Planalto",
             "licenca": "CC BY 2.0",
@@ -18846,7 +18846,7 @@ export const mandateTree = {
           "cargo": "Governador do Espírito Santo",
           "partido": "PSB",
           "uf": "ES",
-          "foto": "/fotos/renato-casagrande.jpg",
+          "foto": "fotos/renato-casagrande.jpg",
           "fotoCredito": {
             "autor": "Senado Federal",
             "licenca": "CC BY 2.0",
@@ -19420,7 +19420,7 @@ export const mandateTree = {
           "cargo": "Governador de Minas Gerais",
           "partido": "NOVO",
           "uf": "MG",
-          "foto": "/fotos/romeu-zema.jpg",
+          "foto": "fotos/romeu-zema.jpg",
           "fotoCredito": {
             "autor": "Andressa Anholete/Agência Senado",
             "licenca": "CC BY 2.0",
@@ -19856,7 +19856,7 @@ export const mandateTree = {
           "cargo": "Governador do Rio de Janeiro",
           "partido": "PL",
           "uf": "RJ",
-          "foto": "/fotos/claudio-castro.jpg",
+          "foto": "fotos/claudio-castro.jpg",
           "fotoCredito": {
             "autor": "Governo do Estado do Rio de Janeiro",
             "licenca": "CC BY 2.0 br",
@@ -20865,7 +20865,7 @@ export const mandateTree = {
           "cargo": "Governador de São Paulo",
           "partido": "REPUBLICANOS",
           "uf": "SP",
-          "foto": "/fotos/tarcisio-de-freitas.jpg",
+          "foto": "fotos/tarcisio-de-freitas.jpg",
           "fotoCredito": {
             "autor": "Ciete Silvério/Governo do Estado de SP",
             "licenca": "CC BY 2.0",
@@ -22280,7 +22280,7 @@ export const mandateTree = {
           "cargo": "Governador do Paraná",
           "partido": "PSD",
           "uf": "PR",
-          "foto": "/fotos/ratinho-junior.jpg",
+          "foto": "fotos/ratinho-junior.jpg",
           "fotoCredito": {
             "autor": "Assembleia Legislativa do Paraná",
             "licenca": "Public domain",
@@ -23346,7 +23346,7 @@ export const mandateTree = {
           "cargo": "Governador do Rio Grande do Sul",
           "partido": "PSDB",
           "uf": "RS",
-          "foto": "/fotos/eduardo-leite.jpg",
+          "foto": "fotos/eduardo-leite.jpg",
           "fotoCredito": {
             "autor": "Governo RS",
             "licenca": "CC BY-SA 4.0",
@@ -24940,7 +24940,7 @@ export const mandateTree = {
           "cargo": "Governador de Santa Catarina",
           "partido": "PL",
           "uf": "SC",
-          "foto": "/fotos/jorginho-mello.jpg",
+          "foto": "fotos/jorginho-mello.jpg",
           "fotoCredito": {
             "autor": "Senado Federal",
             "licenca": "CC BY 2.0",

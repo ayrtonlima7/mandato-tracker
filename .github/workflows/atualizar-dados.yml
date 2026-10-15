@@ -2,11 +2,12 @@ name: Atualizar dados
 
 # Diário: notícias (fetch-news, fetch-general, review-match, build-data).
 # Semanal (segunda): inclui também o scrape das promessas do G1 e as fotos (Wikimedia).
-# Horários em UTC (BRT = UTC-3).
+# Roda às 22h de Brasília (BRT = UTC-3) = 01h UTC do dia SEGUINTE, então os dias da
+# semana no cron são os de Brasília + 1 (segunda 22h BRT = terça 01h UTC).
 on:
   schedule:
-    - cron: '0 9 * * 0,2-6' # domingo e terça a sábado: só notícias
-    - cron: '0 9 * * 1' # segunda: completo (G1 + notícias)
+    - cron: '0 1 * * 0,1,3-6' # 22h BRT de dom, ter–sáb: só notícias
+    - cron: '0 1 * * 2' # 22h BRT de segunda: completo (G1 + fotos + notícias)
   workflow_dispatch:
     inputs:
       modo:
@@ -42,7 +43,7 @@ jobs:
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             echo "modo=${{ inputs.modo }}" >> "$GITHUB_OUTPUT"
-          elif [ "${{ github.event.schedule }}" = "0 9 * * 1" ]; then
+          elif [ "${{ github.event.schedule }}" = "0 1 * * 2" ]; then
             echo "modo=weekly" >> "$GITHUB_OUTPUT"
           else
             echo "modo=daily" >> "$GITHUB_OUTPUT"
