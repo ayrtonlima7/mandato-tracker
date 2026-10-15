@@ -1,8 +1,8 @@
 .mandate-card {
-  background: #fbf6e9;
-  border: 1.5px solid rgba(31, 58, 95, 0.25);
+  background: var(--cor-papel-card);
+  border: 1.5px solid rgba(var(--cor-azul-rgb), 0.25);
   border-radius: 10px 12px 11px 13px;
-  box-shadow: 2px 3px 0 rgba(74, 59, 42, 0.12);
+  box-shadow: 2px 3px 0 rgba(var(--cor-sombra-rgb), 0.12);
   padding: 14px 16px;
   margin-bottom: 14px;
 }
@@ -19,7 +19,7 @@
   font-family: 'Source Serif 4', Georgia, serif;
   font-size: 1rem;
   font-weight: 700;
-  color: #1f3a5f;
+  color: var(--cor-azul);
   margin: 0;
 }
 
@@ -39,8 +39,8 @@
   display: inline-block;
   font-size: 0.65rem;
   font-weight: 700;
-  color: #8a6d3b;
-  background: rgba(138, 109, 59, 0.14);
+  color: var(--cor-ouro);
+  background: rgba(var(--cor-ouro-rgb), 0.14);
   border-radius: 999px;
   padding: 1px 8px;
   margin-bottom: 8px;
@@ -48,7 +48,7 @@
 
 .mandate-card__descricao {
   font-size: 0.86rem;
-  color: #4a4336;
+  color: var(--cor-marrom);
   margin: 0 0 10px;
   line-height: 1.4;
 }
@@ -56,6 +56,6 @@
 .mandate-card__feed {
   margin-top: 12px;
   padding-top: 10px;
-  border-top: 1px dashed rgba(31, 58, 95, 0.25);
+  border-top: 1px dashed rgba(var(--cor-azul-rgb), 0.25);
 }
 

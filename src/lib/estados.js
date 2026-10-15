@@ -35,14 +35,14 @@ export const UF_NOME = {
 // marrom), um por região. Mantidos fracos de propósito: o realce de
 // hover/seleção é quem deve chamar atenção, não a cor-base.
 export const REGIAO_COR = {
-  'Região Norte': { base: '#cdddce', hover: '#b7cdb9' },
-  'Região Nordeste': { base: '#e6d9bd', hover: '#dcc89f' },
-  'Região Centro-Oeste': { base: '#dccfb9', hover: '#cdbb9d' },
-  'Região Sudeste': { base: '#cad4e2', hover: '#b2c1d6' },
-  'Região Sul': { base: '#d9cdd6', hover: '#c7b3c2' },
+  'Região Norte': { base: 'var(--regiao-norte-base)', hover: 'var(--regiao-norte-hover)' },
+  'Região Nordeste': { base: 'var(--regiao-nordeste-base)', hover: 'var(--regiao-nordeste-hover)' },
+  'Região Centro-Oeste': { base: 'var(--regiao-centro-oeste-base)', hover: 'var(--regiao-centro-oeste-hover)' },
+  'Região Sudeste': { base: 'var(--regiao-sudeste-base)', hover: 'var(--regiao-sudeste-hover)' },
+  'Região Sul': { base: 'var(--regiao-sul-base)', hover: 'var(--regiao-sul-hover)' },
 }
 
-const COR_PADRAO = { base: '#d8d2c4', hover: '#c7bfac' }
+const COR_PADRAO = { base: 'var(--regiao-padrao-base)', hover: 'var(--regiao-padrao-hover)' }
 
 export function corDaRegiao(nomeRegiao) {
   return REGIAO_COR[nomeRegiao] ?? COR_PADRAO

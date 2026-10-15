@@ -18,13 +18,13 @@
 }
 
 .brazil-map__sombra path {
-  fill: rgba(74, 59, 42, 0.16);
+  fill: rgba(var(--cor-sombra-rgb), 0.16);
   stroke: none;
   transform: translate(3px, 4px);
 }
 
 .brazil-map__estado {
-  stroke: rgba(31, 58, 95, 0.45);
+  stroke: rgba(var(--cor-azul-rgb), 0.45);
   stroke-width: 1.25;
   cursor: pointer;
   transition: fill 0.12s ease;
@@ -32,7 +32,7 @@
 }
 
 .brazil-map__estado:focus-visible {
-  stroke: #1f3a5f;
+  stroke: var(--cor-azul);
   stroke-width: 2.5;
 }
 
@@ -74,7 +74,7 @@
 .brazil-map__callout-fundo {
   stroke: var(--cor-papel-card);
   stroke-width: 3;
-  filter: drop-shadow(3px 4px 0 rgba(74, 59, 42, 0.22));
+  filter: drop-shadow(3px 4px 0 rgba(var(--cor-sombra-rgb), 0.22));
 }
 
 .brazil-map__callout-iniciais {
@@ -92,7 +92,7 @@
 
 .brazil-map__estado-realce {
   fill: none;
-  stroke: #1f3a5f;
+  stroke: var(--cor-azul);
   stroke-width: 2.25;
   opacity: 0.55;
 }
@@ -103,7 +103,7 @@
 }
 
 .brazil-map__estado-realce--selecionado {
-  stroke: #8c3b32;
+  stroke: var(--cor-destaque);
   stroke-width: 3.25;
   opacity: 0.9;
 }
@@ -111,13 +111,13 @@
 .brazil-map__tooltip {
   position: absolute;
   transform: translate(-50%, calc(-100% - 12px));
-  background: #fbf6e9;
-  border: 1.5px solid rgba(31, 58, 95, 0.4);
+  background: var(--cor-papel-card);
+  border: 1.5px solid rgba(var(--cor-azul-rgb), 0.4);
   border-radius: 10px 12px 9px 11px;
-  box-shadow: 3px 4px 0 rgba(74, 59, 42, 0.18);
+  box-shadow: 3px 4px 0 rgba(var(--cor-sombra-rgb), 0.18);
   padding: 6px 10px;
   font-size: 0.74rem;
-  color: #4a4336;
+  color: var(--cor-marrom);
   display: flex;
   flex-direction: column;
   gap: 2px;
@@ -128,7 +128,7 @@
 
 .brazil-map__tooltip strong {
   font-family: 'Source Serif 4', Georgia, serif;
-  color: #1f3a5f;
+  color: var(--cor-azul);
   font-size: 0.82rem;
 }
 
@@ -139,12 +139,12 @@
   display: flex;
   flex-wrap: wrap;
   gap: 8px 12px;
-  background: rgba(251, 246, 233, 0.85);
-  border: 1px solid rgba(31, 58, 95, 0.25);
+  background: rgba(var(--cor-papel-card-rgb), 0.85);
+  border: 1px solid rgba(var(--cor-azul-rgb), 0.25);
   border-radius: 10px;
   padding: 8px 12px;
   font-size: 0.68rem;
-  color: #4a4336;
+  color: var(--cor-marrom);
 }
 
 .brazil-map__legenda-item {
@@ -158,7 +158,7 @@
   width: 11px;
   height: 11px;
   border-radius: 3px;
-  border: 1px solid rgba(31, 58, 95, 0.35);
+  border: 1px solid rgba(var(--cor-azul-rgb), 0.35);
   display: inline-block;
 }
 
@@ -171,10 +171,10 @@
   align-items: center;
   gap: 2px;
   width: 104px;
-  background: #fbf6e9;
-  border: 1.75px solid rgba(31, 58, 95, 0.4);
+  background: var(--cor-papel-card);
+  border: 1.75px solid rgba(var(--cor-azul-rgb), 0.4);
   border-radius: 50% 50% 46% 48% / 40% 40% 60% 58%;
-  box-shadow: 3px 4px 0 rgba(74, 59, 42, 0.18);
+  box-shadow: 3px 4px 0 rgba(var(--cor-sombra-rgb), 0.18);
   padding: 10px 8px 12px;
   cursor: pointer;
   transition: transform 0.12s ease, box-shadow 0.12s ease;
@@ -182,19 +182,19 @@
 
 .brazil-map__presidente:hover {
   transform: translateY(-2px);
-  box-shadow: 4px 6px 0 rgba(74, 59, 42, 0.22);
+  box-shadow: 4px 6px 0 rgba(var(--cor-sombra-rgb), 0.22);
 }
 
 .brazil-map__presidente--selecionado {
-  border-color: #8c3b32;
-  box-shadow: 0 0 0 3px rgba(140, 59, 50, 0.25), 3px 4px 0 rgba(74, 59, 42, 0.18);
+  border-color: var(--cor-destaque);
+  box-shadow: 0 0 0 3px rgba(var(--cor-destaque-rgb), 0.25), 3px 4px 0 rgba(var(--cor-sombra-rgb), 0.18);
 }
 
 .brazil-map__presidente-nome {
   font-family: 'Source Serif 4', Georgia, serif;
   font-size: 0.74rem;
   font-weight: 700;
-  color: #1f3a5f;
+  color: var(--cor-azul);
   text-align: center;
   line-height: 1.15;
   margin-top: 4px;
@@ -202,7 +202,7 @@
 
 .brazil-map__presidente-cargo {
   font-size: 0.6rem;
-  color: #4a4336;
+  color: var(--cor-marrom);
   text-align: center;
   line-height: 1.1;
 }

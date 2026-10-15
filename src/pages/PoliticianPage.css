@@ -40,8 +40,8 @@
   gap: 10px;
   font-size: 0.78rem;
   color: var(--cor-marrom);
-  background: rgba(31, 58, 95, 0.06);
-  border: 1px solid rgba(31, 58, 95, 0.15);
+  background: rgba(var(--cor-azul-rgb), 0.06);
+  border: 1px solid rgba(var(--cor-azul-rgb), 0.15);
   border-radius: 10px;
   padding: 10px 14px;
   margin-bottom: 20px;

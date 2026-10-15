@@ -4,8 +4,8 @@
   flex-shrink: 0;
   height: 100%;
   overflow-y: auto;
-  background: #f3e9d2;
-  border-left: 2px solid rgba(31, 58, 95, 0.3);
+  background: var(--cor-papel);
+  border-left: 2px solid rgba(var(--cor-azul-rgb), 0.3);
   padding: 24px 22px 36px;
   position: relative;
   animation: detail-sidebar-entrar 0.22s ease;
@@ -48,11 +48,11 @@
   width: 32px;
   height: 32px;
   border-radius: 50%;
-  border: 1.5px solid rgba(31, 58, 95, 0.3);
-  background: #fbf6e9;
+  border: 1.5px solid rgba(var(--cor-azul-rgb), 0.3);
+  background: var(--cor-papel-card);
   font-size: 1.2rem;
   line-height: 1;
-  color: #1f3a5f;
+  color: var(--cor-azul);
   cursor: pointer;
 }
 
@@ -67,25 +67,25 @@
 .detail-sidebar__nome {
   font-family: 'Source Serif 4', Georgia, serif;
   font-size: 1.2rem;
-  color: #1f3a5f;
+  color: var(--cor-azul);
   margin: 0 0 4px;
 }
 
 .detail-sidebar__cargo {
   font-size: 0.82rem;
-  color: #4a4336;
+  color: var(--cor-marrom);
   margin: 0 0 4px;
 }
 
 .detail-sidebar__mandato {
   font-size: 0.74rem;
-  color: #8a8070;
+  color: var(--cor-cinza);
   margin: 0 0 6px;
 }
 
 .detail-sidebar__link-pagina {
   font-size: 0.76rem;
-  color: #1f3a5f;
+  color: var(--cor-azul);
   font-weight: 600;
   text-decoration: none;
 }
@@ -95,8 +95,8 @@
 }
 
 .detail-sidebar__noticias-gerais {
-  background: rgba(31, 58, 95, 0.05);
-  border: 1px solid rgba(31, 58, 95, 0.18);
+  background: rgba(var(--cor-azul-rgb), 0.05);
+  border: 1px solid rgba(var(--cor-azul-rgb), 0.18);
   border-radius: 10px 12px 11px 13px;
   padding: 12px 14px;
   margin-bottom: 16px;
@@ -105,7 +105,7 @@
 .detail-sidebar__subtitulo {
   font-family: 'Source Serif 4', Georgia, serif;
   font-size: 0.88rem;
-  color: #1f3a5f;
+  color: var(--cor-azul);
   margin: 0 0 8px;
 }
 
@@ -117,10 +117,10 @@
 }
 
 .detail-sidebar__filtro-botao {
-  background: #fbf6e9;
-  border: 1.5px solid rgba(31, 58, 95, 0.3);
+  background: var(--cor-papel-card);
+  border: 1.5px solid rgba(var(--cor-azul-rgb), 0.3);
   border-radius: 999px;
-  color: #4a4336;
+  color: var(--cor-marrom);
   font-size: 0.72rem;
   font-weight: 600;
   padding: 5px 11px;
@@ -130,13 +130,13 @@
 
 .detail-sidebar__filtro-botao:hover {
   transform: translateY(-1px);
-  box-shadow: 2px 3px 0 rgba(74, 59, 42, 0.14);
+  box-shadow: 2px 3px 0 rgba(var(--cor-sombra-rgb), 0.14);
 }
 
 .detail-sidebar__filtro-botao--ativo {
-  background: #1f3a5f;
-  border-color: #1f3a5f;
-  color: #fbf6e9;
+  background: var(--cor-azul);
+  border-color: var(--cor-azul);
+  color: var(--cor-papel-card);
 }
 
 .detail-sidebar__resumo {
@@ -144,16 +144,16 @@
   flex-wrap: wrap;
   gap: 8px;
   font-size: 0.72rem;
-  color: #4a4336;
-  background: rgba(31, 58, 95, 0.06);
-  border: 1px solid rgba(31, 58, 95, 0.15);
+  color: var(--cor-marrom);
+  background: rgba(var(--cor-azul-rgb), 0.06);
+  border: 1px solid rgba(var(--cor-azul-rgb), 0.15);
   border-radius: 10px;
   padding: 10px 12px;
   margin-bottom: 20px;
 }
 
 .detail-sidebar__vazio {
-  color: #8a8070;
+  color: var(--cor-cinza);
   font-size: 0.85rem;
 }
 

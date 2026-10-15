@@ -3,8 +3,8 @@
   flex-shrink: 0;
   height: 100%;
   overflow-y: auto;
-  background: #f3e9d2;
-  border-left: 2px solid rgba(31, 58, 95, 0.3);
+  background: var(--cor-papel);
+  border-left: 2px solid rgba(var(--cor-azul-rgb), 0.3);
   padding: 20px 16px 24px;
   position: relative;
   animation: state-sidebar-entrar 0.22s ease;
@@ -47,11 +47,11 @@
   width: 28px;
   height: 28px;
   border-radius: 50%;
-  border: 1.5px solid rgba(31, 58, 95, 0.3);
-  background: #fbf6e9;
+  border: 1.5px solid rgba(var(--cor-azul-rgb), 0.3);
+  background: var(--cor-papel-card);
   font-size: 1.1rem;
   line-height: 1;
-  color: #1f3a5f;
+  color: var(--cor-azul);
   cursor: pointer;
 }
 
@@ -61,7 +61,7 @@
 }
 
 .state-sidebar__vazio {
-  color: #8a8070;
+  color: var(--cor-cinza);
   font-size: 0.85rem;
 }
 
@@ -74,7 +74,7 @@
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  color: #8a6d3b;
+  color: var(--cor-ouro);
   margin: 0 0 8px;
 }
 
@@ -93,10 +93,10 @@
   align-items: center;
   gap: 10px;
   text-align: left;
-  background: #fbf6e9;
-  border: 1.5px solid rgba(31, 58, 95, 0.3);
+  background: var(--cor-papel-card);
+  border: 1.5px solid rgba(var(--cor-azul-rgb), 0.3);
   border-radius: 10px 12px 9px 11px;
-  box-shadow: 2px 3px 0 rgba(74, 59, 42, 0.14);
+  box-shadow: 2px 3px 0 rgba(var(--cor-sombra-rgb), 0.14);
   padding: 8px 10px;
   cursor: pointer;
   transition: transform 0.12s ease, box-shadow 0.12s ease;
@@ -104,12 +104,12 @@
 
 .state-sidebar__item:hover {
   transform: translateY(-1px);
-  box-shadow: 3px 4px 0 rgba(74, 59, 42, 0.18);
+  box-shadow: 3px 4px 0 rgba(var(--cor-sombra-rgb), 0.18);
 }
 
 .state-sidebar__item--selecionado {
-  border-color: #1f3a5f;
-  box-shadow: 0 0 0 2px rgba(31, 58, 95, 0.25);
+  border-color: var(--cor-azul);
+  box-shadow: 0 0 0 2px rgba(var(--cor-azul-rgb), 0.25);
 }
 
 .state-sidebar__item-texto {
@@ -121,7 +121,7 @@
 
 .state-sidebar__item-texto strong {
   font-size: 0.85rem;
-  color: #1f3a5f;
+  color: var(--cor-azul);
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -129,7 +129,7 @@
 
 .state-sidebar__item-texto small {
   font-size: 0.7rem;
-  color: #4a4336;
+  color: var(--cor-marrom);
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;

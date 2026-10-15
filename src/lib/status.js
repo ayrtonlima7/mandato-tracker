@@ -1,11 +1,11 @@
 import { STATUS } from '../data/mandateData.js'
 
-const STATUS_DESCONHECIDO = { label: 'Sem status', color: '#8a8070' }
+const STATUS_DESCONHECIDO = { label: 'Sem status', color: 'var(--cor-cinza)' }
 
 export const STATUS_META = {
-  [STATUS.CUMPRIU]: { label: 'Cumprida', color: '#2f6b4f' },
-  [STATUS.EM_PARTE]: { label: 'Em parte', color: '#8a6d3b' },
-  [STATUS.NAO_CUMPRIU]: { label: 'Não cumprida', color: '#8c3b32' },
+  [STATUS.CUMPRIU]: { label: 'Cumprida', color: 'var(--cor-verde)' },
+  [STATUS.EM_PARTE]: { label: 'Em parte', color: 'var(--cor-ouro)' },
+  [STATUS.NAO_CUMPRIU]: { label: 'Não cumprida', color: 'var(--cor-destaque)' },
 }
 
 export function statusMeta(status) {

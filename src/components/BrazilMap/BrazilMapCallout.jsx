@@ -42,7 +42,7 @@ export default function BrazilMapCallout({ politico }) {
         cx={posicao.x}
         cy={posicao.y}
         r={r}
-        fill={politico.foto ? '#fbf6e9' : bg}
+        fill={politico.foto ? 'var(--cor-papel-card)' : bg}
       />
       {politico.foto ? (
         <image

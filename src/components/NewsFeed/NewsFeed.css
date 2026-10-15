@@ -5,7 +5,7 @@
   font-family: inherit;
   font-size: 0.78rem;
   font-weight: 700;
-  color: #1f3a5f;
+  color: var(--cor-azul);
   cursor: pointer;
 }
 
@@ -14,7 +14,7 @@
 }
 
 .news-feed__vazio {
-  color: #8a8070;
+  color: var(--cor-cinza);
   font-size: 0.8rem;
   margin: 0;
 }
@@ -47,14 +47,14 @@
 }
 
 .news-feed__data {
-  color: #8a8070;
+  color: var(--cor-cinza);
   font-size: 0.72rem;
   white-space: nowrap;
   flex-shrink: 0;
 }
 
 .news-feed__titulo {
-  color: #1f3a5f;
+  color: var(--cor-azul);
   font-weight: 600;
   text-decoration: none;
   flex: 1 1 auto;
@@ -66,7 +66,7 @@
 }
 
 .news-feed__fonte {
-  color: #8a8070;
+  color: var(--cor-cinza);
   font-size: 0.7rem;
   white-space: nowrap;
 }

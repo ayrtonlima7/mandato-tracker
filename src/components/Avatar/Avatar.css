@@ -4,10 +4,10 @@
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  color: #f3e9d2;
+  color: #fffaf0;
   font-family: 'Source Serif 4', Georgia, serif;
   font-weight: 700;
-  border: 2px solid rgba(31, 58, 95, 0.35);
+  border: 2px solid rgba(var(--cor-azul-rgb), 0.35);
   overflow: hidden;
   user-select: none;
 }

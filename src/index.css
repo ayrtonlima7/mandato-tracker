@@ -1,8 +1,29 @@
 :root {
-  --cor-papel: #f3e9d2;
-  --cor-papel-card: #fbf6e9;
-  --cor-azul: #1f3a5f;
-  --cor-marrom: #4a4336;
+  --cor-papel: #f8f3de;
+  --cor-papel-card: #fffdf0;
+  --cor-papel-card-rgb: 255, 253, 240;
+  --cor-azul: #14284b;
+  --cor-azul-rgb: 20, 40, 75;
+  --cor-marrom: #2a2a33;
+  --cor-sombra-rgb: 20, 40, 75;
+  --cor-cinza: #7a7a80;
+  --cor-destaque: #c1121f;
+  --cor-destaque-rgb: 193, 18, 31;
+  --cor-ouro: #8a6a00;
+  --cor-ouro-rgb: 138, 106, 0;
+  --cor-verde: #1f6b4a;
+  --regiao-norte-base: #c9f0a8;
+  --regiao-norte-hover: #b2e48a;
+  --regiao-nordeste-base: #fdf08a;
+  --regiao-nordeste-hover: #f6e35a;
+  --regiao-centro-oeste-base: #ffd3a3;
+  --regiao-centro-oeste-hover: #ffc07a;
+  --regiao-sudeste-base: #bfe3ff;
+  --regiao-sudeste-hover: #9fd2fb;
+  --regiao-sul-base: #ffc4dd;
+  --regiao-sul-hover: #ffa9cc;
+  --regiao-padrao-base: #e8e4d0;
+  --regiao-padrao-hover: #d8d3b8;
 }
 
 * {
@@ -20,8 +41,8 @@ body {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   color: var(--cor-marrom);
   background-color: var(--cor-papel);
-  background-image: radial-gradient(circle at 15% 10%, rgba(31, 58, 95, 0.05), transparent 40%),
-    radial-gradient(circle at 85% 90%, rgba(138, 109, 59, 0.07), transparent 40%);
+  background-image: radial-gradient(circle at 15% 10%, rgba(var(--cor-azul-rgb), 0.05), transparent 40%),
+    radial-gradient(circle at 85% 90%, rgba(var(--cor-ouro-rgb), 0.07), transparent 40%);
 }
 
 h1,
