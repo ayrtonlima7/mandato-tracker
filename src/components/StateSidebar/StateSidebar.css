@@ -135,6 +135,93 @@
   white-space: nowrap;
 }
 
+.state-sidebar__municipios {
+  border-top: 1.5px dashed rgba(var(--cor-azul-rgb), 0.2);
+  padding-top: 14px;
+}
+
+.state-sidebar__busca-rotulo {
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--cor-marrom);
+  margin-bottom: 4px;
+}
+
+.state-sidebar__busca {
+  width: 100%;
+  font: inherit;
+  font-size: 0.85rem;
+  background: var(--cor-papel-card);
+  border: 1.5px solid rgba(var(--cor-azul-rgb), 0.35);
+  border-radius: 8px 10px 9px 8px;
+  padding: 7px 10px;
+  color: var(--cor-marrom);
+}
+
+.state-sidebar__busca:focus-visible,
+.state-sidebar__municipio:focus-visible,
+.state-sidebar__botao:focus-visible {
+  outline: 2px solid var(--cor-azul);
+  outline-offset: 2px;
+}
+
+.state-sidebar__contagem {
+  font-size: 0.7rem;
+  color: var(--cor-cinza);
+  margin: 6px 0 8px;
+}
+
+.state-sidebar__lista--municipios {
+  gap: 4px;
+}
+
+.state-sidebar__municipio {
+  width: 100%;
+  text-align: left;
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  padding: 6px 8px;
+  font-size: 0.82rem;
+  color: var(--cor-azul);
+  cursor: pointer;
+}
+
+.state-sidebar__municipio:hover {
+  background: rgba(var(--cor-azul-rgb), 0.06);
+}
+
+.state-sidebar__municipio--selecionado {
+  border-color: var(--cor-destaque);
+  background: rgba(var(--cor-destaque-rgb), 0.08);
+  font-weight: 700;
+}
+
+.state-sidebar__botao {
+  background: var(--cor-papel-card);
+  border: 1.5px solid rgba(var(--cor-azul-rgb), 0.4);
+  border-radius: 999px;
+  color: var(--cor-azul);
+  font-size: 0.76rem;
+  font-weight: 700;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.state-sidebar__ver-mapa {
+  margin: -6px 0 16px;
+}
+
+.state-sidebar__erro {
+  font-size: 0.8rem;
+  color: var(--cor-destaque);
+}
+
+.state-sidebar__erro p {
+  margin: 0 0 8px;
+}
+
 @media (max-width: 767px) {
   .state-sidebar {
     position: fixed;

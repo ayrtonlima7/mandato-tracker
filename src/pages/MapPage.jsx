@@ -2,7 +2,10 @@ import { useEffect, useMemo, useState } from 'react'
 import BrazilMap from '../components/BrazilMap/BrazilMap.jsx'
 import StateSidebar from '../components/StateSidebar/StateSidebar.jsx'
 import DetailSidebar from '../components/DetailSidebar/DetailSidebar.jsx'
+import MunicipioSidebar from '../components/MunicipioSidebar/MunicipioSidebar.jsx'
 import { usePanelTransition } from '../hooks/usePanelTransition.js'
+import { useMunicipiosDaUf } from '../hooks/useMunicipiosDaUf.js'
+import { useIsMobile } from '../hooks/useIsMobile.js'
 import { mandateTree } from '../data/mandateData.js'
 import { UF_NOME, politicosPorUf, agruparPorCargo } from '../lib/estados.js'
 import './MapPage.css'
@@ -10,9 +13,20 @@ import './MapPage.css'
 export default function MapPage() {
   const [ufSelecionada, setUfSelecionada] = useState(null)
   const [politicoSelecionado, setPoliticoSelecionado] = useState(null)
+  const [municipioSelecionado, setMunicipioSelecionado] = useState(null)
+  // No celular o painel do estado cobre a tela inteira; este estado deixa o
+  // usuário escondê-lo para ver o mapa dos municípios (e reabrir pela legenda).
+  const [listaOcultaNoMobile, setListaOcultaNoMobile] = useState(false)
+  const isMobile = useIsMobile()
 
-  const painelEstado = usePanelTransition(ufSelecionada)
+  const { municipios, prefeitos, recarregarMunicipios, recarregarPrefeitos } =
+    useMunicipiosDaUf(ufSelecionada)
+
+  const painelEstado = usePanelTransition(
+    ufSelecionada && !(isMobile && listaOcultaNoMobile) ? ufSelecionada : null,
+  )
   const painelDetalhe = usePanelTransition(politicoSelecionado)
+  const painelMunicipio = usePanelTransition(municipioSelecionado)
 
   // Usa o valor retido pelo hook (painelEstado.value), não ufSelecionada
   // direto: durante a animação de saída ufSelecionada já é null, mas o
@@ -25,32 +39,50 @@ export default function MapPage() {
   function selecionarUf(uf) {
     setUfSelecionada(uf)
     setPoliticoSelecionado(null)
+    setMunicipioSelecionado(null)
+    setListaOcultaNoMobile(false)
+  }
+
+  function voltarAoBrasil() {
+    selecionarUf(null)
   }
 
   function selecionarPresidente() {
-    setUfSelecionada(null)
+    selecionarUf(null)
     setPoliticoSelecionado(mandateTree)
   }
 
-  // Escape fecha primeiro o painel de detalhes (direita), depois a lista do
-  // estado (esquerda) — um nível por vez, como um "voltar".
+  // Painel da direita é um só: político OU município.
+  function selecionarPolitico(politico) {
+    setMunicipioSelecionado(null)
+    setPoliticoSelecionado(politico)
+  }
+
+  function selecionarMunicipio(municipio) {
+    setPoliticoSelecionado(null)
+    setMunicipioSelecionado({ codigo: municipio.codigo, nome: municipio.nome, uf: ufSelecionada })
+  }
+
+  // Escape volta um nível por vez: detalhe (município ou político) → estado
+  // (sai do drilldown) → Brasil.
   useEffect(() => {
     function onKeyDown(e) {
       if (e.key !== 'Escape') return
-      if (politicoSelecionado) setPoliticoSelecionado(null)
-      else if (ufSelecionada) setUfSelecionada(null)
+      if (municipioSelecionado) setMunicipioSelecionado(null)
+      else if (politicoSelecionado) setPoliticoSelecionado(null)
+      else if (ufSelecionada) voltarAoBrasil()
     }
     window.addEventListener('keydown', onKeyDown)
     return () => window.removeEventListener('keydown', onKeyDown)
-  }, [politicoSelecionado, ufSelecionada])
+  }, [municipioSelecionado, politicoSelecionado, ufSelecionada])
 
   return (
     <div className="map-page">
       <header className="map-page__header">
         <h1>Painel de Mandatos</h1>
         <p>
-          Clique em um estado para ver seus políticos, ou no presidente, e confira as propostas de
-          mandato e o noticiário de cada um.
+          Clique em um estado para ver seus políticos e municípios, ou no presidente, e confira as
+          propostas de mandato e o noticiário de cada um.
         </p>
       </header>
 
@@ -63,6 +95,15 @@ export default function MapPage() {
             presidenteSelecionado={politicoSelecionado?.id === mandateTree.id}
             onSelecionarPresidente={selecionarPresidente}
             politicoSelecionado={politicoSelecionado}
+            municipios={municipios}
+            prefeitos={prefeitos}
+            municipioSelecionado={municipioSelecionado?.codigo ?? null}
+            onSelecionarMunicipio={selecionarMunicipio}
+            onRecarregarMunicipios={recarregarMunicipios}
+            onVoltarAoBrasil={voltarAoBrasil}
+            onAbrirListaMunicipios={
+              isMobile && listaOcultaNoMobile ? () => setListaOcultaNoMobile(false) : undefined
+            }
           />
         </div>
 
@@ -71,15 +112,16 @@ export default function MapPage() {
             nomeEstado={UF_NOME[painelEstado.value]}
             grupos={gruposDoEstado}
             politicoSelecionadoId={politicoSelecionado?.id}
-            onSelecionarPolitico={setPoliticoSelecionado}
+            onSelecionarPolitico={selecionarPolitico}
             saindo={painelEstado.saindo}
-            onClose={() => {
-              setUfSelecionada(null)
-              setPoliticoSelecionado(null)
-            }}
+            onClose={voltarAoBrasil}
+            municipios={municipios.uf === painelEstado.value ? municipios : null}
+            municipioSelecionado={municipioSelecionado?.codigo ?? null}
+            onSelecionarMunicipio={selecionarMunicipio}
+            onRecarregarMunicipios={recarregarMunicipios}
+            onVerMapa={isMobile ? () => setListaOcultaNoMobile(true) : undefined}
           />
         )}
-
 
         {painelDetalhe.mounted && (
           <DetailSidebar
@@ -87,6 +129,17 @@ export default function MapPage() {
             politico={painelDetalhe.value}
             saindo={painelDetalhe.saindo}
             onClose={() => setPoliticoSelecionado(null)}
+          />
+        )}
+
+        {painelMunicipio.mounted && (
+          <MunicipioSidebar
+            key={painelMunicipio.value.codigo}
+            municipio={painelMunicipio.value}
+            prefeitos={prefeitos}
+            onRecarregarPrefeitos={recarregarPrefeitos}
+            saindo={painelMunicipio.saindo}
+            onClose={() => setMunicipioSelecionado(null)}
           />
         )}
       </div>

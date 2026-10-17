@@ -7,6 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
+    "test": "vitest run",
     "validate:data": "node scripts/validate-data.mjs",
     "data:g1": "node scripts/data-pipeline/scrape-g1.js",
     "data:photos": "node scripts/data-pipeline/fetch-photos.js",
@@ -14,6 +15,7 @@
     "data:general": "node scripts/data-pipeline/fetch-general.js",
     "data:review": "node scripts/data-pipeline/review-match.js",
     "data:build": "node scripts/data-pipeline/build-data.js",
+    "data:prefeitos": "node scripts/data-pipeline/fetch-prefeitos.js",
     "data:daily": "npm run data:news && npm run data:general && npm run data:review && npm run data:build && npm run validate:data",
     "data:weekly": "npm run data:g1 && npm run data:photos && npm run data:daily"
   },
@@ -25,7 +27,11 @@
     "react-router-dom": "^6.26.2"
   },
   "devDependencies": {
+    "@testing-library/dom": "^10.4.2",
+    "@testing-library/react": "^16.3.3",
     "@vitejs/plugin-react": "^4.3.2",
-    "vite": "^5.4.8"
+    "jsdom": "^25.0.1",
+    "vite": "^5.4.8",
+    "vitest": "^2.1.9"
   }
 }
