@@ -2,7 +2,7 @@
 // NÃO edite à mão — rode: node scripts/data-pipeline/build-data.js
 // Fonte das propostas: projeto "Promessas dos Políticos" (G1). Status: cumpriu | em_parte | nao_cumpriu.
 // Notícias: Google News (feed RSS), atualizadas por scripts/data-pipeline/fetch-news.js.
-// Gerado em: 2026-10-16T05:47:39.994Z
+// Gerado em: 2026-10-17T05:37:00.775Z
 
 export const STATUS = {
   CUMPRIU: 'cumpriu',
@@ -10,7 +10,7 @@ export const STATUS = {
   NAO_CUMPRIU: 'nao_cumpriu',
 }
 
-export const generatedAt = '2026-10-16T05:47:39.994Z'
+export const generatedAt = '2026-10-17T05:37:00.775Z'
 
 export const mandateTree = {
   "id": "lula",
@@ -59,6 +59,12 @@ export const mandateTree = {
           "titulo": "Aumento no investimento em merenda é fundamental para combater a fome e melhorar o aprendizado",
           "fonte": "Sintep-MT",
           "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOb2JuaUpjcWpWbk5BQldzMkhGLUZqQVJ6eThoY2s2cGlkWmZtQWJDdzIwZzRjWW1LQUZ1THZOekRYYl81eHJLNzJ2T2ZURmxZVWtreW5FOGMtUDlhRThJeDhKYWZ4X0FtQ3NWTC05YVFFcFRWWk1UQi13cDI5Ti1rQWRXVktvdmNVYUx1cjNSU2FKTTRLdWV6bnBucTNXZ01oaUtjTUkxaUtKdmJjeDRQdjM4WkZVc0xfZnJNd05yanRoRV9xa2ljWHQ2R0RYV2M3b3dydFJjNi1YLUV6Q3FTZ2NyVDhxc0xnbUE?oc=5"
+        },
+        {
+          "data": "2022-11-08T08:00:00.000Z",
+          "titulo": "Transição diz que prioridade de Lula na educação são alimentação escolar e recurso para universidades",
+          "fonte": "Folha de S.Paulo",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPRVgtNjZrZlMtM3hidjd5V0hhU0YxS002SjdvN3JiVzZnWkd2LTZPMDltN1hocXVfVVlQVHZXNklTUHBRUjk0TzVhVlozWkx0cEdtcmRYWVM1VHA3dmxqNWZBTXRoRTJtWlRXOXZXcE5DR3BwRTJfY0hHOVpsWjg3VEU5Z05TeV93WThvQU5NcFZmWXhlNUhCd3BHNDRWV1p4bTFJaGF5Qm9hRThOcnh2eVdlU0JnTDkzUnJrMURQNVkzOUtVRmxydzBnMjRlLWRoQ21oQTQ5ZGxjZDBXb21TaENiaDNpLU03MVHSAe8BQVVfeXFMTzhYVTZ3TkFib2NJdF9lYVRPc0J1NXlBZk8xclZFb3JycFNnN3ZacVQ2TV93UUpmSGFNQnFmaFJoREFKLWttVlhfZlZ2UzZCN2VaZDg1UllQbXdqTTBrYjJQcHJlRlZIa3dmeWFZMTFOZE5mSTRCVVlYYkFaTGd5c3V2LUNNb1NTS1oyTVUzUDE5VTBWSnZXb091b0lZTVFFZTU5WlREOTNfSWViX1lKMG9HSGNwVUNMdEFKT01tT29MRnUxSElSN2RROG9vOFFwSGpOV0ZuZEN6ZC15UE5WWHFFOVFaQVB5ZEhELVMzVEk?oc=5"
         }
       ]
     },
@@ -69,12 +75,6 @@ export const mandateTree = {
       "status": "cumpriu",
       "descricao": "Lula prometeu um aumento no número de vagas em universidades e o fortalecimento de ações, como o Exame Nacional do Ensino Médio (Enem) e o Fundo de Financiamento Estudantil (Fies). Conforme dados do Censo da Educação Superior, realizado pelo governo, o número de matrículas em instituições de ensino superior passou de 9,4 milhões, em 2022, para 10,2 milhões, em 2024 – elevação de cerca de 8%. O MEC também disse que o número de contratos do Fies subiu de 14,3 mil, em 2021, para 28,1 mil, em 2025.",
       "atualizacoes": [
-        {
-          "data": "2026-10-15T19:03:09.000Z",
-          "titulo": "Dia do professor: qual a proposta de Lula e Flávio para a educação",
-          "fonte": "TVT News",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA0aGl2Nk4xSFJ5TkplbkdIU2xyT1hTelVNUVYwRDU2cGN0THhYNjhreWlFY1ZlbjFjbFpBNnlGQVlnd2YxalVOeTlKM1lCa3VhanNTdFdIdGt0bTlVY0N0RGtKZ1R0TERiSWljQ2NpSEdlXzVMbjd2aDFkdw?oc=5"
-        },
         {
           "data": "2026-10-02T07:00:00.000Z",
           "titulo": "De escolas a tempo integral a 'homeschooling': as propostas dos presidenciáveis para a educação",
@@ -92,6 +92,12 @@ export const mandateTree = {
           "titulo": "Educação: o que Lula propõe em plano de governo",
           "fonte": "SBT News",
           "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOWUV6ekdKV2xubV90SnRZT2NWY0JlTnBjb0F2YXByV3l1bm4tSGVYSnI3UEtmbHNZek9KcW56MXI5Q2NkUFFHbXBLQ2M5cDFCQS0xS2U1WHpsTG9CdnoxVWI2Nm1YaGFOZ1pYSWRuSTJ4XzNkX2xvLUw4ZU1QeTQ3VE8wVFhFMGhjRmVCUVA2WWJDRXlI?oc=5"
+        },
+        {
+          "data": "2026-08-11T07:00:00.000Z",
+          "titulo": "Conheça as 13 diretrizes do programa de governo de Lula – Diretriz 4: Garantir o Direito à Educação",
+          "fonte": "TVT News",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOZl9fZUh3dUE1MHUzbWIzYm5EQXhPVWlEUEtZUmtDZzFVVDB4ek4xR05fMWNLMi1ERm50MHE3aXNQZmxaOUJHRnQ1NDFsU1hDcWhNTTE4NTlFaHVra0FvTXEydTFzUFJjbndaQV9MTlJtNkdHSjhEZVpqaVVOVU9tMnFwU2xaOGxJYUMwRGxtQk8?oc=5"
         },
         {
           "data": "2026-07-30T07:00:00.000Z",
@@ -119,6 +125,12 @@ export const mandateTree = {
           "titulo": "Recuperação do ensino pós-pandemia: educação básica tem menor previsão orçamentária em 11 anos",
           "fonte": "G1",
           "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPVHBQY0FlSWlQMkxTaW15Um9LMjFKcDUzYUlub1VRcmNXamFIZ0QxeEJVekVZVmZkTVRrT1k3VUNxMDM1NVQwRTkwbU5MU0dvekRTcHdabkVYX1FLXzR4Rkx4WHpWdFBmZVg1N0l6T1kxaHF3aFRXRGpITDhSV0xfVFJJMUUtTjJub21KWkExS0dYRXlhYUxRWTNpMmhBQkttZk12MVJmeW5lNGRjLWowM09SdmhkUF9hVk93Q0VYVVlSS2NSbU5iN3JxSHFIY2dxZW0zUDc4cXVtSmpHVWV4OXMwa1RKN2hoSlU5OW1iSmxLUVJva2pERl9jM01NUdIBjAJBVV95cUxQbUZfNmI0MDlJN292TmEzLXhFRjZMRHhPQ0Y2NjNYNWo0c1dfbnkxOHQzRjhsd0h2SC05NmtvQ3hiRFhnUWZucjZqdEs1cDlETG1uUm5kVW1fdF92VVd6cUdJY0lqRFExb29Pc1JFTElTVU9ZVnhGWF9iLXZ4bXBNVlp4WWRVVUF2MUdUb1ExSWZTQmZKYzNvblRnVS1YbklOQW8xb3V0WVF2S2JXd0l2Tmdoa0V2RTduY21aRHFUNl9LZk1PUnhNZU1SS2o0dlpmSlVFcW9hWF83dk9sQjhwZzBIbHUyR240UHlWRkphSjlReGVXdUs3aDcyeTJwTm0zTDduUzZPVkotUDN3?oc=5"
+        },
+        {
+          "data": "2025-03-12T07:00:00.000Z",
+          "titulo": "É urgente recompor as aprendizagens no Brasil",
+          "fonte": "Nova Escola",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNanpHRnRzZVhqUWQ1Z2VzMEoyZjJLVFhwNHpPTjBLOWVvRnIteVdvQlhGVlI4M2hWUURyRnM1azM4ZkowN1gwVC00RjJ0OFZfME9WbFEyWGRvZjNBbVo3eGlaVTBaM0VnMWtIQndpam5ya1NDcTh6aDBCMnJFLUVLcWJVNUo2ZDdiUlh4OURybDVyb2M?oc=5"
         }
       ]
     },
@@ -134,12 +146,6 @@ export const mandateTree = {
           "titulo": "Governo diz que 100 mil escolas públicas já têm internet adequada",
           "fonte": "Poder360",
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSXJNWngzTEVHZWMxemNnQy1rRmVqS3c4TWJGaEs0b3RqcU9ueFVJdmY4UTg5QzdmVk5vMzV6NkQtQTFoQ25XWUkyN3hrZFFDajFtUHhzcmFqbW5rRmM2NVd4bldUQTNsa0RkNXRUMGlLanNQUEM0SGtCelJETDYtU1FJVXdUeV9sWmY1ek9xYl9pekV6Vk1hRkxmM0JkTFVEMUNGaGdvYjhGMUtn?oc=5"
-        },
-        {
-          "data": "2022-12-11T08:00:00.000Z",
-          "titulo": "A pedido de Lula, GT de comunicação prepara programa de conexão por banda larga mais barata",
-          "fonte": "Sul 21",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPREdrRGY0RTFRTHlQZmc1d1pFR3RzRGh1dlJZMy1vbERWV3VuLWNFeGJjZEpEdnB0WVdrbVVjR3VuOFJBTzNEY3NYaHIxb1JxZllLQktRbzA1MDlLaHZUZ0dfSGxyM1JOc3ItNTNRMVdqVS16elJpck5iWE9TWUxOSFVKdkRQaFoyTUNMVUZWTmQ5d3RBcUNoaHRhcl9xYkRyX3k5SnV1MmVVRXRBcVRyamNKc0R6Sm8zbEo4NFZtUFdPVzl5MVpNSjhuM2lST0tvSHpKQQ?oc=5"
         },
         {
           "data": "2022-12-10T12:33:04.000Z",
@@ -292,6 +298,12 @@ export const mandateTree = {
         },
         {
           "data": "2022-08-30T07:00:00.000Z",
+          "titulo": "Lula promete Ministério da Segurança e mostra plano para o setor",
+          "fonte": "Poder360",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQd3daSkk4RkVyLWZQOTc2cGhMcmxlMElPdXZVVEFmbVJEeEdBNWJ1bzZRQWxIRkZBS1dDN2duaFVSZl9VaG9pU1ZXYUF6WGFDZVdNM2VGU25jV0pkekhtWnVNMW52YTlLUjdnblJYUlZfeFlPQjB0a3V4bWhmUFlMUjBYTGZXeVVhYlBHbnNXd0M2UlJsYlFEcHNqbFZLRXpxVFVyTw?oc=5"
+        },
+        {
+          "data": "2022-08-30T07:00:00.000Z",
           "titulo": "Lula promete retomar estatuto do desarmamento e recriar Ministério da Segurança Pública",
           "fonte": "Valor Econômico",
           "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPLXluNUJWTTRJVXpaaHJsNHVsVHFyOTkzSVYzbWEtN0VCb1R6Z1NYNXRTeWVyNzVKVThXWldKUEFmNFZwa0o3NW5Gb0ZxRWgxa1NaRHVFTXJwbFFlV0xpdlJQaDBJcGp3bDRTQmtZSjFUTzdsUXRvMUpFTnRYVTNmX19VZXZpZkM4eVFodXY1SU5ZaWc1VWRQem9CTlRtNXFPbkl2RnZvbDJIdkZGcTNJdkVObWFXRVFRenc4dXJSWllsQUdES0lOdUlfalZCMmNQTmY0TF9xVGZFZlFxeXRUeGVHYnh0VUZtN3ctRk9yZXrSAf8BQVVfeXFMTk1iZnB1aVJMenM5cTVpOTV5TE14blFzbnY3TW01WGYwWkNJNFJWRExVc2RBd0YtbTV6aHVybXlZelo2dmppY3laTTlSSW12QjBmTExTSktoYWZ5RkUxUmRIdnVGeHZiLVdvbmxwbHVYNHNhNlFNb0FBREVDMms1eVh2Q21od1o1OWNycFF2YVdaVWdSbHU3WXhBZUpwZlhCX2hYU1h0aEl6NUhBMm9od1R0UU1rVXhJeEN6Q3JKZjJDRzlFNlJTRkVWaXo3X25xeWQ1bl9TbnY0MmEySEJHUXloMmVoU1NmTDhCTDJDV01wTFFMQ0FsVkFuMUxfSjV3?oc=5"
@@ -314,7 +326,7 @@ export const mandateTree = {
         {
           "data": "2023-01-18T08:00:00.000Z",
           "titulo": "Governo Lula revoga decretos sobre armas e munições e fixa regras temporárias",
-          "fonte": "Senado Federal",
+          "fonte": "Senado",
           "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdnduWW9QTS1FbEJIS0RVVzBoNC1vWDZTaVctQUtWeHlURDdBdGxNTnBKQ0hGeXFMbXh3bjNXa0tfd0dLNHhJZWpBVUxaVFRMYUIzUEZuN3JZdzc1OFllbjlYN3Z2cmlKSF83M2ptaVdSclNtcHFYR0RuYVpTdTdLYlhhUWwwM0hOSV9GR1ZIM05SUjhfRE85ZXBGSGlMMVAwc3FyQ2dUZTBvelc2bkVidnMyY0dXbjlvYmFTTDJ3eG9NUlhGNEJ3YQ?oc=5"
         },
         {
@@ -348,6 +360,12 @@ export const mandateTree = {
           "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOWmx6eFhNUlZvbE9uZDJPS3plbjJyX3JQbW9zMl9KSEwtTmNHV1RfNjU3bkZmYUxXZHMtNk9Gd0luOHZQU2RJU3lsQVo3Q090N0tOS3VqbHZ5R0phNkJBR19EZzQ2azBQR1BaV18zdDFCV1phdFdzbk9rMEVtZkdYazBHd1hqLVFld3ZUaVV6N1lCTGpWdGtjOW9IZXVaZ25xN3pTNHBkV1J0Tng3d1FQdXloZTY1MDhVb0p1OUJCT2ljRjNyU3hPU05QM1BqUQ?oc=5"
         },
         {
+          "data": "2022-11-17T08:00:00.000Z",
+          "titulo": "Governo Lula pretende revogar decretos de armas de Bolsonaro",
+          "fonte": "DW.com",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNm1WOGJUYmJjYWpzM0E4RzdpbDk3YXV4Um1mUnZCYlllbmVsMnhLVlNzWHJrOHZyaUxxNWdGeU5CTzN3cU8yalpLaEVQZFFLV05wVGVtQ0pVcXpKS0NSX2E4RnQ2eWpwX3ViRDBfTHBBZlJ3eHdKcktKWk5aMXZBR3FSX19HRWFrTXFXSzhjbmJHUWNSeG12VWYyd2XSAZwBQVVfeXFMT1RXRHpPeHFfbE9TMjVCbmxrdGNVeUFzMlFfeVZIMEMwcjE4NG9IZGswUlJsaEJQdDZ4MnI3amNxMXpUVWNmdklrb1NSZkpoOGtZSk5ZWDlIZnRkelYzNjVvV2lVSFBNcjE5TlB0YVpfRmF1T2tQMVV4a3lQWDVIVk44NWN1X1RiTVV3YXktQVFVZ1QxYU94YzY3eEtk?oc=5"
+        },
+        {
           "data": "2023-01-01T08:00:00.000Z",
           "titulo": "Decreto de Lula revoga medidas de Bolsonaro e suspende novos registros de armas por CACs",
           "fonte": "Valor Econômico",
@@ -358,12 +376,6 @@ export const mandateTree = {
           "titulo": "Presidente Lula revoga decretos de Bolsonaro em seu primeiro dia de governo",
           "fonte": "Extra Classe",
           "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOY3pJV2VqSm1fS3RDMmtvc0hBVERnNlR1OXRSSFZBVFpFOS1LYTVpUEhGU3Y0Y1ZzYmFobWV4MEt5SkRFMUl0LWRBY1FCQk9tcVVZVExWVmxIVk9VbGtfeFBZX1ZaRXp4cC1wWlF4Q2pmemkzY3p5NnFSeXFJT00tRUFWUFUybW9JYmYtTEUwQVA5WmoyT3Z4aEtwX1M0dnQxRTRsaThKOHFFY0RIMXBlaDhMZEgxQ3R6R3RPc1h0YkRhUQ?oc=5"
-        },
-        {
-          "data": "2022-11-17T08:00:00.000Z",
-          "titulo": "Governo Lula pretende revogar decretos de armas de Bolsonaro",
-          "fonte": "DW.com",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNm1WOGJUYmJjYWpzM0E4RzdpbDk3YXV4Um1mUnZCYlllbmVsMnhLVlNzWHJrOHZyaUxxNWdGeU5CTzN3cU8yalpLaEVQZFFLV05wVGVtQ0pVcXpKS0NSX2E4RnQ2eWpwX3ViRDBfTHBBZlJ3eHdKcktKWk5aMXZBR3FSX19HRWFrTXFXSzhjbmJHUWNSeG12VWYyd2XSAZwBQVVfeXFMT1RXRHpPeHFfbE9TMjVCbmxrdGNVeUFzMlFfeVZIMEMwcjE4NG9IZGswUlJsaEJQdDZ4MnI3amNxMXpUVWNmdklrb1NSZkpoOGtZSk5ZWDlIZnRkelYzNjVvV2lVSFBNcjE5TlB0YVpfRmF1T2tQMVV4a3lQWDVIVk44NWN1X1RiTVV3YXktQVFVZ1QxYU94YzY3eEtk?oc=5"
         }
       ]
     },
@@ -420,22 +432,16 @@ export const mandateTree = {
       "descricao": "Lula prometeu fazer uma reforma tributária que fosse solidária, justa e sustentável para simplificar tributos e garantir que os mais pobres paguem menos e os ricos paguem mais impostos. Com apoio do governo, o Congresso aprovou em 2023 a Reforma Tributária, substituindo cinco tributos por um modelo baseado na Contribuição sobre Bens e Serviços (CBS) e no Imposto sobre Bens e Serviços (IBS). A reforma criou o sistema de cashback para famílias de baixa renda, zerou impostos sobre medicamentos e alimentos da cesta básica. Contudo, muitas inovações ainda não foram implementadas, não sendo possível avaliar por completo os seus impactos.",
       "atualizacoes": [
         {
-          "data": "2026-10-10T11:00:01.000Z",
-          "titulo": "Reforma tributária pode ser suspensa ou revogada? Entenda com especialistas",
-          "fonte": "Valor Econômico",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPNTVoSWk0aXJzcnZXNzc0NklNN3pqTDhBTVNwRUI4dnExVlhueFROY0xaN0VYVVVNTGZmMm9nWTIyZENBUVFzeFptM3lNVmNCb2x1MXRSYXVzLTA1LUxLeTg3YnBiV1NWaVlXa2RQSXc1T2NveUhyZ0hZNjBIRHNacmxqS0gyNzB0c1R5R0VfOE92SkYxaFZrbHlpaUo3Zk45MkVCaXBYN0FUSlB0VHZyTGQ1V2ZGSkxTNFVMWWwwMnFWckxjSm90ZzdGZWxJd1HSAd4BQVVfeXFMT2lCSUhyVlRtdW53OVpmTXlWZFFTR2czRUpUakp3dURIOS1xckZVY3VTMlpkNHlZY1JJSDYwSm9wbFpKY3gxdWwyM0FYVjNIT3ZQdzdyZGlDTEhBWlYwZHpxR0ZNZGdQN1NEUG9zTDRCbmRxeVlGM09mb2NPRHFYeTZyWHZCRl9yeUNxbDZTRmVoZFpGbDN5MEZHdGFWSTJZZXlQcjlpRWNYWUpzd1A0UHNIT3U1Rm5Md1hxWVBBRGxPWnBLUTlURUx3QWR0eVpIWTJINXk5cUFxY2F0MzdB?oc=5"
+          "data": "2026-10-08T07:00:00.000Z",
+          "titulo": "Propostas de Flávio e indefinição do governo ampliam incerteza sobre Reforma Tributária",
+          "fonte": "O GLOBO",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPbUlpbmF2Zkpsb0k2bndRaUYyNDNJSkQ0Wmc2bXdxMVdza1JKbXF2dXdLVnFTTVhEQUZwaEJKRGxZNy1XRzRtcmJXbTNCUElCN200WFFhUHJSWUJ0eWNTRTUxZXpZWGZ4WEo1WEU5ZlRLcEwtOXJ6NTUyVDE4Z05Ebm5hWldmWFBIQUlJQldsa29Edks0djFvM3E2Y0lpWms4eExaTnREaXpoYUZIY3h1OTFzaHFLclREUk9MRkpFbngtckpRTWJ4VHJtM1BFal85ZEdpcklNTXNJeEHSAeoBQVVfeXFMUGxzLUxEaTlKQjBjUTNMYzRsQzlFWmtnU1NYaDl3eHg5Mk1SOW5jYVEtWGh5YlJMZXJCZzZyNmNTc0k3UzhlMzk1dy11MVVMN0w4elU5LWZwWFJPODFRYVZWRWNaa2k5MmNPQ0FiUTRNMWVTZ0w0Si1HVWJpYndCeks0NW5DQnBmWENQYTNOMXlMYVloaTFTTXlIaFFtajRMdmlCQ1ZwVkFWRDIyNHBNdVdBcHFRNjljYWZTYzktQnJJeGtQRlFhRlprZkxtNG1jNUh5dVRpc2JSWk9lM2dwVVByeW5wbTVOSENR?oc=5"
         },
         {
           "data": "2026-09-26T07:00:00.000Z",
           "titulo": "Joesley ‘desaforado’, reforma tributária, terras raras: as falas de Lula em jantar com empresários",
           "fonte": "Estadão",
           "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQWmlqWTZQUFRvSlF5bVRjRmc5TVRrd0R5RVE2ZzN3ejVwTHJGcE1hX0NfUEtzRGo0R0JVajRpNUVjYVg5VkJmMFBYaWR4Q0MzTmVUQUxPTWFjUVJxRXlXOFFrMWdNRU9ZdmpNNnMtbXlDdkZDWGNiYkhZZ2N4eG1scngxdnh6eDBYLVBsTElnV0VpM1FSbU9reEIwcGdIaWhnTUtHbUxweGVpTnpTT1lxR3JKWE12RUhSekEyUWFMMjU0NDN2ZmlwaUhrbndHYl9jeVI0b2t30gHbAUFVX3lxTE82OVNpQlVQQnlZNDJrTTlGMW82M09kU1JmMVYwdUV5M19SME45bzZRUUwxWVE0MVg2UlNwbmFra3hNLWdOYUUyT2hOSmRFOHM0UDh4YkJvdkNvc1c5TVMtYmVZV2hsUHBGckc1aWtIN2h3SFZ2TXNCMU92U2VaYzBLdmd4Z2xueVdaaEV5Z3VXYUVIbEFoRXIwbEJmbi1mSm9wVWJCYVVoMnR4bGc0a2JmamVFaTU3OTBJUVpEUFVsRnZldDZUT2NsVWNhZHNMeDRrT2VCNTUtOF9tQQ?oc=5"
-        },
-        {
-          "data": "2026-10-08T07:00:00.000Z",
-          "titulo": "Propostas de Flávio e indefinição do governo ampliam incerteza sobre Reforma Tributária",
-          "fonte": "O GLOBO",
-          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPbUlpbmF2Zkpsb0k2bndRaUYyNDNJSkQ0Wmc2bXdxMVdza1JKbXF2dXdLVnFTTVhEQUZwaEJKRGxZNy1XRzRtcmJXbTNCUElCN200WFFhUHJSWUJ0eWNTRTUxZXpZWGZ4WEo1WEU5ZlRLcEwtOXJ6NTUyVDE4Z05Ebm5hWldmWFBIQUlJQldsa29Edks0djFvM3E2Y0lpWms4eExaTnREaXpoYUZIY3h1OTFzaHFLclREUk9MRkpFbngtckpRTWJ4VHJtM1BFal85ZEdpcklNTXNJeEHSAeoBQVVfeXFMUGxzLUxEaTlKQjBjUTNMYzRsQzlFWmtnU1NYaDl3eHg5Mk1SOW5jYVEtWGh5YlJMZXJCZzZyNmNTc0k3UzhlMzk1dy11MVVMN0w4elU5LWZwWFJPODFRYVZWRWNaa2k5MmNPQ0FiUTRNMWVTZ0w0Si1HVWJpYndCeks0NW5DQnBmWENQYTNOMXlMYVloaTFTTXlIaFFtajRMdmlCQ1ZwVkFWRDIyNHBNdVdBcHFRNjljYWZTYzktQnJJeGtQRlFhRlprZkxtNG1jNUh5dVRpc2JSWk9lM2dwVVByeW5wbTVOSENR?oc=5"
         },
         {
           "data": "2026-09-06T07:00:00.000Z",
@@ -609,10 +615,10 @@ export const mandateTree = {
           "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQRklhaVVadzNHTGZzSVhGQWpTR3NEaXpWVnRONS10LWRFXzFEZk11X0h4RmpvamhrQVgxWDdVeW9QWDdaVnJ4c1AzUk11bFBlSjY4U3hfRzl1RzhVTTVSVmNaY0dmQVhMbzBoVVV3WUJGZ2VpRW9kMDQ1WGV4eU5fNEFOekdYMXZZV0xDd2R2dnY4YjloOVVXbW1sTjFMQ1p1bXZ6WTJIZUpDcmV2ektVTnphSEtEXzJLY3Rpd1JNVDFqdzRL0gHKAUFVX3lxTFB6dU9fV1huUE9EUU1JSGN3NkxYRUVBcU12NmdFWGRqSkFjSlh4SUVjR2lUNS1ySzBTWkpycHBDTmwwd052eE05bnJpaDc1NEZESEZ2WHJjbEpuMTBtTmJOam5uS2xaTzdzbk02Yk1yRjhVX3BRN2NqY1NId3luR0IyZzAybks5QThvMXNnTWR6M2JIYVpWRVFyX1JENjJlcVc0VXl0MHRmUzJhWTVQMnVXRXh3T3EyVmF0VnRqMGdnZDVDTXh4eGMtSFE?oc=5"
         },
         {
-          "data": "2025-12-01T08:00:00.000Z",
-          "titulo": "Reforma do IR: quem ganha até R$ 5 mil vai precisar declarar Imposto de Renda?",
-          "fonte": "ISTOÉ DINHEIRO",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQRUZIVkNUR1BEYTZHVGJibkZaRkJPRDI2NW1pSS1VQnFST1hoY043QVlYdk9iVmpYODJIV0RHMHBfaVZodEtOeDhKYWFmOUFRblBHLTdJYmpRRUFVdDVsQWlKZEFsQmozbHhRYkNITnRicVZtVG4tUTI4THh2WEF3UVRJRVptQy04VWlZdy02bEZHWkJ4U3FvMUJqOEpNcUpJ?oc=5"
+          "data": "2025-10-07T07:00:00.000Z",
+          "titulo": "Isenção do IR até R$ 5 mil: o que falta para virar lei?",
+          "fonte": "CONTEE",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOam9BazBaZDBOazBQOENnZVlfVTR6Ulp4Wk9Pdm9XemVMUlYyaUVGb2xjenQzWmpqWnVzam9WX01ORGF0LTdRUzFucGl0N0QzQldoam1FNDhjbWViVVhJbzh6SDNDTmRFNTRGcktfd0tDLVY4SllBV1kyYUgzeG5KRQ?oc=5"
         },
         {
           "data": "2025-11-26T08:00:00.000Z",
@@ -621,10 +627,10 @@ export const mandateTree = {
           "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9FMUFkbEZlZHRkb3JGX0ZGcXh3cG1qZlV2a2tEeUxmZ19aMXBRekVBYTdnRTFSMjF3akh3aEJWR2NEajJzc3BMd3V0VlBIR1B3ckdRcmlwREszX3NEU3JCM09BdmhGVkdNellmak0tQUwwNWM?oc=5"
         },
         {
-          "data": "2025-10-07T07:00:00.000Z",
-          "titulo": "Isenção do IR até R$ 5 mil: o que falta para virar lei?",
-          "fonte": "CONTEE",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOam9BazBaZDBOazBQOENnZVlfVTR6Ulp4Wk9Pdm9XemVMUlYyaUVGb2xjenQzWmpqWnVzam9WX01ORGF0LTdRUzFucGl0N0QzQldoam1FNDhjbWViVVhJbzh6SDNDTmRFNTRGcktfd0tDLVY4SllBV1kyYUgzeG5KRQ?oc=5"
+          "data": "2025-12-01T08:00:00.000Z",
+          "titulo": "Reforma do IR: quem ganha até R$ 5 mil vai precisar declarar Imposto de Renda?",
+          "fonte": "ISTOÉ DINHEIRO",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQRUZIVkNUR1BEYTZHVGJibkZaRkJPRDI2NW1pSS1VQnFST1hoY043QVlYdk9iVmpYODJIV0RHMHBfaVZodEtOeDhKYWFmOUFRblBHLTdJYmpRRUFVdDVsQWlKZEFsQmozbHhRYkNITnRicVZtVG4tUTI4THh2WEF3UVRJRVptQy04VWlZdy02bEZHWkJ4U3FvMUJqOEpNcUpJ?oc=5"
         }
       ]
     },
@@ -642,6 +648,12 @@ export const mandateTree = {
           "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQbFNvQThkamRCRFJfN2hpVnlhNWhPTWFKSnVpVDlXQUUyYmVLU0pfeVpYMkpiQS1yZVVCNktOdHJnOWE4YjdwTkhjRVNiVVVqQmdFQ2tmdEtTSlVRaVgySnFhcU5KNWduenhDVUlJaE5MeEtNOWhXR1ZKajVNT2lNZldZeGJnaU5TQmgtaHZhcXh4VVFpeWZrenJILUVlZkgzVGRVWks1azgwZ1lNY25TV3hNdEJLdw?oc=5"
         },
         {
+          "data": "2026-06-16T07:00:00.000Z",
+          "titulo": "Ministério da Agricultura negocia aumento de 10% no Plano Safra com corte de juros",
+          "fonte": "Folha de S.Paulo",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPWjNFODJ3S0phU2ZVZUlHMjZwQTVQM0VBRDkxb3NTODZ6UXV2S2Z2YURsLXdQNEJnWmFKdmJ6OXZjUGRMMWs1UWQ3MDFkWmlZUzdkd3VQZnZ0RklUa3RYLVFBR2N1UUVGbXB5Q285dTdQS2pzRWQ0TXRCaWEyclp1VVNwY2YySkxsYnhjbEJsMmNNUjlEYkFlbXdFbjBUWDNpQ1NYTE9LWXUwRzN1X0xicUtVS2l3V0JmUnBRY001MW1WYkoxeW5yT1hzSmxFdw?oc=5"
+        },
+        {
           "data": "2026-06-30T07:00:00.000Z",
           "titulo": "O que esperar do lançamento do Plano Safra? – Por Pasquale Augusto",
           "fonte": "brasilagro.com.br",
@@ -655,27 +667,21 @@ export const mandateTree = {
         },
         {
           "data": "2026-06-29T07:00:00.000Z",
-          "titulo": "Plano Safra 2026/27 mantém recorde, mas fica abaixo do esperado",
-          "fonte": "CNN Brasil",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPQkR0VjJsN0lybW1lWFliTXgxS0ZqZXFvWXpQSmJUbDZaZlRmcnZCYjh0NUYzMnpPdHY4WHd1dHRIUkZ5M0QwcWx5QkFaX3Rrcl9Ga2ZCRzdUTV84NnRkMF9HVmd6Zm1pZTlqVzZhMFZwd04zRzdZOGo2OTBMSUg3X1VfSEZoN3B2Vk00VlJYSmdfbW5RZENjbG1fb3ZUdw?oc=5"
-        },
-        {
-          "data": "2026-06-29T07:00:00.000Z",
           "titulo": "Plano Safra 2026/27 deve ter R$ 620 bi e juros menores em parte das linhas",
           "fonte": "Exame",
           "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxONWV2bzZydHR6YWdJcHE0ZWZIZ1h2UmtCWGh2ZGhuNmNMdF9oYXVsRnJsMkhPSFRNajJmZVBWTkZQclhnd0lCTjBZZ3QxOGpDTHdDSTVROWJ6NWk2VFFMaHp0bERNLWNtb1dRbVhxLVNPZTZQUUZKajloaGxUVmtMTzZ2ay1xb0lYSUtMd2l5ZmdiWl92ak9FSUNULUFIdw?oc=5"
+        },
+        {
+          "data": "2026-06-29T07:00:00.000Z",
+          "titulo": "Plano Safra 2026/27 mantém recorde, mas fica abaixo do esperado",
+          "fonte": "CNN Brasil",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPQkR0VjJsN0lybW1lWFliTXgxS0ZqZXFvWXpQSmJUbDZaZlRmcnZCYjh0NUYzMnpPdHY4WHd1dHRIUkZ5M0QwcWx5QkFaX3Rrcl9Ga2ZCRzdUTV84NnRkMF9HVmd6Zm1pZTlqVzZhMFZwd04zRzdZOGo2OTBMSUg3X1VfSEZoN3B2Vk00VlJYSmdfbW5RZENjbG1fb3ZUdw?oc=5"
         },
         {
           "data": "2026-07-01T07:00:00.000Z",
           "titulo": "Governo Lula lança Plano Safra da Agricultura Familiar 2026/2027 com R$ 97,3 bilhões, juros menores e crédito ampliado para mulheres e jovens",
           "fonte": "Jornal Grande Bahia",
           "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPSmVKck0zSVVNZnhaMWJKX3lUTW01TXVNaGdWNnVod0IyU3otMmkwY1BOU3V1cUJKakFjc1V6VTFubXlqTnNncHg0MnRRZEtpNkREY3NHUGl4dG9jQVNMNjRWVWk5b2VIcUQtdTBuemh1UDFrcV8tdWJBRGg4WDRQQ0ZnQ2d4dE4yenhlTkFoRlo0R0FLSUxfN25weWJ6a041cHROMFVXR3lEUWUtQkc4b2JBeXdCXzZzREN1RHpPM1M0LURfbW9iV010WGRoY2Z1T3lfcjlRVlpGVXpyaTBTSTFwWmVfOGhXTTNjQll1MnYyOWxPQ3B1T1NEbkpDSmkyTlFNWkVtZm9wZ1BL?oc=5"
-        },
-        {
-          "data": "2026-06-16T07:00:00.000Z",
-          "titulo": "Ministério da Agricultura negocia aumento de 10% no Plano Safra com corte de juros",
-          "fonte": "Folha de S.Paulo",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPWjNFODJ3S0phU2ZVZUlHMjZwQTVQM0VBRDkxb3NTODZ6UXV2S2Z2YURsLXdQNEJnWmFKdmJ6OXZjUGRMMWs1UWQ3MDFkWmlZUzdkd3VQZnZ0RklUa3RYLVFBR2N1UUVGbXB5Q285dTdQS2pzRWQ0TXRCaWEyclp1VVNwY2YySkxsYnhjbEJsMmNNUjlEYkFlbXdFbjBUWDNpQ1NYTE9LWXUwRzN1X0xicUtVS2l3V0JmUnBRY001MW1WYkoxeW5yT1hzSmxFdw?oc=5"
         }
       ]
     },
@@ -691,12 +697,6 @@ export const mandateTree = {
           "titulo": "Trabalho: Lula propõe reduzir jornada; Flávio sugere negociar com o patrão",
           "fonte": "Portal Verdade",
           "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNC1QV3RjNDVIZ05FQzFTN1dUekNycnItal9BbkJQbW4yblNTVFNLbUpDeTdxQlJneXVPdFFhZm1zWG5QVThmVFM1RFg1TW9yek9paV9DOU82eWd0eUh0dU5SWmEzZlluSDA0dGlGMlFMNVZhZ196ZGdsWjBjdW45TWtWMVZxeEdOLXlFaWwzdEZXMDl0VTktT2w4WXQxaTVWX1VxdA?oc=5"
-        },
-        {
-          "data": "2026-10-06T07:00:00.000Z",
-          "titulo": "O que Flávio e Lula planejam para o mercado de trabalho e como os brasileiros devem ser impactados",
-          "fonte": "Estadão",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNUUQxUEw3a0FsYWpvZjNDMktPY2pCSHhFQjQ5b3Fidlo3QmVQbnZEUkJVTU9UbHptdWpUdm4xSnVfMXVmMjJkSEFsNV9KWXNGSW9NdExkZ01ZdW1YQ2NYdl9WbS0xWUlkSEZtWUxzTEQzYXR3aEkwSjVzNDhZZW5PdkJMMXExWG5CdDBIYkxxMWZxdjJVU2RDQzdfeGJQUWg3U09sX3hxNkRXWWdSUVpaYTVjTV9waWJ2TlM3WGxPdzBGSXYwdW9xWmdOS3J6bWlO0gHWAUFVX3lxTE9yR2lnRzJ0MlJSUUhoOWhSSnhSSmR1Tm5UNk1jM3JqTVlmTkJzQWxtUkF6ZUN6ZUh3VkhqVF9rSGRERVVQalRleWsydlo5cEJXZWNXSHZKZmw0S25UNUdVMkk2OTg1bFpKWUpYYVZHdFV5aEtmT0hQcWNLTVN4QXNHNGtxT3NtOHM5bUpQNENwbTNFblZkQUx5SFM2OHZ5MHl6Tk5sYWtWdFkyeXBUSGIyUXpud0psdVd6aklEOWM1Y1ByTmtLRVppX3VkYk1SU0Fab0FhSVE?oc=5"
         },
         {
           "data": "2026-08-14T07:00:00.000Z",
@@ -739,15 +739,15 @@ export const mandateTree = {
         },
         {
           "data": "2024-07-11T07:00:00.000Z",
-          "titulo": "Lula assina decreto reajustando Bolsa Atleta em 10,86%",
-          "fonte": "Agência Brasil",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZk5UQ3RfdjFyS24td0ZMdzdzSXg4V3hxSENwR0NDTnBYSG9UMDlFVXR6eW1ac25jRzVfVHlUUldMRUFVOEdlelNYdG9sbzY1TVE0LUlHRVZ1Mk5VUTNqb2xRY0liWXRwN1k0QlpERzNOVXlrZlNpQmNnNGN5SC1BeGRQWTZvYmw1c3gxN3hkMmNoMmc0dnRNaURoVWwxT19Ic0tJWTJoNG5WUnlNRElz?oc=5"
+          "titulo": "Depois de 14 anos sem aumento, Lula sanciona reajuste de 10,86% para Bolsa Atleta",
+          "fonte": "R7",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOUmgyWUYxbjAzX2xKZ0kwbEZNV2ZieWZDbWxRbVdnLTBnOW9RSHR3WnhfV2tNd2xiWEpTWWFxRHFxaXlfNWoyZDlHVjNFWlN3cVRiWVR6NVB4WG1MTWlCSmtxRG1OZzhiQnlmbE9pU0E5X1VWblRhakhoQ1RFaGxJSkZmXzJzNzFSaGRWR0tkOUp0WEQyVnhISzBIN0pMUEJseFQ1LVhrU1FuYTdVWG45bEk3YXdESURzYkdpZUNn?oc=5"
         },
         {
           "data": "2024-07-11T07:00:00.000Z",
-          "titulo": "Ao lado de esportistas olímpicos e paralímpicos, Lula assina reajuste do Bolsa Atleta",
-          "fonte": "Brasil de Fato",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNTWs0TkZ1Z3YzaXRGcDBOTEFPZXFvMDJ1STBvWS1kbWVwNUVnNHBhRmVCemRCV0xYMk83czJVWko2NGtQTlhWZXJabTVldmdETlA3aWJqZkRSUzhEOGQzUmNHeG54ZUFfRlJBQ3diZXFjUTAxR0g0SUtuTXNrVUVFQ2ZQeDROVllLQ2xOMnQxNURZTERTUV9xWTd6WEE5TlI1QjZFYkYxMTZnMVhHS2kzaGFTaGNMdGdLX09JVmV5ZEZTXzZpTklZ?oc=5"
+          "titulo": "Lula assina decreto reajustando Bolsa Atleta em 10,86%",
+          "fonte": "Agência Brasil",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZk5UQ3RfdjFyS24td0ZMdzdzSXg4V3hxSENwR0NDTnBYSG9UMDlFVXR6eW1ac25jRzVfVHlUUldMRUFVOEdlelNYdG9sbzY1TVE0LUlHRVZ1Mk5VUTNqb2xRY0liWXRwN1k0QlpERzNOVXlrZlNpQmNnNGN5SC1BeGRQWTZvYmw1c3gxN3hkMmNoMmc0dnRNaURoVWwxT19Ic0tJWTJoNG5WUnlNRElz?oc=5"
         }
       ]
     },
@@ -802,6 +802,12 @@ export const mandateTree = {
         },
         {
           "data": "2023-08-08T07:00:00.000Z",
+          "titulo": "Cúpula da Amazônia começa nesta terça-feira em Belém",
+          "fonte": "Sul 21",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxORHBsdWlfTmdORHlFNWU5bVNEcy1IUW1OYWNnTHlObFRVMkRBTHl1ZGJvRXZBWTVZMHZSYnhQZHJVWllLeGFOZTRUcjdaZjc1dmlRdEl4WUJMcWV5cnRhUDAwUFJQS1BpLW9rM0FYeTRXYkUzUlptTFJKb3BEdzVHeXJ3MHdMV3czMmF6eGVMbGZTeDhCUFpKYTFtZmFRZDR0M0JyR0J0b1c?oc=5"
+        },
+        {
+          "data": "2023-08-08T07:00:00.000Z",
           "titulo": "Cúpula da Amazônia começa em meio a ataque aos Tembé e protesto contra petróleo",
           "fonte": "InfoAmazonia",
           "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPbVpOcFFJNm8tZjIxUzlMaVRKOHE2dmIwS1JPVXBxYUs1WkU0YUFmN3pjaWsxM2hEQ0RFc19lX3FrMTA1Y0NCcFBHVDdvU1ZHX3lqWGdVeXhVTjJ6SFBxOFl2Vm1CaXZQM0l0elk3WE5TSjFIMHk3aXJ3V2ZNNS1mRHRjdHVUT1FweTRZdXRMOU1NTnN2Y1RiN0JEeWJsQkx0UzJlNUpIRlVtWW04a0J2aWdOOEtyOVE?oc=5"
@@ -811,12 +817,6 @@ export const mandateTree = {
           "titulo": "Após críticas, Lula diz que compromissos da Cúpula da Amazônia são “ponto de partida”",
           "fonte": "Gazeta do Povo",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSDFmdGliUzgzbzl0TGp5bEphN2lybzVqVnJkNFNUQzhvQkZFMlJ6QU1yb0Y0R05oS2MtUUpyQ1FkcjZGWE4tZEJ2LVl2UU5aaGhuWHNDQW9DWndLTWxRbXUwd3F4dm5tQTlYN1Z0TzdYWmFxUVpFX05FZXlaVnFwWHhheUZ4YTJ0SGxBZXM4TjNCMU5Ddm1mZnpnV2xEaF9oc0NEbzNuekN0V2VOTDlNZw?oc=5"
-        },
-        {
-          "data": "2023-08-06T07:00:00.000Z",
-          "titulo": "Saiba quem vai à Cúpula da Amazônia em Belém",
-          "fonte": "Poder360",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQZEg1Tmp1M3VlZGxjVjUzOFk5a1Y0T1NCYnY3cjBpWDRBaGNZYkxKUVZrQ0NzaEFfVGJ6d2hfUzFDZmJDdFhqWS14bDdnSElObDJEMDF2eGY5dWhPay1HUHlMR1dnOTY3RWV5b1BhZ0FVck9BRnNDTXY0Z0tyT0xpTWgzdkZtS01k?oc=5"
         }
       ]
     },
@@ -827,12 +827,6 @@ export const mandateTree = {
       "status": "cumpriu",
       "descricao": "Lula prometeu recriar o Ministério da Previdência Social, o que ocorreu no primeiro dia de governo, em janeiro de 2023.",
       "atualizacoes": [
-        {
-          "data": "2022-09-22T07:00:00.000Z",
-          "titulo": "Lula fala em recriar Ministério da Previdência Social",
-          "fonte": "Poder360",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNTGJmaTNtM2wyZ1pBVk5DV0F5N3N1VjNuOS00UndJeHRzVXVORUpaMUhZS01tbGViamtwdmsxQnNROFktWllsMENiZnc4QmFwV0xLdTdYcHBrTTJMWktjSEszQ1l6OE84a0RFV043bGl5bFpDVnhkZUNNSzlkQkl0d2xsMXZxNTRKNDIzdE9rSDBVWmp5V3c?oc=5"
-        },
         {
           "data": "2022-09-22T07:00:00.000Z",
           "titulo": "Lula: ‘Vamos recriar o Ministério da Previdência Social’",
@@ -847,15 +841,21 @@ export const mandateTree = {
         },
         {
           "data": "2022-09-22T07:00:00.000Z",
+          "titulo": "Lula fala em recriar Ministério da Previdência Social",
+          "fonte": "Poder360",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNTGJmaTNtM2wyZ1pBVk5DV0F5N3N1VjNuOS00UndJeHRzVXVORUpaMUhZS01tbGViamtwdmsxQnNROFktWllsMENiZnc4QmFwV0xLdTdYcHBrTTJMWktjSEszQ1l6OE84a0RFV043bGl5bFpDVnhkZUNNSzlkQkl0d2xsMXZxNTRKNDIzdE9rSDBVWmp5V3c?oc=5"
+        },
+        {
+          "data": "2022-09-22T07:00:00.000Z",
           "titulo": "“Agora, com esse governo, voltou a ser um sacrifício o idoso receber aposentadoria”, diz Lula",
           "fonte": "Hora do Povo",
           "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPWnVXNmZLbXQtNWFRb3VvakV4ZmxpWkFzdmkybDRtRGRYU2VhTVVsTjYzTVNnTFNNUHp2RzBEUlZHZ1F2ZEw0eThWTVJnTHFQZWdBbExqV2I1S1RxMjYtbXRUa2JGSlp3WUNZVWQxMnF3dzBVNGxxb0NBdDRUWWJGOEllSENGOWtmRUhoRnpJc0JKTXVTdEl3c0U0dUJNRmNCS3A5ZmQwLXZaMDdPWl9iVmpRdFdvZw?oc=5"
         },
         {
-          "data": "2022-09-22T07:00:00.000Z",
-          "titulo": "Em encontro com idosos, Lula diz que, se eleito, irá recriar o Ministério da Previdência",
-          "fonte": "G1",
-          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPcG8wVGN0c3B6RXluTzhiT1ZzWXZpM2lmWms2djlPUjVLRzVPanhmcXdlRmVaMUQ0VXNKTXM1MXpEdHhIVnBsYlFscnI5d0FDVlhDNmdITWp6QjQxTU5ZU3lNbm5NbG1uQjJvcjk1TFdsck1mUXJpa1BBdmtSamVTbTVzRFZXbzlVZVItcEZVc3d1b0dJdk44R2h6dW1XSnR4VkNyLVdwVjJGZm1VY25jZVhkOFZPSl9xWjFfakJCLXFTZXpqaUZzeXM0eG1IR01YZDEzYXFoTDBkel9qYTNpeE1fUkdhNVM4Z0HSAfgBQVVfeXFMTlNjdDZwVlVMdzdjNC1qTUVPQ2lQaGUxUGk0SlhSdGtHVE8yUHNQc1lwSXJDLVJza1BhWjVzMXNqYzhkblI3Q0VUZW1uandqWjJ0ZGF0Q2Q0Sk9BVV9BZnVON2oyQ25IQTk2SXduWk5wZEE1bzlyMTJidGdQZHR3TTBYd0hBMWpuV0tvMFpVb1JXMTcydWhLc0I3SmlwdEp4QUhXSVA1enlQT0FBcUp2SE50MDg1SVBjaUpJRmFFdWxDYXVDemRlel9VRzdrbzVWeW83NHRBZHI1NUNQQnhrT3NKR2NjODVQNHZMZk9yMC1CdTdhUXZCSEI?oc=5"
+          "data": "2022-11-28T08:00:00.000Z",
+          "titulo": "Transição de Lula recebe informação de que fila do INSS já passa de 5 milhões",
+          "fonte": "Folha de S.Paulo",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNOHF3YU1pZExYWk9SQUtXMWJESmRkZlc4a2NPS01VVlgzOTdZS0JBNmlrek5vY3pTRmRKRDhWYlZGcFAtUmpDb1gtQmh0UTFMYUk4Znk2bGtFSVdIRWxLUTZzMENfV3JKTjN5T1dJREZMV0QwZzhOY0poclpNX2VTVVN6WUJRX1dyZV9ncnFlaVlRX3RYT3VfVFFGb2RxMVNZOEZnMklMOGlhSHRnNGZkSGVvd3UtajN4bjJoZ2d1TXBidktrVzVxTklfSHNxNEI1ZXZiNEdJUVlabDTSAeABQVVfeXFMUERoaDBOT0w3S254VlRyUGhvb0l0alllNEJubjNrY1I3NlZ4YkZIWFd1M1psN0M4U0NPcGFReWxOeHYwdmY0ZWQ2MDhrcjNFTEdHOTA2dnFzTEk5U3Ayc0VvX2t0Vm0zZ0h2cWJ5Rks1cVZrdzdVVU5qMXUzN0VDOGJOVWpOaW9UZGlVYTAxUE5vNWhtbWxNbzFHUXk5UXBxVFlTbnJOeVNsM05LNGUySXNlb3hjaS1JRkNuY1hKcllSdnhKd2Iwa0tLb1BhX1Y5bGlZejJ3NXJ2S2QySWJJWDQ?oc=5"
         },
         {
           "data": "2022-11-07T08:00:00.000Z",
@@ -864,10 +864,10 @@ export const mandateTree = {
           "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQSUNEdGZXVXRTM2dWcnlMRThCZ2Q1OEE2S0FNOURYZTlMa3B4eE41d3hLYVp0bENtREZXVUVnM0ZFYWJWSW5PS0M3RWNyYzJibGVmdWpoSXNwM3BhTzhqbVI4ZmliOE9keVRkSlBGeUhpdXpoRUdQTk1HM0lDWjllVmlkRm1SLUFuMDRoZVQwaV9xRENnY3BxOHNLOTVpNTVoOVBzaUVhaWFhUQ?oc=5"
         },
         {
-          "data": "2022-11-28T08:00:00.000Z",
-          "titulo": "Transição de Lula recebe informação de que fila do INSS já passa de 5 milhões",
-          "fonte": "Folha de S.Paulo",
-          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNOHF3YU1pZExYWk9SQUtXMWJESmRkZlc4a2NPS01VVlgzOTdZS0JBNmlrek5vY3pTRmRKRDhWYlZGcFAtUmpDb1gtQmh0UTFMYUk4Znk2bGtFSVdIRWxLUTZzMENfV3JKTjN5T1dJREZMV0QwZzhOY0poclpNX2VTVVN6WUJRX1dyZV9ncnFlaVlRX3RYT3VfVFFGb2RxMVNZOEZnMklMOGlhSHRnNGZkSGVvd3UtajN4bjJoZ2d1TXBidktrVzVxTklfSHNxNEI1ZXZiNEdJUVlabDTSAeABQVVfeXFMUERoaDBOT0w3S254VlRyUGhvb0l0alllNEJubjNrY1I3NlZ4YkZIWFd1M1psN0M4U0NPcGFReWxOeHYwdmY0ZWQ2MDhrcjNFTEdHOTA2dnFzTEk5U3Ayc0VvX2t0Vm0zZ0h2cWJ5Rks1cVZrdzdVVU5qMXUzN0VDOGJOVWpOaW9UZGlVYTAxUE5vNWhtbWxNbzFHUXk5UXBxVFlTbnJOeVNsM05LNGUySXNlb3hjaS1JRkNuY1hKcllSdnhKd2Iwa0tLb1BhX1Y5bGlZejJ3NXJ2S2QySWJJWDQ?oc=5"
+          "data": "2022-09-22T07:00:00.000Z",
+          "titulo": "Em encontro com idosos, Lula diz que vai recriar Ministério da Previdência",
+          "fonte": "O GLOBO",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPVFR0WkI1dkxLcWdleWhreVNSNmhUOXpHb19ZeVlkV0JUcDM1SktlOW5JSkM1Z3dPRG5vSmcxWk8wcnJIdFp6ZVZpOWtnVlRpR21OQzcycXVmMlgxQS04cXFmaS1paFFnLWt5UVNCdDlWMzBFNkh4bW9UemRDV3VqZ0hqZVpqeVFHM2pTcElscjljeGtLQnh6dUpyb3JIekNXMVhMUVZJY1Vqa0pXVWt0S0hTbDU3MGVySkV5S0t5S2VGVjdHX00yUWdYZ2UxOENYNEdYb0lFWXZmNm_SAeoBQVVfeXFMTTRkcWQ5QmdpMnc2UTN6MkRwSEZWZVFGWmFfNDhVUml2NUNydFlsRUpiR3hyUWFlYm9jT0dQVnJMaS1JaEhWVGx5eXAyd2g0NmRPRzdUYmMtLTNyQ0s1ZXllY0RKZFZWcjhiejhBd0RWRFZuRHRTUE1pTHRhNV9oaTdEQy1SV3V6UkhhYjdON3FlSE1kMHBHUllFOUhENHkzS1B0VG82Sl9ZU042cHZNeW9aMldDSVhZNDg0YjI1NUdaWUxhTXlaQVRXUjZtbUtNUTd2VnBOTVFDM3A0aG9yRU94NEt6NW1nUUlR?oc=5"
         }
       ]
     },
@@ -1009,6 +1009,12 @@ export const mandateTree = {
           "titulo": "Ao lado de Chico Buarque, Lula diz que recriará Ministério da Cultura",
           "fonte": "Blog Cenário",
           "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZDNPbFRtZkVKd2ZkUFZNWGI2NUJiZTZEalB4ZjRBa2tvX3MxUWM5N0NDTXJ5RWhXRlRxWTdsY1pfUzhRM2lxMFFIQndZUE5KVzNGa3BNRklOUlJ2SXpkWGVEYmRxcFNUMzZKcGF1VUdkbDRRbjdkQ0tUUHVvOVgzMlR3eE5neE9SWjlrcnpXcE9SSkpFQjFKZXNEajg3blhvMExnLWNlQWNsUQ?oc=5"
+        },
+        {
+          "data": "2022-09-26T07:00:00.000Z",
+          "titulo": "Lula diz que cultura será tratada como direito de primeira necessidade",
+          "fonte": "Agência Brasil",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQaG9xU2R3MTd0STJ2OEJiZzU4ZGhhM1RKdVpNX2hpbTlmaFh2S21NemJHV2JtN3FQTGgwMG5fTVdrSThQZ21leFBEeWdXVEYzeWpvNGF6dVR1TVROcEVsYlM3clIwaU16a011X0ZWSUpaNWcwYW11cHV4QkJXY1JZTGl1S0VuU0w5b0J3RUpEbVFEM1RhTDRvamxXM3NEOWUwdm1wRjlxamNveTRVRmZIeXdVV01mMks2aE1wbXBLaXNVNVo5WWdR?oc=5"
         }
       ]
     },
@@ -1232,16 +1238,16 @@ export const mandateTree = {
           "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNV0c1VTBxdW1ndmJZcGdaU25KaV9BSGVoSDhweU5ObUtXLXJoanQtN0xnYXpsZnh3Y1l2cVVNRTREczNKMlMzaUtaY1pRalNjUks4SDBkNk9FM1YwS29PYmVHMkRObXNqTVFJM2wxazJ1M01YMzhmNXNmazlNNGZoUGxVZ1ZYSldJY0N3YkIyR2JsSTR2RXdVcHNmOFZZbzZYSHZXbXMyZXFYc1BVenM5Ym5pTmFJR2J4SFVUVUZFUFI?oc=5"
         },
         {
-          "data": "2023-05-05T07:00:00.000Z",
-          "titulo": "Lula encaminha PL de reajuste do salário mínimo acima da inflação ao Congresso",
-          "fonte": "CNN Brasil",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOYkRhb3gwREdNLWRVYmNHTDlwc29GeVhqc3hHYTBRcWhEdXZac0gzcTBZVHdwOTRkRTY4OF9VaE5Zb0dFX2JnMlQyNFJTanlfZGR6SlB4RnV5dGd5U0gzbFZMWFRkTEx2Y2VHR2VIUVpPUGl6VTRqazNnNlRKWjlCRVRMZk1POFlZYXNBYjJnWDFZLXZ4THNrX1BaamxBVG1WajM3TVNTc0ZnUG1OSEtKajNkb1AyenJkc203RWE4R0U2S2RLNENJeDNkWQ?oc=5"
-        },
-        {
           "data": "2025-11-30T08:00:00.000Z",
           "titulo": "Governo Lula reduz para R$ 1.627 previsão de salário mínimo de 2026 após inflação menor",
           "fonte": "Folha de S.Paulo",
           "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQcXdMdzVnVXR4MF9yMmtsb1A5aXRIdFBjRUlIZDgzMWZOVWtBYnZRdE5oMnN6YkJMaDhCOGlxY1N4dXpuZEFoa19rR25QUkcyZ0I3R2JZTVNPR0Jtd1hHeWV6Zk1ZUklkNk15UzJDcWJ1ZVl2eVFFTTRfdlZrZGFOQ2ZiYXFfdms2NWhHUnBHSlI0WmdHX3ZyeGFuZy1LbTlZUWhZTDBpVmZLYmFBZzNQWlFPck9FYmVBYmIwNzl1dHhkbDM2T0ZMbDVENHVmakJMaUNB0gHYAUFVX3lxTE5aLTNqZGp6R3g0aUVyX3c4RWVreW43WWRva2hoZm5tVXhYWEI0X3dEMUtwWkhseEstd3V2dTJWRmI2SnNqb1BDNDVnVmZ6ZUVUNzRJamVibW8xRG02SVdsSDBUYjFFeFRPYUZxLWNjQmRjOHRNbUt4SmdPaElsWnIyalNkRndWM193c3YwVmJGNmlmajg5UjZaX19SSUpKYVhFRzZ2TldhdHo3VnJYSmdVR0RLc052ckJQNVZ3dzR6OVJ5VVNNaS1NckhEY25CcFRrRlExN3pMag?oc=5"
+        },
+        {
+          "data": "2023-05-05T07:00:00.000Z",
+          "titulo": "Lula encaminha PL de reajuste do salário mínimo acima da inflação ao Congresso",
+          "fonte": "CNN Brasil",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOYkRhb3gwREdNLWRVYmNHTDlwc29GeVhqc3hHYTBRcWhEdXZac0gzcTBZVHdwOTRkRTY4OF9VaE5Zb0dFX2JnMlQyNFJTanlfZGR6SlB4RnV5dGd5U0gzbFZMWFRkTEx2Y2VHR2VIUVpPUGl6VTRqazNnNlRKWjlCRVRMZk1POFlZYXNBYjJnWDFZLXZ4THNrX1BaamxBVG1WajM3TVNTc0ZnUG1OSEtKajNkb1AyenJkc203RWE4R0U2S2RLNENJeDNkWQ?oc=5"
         },
         {
           "data": "2022-11-03T07:00:00.000Z",
@@ -1277,22 +1283,16 @@ export const mandateTree = {
           "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOTnJiRHVuQ1N6Vk5tQUFpNkhabHlvbmJPUU9MWUJRMUo1MUFsbmN3WVNwUVRGTWVxWXNOLXYtZDNjVEh0Ym5rOThYdlBLMk9sZ3VTWVZNQ3dBRjl2TjU2emJxazZzczMwM0xwakI1eEYxNmVIRmo5N0lLeC02VDlfbXNwNVdIdTlwdDNnSlBFMzBvWDdrNHJadURnQlVKeWRuQ3owM1hUWER3T2fSAboBQVVfeXFMTnlEOFljcG5zR0dVMnpXcEhyTnBOSS1Wc0wzYTFRSm1URGNwR1k4VEhXemFJQkhyUWNpNWl5WmNJQ240UnhrNVFBbWNIa242UmlJYVh6ODBGX1BJLTA5TWd6U09mTDVNVjR2bV9IWXE4Vk12RE5NcDA0SWhmVDhVQzNlU3l6YmlpZWR2QWJwOHctVXEyVDFPdGtqcEd4WGxHMUZwRWNpVngtSnhUQXkxMTJuMW5HOEktYkZR?oc=5"
         },
         {
-          "data": "2025-08-05T07:00:00.000Z",
-          "titulo": "Combate à fome precisa de sensibilidade e política de Estado, diz Lula",
-          "fonte": "Agência Brasil",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOR3dMVUZkdW9wbmJCY2tVRXN3c2ZmV3VZbG9ETV9LcFJTUTJCeWdWOUFwZWpaRC1CQUxXeHJPV0pNVm5XWXpiUmk2dEdtRjBIWUhZbGM3UGtpdDU3eFpYN1RDY09zMGNxaW5NaEE3V3ZHamY3MXRpX3RZRlZmenljSms2Tm1oXzhIMmtGWTBMa0VtWVpHWUdJTHBaNWlVZmZzTnJLRDZsRm1sZ0kyVDlaLXRZSFBTVDRTR0ZSbTdNZmdGa00?oc=5"
-        },
-        {
           "data": "2025-07-29T07:00:00.000Z",
           "titulo": "“Sou o homem mais feliz do mundo”, diz Lula ao celebrar saída do Mapa da Fome com a FAO",
           "fonte": "Fundação Perseu Abramo",
           "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPVW9MY3prbHlUUFZ0cmUyc1ZqMkRrSFR6U2M3ajNZaHF4TGkzQnRlcWgwRWJjMkN2UmJsY0JaajlzZEpTMEthaEtmbWFYaUJ1X2wzSW1XaTVXRnpZMF9TeGh1MWc2ZUdMRHVfNm5ZNFhyMTMwYWZHRHB1RDFvcWRKaTZfbG5QWHlyQmkxcHJVdTNXMklpOFhUOXpLdw?oc=5"
         },
         {
-          "data": "2025-10-12T07:00:00.000Z",
-          "titulo": "Lula em Roma: Brasil enfrenta desafios para reduzir desperdício enquanto celebra saída do Mapa da Fome",
-          "fonte": "BBC",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBJSXlnUnItX1VjemxXUm1uX3pkbGVYR1FwUEdhZk1EWkNrczFsSVB6WTB0aHl4eEgwSmw5T0RvamNjLUQxRjd0NkUyN09odllFbmhFT1pORWN6ZVFfLWtmZk9R0gFnQVVfeXFMTjR6aG5IcWNiNFA5OGIwQXJYRDNkbzZSVEhENkhuYWlUOURyMFUyREhSXzA5a2hNTklKd2xaMmNGd2VfMkNJUGRrS2lmNkxmOURMbXlTam9zVG1TdlBIbnA4MzI2eVZQTQ?oc=5"
+          "data": "2025-08-05T07:00:00.000Z",
+          "titulo": "Combate à fome precisa de sensibilidade e política de Estado, diz Lula",
+          "fonte": "Agência Brasil",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOR3dMVUZkdW9wbmJCY2tVRXN3c2ZmV3VZbG9ETV9LcFJTUTJCeWdWOUFwZWpaRC1CQUxXeHJPV0pNVm5XWXpiUmk2dEdtRjBIWUhZbGM3UGtpdDU3eFpYN1RDY09zMGNxaW5NaEE3V3ZHamY3MXRpX3RZRlZmenljSms2Tm1oXzhIMmtGWTBMa0VtWVpHWUdJTHBaNWlVZmZzTnJLRDZsRm1sZ0kyVDlaLXRZSFBTVDRTR0ZSbTdNZmdGa00?oc=5"
         },
         {
           "data": "2025-10-06T07:00:00.000Z",
@@ -1311,6 +1311,12 @@ export const mandateTree = {
           "titulo": "Lula promete tirar Brasil do Mapa da Fome até 2026: “A mais degradante das privações”",
           "fonte": "InfoMoney",
           "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZXlmMktxbk5zSThVYXdqY21taGVXRGdjeVlMMkN0VnUtWWdGVVhERDQzS1FEWFU1MXAwWGVnOGU1dTZWUjNBcW1DNHlRUWlpSTFza1RpQklwODJUc0l3TXRSTzl0SGlaTWFFV3E3RVFkVFBBNlRNel90NUlpZXduS3JUTVRZOVM4emtKaWhUN3p2bnhIZVRmb0VvWUhFRDZSVFMyX3JRWVNsa1M4dFBIWXY4Yk5LMXdfVk9hMS1R0gHDAUFVX3lxTE9tb2k1TEZWOHJZTWJNemV3c2FaOTZJaWZvbHdwQUd5UXpHSFVYZmg4Wjc5ZzZGQ2ZRaFhpSEthMmhHU0VWdHB4dVVmclhrc0tYMDBacDhQRmpSYjNUNktuSWQwZ3hyMm1FTXBrelJ0alpLZnVwZzZ6NzZxTTdJalpkRlJZTTlEYXBDT3JaM1pCbkN4ejRRanA4ZmE3R2JRZDlEV014V2JOcVEzc2Z4SF92cksxeElBX1lnTHhvYWlUSl81aw?oc=5"
+        },
+        {
+          "data": "2023-02-28T08:00:00.000Z",
+          "titulo": "Governo Lula retoma o Conselho Nacional de Segurança Alimentar e Nutricional",
+          "fonte": "Partido dos Trabalhadores",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNRklQU05wOS1xaTJVUTdjN3YzcTMtSURiMzVzV2VNQjdQU1BWdDRjb2lBR25kb0xnaTBfZVEtWWVTNzRpRE4zdTk2dG1wa2lHUi1fNjgxeTRSTGRjRUxPQjJSR0dqSlhfeXhKNnR5LTE1N0FtUEl0a1pFRDFSMlJVQU9XeWJ1UDBoSzV3UHFqSXNEWmk0WWZIMFZtUTkwUVpzSnhv0gGjAUFVX3lxTE1GSVBTTnA5LXFpMlVRN2M3djNxMy1JRGIzNXNXZU1CN1BTUFZ0NGNvaUFHbmRvTGdpMF9lUS1ZZVM3NGlETjN1OTZ0bXBraUdSLV82ODF5NFJMZGNFTE9CMlJHR2pKWF95eEo2dHktMTU3QW1QSXRrWkVEMVIyUlVBT1d5YnVQMGhLNXdQcWpJc0RaaTRZZkgwVm1ROTBRWnNKeG8?oc=5"
         }
       ]
     },
@@ -1328,28 +1334,22 @@ export const mandateTree = {
           "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOcTZjbUdteWFSMUt1X1M4TklkODRGNDRRUVZlaTd4bnRLV0VDN29TUjF1M2p5TjZXb3E0OE9qeVM3VWNDUjNQa0hyQVVRNHhhSTZLNFhWR1N4MTJNS2pXb1BST1BwUG1KeG8yS2FpdWZnUXRfczdqcnA4NEpGeFRYbFFJTUdiTDRERGZUMEdJb3ZuLXQ1M3B2bmM3VFF1VW13ZnZVZWFHTzJhLXdiMXNsTGNHTjZ1VnluTGlKNlVTVkt6QjljUHd2VjhwWnFyb1A4MmhZcm1BVGNuelR4Ymc?oc=5"
         },
         {
-          "data": "2026-08-26T07:00:00.000Z",
-          "titulo": "Apenas 5 candidatos à Presidência têm propostas para combater racismo",
-          "fonte": "Alma Preta Jornalismo",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPUWV1eVBCQUZ3N2h1blBKTXZ5WXFRajJJVW4zRlpSRlY3enNPMHAtQmpoeEYzWVFhdFZldTVvSVlnN3VkWkp4NHB2NXp4VXdMVFVuZzQ0QUJSUXZndURRTU1WRDItRkJxU1AwdUlZMmZ1amd4TmkybS11R2JQZHpzZ2VCaGVrVjRHRThoN1BSU0NBSzQ?oc=5"
-        },
-        {
           "data": "2026-09-04T07:00:00.000Z",
           "titulo": "Reserva de vagas e escolas cívico-militares dividem candidatos à Presidência na educação",
           "fonte": "O GLOBO",
           "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQdnNpVENBLU5zTWV3MnFTSFpvXzJhUkFWQWlWRWE4NmpPNGRzWjRCOFg2NkFkT2taX1h2a0NCMWZsejI5YzZEa09GRWx3SjRZQmQ1RDVZQUxiVEJtb1ZWVndUT3l1QmRtNGhrZUc2dTlaaFVTd2pOY2U0MkVkWGZReFpNYUpTbXQzRGVEb0gxcFZ0S29UQjNXUnBWNlFVYlJfUERtQ3ZYb18yc2xxX2Q3VmtZS0s4alN2OFBGZndVdW84cFNoaFE5U3lESm1wMlo0RE1XS2thWDlrWEdwaEZfVFJJZGV1M1lvQkHSAfgBQVVfeXFMUHVYMmpaMldCdnFZb3FrUDBTVXRKNjRzN1RXTDdrc1h0N3BJelhzMlVPeGhJUUh5UzNIX1I2WWdTUUtNRzhTRFpmQTBmbldTQ0hfTU1CenNlSlV5Zmt1dEpqMDl4QnBXRTFlczNlc1JuTVlwVk16cjJxd290U2lzYXpIS0ZEdkhib21INGJScXNTaEZaRlZ6ZlFFRXNsWXRYa1pmczFsWXAwZHJSWllSaFg5X3RwQi1WdXEwRy1HRTFlVFNLQ2txUnNrMWs4QThlYi0taU96Z1JMU0hiV1BKenhncGxoaEgtQ0UtZmVFNW85SkpCWEttM0s?oc=5"
         },
         {
+          "data": "2026-08-26T07:00:00.000Z",
+          "titulo": "Apenas 5 candidatos à Presidência têm propostas para combater racismo",
+          "fonte": "Alma Preta Jornalismo",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPUWV1eVBCQUZ3N2h1blBKTXZ5WXFRajJJVW4zRlpSRlY3enNPMHAtQmpoeEYzWVFhdFZldTVvSVlnN3VkWkp4NHB2NXp4VXdMVFVuZzQ0QUJSUXZndURRTU1WRDItRkJxU1AwdUlZMmZ1amd4TmkybS11R2JQZHpzZ2VCaGVrVjRHRThoN1BSU0NBSzQ?oc=5"
+        },
+        {
           "data": "2023-03-22T07:00:00.000Z",
           "titulo": "Governo federal: negros ocuparão 30% dos cargos de confiança",
           "fonte": "DW.com",
           "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMko1VFRQaXZoWmswTmtldDhzTlNFXzk2eFlrREkyeUhFNkJ3NGhJTlNLcEVfcVV4X00wYnY1SWdqMUZQSkQ1R19mM3ZpNUxUX1lDT2ZLR1h3VXhadmliY1MwTzAwMk1iMFBsRlBqa3U5Q1JPelJDeWtTNS1oNUVGa0l4ZGtZQ0JjVmJ1Zmx0cmRGeHpIY2tsQjhaOHQxUG1qam9hQ1NId9IBpwFBVV95cUxOeUZwdlFKT0szblFxNk9jQWpNaHMxbXJackc0VnBXSTRzbFJwNDdGdVM2WVd5bC1WaXJFYjQtS1pmLTE1R1ZhSlNTakRjMWt0Y3NUOFl6NjBLMFp1dFB5VW5VYTlMVVRZVHhTb2Q1bHY4OGxXbS1JSVJzWF85SFNZZFlzYWVGcHhrRjFER2pkaUxzdTN3a3BIQjVxcmtzS0J3MkltaC1fbw?oc=5"
-        },
-        {
-          "data": "2026-10-01T07:00:00.000Z",
-          "titulo": "Do racismo à violência de gênero, dados expõem o abismo entre Lula e Flávio Bolsonaro",
-          "fonte": "mst.org.br",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOX3RUei1zX0lGU0J4dWM3WFc4THdWVmp3RlpJZy1ZVXluYl93TV8xQ2k3R3F4c2VQVWNXSUEzQWxQWFEyT3lqc2ZTVkU0dE5pV3ROZjUwaWtER3I4YXJtOVVXQkFRa1JqQ2NBMFF6cHN6eVMzVkxRb3UtSHh4MlhjdXdPY0ZpWmdvdVRWRjJJUkJxTWV5WTN2U3E3RzlLVHZ4V2hZLXFXUTlfOFMwT1BXTVA0TUt1dw?oc=5"
         },
         {
           "data": "2023-04-13T07:00:00.000Z",
@@ -1368,6 +1368,12 @@ export const mandateTree = {
           "titulo": "Ministros reforçam que ampliar a Lei de Cotas faz parte de reparação histórica do Brasil",
           "fonte": "CNN Brasil",
           "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPSktsRE1OWmt5RTB0UU8taWtDQ1ZhN1RrdVBlNG1BMFRMQmVJaDlweFlqeUpkUnNHSG9rcUtLRUVvVkpfZlZUVzc1aXJRX21fU2UzTUx5OXF0M0hFcWtvYjk4MVpnS3p0Rk5FTzE1bGZkdVRYOTM1emp6WVR2YjF4NVFFRWY0elQ0ODFfemJEb1FFN054T1hqLUVXNEk0cGRCZ01MNUYxWk0xZjVsdDdySWFEbTBoYmQ4NklMcXBGVkRaSXFGOWc?oc=5"
+        },
+        {
+          "data": "2023-01-23T08:00:00.000Z",
+          "titulo": "'Brasil vive racismo institucional e deve ampliar Lei de Cotas', defende Anielle Franco",
+          "fonte": "BBC",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1HSVVoWkc4Tm81QUpSVkcyc1dQUGV6SHAxSGYtVk5rVTNoazRTVEJnN3paejhQR0lRd0N1NXNkdkh0VWFJQmxTaEFFNGlwZkt5dGE4eVNTUkp1d9IBX0FVX3lxTE5pdnBUdllubTB6RDBTU29xMmZlYkxUaExVRWxqZW9JY3czMF9UeGpUV19XMm5JMFBQQmc1T0J3cC1NWkdvc0t1Y1YyRWxCd01iYTJvODJPclI3cEZCYTBV?oc=5"
         }
       ]
     },
@@ -1391,6 +1397,12 @@ export const mandateTree = {
           "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPUGtXMlk4SGtCTUZ6cFRlSTRYdFJyRlExRXdLU1F6X20wVFBvRDJYT1ItZU9hWjJkUmNNR2p5dktXdVB5emJyOGMyS3pEelBoMm1NVWNDX3N2ZV8teDdxQkdHM3R5Y1hqTUxFeEgwa2ZzZ0wxbVdTRnNidkhXZ0xjX0t2d2hhUHNPbGZtTWMzUFdxVTVWLWNfUkE3eDh4blBNSGFTSnA3aHNESHRBbjVNaEt0WnJORUZmanYzRXZGUExNVHpXY19jSzFQUU9pVFFJVGNYX1ltRVhkSTIxdTJpc1h3b1J1REE4WDZzLUxB?oc=5"
         },
         {
+          "data": "2026-02-24T08:00:00.000Z",
+          "titulo": "Minha Casa, Minha Vida soma R$ 330 bilhões em investimentos e bate recorde histórico",
+          "fonte": "Brasil 247",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPYlZJSGdITlhzRFZpT09DR1d6Y3IyRHMzR2Q5bDVpbjZDUjBROUZQU0FwRUlfaEZvYWxWU1FreW1qWDBwbEd5OUNhbG81WDRNVG9yYkVnb2xZRGkyR3dMR05weFV6TVNyTnU3S1F6YUR5X2ZzcGxzWGU5dGM1d0dTaG5hZ1RsTHRhZS1Mb2N4OFN2WUx0NXdhejVDZ185UEowaGxrd3hjR2xfdzZHbWVKWHhqcEJXdm5uUmc?oc=5"
+        },
+        {
           "data": "2026-06-13T07:00:00.000Z",
           "titulo": "'Mínimo de respeito que a gente precisa dar ao ser humano', diz Lula sobre o MCMV Rural e Entidades",
           "fonte": "ncnews.com.br",
@@ -1403,28 +1415,22 @@ export const mandateTree = {
           "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOQU1TdWxpMUhvbFNiZ0tkUHJ2MWkzN2JHZ3ZwNlYwbm91YzVhTkRhajRtODJtV0JVV2N6YUFaNnVOeUp6YjZ2Tm45Z3MxTVl5ZVdacFRsM3owVnVZUVhFNl92d1p6MjJtWDFMRmFmdjdNaFZuMkZ0clJ6VWlrWDlMbm42cWJLWDlpX0FXY2dXaVdYYTRVQzczUkJFVHF0bHZjNDE5emRmZV85VVVRRUtKb1pTWWJseGZiQ1RESTI3aktpeXhjOG9DcVRXZjlhWVhkaGhfUkI3MmdxRUxR?oc=5"
         },
         {
+          "data": "2026-01-20T08:00:00.000Z",
+          "titulo": "Lula inaugura 1.276 moradias do Minha Casa, Minha Vida no RS e destaca protagonismo das entidades",
+          "fonte": "Francês News",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPVUJmamlBNGlHcXlHYVZfY2I5elYzOXNyQXl2YWo0M3UyejU0Sjg2TGVzTU55T2JtMzB3UTBpZUlGN3R1SEhROGREZTJ4YXlCRl9KUkpVWUVocS1Udk9iVzc5Y3N0ZkNaOWVGN0szcjVFZVhTSS1fbElvMFRuSUx0SjFJSHA4akFxMndwUFJieGZUZ1lXTTlxT2dydXZmeHNRU2JWSG10ajM3b081ODZfdlJhOU11MHZUb0h0U3lfMWRiSVJXbC1YSU82ZzFEVWJpdGpQVG1QN2kwRlpv?oc=5"
+        },
+        {
           "data": "2024-04-11T07:00:00.000Z",
           "titulo": "Janaina aplaude lançamento do Minha Casa, Minha Vida Rural e Entidades",
           "fonte": "Senado",
           "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxObkZCb2hxMjhKOWE0VWdlSm5ZclVZa0xLT19PdFJtdFJHZ1QwOWxJQkZnZTF0QmdZbkdBQ2NSM0NVMnNka1JqeVBjU25WM2FiNmdfRFFYZ3hwZ0FIQktHNm1JcU5PR1lhYVRLbHZFenpqakN2clY1V21DQk9jOXlxNzRpV2xUT0ducHpMa1VPNURTMnFPN2J3ZlhpTERBelhTZXo3VWN1RHlscnVXOEVvRURqVnE3V1VvVjhaZXJiUkhJa2lWaU5sX2dicEV3aDVt?oc=5"
         },
         {
-          "data": "2026-02-24T08:00:00.000Z",
-          "titulo": "Minha Casa, Minha Vida soma R$ 330 bilhões em investimentos e bate recorde histórico",
-          "fonte": "Brasil 247",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPYlZJSGdITlhzRFZpT09DR1d6Y3IyRHMzR2Q5bDVpbjZDUjBROUZQU0FwRUlfaEZvYWxWU1FreW1qWDBwbEd5OUNhbG81WDRNVG9yYkVnb2xZRGkyR3dMR05weFV6TVNyTnU3S1F6YUR5X2ZzcGxzWGU5dGM1d0dTaG5hZ1RsTHRhZS1Mb2N4OFN2WUx0NXdhejVDZ185UEowaGxrd3hjR2xfdzZHbWVKWHhqcEJXdm5uUmc?oc=5"
-        },
-        {
           "data": "2023-08-06T02:59:51.000Z",
           "titulo": "Governo estuda Minha Casa, Minha Vida para famílias com renda mensal de até R$12 mil, diz ministro",
           "fonte": "Esfera Brasil",
           "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNVURTNjdfZERCS3dJUmdyTEpSUjE5TUg0ZWFCV2l5MTJqZGpuQ0sxdVV2ZVVhcEVicElvNkVNVW1NQi12TGNvTERtU2diTE00MFRmSEw5WTJqY25lQ1VIUWFOekhsNkU1RlNfQjNFbmRMbEFZc0VnaHZuZUVja2R0WTJtMUM5c0RLcTQxWFMxVkRac21IeU5nVTJvVGFPczZvY3VabHJrQ2VkZDVSeEVpdk14UlZnM2xvOVVCYWxNVVZyT3NvWVdiUnhn?oc=5"
-        },
-        {
-          "data": "2026-01-20T08:00:00.000Z",
-          "titulo": "Lula inaugura 1.276 moradias do Minha Casa, Minha Vida no RS e destaca protagonismo das entidades",
-          "fonte": "Francês News",
-          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPVUJmamlBNGlHcXlHYVZfY2I5elYzOXNyQXl2YWo0M3UyejU0Sjg2TGVzTU55T2JtMzB3UTBpZUlGN3R1SEhROGREZTJ4YXlCRl9KUkpVWUVocS1Udk9iVzc5Y3N0ZkNaOWVGN0szcjVFZVhTSS1fbElvMFRuSUx0SjFJSHA4akFxMndwUFJieGZUZ1lXTTlxT2dydXZmeHNRU2JWSG10ajM3b081ODZfdlJhOU11MHZUb0h0U3lfMWRiSVJXbC1YSU82ZzFEVWJpdGpQVG1QN2kwRlpv?oc=5"
         }
       ]
     },
@@ -1452,6 +1458,12 @@ export const mandateTree = {
           "titulo": "Lula sanciona lei proposta por Lídice da Mata que dedica espaço na Voz do Brasil para combate à violência contra mulher",
           "fonte": "PSB 40",
           "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQajVRdktuSnFWYVAtYm5PMnVxQXpHaGdpUlpiSFh5LWVrMVVPWnRLUWR1dF9QQXZ4dWVTTS1ONHpRVzg4TnlfbWk1enk3VGpXUFNqekxFNEt5ZWUwbmFqemhuYktUVUUwOUJWMjVJRVNtWnpnTjV2QWNTaWpnWVROTUtHeGNZZkQ2VUM4NGZHbDY4aUZYZk1HWlhKbnBud2g4QzVzckttZVdiaXFUUE1rcGNYZmUtelIxdFBTQTktZHk3TFAzcXRxbFcwTUVmZ0N4amloUUF6VW4?oc=5"
+        },
+        {
+          "data": "2026-05-04T07:00:00.000Z",
+          "titulo": "Nova lei institui programa de prevenção à violência contra mulheres",
+          "fonte": "Congresso em Foco",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOQldENTZwNWZaNWtycE9mZElpX2RyVlBwM1JnRlRZSmZrcmRkTXgwNWM4TFpjVWR1LTVSYkFqRW00clJldVBVckhZX0VSdnBvUi13dDVuMm9GTW9RcWZLSVBudUF4T01jWFN4UmxXcE9fT0xYMmh5MlcwdmFPRzRlLW1hekxsX2J0VDBqaERscmY5N1JuVkNZSHlLakJCQWo5OUVZS1ZycDdiZlpJSWJ6WmJNYjhmN0p5?oc=5"
         }
       ]
     },
@@ -1470,6 +1482,12 @@ export const mandateTree = {
         },
         {
           "data": "2026-07-18T07:00:00.000Z",
+          "titulo": "Zema promete privatizar Petrobras e Banco do Brasil se for eleito",
+          "fonte": "Correio Braziliense",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPcEw2WjE4UGRYOEdvaWFZdVpPVUhVUGtrTDB5WVZIakswUXo2a25YTk14Z0NOWUI5NGVKVFhEejF6My12OTh2Z2FDYlEwN19SSXVGRlROQkJha05JVmtNY3VnSWJ6dXREbEhpdG5uNzk2VlltdXNxbHFJNm1SeXV0YTk4RUJMRWl0UXBGWkJLQUIxQmE0bVpaT09ndy1PQUFHbXlZNU1nUHBJbkRDZk1CWUNHWUx2S3plQlFZOVdBQm9rM3dVbWoxZnEzRWxjZ9IB0wFBVV95cUxPSEpfcVhFNkFiaUl2MmdoRXF3U3ZMaDJrWHMtY1U2T3JGMkpHM3haZHYxQ0w2b1ZrbVZOakJXbmRlM1g3OHBuWENKMXVNYndQMDlrWmg1bXJZMUc0ZGoza1JQa2hGOUU1ZXI5MFVPaVBHRTl2RkhnYjV2a0QzSnVRbG9PalBwZmhLNmNvY3JkMjcwMURYMzJVejZrS2tBZFBoUkdRT1FEb3dSeVJzbFo2SUZuZWR3b0lJOTFHVEdvYU12blZwZ2xIblczUFptb0FrYkN3?oc=5"
+        },
+        {
+          "data": "2026-07-18T07:00:00.000Z",
           "titulo": "Zema promete privatizar Petrobras e Banco do Brasil e usar recursos em obras de infraestrutura",
           "fonte": "G1",
           "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOMXJla0xxbGRZREJSR0QwcHozMEU4SERoc3JKMmJlT1ZaYTRCQ0JmUmNTdVVNdUZKX0twSi1BVmU0d1dEa3FDU2dXU1BOajk4WWVBRFJ3dUpLaHhQN0hHMnMxN2hmZzNFNUlUOFpEdHYtcnpKcjZ5anJpVWN6YjRrcmJrcmhBMVdIakRzREZrVmg0bkVJOGF1b0VuUTc0czJPbzNQYWtUR2FydkwzX2MtZVdiQ3NkdlZYZ3RkY0dUNGdvVDZsTThNRmZ5RjE3eHBCelZSVGhRR3BiSzJTQlpmV3lmbXFWQ1RqSGJDdzljdDFrTWthQWFHWWNob9IBigJBVV95cUxQTkJpTDF5Q3N0eG1uX0NZNjRHZ3BoYmNXNE5sbmM5UURnc0JkYzlqWVlWcGxQSXRidXk0Y1Q0Ty0za05NVURuNjN3aXpybG5DY2d1Z1VnLURDc2V1NXlrX0dJbUZtYkZsRUVWZVZBLVpKMjhIcy1zRlF3T2xHTWNSWlVkUUpwMktLd3lUbUxSODFEd2xvZHFGS2dTVmt2djQxdkZYQ1hvMXVHMWpkbGtBcU9ndnNPR2FEc1kxVldZeTFUd25DeTFEREwxajNBS3c1RUVBOUUyVERHOUZFYkdvUWtRSWtSOGphOWZxWU91VmZKY2dGc2FncTVHNEVVMkNTWnBORlpjNzdBdw?oc=5"
@@ -1479,12 +1497,6 @@ export const mandateTree = {
           "titulo": "Lula: vamos brigar para evitar privatização da Eletrobras, Correios e Banco do Brasil",
           "fonte": "CNN Brasil",
           "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZWdMRGlGQl9pRWtRb3pza3lxVFgtXzhiS2pBMTVqMUdMaHk1a2FIU1Q2eF9LajZmNnVCZlJ0WGVqbEtlRmNVQ2d4ZUVvQmg5X1d6ZHY4bmtUV1hETUltODlWeGhhLWpfR1poWi1qaW40RXBOMjB6emRNT0hBLWZKQzhLVEZwRFlSU2xtQkRwZ3h4VlJSM0RGU3RGNkptZFNDUFRGLTVPdVpNMTFBVEFBTHN1NW5MXzVySFp2VGdidw?oc=5"
-        },
-        {
-          "data": "2026-04-27T07:00:00.000Z",
-          "titulo": "Pré-candidato, Zema promete privatizar Petrobras e Banco do Brasil: ‘Vou passar a faca’",
-          "fonte": "bahia.ba",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZzhIb0N5ZTFWaWMwdnB0MHNyZzFCR080TWVkYWNjZkVXc3pXM205aTRESERkbDRQMDBubTFvYzZoYksyVDZQbFhGOEd0WE9XUHZDRUIzMXpWa25Xc0h3b3JLZmtsZUhfUmxadkw5bndMZlozUjBJSUU2Zk5RRE92bUM3X3BucGtsLW5QQ19tV2FQbUo4Q0JTdmxxbGF2cE9LWVpsOUZiS3lGalAxZTY4?oc=5"
         }
       ]
     },
@@ -1532,6 +1544,12 @@ export const mandateTree = {
           "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOWDJvdlJDM1BlLThjSjdsU0hQd0o3cTBhMlBVZWM0TjNZRHl2RS1TVVJ6bE5kQi1FVGlocXh6S2Y5RnluVlA2SkpDTFU4eV9tVHFoWWxKNG5hQlBIdEpxY3FxOGNQaUhWSkNaZDloMHQ4Tkl1TTNITzkyM2dPaUhYUzlWamJrZFNJU0loWW85SEZwNm93VnNmNl9QaWtNdlNYb1MyLWJWTG1FNGs?oc=5"
         },
         {
+          "data": "2026-08-28T07:00:00.000Z",
+          "titulo": "Lula diz que vai tirar Correios da crise e que não irá vender estatal",
+          "fonte": "InfoMoney",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOeUROQWxXaEhNS2FxbGsyc1F2NVJ1T0l3d1pEUWNnbVF1bVQwMnBEZ00zTFlCTW11azN3RFZ1NzVocFh5R0FmVmlVN01RMjJoRXBvUlNxeXdRUkViZTdDMW9MZlZDWU9oZFpOZnU4RmhxN1B6c2VHaFFxcUUzN3pvOS1XTHJobk44TGE5anVCWFlTbGJMUWxIZzhpZ0o3M1hHUkw1UkUxRmhHM1lQ0gGyAUFVX3lxTE5YRk1hSEg2ZXBzaEc4YjkyMURuRE51cDFZWUotVDN1TmZYaGJNRkFDN0szaEdNMXlHNTlsZ3J5N0MzTzJDRlFDcXA2UXlCX0tzeVYxSUZLbTNzSmhqQmxvaGhMbW1rMXRxUFFqaVZtNmxKR0VJclRPUVpTNHZ5T3I2cVhpT1NSWk1FSnFhSEREM1ppbm9vM2NaTmlVeEFxZFVwd3Ntd3VEMVExOUZ4aGFEMXc?oc=5"
+        },
+        {
           "data": "2026-08-27T07:00:00.000Z",
           "titulo": "Lula rejeita vender Correios, mas admite possível 'parceria'",
           "fonte": "SBT News",
@@ -1542,12 +1560,6 @@ export const mandateTree = {
           "titulo": "'Não considero vender os Correios', diz Lula sobre crise nas estatais",
           "fonte": "Rádio Itatiaia",
           "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNLVVfenJBRExpRmNhZXpHcjYzTk15X09uZjEyZTVXa016TkhEOHJRdHJhR292TFA1eWpPNF8yS2ZlNGxqczk0QlhoN1NBTWkyLVpnYXdIM3NGTGpsWEFtRzR3Rk11X3M2Um1ZOTNSd1dncWF3VzVUS0NCQTBHa3VEYTYwRjhJSElqMlZ2b2VfdW5JdkNyelh3QnM5QkRZblFOT3A3Q181b0VwVGZCbVFNUURRTQ?oc=5"
-        },
-        {
-          "data": "2026-08-27T07:00:00.000Z",
-          "titulo": "Lula minimiza crescimento da dívida pública e rejeita privatização dos Correios",
-          "fonte": "O TEMPO",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPbnlqUEhXVGJTWmctS2RCT1hmM1MyYU9ub2NKdkY1U2taZERnR21jZElKd1FzVkU3YUdNUU0zX1R0Vnc1eVd4eHYtZ0tnTVlzbDFwUzczWXNvVlVydlJKbWlxamNCd05wSzZGVHRTUDlGdGMycm5aVmRPbEUzWC1xWWdWX0hfV2tDUE1MWDhta1lXWWhpWFBZNUQ1OHpYVFg5WXRTVGVyM3VMb2l2Ri1rdnRPSERnVlZUVFAwSVpFdkk3emF3aU5tSXk3OE1meDkzdjZXLXo5Nzk?oc=5"
         }
       ]
     },
@@ -1571,16 +1583,22 @@ export const mandateTree = {
           "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPYm5wWVFTT19kNUZEMlU0alMwMlVEZ3JSemlQajRYMUpPdE5NSXBWdE82aVhhamFjSmRhRzJLdkt2SmFWODZ2TkVJdWdyNWRfWGhNM29odlZocUJYNEkzN1pUc1psVl9tUmpxZjFLWi10d2ZPMGhLRXg4VGF4Y0d6Tl9GSkpMcnJhamRYWFFNT1dLZE5pbUplQkk0Sk1YdktsZnB6el8yaWRpcFNFUVFfOEhhZlE2OEE?oc=5"
         },
         {
-          "data": "2026-05-14T07:00:00.000Z",
-          "titulo": "“Você acha que me conformei, algum dia, com a venda da BR Distribuidora?”, questiona Lula em evento da Petrobras",
-          "fonte": "Brasil 247",
-          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOM1V1OGotTjhMR201NkQ0LU94b3BoaWNlQmt0UmZyaEtyTzB4bEpjSE13dTZmUjhpTnBKTVRGZ21iQUJXLVVPVHBsXzZkbEpiVGFSOFdnUDV4U2doNWoyb2hJX0hBRHAxTXZXVjZNZXNMWGdURHA4WjA0UDBhU1RpdzFtdkNjaXkyYlo2UHdmbHFXM3FSSXREX0tHcUVaRE96cXdBbUZsbzNEbFM4T2VYRlNZUW1CVkU1VkdNWEtJaWVYdk9yV0p4aTYxVHJQM1RybWxzSkRNSQ?oc=5"
+          "data": "2026-06-25T07:00:00.000Z",
+          "titulo": "Lula diz que há 'vagabundos' tentando vender a Petrobras",
+          "fonte": "Correio Braziliense",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQNWhncWJudFhUOG51a1h5RFhMUXdWSHk1aXdiN09PYzhUd3FNT0hDTWlVd2RtNXVsdFExU1BUbTZkbXVpYVAyZUUzWVU1c2l4bzFUSmxEUDUwN2FOWVpDd3BNeV82QTVBUHRGOTZEU21sb3J3VEU2RVp6Z1dBUTlRUkdQY1VlT3ZJN2d4bmtTM3d3eXY0VUswMzhTcWF4WjhPb3h2UTJvem5WYlVfWEE1TS1HWTlqMUxGWndnSFJkcHIyQdIBxwFBVV95cUxPR1VwMXFnV3psWTB5czBjMlRLNTdJY2VwZlB6ZDlSWTVhTFkxRFB3NnhDZWg4OVFfVV9INldrbk42LWh2SnpteUJhVk50Mk5uWU02eXhEZ1YtbVd2SnY4bjEwenpqTEJKeC1rLS1JRDB0Z1N1VVJYVzlhZ3o3SG9uQ1I3bENmSVJ5MFJDVzd4Y3BydG1LdE9JYXNHXzRLR3FBTTZ0Z044MTZRUmZOcXV0TENoTElPT2RtQm0wQXBQOFJLbWlDU3JR?oc=5"
         },
         {
           "data": "2026-08-18T07:00:00.000Z",
           "titulo": "Rogério Marinho diz que Flávio Bolsonaro não pretende privatizar Petrobras",
           "fonte": "BPMoney",
           "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNRWVjLVZaUlVaa3hhdUI4ZGNvRnU4a00xSDNWenoxX1pJMEc2TGViNGZZNXIwZDlGTHl4WE1SRlhiRHU2QWUyTVJCSTd2OUN0R2plWEZKekZ2RVJqYmlaNHVJay14QWtHQTBUbmNWY3l3Nk5ZdUtGYjBlZVYydTV4LUU1MkF1eDFycEdodDdJS1BLeHVsV0owTzQ0UDM0QWFwRGJwRWdjZGVOVms?oc=5"
+        },
+        {
+          "data": "2026-05-14T07:00:00.000Z",
+          "titulo": "“Você acha que me conformei, algum dia, com a venda da BR Distribuidora?”, questiona Lula em evento da Petrobras",
+          "fonte": "Brasil 247",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOM1V1OGotTjhMR201NkQ0LU94b3BoaWNlQmt0UmZyaEtyTzB4bEpjSE13dTZmUjhpTnBKTVRGZ21iQUJXLVVPVHBsXzZkbEpiVGFSOFdnUDV4U2doNWoyb2hJX0hBRHAxTXZXVjZNZXNMWGdURHA4WjA0UDBhU1RpdzFtdkNjaXkyYlo2UHdmbHFXM3FSSXREX0tHcUVaRE96cXdBbUZsbzNEbFM4T2VYRlNZUW1CVkU1VkdNWEtJaWVYdk9yV0p4aTYxVHJQM1RybWxzSkRNSQ?oc=5"
         },
         {
           "data": "2026-05-19T07:00:00.000Z",
@@ -1626,112 +1644,142 @@ export const mandateTree = {
   ],
   "noticiasGerais": [
     {
-      "data": "2026-10-16T03:00:00.000Z",
-      "titulo": "A primeira pesquisa para presidente feita totalmente após o fim da escala 6x1, pauta de Lula",
+      "data": "2026-10-17T02:01:00.000Z",
+      "titulo": "Lula faz campanha em MG e celebra fim da jornada 6x1",
+      "fonte": "Agência Brasil",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOamJKMC1CZjVWb2E5VnpFOVZuWUNLdGZaVFh6LTFhdXIwTXl2Vkk1eW5aZ1lUSl9rSkxSWVJidFViTzVxNklsZXdidnNGcTRiS2NvcWxXcWZPQzBPcUtETGthcUhwMGNpYUw0UFFYVERqbUxuZ3M1bGx6QUFJRjFfdW8yb1FSZUhia3RKd2ZkUmdEWmplYVJfaVRWcy1ZbldYTTlIQjFpanlSZWI4bWZn?oc=5"
+    },
+    {
+      "data": "2026-10-17T01:44:02.000Z",
+      "titulo": "'Globo tá com raiva de mim', diz Lula após almoço de Flávio na emissora",
+      "fonte": "UOL Notícias",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPR3VBM3hmOWx1U3lpM29aZXdBTWNXOGI5c0VWYTNpdW5WbVAyZXBRb3BiQkZvaDczMVJ5Rk85MUhEU1QwOGpCU1E5cXprZnRYWlF3VUl1N1dLeE42YUlKWGkxeGVmTU9iXzhYZnNKOXlZRElqM25vWmtsSC0wQUxUejJiRndKNWxiT1dkZUxGSlppV1lZZ0dqYXpMUWc1bERmTnlJQUFCSjdldWJRQjNTdFIybm1HZmYxMVBwekJn?oc=5"
+    },
+    {
+      "data": "2026-10-16T23:51:00.000Z",
+      "titulo": "Lula precisa virar votação para vencer 2º turno — em 2022, não virou em nenhuma cidade",
+      "fonte": "Gazeta do Povo",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPdVltdXVZZEdsVnItQ3pSYkpyRzNfVDA3SV9fcXNoV0dvSkNDVHl1Smt2UDFWUW1MSy1kbWJkTTA4ZHZFaE9MWURjbW94Z1ZORjZQV3l2SGxMZ0NaRDhTazRXVndBeEZGc0ZUbXNtdGp5T0VwQ2QyVWpELVpTT3ZiX0JRQ1c1Q25BVlUwS1NieXBlVmNiR29JUDB3elNWSWx4em5Wc1dXSQ?oc=5"
+    },
+    {
+      "data": "2026-10-16T23:31:00.000Z",
+      "titulo": "Pesquisas indicam uma ‘onda de virada’ da campanha de Lula, afirma cientista política",
+      "fonte": "Brasil de Fato",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOcTZlT1pNdDdxYzdqeE8zd3NzQmdoZHd4dnI0NDF1dkpfdHJVVENIRWJwQ3VnZnljNkVjWkpHWkNGVTctVEJXQjFvNkdPdVpjbmtkemZ5dEZGVGd0UkdRdWZzOG1Kdk5zQkZyekRNMWxsVWFxMUlqd2RjQlJtMDE3YWg3ekV5M0FOenVQTXo3dUpiRXJFOGdONU5BY2RSNDNuYXJTSmdzQkhNV052SjRETjhheUllQlV3WEpPOUlmVkVFYU1m?oc=5"
+    },
+    {
+      "data": "2026-10-16T22:41:23.000Z",
+      "titulo": "Em Minas, Lula busca aumentar rejeição a Flávio Bolsonaro e cita risco aos programas sociais",
+      "fonte": "Valor Econômico",
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQcVFFUnFTelZNUFZBdzJ0NlJxOVhmR2ZpVGwzcjJDS1FHN1F5ZmR3YUVkRHc2b3A3S1Z5c3VRbHBpTmNJbXhQTFNhMVB1cEFucmdFSmdMUmJ0Y2lVbURfb05Oa0NXMWFoZUFSYTNsckZTTVMyRWxtZ0RlRTBSZUxudW15N2VwSWFOa0pCd1hONW5QQnVxel9QbEt0VWV5RWoyQWRxcW9sdlp6QXpTRXNFa3ZXMFBuQ1pGWDdNeFJ2SzNkTkpCZzJDc0tCaFdZd1lyR1g2RW1IS1hOQkxoSWdXT29oT1VWTzRxblB2ZTRoQWkybU1fb1HSAYQCQVVfeXFMTkVLcEhYLVRMS010V0lIeURCZWtiTVVFdlNCWDNKUUZPSnhOLXdtSGpEWGNfVHJQRVYzcFMyeFp2TUlrZXV3dFBZYk5GeTZrUGFpeFBFd2ZiQ2NlSUdNUnltVVAzMDl4UGFJYkRzZEdDTHhRLW9VVlNKMjhBVG1LVGl6OXU5UmFQUDNRV0JEV2NOUmlWMHZ6YTM3U3d5Z3YwXzZCSmNfRnU3VHpBRmtGZ1lCbm1OZnA4Nl9jVVZZSVZXcmljRHcxbGJQeVBfZEVBZEhENXJEWTh6VFY5aWVJQTlwUndCekFzTWZPLU9WNW5Bbzc4emZhQmhtV0FHVmxJVThGb1Y?oc=5"
+    },
+    {
+      "data": "2026-10-16T22:01:00.000Z",
+      "titulo": "Paraná vai às ruas pela reeleição de Lula, neste fim de semana",
+      "fonte": "Brasil de Fato",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNbnNONFhXMTIzUW41VWQxS2g2ejg0M2Z6QVZad1JZWVBTYVhreGtwMUN6djV4Uk1WT29SMGJqaUhZOXFwaDN0ck1wWFl1THpqYUh3ckphNFlRZldaNFBOWkZTbm9xZGJaU0t5cHBIajdZTFhfX1IzZGRrYkdwMGV3dnlCSTJGMFg5N2ZZLThZNEFqR0lIcU02WjVTdVRKSXk3MUJRdGFDLWY?oc=5"
+    },
+    {
+      "data": "2026-10-16T21:00:00.000Z",
+      "titulo": "Nova pesquisa mostra disputa entre Flávio e Lula a nove dias do segundo turno",
+      "fonte": "VEJA",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTXF4YXByYnRGdmp3VjNPQzlVTVpGYWRabmVRaW9Qd0FFb2F2dGpWaldEUlZZUXV3MkFzQmZ6SFNteDhjbEZpemtXX2xCU3hhZllZRmgtdkYteTNDcll1d0JzQk0tYmczQlAtSmVNcXp6QWVCODF0LXdXWHV0Slo4bVlubDF0NGZBZ1VNM29MMHYxQ3A1MnllOTBrckQ3WmRpWVpIZm5GS3NSVnI4TDhYTnVoNA?oc=5"
+    },
+    {
+      "data": "2026-10-16T21:00:00.000Z",
+      "titulo": "Pesquisa Gerp: Flávio Bolsonaro tem 50% da intenções de voto; Lula marca 45%",
+      "fonte": "Jovem Pan",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcmdmQTQwdFdWYUI5b0dUN0docGRVSXg2UDRiVjctdVFNT3NCQ3BHQ2ZlV3FoUzlPbkFOREFuWnFPRTQ5OExPT2FYVGIyMUZxNTRrcDd1bVlQdk9MdkM5SDlrMjNTNmlDNGp2QmVRV2ZRNC1vclJSMC1kRFNBTXRfQy1WVDVLSDFFel93eHJSWF9QbENpNzg4UmliUXlSdlBZOEVZejJDNUZYVnFFVzVNRg?oc=5"
+    },
+    {
+      "data": "2026-10-16T19:29:09.000Z",
+      "titulo": "A previsão de um líder do centrão ao STF sobre chance de virada de Lula sobre Flávio",
       "fonte": "O GLOBO",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNTkFnd3JGQUJ1SVVYNEozaHNkeTlhV2t0b3pZVFRaNXFXQ2pSc3FKSjF6OVFKY19kVU9LdVBUZXNMbEEwc2IzVHgxWm5keElzOGZwc2t4Ti02VjdVVmFoNmpBT0ZlbmRET1FyX2RPcVlJZmRHNU9iTlljbGtMTk9WT3Z1dlZ2S1F6RjFWR3VtcGFla1NXMnJXbFFzTGVwSHRrQ0RENkVKVGVTd2NqOXFXanRyWjR2SmVIUnlRN2wwRUliWDNoaTlDNEhPcEFHcXNGSU5jMnVnS0tjXzR5VE9yZNIB7wFBVV95cUxPYWpxM3FtTm9sOEt4eUN4WXRSMDFoVDJaT3l6enh4ekFLT0RjZ2ZNb1RYS3VSNGRvSlIwYUFkZG5hZjFzYXIxV0JmZ1o3TEtyNmJwOW5hWjAxV05XS0ROa3owRjZEMk5tYlFYaVlsUmRUU2dvZFVPUHRob2RTblk0TUR3RVlXd29aVXR2S0lmdlBSN29SNXB2ZWFkOGJ4WHhxanllWnMzaGh4bmxmMEdJVjg3Y0dRZUJyMnBuczFPWVBuT2Jtc01fTWcwVUstV1VJUDJ3a3BJNXlPM3U3QkNPdFZNNUlTOWVJbjA3QUJ0SQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPSW92UHNjVjRLRkJzZnZmODhTX1pwaGZlb0ZFV1gwR3NpNHZpZGc4ZzQ5dUtZQUV5VlEwWTk2WmxuUG9mY1dDS1ZmZW5MTU9tTTJuVmhHSEJpY3UtbDdiZGpCS2loSmN0enU1ZzcwdWtndGhMSWxMeExFOHk3U2dGYWcwdXQ2UGh2Q0FZNU1aUWhQRHFxWjRlOThSam5sU2VFWUpfQjJka3NXU3o4QmxqSWlKN1dCeWxwSFZZVXY2RnpMRW1KUlJIUXhJNkQzdWlWM2tWWlRJTjZLMXBvSElR0gHuAUFVX3lxTE1oaHV2REQ5ZDlhdFZwdF94V0RKNE5BdHZuUzdUaUgtMWdOcFJlOHBKeHU4XzNqVTFwZWM0N295Y1M3ekZ1RXBkcDY4dTFJNDdTcUE4WkJNQkxKTTY2NTFNdENPTWdKQXhmamN3SERXQkZOSzZfcDFCNU1IaTRPNHc2TExMeHR1cG5MdTh1Z0ZSLVdPMGVMN2sxWDlmLWt6RGpNcDljaHNhTlVvM3NRRXFIaFZKaE9zV0REcTlZcEY4RzhnMUxZYi0yZHRWUy1BOVNYWWtsR3FjVHRxLUM0elhGb0tMMk9JUnh6S01xNXc?oc=5"
     },
     {
-      "data": "2026-10-16T03:00:00.000Z",
-      "titulo": "Datafolha e Quaest mostram empate técnico entre Flávio Bolsonaro e Lula no 2º turno",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPMVpOcGdEOWFpMUlnYTM0QVRxR3lmYVdvdUdya284ZzRYc3piY0tadWYtTnhKdU83NHB1V0RmWFNmaG80amdxUVJOdEYzRzY2NUwxZ29EX1N6RUUyUUd3Ql9scU9nN1BLa2NKdGZ6NjNGaFgtaDNvTDVFX0dTcS1ReWZjM2ZKSUplaWlaSjdJSk5FSlNwN1g5U0ZqYUTSAasBQVVfeXFMTWZRa3UyYXZyYWhOeE90M2phbk5CRHRYTmIyM0ZNQ1VVcVJybmNfRTZSUUVObDFWaE52RHNoNlEteHQxWkczOVVCVlVBSzlGZERvTmhOMzBodEtpWTFnbWdMUzhhbnc2bURvQ3V6Vl95VVRaMDZBbThCdTlNR2xMREpzR29wYkpXd1FEMEtXLWQ5dXliUURFcF9zWF91THpnUGs1aG1GNE9nT2xB?oc=5"
+      "data": "2026-10-16T18:50:21.000Z",
+      "titulo": "Em MG, Lula acena a Cleitinho: \"Não precisa me apoiar, só ficar quietinho\"",
+      "fonte": "CNN Brasil",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOX0VUZ2xXRFdLZjFIdk1CYTA2SVJHaFE2T0tqM0VvZGtTdWdKcHhaTG90VnlVYWpMYVZxZ05tZm9FN3ZIeTF5TFdvZ0NHMTlkamRQOFdLdHc1cVNQRHhZUUhIcVZCLTN5eHQyeFBIMHhtckRpNG94MFBkSmRLNUhQbGVOOTQ0YXVtOF9PZVM5V2FKQW1NTWZEY0JjWWNjMnpxc3ZocVZRcXByUTlq?oc=5"
     },
     {
-      "data": "2026-10-16T02:29:25.000Z",
-      "titulo": "Checamos a entrevista de Lula à TV Globo",
-      "fonte": "Aos Fatos",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE00NlZMZXVFOFZQTFdfaWI0MFo0TlZ3dXo1XzNvTlhERXk0dUx2Wkh1SjhCUS1TMy1abmVhM0QxX1ZRYkI2akozbVNKYWVFdlNGYjgwWDZORkoxanFCeVpCeHU0aUxVdm90MUVRTG95VDk4MVQzUmlF?oc=5"
+      "data": "2026-10-16T18:48:50.000Z",
+      "titulo": "Fim da escala 6×1 conecta Lula a trabalhadores e muda rumo da campanha eleitoral",
+      "fonte": "JOTA Info",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQNlZEM1gwR0NQOTk2dng2dUI0NEk4WU1Zc1hUZnZxS2lhYzhGcmxGUHhKODhaY2lSMk1SY3hnSF96eFZWQUc3RTlicUFQeFBIclktb3BfcmNTeUdobWViN2ZFTnpoUkVmR2tfdnZ0UlRNc0Zrdks0UEVDV2hOblJRVzBOS1RkRGV0MzkzVjB0ZGI3SEZ0TnFOVDNoWUFVSUQ5OFpBVmpnTUdsd3RxX203V0N5b184ek1MdTNOdE9LQ0tZbXBGazg5bkZ6UkRWQlprQmM2cXhGRDYxZDl5QXh6T2l3Zw?oc=5"
     },
     {
-      "data": "2026-10-16T02:16:28.000Z",
-      "titulo": "Como Lula se saiu na sabatina da TV Globo? Colunistas do Valor analisam",
-      "fonte": "Valor Econômico",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNYzkzNGJydG9HMUtFM0tReUZMeUJnVXFYMlJJbGxvXzV0VVpqVG52TTFsX3BUdHplVmItVnFHWS1zSDJ3bDY5UkNvNW05SU45bFVvb1ZXU25DWF9BU1lvd3h5SkpWMWRXcGo0cFNfaGNMZVdITHVia2tSUFdmQm8tRXJDYTdSRTJqcVdlOHQxMzQtQ2ZXZWJtVlVyaWlkdEdXSnY0TmhTY0hRQWZLXzZCaTVDb1lBaFdPWk94M001d09kRDZkaUI40gHWAUFVX3lxTE1YbnB6X2NOZHVudnptQ0w4TThvSFJJMzEwX2prTldiZ1hCaHFOcjhHdmhrNV9QNmIzamt6cWJyb2pjOHpxS3lxcnJTU2tfMGlNWGttaDJhS1Vsd1MyRHZGemRHallFOTlsd0owU2locF9lRTR4Y0NzU1BaUWJjSU5CeVB1ZEgwWWNmWXVGVVI1NHJyQVU1SzJKRFhwT3lidGZOZkpaT0lmX1RZaHZxcjdlR1M4amFEVmNCOVJscWpJQXBYMHVpOTBudDVOZXhyeEg4Rk1WN1E?oc=5"
+      "data": "2026-10-16T15:59:00.000Z",
+      "titulo": "Descanso de trabalhador não quebra empresas, diz Lula após fim da 6x1",
+      "fonte": "Agência Brasil",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxONnhpOFdFbUVZZW9BZTg4N3puZ1pWcEgyZlh0U3RGak1TWUhhRnlHcF9IWjlvWlpLWmVhRGlPUF9SaGJrczZ4ejZUdUFuMjZvSGRwVFZ0VHExR3dIaGNOZklpVEREaUx0TFhiY3lzMUNzOXlXQlU2SkVScnNSeW9iaVNPVVR5ZlJzWHF6c0U0OGRubjEyUlJ5NGZqMnRVRUt0U2YtYkhCT3pCOW43eGh3Y0c3MHNtazBFUUpoaG94QlF3bjJ3?oc=5"
     },
     {
-      "data": "2026-10-16T02:08:25.000Z",
-      "titulo": "Análise: Lula se comporta como presidente e não como candidato e perde chance de virar votos",
-      "fonte": "Valor Econômico",
-      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQbnpUeEpiVFhpbC1fYk50dW1lRGlud29Ldi1sWHVxc04zcFFPZFBnSzBBcWlyRE9SN25sei1vaVhfSmZMOVRJSXZ5dk10TGJjMzl4TWFEU1F2ampNU2hGeFFzdEtvZkFnalBCUWhqTUNsM0t5TWN2bFNEOUdVTkFfLUNYRFVZVmpCbGw2NWVJeERYRDZFSllfSjdmRXdsV2xaOE1TYVk1UnNscGQtWjdTMGhNU0FmcVJVNzRQWC1kenJpUjNqaXEyVWo0RDdRdmpaWHZ6V1VMUzNkeXdLQ2c0cERYTFBWSEo0bVNER1JWY0duWnBud2fSAYQCQVVfeXFMTktNM0RsaklwdDVvZGFwMGpwQmN0X3FTUHpBRTNaVFJlMFphUTVZanJhT0tQVGRMaV9uQmIwa09keXczYWZRNWhZYWlpRUpEUlhWdzl3NFpURnBDSmJmelB3STdQeTltUU5hN1hSNEo1NnRnWXotUl9fNlNNRnFNNmZSci1xeVZVY1JvVFVSN2RyQkFUbXJDSDJfd2trMUdCUzE2UmhvX0FVQlFLQWRBTkRtaW5aS0ttUG80VHRoN1NLSU0xU1NRWFVvaHRDaTlvbC1hY1EtOTE1LUtJQVI5YjFjNVdCY19NVE14Z2g1ZUZONmwxTUVqdkZUa0VoU2FGLXdZVm8?oc=5"
+      "data": "2026-10-16T15:07:19.000Z",
+      "titulo": "Pesquisa CNT/MDA aponta Flávio com 46,8% e Lula com 45,9% de votos",
+      "fonte": "Congresso em Foco",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPbFJhV3R6U0tLX1NLLUphUDlpbk9ValV3NnR2VFR4ZGpFZU9jczNPWkc4eVhfV0VWalFwYkNMekZCZzhwMGwyd2txNzJaQnk1STFhdFdFR1lEaXNfLXBqbzdnS0tRUkpqeXd1ODJpb3V5bmpUeGxxSTBYbzlJMkJYZnFyb2JDMlRMUGpnNjdiMDJNbklqMHhMUHY0Y2JKdmNpS0RZZzIwSG5PbVk5cWF2dnZpd1U?oc=5"
     },
     {
-      "data": "2026-10-16T01:42:56.000Z",
-      "titulo": "Lula afirma que vai manter política fiscal se for reeleito",
-      "fonte": "Valor Econômico",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPM3lfaGtnS0pCNW81bkw3WjRLLU9qVm44Ql81VjgyTXctSXgwVlNhTGlWS3BpWmxHX3pZMWV2bGlQelhPTDh4bUdQS2xFSUl2eXR0QmF4NGdGWkpKd0NxenVrblBfZEJvUVd1b1V6MG9TaHdwSGZRUlhLMzBtcVRuN3pUZ20waEhnREJZTlA0YXozeUZKYlZLdTJFbVVUZGQ1cUJjTkVJVzRzek9VNmNmaWZVY0ozdXYyakhLYUQ5TXZ3bmowb0tPUjJB0gHYAUFVX3lxTE91c0syQVJsTXFLalliSXg2VGN6ZkhBN1RIREp6RzlfbUs3TjZaMlY2STdCZkczampUZzd4ai1rc0hWeDgtRWtyeUV4QnktcEFaX0xwd2FmX0pZamtHV0NLSVBnVG9Ydkk1Vnl5bDF4LW5abHRGRl9ibGFEQTQ4LWdhRUt2azdyTjJHN1ZOYlQ2d2FxTXU2RnExQVN2a1FnM2RBMUVjWmZCWTJyU2ZvaEpOZkRrSjFYWWpmQnhlVnRVNXlMajMwQS1weGJNSENtNzhqSmVsc2tHUg?oc=5"
+      "data": "2026-10-16T15:05:00.000Z",
+      "titulo": "Flávio Bolsonaro (PL) tem 47% e tem empate técnico com Lula (PT), que aparece com 45% - 16/10/2026 - Eleições",
+      "fonte": "UOL",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOSWU2RTVFeVRsU1hkZlpDUG5ueG4tS2VHR01yeVgwbUxJTzI0M2l1c21RRFVwZDBRMm5NVktUMERkc0o5ZEtlODlNeE1GeHIzSlRUQVlBSktxZUdrdXpyRXI5UFZVT0pGN201b1pTRlM0dlh1MjBvMlJnXzFVd1M4RUMwTWdxcjVwRWg0aEtqZTAzd0pxZ2x5d0kyTXNqRjdxZnZQdnFrSE9nVUl3amg1NlBrX011d2NVZ2tXYmE5RDJIbl82RHh5ZFJsdkdnclUxd0E?oc=5"
     },
     {
-      "data": "2026-10-16T01:10:00.000Z",
-      "titulo": "Redução da maioridade penal e crise no Judiciário: como foi sabatina de Lula",
+      "data": "2026-10-16T14:45:00.000Z",
+      "titulo": "CNT/MDA: Flávio Bolsonaro tem 46,8% e Lula tem 45,9%, em empate técnico no 2º turno",
       "fonte": "Estadão",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQRDZuOUVERHhjTVg4cWhyTkdYVmxZaWMyeEdQb184c29PQXBaYUJQbC1fdnVOQmg0UUhlVGl6enZDTjZZU3JzbGc2UkRILUQtNnp0cGFPTWRESkJQODlqT3Z0bFlOQ1kyLXI5dHNodi1EQnNBTHJaOWtOVk9wVUFFdnJGOTVsV3cwNXNYUFVZNENYalRlOW9ZYzFTWFdYSUdjLTl1bHdZTEhWT1RSRWRkQXBaejJ0TGE0czE0RzRmMA?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNX1hfQTM2WlpBZ0xDbXUyT1FaX2o5NVVrcUU5V3ZyZnBITU9Oc0NWVmxUdmVabkhiUV9ONlltTnNnVmVKbEZWbkJJSHRNbUVKaTFyUlpKM19CZnRtOWRZUWdTUHNGS0JKU05DMl9VYm5CdW1ZMlo5bXFnbTVJcEdtVU01N3FGV0kzRjFaZTRmeEhQZ1ZXdVdRZlN0RFZmQnduMGVHSndVemhncEpQeXFJX1hBdTFFMUhsZDhrdUx30gHDAUFVX3lxTE4zU2tWR0loUkdJc0ptWW03Uy1fNnJqSk1waEk5b3VJZHVlUS13ZWM2U3pzUnQ4RzdJTDlZSllXc1JXN011NUU2Tm5OLV9PUHZTR1RoVkJNRzZVS1RoU0dRWXEzTm1wQzhlb3pCOWxLSU83SFNqYXN6dmo3TDViVkxyR1MxbTRjMVo3X0g2NmI5QzZINkRwdExwdkV3MnBqM0FTNzFDUWdob182dkdZTndVT1BMbGpoeGFPbC0zYjBhMVNuUQ?oc=5"
     },
     {
-      "data": "2026-10-16T00:57:10.000Z",
-      "titulo": "Em entrevista à TV, Lula diz que 'não sabia' que Bolsa Família não tinha sido reajustado em seu governo",
+      "data": "2026-10-16T11:20:00.000Z",
+      "titulo": "Economia: Lula e Flávio divergem sobre ajuste fiscal e papel do Estado",
+      "fonte": "Agência Brasil",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQSGR1M1o2WTAyYW9KcnE4MHo1TXl4MTJlT2xYdk5BYy1DbVBOVEVGOUlGWldUV1AwZ1NMVkxERkNlRmxZeHcyTFpxVGw1NUpHOS1CbFNMal81WVdLMmFNeVItYTNHNDhwUXUxTHBpVWplWDZSN2Y0U1oxWG5DTTY4aDZzem9kNFQ2bjdMajM4d2ZRN3BkNkRJY3MxMVBjT21FNWdOdzhKd24wS1M4NzFMamx4LURPOVE1OG9IZUFKTTZDVTJoZUE?oc=5"
+    },
+    {
+      "data": "2026-10-16T10:31:00.000Z",
+      "titulo": "Lula avança e chega a 50% dos votos válidos, mostra pesquisa PoderData",
+      "fonte": "CartaCapital",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNWGNjaktZTEVHLUxVd2g5ZzU2c09SczR3TlFneFVxSXNjN2dMSGJ2M0V4TGhlcnplbDNEZnJYZFI3SEhhWURZYnZyUUREeVNna1g1d3pBNnkwTml5ZlJRVUFEZnp1SG9CZHR3VUEwWWhwLWNhNkJXMFlEX1MxYUJwTEhfQTVjWHI4aGZ6R3o5WHlWdzVYNGN6R2VWZWI2dXllVGRCUS01emFzTUI1UHVv?oc=5"
+    },
+    {
+      "data": "2026-10-16T10:15:58.000Z",
+      "titulo": "Flávio e Lula empatam em 50% dos votos válidos, diz PoderData/Aya",
+      "fonte": "Poder360",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQaHhtTTNKdmJPTlB6TEw2Y3JJOXN1aXc4SWpHdVlWUnpLRDB0SFpTZmlmNDAtZTJmOFptRGY1UTZLLUtOODhYQ3dWbV9zQXhCRml2R2hMRDAtdGxkMHBheUw5N0Rhd2VkUDZCM29UakRJb3NqSDlMdTRLOFdSNzZaNk9KbDlLSW5XbEk0dVMtblBhQnVWNzB4dlFJcmtVQ000ZFpaWQ?oc=5"
+    },
+    {
+      "data": "2026-10-16T07:00:00.000Z",
+      "titulo": "Lacunas nos planos para o agro: Flávio fala em ‘ativo verde’, e Lula defende enfrentar mudanças climáticas",
+      "fonte": "O GLOBO",
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOU2F3NEprSkZDTDAtZEJ2VVZWTG1oUkpWTVJKRjh1blVoRWdfd0UzNEM3dF9CMFJIRFpEMTRIT1pYajJ1cURFVU52OGJoYlZid2hkV3JyejdCcTRNSXNzUms1MWxuY0hsSy1BUnFTYlRsNHk3aHBDZW02YmJwRUNNajlDY1Z6aXJOXzh0eXJPV3hDSkVJNTNKQzFWWjNNNTllMFM5Z2FlYXBsTzVyVVN6UTNULW9iMnpMNHJVeFJqN0RaRk91QkRvNVA4WF93TE4wWjRkbGlWZ0JtQlJrLUE3ODFQWVdWczA1Z3Y3VXc5YzJZX1Ja0gH0AUFVX3lxTE5TYXc0SmtKRkNMMC1kQnZVVlZMbWhSSlZNUkpGOHVuVWhFZ193RTM0Qzd0X0IwUkhEWkQxNEhPWlhqMnVxREVVTnY4YmhiVmJ3aGRXcnJ6N0JxNE1Jc3NSazUxbG5jSGxLLUFScVNiVGw0eTdocENlbTZiYnBFQ01qOUNjVnppck5fOHR5ck9XeENKRUk1M0pDMVZaM001OWUwUzlnYWVhcGxPNXJVU3pRM1Qtb2Iyekw0clV4Umo3RFpGT3VCRG81UDhYX3dMTjBaNGRsaVZnQm1CUmstQTc4MVBZV1ZzMDVndjdVdzljMllfUlo?oc=5"
+    },
+    {
+      "data": "2026-10-16T03:23:54.000Z",
+      "titulo": "Veja o que é #FATO ou #FAKE na entrevista de Lula à Globo no 2º turno das eleições 2026",
       "fonte": "Valor Econômico",
-      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPMkRjNkpDb3NRUW1CdmRZaktPcVEydmQzX01ZUGtmUkNOZk1hQUE2RFRZZGNaSjFQRXZ4bnE5Z3Y4d0NXaVVzRE9PSzQyRmtmdlFIR1M3bl9yOWVValB6Zk51MnNRVkxnRUtQS1RyclVMU3phbzJoV0dxc2ZKWkMtcGxnZy1JVUJlU2RZX1hjcUdvdm5EQzBGVlNGM1FtOEpWZTVOU0hzZHlERFg3cHJRSDN4YVpDRlpjMXJ1endlWFliY20xUXpLeFRtbUNVNEFRWjliaVdvVDhUSmlDUGJ3LUtnRkg2Rzd0eUdxSEVCUGNwd1pRR1B6YTNVZnVlSVpMWmfSAZACQVVfeXFMUG1wWDF4OExqMFNPd1ItQmtYeC02NHVEckFjQkxZT09ZRmVtTnluUlFCMXNpMXdpUlZvcjU0c0FQbGd5dEVrOVNRemtWS2UtT05HZlN4aENQVXdyWURwalo4Sy1KaU5SSndhVE95RFZUMzF3X05xWllvZnE2Q3l3eXdOYlZFUDFQcjJQUV9PUTRZeVFUMHc5ZmthTXc0NlBFaDZtOHF6N2NOX09jVzJoQkxGN1NnOV9KdHg2Q3hqbk9PdkdTbDAzMHRsMXpqMTZjWm9wQlRLeG55V0pEMkRtUWhkTTFZbk4wZ0Z1dVhaMVRNcVVjWlRUdFNIWHkxekVwNko2ZTRTVDN2N3VtcUp3T3E?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOTXl4NjVqVl9iOVBTc0hQSmNTWnVDTE10WDNtWW1VSXZsQk5zUmpfeW1ZM0tFZU1ZNDB4MnhlU3dGYXdLT2tfeFg3d3FtLWRvcGIxWElKcXRIZlFpeERYaURUR1pWN1ZWeHhqQUFoT056Wi1Qa19zQnJKUXNQYTdIbUNHcHc1ZnZIZU1hNW5OV3VrNEgyQkZURGZTM0JNQlJaQ1BUZlc3X2lSUEtpcndidDI3blhYejk5eUtXWFZ2bl9zMXlUUnltajdRLURyZFhfelNIM3R5UTdUbS1CNjlhUmpCV3hxUkdVOHR1aWdB0gH8AUFVX3lxTE1QYXpCb0pLLVJtb3JyOFNvOUdjZmZCYXUzS1F5Z0ZOdVg4Z09SNGxtMkdqamZqOGYtdlBTTDFrUXFLeU05WVpVV3A3bG1fVldtOFp4ZHdSM1VBZ1lHNUE3VHd5TWlTTnhxS3pCQ0txR3FXRVpETURpU3VkYk03MGxDY2Z4Ulk5LVJER2l5N1FMekRmR1Q3NnNLdmJYT1VBMnZSNmdjaThUNWxMRjNyMXBkdGVIZ2E2UEJOWmt0aHZqLWFTU2kxSDVTdy1EVnl4NXdoWmFSS2lBUVp4RnRHNGVqd3gzNERPXzdnYzZQSnhmRVhrS2l3WVBGb3I0MA?oc=5"
     },
     {
-      "data": "2026-10-16T00:18:21.000Z",
-      "titulo": "Lula defende redução da maioridade penal para crimes hediondos, pede investigação de ministros do STF e diz ser responsável por dificuldades do governo",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZEdvOW9URTVHcklnVldjR3ZvaGpTbEVsTTZVc3RJSmpXLURCNGRMeWdQSVlvVFBIbWp3ZGxKQWFqMllCYW1YNHJRMU1QQVl6NFNLel9EYW9Cc1MtRHJ6WXByNWJuWTcyTHhqU2JLeDNLeHlONkEtRzMtYmVoU1d5aTYyaDZvdkxzMFYtQTEwbGt4NXNhMEZfWGljX3jSAasBQVVfeXFMTl9wbzlicUQ4UTE5S0lQaFJWYmdvSlZCVVBjYkZYYUlMVUtIQnZNMTRzczEtNEN0RjNVaFMtY1hMNHRSZGFyWXFLWVc5cFNuUEJYc0YwVXRkOXB5LVFCVDRrUjVXbnNtVHpoeWFsNFBOUVZLb0t1V0VsTEZ1ajhselBzZjFaOUdCTWhONUtWQk5RZmZzcDZFbHdGd3BvcE1wVzdqTlFjczRaQmRj?oc=5"
+      "data": "2026-10-16T02:44:00.000Z",
+      "titulo": "Lula defende redução da maioridade penal para crimes hediondos",
+      "fonte": "Agência Brasil",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPdG4yRnNDVnB4d0tKazQ3c1V2UDFSZnR3WmtiSUwwTkhRdTlsWjJpcXpDVEdEbWpaMnZrTmFPRTIwS2hrU0tYYVVFZXpKSWtSUnZjRl9fajMtS1k3eHA1ZUV4ZkZzMEpkMlA1cWZDdTAwYlpuaUxTX2lZQnVSWm5OM2RwZWxmWEt0S0xNNHdMbGpHN1ZpaTFQcGpUVklURXc0eDAwT0hFdjFtdkY0WlVJUTBrYmFzVG5CMmVsRQ?oc=5"
     },
     {
-      "data": "2026-10-15T21:34:01.000Z",
-      "titulo": "Datafolha: Flávio Bolsonaro tem 47% e Lula, 45%, e estão em empate técnico",
-      "fonte": "Valor Econômico",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNTkJqb0tvYTNLbVR5cWpDUDJWcm5GU0FyaWhCRUluLUVtWnJPZHV4eVdsV1hZbEVZLVNuS1kyWU1pVDl0XzNQUzNUTV83bGlsbzRZS2txaE12c3dSRFJvd3Atd2hMdFltYUJ0RkFheThlMUMyRlB1akpzNHFhYjZYVGYyTTFRMEdEM1BVUUtHUERzZTd4MmhiYmZKNms5Nk9fQ0R4QXZFSzZocWZmOFVKWUV5TnR6TFE1eG5qOTNSSnByNlFubnZXQ0tXSm9OMFdoZjZ2S3oxbmlUTi02MnZvb0otWXZSUdIB9AFBVV95cUxNY09meVZGWndRRkZNWEZNTV9tT3JnNHFUc2JFOWtUQUpJUHpXNkVyZjM0b0NlOWxpTzRmUmRYcl85bnRsa3BUWWw3RG56Tk9TZDlWYVd2cVpGMnl4YWVfaXhVcGpHNnl5eDZtcXoxb0tpc1ZyYVVrdTM3bGNXQjJGMnFFUDFIckhaaGRtN0o2ZHhRWmhFbVBkZ2FGUGZ4NE8tS0ZGclRiN1ZiVDV2UHRLc2dQZGIxczFXaWJLalBUZVZqbjV4WG5vb3FmdUtQVy1BeEgtZ3JGNFZBd1I4cTJHNDNVSlIxWWRjM19LWGpQUUVxa1Nm?oc=5"
+      "data": "2026-10-16T01:36:08.000Z",
+      "titulo": "Checamos a entrevista de Lula na TV Globo; veja o resultado",
+      "fonte": "Estadão",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPVndiQXVwZVdCcFkwd2ZXVGM5TjdzQ2tuVmtlN1lTUC1EVThWQTlIRTRKTWNsSTBYa1hlYy1DbXplTFV0UUM0anlRUEhldFY2dlpWVjc0VmJjVnVzdHR2MzhVc2J6SmJTUHhOUWw5ekUtZTNkVF9nVUFCMEFIcU9YNHRCVm1hVzJhYzcxRHd4ZXBBNmZBT2paVVNPNNIBoAFBVV95cUxNbDhkcVNjbDRLd000TGlCZXpqSlNpSjJYUDVyNHRBY2hyOVphRV9WTVhBTVdTQXc1b1k2YU9yeTJrUzZwcnEwcnljVk80WkluNTJNZ29JNGlMMkRPSzFfOXVkY3NoOGk5RGJvNF9kZFUxc3VOa0diWWxUTEF0aEtnQi1tVmpjRFh4NGFySndkVUMxS3lfSXZYMHgwNFhpbWRx?oc=5"
     },
     {
-      "data": "2026-10-15T21:30:00.000Z",
-      "titulo": "Datafolha: Flávio Bolsonaro tem 51% e Lula, 49% dos votos válidos, um empate técnico",
-      "fonte": "Folha de S.Paulo",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNZWozaURJallmakJxMFRyNzdqcVVWN3VpXzZFcHJrZEY3VU1lcG50VGJOaUpmQWF2d2UxZDYyN0RscFJ2WXVxb2V3dkdMTGthNVZFRlRZMEZ6UzlqcndHSjNVVkNqcTU5NGRjTzdTel9lYThabk1LdEtEa1JWYXpyUEJtaEIzekJPcEhwdVRKbXhMNXhiSUhPUXYzcVBoTnFWbUFzLXdlcWpaNHZMeGpqSGx3Yzg3MHN5VXUxcFUzLVhJZTZCN0llbQ?oc=5"
-    },
-    {
-      "data": "2026-10-15T21:20:02.000Z",
+      "data": "2026-10-15T13:35:49.000Z",
       "titulo": "Pesquisas para presidente a 10 dias do 2º turno — o que diziam em 2018 e 2022 e o que mostram agora",
       "fonte": "BBC",
       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9zSTc4NEk5cVgyOVljZ1A1bTZYUVZWU1M5SnFKc2ppaTZiVUtwVUE5NGU0SkVSdXh6TGwyQ2tuU0kxTlpTd3BxMThtQlBDZ2hhcFd6dW8zcWhQdndLU1p5Yi1nQdIBaEFVX3lxTFB5TXVjMnZKZ1QweU13ZldRN3B4RTFfZWJBSzlaZnZPWDkxQVloWjZ0dWYxUTdzTmtVYmlTa1pGUTV2enlmS3JJanNTTnV2cFJWRHNtbmdRVXVMYUpmUFhpS05ZaW9pRDRE?oc=5"
-    },
-    {
-      "data": "2026-10-15T21:17:58.000Z",
-      "titulo": "A dez dias da eleição, Lula propõe tarifa zero no transporte público",
-      "fonte": "CNN Brasil",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPOXVlZGtCWGFMNXVFaEVvWlJIRUZyMzlHalZJWEJJSWxocllqcFJqRU1RZV9tQUp6VmJtcHJ1Tk16dWRpV2JxaldNa2s2NEJBMVZJeFBSeHhvS1dkd2FkbnBWUHV2aHBqT0txSkhRRG91RGZWOWVEcW1xTkJfZkNCcmVZMDliMXJIbnNpYW5RTVFsUGFrV1hRaVNOQ1BfV1Y1MzRkTGZLZi1PQQ?oc=5"
-    },
-    {
-      "data": "2026-10-15T19:31:52.000Z",
-      "titulo": "Quem está na frente para presidente no segundo turno em cada região do Brasil? Veja resultado das últimas pesquisas",
-      "fonte": "Valor Econômico",
-      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNQlNmWUM3RldlODVHSWlzYXZmOHVHTUFvYnpXOXBXdGNSLWw0YngtdTQ3dDhYc29Ycy1CTUg4UGNuNjRRYzc2ZzNJUHMxaUczMnJ3ck0zRWhqNS11dThvMFVlVFRzQWU2OVJiYkZ1Y3M0QXZCQVJBSWZNZ0RONTVVMlRrN2RaWWpaa3hXR1B5Q0xjaHNBTGJkaVZpdENIUkNaY2Z2dXFsaC1Ub2pndDFXMnZJSVZoV0g1Y3ZuenZIaGxZUGRuWXU2NnpVS0Y2WkVzUDRfdzRNdm1pMEdGekdEZGtrUDFmdkRUR3N2cUVaX0x2Q1VEQVhfOHVaaTVhQVZtZklIbk9VRdIBlgJBVV95cUxPSlUwcExDS3JLSV90elJOSVBfaUNLUC1MZGFPdnhzTzFRQjFhY2t2WUVUZXR2bnNXcFBMOHk3NkxlVW8ycU5yQmtZSlBiblRwbXB3TGFzXzNIVjFkdXFHbUtKM2tIa2ZTN3FWb0J6SXVCTl81TzM3VXlOaWF5ekxoa2lTZ3pHNFRZeVkyXzJFckUwblpOaVMyTkxCS1B3eEpaSHpuZ1pybk9sYmc2cVhTaFFVYmdQY05iTlhVSUJqRE80NG5fZkEwS0hYeGc1MnRJZEtXcEdhT1VSdkVEcDluOS1SbllrMUZXWnFqbDJkVHFwS2dhaWRaanByb0NGMTFEQkR0cnJSeEF2UmhneUgxQURnYUNrZw?oc=5"
-    },
-    {
-      "data": "2026-10-15T17:19:00.000Z",
-      "titulo": "TSE retira do ar publicações que associam Lula a supostas fraudes no INSS",
-      "fonte": "Tribunal Superior Eleitoral",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOWFRxRm90U1NDeTVKc2JnRTdvSFJGVy04ZW9sWVVmdlIwLUZmUnZRVklTdG5QSjVIdHdaRTFuSkZtbHczWWdkaHdpTXZfNkdIY1BubW5CQ2w1VzhiU1E5eEg0cWpfbkVXTE9aRDFtQWtGN2QzVDF6Skg1d1VneDhqdm5CbVh6bUVBRzNJZE1EREZwMmNDbmk5cVFobF91UlJmUjNNa2pBcnpic0g1ZEw4M1lFWDNoanc0b1pYRTlyZmxMNzdSOXhUQ0h3?oc=5"
-    },
-    {
-      "data": "2026-10-15T16:01:40.000Z",
-      "titulo": "Campanha de Lula se anima com pesquisa e vê avanço de combo que amplia chances de virada do petista",
-      "fonte": "VEJA",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOejlKR0xybDdMNkNzbFlYaXd2TDBaTVh3T1R1Z1pUVVljS1htRVEyOWt2UTFCZW1MX0RBdVhJMk9Xakh0WXlVX3pTd2JId0xNY0F6RWs5U3p1Z2lVeTJfMDloc2hvR05SZWhxSU1MOFUwcUxGaDdodmxUbXU1VWduZWdxZng3cHJUdEpBSUIxMUhoNG8zWk1Eb1ZGYnJpa19Ud3lCQ051YXR4elZDVngyRW1CSkN3bEpOVmgxd3ZVN1lGYTFGVmQtNUU3MVdiM3Zt?oc=5"
-    },
-    {
-      "data": "2026-10-15T15:37:00.000Z",
-      "titulo": "Imprensa estrangeira vê vitória de Lula em aprovação do fim da 6x1",
-      "fonte": "Agência Brasil",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOMXJGbFNLNHV6emlTd0pVTG9GNTNNaUFtYVgxRXhIYVhzOEM1MjM1UlQxNnRLa3NTMjlyS192MlE0dXpCdEk4Y2dmenloSzRxOFRKcERxUTlTdVdySUpJX3JtSFowM1RDeFpEb184Y2RUWGI2UUhWZnZnSVlGNVV4MEx4aXRtTGpINWRwNzgzemRVWHFvWUF1cXowUllkazJEX1FlSWNDNlpJb255ZXUwa0RrRlM0Tnhfdk5kSkM3bGZkeUxScVVxdg?oc=5"
-    },
-    {
-      "data": "2026-10-15T14:47:37.000Z",
-      "titulo": "Que horas é a entrevista de Lula na Globo? Veja horário e onde assistir",
-      "fonte": "Valor Econômico",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOTGlpNU9pMk5ubWItb0tjNFFzWjNNcEYxY3lLWXFlc1BUQmxVUURpTHpnaUNFcmd0YkNzbnRaZ2NRT1VZSWZjN1o4TFhHS1NmTlRpNmtxZ1hiSk5ZaWJCellBTHVoOGVTQTh3d0JIZExFeWFZbUlaaTBKR2tNcEJ2RHVxdkNPNk5XdlRuaWd4b3RmWkphNGRuODk3ZEktUzRWMXY3LXY0d3Qwc0ZFYmFUdTNCcnRxQ0tZak9jYzBIX1hKS0NWcXQyY0JHdGVrYUp1U0VvQjRBSEV5QdIB6AFBVV95cUxPQWdzMWtTTGozVlBjVkRKTDRmWHltWW9yNDI1UjJNTmc1VDFCalktcG9hVGVWNzhWQklvZkZ3b1JYVy0xSWI2TFByejktc2pUd20wU0tQVUNjbnJOUmZwNFhuMzJoUW9WWk5qS2xCdU42TzBBN2xfOEFLaC1tdmtJWE5HV3QyaXVTS29IZDhDemNhUHQyRzZzcERIeVFicGhhcVkyVktlaGRoSXQtRzlNZjhaeWt1S1lmRnRSSm9tVUxQYk5OaGFYYVZheTFlbFN1Mi1ham5LeW9ITUI4WFZ4WUNtanRSMVQ5?oc=5"
     },
     {
       "data": "2026-10-15T11:30:00.000Z",
@@ -1744,24 +1792,6 @@ export const mandateTree = {
       "titulo": "Estudantes ocupam a Esplanada dos Ministérios em Brasília em apoio à reeleição de Lula e defendem políticas de educação",
       "fonte": "Jornal Grande Bahia",
       "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPYXljeFlXMUhuSEVMZ3hCb1YzN1JMblpEcXp0N2s4dENmdVVNUnRvQk5OOFV4TUdHc1U1eWREcWpHYXZ3QnFwbzNwQXFJdHFSbWpnV1pjbHB4SnpFSVlNazFBZVlIVlNEZHd3ZWd0RzlndXdMZGFDOWdOZFA5SkltT1RfTEEyU3FnUVA1SFBva01RZVItUXJNZmRJUmlPZXdveGtQWmpBR1ZVRldyd3pxX0QycmpLdTdXRlJyRmJSM2xlVFhSQk5Lc2hGUFJsYVp1NTY1UzE3eGdJVGNrOWI1T1p0NHpoTkNDWmRpOHNleHlnUEk?oc=5"
-    },
-    {
-      "data": "2026-10-14T21:44:00.000Z",
-      "titulo": "Presidente Lula regulamenta Marco Legal dos Jogos Eletrônicos e anuncia medidas de apoio ao setor",
-      "fonte": "Governo Federal",
-      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPSWxOaUNrcnJ5bm5LLUN3YnprSlBpRkh2VVJvNi1SY2FNbHdVQmVlNmFBNlJON05LUHRjc0tOc3BhUHpKZl9vZHN0cmd4QTFMX2paV0NtakJoUVVBdnp6cENGeFNKeUlYQjhnTHRFZkRhRUtibVJDS3JBRy1SbUZsQWNnbFNHTzdsLV9laHU1T1dOM2hRcGNqZkZHT1Z5Y25vNEx3UTctZFJIdi0xbUJpZ2N6X1d6TGgxa1doekVva2l5dW12LTlxVVhGZnZJclB1NnNUeVZ2YXFwdjY3aHFIQV82WTJHMlA2UUNlZGs0SHBYUnRZVU5Qdw?oc=5"
-    },
-    {
-      "data": "2026-10-14T21:11:00.000Z",
-      "titulo": "Quaest mostra empate técnico entre Flávio Bolsonaro e Lula a 11 dias do 2º turno",
-      "fonte": "CartaCapital",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQVUpMeU9zazZPcEpKUlcwcVFzb2lPc2ktS25kVHBpUzctWGoyQnlMTFlMMFZFdVhOd2lhREFNQUp4N1dDbWtfT2o0RVRDVUFEcllBZ1p5SlFGRnM4Y3FCSDdFMklPVHU2dWU5anQyZ2hSaTc3Q2lpMDNHOV8xSU8yZUE1bHJ3bU5LTWM0VUNqVGtWWTI1V1R1WmpjTm1tRFVCaVFyUnRqcHp2NUVReFVOWGx3YjVYV0RFTjgwZlZOdw?oc=5"
-    },
-    {
-      "data": "2026-10-13T09:00:00.000Z",
-      "titulo": "Flávio x Lula: o que defendem para segurança pública",
-      "fonte": "SBT News",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOLWV6VlhMQ21ndHBWMEdmLVJnSUprY3hfMFBFWDEwMFFHNkhpSE5HVUVKNUxpanA4Y2lFb0V3bDZLeWkxXzdCN3hNd0o0NGZaek5rdUV5cjMwOFNxLV8ybUVxUnFRZXB4aEpSN1FZT3ZkOVBadVlZRU1neDdIZERZOV9hWFY4WEk0Y0ltV0hDcDVuS0hDU05PdEo3Yw?oc=5"
     },
     {
       "data": "2026-10-13T01:17:08.000Z",
@@ -1782,16 +1812,16 @@ export const mandateTree = {
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRUlONU1hNHpXSnQwajZUZVVaQVFxTWRKakFBNFZJR0ZRdEdiMkNaRjJEX1U2X09WNjdkVnV3TjBlRnVGVFVmaU9DQmpEVEVOYmFITTliOF96Z1JiQ0MtM0NXTXZ4SFFqQ09ETE51SkRRU01Vdjc3ak1TTHUzQkxZU3AtZERMajh6THg5RWlaOUkxVXhCeXc2ZUFnQ082YkRUMWFabEszYWVzX0VUMURBRnZxVUF5dw?oc=5"
     },
     {
-      "data": "2026-10-08T19:28:48.000Z",
-      "titulo": "Flávio Bolsonaro não pretende privatizar Petrobras, Caixa e Banco do Brasil, afirma economista",
-      "fonte": "Rádio Independente",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOUERsbTJscml0NFJoQ1FwbXMteHFUNWNfaHB4UFotZjZqcXRkVXppVFBVQzl3TjFteklBMDZlQ1hvUmpBd3R2U3RpOEduYzJUUkl4cWIzZGRpMnItZWhsdWZLVXZmSVBLNVdUVTlxWHl5OTlydkdTeDlYMVFsNFlpQmhkY2hBYzVsM19OM2xuc0FNQ24zbXBQT2h6d2VXakM2aHpyN1BhMUtOT0cyRFRLU3ZfWTBzaDhGdGVmb2JNVU9RTUlWXzhRZGJhaw?oc=5"
-    },
-    {
       "data": "2026-10-08T14:08:12.000Z",
       "titulo": "As propostas de Flávio Bolsonaro e Lula para a economia em sete pontos",
       "fonte": "VEJA",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQd2ZyeWVEejItTVNVbHZaRzdSTGFtLVZHeDFyTGY2V05QMEtPZWVNYjFiR0Y0WXpRRFlReTVCOUNGMXFkMkYtVUs2T3VCc2JvTEcxT3hlVGZkWk1PTzNOVlBGSmVrTmFGZEdGRTJlOFJ5QlEtM0FuNkZXSF9uVFVtRE1hY25jREFNS0RzZ0ViLThCd2FzeUVTbVVENUhTREdiaDlrTUg4d2F5UQ?oc=5"
+    },
+    {
+      "data": "2026-10-08T07:00:00.000Z",
+      "titulo": "Flávio Bolsonaro não pretende privatizar Petrobras, Caixa e Banco do Brasil, afirma economista",
+      "fonte": "Rádio Independente",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOUERsbTJscml0NFJoQ1FwbXMteHFUNWNfaHB4UFotZjZqcXRkVXppVFBVQzl3TjFteklBMDZlQ1hvUmpBd3R2U3RpOEduYzJUUkl4cWIzZGRpMnItZWhsdWZLVXZmSVBLNVdUVTlxWHl5OTlydkdTeDlYMVFsNFlpQmhkY2hBYzVsM19OM2xuc0FNQ24zbXBQT2h6d2VXakM2aHpyN1BhMUtOT0cyRFRLU3ZfWTBzaDhGdGVmb2JNVU9RTUlWXzhRZGJhaw?oc=5"
     },
     {
       "data": "2026-10-07T07:00:00.000Z",
@@ -1800,7 +1830,7 @@ export const mandateTree = {
       "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQc3h6bHhZcm1sWFpfdnNHSERtWlhndzd5Q1VnVW40eWQwYVZDdVR0VVNHTGMtYXpBZG5mNTFEdjhlb2RvVHdQdW9QTy1yQ2dXaS1yNGozUFd3aW9CaC1nOHBWYTlMenRpM1ZBd2tMaldKLWwzVXNTeHYzUEpCTWg3TW9iWUp3RlVnVmVwRFhYclhBQkFIaHVWbmdFYURQWC1XWTFtaXhrVzdUOFcyR1czYkIySEhYRGJPRzBHcFdKcW1kTXN6dkgzeGxIWXlwMzQtN0lnNmlNUHZTMkUz0gHrAUFVX3lxTE5DWWJfb3lVeE9pXzBLZjNsMG85ejQ0Uk5PYlI5a0lmRnBoN3JOQzFwUTZJNWxnZVFLeEtvTi1CNkZMdjRZa2pVVlcxMEdZdTllN0RkTm9wYXhfRGViM3FxaXAtbDBOQjNDRWZJVFhtSFhwWGZHX2E5bkZPQWlMTDByMnI2Tk9lcUpnRThjUkVCS0YtaUJqVU1MSnlWWkhJNGpKdkdsZm5PVTJfX2t2SDFWMmN0S181TXdpWEJRdVpkTU5mTnA0Uk9nQUFLZy1qMmQwbWNnYVJXVG5JaGEzOU50Z3A5ZUlHSzBZT1E?oc=5"
     },
     {
-      "data": "2026-10-06T20:38:50.000Z",
+      "data": "2026-10-06T07:00:00.000Z",
       "titulo": "Campanha de Lula usa 'medo' contra Flávio e dirá que ele não vai aumentar salário mínimo se eleito",
       "fonte": "Exame",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOaVNZYUFBUDdzX3JGTlRhQWpQLTBIdVhFT09MMXFQT2tYQUVXcmFqZk9oRnlzd1RWZUpyUVBCbDU4NmV4MEVfMEhzWEd6OEw1QUdDMEdJNUpOcTFqUDR1NlVfLTJEZGlqUEhVYi1WZ3FhWDZFTXJGVWsyZTJyMTZMb2tVeE9PLXBVeTBkeVBLZUZFSEVZclBSY2U1NUlyU1hVRTk5NnVVaVNybEhLbTNNUlA4WC1qQ2hRTm82aG9rZw?oc=5"
@@ -1825,12 +1855,6 @@ export const mandateTree = {
     },
     {
       "data": "2026-10-05T07:00:00.000Z",
-      "titulo": "Lula no segundo turno: veja o que o petista propõe para um quarto mandato, se for reeleito",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPbHdGOC0wa3dYdlkwYkVsTXFuU05tWENmUkhlMXhCTWhnTE1MdEc0OUlHbjJXZ2VMWHFkOW1GaEVsc1ZSZWQxUFVoX3liN3ZWZEI3c0Zndm9Cc3hQNks3by1YMkJpZUJVR0hZd09XTXVMMHc3MFZ0cVQtYjFtZkhQWGR2Tks4RzY2b3VNbmt0R3kyckVyQW4za3FDTEdyeXhvekdCZWk3RW9VMkVSRnlxaF96dWtGSElnVWozRDcwRHdOSWUyd0VBMjd5OUNZdkxiUFc1d2gwMVNUclBKd1ZIcXU4V3BUcERNdG0teTB30gH8AUFVX3lxTE1Dck9lMFByZnhMV1h1aGU4ckpPZURuMU9fRzQyMlZ1dmFhS3FXMmdNVUFjX0J4QUMyNnRGd3Y3X2NrdFQwZEg4N09tVTdoblJ5TXhHakdkLUZQS2ZjREkxYVIxa2ZDdjZFNDYtd09xd1JXeHZMRHdiWDBnOTdWeUdGS091T1pQWHQyV3lzbnRWOVR0Q20tUXlXT1pfQlc4TkdYeEdLSGpEalBLM2xUY2hud19RaUk1anBoSDFIcXpiSER6eWpRSjlWNnA2cF9DTldxV1gxVWMtQldaY1E1WW5xSUFrNFN2WU9ERnE4ajA2VzNrMHJpRW5RdjJEUw?oc=5"
-    },
-    {
-      "data": "2026-10-05T07:00:00.000Z",
       "titulo": "Flávio Bolsonaro e Lula disputarão 2º turno da eleição presidencial",
       "fonte": "CNN Brasil",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNSGhLNF9iUnlkRkZsbmRwcjI4T2dobTB4TjdpQ3BNbi1lWWhKUTdVVG9Oc2VzbHhyU0RZX0ZVMlNObWowajJQOXlVaTM1UTRYNk9nRkVoWTI3aGZJWmFDYUl4TEJqWW1zMkllY2pLenREcWhmNXlvWTFjcEk0bnVPbUhxbVhZUDZGaURyd0tzdExHR0EwMmxWUGRoa19wLWdDQ1RVaDZJQUlwZw?oc=5"
@@ -1842,16 +1866,16 @@ export const mandateTree = {
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNNzVEc3F5WTRCZmRJZDFRLWhSTnFYVXlLOGpyMklkOWtHV3EwQk9EMXZYZjdTcGtpWFEzZm82RmpXNmhuOXhubWhjM3JhTHdNYnJWa2NaWmJqNjFFSGV6NS1UaHN0U2hyMUhFUVE5VlhBcV8xYjlRbkpKcnJyUWhyX1d0M3AxdjlnZDUxZFhXeDjSAZABQVVfeXFMUEVpbWJGdDlEMW9kSXJDZ2o0VGJENXVySVBla0hOSDNYaHoySzF2UXhHZUJHQlNIY3B4V2pYb1VlSEpab3N0S2NKRjZlbkRaN21HTmlrd2R3dWR3Q1BqQU5UTVdlNHRJN3M5NlpldC1PSGdHYW5ZUEZ5VWZ0RnZYN1VEUlVZVkV1SG1CRklYT2xS?oc=5"
     },
     {
+      "data": "2026-10-05T07:00:00.000Z",
+      "titulo": "O que esperar das campanhas de Flávio e Lula no 2º turno",
+      "fonte": "Nexo Jornal",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOSVZidDRfa29lOHNxT1RwZVVoZlNULThSd3NDakgyV0g5MWxRYXkxQnBnWTQ4enJzdGlld3hkcmE2b3RhRTZWZnpmbmUtVmtFYVRYNXJ5eHZ4UWtXZ0doR0tldTgwbGMyVFg4bDI2aTBJUTV2SFJaREt5dU1fekZyc2JNb0t0RUJvNlFWcTc3SzdpZkhnRmlWeDlvTHUzMTZMR3BR?oc=5"
+    },
+    {
       "data": "2026-10-04T07:00:00.000Z",
       "titulo": "Flávio Bolsonaro x Lula: os contrastes dos projetos de Brasil que vão para o 2º turno",
       "fonte": "BBC",
       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE96N3g5a0pYQUc0cXFabkF3bWFoZm8yWUhNd0xaTUVxN3FXSlB3Q1V5NERkYkhFYkhxU0pjdVg0bHNUUF9xdGpoQUE3ZUNKNGlSV2d1bTZBUnZYY1QtWjAzSGNmOA?oc=5"
-    },
-    {
-      "data": "2026-10-04T07:00:00.000Z",
-      "titulo": "Indicadores sociais e PIB melhoraram com Lula; Bolsonaro controlou dívida",
-      "fonte": "UOL Economia",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQTlJ5OEFYa2pCZVRVbWV3TWNsajEyWmwyZFRWcE8xUzlDVS04elNPV1dNU1VSQXRfM1BhOXdmZGhNUDlTMFNjLUltOFJRTnFlVkZnWjJTb0ZES2RXdVd2cUpzQ0UyU25mWDgxTWZlcmktZDB5dE83UDRwSlNFal90MGg3Wm1QZw?oc=5"
     },
     {
       "data": "2026-10-04T07:00:00.000Z",
@@ -1870,12 +1894,6 @@ export const mandateTree = {
       "titulo": "Após confirmação do 2º turno, Lula erra sobre superávit e Flávio sobre reeleição e endividamento",
       "fonte": "Agência Lupa",
       "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNb2NyempudnczRE5OSnVQWEpCZVNzUnFFTzRER1E1dXZoUzYyRW9TR1dQQlpuRzZEakh6OGg0cjBVSzdSMEtPWnM1RVh5SVJrRllwZEd2ZlVxdUM2SThQTm03RERqRElKZGtEb0xCNDh0TmtjQkJWY1hPaHR4VEVBWU9xRXZnNldmbmxJcHVTTk1TaEVMVTlRUG5BV1VaX2lhRUkwcDdSTUh2ZmhBd2xMc0liMGhidXI3T3psMExhTmRuejg5OERPd2d2WDZCRVF0ZmNZaVU1Qjhpejdf?oc=5"
-    },
-    {
-      "data": "2026-10-04T07:00:00.000Z",
-      "titulo": "Flávio e Lula vão ao segundo turno, e eleição presidencial será decidida dia 25 de outubro",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQV0JLMHNYNnRlT0hrSGdrdXE3Q0NlUm9VZmlnRXlTeEVsUVlheWdKcklGc051Y1JEbWowN2taQkRXNTFiNzFfUzRTR0M3eFhMRmVxUUpqNVR5US1YMkUyR3pWSFNWMlRIYmkyR1lIUGdnTDVUZFNqWWVCZWtZQ0hUazNNYjlIdHFNN0dLdEUwWHhNRWZMUlZXXzZwVEJ3aVktbjFwbmlLMlU5YjRPUmMxVFVpeXBZdHFQM0N6alVUUmd0YjcwV0FtSEZyZ284NGNtVG56bnFyUloxWTkzcHNzZTRHRXhXYVE4SzlLZl91QdIB_gFBVV95cUxOY0YxR1pDbUthSXh1ZHdlVm9kTmx0Q01wM3VVODFXbG9QazVuaWpRakZ4WjBlcG1HaW52dDZDSlBnZDk2REdhM0EyZWdJRHQ0ZHROdExGTlJfcnNkYVh6UkVUbnpwT3BqYnpjSk13U3d3N2dBZV9oNkxBVmZnZEd3TVd2dFRfaDBKUU1MRDVQM1VsUlpDN0p1a0VUVWJISVRTbE5wUk5GdzZCa3hYOGx4eHhIbTN3dXpuRnFTOFJkR3ZjUlU2bEVjRnJvWTdwTW41ZWg5SlRKNVgtQXhBcHY1TDQ3TkhSYkZKNzhmT1g4M1l6ZDRTS1RLZEpGLUM1QQ?oc=5"
     },
     {
       "data": "2026-10-02T02:29:00.000Z",
@@ -1914,6 +1932,12 @@ export const mandateTree = {
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPX0RTQWI4SFRzOUpEOWVrNFF0TENzMjlfdE16c2FwVTBMTXVlVk05bjRKZ2hwSG9Wd1d3U2I2b0pvSDByam9BNktMX0wxMnV1eEJGMlpYc2hISXhuUGg5T3VQOVhQUVF2OXcyWE1jamJRWWZSeXhoakhrUFRlSFA4LTB2bmN1eWNxWTNSS0VjTFpRanNEREp2ZEZtQmVwaTliOU9WWkp3?oc=5"
     },
     {
+      "data": "2026-08-22T07:00:00.000Z",
+      "titulo": "Flávio e Lula comentam sobre crime em campanha simultânea no RJ",
+      "fonte": "Midiamax",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPWm1NajlZeWdrYUl4Z0UyUjkwSG9GblgwVk52a19kZjB1d0diSGIwZ3YwSnpwMllQTHZFak45cnJWaWFGQUJvMkllVEdkdzhUZEYxQnNONmZLMXFXREZkTTBQNHVzdGRfRlp4U3d5Q2RwZEdUbzhOZ1BpU0Jma3RTY1AtS0kzX21yZ2hac2UwRQ?oc=5"
+    },
+    {
       "data": "2026-08-21T07:00:00.000Z",
       "titulo": "Flávio Bolsonaro fez 3 propostas de lei sobre segurança da mulher em 24 anos de política",
       "fonte": "Agência Pública",
@@ -1945,12 +1969,6 @@ export const mandateTree = {
     },
     {
       "data": "2026-08-02T07:00:00.000Z",
-      "titulo": "Os cinco recados de Lula ao oficializar a candidatura à reeleição",
-      "fonte": "Congresso em Foco",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNazZnMjBlNV9ONUlaWGlodjZ6ZXBLR2NkYWNNaDY1LWtQLTltQW9nMVQ0UlRiMGZyYUx2RDE3TzBTNW9vWkI2UURGUEdzUjQtZ3RaOFpZLVo4VVJFSUJBRGluUmdDZ3d4NnIzSmRkcnJlUGtQVmNaYmdScVFCNDhZbGZJUHJ5SzFjQmtPc0k3T0g3a1NsUFkzcHd1SURiU203b3I3V3U3RVFQLVQta0NsNVQwQXNQQQ?oc=5"
-    },
-    {
-      "data": "2026-08-02T07:00:00.000Z",
       "titulo": "Lula disse, mas não fez: o balanço de um mandato de promessas furadas",
       "fonte": "Gazeta do Povo",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOY0NiVXlrOTNkeGJvYUR5T2swMjhRMHU2OXloWTVDQzJsTlIxYVBwRU0zcUs0Y2pGVTA3N2trN2ozSndGcU5sQUYyNzR6cDZGM1dCdWN3OXNBcjB5ZVNFUmlGVlZCY0NKdEtydW9mRXE1ZHdNcHRIdnFsaTRxVjBCS1hKNHNRdTVoWHhCcWYtRQ?oc=5"
@@ -1969,15 +1987,27 @@ export const mandateTree = {
     },
     {
       "data": "2026-07-18T07:00:00.000Z",
-      "titulo": "Zema promete privatizar Petrobras e Banco do Brasil se for eleito",
-      "fonte": "Correio Braziliense",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPcEw2WjE4UGRYOEdvaWFZdVpPVUhVUGtrTDB5WVZIakswUXo2a25YTk14Z0NOWUI5NGVKVFhEejF6My12OTh2Z2FDYlEwN19SSXVGRlROQkJha05JVmtNY3VnSWJ6dXREbEhpdG5uNzk2VlltdXNxbHFJNm1SeXV0YTk4RUJMRWl0UXBGWkJLQUIxQmE0bVpaT09ndy1PQUFHbXlZNU1nUHBJbkRDZk1CWUNHWUx2S3plQlFZOVdBQm9rM3dVbWoxZnEzRWxjZ9IB0wFBVV95cUxPSEpfcVhFNkFiaUl2MmdoRXF3U3ZMaDJrWHMtY1U2T3JGMkpHM3haZHYxQ0w2b1ZrbVZOakJXbmRlM1g3OHBuWENKMXVNYndQMDlrWmg1bXJZMUc0ZGoza1JQa2hGOUU1ZXI5MFVPaVBHRTl2RkhnYjV2a0QzSnVRbG9PalBwZmhLNmNvY3JkMjcwMURYMzJVejZrS2tBZFBoUkdRT1FEb3dSeVJzbFo2SUZuZWR3b0lJOTFHVEdvYU12blZwZ2xIblczUFptb0FrYkN3?oc=5"
+      "titulo": "Zema fala em privatizar Banco do Brasil e Petrobras caso seja eleito",
+      "fonte": "Pleno.News",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNT3lfVnZBb0dhb2NXWDRIR1VPNmtlSVBSeThoWWctY0c3YW1JNDJrd3lxdS1pNmo1M3ZVV1hTYkJvdUxadnpRUWhZOWJUY2xjOXUzTFdtRDNPQmtrX2NRSjdtcUtfQkR5TW8yaVhoMXZnQzBXQkM5MXNZbmNCeW5qckJJb1BTWGt6dWtLVmRnQ3lrQXZKckJqQlNLWlZTSGphOVhXYXZ1NEtZYVhpUkxxa0NQZFByc1d40gHAAUFVX3lxTE9TSEU3WWRma2c0Q3ZFNXFxaGFXa1FoZy1haGNvR01RNWItM1RJVHplbTJaNnNrRDZETEVieFh0aG9kVGlkaWVTb0h4QnJjY0s1NDdacGpseDFrUXFmZFBkUXRabXBJNWdydGUxX3hDUm9YMzF0aHM5QWQxWlc4M0dpUnRhU000SzJVWWkxTVR6MWpMajcxbFJYb3RBZUpnLUpYVkRCSUc1RHhSM2h2NTlJb1RPUUxuUnh0VFo3TU81aA?oc=5"
     },
     {
       "data": "2026-06-22T07:00:00.000Z",
       "titulo": "Lula defende educação e saúde como motores do desenvolvimento",
       "fonte": "CONTEE",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQY2drRmVFLWFxZGdXZzhsNkVkYmpfZ2JPSnAtZmFnUnpnb1FFX2xUZkV4YkZiZWRCUlRHek1sbFVDWXhvVE9oalB0NjNzZk1SWjNTMS12d2RXMzlkMzNWMjlXckRrWGMxenp1NjlWbkFqVFB5VW4yNzNuNTdPVl9MQ185Y2xZY0t6T1FHTA?oc=5"
+    },
+    {
+      "data": "2026-05-01T07:00:00.000Z",
+      "titulo": "Lula deve encerrar mandato sem viabilizar parte das promessas voltadas a trabalhador",
+      "fonte": "InfoMoney",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQRHFuRVVwVVBzTnM2UmpoTVdUQ1ZtTFVZR0o4ZkdGbWhmVnhzRUF2Vm1MUXpHRHVLZXN5eEpfZ1U5U0FBUWVVckRoQ2FRbTE2T3EtdGN1S254YXpEc1Z0c3BRXzFoS0xvOFl5ZzRlYzNtVVo4RTVtTGdkWWJ1YVBBVFhZS2M2aFZnUVZibGFMcnUyWlFQbXJqWFRGZ1pGTFV6QXR1cFhhRGtzc1RvYmkzVzZkcjNvSVhXSXlvaXptdzXSAcYBQVVfeXFMUHl0OTRhTl92X2dqbTRSVlViVEpLbjVhWlpmTTlZWXd0S0NnS1RKemxjd2szYTZEVXRjQjdhT3dJTzliMjg5ZmtLdHRfazNTQS1BX0RIM0VMa01aeUNkSS1XVWFwM0x1U3RHekwxTkpGVjg0SW10dm9EbmhzaFFkalQ3U1NTT1pUYWJVelBiWTFpMHpOcHBrMm5qcjd6eVZYRmQ2dWZ2cjEzb2VPSHloY2pEVGR5aC1SX3pkZ0dNQzd2c1FQRXhB?oc=5"
+    },
+    {
+      "data": "2026-04-26T07:00:00.000Z",
+      "titulo": "Zema promete privatizar Petrobras e Banco do Brasil se for eleito",
+      "fonte": "Poder360",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNa1FvV3JINmhBR2NIRU1GNjJUdGhxSVA1RC1QaFAxWkJjTHEtZU9YNVJTQnpfMzJkNjVRbG82M2xWeURsRWxwaVhnUlBxdEE1YWhfeVZVeHdHLUYzcTZ6R1JEV19qa2JUcGlGZUNoazRlZjlxUnN1ZzZqRURLNlVmQzU0QVVfUmRpUDFVY09wNEpjSkpjVHlLZC1NNUxIUG1yUXU1N29nSkh2TUhzd0E?oc=5"
     },
     {
       "data": "2026-04-26T07:00:00.000Z",
@@ -2020,12 +2050,6 @@ export const mandateTree = {
       "titulo": "Lula defende Nísia na Saúde em meio a pressão do Centrão: ‘Minha ministra’",
       "fonte": "CartaCapital",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPRS1kWXIzTGxVeFh0encxblE1MDJuaV9LNVlGZXJDSW5laUtSX3ZfTEZJalVEVkhFWGN4TlJ5T0QyZFc4THRtYVJtR0h4bFJRVHVXX0FMVjZZQU1YTjhENWgweTlsNl9YbElPcUJ4MUZZV0JZN1VqN0cwV1E0NUduX1NOQzBQaGhQLTFldFZ3dGZwZDFkMksyRzhWdnNkRVRZZWEwNkRGZ1dyZnUzb1hjdWYyTQ?oc=5"
-    },
-    {
-      "data": "2023-03-30T07:00:00.000Z",
-      "titulo": "Os primeiros 100 dias do governo Lula | por Jaques Wagner",
-      "fonte": "CartaCapital",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBoNFI0WnA1UFIwQ2hMN1FJX2lfX3VBTklFMWxFcVhUa1FUSUZrVEd0anZxb05IUkcwajdxRkFxRnA5NzRkMFlGYUNON2VEckJfX2c4ZkFiQ1NrcmZPcExaaC1rc0VhTFRwS0E?oc=5"
     },
     {
       "data": "2023-03-15T07:00:00.000Z",
@@ -2071,15 +2095,15 @@ export const mandateTree = {
     },
     {
       "data": "2022-10-31T07:00:00.000Z",
-      "titulo": "Com Lula, o que esperar para Auxílio Brasil, salário mínimo e gasolina?",
-      "fonte": "UOL Economia",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZDVIVU9rWWZwQjFDQWtZcjJ2SENDcEFOcEFTR1dIZnkybmxvVDVQU1ppNzc4Y3FZUWhYRktnbFhoNS1UdklvYVVscHpLOERXUzBoLWViUXpKejFRYVE4S0NKWTRtdTNMaDBnMjRQeXZMb3FITFZpUWdvWV9ldy1wWEFaTUs5OXNvXy1ERTM5aXpucFNhREEyUmQzMVI5ckdzRVlaakhLUUkyQnZHd0U3ZA?oc=5"
-    },
-    {
-      "data": "2022-10-31T07:00:00.000Z",
       "titulo": "Veja as propostas de Lula para a economia",
       "fonte": "Folha de S.Paulo",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOMEpzMno0MlNZTTNyYml6c2pDT092eVVNcHBOTktTX3JmYXZLemo2Q1IySGJNaWw2eXVaRVNGRC1ESVdoNlE3RTI3VmFXWVhZSFVsT0JDaGQ5c1Z1VEpvTVM0czNWRE4xT3hJUFdYNllqQmZuRm4zeEV0M1hUYkE4WXBqMlZoSm93X2tDR2swUmtqajV4aTBSUtIBngFBVV95cUxOZklhb3VZYk5WeUU1aUR6VXhOZjJxd0lDMEs2S0RVUE1jY3FDb2poTHByaThwZHV6czA3SDZscjhUOUFVMWpoTW95ajk3NUNDWk5rNHBVTGRLNTVEWVBvMDF4OG5IMTVIT09Jak91dEtSckhVX0tGRnJkaGhfSEx6Y2hReENVUVFvaWJ5YXd6SWE3dFV3d0xYSHF1aFlHZw?oc=5"
+    },
+    {
+      "data": "2022-10-27T07:00:00.000Z",
+      "titulo": "Lula diz que é preciso melhorar salários de professores",
+      "fonte": "Agência Brasil",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWWluV1JraXpfdWRqaEhLRmFSWjlENnJjNkN2UTVLaThOU3k5ZEh3RFo0ZXVXQ1VnWGpqY2ZSYjB2czEybzB4NkNQLUg4YmlqMXl3Rzl5WTRSbDYwUDNsSm5ONTlxbFBTM1JDNFZZWGk2NHRGbFN2c3IwSGdvVVVWN0Zrb25HdVJ2ZEc0MHQ0TnJLNHBJN2ZtWkhXeHpwQUZxX0tCYVZ3QUxsMGdWWEJQWi04WQ?oc=5"
     },
     {
       "data": "2022-10-27T07:00:00.000Z",
@@ -2088,22 +2112,16 @@ export const mandateTree = {
       "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxORF8zbGxOY1FBVnU5T19tNmFMRkxRUVVabWJaajBMWlVJV0ZpS1A1YU01Sm1NU1RtX2p5RGVSZUN4c3BOYTNHVENxZy1vdXVCWWc2M091OGI3UTFVNUtBaU9rY2NXcEw1bS04R2hfZW9nZ2NXOGplTkl1ZUNubzQ2cFJpbU5aS1dNenVseVRXXzRyQXduR2lzbnVocUN3Q1JuWkZkOThGLXdpU2tGT1YtdTNJeElhSkxUSWFsWVV4MnRmQlVTNDBsMERva3paQkEwWU8xdml0UUpWMGVRZ2liNzAtRnVDRXJJWUp3WGxtUWJrZlhTLW5MbGdRZ3RLa0Z5QTJQdkFEZ1hQOS1qdWFOSHExNkg1QQ?oc=5"
     },
     {
-      "data": "2022-09-13T07:00:00.000Z",
-      "titulo": "Lula e Bolsonaro querem desmembrar Economia e ressuscitar pastas de outras áreas",
-      "fonte": "Exame",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNMWc2WFN3M192YndpYTVlYVBCR1VNNFVFNllTVExUczBtck9sY1pGNDB5eURVN2ZiOTE5NTRuMzYxUk5Cd1M3OGFPNXAzWGZWSWFZZnAzekNTcVp3SER3RmtSVVllUjM5MUFtNzNUUDhuRXdlU0owODh5M0ZTZjllWUh2S3hMNDZaMjV5alZObnMybk5ITk5pZmlmWEdiZndzb1RGMllEM2drdw?oc=5"
+      "data": "2022-09-22T07:00:00.000Z",
+      "titulo": "Lula fala em cota para idosos e serviço público de cuidadores",
+      "fonte": "Valor Econômico",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNN2ZxQmtQa0RTQjhfZGV3TDROTGlXMFRjSFFOMmJCUzFoNzczcjZDRjA3YktUeG1wWERvMlZWazlzVllwdnFOMnNtTHpzcmZVemhDNUZmckNjMWZFeGxyVVZ3dEhWNUdhQjVtd1d3amFlazV5NHF3TXA3NzhWWWc0N2ZxamhqVVpNM19hT2VQbFRVLW1YdjEwOUplX3UxdzlsWm4yR0NKNnd5MXpqU1dFaWFWUFJzTnRKUDI0aS1RQmVJLXpzR2x1V0VfMNIB2gFBVV95cUxPUExDUG5aUVR0WWRVSjNoUHdDV3U4VklwVW1HZXYxX2dqd1o2MllMQVU4SHIzYS1ZMWhzUkN6UUZsS2w5S01tejJXR091ejdrT1JBZXVVSzRxWldjeFF1dXlVcm1JakFZUVJUbU04UkJ0cDZva2FSNHhLanh5N3hxTXh6SEZULWtuYXBkSjVfZ2Fubi1TOUNoX2gwRlhBNnMzZW5Db1lnZFIySFp4Y04xdDJmNFY4amtDM0Vtd2Q1SWZYVWZiU2dxS2N0M05uQldZZEpuUGNfd0Y0UQ?oc=5"
     },
     {
       "data": "2022-09-06T07:00:00.000Z",
       "titulo": "Lula promete criar ao menos 10 ministérios, e Bolsonaro, 4",
       "fonte": "Poder360",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQSnowYmU2Q1dpSDAyQmhSdzlGVVRlRjhnQ1FpZDNVem1McG1TYUNWcWItQXQ0eGloOUEtY0U1ak9sZHg5VWMwM0paVzhjTndYcC1VcDlLVldidnFhNS1NdVF4NnA1NFNMRjZaMy0yU3oxSTBkRzBlaElnSm9pckZQcWJaUk5Sc3dFdzl5SDVyWkYzeEhUR1VMQUt3?oc=5"
-    },
-    {
-      "data": "2022-09-03T07:00:00.000Z",
-      "titulo": "Lula promete criação de ministérios voltados à área social e ao meio ambiente",
-      "fonte": "CNN Brasil",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNRzE4RzAwZmh5RHAtSkdXbW9PbGRaSHZIbHhaQVNla09VemZoRzhRXzRDZl9PTWRpMGRDaldXdnJOdE9wZS1BU2dwa2IySTAyb19meHNEV0NQM3ZObXZqcE5nV24xY2FuakFELTU4OW90ZVhqYkYyMG92cG55SmJoY3lxOVRNeGtTSHZOR1NpYjJZNGlmb3FrR0FBbnBCaGc3dFdLSzJSTGp1cXpsWWJvT3F3YkR0U0E?oc=5"
     },
     {
       "data": "2022-09-02T07:00:00.000Z",
@@ -2221,22 +2239,10 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOc0tjT1hzcnNEWHVTYU50RUk2UjdCUl9WLTRSZ3NYQ3BVaGNtM0lTcjZMbllNZWVqUWhpQ2NhWU5wTzF3elg2Z0U2M0M3RFo5Nld2RFpwbHg4VHJoTm1PajdKM2YxWU1BVTNMYTBha2ZFeXdGUTIyZmNkVWE4ZjJDQlJnWlBwd3JFM2ZYbE1EaXE?oc=5"
                 },
                 {
-                  "data": "2022-02-01T08:00:00.000Z",
-                  "titulo": "Governador do Acre anuncia 1.173 vagas para concursos",
-                  "fonte": "Estratégia Concursos",
-                  "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNSU1WMTdXY0xQOXpYWkxIZTFkamJPYlRBQ0RpaXhRX1pPd3QxeW4wOGJMenFzSHRmSzFVUV9LZlQtdzc2ak5yRDM3SzhqdkR6emRQNmZLb0w2eTZlX0NRczdIaHBTS2Q2QmdERndoa0w1dWFtYjZmbEtZam1ydmpCYkRWaFfSAYoBQVVfeXFMTU54VFV1UzRrWm56eFdtTnBDWnVXSVphV005SmJUY2plQjNfYzI3UnVRcHROeFJiSk9FaUhLbmpESkh6ZGxpdEtWdC1tUURHWEhyWXJBYy1tZk93UVJjOExNalNWcjlmZUNYTWVONHNkZmpsREVfdV9qS3d1WFI4Sm5hbmwwTzd3cDhR?oc=5"
-                },
-                {
                   "data": "2022-10-04T07:00:00.000Z",
                   "titulo": "Reeleito, governador Gladson Cameli promete nova maternidade e concurso para Polícia Penal no AC",
                   "fonte": "G1",
                   "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOS3Jsb0s1cVJiOXROZDhGTlhoNW54WTBsWHdVX1RyaFl6NkhlZ0F6WTVocEV3SERCLU42dzBFSVFnSW8yMThzRUZHYl9ZcnRUbE9UZlZabkx0UE4zcThBZk1VenNGVkVDYTJRcHBiaG1mNXhYN2dsZ0lkQkxlaTIwYktrZ21DOFVMTVhjRkRQblZaY2lGdERMZEgtU1EwS3g0QkV6RXROSm13SDNLTG0wejlmeFQ2V2hCekozRzRNbnhXS3JNR1duNXFGbmVMMHZJRk9PVDVSSklnLUhEQVBHd19lc3dldWZmOHBPZFIxT2VvWHRIZG1vSdIBhwJBVV95cUxNVVh3Zl9CZTJ6YVBoTTk4VFlIRUNIZ3diekFLd3M5c0hUM1ljdnlvUzZOcTdQaVFJaUdXU3VsQUNnWFZFWEFybElfWjB0WE1rOWM4Mll6V280Z2h2WEFRLW12Z3kwNjg1ZHROXzBHZHJucWVmMnI2QThrZDl6UW9qSUlxMk5IUUw4QllCb05vYzRXdjQ0emswMEFjUnNEemlZSzJhS2gzSXNEeDV1NV80OE9RVEdxeUJFY21ZRGhsYTN2VDhMREE3UWpnQmVoel9VQlVxTjVDbDZZaWppLVJzUDU1c1lxYnA5aFBiellSdzFkT0VnOS02NmpUcGZxME9KeUhkQ21RZw?oc=5"
-                },
-                {
-                  "data": "2025-02-27T08:00:00.000Z",
-                  "titulo": "Concurso PC AC: governo descarta convocação e estuda novo edital",
-                  "fonte": "Qconcursos Folha Dirigida",
-                  "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9rOXFqXzRkTm9lZmVqaDFYLTJIWHBjN0d0UzVnaXZJdGNnSGVpeEc4NVJ5WHR5TTdkXy1YYmsyRWlRY1I1QlkxNGk1ODR4ajcwVlJQbWgtU2NTNmtDSnREY283MVhObnlzeGxmalJDSGJySXJ1V19BYg?oc=5"
                 }
               ]
             },
@@ -2326,12 +2332,6 @@ export const mandateTree = {
               "descricao": "Sede do governo do Acre, o Palácio Rio Branco foi reaberto em março deste ano após mais de um ano de intervenções, que modernizaram a infraestrutura do edifício. Ampliou a funcionalidade dos espaços para servidores e visitantes e garantiu melhores condições de uso do prédio público. O governo investiu mais de R$ 3,8 milhões na reforma. (Voltar ao índice)",
               "atualizacoes": [
                 {
-                  "data": "2026-03-20T07:00:00.000Z",
-                  "titulo": "Na reabertura do Palácio, Gladson fala em “missão cumprida” e Mailza diz que Bocalom não é adversário",
-                  "fonte": "Ecos da Notícia",
-                  "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPUm9Sa29lV2Iyb3BUYXhuN2haQkdnSW16YTlRZ3ZYaERIQTc4d1g4aktZVzZoRmdQdVJUMmVSZFhJMzdCN3plREhyOW9pbk85VnVSeE9PWkEtcHk2c0lvbHJhUVZYQ0t2YksxWmkzcnhfZzBqSm54bmY5R1dMenRNWGdqY0pCMU9JTHQybWowTkRkMlk2YWFVbGVQR1MxTG5PT1p0VHROZGhRQ1ltYjA2OXRrRHRxVWdZWk9pQkVSUm5mWFJYTlRHWHRLUktfZw?oc=5"
-                },
-                {
                   "data": "2023-10-19T07:00:00.000Z",
                   "titulo": "RECUPERAR O CENTRO DA CAPITAL DO ACRE governo prepara revitalização do entorno do Palácio Rio Branco",
                   "fonte": "Acre Agora",
@@ -2348,12 +2348,6 @@ export const mandateTree = {
                   "titulo": "“Tenho muito amor por esse espaço”, diz JV ao entrar no Palácio Rio Branco após vários anos",
                   "fonte": "ContilNet",
                   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNVTFnekVHdmtuNC03N0tqa0VMay1HVlhFSVl2N2FFWXRtTk5ZcEtqcUtEWnRiV3gycDRNTExHenR3MmhCaFNxOXRWT2wybkFBWmZiUjNKd0hPMkFCZXNwMUVTSTJGdjdOTlZ5TnY0akZlUUJSSkZSZURvZUQ4OV96a0xfU0JNR1E2YzZSbFkyazNfVUdCYmhJd3RkSklVTlFSS1dwMkpyMEd5Y3gxaWFLX0taLVh2UGg4djFDUlNGSmdObXRNOHZOa0xxZTRCZw?oc=5"
-                },
-                {
-                  "data": "2021-12-20T08:00:00.000Z",
-                  "titulo": "Governo acende luzes de Natal no Palácio Rio Branco e arredores; é festa!!!",
-                  "fonte": "AcreNews",
-                  "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNVFpoOUkyTGtmeGtPOGVjc0laLXAyNjBnV0xpUHdqb2huNDk3Y0lYdlR5TGl5Q2hhaXg5ZUh0RC05YWoyTDVlRkZ5MTZVVTFyNWN1SldYd0plSXBydWNieTM5Y1FBc2FSYXNnaDhEb2wyblBTZ29COVNJSVZaU04wQ0c5T0wyai1wc3Qyd2VMOFppaWxFbkNTVF9IenI?oc=5"
                 }
               ]
             },
@@ -2443,10 +2437,10 @@ export const mandateTree = {
               "descricao": "Projetada para ter porto com plataforma para atracagem, uma praça e um museu tecnológico, a Orla do Bairro Quinze foi uma promessa não cumprida. A obra foi aprovada pela Caixa Econômica Federal e pela Superintendência do Desenvolvimento da Amazônia (Sudam) em 2022 com investimentos de mais de R$ 21 milhões. O que diz o governo: Afirma que a obra foi novamente licitada em 2026 e segue em fase de atualização dos trâmites para sua execução. E que quando foi aprovado pela Caixa em 2022, conforme o governo, não havia a previsão de construção do porto de atracagem.",
               "atualizacoes": [
                 {
-                  "data": "2022-05-27T07:00:00.000Z",
-                  "titulo": "Com recursos de mais de R$ 21 milhões, governo lança edital de licitação para construção da orla no bairro Quinze",
+                  "data": "2022-10-18T07:00:00.000Z",
+                  "titulo": "Moradores do bairro são contra a construção da orla do Quinze e MP-AC abre procedimento para acompanhar",
                   "fonte": "G1",
-                  "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNSWp5cHhaRXprSzZhU2cycFpsMkF1UURvZ2VRT1RDVE1VNFJ3X1JFVDdFbXBHcU1RaVFtbmdTYVJ6T0hKenI0RTV5UVAtYkxwWndCYl9rNEZNSjF4R1ZMaHM5NDlWZl9LOGR6a2RjVUNPdDM0eUJLWEJQZENIYjJQNDFTYUZ5YkpHNndZMmk4M1NzM2ZaTGVtRjJ0MVE0d0I0YkFNeGg1OG1DbEFhbk9ycThHT0FETk9pWnVLVS1WbFIzMTFGUzJ4SDEyZGlERXJ6SlVKeVFIZFlQTXlQb19ObUVISWRsNjJYdEdkMmltQmlxR0x1ei13MdIBhwJBVV95cUxQNHU2ZF90QVRscWpPcE5weUdFVWc5aUJjNnRoYnVqWkFMRno3dWdPQkJtWFNHOHVMd2JtODI0Slk2YzFDX0NkM0tSMnlPWWdOWFloeFZYa096SFViUkpzWkZSRkNnVnpnYWVRcWdZVjVsa0ppeFFXbWZqWGMwUE1vbWhuT2tPYmVjX0pVVmFfVzJaNXdiRUNYT2ZIcXNhdlhmTm96dXNzQ1ExNjdWam1rV2p1VDZ3cFdsbmFpMnhZQ1c2VkdoYlRCUnZqUnhFZHNjQUEtS1pVMzBoMlNQVl9Sd1BWblY4WVJsU0ctdkVxRURlaUFxOENFdWlaYnFZOGJhQ2tzb1BNdw?oc=5"
+                  "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPeFRrNWlaVkE4RjdkYi1oSDhLN1VvTWZVS3VSLUZlZnJsWS01ZUxaRFlhVUZmRUlTVElXMzFVZXQ5dkZ2VWN1Tm1vaXE1R1REY19WVmRtYXgxbzdyUUU3RmpwSHZUSjIwMEt4aXhTLWtmY3RZWGU5eFBqclhsREJYTUFMNUVWN1pIY0hMaXlsN3hBWmZ1dTRkaWZjU21LX3RIVFVHallKWGtrdmh5bjRQM0V6SDRVSjZ6WmgzMk9NNFAyWGNESmRNaXNUY1g0Z0piYktEekQ5VW1HZDEzWHBXWDhMVXh0WHZ4SUItSUJ30gH8AUFVX3lxTE1WTWxDZUV0ME9zUXRiVngyMnNMek0xdE5QcU9lQlpORl9STThaZnVXaXNYNkZJZ3oydmNOYVVrSUNKLUNZRkpxcXNoYlh6V1FkOUlLcXNLS2JnTE15RTZuZEpuZ2dCS3lzX3k5U3A5MWlnU2w1bGRCc21JbWF2TV9HcUtrbEtCZmV0UGtBMTgxTW5ncy1wZDhQSGpCMzVCb00zaGZRcVc5VHRqZXBmWGYwTFUxa2M3cGZMa3hLUE4zQ3FLLVNIdllPbk9ZZGlEcFh1akRSdkpLVTBMWGdrSGlPOWdiMnZralZYU09sN0xGWkRpNHpxd0RWUTR3aQ?oc=5"
                 },
                 {
                   "data": "2019-08-05T07:00:00.000Z",
@@ -2455,10 +2449,10 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNaWNWU2dydnVUQTZIQjAxQ21EMno5Q0V0azB1UHNmN0ZNR285c09FTnJxWFBaUmxWeE14aTg3cGhYNXhyT185ZVQ0X1RFR00xcUVWY3EyS3NrVGZ0S3VoT3BtSG5JbF85eXpyY29IY1hxTUN2MjNrYm0tSDZGZ1lMWlgybS1COUFCeHpYX041anFoV2VxYWJXOGhLOHNhekRqU2NlWFVvVUdaQ2RVUjIzMUlYWU1jMnVZ?oc=5"
                 },
                 {
-                  "data": "2022-10-18T07:00:00.000Z",
-                  "titulo": "Moradores do bairro são contra a construção da orla do Quinze e MP-AC abre procedimento para acompanhar",
+                  "data": "2022-05-27T07:00:00.000Z",
+                  "titulo": "Com recursos de mais de R$ 21 milhões, governo lança edital de licitação para construção da orla no bairro Quinze",
                   "fonte": "G1",
-                  "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPeFRrNWlaVkE4RjdkYi1oSDhLN1VvTWZVS3VSLUZlZnJsWS01ZUxaRFlhVUZmRUlTVElXMzFVZXQ5dkZ2VWN1Tm1vaXE1R1REY19WVmRtYXgxbzdyUUU3RmpwSHZUSjIwMEt4aXhTLWtmY3RZWGU5eFBqclhsREJYTUFMNUVWN1pIY0hMaXlsN3hBWmZ1dTRkaWZjU21LX3RIVFVHallKWGtrdmh5bjRQM0V6SDRVSjZ6WmgzMk9NNFAyWGNESmRNaXNUY1g0Z0piYktEekQ5VW1HZDEzWHBXWDhMVXh0WHZ4SUItSUJ30gH8AUFVX3lxTE1WTWxDZUV0ME9zUXRiVngyMnNMek0xdE5QcU9lQlpORl9STThaZnVXaXNYNkZJZ3oydmNOYVVrSUNKLUNZRkpxcXNoYlh6V1FkOUlLcXNLS2JnTE15RTZuZEpuZ2dCS3lzX3k5U3A5MWlnU2w1bGRCc21JbWF2TV9HcUtrbEtCZmV0UGtBMTgxTW5ncy1wZDhQSGpCMzVCb00zaGZRcVc5VHRqZXBmWGYwTFUxa2M3cGZMa3hLUE4zQ3FLLVNIdllPbk9ZZGlEcFh1akRSdkpLVTBMWGdrSGlPOWdiMnZralZYU09sN0xGWkRpNHpxd0RWUTR3aQ?oc=5"
+                  "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNSWp5cHhaRXprSzZhU2cycFpsMkF1UURvZ2VRT1RDVE1VNFJ3X1JFVDdFbXBHcU1RaVFtbmdTYVJ6T0hKenI0RTV5UVAtYkxwWndCYl9rNEZNSjF4R1ZMaHM5NDlWZl9LOGR6a2RjVUNPdDM0eUJLWEJQZENIYjJQNDFTYUZ5YkpHNndZMmk4M1NzM2ZaTGVtRjJ0MVE0d0I0YkFNeGg1OG1DbEFhbk9ycThHT0FETk9pWnVLVS1WbFIzMTFGUzJ4SDEyZGlERXJ6SlVKeVFIZFlQTXlQb19ObUVISWRsNjJYdEdkMmltQmlxR0x1ei13MdIBhwJBVV95cUxQNHU2ZF90QVRscWpPcE5weUdFVWc5aUJjNnRoYnVqWkFMRno3dWdPQkJtWFNHOHVMd2JtODI0Slk2YzFDX0NkM0tSMnlPWWdOWFloeFZYa096SFViUkpzWkZSRkNnVnpnYWVRcWdZVjVsa0ppeFFXbWZqWGMwUE1vbWhuT2tPYmVjX0pVVmFfVzJaNXdiRUNYT2ZIcXNhdlhmTm96dXNzQ1ExNjdWam1rV2p1VDZ3cFdsbmFpMnhZQ1c2VkdoYlRCUnZqUnhFZHNjQUEtS1pVMzBoMlNQVl9Sd1BWblY4WVJsU0ctdkVxRURlaUFxOENFdWlaYnFZOGJhQ2tzb1BNdw?oc=5"
                 },
                 {
                   "data": "2024-08-23T07:00:00.000Z",
@@ -2508,6 +2502,12 @@ export const mandateTree = {
                   "titulo": "Viadutos do governo e da prefeitura vão deixar capital acreana com cara de cidade grande",
                   "fonte": "ContilNet",
                   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNRGNrcTNKb2lnTC1XQTJ4ZjJrcW9LanhIZ1JTWjUxWjVUM29aWGN1LURzVENLcWVyZGM3aElod1U4eU5hbEUySWI0Zkl4YktxWjlvNkloMHAzRzNXLVdQdW1BYzFOcC1UWWVjem9EOW8tTGZjLV9tUnF3bjJnb3pTSHZkdlNpaXVPOVdNNW5fSUJMX0tPY1dTdnJ3RjlJeUR0Y05xR2FueEttNXpEbmlHQlBkVXVkVURsVDh0OFUyMWpnWmlubFdGbmJ5Wml1QQ?oc=5"
+                },
+                {
+                  "data": "2026-07-02T07:00:00.000Z",
+                  "titulo": "Trânsito no viaduto da Avenida Ceará será liberado nesta sexta-feira (3) em Rio Branco",
+                  "fonte": "ac24horas",
+                  "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNUMtVklTcXYwd2VndU1aTUp5cTlkcnJibmNBYmxrRHk2NlBVSDhoQUZqaE9RTURoLVNnU2JpSjlxQUwxa3JEVmlNRFg0eHFDbEhucmx4QkFVb3BNNGxnUFAxLVlkelNHdHlFY1YxOGZrSlJ1eVdFOFBQbkYzNUIta04xYS1IbUZKZERGTUFTeWY5SDBQa3YwRy1mSmhHWDIwRS1MRNIBqgFBVV95cUxQcDJoZ2tJaHR1RE9lZ2NHMkY3WGNqeXVWd2V3Y1ZIUHlHc1B1MmhlWnZxanVuQ3Jfc0llSVNtYWI3VW9UZU0wUW54aDRMUHRRWTRZYXVDZmFKTkxlSFZ2dmNyOHhWa2VZU0s4V3VqLTJXdkhyNGc5dnRORUl2aEZWMUdBMTE3RmZVektaSGxmckxqRldyMHV0T0pzTWh1a3kxT0JibGtIUUtCdw?oc=5"
                 }
               ]
             },
@@ -2593,16 +2593,16 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNQldjaUdaYUNLX3V5dG9vTUZWUjNKUjJNaTF3NjZoXzhxT3ZQVWEzREJ1dnF4bHVmZ0pINmNTZkpOQXZWVnFwUXUxN2JRRV9zTGZ6MWxVal81TV8wR09OTVdpYnZHUmt0Wm9YSkllTTAxbl8zX2xmMm5wbmFWVWlsMnN2Y09oS2psM1hoa2VybTFiUzlRcWtWOHBvbkRHVHB0bHhzT1VTTDVSbzZBekUxc3pJd25qMTZWbkxCYlJVd3NOSnRQYm9INjJYRmsyODNpSXNfTmdiNDhWQdIB6AFBVV95cUxPWUgxMldacVJQTVRUX0xQdHVRdnRlQjV6UmJQb1dJbFJEM3gtaTVTRGxiajdOY2E4Qm5GV0xNTEhna09UVXB6bnJrb0w2cGhfVEcxUUt6ZUMwSU1KTWc2a0lnOGlHcHlROS1oMUJzUnkzblQzR3ZYX3prV0UwbjlXOGR1MWFZSDdwZ1I5dTlJUEt6czFNZDZoeDBaSXJIMzNvR1ZFVV9obkZkWDBnNDBWbldXVU9SbS1VTS0tY3lnVlgwcG5iNWc0UFgtUksxVms1SHBSd0RpS0JPaHdWSUc0MHlZek1rSWpS?oc=5"
                 },
                 {
-                  "data": "2026-03-30T07:00:00.000Z",
-                  "titulo": "Primeira fase da nova Maternidade é inaugurada em Rio Branco e Segundo Distrito vai ganhar Policlínica",
-                  "fonte": "Portal Acre",
-                  "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPZC0wckw4QXZVcmMyTnJmWkxnYU5rakNrdWNHSm5JWGtmVW9Ta0FQNFpNbnNjR2xQQ0k2SzdmczdScENTYkRydjBMVkctRTB6Yk9JWEFKYTdrU2ZrNTNaM2w4RFRmSnBXS3F2elBKakNab2h1TTNuQ1U2TWRMNEczUk5LR0Q4QlVuMDA0STBPcGRnMXRZWEFETGREYWZMMWVGdGtkeHRzcXc0VFFvbjRsZUYySEZMb2RncHdsZkN5aFlXTXZBQmZldUE3UW9DTFVoUTNwV2hQcWpRcmlnQ2c?oc=5"
-                },
-                {
                   "data": "2022-12-24T08:00:00.000Z",
                   "titulo": "Governo do AC autoriza construção da nova maternidade em Rio Branco orçada em R$ 95 milhões",
                   "fonte": "G1",
                   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPWXJHQllKUFZzaV83MjhlVVBZWGpaUF9zd0pCdGtHalR5MWw3Ri1tMWE4dU9LMzduQ1I5aS1nNTg0bHNSWDlBSzRtM0lBc3RMREcwLWVCSEFOUm55cFVFRDVrUlZmeUkwUGNVS2Nmb2FjMDdmNTdoMTBSMm5EcjR5bEV6OWQtY0k1WVl5dVZ0SklsdHlPc1Qzb0R3enhsaXhOUnFHcFg4ZnF2OXJ3T2ZvV2NEQmo3OGdYUjRQZ08yVXpaOWhuMzNCZ01YU2ROZzMzZU5DalhfLVRtZEdl0gHrAUFVX3lxTE1NUWFmaGdkYzNCSkU2SjhkQmpISzdHVVJCRDNtdy16RXBNazdwVGUxdlJZaUswZ2NRSWl0djZzUWF6SDd5aDBmNGhxZFhHMDJWaGZkV0hTaFl4VTJwUk1lVTVBVXJVVlJXLUxkcGJKQllld1F2VFVfRGpZWlF3cE5Wak1tay1sdmJCWXBuVy1oRGFIVUJqMTExVXlvRzR4T0NscmtrMC1JakxnVG5FYVQ0NURYSzF4aFJrd3VJYmE3LUd4STZIdzRoc1Z3c1kwRVlleUd4cHR6MlY0MFhOVGtPaS1weVM5ZDhyVVE?oc=5"
+                },
+                {
+                  "data": "2025-11-06T08:00:00.000Z",
+                  "titulo": "Mesmo após recomendação do MP, nova maternidade deve levar nome da avó de governador do AC",
+                  "fonte": "G1",
+                  "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQWXVQR0JrWE9NSWc3RU9YbXhjTFoyVERrT1prWmFENVF6SnJzeEpUOXlSM0JNX1RseERDclJxSDVVXzhUMjMxVnk2WXlVZExCcUZ0eEctWHNjb0czR2JnZkVKbzRucmFISkpaeEJlTkdoWFhfSloyN2pHMFhLdkZhMWpvMUtVLWh5S0o0WDJHeVRFT0Y4MUxCZkhvdkFlSjBjYm9URC01UFNTOHpuaUJ3U19sV05pRkpZSVQ3cGlKN21YN05YemlRMGJBMHExV2d0a1ZpTExZTndPOWJwUEljUVEzekgtQdIB9AFBVV95cUxNbGhGc2phVTNVTzY2LVdxNWx5VkZxdDlEcXJ3NGNCblZ5VzhVaXBuQWRhSGIzb1VtdHBFU0xOSExoRV9yRjN2eXRYTHQzUVZVWVNlTk5lLVN4c2paem5GMnI0YmJtNThXX25IbzIyVjctU3hCNmxCTmRwNVI0SXZmUjQtNFRpeGpMX01uV1BFN2RabExUUW8tblJjQm9jY1QzaE1femZsSm9NN2FrQW1kcU51MmZtNEFrNjRtN0l5aFdnMWN2R2JkaHpZV0hRVFdiazU5THFIRzdlM21GWmhBTGNBbXk5cTZ4RFRhNFVzLU5aZ1Zp?oc=5"
                 }
               ]
             },
@@ -2777,16 +2777,34 @@ export const mandateTree = {
               "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPb1JIUFQ3WVA1OU1XY1Q4NXlBYWQtcjVtV2NHQjkzcU54YUUxaFNfV3VOZG13NUZfc1R1VkZCWWM3cVBEMW52MVhyckVZSWdzWXVjeUxlcjRMOFBtQS1mbzJzSkhkOGJRVUFsN200WlVqcVVvMGhhMXUyMVpoNGNHdEdETzkxV3pNRFBVaFlYdnpFVE5OY3J3NG82a0VTSzliRmhCSVFRU0RUMXhJckU5ZVB1ZHVoZXFkLUMxM1ZjYUxoSlnSAdIBQVVfeXFMTmhrUFl1a2pYcmVXQzdxb2Rhenl5VTJQTU4xRlVzaDZaaEN2MHRuOUJlUXVjaTA4VzBuXzNkTkpsSHN6R1FiU05RX1dZOF90eFFzN1JxRmg4MWNVRG9Femo5UlFMcVlja2puMDRmMU9GN19oR1FfN3cxUVdWUUc3Ri1UZ2toQlprazA0T2V3MF96Rzd6bHo3V0xhcW5nZWRPZVlvemtOUHQxcXU1TEdhRzBWb3VtY2pnaGRPX2xMWFV1T0ZCY0FNcEJOdUNmRzNpR3Jn?oc=5"
             },
             {
+              "data": "2026-09-22T07:00:00.000Z",
+              "titulo": "Campanha de Gladson Cameli questiona operação às vésperas das eleições",
+              "fonte": "o rio branco",
+              "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQNHZiQUFjM3E0a3NhT1ozS3l6LVRqaVR5MnM4ajBMMldBQ09HU1dkSEcwVE4wbHZDc3gwZ2lRcUpQT1pnaHhicnkzbUluRW9xQkhsNlZGc21kRGZDNC1sSm9iQlQtSDNnTnhCT3YxVUdXQ0RDY01OUTJPbWdjd1E4RkU4UTJJc2htNkVQSGFaSkhPTjdsMmxfbFdR?oc=5"
+            },
+            {
               "data": "2026-09-21T07:00:00.000Z",
               "titulo": "Como está a disputa pelo governo do Acre, segundo pesquisa Real Time Big Data",
               "fonte": "VEJA",
               "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOYktxczhQX0U3R0MzRlk2WkczYTZiOVFHNnpTb1FybW1RYlpsQXM2RlZZRHZOeVNBRVdUS0pMemZZTnFjeUVia2RyRFp0c1NCNFVod3RidGh2ZXlkSUFJN1BMX3RqU0lGaGdpeGFpMjdzbmJhcldhajF5TDJZZVRmbS1OWmo4VHdfS0Jndkhnb0NTOWVia3lvNGU0Smxsc29VajVuT0wxbS0td2YyZHJN?oc=5"
             },
             {
+              "data": "2026-09-21T07:00:00.000Z",
+              "titulo": "Farsa eleitoral no Acre reúne candidatos envolvidos em improbidade, candidatura laranja e suspeita de fraude em contratos milionários",
+              "fonte": "A Nova Democracia",
+              "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBqSjFqbHg4cloweW1hX0FVWVk0a043eHhvdlJpbGU3cmFfVWFSU19ZWkFoQVZ2ZHNFcUZCVGQ2WXg2c3NPcnkydy1EZktMaTRleDliaFhMU2poQjVyTmkzUWhn?oc=5"
+            },
+            {
               "data": "2026-09-12T07:00:00.000Z",
               "titulo": "Gladson Cameli está inelegível e não pode disputar vaga no Senado",
               "fonte": "Poder360",
               "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNN2VCMW1OVkFQQlF0azQ5QThwOFdOakkzMnlMSDFmQlhQQ2dCUkJTam56aE01Vl9nQm5SWTc3Zk03Y1pqRmF1Tks2TkxqaHNqTVRpb1hIZFNYZ1NVS19YSzNNNWlvLWRoWHRtT2FDZUR6aE1lNXJLazJEd1FpTmk1bUppbUpuLTRFUk13LVRHZ2YtWWgzbXJkbEM3LWRySHFDN0FzSDFNUnlQeG9ncGowZVUxRXg?oc=5"
+            },
+            {
+              "data": "2026-09-11T10:01:12.000Z",
+              "titulo": "Gladson Cameli conclui dois mandatos como governador e tenta voltar ao Congresso em 2026",
+              "fonte": "Portal Barcelos na NET",
+              "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPVGJBNC02cEVXcEJQRnFPTWkzMEM4Tk9vaExCU0hTV2VZWXNqU3BoeFZ2QVNJQUdidWZNUzR0NHZVRHc5M25tdkttYmRjeDl5QlVFR2wtRUdld3VZU1Q1Y2JmX2hPRmF5Z1FkVWNmaFBJaVVQb19GS1p2Wm9taXFHQl8zR0hyZE5MeFE5bDM0MG9MVW9OaXhxVlZJa25FVllac09aaTlPdGZrTmE1WnA0bWg1eVVVVFhya1E?oc=5"
             },
             {
               "data": "2026-09-11T07:00:00.000Z",
@@ -2804,7 +2822,7 @@ export const mandateTree = {
               "data": "2026-08-13T07:00:00.000Z",
               "titulo": "MP Eleitoral pede indeferimento da candidatura de ex-governador do Acre ao Senado",
               "fonte": "G1",
-              "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQZnVBTU0wQXpkaEthbFFVOU16TFdwMk9VVzZmazdUb3pHUXY0eTlXbnBrUFBYOG90N0xVZ3I1R1pOc2J3TmlfQUtud3g4SEl6M19YQVRGZ2JoSEdIUTFQcWtCal9KUm9scG41THF4UVQtekF5TnEtczdSeDU1MWIyNG5NcEtHaWNOd095VzlKaHI4MG5SaFNrUWh4dk9UU2lCSDB0SzFpR1YtOU5XdV9zS2Y4QmpCS0Y1Unl4eDlsQThwQXU1X2xyaTBpcHoybnkyczZWZUFudjNYTmtucnFRQkpQNjAwYnc?oc=5"
+              "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQZnVBTU0wQXpkaEthbFFVOU16TFdwMk9VVzZmazdUb3pHUXY0eTlXbnBrUFBYOG90N0xVZ3I1R1pOc2J3TmlfQUtud3g4SEl6M19YQVRGZ2JoSEdIUTFQcWtCal9KUm9scG41THF4UVQtekF5TnEtczdSeDU1MWIyNG5NcEtHaWNOd095VzlKaHI4MG5SaFNrUWh4dk9UU2lCSDB0SzFpR1YtOU5XdV9zS2Y4QmpCS0Y1Unl4eDlsQThwQXU1X2xyaTBpcHoybnkyczZWZUFudjNYTmtucnFRQkpQNjAwYnfSAfYBQVVfeXFMT2JIc3F4WnhBamZBNGNSRnpWT1VpelVxX0pDMUZsUzU3c1JpLWJZUnJyN0pkUDNySWV5RmFQS0ZhZGhELUIyN2FaM3dTUGlQOGpNX2RSY3JHanVLS2tucl9RaEJKRDZIT3R2X29IU1FZNWtxbkd4WW1jNkFPSHFyVjJRcWFma1ZTSkFTUWJYMVMxZDJscGRBQUhCZHhhcU5PWElZMzk3TzdVdTZmNTB4eVdOMW1KYzB5NFlYcnJzdDhPajVXSEJnbFJRSjVHYWpPck0tVnFTRVc2NERfNGVqR1dpdkIyVkVpWGU4U1BRanNIcFhxeXR3?oc=5"
             },
             {
               "data": "2026-08-13T07:00:00.000Z",
@@ -2837,6 +2855,12 @@ export const mandateTree = {
               "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOSDhxLXFiTF92OFpHRFRvSnZUTVd2WmpPZW13WUN4aDRaWFo2OXItMHQ3TW1WRUhLaTJwQjYtSlhRTHhaTE41LWF5Y2J6YVBFX1lRZklHTzFwRDJXY2d1WUZjc2VJbDJaS29zVVNZTFNKZHZKYU8yUDd4Zkd2UG04ZWwzS1dTZExibkg1cG85NGJkN0hVLWpwTXV5a1o0R0xrYjVWQWlvSDdzWV9JRl94R2pqRkxYcEk1VnQ4eVdGVFFBb1pmM0xTbjRxRjAyOVk?oc=5"
             },
             {
+              "data": "2026-04-22T07:00:00.000Z",
+              "titulo": "Arestas aparadas e família é família",
+              "fonte": "ac24horas",
+              "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBaQXluNlU3amNDeE9aVmt2Q01CSVFmTG5XZ3g4dEtVTGVDalFhUEQ0OGNpUlA4OHFYbnhiUEpKVXBJN1dpVVBjeHFpQ3VqbWtfMmRMQUhUZ1RFZXprNHNiYjV4X3RkckhYeHdsQW9OVHd4MDYzN0xfLU9n0gF_QVVfeXFMUDZNRHlhXzBpYlRuY3djNnNuektiWTBTVGY4cVJvVXAzY215NnF6ZUNycmFxZmQ5TlNNeHBhb2ludVFWcGVzbkgtY3R6VWJCSnFlVTNVaV9oazh6RHRTbjdnZGk4Y2RsMmNsSWdZbkZaRkV2YUNfb0VjNVNQZXNYSQ?oc=5"
+            },
+            {
               "data": "2026-01-28T08:00:00.000Z",
               "titulo": "Mailza e Thor saem na frente no jogo das alianças; Alan e Bocalom correm para recuperar terreno",
               "fonte": "ContilNet",
@@ -2857,7 +2881,7 @@ export const mandateTree = {
             {
               "data": "2024-06-02T07:00:00.000Z",
               "titulo": "Nova maternidade, viaduto da Ceará e orla do 15: governo tem lista extensa de obras em andamento",
-              "fonte": "ContilNet",
+              "fonte": "ContilNet Notícias",
               "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQTGprQU5VdTQ4dHlfLTJKalQwNm4tV1NxWkphM3RpcG9ILTJFelJrNklmdFZzZ0RiYkZ3UjVPUWVlUmhGbDNCdk1pRDhLcWZLWmlxWWJLTGgydDQ1R0pVUHdBdHpEajhfc3pTazhOWF9LbmZiZE9EXy1LSVdURUk1b0cyNDJldFNTT0RRbGJKbG5ybmRuZXNHS2NlQXN5T2ZFYThiWDItdmp2UC00R3ljaldKSjZKcnpVVXRTbFMySDgxRGdQOXpLa2VRTmZMVU1WU0xtSi0wdWM1MDd4bkE?oc=5"
             },
             {
@@ -2889,12 +2913,6 @@ export const mandateTree = {
               "titulo": "Gladson Cameli é reeleito governador do Acre",
               "fonte": "Poder360",
               "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOYWprRnNncjYzZ3pDcU5IQ3RTa3kxazVEVHBGUU1sNmx5M04xaUJNeUVHYXZtRFBXOGVuODNjMklLdF9Kdm9pMDR0QzU4UkxJSkFpMy1yY3pEeThIc3pSaVR5RFp3V0hOSGw2SzlyUU1XVTZaN2czb2c1ckFUQm1rb0tDZFkxUUV6cXc?oc=5"
-            },
-            {
-              "data": "2022-10-02T07:00:00.000Z",
-              "titulo": "Gladson Cameli é reeleito ao governo do Acre em primeiro turno",
-              "fonte": "iG Último Segundo",
-              "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPNEtVc0pScm56TmJZS2hha3VjUnVwYUtRTGEtTXAzcUJMTUJ3ZG14Y0FKaF94Q240OFFvNDhqZXZGcVhleUFDRTBjVWVGcVI2VTA1QVBrOTZGRXUwSFJrcTVWQ1ktbEwtUFdRYjNKVTRUQk5STFFWZTBFSkk5WG9KMzZKVmVkSXfSAYwBQVVfeXFMTkROWGdlS0NwenNlWXJvSmpZS1FmcW1GZGF5UDNpN0k4TVBHZEdKd1BEQXRuWUVIZXZUX0t0Y2ZlcHhMOEVOdnZMTE1ISTZYYlpkV3VMSldXbnNSWTBNOUZ2UzY5dzJXTU1iVG4tYVowWHBrNERCM0pqUlJicWNHTmg1b0FnUl9ZalFLQm8?oc=5"
             },
             {
               "data": "2022-08-25T07:00:00.000Z",
@@ -2955,6 +2973,12 @@ export const mandateTree = {
                 },
                 {
                   "data": "2026-03-16T07:00:00.000Z",
+                  "titulo": "Governador Wilson Lima inaugura Hospital do Sangue em Manaus",
+                  "fonte": "BNC Amazonas",
+                  "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPU2QtekVlUUwyWVRFeXhBMm1OVFdfSUNHaUpEdGM4UUkzb08xSDU4SlB1RGIzMFQ0QnFENFRYRF9oTGZ6THM0Zm4zLVZCZU00SDZzV3FpYVpHUy1SX09ISU9YdHJEQ29LTnJvWGRYU2l0NURRdnlZSGV2WldjSVZkUUhIQzI1eU9mX2l0YjNaZjNvdElsMld4SlJ3?oc=5"
+                },
+                {
+                  "data": "2026-03-16T07:00:00.000Z",
                   "titulo": "Após mais de uma década, Hospital do Sangue é inaugurado em Manaus",
                   "fonte": "G1",
                   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOTlNXRlB6U1VqUlVENXFPZmxveENYX3IyYVlGWHpZc3BmQXZUN0pnQVhSbUdzSHZfVWZOZkdqX05GQ0lJVUZIYWU2NWxjbXpDM2ZILVNFUGh1czFhblRJWV8wdnlURWZPRFlXTHkwdC1IUy1iOTdsX3puVnpDZlo3VE0tZ1I5VkhOY2xxWnBoaG5LRXVlRmh0dG04dm00akZPeHRtR3RWNGhiTktENTQ5NnlQTXhKY2FnS0JyYk9XT0zSAc8BQVVfeXFMUHVzSE9qRnJtYkpPWG91Y004cWhpOWVTQ2ZNaGJSNDM3eWpZajFiX3RiM0pfbm9UalNkSGFYLURqRkttcjhmaVI2c09mdXkzRzJycHBsVUloNU5xRWc2Z2RIUjVESHo4aTVEMVpEc211TXdUS2UydjBlSDFsVU5zNUFRVkUtZHU2bXV3aGpSZ0dnQV9rREYzdERXcGo2QTFpNXBsSkQtR0JEc01jeFdSemw0d0F2ZzM5aVdIM3pKZXdmZ0dnMDJPYUFQN2gxREM4?oc=5"
@@ -2970,12 +2994,6 @@ export const mandateTree = {
                   "titulo": "Hospital do Sangue de R$ 60 milhões é entregue à população de Manaus após mais de 10 anos de espera - Portal",
                   "fonte": "Rios de Notícias",
                   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQWXkwMEdxdHl3UXdqTWlSQ0F3ZFV4aGJrdzFCbHU1b3dLTi1pVkYtbWtQTGF0ZEdZQm5adVViRVM2VWhmV3JGWk16emRjWm04LW5QYkxuT3RITmpLZG04ejV4aU5RWkJMLWJrdXhfWDNNbHRibHNEZHlaSldxSEhSeEctUUtRbjIxZGRQRlRTbWwtUE1MTWRCSGxRaVJVM2o4UlBuRjRibFNBVzRsMVVfMmZsNWNTZ19DUVZDcHNpcUtOMmctaE5rVzVjTVVydw?oc=5"
-                },
-                {
-                  "data": "2026-03-16T07:00:00.000Z",
-                  "titulo": "Governador Wilson Lima inaugura Hospital do Sangue em Manaus",
-                  "fonte": "BNC Amazonas",
-                  "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPU2QtekVlUUwyWVRFeXhBMm1OVFdfSUNHaUpEdGM4UUkzb08xSDU4SlB1RGIzMFQ0QnFENFRYRF9oTGZ6THM0Zm4zLVZCZU00SDZzV3FpYVpHUy1SX09ISU9YdHJEQ29LTnJvWGRYU2l0NURRdnlZSGV2WldjSVZkUUhIQzI1eU9mX2l0YjNaZjNvdElsMld4SlJ3?oc=5"
                 },
                 {
                   "data": "2023-03-04T08:00:00.000Z",
@@ -3221,6 +3239,12 @@ export const mandateTree = {
               "descricao": "O estado ampliou as ações de pavimentação para além da capital por meio do programa Asfalta Amazonas, levando obras de infraestrutura viária a 38 dos 61 municípios do interior do estado. Apesar disso, não atingiu todos os municípios previstos no plano de governo.",
               "atualizacoes": [
                 {
+                  "data": "2026-09-05T13:58:42.000Z",
+                  "titulo": "Wilson Lima destaca transformação da AM-010 e quer ampliar investimentos em infraestrutura e saúde de Rio Preto da Eva – Jornal do Commercio",
+                  "fonte": "Jornal do Commercio Amazonas",
+                  "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNbWNKWFVDTFphYV9xOUo0TW1FZDFVM3pxaTJ3R0xaT0tOaW94UzF6UVV5V3JZTWYtenNwWXQ0R1RkcFhna043a3JSZWlFRnE5aUpGbnFBWTgwbjdGMkNPTDZqZ1VFc2lvSmZlT1U2aFlkNzQtX2hfUXBOLTE3aHNyRHBsQnpjWFpuR0V6cW5iMENXR2N1Z3dvTU52R3IxT0Z2b3BfVmFkMkp2U0dfS3VlZFpCa3ZDVkJrdnZubzhvdkVZY2ZiRDd0OVp6NF9Bc0VVcjlESDlTUDdpcXdZWWV5M0dB?oc=5"
+                },
+                {
                   "data": "2025-11-30T08:00:00.000Z",
                   "titulo": "Programa Asfalta Amazonas vai recapear 10 km de vias em Maués",
                   "fonte": "amazonas atual",
@@ -3293,12 +3317,6 @@ export const mandateTree = {
                   "titulo": "Prato Cheio abre novas unidades nos municípios de Lábrea e Manicoré",
                   "fonte": "RealTime1",
                   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMzZMQ1BvZGlTNFVsekZESUNBY1JRQ1RhZ3g5X1ppdmpnczZsOXU1Szl1cWpsSUN6R0RkSnBnMnk3RDJoUUkwTlhhOFVzalJjdFRIMGJhS3lCWWE0SlFuUU9GN012ZEF5TTdITWJ3Ry1XMFFqd0VMTVFBN1Q1OXFnTmowOUlEVVNxR2szam9EbWVBUElSRGZ0dA?oc=5"
-                },
-                {
-                  "data": "2024-05-18T07:00:00.000Z",
-                  "titulo": "Em Parintins, Wilson Lima entrega de lancha a fuzis e amplia Prato Cheio",
-                  "fonte": "amazonas atual",
-                  "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQeWFUVDFJS090eDB1MXB4Nl9oTEc1SlctZVUwT25oblhza0Z6SGNQcHlWX1pzbDJLVERDNTBMdFN2azJ3UVd2S1hBQnpKSEJsQ0xxSVljUk9rYmFsNG9WSTJsX3JGeE9TZDYtYUVvVWxGM0swUjhyV0EyNmpJS0FrMmtjTHptSi16em5hcTNrT0E0Q1ZBdUpKWTRnTlpKWkxMUDFr?oc=5"
                 },
                 {
                   "data": "2023-12-21T08:00:00.000Z",
@@ -3435,12 +3453,6 @@ export const mandateTree = {
               "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNFFzNnBXdE9kR0NIWVBYNjhFdVdUVmVDbzk4d2tzMWtaMjlQMERPcUJVcmx4bXgzbGFlcEE0alAzdG5GNW1IVmdUUzJpOHdlZ1NhdkZ0TWVWSDBIMWhvclZVemFUM1JQSHlFVTZLUjRlcm51TGJiQ0xUcU44Yy1uMnljVW9MdmozbHIwanN1MHhjV09PT2hQdDFCektRNm16QTIzMW1VYw?oc=5"
             },
             {
-              "data": "2026-10-06T08:30:00.000Z",
-              "titulo": "Ambição por poder cobra seu preço nas urnas e deixa políticos sem mandato no Amazonas",
-              "fonte": "Amazonas1",
-              "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcFlLdkg0YnNTbkd3eG15SVhfT2QyR2Vxd2JtdjlhOUNhelNabkVBX29QYUZFdjE0VjRKZE1mazRybWFVX3dfcnp0eHlSeUY2bmpaNnhVMXJiLXhWTVpQX1MtR1FWbzdlWF9ONTEyM3hoTWxISEpVbDZHbVBKVXZmRnNIUDMtQ1NnX3NZWnk5dm1oTW1uODZHQXAxc3NJYzVDdk5id0Rtd1NzdTJLSUFzSw?oc=5"
-            },
-            {
               "data": "2026-10-06T07:00:00.000Z",
               "titulo": "Wilson é o primeiro ex-governador não eleito para o Senado no Amazonas",
               "fonte": "amazonas atual",
@@ -3459,13 +3471,19 @@ export const mandateTree = {
               "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQV1hETzIzZHlTNTJIclczejBOOWVyWERnTGlaa0JfVEVneUs0cnBwd3RSRGh6bTNQNkhybzVvZVg4dUgzVGRxNmpSU0w1U040UTUxWEs2bUlvbXE0NDF1TkU1S0NPNGM1dTBVcWYxQ2tNbmdnb2ZiTDFUaGlHYUxtZ1lTV05zQXJqLUtCWU5ZR2h1d1ppbjBjWmQ2alkyNU9OYUx2QTEtRk5QeENKMkE?oc=5"
             },
             {
+              "data": "2026-10-06T07:00:00.000Z",
+              "titulo": "Ambição por poder cobra seu preço nas urnas e deixa políticos sem mandato no Amazonas",
+              "fonte": "Amazonas1",
+              "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcFlLdkg0YnNTbkd3eG15SVhfT2QyR2Vxd2JtdjlhOUNhelNabkVBX29QYUZFdjE0VjRKZE1mazRybWFVX3dfcnp0eHlSeUY2bmpaNnhVMXJiLXhWTVpQX1MtR1FWbzdlWF9ONTEyM3hoTWxISEpVbDZHbVBKVXZmRnNIUDMtQ1NnX3NZWnk5dm1oTW1uODZHQXAxc3NJYzVDdk5id0Rtd1NzdTJLSUFzSw?oc=5"
+            },
+            {
               "data": "2026-10-04T21:28:00.000Z",
               "titulo": "Wilson Lima despenca para 4º e fica fora das duas vagas ao Senado no AM",
               "fonte": "Amazonas1",
               "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQT2Y4Z1hvWDl5NUQ1TW1nMTZJMHhIb042dnhtNVZ1Z2xhU0FiTVViM05hWU92em9IUjNNOGdBQ1Vxd185RlhpR1dMRDJOSnhGMXdva0JOU1BidGJyeXhVS25ib0xQN2pJWEotemRoSVhIX3BRVzkyMUhfWDE0YjdVOHR4LXVHMHNfQTJzd0dKR3VES2laVnRqSHRtOG96dw?oc=5"
             },
             {
-              "data": "2026-10-04T11:30:00.000Z",
+              "data": "2026-10-04T07:00:00.000Z",
               "titulo": "Wilson Lima pode quebrar histórico de ex-governadores eleitos ao Senado no AM",
               "fonte": "Amazonas1",
               "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNQ2tJaWkxemFlZUhtV2RZNW9zTDFKVGxTRmdDM2JOX3BHdXdPaHFOMVhKVElFMWdGUWtEZ3BqUEVmb2VQYlptcC1Vc0FvZ1FaRVp3ZlIwbEM2WGpGVE90YmtxLTEyWjRWcjRHQmFBZHZjMGtmcDFTNzhVZ3ZlRkczU0dua180dw?oc=5"
@@ -3483,34 +3501,34 @@ export const mandateTree = {
               "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNTGo3RGoxRnhXa3d3M1h0U251dzRDYld0QUtDQURhenRRZTR3LVZxRHFKZUp2ZFRSUXVaVnotQTNwTU9iSFJSVmZHNWtiUDlaWU5XSGFud1pMNzEtcmxMSFAwRGFvakxLV3NpaDJxdFo2WS1LWHdndGhjTm1pdmxQU2VQcFZ4eDh2amIzaWd4WUN0VVphSmVyOWVsTEVRV1NpVEpiZkFCZw?oc=5"
             },
             {
-              "data": "2026-10-04T07:00:00.000Z",
-              "titulo": "Wilson Lima termina eleição em 4º lugar e fica fora do Senado",
-              "fonte": "Radar Amazônico",
-              "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQXzBPTW43R1lqYnMtVUlHODRtSEdzWDFoMjVBdUdGMW1yQ25UWEZfZzVRSjRkdVJiR292RTMzVGFsUlpIbVZrcHAwem5Od0hqY3JaenZTOUw5MU1jcncyaGVDb0VrcFJ0V29wWnNVT1hwcmVxREc1ZnAtdmJBTE1RckRrazJJVGQ5MWlTbkdfZXVrTmNYeTlR?oc=5"
-            },
-            {
               "data": "2026-10-02T07:00:00.000Z",
               "titulo": "Quem são todos os candidatos a senador pelo Amazonas (AM) nas eleições 2026",
               "fonte": "JOTA Info",
               "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOOS1POEQ3ZFhtR0I1cWZFam1VVU45ZDIteDE0V3FRa3ROb1FIazJFMGpDSElFZkZtd09zWWNtZzRJQzBhRWp6S3VXU3BFMmpKSWdQN08yLVdxRk9tZHdYQ2xiM3JEY1dLY2FWUVVFUDVWaEVqTVRuT2NQeVZSbFJJRGVRbVJjYkJ2cVdHcjRfZ0wybklxLU85LUVfdVZodnJVaVZzZFhRdkxOanNiWlhMcncwdEN6T1hWTHc?oc=5"
             },
             {
-              "data": "2026-09-30T19:31:06.000Z",
+              "data": "2026-09-30T07:00:00.000Z",
               "titulo": "Ex-governador Wilson Lima revela bastidores da decisão que mudou cenário eleitoral no AM (vídeo)",
               "fonte": "Radar Amazônico",
               "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOT1VpLUNuS1FIT2FXMDJab1dFNm5SejNBRThDelZkcUZ3VTFjTjNuUFMzeWxGdkNNc204T1lldXpSV3hQTmNwRmpmMWZOUzRMWHhlaW5TU0FKN0tyTlJvRXFZTy1UWGpJY3pnSGJzYVFfOEpDYU5aMmZTdzFJS1R5RHF1RWlVY2NSRGV1T2tGNms2ZXZadi1qLXhUNnBCdUdYVVVDT0VaNTJxbnVQQmFEVTJFSVB6bkxaa1k0SzByek8tMEE?oc=5"
+            },
+            {
+              "data": "2026-09-30T07:00:00.000Z",
+              "titulo": "Qual é o número de Wilson Lima (União) para o Senado no Amazonas?",
+              "fonte": "G1",
+              "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQZmVoclJySWFRVkdLdGZPcmd4aFpXRWNuSWtXMmFKS2tZT3praUVGNlVLTjZxMzlZckloeTZmNWhNX09YTzI3TF9kaDJIVi1jcnMtekhIbkRva1NpWEQwdkk3NzNFN3pWM3QybmsxWXhkWkJ3YVB1RDVQZXAxNWhIVlNPYlRpeG5tTXZnd1dXdFpkWWliSzVlZ1pzN21RcVlWWmpoc1VIV0tYY1lSb3d4YVltS09lMFRBMUNaNUgxaDVIMk9tNnlMYzVveFdXWTjSAd4BQVVfeXFMTVg5WnN5LVpIYmJieVpBSG9Vc2VlQWdEbmNvSm1WQk9JMXR3VElRYzdGVGI5WS1aaHpXY2hIRldrN2VkMG1WTUkyZTNHZW1jTkJnbVk5RVJDYkdpak5mOHdIUTNTY01Ja0ktdmdiRHF6SFJDYVJTZWJ5WWIxeVNwRTlFNkM3cVNPYXJQUHlpd2JVRzBoY2E1d19NNnhSZXBYSXVaYjhMZ0lSQUFfVkgyQ3M3eUdmNlFCUFF4MHFpOFRjWnlua2Q3MEszVXpXYlQ4dHNfY0YwbGNGcjRCMVJ3?oc=5"
+            },
+            {
+              "data": "2026-09-25T02:35:09.000Z",
+              "titulo": "Serviços já implantados orientam compromissos de Wilson Lima para a causa PCD",
+              "fonte": "Informe Manaus",
+              "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOdUV2M0ZEcWVRd0JRX1YxdGpyeVVYN0tMNkVleVlSTWRSYkpHWnRTcU92NUZpTTJ5M2RNSFBIa2VwNy1oVXB2czhoSXgyRFRFWXpBaEdET1lJSTdMcW1idGFUTm9rQXI1cW1QNEpleFdUUGJVb1VzRUxXV2hsRXZ3eU9LeG9vVFpGb0dCZDVfR0FCTVBOVnh2dE1zZEZudw?oc=5"
             },
             {
               "data": "2026-09-24T07:00:00.000Z",
               "titulo": "Quaest divulga pesquisa para governo e Senado no Amazonas; veja os números",
               "fonte": "Gazeta do Povo",
               "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQLWV6RnBwdFZxYVpiclpLWGU1U0x5WGdLX3J0YnNlZUFQN3lwU001aDNRdGp5MEFGMlBnMUdFUHhVZFBOU0pOYjZyQ3dLdENhSFBCeGxJTnllMFdnV0tobHhmM29hMWpXSjNHMG9iOERuYUdBRzNwZlZRVXh0TGZGTm5kUHRDYmRuTERTbWpkYmFYX2x6VDI3dFBlNDJ2Nm5JU2tYRExqcndrODNDaFUxWm5UOXp0M042VGs0?oc=5"
-            },
-            {
-              "data": "2026-09-23T07:00:00.000Z",
-              "titulo": "‘Fantoche de Wilson Lima’: cutucada de Isael a Cidade repercute entre os eleitores",
-              "fonte": "Amazonas1",
-              "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTVlZUl9KZG9RQXRTeVZXTEtKQzN5d1BnempSQ0dlWDlqVEdENXIwM3hMQllEQkQzS05YbG5GVGJSVElHT0p0VkJCLTJBUW9EUVRUUUY4WXBPSDdKQ0ZBbTNab1dXNWV5VVVheVRGQm5jNGNIdUJUSnBzWXRBZFRISF9WZ2x5TTdJem1hejEzUF9reDE4c0lEOW11eWZzMUdYUWYxMDh1M28?oc=5"
             },
             {
               "data": "2026-09-22T07:00:00.000Z",
@@ -3550,9 +3568,9 @@ export const mandateTree = {
             },
             {
               "data": "2026-08-12T07:00:00.000Z",
-              "titulo": "Wilson Lima declara R$ 597 mil ao TSE; patrimônio cresceu 164%",
+              "titulo": "Wilson Lima declara R$ 597 mil em bens ao TSE; patrimônio saltou mais de 164% em oito anos",
               "fonte": "G1",
-              "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQeUZNbG5IRlRadFVNMWxMcFJTTEFacTRORjhtV25ZZ2xJNVZqZEJ3VU5BQnp5Yl8xUXZCWkFZQkdQdEVnbmRKVWgxUW9hQW0wNWdLM05jSDRQZndjN3k3YUdOMWNJaGlqT0w5c2h4STdIY1RNYkdVRzdYQVhNcEhPUTJ2SUd5bUk5UVU1Nkx1ZEJ0NU0zdkRmNU5CY3dnOGtvR3hqMUhoR0RVMXVkWW9YVFZfT1JYd2IxVWRqS1VrZS0wMHlwaDlpTFpzTXNabTlNc2hGTHNSdUVyaC1ITlViOUJJcTZxUWJlbVhWcmtrSnZNLWlrZlVMYU13?oc=5"
+              "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQeUZNbG5IRlRadFVNMWxMcFJTTEFacTRORjhtV25ZZ2xJNVZqZEJ3VU5BQnp5Yl8xUXZCWkFZQkdQdEVnbmRKVWgxUW9hQW0wNWdLM05jSDRQZndjN3k3YUdOMWNJaGlqT0w5c2h4STdIY1RNYkdVRzdYQVhNcEhPUTJ2SUd5bUk5UVU1Nkx1ZEJ0NU0zdkRmNU5CY3dnOGtvR3hqMUhoR0RVMXVkWW9YVFZfT1JYd2IxVWRqS1VrZS0wMHlwaDlpTFpzTXNabTlNc2hGTHNSdUVyaC1ITlViOUJJcTZxUWJlbVhWcmtrSnZNLWlrZlVMYU130gGIAkFVX3lxTE82U3ZZV1ExQndRdUR4UkpJaXk3Skg4ZXZGUmlkQkFmb0F1MWxrbkxUbzRoVDl2bm4xTGdHcmx6Z1RVNktSVFdkUUpBQ2FKcjNzZDZvcFBVYTlhbmwwMDJIU3J3bGo0aWtMVjlBNm5nWHBQZnpTcmpJRF9CRHFnVVByeEhNNC11bzdTRTM5XzM2SklfeHlRbTdNT1VHdXFDMXF5OE40RkZFYnRlaFhxS3RGNHFOMlBIUTdOMWZuc1FoSm9UZmhiTHk0elhhZWo5aGtkNWJENUpudVUwX0x0RnlqZUR1Y0F6YVFKZHNpLUwyTmJrZDEwRW12ODBZcVVWeTc2LVNzQnB0bQ?oc=5"
             },
             {
               "data": "2026-07-22T07:00:00.000Z",
@@ -3561,10 +3579,10 @@ export const mandateTree = {
               "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTmQ3MEVtd19mNmo4b3FvTUZod0hnNjhZNW16TmxTQ1RJWWhqLUFPNEg0UHFjWnh0OS10aS02M3JpaURCN3pnbzc2YTZkVExYYl96emxUOS1FRXprYXNIcmFFdUxycW9UWENWbjhoQTVzbF81b01yUUV6SjEwcEJEdEVyaWFaVjlEd01KU2t2MzBIVF9lcUFIY3ZuNXRwLW9IODdWQi1TR0VHdU1R0gG7AUFVX3lxTE9OeG1ZdlQzcWxSLVlsZXA2a0ZpZC12Z09zVWlQVE1TZ0diM0hzdkxNTUI3dGRpSFNKeUQySGJyQjRyY0JORDN1UWg0WmVwNHFyRE9jNUVPQVlkNlo1a3lUbHI5aDZGSGpQWUZFVWhmbkNTOEt3WTdhVl9hZm9CaDlkeWpXNHJTeUpyLWlGeGVTZkxsUnVjd2RBYVBpTUpFTmkyWWJWRFhmRlExeXpmNVc4eHpPYTExWV9BaDg?oc=5"
             },
             {
-              "data": "2026-07-22T07:00:00.000Z",
-              "titulo": "Wilson Lima cumpre apenas metade das promessas em três anos e meio",
-              "fonte": "boca.com.br",
-              "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPVVZkV01BYmxQa1lKNUh1NExLdk5EWGM3clJPejgxS2d2VmJ3R3hqUjdOa0lZOTFueUNDRHJKeURuWTZHVE9EVXZaY29kMkRvbEp3azN4QlJwOE44eXFfY2I1a1MtemFpOHNXc1dhTDM3ZXF3RFRQR3dWY2dUcVFCLVIxTWU4bmdBb1VuaFZib1U4emVOVC01b3R4UQ?oc=5"
+              "data": "2026-06-23T07:00:00.000Z",
+              "titulo": "STJ muda relatoria de ação penal contra Wilson Lima por fraude em compra de respiradores",
+              "fonte": "G1",
+              "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPX3ZrMW1wSHRZbThMVUxYaUNueFFoem9LU3NkQUZYUVpiTDVuNENBRGQ5S2lkSmxHRW03eUFHdWlONTRJdjlEUHJKdVFTNnV0MzFFT0tZRFFVZlN4N0N5STJZWmp2WV9DX2tHejk2eGhnS0FlRFFudm1xNG5NNGRwdHJTSWdoSmNyWEcxZy0wS0hzUE5ETmNiUTUtbFM0cnFXQTJYb20xRFhlVkhMbk14eFNxNHprclVJenRJNmZ4VE10R0poamYzdHgwclFWdTlVNVRobVh2UDVnNFJqcVpn0gHuAUFVX3lxTE5NV05xSEtEMXRVTVRHam1yaXR4a1F5amJ4NTJ3TWkzTHhhYno0UXhFVjB3RXY1UnV6QmtsMS1kUFRleEE5V2FrN2R6cENMMzdwS3lIb2dEMGhPTFVfem96U29Pc2pETm1uY1hncTlDNDhZdGJFMjRNR2VfY1NaWDAwR1dFQUtDcF9IVnVTcjIxYzFQdGpJWVRPa3pWRmdqWktvbWlVc2FTY2dhdjVCS19VLXJSaUJrdXBrcVYtaFRZS0lob0dwTnZIdTVtTVZOMW1BdlEtUURUOFcxNnZjbDRsTnJrbVdIdS1YSHZWcVE?oc=5"
             },
             {
               "data": "2026-03-25T07:00:00.000Z",
@@ -3573,16 +3591,16 @@ export const mandateTree = {
               "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOMzU2R2hkdF9FZ0E0R0RiM0RnUFlRRFpudlNqLTNIMzRoTWxTam1lT1l6TGxHOVZLRVc2TFVyUDRmOFFMa2FlMExoZnNla1MtaUtHZF90bHNfTW5mQXR6Q3p5bFZtWnBGS0xjbXVhVlp3UFU5UWg3Y3VtaXFIWUcwWlFhbXg1bll5eDZUb0g3My1YWDl0ajJ4YjM0UQ?oc=5"
             },
             {
-              "data": "2026-02-03T08:00:00.000Z",
-              "titulo": "Governador Wilson Lima apresentou, na Assembleia Legislativa do Amazonas, um balanço das ações realizadas e avanços alcançados pelo Governo do Estado desde 2019, nesta terça-feira (03)",
-              "fonte": "Agite Manaus",
-              "url": "https://news.google.com/rss/articles/CBMixAJBVV95cUxNakNFdHI3dzUtTGVZR1g3NzFDUjg0WWdrQXNLU2xaOFNHTDhYLXl3ajlfNUg5bXA4cnBpM002aGh0b1FEbnJiSjlkYVdKNEdPMF9sX0k4WU9seUtRWWh2U0RKQjRVY0hsOTNlS08yUWhLTHByN29SMFgtMklPaGM2UF8xaDJvRXVYNUZMSnlXZDBiQndISmMtdFEzRF9vTmU0TE1SdXV4ejhfbmh2YV9qcGlZVk5pazE2NEIzVkMzS0dqMkpicmF4N0tWQXhjTEZ1QVRwVjdpTG9Td2FkUlVkcEp1SEdUZFhidGM1SFBtNlA2UGtRdWt4S19QU1FFa1ZKUUR1Q3dRVnczM18xOFRyQWF1bHJKV3pwZURVQnRxVFh0OV9mX09tMlNoa2tfM0hYcC1SbHdhMUxKeWpfZnB3UmpnUHk?oc=5"
-            },
-            {
               "data": "2025-09-04T07:00:00.000Z",
               "titulo": "Saúde do AM é pauta de reunião no Einstein Hospital Israelita",
               "fonte": "emtempo.com.br",
               "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPb1FlRjNqeGxrTV9RekptZGV5QnBOXzVHb1djTFVPb2t3TUpMSVNrS3JYbmZoM2w3RmVyRVVONVJDdkphSUZHNGJsR2pFVElsZXhNNU9lcnpLb2xaTG1CYW43Tnlxd1ZLeUMwamJKak1adC1GWFNhUzlhMmc5cmI4eVJtQkdzQ295NnZz?oc=5"
+            },
+            {
+              "data": "2025-09-04T07:00:00.000Z",
+              "titulo": "Wilson Lima destaca avanços da saúde em reunião no Einstein",
+              "fonte": "Diário Manauara",
+              "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQQmhMeE9RYXZHS0k1eW1Yc3BNS2FmZDBXVEp0Qi1FRXFrNEt6dWVBUks1QVVLR3Y1QzdtVURQYmhSRzhhWFRKTW5NM01DdkVvQmVaQXF6TG5XVHpjRHZ2OGZrZVdCODdfTGVadDJZWEphaFl2MGRmYmtlUzc3dVBua29RNDBUV3RVdkZBRVBfLUZid19KMXVFYkhIMkE?oc=5"
             },
             {
               "data": "2025-05-05T07:00:00.000Z",
@@ -3619,12 +3637,6 @@ export const mandateTree = {
               "titulo": "Com propostas e prestações de contas, campanha de Wilson Lima é conduzida pelos 'marqueteiros' Alexandre Oltramari e George Wilde",
               "fonte": "AGÊNCIA CENARIUM",
               "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOUG9ZTFZCNG5YT1kxOU1TZ1NtQTZoUmk1NktsYXVBN0psc1luUF9rR1FKSmRJZ21sVnRsdDV6cU0yRi1tVGxNdUotbUpmTEtuQWV2MmRROFQ3N01ZUWdfZXdiN1c3YUoxWWRyYjJ3QTJNVXRkSWRUZS1kS3pWUlRKNDA3bzFBUnRkd3kyNjktendOOHBtS01QUU01dFZES2pjaEFUNFZYWktuV2ZyRm1ZcGluTlBVd1JsV3Y4RFZ2bE5xelpNZjExNWwwcnItS05fWV92TXNtRldqSjNOSjA4STZoUC1ESHVjR1IyZ1BFTQ?oc=5"
-            },
-            {
-              "data": "2021-12-19T08:00:00.000Z",
-              "titulo": "Braga, no 'Coco Bambu', e Wilson Lima, no 'Prato Cheio': pré-candidatos ao Governo do AM revelam 'gostos' na internet",
-              "fonte": "REVISTA CENARIUM",
-              "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNbTl5TnNrZVQ2b2xyVHN2ZkFEZGdPbjZ1TTAtclJDY0gwT08tdjAwdUp5Y1Bnem8zWG9VaG5fMXFHM0stMG5YR1pscmxCRm12bTdlSi05UFZ2YkNCM0FtS2hVNXE5aUlGQ09kSzhpMHpkbEl0M29NZ0trR0FIbUJ1YlJZTFdYSDAwSDlpdV9yMW4zcXdhWlYyV1dFRWE5akF4dFZoVk10SkNXSVVuQ3pmSVBpdjVlejRZcW9zRE9oVTMzVkdxTkxEZUFiU3pJUDFZOXlOZV9B?oc=5"
             },
             {
               "data": "2021-07-03T07:00:00.000Z",
@@ -4024,7 +4036,13 @@ export const mandateTree = {
           ],
           "noticiasGerais": [
             {
-              "data": "2026-10-15T13:50:00.000Z",
+              "data": "2026-10-16T21:24:00.000Z",
+              "titulo": "Governador Clécio Luís lança concessão florestal histórica e projeta Amapá como potência da economia verde e sustentável",
+              "fonte": "Agência de Notícias do Amapá",
+              "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNZWFuZ1phdVlaR3JCenYtNGQtRVdHRGF6d3B4REs2SlhWUXRzQ2lidXlqT2pGSW9tTm9fRUMyckFBRW5VOVhtUUNMMWQtZWNFSUU1dThNYjNGMmRRd3NNSFlHTXFrcVpZME96MWV3dHVDbldnZ0NsQzBIWXFmMjZwdTJYR3V3S0FYbW40RmJ6ZzFHVjVyYnBpbzJGbG43a0c0MGppMkxvaDFab01rY05YTmRLMVBTb2JmRjFLUkdkN09pVjA2ZDh3RUIwUUR6ckJ6TEFwclpWQWtJcXZZZnY5RWZxNjRIQzdmbnJlX1l5YWNhM2Jj?oc=5"
+            },
+            {
+              "data": "2026-10-16T14:35:00.000Z",
               "titulo": "Clécio 44 para governador em Amapá em 2026. Veja biografia, propostas e tudo sobre sua campanha!",
               "fonte": "O TEMPO",
               "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNVWQ5eHdfYjNweldyZlV1dzBZcThCWGhCT3d5M3d3ZGpCVnZjNVNZeTV5UThEb01acEFvRktPVVExSlVnSTJUTzN6eDYxT3F0aXp6OHVWczlpX3NXNVYteG1mdXhETXk1VTRlMFVEank4V3FPcXRMeVRYMDNxWHZGcDZpSQ?oc=5"
@@ -4067,9 +4085,9 @@ export const mandateTree = {
             },
             {
               "data": "2026-10-04T07:00:00.000Z",
-              "titulo": "No Amapá, Dr. Furlan (PSD) está matematicamente eleito governador no 1º turno",
+              "titulo": "No Amapá, Dr. Furlan (PSD) está matematicamente eleito governador no 1º turno | Eleições 2026",
               "fonte": "Valor Econômico",
-              "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNbVBUbGVHZ3BkTExEVkFpcTBueWhNSlk4UkthQ2UydE9UUjE2cW8zNTdyN19JWFVmUWNtVnA4RkgtY0FyaWxxTk5JRFREMUNjTjh1eUJrRlV3SGtWTXZ2djV4cGdHMXlaVS1WOFptMDlMbkY0ZHNiXzQ0MVBVOXNUaDRnLV8tWUY4NFFidFVUX3h6RndkXy0zYWdQYVJma1RvRDUwWEYzcGViN0JHcnEtZ25TU0NfZEY0RGg3eHY5R0wwMVNzbk9sZzJtS3NSZTRPYU1uZ1NIMWxfUG02NVRJRUhCZi10QdIB9AFBVV95cUxPYjRuVjZJZHZXdXhEV2IyMWQyQlFIaXhQaGRQWXY1RVdKR0k3UDFMVEJNdXQ3OVRMczdtZlJ1SDRFNVJoaUxudE1iZHd5WVRWWTlDS0k3QVBKN3pEYXBXNUo5TFI5R0dGYzNLVDJRdUNIcG9ZRk9lTXJCcGoxUEZHNk1Ec2dNOTRfMU04TGlJM3RqRUhaaUx0ZFNVeHZWQXJPUEY0VTBSRGxVNGJCamxWX1ktblRtWjF1NHNkNzdVek1BWjVFaHNBbFhpa3BoX1kyY3lCSEpyVDdNalF3bnRwUC1xTVV5VkpuU2g3cGZCNDRjSF9H?oc=5"
+              "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNbVBUbGVHZ3BkTExEVkFpcTBueWhNSlk4UkthQ2UydE9UUjE2cW8zNTdyN19JWFVmUWNtVnA4RkgtY0FyaWxxTk5JRFREMUNjTjh1eUJrRlV3SGtWTXZ2djV4cGdHMXlaVS1WOFptMDlMbkY0ZHNiXzQ0MVBVOXNUaDRnLV8tWUY4NFFidFVUX3h6RndkXy0zYWdQYVJma1RvRDUwWEYzcGViN0JHcnEtZ25TU0NfZEY0RGg3eHY5R0wwMVNzbk9sZzJtS3NSZTRPYU1uZ1NIMWxfUG02NVRJRUhCZi10QQ?oc=5"
             },
             {
               "data": "2026-10-04T07:00:00.000Z",
@@ -4079,15 +4097,15 @@ export const mandateTree = {
             },
             {
               "data": "2026-10-04T07:00:00.000Z",
+              "titulo": "Candidatos ao governo do Amapá votam neste domingo; veja",
+              "fonte": "G1",
+              "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNd1RJRHFRSHI2bkZWd0xsOC1IM0FhREV1bElVUm5wTHUwaEs2Sy1BMU1XWDdJNGxPa3ZQRXlDSEdaNGFFNjI1OG1ZcFFmS29mVkhTZ1p4OUVhdDBoSnZqaTN4VkRVbkFkQ2pDc3NkdVU5enNlekwwUmVVX2wzN2NsYVlPOUw1bnFuSllZWDhNc3ptRTZVRjdNUGhUazMzX1RoWXhkUVB4WGx4NTZMcjV6RDNEM0gxV1VLQWhhMm5ZekJYQdIB0AFBVV95cUxOOXBBa3BYelRMdXlhX3c1MVlOeGtJekhIWjRqbnhaOUtzd0x2RUNSdFRmeVltMkxxWE0wVmJsRVNXSWdKZXhvNnowOEJpdllNN0tKUTNfTUtYeXJndmFmR3V4eDF5YjVadWNBdzVSN3RVd0EtRmwwc3FWVmhVbHdhSl9YbmRIb2lVMUM1azgxR052T3lzMDV3N2lraERkZ3I2RmxQVlRvYmRqVXNMb3pzVTd5YURmUUY0N3Z6R1Z4TkY4TTZfWmJSWGN4dFE4bm1K?oc=5"
+            },
+            {
+              "data": "2026-10-04T07:00:00.000Z",
               "titulo": "Clécio Luís (União) vota em Macapá",
               "fonte": "G1",
               "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNSXBLdDBQeDBRQXEyUHFfLXFwTm9OU3ZmMXA2amo2ajlIN1pKYkY3T1E3RUNnUW9zbmFkTktmenMxb291Ql9sd3EwQUpHc1YxWHctNGNQdmQ3ZjhSZ2tiNTRGZDB4RFJobnR3SS1tOGxaMkUwVGpkQ2o0Q0FUM3Z4WmF0Q2hERXhXWFI5SHNEV0xxZmUxTlhFR2ZuSkNJQm04MVJF0gGyAUFVX3lxTE44c29HWkM1Y1lpZHcwX2lLUHVFWi1RX09ZV0lacWZ1R1NnREJiN2NwcDAwTlpoWDliekR0ZzNvSnJJNE0wYTBGbFpPX1kwbWZFaGppYUhBMWhLaktVb2hwNG1qQWVYczBTd0g4dFRweTJVQ2N3b2R2aFFzZGZBYTlQN3gzRnNTbkJoV1E4YWdWVk9iWGpuMXpIc3JmVUE1YzhFOUR6dFAwVF9BZ2hobjU5UUE?oc=5"
-            },
-            {
-              "data": "2026-10-03T07:00:00.000Z",
-              "titulo": "Amapá: Dr. Furlan tem 53% dos votos válidos no 1º turno; Clécio Luís marca 47%, diz Quaest",
-              "fonte": "Estadão",
-              "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPOFF3dGExdXc4TW43RHgyT3pJdGR6TWZMbklzNTZzZkhsTEgxM0VEYXpJSEE3U3d5ZGI3OUctend6UmhOZ2c1RkFKQWlvQ3hSUUNoNlN3MzRtY3BORFc3Vm1NVjVSWGtIRmdGU0hNaTZ5UklGdmsyeHFSeENkc01zTWVhSmJSSkhhSHBOaWNFZ0VHUUnSAZgBQVVfeXFMT1d6S2JsNHJaN0oxVGpna0w1eEIwcXZDMjBjblNKWjEtOW1yZ2RpMzc0V2N3ZUR1QW5mTF85LWNtNmN2YUMtaFVsdE51N2ljd0tEVTJ6QmZZNUx3NzJBQlNiZHByLWxMVnp4S2EzYXpTZlBrVnVsNV9nYWcxdHVJMmpMbDZYM2JKUnh6SGJlUnlFemlFMUI3Zk0?oc=5"
             },
             {
               "data": "2026-10-03T07:00:00.000Z",
@@ -4097,9 +4115,9 @@ export const mandateTree = {
             },
             {
               "data": "2026-10-03T07:00:00.000Z",
-              "titulo": "Quem são os candidatos a governador do Amapá em 2026",
-              "fonte": "CNN Brasil",
-              "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVjFWODg1SHhwUEVOY3YxNzZYMEtQTmVhUWlXNDU3cHVLdVZmR2RWdERTLU1WU1dTRUFJeGd5OWx6LVFYMjcxU0NlZEo2VFhZUzFzVU1hTmI5RnNjUWFxSTVhbU1mSXFhOEFrZE1NdTZBRlFqVFNXSFRUdUREZmVEZzJwNDNUT2JoTU5pdGJ2ZnRUUkxuVVE?oc=5"
+              "titulo": "Amapá: Dr. Furlan tem 53% dos votos válidos no 1º turno; Clécio Luís marca 47%, diz Quaest",
+              "fonte": "Estadão",
+              "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPOFF3dGExdXc4TW43RHgyT3pJdGR6TWZMbklzNTZzZkhsTEgxM0VEYXpJSEE3U3d5ZGI3OUctend6UmhOZ2c1RkFKQWlvQ3hSUUNoNlN3MzRtY3BORFc3Vm1NVjVSWGtIRmdGU0hNaTZ5UklGdmsyeHFSeENkc01zTWVhSmJSSkhhSHBOaWNFZ0VHUUnSAZgBQVVfeXFMT1d6S2JsNHJaN0oxVGpna0w1eEIwcXZDMjBjblNKWjEtOW1yZ2RpMzc0V2N3ZUR1QW5mTF85LWNtNmN2YUMtaFVsdE51N2ljd0tEVTJ6QmZZNUx3NzJBQlNiZHByLWxMVnp4S2EzYXpTZlBrVnVsNV9nYWcxdHVJMmpMbDZYM2JKUnh6SGJlUnlFemlFMUI3Zk0?oc=5"
             },
             {
               "data": "2026-10-03T07:00:00.000Z",
@@ -4112,6 +4130,12 @@ export const mandateTree = {
               "titulo": "Clécio faz balanço da gestão e apresenta planos para futuro mandato em sabatina na Diário FM",
               "fonte": "Blog de Rocha",
               "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOVGFFY2ZyU2wzS0VxXzVYR1JMamhHYXBMTmpSVHhrOTgxN2RiYXUzYURNMlpOVFlfaTVUUEJZeGFmZ2M1VS1CXy02UDVoMGJCNG50bXlJMlpyZjNKTDVqSjVUSnlVdWk2bzUxckRON0xTcFQzVy1uSC13cHB1ZXY2d25ydm5RYjJDamN1andPN1d6UFBjZXROUzFLQ0NPdnhUaThnT3dNVDRpMS1Jcnd4MnRqeE8zc29rbVV4U00zV0JvUQ?oc=5"
+            },
+            {
+              "data": "2026-10-02T03:17:14.000Z",
+              "titulo": "Clécio apresenta conquistas históricas, projeta o novo mandato e expõe contradições do adversário no centro do debate da Diário FM",
+              "fonte": "Blog de Rocha",
+              "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNV01CQXdvWjF5MTl5cmtWOGRqRlJobDV0c2JKZFRIMTVBaTFURlZDMWtDVzc0NGs5OVF1cmF6UEYwbDBtSjFkcDJsbkRCS0d1VnlBZzNXZHN0b0luSDhQM2lmOXpBVzE3LUhPd3lldi1yb2FNblVOWGNKRlZSZzByXzNDaXFmUkpqaV9yMTluNW12Vm82a3ZiSTRPeFBzZ1Z0YnR2ZUVGYUNMNEl4c2k3TndHZ1JDa01RR1BkWnJqM1EwSWV0aXo5RWdlOWlXN0p6ZWF4bFVsMkU4ajNyTU1nQVAtR1FwY1dPMEQyRDJ0YTBfM0U?oc=5"
             },
             {
               "data": "2026-10-01T07:00:00.000Z",
@@ -4130,12 +4154,6 @@ export const mandateTree = {
               "titulo": "Debate na Rede Amazônica: candidatos ao governo do AP discutem facções no funcionalismo público e aplicação de recursos no Banco Master",
               "fonte": "G1",
               "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxPX28xelpmMndFQlhjM1VONDJBMEFaUXJaTXFFdlNIX2d3eHhwcDk0TTVlUnFjSjdZYXFoRzhVNE9ickEtNVRVWFEyeXRoY3FoT2FtbXJiLUxzdHRKcGhfdUNNZHowN3J6QUhELXU3YmNsbGhVU1VBNXdSUFNFa0IzTGJhVFlEMUJTQ1lLM21lZXNtMHhSMzNtNXVMVFhLNWlPaVhpalMxMFN3M2FQQUkzZ1MtQlNtZXJ1QTNWZ2dPemM0dWxJWmdSRmNhbjR4RmNNMXhROTc5VWpEYlh1RkJlUXA4Yjhza0JqX3hjVHRDa21ocF9wLTNFQV9GUGVCS1Q5bVFTdDFaZVNXaHY5VHZ2YU52aXNmQ01QZ2dodkxTZ1JwZ0YwRW02eWpSb9IBugJBVV95cUxPc2ZncGJ3YUhjOG5LS1NxTVdNYVE4ckRLN0U5TnBrcGZrQlIzWTNGWnotYTlGM3VyTTNHSjlUM05TTG1sc1pISF92MHlTeHQtbjRoNDJYSWI0V3dSb3ZaeDF2LUd4NVhVSnoxYnd4cGRBd1ZXdzNiZWhMVGVmMnFpTld5MEh6eEEwYl9ZMG1sLTJDTWxJVUxVa2MtUU9CNjBUQk1PSEpPQ1I0ZUZhNFR3dzN2RlllYWZ5dVo0UTRteEJPa0pTVEcyeC1XUXBvamRXSV9ocjlYMlVDZjQ3Ml9oOC1HTVNCYXR5TXkwY2Nkb05JMzU1a3BZLUh1Unh3TjdpelNGWk8zSFUzOG0tZWE5ZmlXZnZ4RlFXUEYxbWR2MGNkMUhacjlRQW9pZ1o0bUlNU0xTWmFjenJkUQ?oc=5"
-            },
-            {
-              "data": "2026-09-28T07:00:00.000Z",
-              "titulo": "Pesquisa traz má notícia para aliado de Davi Alcolumbre na disputa pelo governo do Amapá",
-              "fonte": "VEJA",
-              "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPUTNvTVNkb2MtTGMta0hNQ21URjdGUW9TSTlWMjhKMGZWTFVaMXRHWi1Ba2pPQjFXUy1WRm5IUkkwUEt2R19zaFNZM0ZaUXhVWVVfdzdRd3ZNRnFGRzkzSWhNdlNPS2Z1M3pRMUFXaVpkeWEzQVNyOXI2bzRRbDZaWW95NlBVVUZJYzI3V2gxdExMai02SEtZaU9aNzRLWF8tajNBdFVBeVlwT0hjcFRSRllzb3FQbG9XQ3FEdGpPZnhiZw?oc=5"
             },
             {
               "data": "2026-09-25T07:00:00.000Z",
@@ -4198,12 +4216,6 @@ export const mandateTree = {
               "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPTzYtcENwUWp5TmV0VmxnWF9NZmo4dUo3eXhoLThoR0F1bWdVRzJ4OEZBVW9mTVlNYURXbFVGMG1vNmlwbERaUFIwZ0RjYmJPZHpHMnk0WW5LZ1ZnYXoxckY4Qm1zUzZCbG91OWNfd2VNMkxSdkJIR3lkeEF6OVFkZ2xUalctUmQ0LVRUSnVuRVVDcjFVOTdjT2ZrVmJiWmNRa1I4dXZwdURnQQ?oc=5"
             },
             {
-              "data": "2025-02-28T08:00:00.000Z",
-              "titulo": "‘Vai se integrar à comunidade e melhorar a vida dos moradores’, diz governador Clécio Luís ao implantar unidade de Moto Patrulhamento em Macapá",
-              "fonte": "Blog de Rocha",
-              "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPcC1qMXl1VjZVU3N5NmZiR29pVDF1Z0RobURqLTFuQk5YTmowa2NOTE9Xb2hOU0VHNkxoNkRHQzZPV2pVdTBFek5TMzlVekRlODlqU1l6cE80a2trd2RWLUp4ODItVjBFYWdsRHpRdnAta3pqVjNmNFFHSVRQUVk5bGkwOUJTVmxxWlIwUE5lNURlR1pqT1U0cG12MXphWXktS3RNZGF4TldCcnFLZkZOb2lqRGx3ejJoSnNzbHFMU0lKUE9VWjZuMDNzbEJKTEltR3k4TU5McnVQMlQ4WjN5QTRYZ0pKYXNDa0U5Y0tCYXpwcFh3R0pSNUtDSkRXVTFkYlE?oc=5"
-            },
-            {
               "data": "2025-02-10T08:00:00.000Z",
               "titulo": "Governo do estado implementa programa ‘Escola Segura’",
               "fonte": "Diário do Amapá",
@@ -4232,12 +4244,6 @@ export const mandateTree = {
               "titulo": "Em esforço inédito, Amapá tenta “zerar” a fome",
               "fonte": "SelesNafes.com",
               "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNeWZnUFV6cktjMnRqTjBCaVduRVlYRi1TSF9hV0hJS1NDOFRoQXBnTVhoVzExTm92ejdZUXNPbHJOYjRxWEx5TlpJZ0t6RlVBQTZRYm9wOTl2eU9rXzVoVnlUNHB1VUliazJ0QUktQXVPbk1xc0Vaa2ZpcW5LX19aQw?oc=5"
-            },
-            {
-              "data": "2023-01-13T08:00:00.000Z",
-              "titulo": "Clécio Luís empossa 49 gestores para composição de seu governo",
-              "fonte": "Diário do Amapá",
-              "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNbW1hd3g2X1NYOEZ2eW0yRmh3ZGRKUmIyYU5Pc2xTNGw0VUpaUDFBMUNiMWVtc1dVVS1haWlxZm05azRCN2IxSzVSbEpINGZtWmdabERzLVNpRXliaG1BTXJpTW1id2hiSGpCNHV2MDhYSWFCdHhVRzBINnp2WkxVYmdsUFdKNS1wR2h3NTNpV1ZQd1d5WU9uQUJ6QUpNV1BGRHV3bFFSVFV2d1hDTk1ZNWg0eUE?oc=5"
             },
             {
               "data": "2020-12-08T08:00:00.000Z",
@@ -4344,16 +4350,34 @@ export const mandateTree = {
               "descricao": "O governo cumpriu a promessa de ampliar a rede de Escolas Técnicas a partir do diagnóstico vocacional das regiões. A promessa consta no plano de governo. O número de escolas subiu de 32 em 2023 para 37 em 2026.",
               "atualizacoes": [
                 {
-                  "data": "2026-03-02T08:00:00.000Z",
-                  "titulo": "Educação do Pará contempla estudantes da Escola Técnica de Itaituba com o 'Bora Estudar'",
-                  "fonte": "Consed",
-                  "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPcWFfeTRnMmFSNzVQMVBNdUx1MXUwZ19RSS11dG5ZU1VUc2dRQW1acUV4ZHV5bmlxaVVMS1VCZnprWl92eFVyS2FpQnBXLVdHbE42NGtoQ2N2TUJQZ3RqeFRRNm4tS0wwRTc5WENkMEtXT2s2LTE5WGhEbzNlYVhuSHhXTC1tUkktSXRkbUZOY0NZNnBHdzNMQ0NnRGRib29TcG5zUDQ2SGNYQk9MZHh2dFR4aTZ2QkVTN1ZkWQ?oc=5"
+                  "data": "2025-12-26T08:00:00.000Z",
+                  "titulo": "Dr. Rener anuncia retomada da Escola Técnica de Redenção",
+                  "fonte": "Gazeta Carajás",
+                  "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZl90NHpOV0x5V3JJaC03cDhJRmpOanFweXk0TVdRX01WNVhISFdPQ05xNGxNUmEtUnk4dHZCa3h2NG45bjhveFEySk0wRzlCWGRjTUdERlVheWN1WG9aOVROcF9IbkFRTVRRMTZNSkczOTBUYy1Dc1RNMVdqYldmU2FLWHBYSUtFaXcydm5ob2wtZGlXMUxhbg?oc=5"
                 },
                 {
-                  "data": "2022-06-08T07:00:00.000Z",
-                  "titulo": "Estado vai reconstruir e ampliar a maior escola pública de Novo Progresso",
-                  "fonte": "Confirma Notícia",
-                  "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNcGhYa1laT1dOdzgtZlRGb2NpLV9ZMnFnLTBPUFVvNEZYZ3d4NlI1TFh5VHhGWEFiRmg0MWVhMy14WEJqa0JhdHdGSTdROE9hUDZUdUhQMHJlcGVZSTk0QzNpbHhqQWIwRl9HVllKQXMzZ0xIYXhsbDBvRjA0SU5weFhmdE1yX1ZnZHUyQ08zaVpOUXYtdHdlSlhpV2hWZDQ4RDVNRkRKMGRPY1NJdkVkNFllaVE4dC1nNjNXMGVSbw?oc=5"
+                  "data": "2025-08-23T07:00:00.000Z",
+                  "titulo": "Educação: Novo NEI Edivan Alves Pereira é entregue à população de Marabá",
+                  "fonte": "Prefeitura Municipal de Marabá",
+                  "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9lVVFWLXpJcWIxbTZFUkI1ZWFvSDJrUDk5bnluSXlOMGdLbzJRQUc3MzJhZWpCSDlSMU1QdXNodG1OY09VcFZldWR2X1dwYnVoOUZCdmJB?oc=5"
+                },
+                {
+                  "data": "2025-03-01T08:00:00.000Z",
+                  "titulo": "Governo do Pará entrega 36 mil notebooks para escolas estaduais",
+                  "fonte": "Metrópoles",
+                  "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPZXJ0R3hDOUpuSGlfLVFHb042aEJoN0tmc1BxZFpLcGhEeE0xSWpUZnBLRFd3NG0zeWJCUjJlNllWWHN1emdiSEowRWdYYUg3MEpXY3hhQXJRbmRSd2xCd2ViNktsZ0FCRzF6empacjJiSlVZN0dNaUEtUG9qS0x3ZVdBRFZ6VnJycm9JQVZzZ1dvaUxhWWdFby1Uek40QjFvQUZ3NnlFel83X3JS?oc=5"
+                },
+                {
+                  "data": "2022-05-14T07:00:00.000Z",
+                  "titulo": "Governo do Pará inaugura a 100ª escola em Xinguara",
+                  "fonte": "O Liberal",
+                  "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOT05lU1RJdnF1d25lcXZ1N3hPVVJlS3dRVVNBcjFLdVZrdFhvaWlxZm9uM0VUb1NIN0hfNThDanlZQlp4YWVQWDZEWmliLUtyT0R4bzBpd3NaV1dwc21tTjc3WWtOVHJCRGxhNklKekFFTjZTZVRXY3FXMXNqM3RmQldTX3NMTzB1QmtnVzByblFfWTlJeVVJ?oc=5"
+                },
+                {
+                  "data": "2025-04-25T07:00:00.000Z",
+                  "titulo": "Pará inaugura primeira escola pública de ensino integral bilíngue português-espanhol",
+                  "fonte": "Pará Web News",
+                  "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNX2FkZkNoTVcwWXNxVTNZSUljbTg0aG84cThQM3pneE9VcGM0NzhRNDlHSEtLaVZ1ZVhKcGlNb1NSSXFQWm1JQVhFZnZUZkh5NlRCdGJuME1JNy1rVk93eHN3c2dHQkJMQ05UZkZfVTJSb2NTR2VOMG1sbzEyVXhxQ0hMbVpkQmJraDZGaUhYdXJYQVJxMVh4S2gyT3F6S3czZjN4UVpLX3hkNmhvMHc?oc=5"
                 }
               ]
             },
@@ -4397,6 +4421,12 @@ export const mandateTree = {
                   "titulo": "Governo do Pará retira divisórias para população ver primeiro trecho do Parque Linear da Nova Doca",
                   "fonte": "Agência Pará de Notícias",
                   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPTXBGWWFVQ0pQREdBOUNVVUZoeTZGT1V0TXNOQWVCVGRiaGhkUjhITWhoSUREeHQtUzh6NXFfdGFuQ2FENU9fcVNRN1hnbHZ4b2I5SnVPOE95a2g0dUp1Rlo1NWdrRHlBdEdNX0xLM01rNjlYU1AwU2tSNXRvc2gxTDlxUUlLZDZXUGdycjVWY25KdWdMZFdFZTV4cWk3T2xCOXRnUDRaSWdYUUluMzZFNklMdDRzNzZKSnZIeGswWUpsdFpvTEJxY0p1aDc3ZHZ1SnE3LXBRdC1fams?oc=5"
+                },
+                {
+                  "data": "2024-01-14T08:00:00.000Z",
+                  "titulo": "Estado entrega trecho do Canal da Mundurucus e vai revitalizar o canal da Gentil",
+                  "fonte": "diariodopara.com.br",
+                  "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNTEx3NXpMNklrZmdlWmJfTnB1VXZwNkp6eVZrc21BcllMb0tHYXpfaVRadHNXMUg4OExJNWJoZld2NnpxWlA5QXNMRUlMblhYMFh6bWNFTUM0M1pjY0tBUkQ3cnJlRGV1MWtGVjItY3I1ZXdDMEo5Wml1NmFvWEVGbjRNTXJYZ2NVdVNtTGJaN1VPZ1N1em1xOTM2NFZXdS0tWHlsZ3hyVkVJNm1qZklsS1EyTi0?oc=5"
                 }
               ]
             },
@@ -4444,6 +4474,18 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNY0h4dTN6SnM3RmRKeW5zaG10WjF6M0Y5SXc3a0NuMUx6cVg2WElleVNQTUxjRnpsVUg4TUdfaUhSaGYxeU1leGZfMmhGM3dMOE1TWkVoeW9tSUE3XzVLWk1nT2hlQkp4MmJib0lEVU5ROFkxbGRRdERzdWxqWnMxdG01VmdkYUZiZEgyQkJQTU9yYW9uc094Y1llWUswdjhpY2JvMFBXTHZUcEtGcjUw0gG3AUFVX3lxTE5WNnprZUlOUFlLZVFITEFTOV9Dc2ROa001UXVELWk5cnhMeFRWeDRWX1NKemxsVFVSelo1enZxQ2NvNDJ4QlgtRVRFMC1XVEx0YmtJUE1pZVpLVS1EV3BUdmpGX0NoVXp5X0dJWVhzejdLX0ZRLTRyOXlJeVRVUlVfQWpiaG1ZeXcydVdNVkdDVDB6VGkxSW9ZMm5tZXg2T0N2anl0eXdRQjBMS2JCYW1RVDlMckgtbw?oc=5"
                 },
                 {
+                  "data": "2025-09-12T07:00:00.000Z",
+                  "titulo": "BRT Metropolitano chega a Castanhal com tarifa única",
+                  "fonte": "Belém.com.br",
+                  "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQVNyMm9ybVAwdXVHZXBOOFRWVnZpMVFoR245N21xbjN1VzZfWV9oSmtiMXZXVW1uWlBmTzUtN0FuVHhYeGVuWTk4elFGcTZ6bjRNSnRUclM4N3NZSG5TYUEzUTUyRE5wZHNUV2JReWVPdnRCTU9aamR1ZzhKYkZ4V1Q3UHptSm5u?oc=5"
+                },
+                {
+                  "data": "2026-07-16T07:00:00.000Z",
+                  "titulo": "MPPA propõe unificação dos sistemas BRT Belém e Metropolitano",
+                  "fonte": "Diário do Pará",
+                  "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNWFJKdWhPOGZpNHRicWhiU0JGckdGMXZEUHJraGRlaXFrNGJoUUZnSWw4OXBfZEo4MFdndVB1WDNjb0p4VW16dVlLVFh1XzZpUkdGbi1XZkRjN0tTQUx5M0hqMHBiV3VxaUpDNFVtWXZQcVF0M0kwZ3VvUk9DelNpODRyMVE3eWgwRlZ2ZWhRSEtkd2RnR3RBWHVKaUdTZHBQUlFSdXlHUG5RZnpqQ3dTdU5BV1RHSDFMM1o2aXBHczFaYnctNXRwb2t3?oc=5"
+                },
+                {
                   "data": "2025-09-11T07:00:00.000Z",
                   "titulo": "Governo do Pará anuncia BRT Metropolitano até Castanhal com tarifa única de R$ 4,60",
                   "fonte": "G1",
@@ -4468,16 +4510,10 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOYXRGZEE5c05YOEpRV2FrSDVEUFZlYUpRbWQxV0FSakdZLWxyejI0VW5FMFY0U3ZEbzhDTVNtU2tzS1dSNklrQTRLVlRMR0xuUk1pSFZXdU5qZUFHWmFsS0hCZmxTUUFIOS1DZGtuNER5X2QyaTVac09UTTZZeUU2cHB1d1JXc2lKekxkT0VzbkVnN3d2MGp2WUdDVVZ2Z1l6Wk1YbTJqZE5iUnJoQjR2YXBsbFVaTUNTWTg1UW930gHMAUFVX3lxTE9SMGJLV1NZNzZYYnBHb3NfaXZxY3lsclFFWGpPRDdkcmpoSzR2cVg2RXhtdUo5R19SZ2pIREhlOWtTcW5velZzaURvZHZKSDBLVUtxQ0d3T0NTZUtmN2xEQ1ZUcnlvUjI3aERsSWNWbUZVdWhvcnA4bmlENEFpbzF6UThUbXdTVWJrZlFlSThja3hmMGdWWXhTWXBlSDNUNlVFZXR5V3BISFNIWU9yX3BXWUNUWXc2OTNuaEEzY29EM2dsTG8xZy1Qd3U0Yw?oc=5"
                 },
                 {
-                  "data": "2025-10-31T07:00:00.000Z",
-                  "titulo": "Governo do Pará inaugura BRT Metropolitano para integrar municípios",
-                  "fonte": "O Liberal",
-                  "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOaUNCZ3lSS2dlUkxmYTIzUTJVdHAxbkVrcGcwMHU3cUtibDhQRU15c2o3RXNtRm56UlBCZGFYaC1XMEhJNXUxaVFMZHZhWUsyaHRsQWVBTDhmYjhOY0huckpEenVWRzJSQWJjek1zQXUyZ2hqdTJFbnF1V012TE9VLW5fTk5VZC1Ud3kzN3hNR2RKck50dVRzWUtGc0hCbTNnTThpNFNQQld4TE10?oc=5"
-                },
-                {
-                  "data": "2025-09-04T07:00:00.000Z",
-                  "titulo": "BRT Metropolitano será entregue neste mês? Obras entram na fase final e alcançam 90% de conclusão",
-                  "fonte": "O Liberal",
-                  "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQX25mbE9XbGE4VDdKbDdkZTk2UlU4QzU5X0ZwYkJYbWlUekZvZUEzaEVGNnEwQXFrWVhqTG9sRXFFcU1ZMlFQMXIyNmh6N0Y2cWtKSUNzT2o0c1I1QVpDTV8zd0VuSzVBRVlzUzZDdFdvdk1vVEhFWWtYM2FycWVQRktVbWQzU3NQWTAyNlRQVTJ1QUFUYXItY09IM09qUGxxeGd6TWR0XzJxakc4aWZSU0ZGT0tXdFVtNDJzVVZtbFQ0SXk0NFZHb2ozLWtJTVZPX0E?oc=5"
+                  "data": "2025-10-28T07:00:00.000Z",
+                  "titulo": "Como usar o BRT Metropolitano: mapa, linhas e horários da Grande Belém",
+                  "fonte": "Diário do Pará",
+                  "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQeHdUaVZtM01vUmFGd2NlQVpvN1RFZnNfQ09aSDNMRVBEMWpxMk92REw5ZVRUQlFLZDBTdnlTYnJfSzgwUGFKemp4Z1JQaXR1dmJvY0E5ZW9hSmZGRV9RTGNNRjZmUjN3MkhOZWtMamw0bzdWZ2tQUHZJbjlPUTZSaXNiNU9hOEJMQi1McHNnSi04dVRsQmRLZUJwVmduUU83MW94Vg?oc=5"
                 }
               ]
             },
@@ -4520,12 +4556,6 @@ export const mandateTree = {
                   "titulo": "Pará assina acordo inédito e vende quase R$ 1 bilhão de créditos de carbono",
                   "fonte": "Agência Pará de Notícias",
                   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPSnpDTFBMQUVGVGZVRkZrbHJFd1hrTko1SjNlTDRScy1vc3RPb2c1YWt6WFFXZWpxV2NIMVVreV9GSFdDX2d5MUtyN19pT2JpY0JwV3lPY2pxTkZDOTNGRWI2OWlldHgxR2VfTDNtZjMwTjZQWFdsU0Jpekp4S25LSktuaUhRQ1dURk11clFKMWtGTER5RHB0LThYT1pYUG0zM19EcF9VVHY0bmlRYW4tYmtKZGwtQTgtZ1c0?oc=5"
-                },
-                {
-                  "data": "2023-09-20T07:00:00.000Z",
-                  "titulo": "Helder destaca estados na retomada de agenda ambiental",
-                  "fonte": "DOL",
-                  "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNbEs5ekNLaVg0RlRiMURKd0gyWUxGMVAzSHMxTUhJUll1NmxIamJ6cjk2cmtWbmUwQkgwUnBfTm5hdTNkTTNXMXA3dkpLUUFfN0hIVTRwa2JXRmhibF9YX28xTUdoRGhQVUs4Q2swdEduS3RMWV82SVkySXd3dW5weEEycGMzcUNDX00xY25tRXg3SUxZOGdXYzJn0gGiAUFVX3lxTE9YT1VOVW1kYjFuU3NYeklXUTl6bjZDN09UcW4wdGFfc3N4Sjltcmx1YXZac3F0dFoyQmRYLUc5ZlI0R0hhaFBXNG9xTWM1UW11d2p4UzdtWFNDSHR4ZWJnZFd6YVZrOTRxMmJsS0tPdl9VeV82OWhUeHpYSGhlRTFOZnVJUjM3NmV1OW1DOEZnMWlmSzhZQy00LXV2d09WdVEwQQ?oc=5"
                 }
               ]
             },
@@ -4658,9 +4688,9 @@ export const mandateTree = {
               "atualizacoes": [
                 {
                   "data": "2025-04-22T07:00:00.000Z",
-                  "titulo": "Governo do Pará entrega lancha e viatura rosa para reforçar segurança no Marajó",
-                  "fonte": "O Liberal",
-                  "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNUjNqRjNhMEZfQmJGSDFucms1OUJ4RC03RTkxV284UG14bzdENXRsMXBUdUhpUTZlN3g2Qmw3NDl4SkMwcjlvMmNzd0M4eXAyZU16RmMyTjY1RkYtbXdQZ3FUcFVtcnhST2pmbHdmcTdKVVFNTzZnRmZXcnc5SDJwajVMU2lpampMM1A3UmhfSlcxVlRxRjFnNldHc3ZDOFVhMVJ6U2ZBOGNwRTNtTERvb1lGRmU1MHRXaXc?oc=5"
+                  "titulo": "Entrega de Lancha: Governo reforça policiamento fluvial no Marajó",
+                  "fonte": "DOL",
+                  "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOamhDUlhDUVFfeTA3OXpEWFkzNkg3MGlrbnhjQ1cwTjNYSFEwazlRVDJubGYtT3prQlNqRWxTYmFyMzk2OG9PQy1rWWxvazktYW5WRU9uQ3VtM0VjbWp3VUxHQkJjdVdmdTY2YlRXSmhWR21hVWMtcTRad3NKRzdNMlZ6ZTQwVmVMaUR1bElaTVZJQ0NvOWt4NVhfTnpCTV8zR3RCSVFzZ9IBrwFBVV95cUxNOEJoMkZyUkZaendzY1ZXeXA3RzlrWlhlYkw3a2pPR0FFOWlXUmZSVmtVNnJIbkI2SkJmU1lFMEJETGdjTEo5VEs0YnhkUHV5U0ZHWmFoYWdfdDY0NVBPVl9xQ2FzX0ZhWlhyZEpUYjNaakNBcVpRekFiLTNYckRfWk5sRk4ySFR2cEFSVGhWSXI0NU5kYXd3bk5FR2F2d01LUXpPZnN5eWN2aWRwWi1Z?oc=5"
                 }
               ]
             },
@@ -4671,6 +4701,12 @@ export const mandateTree = {
               "status": "em_parte",
               "descricao": "A promessa foi cumprida em parte porque não foram criadas 10 novas delegacias, conforme prometido em entrevista ao g1. Foram implantadas quatro novas delegacias para atendimento de mulheres, idosos e crianças; uma delegacia virtual e uma delegacia especializada em feminicídio. O que diz o governo: Informou que outros serviços relacionados à Delegacia da Mulher foram ampliados, como totens instalados em Belém em 2025 para atendimento de mulheres vítimas de violência em pontos como o Hospital Público da Mulher. Em abril de 2026, foi lançada a plataforma SOS Mulher 190. Já nos municípios onde não há delegacia, as \"Salas Lilás\" são usadas para atendimento de \"mulheres e meninas vítimas de violência\".",
               "atualizacoes": [
+                {
+                  "data": "2023-03-08T08:00:00.000Z",
+                  "titulo": "Pará cria secretaria exclusiva e outras medidas de proteção à mulher | Pará | O Liberal",
+                  "fonte": "O Liberal",
+                  "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQcUhzRkcxU0FlSlFlNTM4d05Cc2ZJbVp6QTNqM0hBcDhZc1pueE1Od2NmYlQyRlFXZERMSW56OGFLTExnUFExRmtjSzFXalI2SzNrbGFZQTAzbmd4MEdIb2Q2LVdlQm05d2MzLXB1cFR2cy13eTNxVGZLd2Jqd1dqWDBvbnZQSE5mSEl1RHRQNU9VNk9vYUxYSWVFeDAtR1FCQ1llVnRhMEswaTjSAbABQVVfeXFMTWJ3Mm5xWC1reGxuWkNzR1A0MVRmM0Z2endfX3hXZmRaOUtRQWVyS2JxSFZQeXRMbHBpWWtMY3JSWmZyYjc2QUp1Zk4xbXlydHg0NDRsLVM3RVZGaThRUkdHMFVwZG1UWC0xMGpfOTNxc1RkZWZWeFpFSmxrclJmSjEwOHVpaVpZM2RBV3NNTU1GeFZrOG1zblF1LVhEZjZjc1FvVlpUWENNaDBCSkRuZ0s?oc=5"
+                },
                 {
                   "data": "2023-05-18T07:00:00.000Z",
                   "titulo": "Delegacias da Mulher e Agência Transfusional são inauguradas",
@@ -4756,6 +4792,12 @@ export const mandateTree = {
               "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPOXdzeHBiNE14RVhGdmFyTkRSMWs0N28wWjdsZ2Q2QmFzdXRMaDZNdWkwMXlkS3BUcmkyWmRMaE03TnFpSzdKN1NCWTIxcV9jUUI2WTIwUWVwRFN2bkVzUnp1R04zUTU4NkRtSFJydnpjVDdiakJpd2xoaTluRVBVb2hnS1UxbEdyb1Q1bGQtSG1ISW51MU8yVkVOYlAtMmUtamZ6Tm14UVI3am5jZENURDJSbC1sR1VBQ3BfTE13bFRNUjI2VTlwT3BXREJqQQ?oc=5"
             },
             {
+              "data": "2026-10-05T07:00:00.000Z",
+              "titulo": "Eleições 2026: Entre promessas e transição, entenda desafios de Dr. Daniel nos próximos 4 anos no governo do Pará",
+              "fonte": "G1",
+              "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxOa0hOYjFZSEhrc1VTeXotajd0UUVNeG4zOWd5aE9JZTZwTWtheVJrUXMwN215RnlGT3M2OUJRd0I5TlRoMlduNXJCeUNqSGxpcWI2OEtYcG02VU80UWRsUHd6UlBzQ09DZ0FOWXVjYm8tODBfOVM3WnI4bi1OeFNlcHdzRFRYWGJWaWprTFhYZndBRlpMRWtpYnYyOXBvbXhVWGRULTRCRXh3b0Rib0hJMnBab2xLT21OS0EwRTdLTFM3ZjFRbFp1R0I1SHdKeHNiZDg1bzhRSU4tX0NQcjl2bVJpSTZpYmxXVDdtNmF5ZDN0azRZVU93c19RMzVKLWlOVWl0U1dCT0RnUdIBmAJBVV95cUxQVWI4aHBaRE9CSlg4cTRUZ3hwWXJYSzl5WE9Gd1YyYUtjelVGVzNhWDVydHN5TEpqR0JYSm4xMEgtTUJxNEVfQUxTRy11RzJVTk95dGRkWkFuTWl2MGVOWVhVeERITGlFSWMwN3ZkZzF2dFViVmUtM1ZFQ3lJVmJPSUp1MkJqQ1pYVWRxNlhfX2lXQzFiM2FNTjV3MEFxcC1TdTItSjhQakhtd1F4S3JqbmVuMGNGcldDaEFwbWFfZ054cmU5UUM3enV1Ukc1MWtlTUg3bmpkX0I5Vi1aQms5N3FCeWluX0MwaU9fWEE0ZHdrSWpCbi1hVFNKWXhvZVZoc08yUFhGNEt3dTYtcVY3d3o3R1RQR09z?oc=5"
+            },
+            {
               "data": "2026-10-04T07:00:00.000Z",
               "titulo": "Pará elege Helder e Chicão para o Senado — Senado Notícias",
               "fonte": "Senado",
@@ -4781,12 +4823,6 @@ export const mandateTree = {
             },
             {
               "data": "2026-10-04T07:00:00.000Z",
-              "titulo": "Pará teve dois segundos turnos e vitória de Helder no 1º turno nas últimas eleições",
-              "fonte": "Exame",
-              "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOVWVlSFhCTGpyN0MwN0luSC1jcDNNMndTSzliS01jUFhCcTBiS2pDNDhvYW9kX0ExXzJ6RWxMc2JwQnBwUFAzYy1xWmlqRHViV1lxU0VnQlhtQl9nT0ZsYS1HRVVMeFFKRXlBZm8wa01ta3p4S2QtWjF0SjlzMDk4SjJQdkRCTGwxN09KZnkxdm0xMWJ6cnc2UVRFQmJ3aUFJay1QUnp4VXhLLVBxV2c?oc=5"
-            },
-            {
-              "data": "2026-10-04T07:00:00.000Z",
               "titulo": "Pará elege Dr. Daniel para governador",
               "fonte": "Congresso em Foco",
               "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNUMtMWxJLU9PVjYzVlo1a1pIQUJqamVkLU1jQW5yVzJTR0ZBUzIwT3Bac1NBLUlwZVJuUTdtYUNYTU8wVWw1aDJMOXVsZ0dsLXRLQUkzYnpyR2NRM0hEd1ZWUm8yXzN1cURNcmNFOXJqN196bmUtSWtFU3VTLXlzdkh4V2szRFYtQ1I1eGhabw?oc=5"
@@ -4796,6 +4832,12 @@ export const mandateTree = {
               "titulo": "Resultado eleições 2026 PA: Dr. Daniel eleito governador",
               "fonte": "Gazeta do Povo",
               "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOcjItbTZMb0VyanZHc0VSZUtDUnpBU2RjdjAyLWluVmg5LXBRYWwyMVkwVTVwVFVZbVZya1BJZHd6cGxUVmVoR21uRVZFOU1kREJCdWZvOVdzdEJxaEw1SFNBcHFPU1hVZzlTdWhGNFg4T1dBa1M0aW1zV3Q4ck1HTnhULVBuU2dGbjU3Wmt2RlN6QnFmZ1RmbG5vR0FoUEVlR054Ml9WbjFLZjM2SUh5NGNn?oc=5"
+            },
+            {
+              "data": "2026-10-04T07:00:00.000Z",
+              "titulo": "Pará teve dois segundos turnos e vitória de Helder no 1º turno nas últimas eleições",
+              "fonte": "Exame",
+              "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOVWVlSFhCTGpyN0MwN0luSC1jcDNNMndTSzliS01jUFhCcTBiS2pDNDhvYW9kX0ExXzJ6RWxMc2JwQnBwUFAzYy1xWmlqRHViV1lxU0VnQlhtQl9nT0ZsYS1HRVVMeFFKRXlBZm8wa01ta3p4S2QtWjF0SjlzMDk4SjJQdkRCTGwxN09KZnkxdm0xMWJ6cnc2UVRFQmJ3aUFJay1QUnp4VXhLLVBxV2c?oc=5"
             },
             {
               "data": "2026-10-04T07:00:00.000Z",
@@ -4862,24 +4904,6 @@ export const mandateTree = {
               "titulo": "Governadores: Tempo Integral e colaboração com municípios são apostas para aumentar a aprendizagem dos alunos",
               "fonte": "Todos Pela Educação",
               "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNa1N0YUNfY193LXlGLVBXT1IxYlpsYzAtOHIwYThVV0hheW4tcEpkNkFRU0NycVR5VEpVc1prWmlMeUg4MEJ0b3ZGNUxFSGZoZEptcVI0QzVQbEJWcEI4QUR3MUZScTRVVi1WbnIxTmJwTkRqQ1ptSjRRT0tsWHVfVFNBMHlCa2oyTFpybVdVZHdmcmh6WjZxVUZEbFg2WG9jckEtU0QtaHB2S1F0Ni1yRXJpTzdrRFFjMm1kLUxwQ1ItOUwzUHpfUTRJcDB0RHlqYjMxWDBn?oc=5"
-            },
-            {
-              "data": "2024-12-16T08:00:00.000Z",
-              "titulo": "CEMEP: Justiça Federal intima governo Helder Barbalho",
-              "fonte": "SINTEPP",
-              "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQajM1YU1uWFVjSE1pd05vSHh2UGVxbFJBRzJzeENQUVhnVExsZWIzckNCdk9UMW5hQk5tdENJRzZFZkVZTnE0akJSWlR5cDNDb3Ywb2E0Q3ZKYXFvanMwemQ2VklEQjg5bWp0cmZOM2VVbi1iYzlUQXdaRWl0Z2p4d0dn?oc=5"
-            },
-            {
-              "data": "2024-07-09T07:00:00.000Z",
-              "titulo": "Governo do Pará autoriza obras de reestruturação em 11 escolas para ampliar hospedagem na COP 30",
-              "fonte": "Agência Pará de Notícias",
-              "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOVFdLSTRRdHZaMTFhcmJGU2xhWWpBNVhLM3k3X1o2RG5ETjNyNzNwbEpmbjN1YmJOZExydFhKX2ozdkwzMWRfU2tDd2VlVlRHVXRqU25iZmU0emh6NEl0MFlnR0dFR3RDUVlobjc1VFF1cDlPVlNKX25iX01Ea1VfcGRkRXhHbnZYMG5ueTNUUGNmX1lta0M3RUlmQ09wWk5xMlFYZUxzdzVwZFZ4Rld3VlZRMDl0eHlkMF9Bc3ZMakw1V1U0bG03Zjd6MWE5N0tXLTFz?oc=5"
-            },
-            {
-              "data": "2023-08-28T07:00:00.000Z",
-              "titulo": "Helder Barbalho: o ‘rei do norte’ usa o discurso de proteção à Amazônia para ampliar seu poder",
-              "fonte": "Sumaúma",
-              "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPN21wdTd2UERqd2FpX3NRY3Aza0drVzlRSmtLUVVBSHY5N05nS1NXU2FlbU50WlUxX0FPREdpMWlhc3AwQmhLem9FOTB4MnNTajNRamNhN0VNZUF3SUs3YkVQRGozNnhrdGsxZF81SC1hUWN4ZXI3WHprU3dCdk0wSktBR3FOV3k3RTN4Q1NpYWRKTXhMUERZdUEzSlFFVGcweVlTcXhoVkVVYW44UGx1alRR?oc=5"
             },
             {
               "data": "2023-01-04T08:00:00.000Z",
@@ -4958,14 +4982,7 @@ export const mandateTree = {
               "tema": "saude",
               "status": "cumpriu",
               "descricao": "A proposta foi apresentada em entrevista ao g1 durante a campanha de 2022 e foi cumprida: o novo Hospital Regional de Guajará-Mirim foi inaugurado em março de 2025.",
-              "atualizacoes": [
-                {
-                  "data": "2020-05-12T07:00:00.000Z",
-                  "titulo": "Coronel Chrisóstomo pede urgência na conclusão de hospital em Guajará-mirim",
-                  "fonte": "Na Hora Online",
-                  "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOTllxZkdhSFJ5aEk4bF9tMjd2SHRSczhRWmV5cjNXQmtERVE5Tno0a25kUVI2WmE2cXJkbzlua0xIcEFSaWRhUlRkOFFHemg5RHlNbnNFZUwtLWhJQWl6cU5YdmdwbG1ST0h1Q3FPcmRkU1UxMUdqM3BBeFRPMVI2ZjRjWXFGdlMyLVJGMnBfWlQ2QWJod1R6Q1h5blFzNVMtMHN5S3lUZ3Z4MUFDUnlWUDlrTS02SDhtSmU5NXB5WdIBxAFBVV95cUxQMGxfWXRVNzg5bm1CWG1nUDI1M24wOTNlWUgwekpheU5CNTVqTUt1RkxxeXdjZmIyU1o5UmVlVWlmMEE2S3lXRWpBbHpWWmFLLTFuQUFqQkhpSlNsMERXR3p4VWEtUUlyOC1mZGpLdl9aUmhpLWREWDVQbmI2MUQwRnA0SnVmZnVTUmVYN2VSQ1RCMXNGNnZPSkJVVGpWS0QweEw2eTdNWldPNmRfNXhPTXpKa0F3WTFmTWc2MDlNdFNJa0E4?oc=5"
-                }
-              ]
+              "atualizacoes": []
             },
             {
               "id": "coronel-marcos-rocha-2",
@@ -5060,14 +5077,7 @@ export const mandateTree = {
               "tema": "seguranca",
               "status": "nao_cumpriu",
               "descricao": "A promessa foi cumprida. O edital do concurso foi publicado em 6 de janeiro de 2026. As inscrições começaram no dia seguinte, 7 de janeiro, e as provas foram realizadas em dois domingos: 8 e 15 de março. Agora, o processo seletivo está nas etapas finais.",
-              "atualizacoes": [
-                {
-                  "data": "2021-12-15T08:00:00.000Z",
-                  "titulo": "Concursos Policiais 2022: as previsões para o 1º semestre",
-                  "fonte": "Estratégia Concursos",
-                  "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOLU5lMDItYU1XYWNrelJ2U1hIellUemlveEExZDFxcFp2SDFNTGJSX2lNbFc4MU1TMTJ6bmJxeWlTUmZCS1RYWV82OUpsVF9Id2duc1JUWTRhSmdzaFRfeFd2aVp0VjgxQ0VCaDBscF9LNGoteTlidDRuZzhENVdvMNIBhgFBVV95cUxPenV3TkVuZHExbDRHMTZsRk9iLTBvZWUxZkZ0aHJ2cTFJMTVvdmttZjgwV0JTbDZvRk5nY0hWT0N3ZzVoWlI3bnFZUVZUdy1HU2ROQ3prTDBkMlBjY3l5Tl9Pd3RZSDQzTk15SmNiYW1JTS1iajhMcFBWT3hqd1FCb1hwaWstQQ?oc=5"
-                }
-              ]
+              "atualizacoes": []
             },
             {
               "id": "coronel-marcos-rocha-13",
@@ -5193,6 +5203,12 @@ export const mandateTree = {
               "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxON3MzV2p5YTluM1Vmb2UwNy1rYmQxUEFrZTgxNFJQcXcwVUdxMVhWdnpqNjYzSFdFcVNqQm9vc2x2Sk1BeXRRckZIMXM4QWo1OWhDc0wxYU5vaWpOSDBzdC13MFVhN25NeUh6emoyb3JmNUxzMnNyWVM5N1Q2UEVoUWRKNTJKZ2Nzdi1IUlJVWDJGbTc4b2ZFS0FuNE1tcDAzazRVT0xQTldLczl4UzFHVDRST2fSAcMBQVVfeXFMT0pSOGIxaWJBWmlqRUFhMGNkYTZNdERnV29mNGRkSjJuSF9GQi1OUHdBMXBSSF9kVlhubVpJNDBsODY0MkdVanF5RUNnVjA3OVZmTFlEMTJmNWlCWGNZR1l6U0pGakgxOS1IZGY5VVBFSzczbzlVdk02TFFuRUNiV21LckRQM0s5RGlDaGhwOUFQazQxcmNlb1EtZldSanNydE96czFQMjRmeE1wS2ZzWXNYUjVEN1hjWDM1bndUSmY2Y05N?oc=5"
             },
             {
+              "data": "2026-08-27T07:00:00.000Z",
+              "titulo": "Quaest em RO: 46% aprovam e 34% desaprovam governo de Marcos Rocha (PSD)",
+              "fonte": "Na Hora Online",
+              "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQd25haGNHQTF2NE1EVUZ6TUlnZjV5YTZhUjlMSThFSVpuQ2RDUFJQNzY4V29KcGkweUpoSFRCWGZfaF9hclZlbVF6a0RYb3BVWmtPLVFrNnVYTDJlM2trbUI4WkNKQjZkZ1I1WFVIYUJDQlRBampjWkZMMDBZUWNyTnd4UDZCU1VjMGR3ZzQ2WnRUMXVNWG5PTndhWlQ3QW8yV2NpQ2s1Sk5HTG9QZXh5WDFYdEE2T1ZBU3FVa2xvZGTSAcYBQVVfeXFMT3lwbS1GNGdFVUJlMGpXekxYYUJ6X1VFUUhhb3U5eHdENHluMHVBODhlTDhSak9vak5BN2xWbERYNUZzV2JuRVJxNENKNGc0ejkwbFV1eFBYcmpZdDBSdEI4djdFeS1rTGFNazdnOGE5T3hPUUVFekNBSWR3THlVLUQ3c2FXLUNTUEloNFNFdWhYU1R6SGZtdnVrUXkxa3R3aFJFeDQ4STE1V01KREVWU0xaeVRsUV9zMUY1TVhzWjlrRFVLLVpB?oc=5"
+            },
+            {
               "data": "2026-08-25T12:40:59.000Z",
               "titulo": "Coronel Marcos Rocha",
               "fonte": "Opera Mundi",
@@ -5217,10 +5233,40 @@ export const mandateTree = {
               "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQR2QzR1p6MWdUU0Fwa1JOTlpjMl9CUGZLWDlMMWhhemNRSEpoMC1fcm14NkRldkJCR2Q5cVNCeVgyQ1Y3ZGJ3ZWNHT3Y1UThMa2pUazA2ZzJJb3M1M0NmbERvZWpubXcwX1NzWlhTR0JhY2NJaUNwSHJxUUNEVUtHa01YQ1NuUG9vQ2JtT2p3Mk95VkxrVUNPbXZQT09GcWtZU2hVbThiYzE3alcwVjZNVUZnREfSAcMBQVVfeXFMTTRyemlBXzdpbmFqdXlybE9GaVp4U1BMODVaNXZWS3UwQ3VSOFZLYlJBZHUxUGVqczNWNmJqaE5KbUxEVjluMTVlYlJPM1R4bDF3eE5sU2syS1BqWU1RcDNHTTB1ZW9kVUhSTHBaMUF3QktmLVdmdDlDU0JxVEF3WHU2YmVvNzM0WEk4WlBnUllUbmhaTEVZR1kydzZ6WDFGRHlsdW5qVDlmYTlCXzVpS01tcXNNMWVHdmFGd1M5d056dm5v?oc=5"
             },
             {
+              "data": "2026-07-18T07:00:00.000Z",
+              "titulo": "Os vexames das primeiras pesquisas ao governo de Rondônia",
+              "fonte": "valoremercadoro.com.br",
+              "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQWEFFLWRQejEzOFZTVm5ydkY1bXV2RUdMblpXNkRnZDhHUDBRLUg1TnFrZGdtZkZibF9pODF6ZWNVV3FSbHRLU3ZVYnFqTm02TkpwZjhJQ0JjLUVyaHdwVENiVzJ2dF81SjFmX3Q2NnRzUHBqUl9NQnd5VkhZWHFLQWw1cU9OdHpUSUtoOUJJTzRBYk80Rkt2cA?oc=5"
+            },
+            {
+              "data": "2026-07-17T07:00:00.000Z",
+              "titulo": "Adailton Fúria tenta se descolar de Marcos Rocha e mantém contradição",
+              "fonte": "Painel Político",
+              "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPdWZCV2FyR1REam5kWWxfTnJXaEZQWUU0dWtpaWhPS1NIc24xQlVIX0pkNHg3b0xfa1g4WkptenNza3dKMGZXVFVFLTVhWWQ2ZE4teGs5VE9GODU3emVwa0xlRWJSSzNKdVlZeEZwZ3R3Nm55VG5BWDVtZ0g3M2NveTMzejN2b3hQV09peFBWdlhvRmM4bFFQd1pVV2k?oc=5"
+            },
+            {
               "data": "2026-07-16T07:00:00.000Z",
               "titulo": "Real Time Big Data: Marcos Rogério tem 36% e Fúria, 28%, no 1º turno em Rondônia",
               "fonte": "Exame",
               "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZjVOMGswaHVaTzZwQVFKb0VQSDBuakF5azQ1aWFyakllVUFySXhMd3BqMVJsT3ZFelQ4Zmx1Ylo3OTRqYmNEaHNnVUpEV0oyOTdBakdmdlRxMGxvOThSbThoUFllbDdWN3ZfNnJYdmttLTI5NXZpVjRMQ0pneUMwallzdG1IdG96YlRqT3ZTS001UExpZjE3ZzduMUpiRm9LQ2lZ?oc=5"
+            },
+            {
+              "data": "2026-06-05T07:00:00.000Z",
+              "titulo": "Governador Roberto Cidade apresenta modelo inteligente de segurança pública ao governador de Rondônia",
+              "fonte": "Amazonas1",
+              "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPMzdtZmcycDlsaEVoRmJjUkRuOWduVElYZUZHY1VTbm5mVzZCbXRtMjYwR3BCazdsN2xHbVNVZDk2RjAtRWFhSHVWa014SEY0NWg1VmxpSFdkNFBKeUhERFJjcTFfUVRiR1p0U0h2RUtVMXFpQVBoS2I1TVd2Q29jaEJUTmFEMXJ3bVhZQ3ZJRktIWVhrUXdwV1c0RU9VSU1XaVRBeEVYN3IyWTF5TUU0cXVwNlR4ZmJlLW1GcGRIckxwZWN3NXc?oc=5"
+            },
+            {
+              "data": "2026-05-07T07:00:00.000Z",
+              "titulo": "Vice acusa governo Marcos Rocha de segurar viaturas da PM para só liberá-las nas proximidades das eleições",
+              "fonte": "Tudo Rondônia",
+              "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOdHBwUkxnbUhLYkxzSGpUQng1ajdTNlR2MmxyS1Y5Qi1hM2JQaWxhMWRZXzBNbTVkLWZSSmNGY2l1VnpCOGFXQk5YZ21HSDE1OV9WWkozb1ZhOWNnSGdnbE5mQlVGZUh1bUc1Ulp5dmhrMktkTVhoWHdPVFYtMUZNdGxxSDI1LW84akdXLTJLZFd6VDNnd0xqVlQwX2VYZUFNVUJJSTRCX2xkNnlKdzlGMHRnSTdjaDZISngyX2dvTDBmYW82YW8yTmFBc2tjRk5jc0xUTlctNWo4anhyWHNWU2s5NXlUa3l6aXFseGVpYw?oc=5"
+            },
+            {
+              "data": "2026-05-06T07:00:00.000Z",
+              "titulo": "Tenente-coronel da PM de RO é exonerado de cargo no governo após prisão com 300 ampolas de tirzepatida",
+              "fonte": "G1",
+              "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOYVVtSk5KeWRtZG5seEpqYkdlOXdPWE9UWXZhZUFhem9YTFdJcHEtWE45N0tVbnl1dU9BOFlmTlVicGgteTNEYjZ4UDQtZm9RV1F1QzJtWTlhWkRyU0VZSnJmS3B2MnkzbXN3SW1lRTc3MFNadi0tLVMzSEVXUFNBWFJJNWIxUmJhampuR0FxdG5zYmhwMU5kYlBwUkIxZWRneFZxZV9uTjhaUThwRVdYTUhqeGRxajZRWEhDYnhlamlVV3VUbTlObkgwbmM3bVJFMDZYTF81cGs5NVFENkprVE0xTksxanlSUmfSAfgBQVVfeXFMUF9xZFRoajd2SUhiT0tDMF9mV3JURFVoLW4xNk5yR1VRLXY4QVROOVA4VlRxaDV0MHJvZVlvbmFPZndEMHdscTZqMk1ZcXBVN0IzRWJrZk1oNHdwVTRVQTNRVXhjaHlvRGJnWXYxalUxN3NtUXE2aGtvMFlselhuMDMwZ01McnZDQzBzV29MZDdoZ01TQlRkSUIxdjdEV09nc2JzcGsweG1CbDV5TThUamVNMjVTcTRPUXIxNGdDSENkMG5JOTBoRFpfV09TVHRiTzQzdVdPU1hjc2s3VDZTR0xSN2xnOVptVGZJd0IzWHVhYUI1dkthLXM?oc=5"
             },
             {
               "data": "2026-04-06T07:00:00.000Z",
@@ -5229,34 +5275,10 @@ export const mandateTree = {
               "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPM1ByTFR1T2VDRXpuQU9YcmVjOHdsSDVYQnp0VzMzRnJ6c0dvaG9aWTdqNlp0UDZYNW1TcUI0MkdnWTUzcmMzMXRlNWtGYVd2azBiT3g1QzYwWjhaSmdjQ2pvNFlLWHJabHA2NVAzMVZNczdzbllEZXdDNkN1QTJJYjk4WHY5OWl1T2htWkJDRXZjS0xSeFZReDJJWkpQYXktcTUzS2NjckJfb0ZwU256ZllsalpmeEFPOThtWTJGZUgzcWwyOWlob3dQSndJaVNQWUtNOHpCSE9FZ0pQanfSAewBQVVfeXFMTWFQM25ob0U1LWNzRXFQZ0VhbjdUcUpXVGswTW1NTzY4SFRxaTFRWU5nNHpDYmJIY0lsWlI3MkZGZ0VKZUs0SHZ6cEpUN1VqRUVONWVGYjdZNHZNaGNacVVvaktkRUtCb1lUQ2dVNWV3WmpfeXJSQVY5Z252Vm9tbFVUX2s2U0l1a2c2NFg1OHI5WWRjN3FTSTFiZ3ZnNm92c3FtcjFzUHJkZURHMWdMOXU0RmI4WFBBVFgxZ1N0cDcySjZubEZWRVo3bkpZWmtHcy1Qd3hrdE1iSXBaTEVxVTFZWVpkak15VXhHZlA?oc=5"
             },
             {
-              "data": "2026-04-04T07:00:00.000Z",
-              "titulo": "Na véspera do prazo final para desincompatibilização, o governador de Rondônia, Marcos Rocha, anunciou por meio de vídeo que não irá se afastar do cargo e permanecerá à frente do Executivo estadual até o término do mandato. A declaração foi feita no",
-              "fonte": "Instagram",
-              "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1rbzFwNTQxekJjZ1g1Nm8wSG0wd21xWlJSNHg2b1V0T09PQ1Bab0dJMVF5S2ZOUThMaktOSVVNTTBjbF9qWGhBbTc4UnBwVzR3Qk9hN3VB?oc=5"
-            },
-            {
-              "data": "2026-04-01T07:00:00.000Z",
-              "titulo": "Marcos Rocha já renunciou e Sérgio assumiu o governo",
-              "fonte": "Rondoniagora.com",
-              "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPUm5TcFFmcGNGQ2ZQRzRFRnVDN0VYRHRnNlJ6SEtEZG4zc05ONzQ5aGhnVk5aZ0FGUUhYWlR4XzloZGZ3Qk40OXBuRUJ4VmtEZUxjeDh1eEVJcHIwT2lJaHJpVWtqRlg2MHdnSVQ4c2E3YXE0aDdqUXZCYWNRaktDYWxiYkpDQ2s3RUxubFlMT1AyNlnSAZMBQVVfeXFMTjBqWExjQ0NpRktaY2hTRzRRNVdSTW5sM0RhTVRtemk4QU85d1BnZm52bjZyTVVKaDdDOFZ4VEFmUEtqczM5T1ZUOWw5REZaQVprMExsckgtMkVocDVoYVhNREpBNGRESzlRR0VUdWNmV05GTFFDZTVTNHE4U3I5RzZkSzktbTBzSDNYaDFmSXEtU3Vj?oc=5"
-            },
-            {
               "data": "2026-03-14T07:00:00.000Z",
               "titulo": "PL lança Marcos Rogério ao governo de RO; Máximo e Scheid disputam Senado",
               "fonte": "CNN Brasil",
               "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOckVUQ2o3aUUtZDE2eWV4V00wRHJpcE15Z2ZFdW9FaTBMd00yQ0ZmbDA1TnpuMG5XSENsQUNWQ3JQa3Q1dVVtc01WcGFROXlpN19vQzVjR1JUdjlhanNlU1BpdVFZc0JfMHdxYlZaVHF4M25ya0NwSG81S201bGw4T3Q4bFBXcjNuTkdjOC1pVU8yWGVUR01teFZ6Vks3VER0TGVHRUxic0FZd3VGdEo1ag?oc=5"
-            },
-            {
-              "data": "2026-02-02T08:00:00.000Z",
-              "titulo": "PL terá candidatura própria ao Governo de Rondônia, diz senador",
-              "fonte": "REVISTA CENARIUM",
-              "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPcXpkNE4tQmpSYURxbGtqcC0ySWx5b25kVmtBZ3FteWhfajJ3QlljRnd5aWhzR054cmZLTzJtSnIyR0pCeHFuc1RILVdRNlhka3A0cmFsTTdneU5VOHRtMUNYUmhtcHVmUWtnb2tMLVJ3M19IRkh5Q0U1c1AwU3k0TWljdXFOZ3BEVkdsVzZST3JLdVB3NXVGakwtQ0ZxWFdqUW5WeG9MYjNxb1FQdnB6RjVXQ0U?oc=5"
-            },
-            {
-              "data": "2026-02-02T08:00:00.000Z",
-              "titulo": "Governador troca União pelo PSD, abre mão de disputar Senado e impede vice de assumir cargo",
-              "fonte": "Estadão",
-              "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPX29RMEx6Ujc3T1ZRU1RjVjEwcmRfVGZmZ0ZqTmROMEY1ZHhvZUx3VXNKM0YxZ1RoVHVaOHlCNUttMG5qZ202RHN5Z3hXZW1LR3JMMFk3OURMMFpHT1QxR29wa1FHWW8zcEpBTWZiTVQ1Mm1HbnVPOFFlakVEcXVLdThzUTkxMkdQQlFqcmpzdU9sb3JZX0xtQmxzYU9WVmpvb3RWUHg2eU4weHVUTTRZZlhzd2N5bEt5enRVaUFhZkh1MmpoSUM2VkpiMkdtMDB6NHpqSEVLTERZY1l5VFHSAeMBQVVfeXFMTnJIamdXeWNUZTY1MmlSY29fZUZuSUpuN0hyRE9JMW9kTjh2SGtHNkNjalV6N19YRThLYm9PdlhaTnY5X1BtcFJsSlZmZUNkWkVTNnItWlpCc01VdDFGTFNKZlk2OE5qZEZ2SDJ0TDlYeDNSUVJjNURnTjgwci1NakJfUXVfZmZ0aWtZaXZFNFlsUl9iWU9VeEdJVFVWMzJCdHRKVm04X0FySG5jamFxTnhpRGFFM3FId3NFb2ZNXzBHYVh3QkM4VWg3anJhcmlmTmo1bE5mR0dxeDBaQzNfdlFncEk?oc=5"
             },
             {
               "data": "2026-02-02T08:00:00.000Z",
@@ -5269,18 +5291,6 @@ export const mandateTree = {
               "titulo": "PSD filia governador de Rondônia e amplia ofensiva para 2026",
               "fonte": "Congresso em Foco",
               "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbHFCNXp4aHZ0ME5CTHVjYTdPc3pnODV4Mm1hbUF3U0F0d3pzdk1Zb2tET3ZSSm5ZWWVTNTgyeDIxVUhpN0huZ1ROSFIwbEdOUlgyM0ZTWTBzSFlCSHlXTUM4U2FETG5MajBHbGpGVXNnUm4ySGJnWUhVV1J4M2VKVWIyWEpnUXkwVFllcW40SXpsQWt0YXZIX0V3T1ZIT08wQ1dWc2pneTAwd19salU0?oc=5"
-            },
-            {
-              "data": "2026-02-01T08:00:00.000Z",
-              "titulo": "Após Caiado, Kassab filia governador Marcos Rocha ao PSD",
-              "fonte": "Gazeta do Povo",
-              "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQX014MFJ2MXFLSFRIbUtXNG5NeWdaUFBRd2JsbTFveHQ4V2ZZUWlkd2p0cnEyZzlBZHBVUTBwRndFNGFYQlFwc3AxMlhVZHJKTWhhRnZ1YnpJY3l0ZHdEU296aHVkdnZNdmphT01tcG5ndUV0bzh1RnZZOGEzb1ZzRE1yTVlDdHRTTGRLd25DVW9UbUU0ckpCQnpuSDdaaEhuNXIzRDZ4Y00?oc=5"
-            },
-            {
-              "data": "2026-02-01T08:00:00.000Z",
-              "titulo": "Kassab filia mais um governador do União Brasil ao PSD",
-              "fonte": "Folha de S.Paulo",
-              "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQQ2VZZ3FWb0ptNzNSR01BcmhIdUpQdEpXOHZ5eDU0eDByTFU0ZkQzNTUzV3ZlV0E1c2U1YVhwM2lEYWpPWGltcmtrQWYtdnNOWVFkYXktUW5VeW5feGR2VlJYVFFRVTg1YzhJcW94TzJrZEdQUW9TVi1wM29vSVdNYk1FbXVLZWV4SWlrcGhyZXpzSmtrMmFFUDVZV0p3MklIRS1ZczlwMNIBrAFBVV95cUxQNy1lSkFWQVZpZ0trek8wSkd3cVlKWkwtNlA1R19BLTV2TnFHUFZwOVpzaTlxSndMbUFzRUg3ZmoweFk2a2t1VzcxRUVXbW13d3ROZ3FlUHV0cFBuV2thVVhraEpZZ0VUVjg5RnpQM0dybUxKbzdPR1l1cjB1Zy11N2JDS3Rfbm5xcFgxZzBsamliYTUwUmV6akhMOU90Tmp3VTdueDN3Q2ZyV3lr?oc=5"
             },
             {
               "data": "2026-02-01T08:00:00.000Z",
@@ -5452,16 +5462,16 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBBZmZ2ekxDM0g4Si1ZVTZfSWlrblM0UzkyRzdjOHVobGlzTThMa2tPZENZczYyc0lyaGk0Ty1WX0VjUVFSRTlxRFQtS1BYOTVHdVhJdVZBbVBZVTExOU1oSi1n0gFnQVVfeXFMTUtZQ1RXU05aS09GQVRCRG9DT0tkNE9SWHQ4RG44cTlXRHU3X0pDR3B0TDlxOFdxUHZ2VS15cGNYTkZQcnFrNlhRSUdEdVlXTmoxUmpyOEVZOVNWUUxzNmFJcklOZURndw?oc=5"
                 },
                 {
-                  "data": "2025-03-28T07:00:00.000Z",
-                  "titulo": "Sistema prisional de Roraima vai aumentar número de tornozeleiras eletrônicas para 800",
-                  "fonte": "Folha BV",
-                  "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOeV9kN1E5S1MybW9HWnMxTmtMb3paQU1xRFlOc3czOUNEa3R3LXU4cU85RHJndTlyQ0RtV18zcDNXYTI4a0ZKYWZ1Ukl6LTJBM2JFaFhnQVhnNUMzWE5GRE9wS2NaMEtyRzZWZEVXSXZYM3hHc18wM2Vac0kyYmFydEJMb3d4LTFrVUNhNG04bXFGYmZ0NS05Vm5QZGEwaVNMUm1zbWZ3WDh0M0NBZll3d1c4cl9xcUV3NC1oX28wUQ?oc=5"
-                },
-                {
                   "data": "2024-12-08T08:00:00.000Z",
                   "titulo": "Número de venezuelanos presos em Roraima aumentou 500% em 6 anos",
                   "fonte": "Metrópoles",
                   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbzJ1V3ZkTGprRFVfRTNuNVFiMG4zUFJxR01fTUV5TjJSSVpNbmNaVGdtdzN5MEd1X0lyS3Q3SzQ5SlJmUHZOZE56N1NaWGVtM3drbWhNT1ZUNTVPNWJkZWIySVVtUlZNakZEVndMY3JiXzR1UVoyU1BGZmRTVHFDWTVRRVJ1UVRVVGkwSWk3b0pQbnJmSEdUcDlhM2pwdw?oc=5"
+                },
+                {
+                  "data": "2025-03-28T07:00:00.000Z",
+                  "titulo": "Sistema prisional de Roraima vai aumentar número de tornozeleiras eletrônicas para 800",
+                  "fonte": "Folha BV",
+                  "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOeV9kN1E5S1MybW9HWnMxTmtMb3paQU1xRFlOc3czOUNEa3R3LXU4cU85RHJndTlyQ0RtV18zcDNXYTI4a0ZKYWZ1Ukl6LTJBM2JFaFhnQVhnNUMzWE5GRE9wS2NaMEtyRzZWZEVXSXZYM3hHc18wM2Vac0kyYmFydEJMb3d4LTFrVUNhNG04bXFGYmZ0NS05Vm5QZGEwaVNMUm1zbWZ3WDh0M0NBZll3d1c4cl9xcUV3NC1oX28wUQ?oc=5"
                 }
               ]
             },
@@ -5500,6 +5510,12 @@ export const mandateTree = {
                   "titulo": "Governador recepciona estudantes e entrega Escola Estadual Lobo D’Almada revitalizada",
                   "fonte": "Consed",
                   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNQk1DWkNUWk9ETWxtVUpVaHVqbmtScHVlV1NieGxueWlSSzhKRVUyZF9KY3dnY3JITnRQd1h6cldrZmRPMk9wQnJxUGQ4UU5PcGQxQ3hzRlhVT3IwQUVzNjR0dkQ1a0NPcjd3OEZ3R3d0OGNtaXNfcFFRRWpLdFp4cGd5ZExHUXNmdlhJcTA0Mk5zZG9nVXduZFJ2LXV0Yjl0LWI2cktkZUU0bEgxR3ZId29hNVVYaWRHaWtpSEZaazZ2cDhlT2d6UndSLXNWQQ?oc=5"
+                },
+                {
+                  "data": "2021-03-18T07:00:00.000Z",
+                  "titulo": "Governo anuncia reforma, ampliação e construção de escolas indígenas",
+                  "fonte": "Consed",
+                  "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQXzBOMWgwaXMzNnVnQ1JOSFp6a1ZUdUQyZ3czU1E2MzNzM0p6ZjE4bUdUc3JiM0NRUVF0YnlRV29pWWluVTd1a1BWaDdkenJEVEhJdGdYN3M1Mm9KUENDUGNhNlE3NHFJbVl0N3FTREZtbmNrNHQ5VUxiMlJzZEx6dW1FX1Bnd0syWjd1QkU3VXMzMEJLQ3dDT2VrSFpvRURVb3Fn?oc=5"
                 },
                 {
                   "data": "2020-10-19T07:00:00.000Z",
@@ -5563,6 +5579,12 @@ export const mandateTree = {
                   "titulo": "Concursos RR: governador planeja novos editais para Bombeiros, Saúde e Educação em 2026",
                   "fonte": "Direção Concursos",
                   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQN2JKLXAxQkhTYy1jNVdWdFRwWi13ZU9UUWJIV1NQQllPSG5XbFpSN3l6NURETzRVdzRYNVlnY3JSTTRpTEFNUWJIZHJkMUpYWDBsZGx5NGkyNHBRLWdaVkwwUndsV0pvbmNEWkxDUW9BRmJOWjRSUFlUMEstVTliVw?oc=5"
+                },
+                {
+                  "data": "2025-12-29T08:00:00.000Z",
+                  "titulo": "Concursos nível médio 2026: veja editais confirmados e previstos",
+                  "fonte": "Qconcursos Folha Dirigida",
+                  "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA5d0dLbmdQOEJqZzdzb2FwLWlIdzA2UHRUbFUzOXQ1X0xWdDI3aTRBSjB0YVZPWWJoMHRVcWpLdmk0ang5SGNGdTVFbVlMS252QWlacVRER0pWdXV5U0xScnNjTEdabDVU?oc=5"
                 }
               ]
             },
@@ -5586,16 +5608,16 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQbnREVFBTdU82ZklKeC1KU3VEbC04a29ncGI4eF92VXB4VUU3WU1BSG1yR1RrWVlWR0dzcXdFSnFmWHpmYXNsVnZxSUVrMHNBRlpkS3p3V0QxSUZTNk1MRjlFdzZReFRUa0hHS3d1WV84UkpnVFNLd1doT0tpLUNESGtrczdrMmRYenNFbWtxeExkTlZZTWdHQ19naTIyWUp4NzVZZW4yVGtiQWs1OU41OTFjSFV4VllxYXZ4QlNqT2VZR3lwWTRiYm5Nal9UU3pfbHIyZ21mLW9NN1d0M0tUQUtR?oc=5"
                 },
                 {
-                  "data": "2019-05-17T07:00:00.000Z",
-                  "titulo": "Cerca de 18 mil indígenas de Roraima estão sem ir à escola este ano e diretor do MEC fala em contingenciamento - Instituto Humanitas Unisinos",
-                  "fonte": "IHU",
-                  "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOLWVGQ0VEZWFfWHU2dHhlVS1hR2R6Z0ZKbGlMSUs3Z01vdnF1ZEpTbmNRNnpkNVNjOFh5S05XOTV2NkcteFh6eWhnYm00UTFiSVBjMDh6NUgwRUY1TmRaNlVxOEQ0aWVPWGRvWWhKM3pNbmFTSE83bWs2S0ZoaUd6NUZLSlhrUi0tTXdKZFNPLURkWmZsMS0xNTEyaUg3UnNtd1BDcVpXbUJfdmtCRjFpSF91aHdMRkZ0QzJ2RnJ1UGtjcmc5LWdneHo5U1NwZVJyNVJjMEFsNFdKOVhQM1pVRnhCSVQ2M0otTUV1bg?oc=5"
-                },
-                {
                   "data": "2022-08-26T07:00:00.000Z",
                   "titulo": "Governo de Roraima anuncia convocação de mais de 800 professores indígenas",
                   "fonte": "Correio Braziliense",
                   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQeXotNkhSX1p5Nmk3U2twMUpZMkNBMEwtT3FQVkp6aWpwVGFoM0RHdVdsMHJQOUJZWktmOTdOUEY3REtGRTdCeXk0LVpCN3F4dnJrX2hzLU5XN2lkMnNlell0OGZDUm9oR21CVFBPbXItQ0xGNGJHcEFvRlBsV1RxeVYxX2RtVXE1d28ySnN4VHY1LW4yVnNSaHRWZ2xMYTVHWWhoZmxXYmFyVXFvY3RvN21rdTZleFJjRkk1UUFYQXZQUzZJWTBnVi00bEVOQQ?oc=5"
+                },
+                {
+                  "data": "2019-05-17T07:00:00.000Z",
+                  "titulo": "Cerca de 18 mil indígenas de Roraima estão sem ir à escola este ano e diretor do MEC fala em contingenciamento - Instituto Humanitas Unisinos",
+                  "fonte": "IHU",
+                  "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOLWVGQ0VEZWFfWHU2dHhlVS1hR2R6Z0ZKbGlMSUs3Z01vdnF1ZEpTbmNRNnpkNVNjOFh5S05XOTV2NkcteFh6eWhnYm00UTFiSVBjMDh6NUgwRUY1TmRaNlVxOEQ0aWVPWGRvWWhKM3pNbmFTSE83bWs2S0ZoaUd6NUZLSlhrUi0tTXdKZFNPLURkWmZsMS0xNTEyaUg3UnNtd1BDcVpXbUJfdmtCRjFpSF91aHdMRkZ0QzJ2RnJ1UGtjcmc5LWdneHo5U1NwZVJyNVJjMEFsNFdKOVhQM1pVRnhCSVQ2M0otTUV1bg?oc=5"
                 },
                 {
                   "data": "2026-01-06T08:00:00.000Z",
@@ -5604,16 +5626,10 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1rbVpxSTNER09oVDBOcF9rUmt5TkoyVjRTNUxIVnVNdURCWWtVV2VyMmFJUlRRNTNEdjRFZXpyS1ZEaDJPSjZyYkc5cXBtZ2J3NTJFVlVfaWZvR0FuLWM3OWx4TV8?oc=5"
                 },
                 {
-                  "data": "2020-06-05T07:45:56.000Z",
-                  "titulo": "Conselho Indigenista denuncia situação de quase 18 mil indígenas sem ir à escola este ano",
-                  "fonte": "CNBB",
-                  "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZVgxdEJoQk1hcjFKNDdVYTFVa3BMZG5jRl9CTWJiTzBFaFMwS2hUVWxKZnRFeGJmVUhDbHo4UzhFQ2QtcktoVUtIQjZTZnBQZDlZeUdHYnFaa3V4bXVkUWo4dWd2Z2Y0VHhPeTlnenI2S0xJRENMdm8tcWVVRUxNYlBQZ0VQcVRrUkp2VElrNWRMbTBwRkdKSnVlZ3Q2Z00?oc=5"
-                },
-                {
-                  "data": "2022-05-14T07:00:00.000Z",
-                  "titulo": "Governo de Roraima cria Departamento de Educação Escolar Indígena",
+                  "data": "2024-05-14T07:00:00.000Z",
+                  "titulo": "Comunidade indígena Raposa recebe escola completamente reformada depois de 22 anos sem manutenção",
                   "fonte": "Consed",
-                  "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUW9PNmNESFIzVDdXcmljeDFHR1BqZzJERTlNYmJTOWpYLWhTaTBmay1BVnVwcFM3QVU4R0xBM3l3TENONm5vMVNJU1gwNTFiTTdYY2t0b28wTkh4czd5SGxjRV9aODFEVGtENEhOSDk3c1g4Vkx2RlFXZDU0VlZiRUpnWFVVMmJKdlp2RHNtcEM5cWZKeHFjYWFMUXM5UzVjVVJuUnpsblN1TGp0N0E?oc=5"
+                  "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNYVB2dzdKLWRsZ1JDa1E1M0RNeEFCRHU1aWNBenJxWm1LUUVJeENFQ3RIZVZxc216TElVaUs3X09WNm1qYUVGbmpwbzAtek1qcEdlZnBQVW11aFlUVGFpeXQ4Rm4wNTJNYnc4WTdqOHJEODFUU2ljUHVvdTFzcDNsWVpCbE56b0V3VTFJdUY5ZG9DZWJUdk9WR21TaWFUd1Q0LVBYdWpsc3FpRU00STJlT3pSdmxhSm92cTQwWkpkWlozNUg1RzNZenduaUx4TXNFUjVXMndDNEFLbkNu?oc=5"
                 }
               ]
             },
@@ -5775,12 +5791,6 @@ export const mandateTree = {
               "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5KNmdQSld2R2tjNkl3ZG5ITWs2VkJUMkJFZEdpNENJQjRBaHB5Sy05ZHBBeEdvQjYtdkE1ckFoaERsdzA3ZDhwamFCQmhJWkNEV3NvRGZ3?oc=5"
             },
             {
-              "data": "2026-10-02T07:00:00.000Z",
-              "titulo": "Concursos Norte: muitas vagas para a região em 2026. Confira!",
-              "fonte": "Estratégia Concursos",
-              "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE12bmZWcnE2NFFhOTU5WUNfZUhvY21jUGV4QzJfbHJaRV91TjJqbThNWThFZTMxWnY5cFdtUjUxd1dMbEZ2Qmo4aXdOV3VzSm5OaUhJWW9uS1paQkp0RzQ5LWFQeE9yZFXSAWxBVV95cUxQSEY2b25VRlh3T2VBZGJnckJNc3dHal9fM1pNQ2Y4TzhOYnV5TVk4N3A5Qm1zV2VIbjVRckFWT29ES2NucXRuVnZJX3N6MHNxRDJ4akRJM25FOWVQMEY0d3p4cHVyQ3Jna1lndTU?oc=5"
-            },
-            {
               "data": "2026-10-01T07:00:00.000Z",
               "titulo": "Quem são e quais os números dos candidatos a governador de Roraima (RR) nas eleições de 2026",
               "fonte": "JOTA Info",
@@ -5802,7 +5812,7 @@ export const mandateTree = {
               "data": "2026-08-21T07:00:00.000Z",
               "titulo": "Denarium impulsiona post em favor de Arthur Henrique e Justiça manda suspender publicação",
               "fonte": "G1",
-              "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQa0dreEFpQTd0bDlzUm1KUGxMcWw4Zk9walBDX3UxOVBobWFXcGFHOW85Y3p5NjVpRGFLRHREaEFJYWNIaTlVMkpwcUZlSzZzdmJlVVJyUFlISjVDRUM2YnYwN19LU1l6bnlfWTlnMEtUUmpEdkYyd0p6RHY1N3dxc19ZY25zUU5pR051cGIxckQyMy1yQzBUSTVWNWo1UmIxbEk0ZE1aWFBxS2FGblpqQkFsdnNjbTZHOHZweWJMbXVqVWRUOWU4dWlvNlVDeW1XOWd3dEk3QVJ5MGFNWlJORnUydHZERDdLY1U5bmVuWG5Ldw?oc=5"
+              "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQa0dreEFpQTd0bDlzUm1KUGxMcWw4Zk9walBDX3UxOVBobWFXcGFHOW85Y3p5NjVpRGFLRHREaEFJYWNIaTlVMkpwcUZlSzZzdmJlVVJyUFlISjVDRUM2YnYwN19LU1l6bnlfWTlnMEtUUmpEdkYyd0p6RHY1N3dxc19ZY25zUU5pR051cGIxckQyMy1yQzBUSTVWNWo1UmIxbEk0ZE1aWFBxS2FGblpqQkFsdnNjbTZHOHZweWJMbXVqVWRUOWU4dWlvNlVDeW1XOWd3dEk3QVJ5MGFNWlJORnUydHZERDdLY1U5bmVuWG5Ld9IBgAJBVV95cUxPazRsX2JJZjB5WVNzVTFVZ2RjNERzaUJaVW1WWndXSUpqOGxoRnhnSTlpRnNiQndGc2FPOE1KUmRXZnF0YzhGTXNob0ktQjhGVmJTNy16U09hUTJkZUUxYy1ORm1Kb3BpVGtMdWpwTXFhOWxFOFE5aWJvZzNFeFBpR3I1TkZDdm9zUDdjWC13N1pHSW11OHBfa2hKWnEwVlZzS3ZlMmNXZ2lqcHY4THZoYXRRR3JQaWJkQVZ5NXJSSkdpalpFdVpQOUtZWTY0bDVoZjVGeTVub0I5SEt5OVBSWlBfVVIzQndZMW9ldFJ3cDJLVHFudFRuQ0ROR1owV0Vo?oc=5"
             },
             {
               "data": "2026-08-10T07:00:00.000Z",
@@ -5895,16 +5905,16 @@ export const mandateTree = {
               "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOMHhKdlNUTFhyTzhPMm1vV0VnZHU0eDlwdXQ1SjNqYWNKUkFLVks4YWUtTGNXN2p2bUNqR2FWaC16dE9CcHhLeUFiUnZhYmFYaXZzbEQ0c0hza0dnRkg4VjRMUDBYOFRWaVRwZVdXNkpTaVo1ckxZX0dxdEhqQk8tYTJ1bVVSMnNFWHhuZGYyRHNpaFkybVN1S2k2aEh5VWRsdHdXMnlMbVA4MC0zY0VlTlg3c2NETmNN?oc=5"
             },
             {
-              "data": "2026-03-23T07:00:00.000Z",
-              "titulo": "Asfaltar vicinais, hospital, obras no Parque Anauá: como estão as promessas do governo de Roraima",
-              "fonte": "G1",
-              "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNU0tXaVA5QTIydldLNTE2OEhFczJvMHl3V21TVGl4cFFQeG91TGdvNmYtb3NQTzV6NHRDNk1sZG1jVUtySEltdjNQUVBtNmQ5UEtRMUtHSU9ZeUlzVkZhU1BFMEozLVlqWS1rUXZ5bEdVaTRTMnBwWVl5NElDMjZpRjRrUm1ndzNnbjVNUWRmUzY5LXZxcFJqZDlBTjUwLUVzSVNLb2N6a0ZVWlZIWTYxanVZT2VLVThzYXcxUEZUQmJuOEJ4dDUyOTBTd0ZhaGFheFVOVFJxZXZYc2wxcUp2OTR0VzV6dw?oc=5"
-            },
-            {
               "data": "2023-12-29T08:00:00.000Z",
               "titulo": "Governador de Roraima faz balanço da gestão em 2023",
               "fonte": "Folha BV",
               "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQVkFnVHo0cFQ4ejFaQ2N0Z3R3YW9XaERsR0F4ZUxHTm5Ub1RjZDF2dldNSGxTb2dKRlNjY25PQU9VS3NrWi11VHczaE54Qy04WTFaazZiMzA2UWFnNXNiY1FqbG9SWTUyOUM1M0ZqcG9XZHd3MFFEa1VjbjRIYzk3RjdvOEhkVnVtMDBESTFjZ1Q2dw?oc=5"
+            },
+            {
+              "data": "2023-01-02T08:00:00.000Z",
+              "titulo": "“Faremos um grande governo”, declara Antonio Denarium após posse",
+              "fonte": "Folha BV",
+              "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNSEZLZ0MtZkdDcVVkMDNscDJxUGlYdFUwNjcybFN1OTJGb3FZaVU5VENIUHJxTVJfX2s0WkhXclZWd29QWWRFSGtCcGttZkJuQVl6emZIRkpUZmt0cW1sTWJiU2cyX2JRS1JsZnJuQjE3aWdnOU9EQW1FSUNTaXRSMm43eVRqNkt5WTBySmpGS2ZUZExISWIzMHF0VHNoSG8?oc=5"
             },
             {
               "data": "2022-09-21T07:00:00.000Z",
@@ -5987,9 +5997,9 @@ export const mandateTree = {
                 },
                 {
                   "data": "2026-06-11T07:00:00.000Z",
-                  "titulo": "Governo do Tocantins anuncia nova sala cirúrgica no HGP para ampliar realização de cirurgias ortopédicas",
-                  "fonte": "Sou de Palmas",
-                  "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQaXNPSU5kOTZfeWpPMVZraEl1enJsQnBnQnFTb1VWazQ2Wm1ZaVBMV0RyWjBIQ2NMM3FacldxRUNTVUd4dkVWREhuUVFzNDRORDJBRm1hWURqcEtjLS1CcnU2cFVQdFhIR3I5aDVuTndIQ2RxbzhYdk04dklxZmJ2N2xJR2R3eTJLUG1SZDF0emlrTjJDSFdXRGl2MDZEeXNtWXEzd25MWUxYcnZsb3RkUlkzeFVWeUJYdkVhYUVfVXUzVk91bUo3NVFFZDBudkRXRHBLX284MUY?oc=5"
+                  "titulo": "Hospital Geral de Palmas terá nova sala de cirurgia ortopédica em 15 dias",
+                  "fonte": "Cleber Toledo",
+                  "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWWFTbl91bWgyVl8yd1VNRnd2YTlWc2ZQMkJDUXVjbVh2SUkxRVVqeGRTaWZScHljLUxCWjdCdzFGREpSaE02N0hKaV85VGE3am5BakJscm5hNXNnYS1WczlxZFdWMDlKN3NtZHhVQkRpUVdMa1VMNnJ6c1RaMmZWaWJlR3l2cUhHcUtHTGhPTjVfVVhrVFVNVVpTYk00OWg1SUZEbWdlQnpZMTBzZ2k4T3NB?oc=5"
                 },
                 {
                   "data": "2026-05-18T07:00:00.000Z",
@@ -6035,12 +6045,6 @@ export const mandateTree = {
                   "titulo": "Governador Wanderlei Barbosa Inaugura Nova Unidade do PronTO e Leitos no Hospital Maternidade de Porto Nacional",
                   "fonte": "Jornal Folha Capital",
                   "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQSlBqanl0MmJlbzlPZGNES1VRaUNLRmVzdzVZZENyVEdxODk1ek1vY2ZxV25fb2xWSldaZ2J0UV93Qmx6VWhSVXJSM0ZTb3h5Ni1HVXY2RXQ2V1hSTnhQUG45VjhVU0RCQ3BTUk85Y0FkbUd2YU83amt0UFhzbnpVV2ZxbVVzVG11SkgwMTNUdVJhQmRHVzN0ZVJwZ1ZHT0h3LWdjVzFqdFE4OXpZamd5dmV6THFRcE55ME9JRkNROFJnOTZoNmFHMWdvQTJUWTBGd2dKMXFYZE9adkt6ZGFiTDZfQlNmV3Fja1BKa1NqNXlFWXc2SDdGdQ?oc=5"
-                },
-                {
-                  "data": "2025-02-06T08:00:00.000Z",
-                  "titulo": "Governo do Tocantins reforça chamamento médico para HRG e destaca investimentos nas maternidades estaduais",
-                  "fonte": "Atitude Tocantins",
-                  "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNUEhkQjMzWG5YODFvdVlzUmw4cTV4Rko4STJjSGN6VUZHSFI5VERGVDRfV29jNW14Yzgta1RjTjVSdm9Nak93RVl3YndLS2ExUUF6aUFld2cxdFJQYURHUW9hZ3FyQ3JVdmxTcXY3RlpxNGV0S3pyNl81SUxjYTN3b0QxNmRWbjU1UjNDblVTWGxvcUU1ZkJaZGNjS0hYQjFDbUdacm5DcFpDOHJpS3lWanpUekF6VGFLQ2hEUkFaVzM3RTdQdVZKTjk4Nm1Da1h3V3kzeUZsQm0?oc=5"
                 }
               ]
             },
@@ -6078,16 +6082,22 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxObTI2Sk9SWlFzMV8yT3NvdEhVNDdtZ2t2bEpDLVJ3R2ZpWWdwdEhGMHdkUk5EM3Y5UW1IUERadDVfUFQ3ZDlybVh0UGF6VExjMXNqZjhBbWwtaEc5b1NKTlJCcXRxUFJENHBFcVlsNzBKQWMtaXdibGw0V3kxU1dWUUVPMkFOOVhaTHduN2p3NG5NenlvdzkwVFhBdzdCbjcyVmRxTGVwVTdxZEUzTUdlaElnQ1Y0SUw0SVk0b01WZkc1eWwtSkhwZ0QyeUhodmdDeldPcGk2VkFYSmM4X2JqWGNqdXBncnhLb3dHa2FYYVVjOU5yWm5nTjhQQV9PNjRuSEpZM0dUU1l3Z09fdmFuc09Bazducnc0QlBYbkhTeHBVU0Y1WUtlWkw3MklwMHc2?oc=5"
                 },
                 {
+                  "data": "2024-02-02T08:00:00.000Z",
+                  "titulo": "Após reunião de órgãos ambientais, Lelis avisa que desmatamento ilegal “não será tolerado no Tocantins” e decreta: “É hora de apertar o cerco”",
+                  "fonte": "Cleber Toledo",
+                  "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPSFB4UDJvRVNNRVMxQVRBNlFXeGpibWZnd21uMHJYZks0TWh4enZ1emNEdWQzMVIwNmhycEl1bGdzYVNGcUJMVU5laEp1bmdQMmYxelhkcTlCc0tnNzh1TkRFSlFlZnh5cG9rTFdpVEpKVTF2anJwSFJxZmJfMVp6b2Z1VDR3WWpNRzVrYjlPUUI5bzZNR0lRZDBRLXJpNHM1Vm5vUENWcW1XWV8xU1lqbjM2RWR6TVEzQnN3SWZpcm5vaTRBaVRBUFQzMlAwdXpxaTVYNXBXdTZ2VnN3bmQ3TlEzRVVKM2NOMGk1RFRnMmZFRTN0WElxZk42S0FKWFg3ZVJsd0dn?oc=5"
+                },
+                {
                   "data": "2023-12-04T08:00:00.000Z",
                   "titulo": "Tocantins se compromete a zerar a emissão de gases no meio ambiente até 2050",
                   "fonte": "Republicanos 10",
                   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPUDc4S3lyTVljVlNpTVBrS01kMDVUb1pfUUxBempOS2pJMUdzZXo0YVBlTFhCd0VOWVlqRG5NeUhuWXFZV2U2WjZ4Y2EyOGxLXy0wUC1EOUxtcFNhMV8yS0NNT1RFU3haZFBjUDlPakpzRlRnOU9BRVFveUZnNG94c1FvaGtoUkZtQ3E3T2laZWc1YkZlc21KYWVTenRiRkdHbWhnSDdPSDRJUUxWVGNCSEYtTEw?oc=5"
                 },
                 {
-                  "data": "2022-11-14T08:00:00.000Z",
-                  "titulo": "Governadores da Amazônia pedirão a Lula reforço de fiscalização e em investimentos",
-                  "fonte": "Estadão",
-                  "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNTkRGSmN3NE85cjZMdzV3VUltYlh6NDFKS1UzQ0JQRmROWEl4emplYXRaMHNsN3RFWWFfSjR4cGdCaEc0OG5nXzE5RjhraU84WjF1Z0p1SFZKWnMyd1lVdVpVakp1ZWptUm5qT280enBNZFFLQWRpTUhSZ3VuNTdOd2FjZVpYZ0xkSFNvMmJxaU1ZaE5iWDlDR1JPZ2pKT08tc2E1aWtvaExDLXB4NEtpRnYtdEozNndKMlpv0gHAAUFVX3lxTFBma0VHT2gwM05mZm9yLTFjaS1nYk1mR1BJUTJEZmhXVUpEUno4aDBFczY1aUhLTFpDN2hmaTFadHdXcmpCejB2SFlpaGRVTHVVWmp6UlNiNEg2SXY2Wi1Sc3dqZ3JKUmkyU2FGUXkyQkZ0aFRudWtScU0zNXVyNndmc0dWZUQzZWY4ZU4wTVE0UTk0RHp5eU82aWZTd2IwX3ZOY25sTEE0ZHZ6MUJOX05tNkZpMVdzTDh2TjByalJUYg?oc=5"
+                  "data": "2024-11-15T08:00:00.000Z",
+                  "titulo": "Conselho de integridade aprova três metodologias REDD+; Tocantins submete seu programa de créditos de carbono",
+                  "fonte": "Agência eixos",
+                  "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxONF9wTHE4eEhPTlIzbEtTaVRPOXEzZzY5ZU5BZUNmeGlCVTBxOF84SU96d1ZrcjlwSlo1ZWxObjYxWEwyTzBKc3J6ek1MQkdrZVhYRHlTUVMzQ3U0ZWc2V1gwbmY4VTM1Wjh0Q3M5MENBS0hPcWE5NEN0NWR4djZVRWdQbTRkS2JhMzhuUHFzRkxCUDIxcTYwWXkzcXc0ZWdnb0h2WXFUdWt4LUJUNHU0X3B3NWdWbEJpeXJQbnJ3?oc=5"
                 }
               ]
             },
@@ -6124,15 +6134,15 @@ export const mandateTree = {
                 },
                 {
                   "data": "2024-09-06T07:00:00.000Z",
+                  "titulo": "Governador entrega 25 novos veículos para combate a incêndios no Tocantins",
+                  "fonte": "Jornal Primeira Página",
+                  "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMGQySzIzZmp4bms3UkVlYlVWVHQ1bXNzQmRxRzljRUttQzRCMndtcHdwejRQZVp5U0cyMWRsNlRvWnBmMHdaOUE4ci1CSHh1YV8zeDVMMGtBUFFHSXVoYUV4ZDNIdzhtbVhNN1oyTzBkRDRsY19CNGFFcklRZXI5bTFJc3BjaUF5czUxT3ZkY3l0MW9RX3lTd1UxRm5TVDRwVURaMkVHd2o4OVBEV3Nj0gG0AUFVX3lxTFBjNFRONDhkSlNXNjFkSEszTlFackRTa05mQklkdFdJS3preVNuSklyS2tjNll1SGFZSHJSUGc4N1RtM3dwX2dYYS1Tb0xKWm9xd0V4Wnc4b05FdEJ2Um5GNGdTUVlIWThhZmN0TnNrUUNqRS1BOE0xXzQ3aWRRQkp6QUFTZVpwREtmREt3dEhHUWkxTi1uVlBnWE5MRWI3SGtwUktfelpzM0FJVzE2Q2ZleDBIOQ?oc=5"
+                },
+                {
+                  "data": "2024-09-06T07:00:00.000Z",
                   "titulo": "Queimadas colocam Tocantins em estado de emergência",
                   "fonte": "Canal Rural",
                   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUTRDMTRidUJWUFIxb0dyVFUzaU02MDJVQnFydUVieXNXSmpuQXRHTjEwVXVtTFEtQXlKVHVINW1oRDRlYTdEUkpnREI3b3VaX09CYl9ub3NueFczUmUzaHJHQnBvb2hadXBiOW54SVVBMFpCU1dtT1UyM0JiOGFEMnhPeVJ6MmtUNmtaUlhNQW81OUNtWGl1ZnpNbU51dw?oc=5"
-                },
-                {
-                  "data": "2025-08-27T07:00:00.000Z",
-                  "titulo": "Tocantins reduz em quase 30% a área queimada em 2025",
-                  "fonte": "Correio Braziliense",
-                  "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSjNpZGVaMExJNU5xOWw5ZHZNdHdWVi1xaV9GTFhMQmpRX0N0QjdVc0NlOTJYSDRlV3JVZlNlN25XcC1jOExma1k1ZmhjbzJyUnhEaU1EUU1VZGZhcTY3YkI2VTh3U0tQMTF3clZhbEZoWWlrVjA5RUFYbDROTWdhUWRZTm93Y1lxVXJNZ0VMaDc0Ymw1akw5ZTN6Y0hKMkM2TU5wbWpIY2VKN1FhQk5aMVNVMVNBTk1h0gG-AUFVX3lxTE5VMFo5cDB5N0VUTWQ0X0tOeDlLTDdvNHN2UTVMbTNMTGNhREVzYmFQNUYwa2thYkh3ZTNTSzJkNVZnRE5LSUZOY0hfbk9ienhnWmhtcU9Sek1HVk1SaVdOMGtIMVBROTh2cEJDSklqU3VhTmdLSWZqR3hpSTFKM2F4eHpKYkVSUEl5bTNBcnZFN21uT2hjTjBqTm5qRTJTZnJfRURzY3huQUwtSDlCWThQVFJjRkdfUTlXUVYwUmc?oc=5"
                 },
                 {
                   "data": "2024-09-03T07:00:00.000Z",
@@ -6156,6 +6166,12 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOSUdVMHhIRWZOVWR0c1FBZnduUjhodUNLTHExbXlZTTJPeHVtbFEwbEUxZjhfOXVkUlVVT3hGMHoybHdCaDNkZ3lDaDVGMzh5NWRoTFhfQVgycWZfZ194SzljQTM5OVEzUENTUHdiOWdWNlJsSnlmUWZHSklXNl8zTjk1OWZWZHNQOWh3YdIBjAFBVV95cUxOSUdVMHhIRWZOVWR0c1FBZnduUjhodUNLTHExbXlZTTJPeHVtbFEwbEUxZjhfOXVkUlVVT3hGMHoybHdCaDNkZ3lDaDVGMzh5NWRoTFhfQVgycWZfZ194SzljQTM5OVEzUENTUHdiOWdWNlJsSnlmUWZHSklXNl8zTjk1OWZWZHNQOWh3YQ?oc=5"
                 },
                 {
+                  "data": "2026-02-09T08:00:00.000Z",
+                  "titulo": "Gestão Wanderlei Barbosa coloca Tocantins no maior ciclo de concursos da história; mais de 12 mil vagas ofertadas",
+                  "fonte": "Bico 24 Horas",
+                  "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPbHA4SndvWEFjNFBzNGNYUXlkekU4cFc1R2prTHpiY2xTZklWcnNZbVlQNkxsOUJmcjJlb2pqZkEya0NnTTBLU1BWQ09oNTFReVNSWS1FS2xuQzRQSldxUlEyQXFSS2pQTzdGSDdjZmpQNzk4ZnBwRkNmbE1xRktPWGpYUzdBelB1dkt1TndTNExkQ1RzUktGODRudEk2cDRYWTZPVkZaMnA3NFpkSHV1Znc5NGZQbWMtb3MxVGhuVnhOaG5OUS1MRmg1U196LXh4MnJfWWtzZHFTT1ZlOHU4Ng?oc=5"
+                },
+                {
                   "data": "2026-05-29T07:00:00.000Z",
                   "titulo": "Governador Wanderlei Barbosa autoriza concurso com 30 vagas para Analista de Controle Interno no Tocantins",
                   "fonte": "Agência Tocantins",
@@ -6168,10 +6184,10 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQN1dDT2pNRUQ5bWJ2bDZJTy12T2ZSS1UydG1pNUstVXZBbnFMWVY1bi14dXVnREM4am51WXZETG9iTWtXOWxDc3hxbF9GY0tkcDZiYU5OV0J4aFNkTnp3enA5LWhiVms0Ukg0cjhXWTBCcjl2aDBBQ3RvaHh2eE1nelBENFd6WERLSmJtYlAyQzRJa0ROTG82YkdnX1V6cUFWZkQwblRJX3Vyak1UUmdkd3Rpa1pqVlRfRDFwMS13MXJXaHFHZ0Z6YzJ6UVlLZUZaTDVWSUVBaC1oV0hBWXN6ZU1RYmdGc0F2Z2tXRzR1MXlxdEE?oc=5"
                 },
                 {
-                  "data": "2026-05-18T15:35:21.000Z",
-                  "titulo": "Concursos para Polícia Civil e auditor fiscal anunciados pelo governo seguem sem editais publicados",
-                  "fonte": "Daqui",
-                  "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPSnl5M3VMYkR4WHRwNXFoTWdDcFRVMW5pVW9PZmRuWExGV0lkRDE4R2VVV0hUUU42Qm1EdHhKeVE4ZWFFZjFhak5tOFJGckJHX3hWNlVmZGRWUUIzZzVLNGEtUmdTSzRNVzdKR0R6QnhSVGNTNkEtY1VqNi14cGpINUdhNVBpZVFUbTU5TkV2SjU4bVJzaHR6b2FFSWVmSkxERXBFcExfLUx1eWRDVFZ3ODNxNm9Id2E4QnUtRXpyRlk4a1JqT3hYVDVOdWplSERmaUJySkV3TzhXY2Rzc0RENg?oc=5"
+                  "data": "2026-03-31T07:00:00.000Z",
+                  "titulo": "Governador Wanderlei Barbosa autoriza concurso da Polícia Civil com 452 vagas e salários de até R$ 21,9 mil no Tocantins",
+                  "fonte": "Agência Tocantins",
+                  "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQcDR0WXdONV9NbmcxbXNORzg0dzR6bkpZRm5KTnpwLWJ6U0RCbEtrTlFRODBmMzRURHhnQm94Sy1xN3dIcjFkekJzZGRHSG5UUlNsRWgwQXFydkN3aUluMV9KTno1SVNOSTAycGpDb2xVRnpUT0hFT3VwTHNPTXZUb25BWEFiMWtNcmp6b0RBQlJ2WjNFZGFxRXp0WGZFUENKb0ttRUg2QVQxXzVDTmVNdDNpRkhFeC1aSTIxRWQwWWtfSkkyU2dROTNLZWNwU29QSVFNakpmbVdJdGdidHJMX2swZGpZU0I3elNvSWZLSDFIci1GUmRXS1V5eGdjNXM?oc=5"
                 }
               ]
             },
@@ -6224,12 +6240,6 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQeWdhWnlBREpTcWFTamNmYTJ2N3FyVkFlYzRTWVRNanI2UnBwcEltYmpXM0RXOVZyeWJvSUtpQzk1alU5OGdiN1JOdVoxbXR2NUhvazItS0hLUXNyN2RxXzVQRUNQUndvdnppZ1VJWmF4ckN0aVd2aXpjNXUxQTFqRDN6SlV5RVZ2dlNFUWEwSDVscWd1VTZMZkEyMDUtdmVlSGV6N2RiMVRfbnFnbHRiZjVUMHFNaUhtd0lBZndzN1Q3RTNYRGxN?oc=5"
                 },
                 {
-                  "data": "2026-03-17T07:00:00.000Z",
-                  "titulo": "Governo do TO anuncia isenção de IPVA por dois anos para veículos elétricos e híbridos",
-                  "fonte": "G1",
-                  "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQc1NUaFN5OHRQc18wM3dVYzNYcXY4eG9yWjhvMlVsVFJKNVlWX2swWExDOGR4c0xOdUdZSnBFa1B4YjlmVVdwWXlUekhWWlpzQU5hZDhZbUgzSGREcERKXzFTdnZxekZWYnJQM0Q1NFgwbTQ0eWp6R0VQZ2tSc3BsUmR0ZzN6VVNtcXNieGczdTRKVEgwSTZBR1Q3S1J2Y1BGY1JzT0NlX2VrX3hHTDc2SXM5MGRGXzZxekVfVk1jOTJQT2NfSHhGSkZGZjZNWTJoZm9OYzRuYTBNZENSQlHSAewBQVVfeXFMT3BIRkhueDlCMFBVMUp1TFIwblhUWXRFYmIyalZWYXhsZmJqNmY4a3p5eVlZa0lfNm0yNGw1a29sRk9ENXJyLS1yaVZTZURIckFpUlR3UktqQjgtTFo3RS1sQWFFLVZNbnpEWUR6UTFBTEE3R0tWLWMyckVKWDZhZ2pjSHF0WmhuTzNhZDBjVFNNUzVuZEJkODliOVpZY1hPb2RZLWlnU2FGb2E3b0RxNUc2anZqc3hLQmlxSHJ0bmpzbnROMzlCeFBFd1NLTkpKamZXSUlLWUl1LUVLNFF1ZkhaVWRFV0ltMWc0T0o?oc=5"
-                },
-                {
                   "data": "2023-08-31T07:00:00.000Z",
                   "titulo": "Tocantins tem o maior ICMS do país e serviços precários, diz senador Irajá — Senado Notícias",
                   "fonte": "Senado",
@@ -6246,6 +6256,12 @@ export const mandateTree = {
                   "titulo": "Para beneficiar pecuária, Tocantins reduz em mais de 60% imposto sobre comercialização de gado",
                   "fonte": "((o))eco | Jornalismo Ambiental",
                   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNekxwVjYwM0x3SDlzcWlYbVZmSWFDaGdGTVBQSk9CMzk5WTJYU3U5bzBTS19IVjVLTlpQaUl1UW9VUTR5WGgteDdiX19MZDkyaFNuUExLeHdic0pBM1AwR0JPRzV3VmJVVnFUZ0kyRmFYRkFDTEtiTWZBR2NjYW5vQlhOZTNOTUUxeHV4TUdrM0ZmMlZMZmJGWW1acF9SckVDUlBFMXRuLUZuS2phTFlUN0ZCcGZWcXlvWEJSSzhxMA?oc=5"
+                },
+                {
+                  "data": "2022-12-15T08:00:00.000Z",
+                  "titulo": "Wanderlei sanciona aumento de imposto sobre exportação de produtos agropecuários do TO",
+                  "fonte": "G1",
+                  "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOUzB6Ymt6RW01ZTBBVExJNTlSXzRWSElpZUFTbHA4TWRncDFFMHJFRmJobERGT092anYxbTAtUDA5RnAwRlE0Q3JnZkhTUWhCZUpiWDUwVENZN0ItZHBtNWNGX1p4MzUwdFpKX3kxeGNPWTh4RzdMRFVDMTQ1Q0NBYTB1eW0tZEFtQnc0TFdIZDlPS21zVjhyYmt6NzhtMVYyTTRINzFlRmozbzdoUzd5WTZnMmVCcmZxVHU5MXVDNzRzN1NSd3dwYlBfV3JFNVRaV0xXdUFJUmdBekprTUHSAewBQVVfeXFMUGN1SUNRX2FPR2tOdTZTUXlfVjRwVjFxT0tuYTh5Mkk0WVA0LUFqaU0zcVhhbzlic0xCWWtTdkVvZzVGTlAzQmV6RzByclY4LWJ5RnR4bjlRMWVmNVJCdG50bEo5MWlCOTl3a1d1elNhMzV1SFJXNnVfRE9xcWxyTS1Qd3ZpazdzOXVKbDlZVk1TWml1TEdTRGQyRm9MZXlycEd5Rm1neWtvM29VS1MxN2R6TnYzeHpsNm13dHp0Mk4zWm1fdkNkSkJ6M0dOcURBV0otZ0JpYlRYby1CR0gwNTRLSGdldTJzWFRza3o?oc=5"
                 }
               ]
             },
@@ -6279,6 +6295,12 @@ export const mandateTree = {
                   "titulo": "Concursos da PM do Tocantins chegam à etapa decisiva após homologação do resultado final; aprovados ficam mais perto da convocação",
                   "fonte": "Sou de Palmas",
                   "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPeFM2bHduMkNieGdkbnMtZ0t6OE10akFIS3ZWbjF0OGNVdDVvaHRjMUsyWXNHeUIwUHNHUXFxNUljbW4xcmV6c3dYWWJGTE1HQXltS05LdVpRTDZvdDNWeWJZN3pSOWsycVNQT0l2ZUo4bE45UFNkMUJfOGYySXQ4U21ER2hSTVg1bmdaaHlZSUdoT1NmSklGb0xlaTlrNUx1UEc3N3oycjNfSnBZWVlOQ1dLb2YzV2RfYm14ZnNuN0lrcGlZOE5YalM5b3ozZUlRcGFWTE9INTZoaktHOU1pc3o1TkpPbmNuSFRzbVBfeWdIeGZzVTU2Y3Jn?oc=5"
+                },
+                {
+                  "data": "2024-10-14T21:02:44.000Z",
+                  "titulo": "Salários de concurso da PM Tocantins chegam a R$ 10,8 mil; veja detalhes",
+                  "fonte": "Jornal do Tocantins",
+                  "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQY0NHQXh0T2xLaV9DYUdmRE5Nbk12YWFmcnBpdDJ6S3BsNlhPa013cEJkaGVIMHBRMjRCUnhyTmpFekdtYmhQcU4yWUJFTGxjVld3aHNpTGRFU3pOTGhJU3NOcUp4M0lYVlFwZ0d4Q3ZfTkJYUUh2SEEzNlU0MWI3TVRpWmlZTTFRMkV1WG5YQzRpcmJtMFBqcE9kU3ZRVDNsbWR2Tmo3MkxqZ05uRHN0OHFlOHl6Si1mOVJ2MGxuMkpjcXhOWVBDUXZxaEdPelRQR2V4dmpjWER1WTNibEdF?oc=5"
                 }
               ]
             },
@@ -6474,10 +6496,10 @@ export const mandateTree = {
               "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNVHFNSWNoVlhHS0htQnc5YjdjVVJLS2ZpNGM3aU9CNlZXX0NaTTdBbE5XX0YxcmFocjloZlBMeW1JdWNncmNKbjZRLXh2TGVDNVRnTEp5cElCR2FLX0kycm5wdENyeWN4T0NhMnN2ZmlOTXBuT19oc2J1ZFNDMzhNVUpHNHVrUHI4Nm13?oc=5"
             },
             {
-              "data": "2026-10-05T21:51:31.000Z",
-              "titulo": "Governador Wanderlei Barbosa apoiou Bolsonaro em 2022 e declara voto em Flávio em 2026",
-              "fonte": "Bico 24 Horas",
-              "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQRDN2X21sdndzN3o2UjVoMFpZa21NZHVFN05FRlQ1ZkFhVWFXVDZYSE9yeGYzdFJJWnFPM1V1RnlELWZabEJGcjF1TE5pS1dNNUsyQmlZNUxzMFlqcGRnYkJzdFlQT2hjNFlVMFlzNzdIdTdLQ1RCdjNrMUZZMmVmbzk1NzlSNGY1TEZoWnBGdkphekZ6RVpTeDZPUnAxLWZ1OE9NeXdPOFpoNzJhMVlFVFpsbU1COXB2M2VjVDRKaEI?oc=5"
+              "data": "2026-10-04T17:27:10.000Z",
+              "titulo": "Política | Wanderlei Barbosa vota em Taquaruçu e demonstra confiança na vitória no 1º turno",
+              "fonte": "T1 Notícias",
+              "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPXzFNckU1OUo1bFljdjRGUkZBMlRRMG51dWY5WkEtdEVhUVRZYm5jM2pZVXc4SWJpVHE0algyTm1UZjZvQ2F3bkRxeEFnSWJIVTRkSkpQVDJsU19oTzNwdENuOXpwTXo4aHI1TFRLMkxYV1lKSnk1OHplME1tNEhjT05Ba0pETFVET09SNmphVENNeEc5ZFJYZzlRdVpBTUppVW5wNTdpNlM4Q2VUZDg5blRYM1hsODVzUWJVYUh6ZXQ?oc=5"
             },
             {
               "data": "2026-10-03T07:00:00.000Z",
@@ -6498,6 +6520,12 @@ export const mandateTree = {
               "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOTHRMLW0tNzlGNWZTSG5Lb2h5U0N4UThpM0c5NHgtdDVCVXJqUERTbmdUdUhSUlhnd0NhMUFYMkY4a0dVU2kxUkpZakRtN3VkaDJNSmFpLUE5MG13c293OFhlaTFTWmYtWkFSOFVweDlxX2d1UDIwelM1U2JweTdJVk9XNk5iWUgyUV9CMkE4ZVJkUmI5d3JnR00yLTFKTWJEWE16RjZDMEFXZXpFT200SWxza3dMT3dmM0RVeTNtZWxaWlItSVpCRHd2RThQNHpucjFRNw?oc=5"
             },
             {
+              "data": "2026-09-28T12:30:59.000Z",
+              "titulo": "ELEIÇÕES 2026: Candidatos aceleram o ritmo no fim de semana com acenos à juventude, ministros e descentralização da saúde",
+              "fonte": "Portal O Girassol",
+              "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNbEdvMC03WHRka1lvcHZYQ1Fpblk5eHZlV1k4ejM5SE05NnAtcm93bkRnRW9OWTdjWmdOeGdsTmhqTU1WQWtvSnZYUkZqZzF6cFJWeXM0RjVkSVh2cU5tSGljVmtoUVAtZjlKa2R5cnYwVUNBUE9nVk5FRWI4S3prcVpCSDNicnhwWm1nU1NzYURGcDQ1X1BfNTVJd2pIUUx2eGhtYWxkYTVWQ3FMeHRlSVVodDlpeVJRZTBQVjlsWEpfLXo5ZThWcXB5bjhwcnBfM0Iya0hKYTAxTGtSbGQyX2FGXzJRWjRCVWJ1SkVIcFI?oc=5"
+            },
+            {
               "data": "2026-09-23T07:00:00.000Z",
               "titulo": "Governo anuncia transferência do feriado da Criação do TO e servidores terão quatro dias de folga",
               "fonte": "G1",
@@ -6505,9 +6533,9 @@ export const mandateTree = {
             },
             {
               "data": "2026-09-23T07:00:00.000Z",
-              "titulo": "Governo Wanderlei Barbosa tem 65% de aprovação, aponta pesquisa Quaest no Tocantins",
+              "titulo": "Wanderlei anuncia transferência do feriado de criação do Tocantins para dia 9 de outubro",
               "fonte": "Jornal Opção | Tocantins",
-              "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPMWg0ZUZFMHJ3anB2UG91aURaWnpkUVRkOFhMTjQzOExld2hIYjZHb3lIdDFrSXR5bkF5WlJzQU41cUZlSG1lOWpTVWpqb0loeE9EcmRYb24xMC1BNXRGcjg3RVhOb3lfX2wxcFVocllxWVZQRWY4cU9oMEFKb2dUMkpNcDRNcnRvclJQekhRQjZLSUh1QUZqSDVFMllPdHFvbGNzUS1hQVFDN0lWSWF2dGdSdS01Wkl2RUIzNTR5LXRiYXc5SmVsaEtCZ3V2MUg0?oc=5"
+              "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOM2JJWC16WG1GYUhrM243TkxXRE1DRi16REwwcmxwb1AxSU1JaWJ2dFNEeGNFclhKZlRNWUx1NURfZExoaWhxcGV3Yk9zWGFpeHBTRzRvT0tJemRuY3dHU2lrZHRBa0xNbE1VVFhXcWlaOGFIVk1qRjZJa3JGeGNvRTdtaUJzVUZfZUp4YUpUYi03cEdzMUp1ZmNGUWdFcDVnOEJyRjhHR3dnR09SQXRlVzFDall5bFZYeDduOUxyVVZzMzd3aXByLXA5bXM0NzFqUkJ0cDI2YVppQQ?oc=5"
             },
             {
               "data": "2026-09-23T07:00:00.000Z",
@@ -6517,9 +6545,9 @@ export const mandateTree = {
             },
             {
               "data": "2026-09-23T07:00:00.000Z",
-              "titulo": "Wanderlei anuncia transferência do feriado de criação do Tocantins para dia 9 de outubro",
+              "titulo": "Governo Wanderlei Barbosa tem 65% de aprovação, aponta pesquisa Quaest no Tocantins",
               "fonte": "Jornal Opção | Tocantins",
-              "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOM2JJWC16WG1GYUhrM243TkxXRE1DRi16REwwcmxwb1AxSU1JaWJ2dFNEeGNFclhKZlRNWUx1NURfZExoaWhxcGV3Yk9zWGFpeHBTRzRvT0tJemRuY3dHU2lrZHRBa0xNbE1VVFhXcWlaOGFIVk1qRjZJa3JGeGNvRTdtaUJzVUZfZUp4YUpUYi03cEdzMUp1ZmNGUWdFcDVnOEJyRjhHR3dnR09SQXRlVzFDall5bFZYeDduOUxyVVZzMzd3aXByLXA5bXM0NzFqUkJ0cDI2YVppQQ?oc=5"
+              "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPMWg0ZUZFMHJ3anB2UG91aURaWnpkUVRkOFhMTjQzOExld2hIYjZHb3lIdDFrSXR5bkF5WlJzQU41cUZlSG1lOWpTVWpqb0loeE9EcmRYb24xMC1BNXRGcjg3RVhOb3lfX2wxcFVocllxWVZQRWY4cU9oMEFKb2dUMkpNcDRNcnRvclJQekhRQjZLSUh1QUZqSDVFMllPdHFvbGNzUS1hQVFDN0lWSWF2dGdSdS01Wkl2RUIzNTR5LXRiYXc5SmVsaEtCZ3V2MUg0?oc=5"
             },
             {
               "data": "2026-09-23T07:00:00.000Z",
@@ -6570,10 +6598,22 @@ export const mandateTree = {
               "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQYnZhdTA0c2JNT0NYMm5nOVlsWUNHS09qYy1XcGRFNTdjaXMzbS1NeHpVWHktRUdqQnpLMEcwblg4ZWVza2hPUjVCU0p2SWxuNU41VHdSMFZDcGxBWE84Tmt3cjlqbmlreDlNSnBwNkhrSmZkbW5oMm9lS0VLc1hxekRfSVJpZEtleTRCMGRweldja3ZFYWxtNEowVXdxVWdWWk5vOGJYanZoUERNenp6M2JZcW8tQQ?oc=5"
             },
             {
+              "data": "2026-01-28T08:00:00.000Z",
+              "titulo": "Governo do Tocantins decide fazer operação em presídios após dois homicídios em unidade prisional de Palmas",
+              "fonte": "Jornal Opção | Tocantins",
+              "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOLUkweHZmSUdRVWtac29QTTJxbEVETTQ4TmNEZDlWR3A1U21md0YxeUpuMHZSWDNjYllyRUdWUjNmMGtlQnZ5c2lOT2lBMmQ3ekdQdllXRGpNR2lSVEU4WF8taTEwLTNHeEp6VGRqWnlGN3BhMVFDNEtKSGtMNjZUQlNCLTdDS1VzSXNVOEJNWW1ndThKc1I5OFVMdGJSY01mVUpxdXNvRFU2Ui1ZQkQzVldubXZUVWJOelhWek5RcHU0aTJBZHZ4RmhHdlVlRzBmSk13VE9EYnV6ZmxybExXd0lEM2VodUFqS0RIZk5SRm1YZDQ?oc=5"
+            },
+            {
               "data": "2025-12-10T08:00:00.000Z",
               "titulo": "STF começa a analisar retorno de Wanderlei ao cargo de governador do Tocantins; veja como é processo",
               "fonte": "G1",
               "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOX0FRMEl4eEYzcG9tRjRWUGU2ZlRlOFhIeFZtMjlSYUNiR0l5azFHbnlySDJUUmUwTHBfblp4cmlsdEdybHZaQUN3ZERwa0JfeEZCWGljYjhkSG1RQ2dzVjBQOGVSelBBT1JfdFpkd2hFcXhoWVM4aW44Ul9iN2pwZGtjTmRtTUpGcnlrSW92cm8tLUdfcFZwbDVuMjc0bEtwcUppYUFIdElfeG1LbFp0TmlURkVwWFgzNERUNXJJYUJIak9EZlJxTHlOMk4tV0VtQXBuNzRxOE50amRsRENIcU8zd2Nwal8wTER4MEowb9IB_gFBVV95cUxNVG9iMHNpNUVMTVduTzQzLW9LNk9PM3gtUUpIejEyQ19FNlFSclN6and4OFVfbkNrRE1tSnA1aHpHR0xDdG9mVnZLNnJmTUlOVTBIcDZ0amJURWRCVzFJVjJkSEVOclFsY1d1RGZ4aWRROWd6dXBpeHp1THVCS1B3SDJraFV2cWY1bktwNDU5eXJGZXlXanZHSWtoWnZ3Q1duZmlKMHBtb0YwSnpQcEVaQlowRzl4NmgyQjE2bGlsNi1UZU53cF95NG9GRjJ4aDNXMWtONnBESkpPWGNDbjFSZVdJQ3FFc3h2VjZxVFFUaDd0RFRjeV9oRnRoYmpCUQ?oc=5"
+            },
+            {
+              "data": "2025-09-10T07:00:00.000Z",
+              "titulo": "STF recusa pedido de habeas corpus de Wanderlei Barbosa para voltar ao cargo",
+              "fonte": "G1",
+              "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNS3dSbWZ0ZTVZVGZjMS14dU4tSllXMmFPRlVTdlMwcW1BeGphSFdzOFZPZnAtaXpvVWtEblNTSVBOOWYtY3NEbkpWdUFkUzVqSko5Qm5UbGJTSWJxZWsyODFnamZicVJlLThreWJOdXFnbTdQSXVXUXQ2QzVYTnlQWF93VVgxRXB1LTgyWlZfb2YySV8xMkZhRTBObnZhUFE1NnZWQmhRdVJGUFIxdW5JdFVvWmdtSVRZZFZKanpZcW1jWFV5MHBSQkw4Y1XSAdsBQVVfeXFMUE5kRzBGbkNkeF9MYVl4eWs4YXRCVEN3NTQyNTNuajVtOXl1Tlo2MHN2a1BjR2NRQW10VG92U1RPQ3lqY21aeGdVRElSanZOSFpTM2dKUk1VUk94c3J2SmtBRjFIanA3NXhmN3FpUm5odHN6S1VmWTRnZUpZMUpqYU5OaVl3bFdQbXhZYTB0blJ5d1VSRGNUaFB6UC1QdGRhNkx2WUo3MWxWRjFPMUdhNHpSZ0o2bEJRLVVESnBfYTM1YVFfVGRLU0tmY2FvYmh1VGhqT3JnZl9QQ1h3?oc=5"
             },
             {
               "data": "2025-09-09T07:00:00.000Z",
@@ -6679,16 +6719,16 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQLW9YWHloMmJISmlYTWlwTGtobVBfeUdFSDVOMi1ucWVPRURtV2RSSHlfUTdZVUxyNTlYMEZlc0gxQzdpUXJSV2FzdU4wMlJxZmxJaGZ3TkpfNkFuNWZlNjVQTm0zdVVQRXIyTWw4a242MF9Kbnl4THloTUN0eVM1aGZKcHp1Sm42SEFMWTBLelFKenpBSWdWeU5rRjh2ZjhwUzNwTVhPTmV5S2huOFJicHFpRVl6ZkhtMDY5NkdwS0JMS21EdHoteXJNeU5NcWdMNVE?oc=5"
                 },
                 {
-                  "data": "2025-12-14T08:00:00.000Z",
-                  "titulo": "Novo Hospital Regional de Palmeira dos Índios garantirá urgência e emergência 24 horas e será inaugurado no dia 19",
-                  "fonte": "Correio dos Municípios",
-                  "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNcnl4YnpxTzVVVTlIMGQxQ1pWa3dlLTBwQmtNcjdFX0tiOWxkYzdHQnd2YWJzTklYUGxaMHd3LXctWkdwZy1BS0FzNHJiZXlQekZhWFhDd01SMWh1MC00V3pucUJiQ2hReFBqT0U3cWc0MkJrbHF3c3NTVjFJUjAwWmNiNWRkRVFURk9uT05CTGdQRkdHblUzTDRFNzNJZG5ld2IwNV9maUprbHVtZVhVcXh1Y0hGUlFoQnU2TmxmSFNIT010d24zZUt4Mm5ubnk5RXR4RFkwYnh2YUxvQm5yTWtHMG9sVFhwMEdEVzRRQ3I3TnptYzVwTV9UYjBIM1R3UXFyQ3V3QnA?oc=5"
-                },
-                {
                   "data": "2025-11-25T08:00:00.000Z",
                   "titulo": "Paulo Dantas anuncia inauguração definitiva do Hospital do Médio Sertão para dia 17 de dezembro",
                   "fonte": "Tribuna do Sertão",
                   "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOVUdHa3hfYjd2SThRVFk2NWVYekVSWDdhY3RUaVB6bmdjalc4c2stRlVtRVJTMTJqOWpvcTB1S25HRzNGVzg4bnVQOTRXdUY0cmJlZEd1dHJMZGtadm9kRUxUVGcxdm9QcTdYWTRyc2dSSDNYdWxmLVhXdjdrRGpGRDNrMjdpQTdMb0t4TGdSODJmTzE5Nk1zR05EcHc4dlJBSTJNczVMaDBuYmZuSkE5ZUNzVU1ZR2wwUTRoV3NaVWtpQ1VVZnhMVG5LNzhLb2EtZng4X24wMGF2bWlFQmJmZ1A2NTVzVllWTGxqag?oc=5"
+                },
+                {
+                  "data": "2025-12-14T08:00:00.000Z",
+                  "titulo": "Novo Hospital Regional de Palmeira dos Índios garantirá urgência e emergência 24 horas e será inaugurado no dia 19",
+                  "fonte": "Correio dos Municípios",
+                  "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNcnl4YnpxTzVVVTlIMGQxQ1pWa3dlLTBwQmtNcjdFX0tiOWxkYzdHQnd2YWJzTklYUGxaMHd3LXctWkdwZy1BS0FzNHJiZXlQekZhWFhDd01SMWh1MC00V3pucUJiQ2hReFBqT0U3cWc0MkJrbHF3c3NTVjFJUjAwWmNiNWRkRVFURk9uT05CTGdQRkdHblUzTDRFNzNJZG5ld2IwNV9maUprbHVtZVhVcXh1Y0hGUlFoQnU2TmxmSFNIT010d24zZUt4Mm5ubnk5RXR4RFkwYnh2YUxvQm5yTWtHMG9sVFhwMEdEVzRRQ3I3TnptYzVwTV9UYjBIM1R3UXFyQ3V3QnA?oc=5"
                 }
               ]
             },
@@ -6809,10 +6849,10 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPME5oelRMWWdVY3puT2dLOHVPdkVPYy1jSUxMYzVJQzZsdWItNkFWNEhGQnAzSXdJOTcwTjlhZnhkaGNBMy1xaXFiSGw3MTZ2WDFGSC16Q2NkNWhZMmlnNTdRZ3lxT0gxZWNSRkJYUEowTkxlNU96NVIxQVhsR09QVGsyNnVQc3pGT1FWT21najBLMlYzY09kMHVydmtrUzdyYW4yMURTQ0JXdHdYQWo1ZzRnZkdJZXB5bC1VTlNwRFNlLTU5YTVkTnBQOXpQbXNsaFZWY0xCa1VFUDdLUHRXSkNfVEtTemdxYlVUNkZB?oc=5"
                 },
                 {
-                  "data": "2026-07-24T07:00:00.000Z",
-                  "titulo": "Paulo Dantas reage às críticas de JHC e afirma que Hospital do Idoso será entregue: \"Não vai impedir a obra\"",
-                  "fonte": "estadaoalagoas.com.br",
-                  "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQenRSemJfWHVOVXMzOURKSU45b1NIWmdPYXlVQ1pKb0Fmc3dTeTlEbXNvc1BRZ1NkemlNN0Q5NjRCUzBGbC1VQWs0NGE0MkpabWNmYnI4SGJNN0JrZm1vRXNldHlfTTJOVWktOFJpX0xzaGVWdmh6c3VmZHcyel9wM2JkeUt5dHdHQTZlT2VSdk45cGdPY0V3WnpuaWFycXRRUFlEWmYzNWhnRGhrbmZEYWdRRGw1UnJ2bVBENnVqUHdGQlNmbE1VZkQ3OGw4cFozeTBiV0hpZUpCa2xYVGROZw?oc=5"
+                  "data": "2026-09-15T07:00:00.000Z",
+                  "titulo": "Paulo Dantas diz que Alagoas tem único Hospital do Idoso mantido por governo estadual",
+                  "fonte": "GazetaWeb",
+                  "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNcmdVSzNISjZsZ1N0RDJ0enF0QkVOS3JBeEk0bWVOWG5wcWdsQVhORS15d3BtUkNOUW9RR2xHdDl1cmtpRjRxbGVjaUhsX2tWenR4YmZ3a0NNS0tTQlFYMEtqR094YWh4R2k1N1lsOEdEY2o0dm1JZGxmSms5LW1HS1h6bk1LU2g4RkRsRF9Zb3hRbW80TkZ2dFFDQ1VuR0xGNE9rY0hBTE8zc0tZLUVqWk4zbGs4MElray1vYU9Ebnp3TUVob09PT3l3M0g1aDFKZVHSAdoBQVVfeXFMTm8yV1BVdlFDT1dGWnBVWFVybmZCRnZNWlpROW41QjFucGFwUHowRm8tX1hYa2pxbzdYMk5WcE9ibXBlQS1KVmVrcE90Q1BSNmRISnNGdFU4VUxrRjU0ZkdwQWthLVQyb3ZWSklLd1pVRTVrUUY5eXgzcnhxaVBNSTZzeWhURXpzeW1OVFp6MUx5QXpEb1hQVFQzVEp3aXZzbHZuMVB2MkNua0FWVFJGT1lVeWt0WWtxMTdtYVdzbFFGaFc3V0FtVnNXZFBZaUpSenVxUEdwb080Wnc?oc=5"
                 },
                 {
                   "data": "2026-09-12T07:00:00.000Z",
@@ -6821,10 +6861,10 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPelNCSUk5NjNNOERGRGx1RXpadTNWVXNod05YbWRZYkhLUkNzaTZWVlMxTjhhX0o3WjBLZmZxYUhVckdReDNXeUgxTUQxWmFLcGVXcXBJTm41SzN4c0J3SDBnNEkyQTVfZGZIcnhrSXA0bl9UYTZrZlR6Rl9BX0NQMVJzLUtzSGFGaGE5UWY3eDNGZTVROUVtRndPLXpPZGtEc25Ici1OSW02MDR4andyc2ZhWjdadXoxX3BWOTBKMHB4VXhwUXc?oc=5"
                 },
                 {
-                  "data": "2026-09-15T07:00:00.000Z",
-                  "titulo": "Paulo Dantas diz que Alagoas tem único Hospital do Idoso mantido por governo estadual",
-                  "fonte": "GazetaWeb",
-                  "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNcmdVSzNISjZsZ1N0RDJ0enF0QkVOS3JBeEk0bWVOWG5wcWdsQVhORS15d3BtUkNOUW9RR2xHdDl1cmtpRjRxbGVjaUhsX2tWenR4YmZ3a0NNS0tTQlFYMEtqR094YWh4R2k1N1lsOEdEY2o0dm1JZGxmSms5LW1HS1h6bk1LU2g4RkRsRF9Zb3hRbW80TkZ2dFFDQ1VuR0xGNE9rY0hBTE8zc0tZLUVqWk4zbGs4MElray1vYU9Ebnp3TUVob09PT3l3M0g1aDFKZVHSAdoBQVVfeXFMTm8yV1BVdlFDT1dGWnBVWFVybmZCRnZNWlpROW41QjFucGFwUHowRm8tX1hYa2pxbzdYMk5WcE9ibXBlQS1KVmVrcE90Q1BSNmRISnNGdFU4VUxrRjU0ZkdwQWthLVQyb3ZWSklLd1pVRTVrUUY5eXgzcnhxaVBNSTZzeWhURXpzeW1OVFp6MUx5QXpEb1hQVFQzVEp3aXZzbHZuMVB2MkNua0FWVFJGT1lVeWt0WWtxMTdtYVdzbFFGaFc3V0FtVnNXZFBZaUpSenVxUEdwb080Wnc?oc=5"
+                  "data": "2026-07-24T07:00:00.000Z",
+                  "titulo": "Paulo Dantas reage às críticas de JHC e afirma que Hospital do Idoso será entregue: \"Não vai impedir a obra\"",
+                  "fonte": "estadaoalagoas.com.br",
+                  "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQenRSemJfWHVOVXMzOURKSU45b1NIWmdPYXlVQ1pKb0Fmc3dTeTlEbXNvc1BRZ1NkemlNN0Q5NjRCUzBGbC1VQWs0NGE0MkpabWNmYnI4SGJNN0JrZm1vRXNldHlfTTJOVWktOFJpX0xzaGVWdmh6c3VmZHcyel9wM2JkeUt5dHdHQTZlT2VSdk45cGdPY0V3WnpuaWFycXRRUFlEWmYzNWhnRGhrbmZEYWdRRGw1UnJ2bVBENnVqUHdGQlNmbE1VZkQ3OGw4cFozeTBiV0hpZUpCa2xYVGROZw?oc=5"
                 },
                 {
                   "data": "2026-09-16T18:41:00.000Z",
@@ -6924,10 +6964,10 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNdmNSOUduM0pqUjFxYkFvd0ZkVEdfTWVrZGdCaU1jRHFWdEdFOU80bTQwak1qaVFmM2xCeUhROGNDeDZOaXJpM1RwTzRWR3JnZkxwbW9KWnBYYVl4aVB5MlZNdjBwTnFEYnFUc1djUEtSWUZZUTR3VHZ0WmdWMzV1enFyRzB1MUNhek0ybFpZVk9vV0ZnbDRfSERLYWxRM1RBelFNdXM0V0hMVm9VVWxjeTdzV0otQVU?oc=5"
                 },
                 {
-                  "data": "2024-10-22T07:00:00.000Z",
-                  "titulo": "Governador inaugura mais uma creche Cria e expande atendimento à primeira infância de Penedo",
+                  "data": "2024-09-08T07:00:00.000Z",
+                  "titulo": "Estado assina ordem de serviço para construção de Creche Cria e Escola na Ufal",
                   "fonte": "Tribuna Hoje",
-                  "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQY0dJd0F2NUcxYVJYRXFQNjdmcjRvenZRczF3dlpzTGNpNnhHOXM4WVhmQUgzNnpUaTUwS1U1c25RT3VUcUNYTlNCWUhNaERZeGpjMzZYajZ5d1ZaQ25jMkJIeEM2eFN5Z0FFTDVxeE91eWdlZ0R2Q3JyUnlsLVR5WEdNMFFzcUxVS296aGhrQjhzcXphUWtHY25jZHozZF9abmhpRi1YelVtbXhqU1pUOU9nUnNkYVA1N1IwVVpzR0JMZ2NGT0h4UTh3Z01LeXdkb0pqMy1GZUpaRGJyNWRHR3BQYlBvWFk?oc=5"
+                  "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPYWRFSmtiQWZ4Rm81Y0xxX1I4UUc4SDVmOXJhM1JPcWFoMkxJRktrYTFlLTVvUUZuYjdWZU5EWWlWTTkxUEpQZzh6dkZ5eWFEaXZNeHRaQ3Zxck93R0dBT2NWOUZCV1JUeFBTa3Z5UGhwWTFLUTN4WjFzUEhNRkROSXEtSFBwanB5enRnSWo1bDJRRDc5NW9QQWRvdVVlY3hJZjMwbFZad1pfQTNrRGY0bG9OVjUwZ2c0cS1RaThUbjBNb240TXhOc01RSFdCV2VPWTQ3ZQ?oc=5"
                 },
                 {
                   "data": "2024-02-20T08:00:00.000Z",
@@ -6940,12 +6980,6 @@ export const mandateTree = {
                   "titulo": "Governador assina ordem de serviço para construção de Creche Cria e escola no Campus da Ufal",
                   "fonte": "Cadaminuto",
                   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQMTVVelJtYTdyQnhMaUZHQVpPdEdCLWdPSmtycjhvMEw3OUVVSG9HNkMtaGRLNTZqOVRwbFo3b2cxT0cwQlBkNWIxaXJYeTdMOVczTENDYlBudlVGamJHZEtFbFR1RUJMcWVKOWUyOHdHcmVURWxZam1XZmR3TnlMaTdqUkY5Y2Uxcks0dUN3ZUk5UzNFRXhkRHR4Q0ZUeW9EUFpib25YSmdLOUN6eDFhdkp6N09KYjN0Tng5d3k3azI3cjFTbUp3eUY5alVmN2tmOU5ldmdhN18?oc=5"
-                },
-                {
-                  "data": "2024-09-08T07:00:00.000Z",
-                  "titulo": "Estado assina ordem de serviço para construção de Creche Cria e Escola na Ufal",
-                  "fonte": "Tribuna Hoje",
-                  "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPYWRFSmtiQWZ4Rm81Y0xxX1I4UUc4SDVmOXJhM1JPcWFoMkxJRktrYTFlLTVvUUZuYjdWZU5EWWlWTTkxUEpQZzh6dkZ5eWFEaXZNeHRaQ3Zxck93R0dBT2NWOUZCV1JUeFBTa3Z5UGhwWTFLUTN4WjFzUEhNRkROSXEtSFBwanB5enRnSWo1bDJRRDc5NW9QQWRvdVVlY3hJZjMwbFZad1pfQTNrRGY0bG9OVjUwZ2c0cS1RaThUbjBNb240TXhOc01RSFdCV2VPWTQ3ZQ?oc=5"
                 }
               ]
             },
@@ -6978,22 +7012,16 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA5ZzVPRkxBZ0x6aGs0aU5kVVNlRk03aEZiaXNKbklOdE50clhhYVJiMmtRTDdFbE5DMEcxNWJOLWp5Y1MzVFdfd3BPLVJTY1l4b3BVTmZvUTR4ZFRvcndjMFR0cmJUbEJOUEE?oc=5"
                 },
                 {
-                  "data": "2025-12-11T08:00:00.000Z",
-                  "titulo": "Concurso Bombeiro AL: comissão formada; 344 vagas previstas",
+                  "data": "2025-10-28T07:00:00.000Z",
+                  "titulo": "Concursos Policiais AL são anunciados com 1.804 vagas. Confira!",
                   "fonte": "Estratégia Concursos",
-                  "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQYWhhNHNXdUVtU2tXMENidzFwalZ6ZjljRFkwUm9CVDc5WTUtUlQxLUhrV2JoMU8wN3lQanlmN3J4MUl3Rl9VVDdheTdtdE1zRDVrMGFic2g1SllHTzZVV3BmTDFjRzNaaTJtYjlFUWlBdnhBQ002SF9hLWU5bENhT2RPeXU1d9IBiwFBVV95cUxPRVYyTVdlXzRicFQyMHhmb1hZTWtOWVk0QkpIbGl2eXNwd0pUcmtFN1BMVFZYZkRDUHp0YUFqSzgyUEQwa3l3NTZJd0pHWUhHTDVxSXJqQWpyQ0ZvVkp1cjRPSEkxSTNuQWVTUWNZVmFQQXdHdUtDTlJFckVyR3ZQaDBhNW9uR1I1QkY0?oc=5"
+                  "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNLTUyZUVveDZuUmdjdnQxT3B1dU5PSTN0RHhZbVFvUzVOY1ZDMjk4NTNGbDM1WUJCVGZRSEhuenpOMU1fdEQ4NUZfd19ZVDdJakpWcUY1MjI2TS14VUpwTGRKb3RXVXNMbzZzYlRaeXkzeXAybmYxUGxpbXJ2VjhYdlFkbHBrU1JoZ2hz0gGQAUFVX3lxTE53SlNDaXpzZUpFQXJXZVlUd3NfbDFMRkstcXpZd294cmo1TEZBZllISzFBU0ZUa0xvWTFKZ21ySm52N2UxcmYwVGJfU3RFMi13Q09uWkczbUlEZlNQNmFSdmxrelVqbGRYZFRESTE3NzQwclBhTWYtWXdRNVNqLUdZMDd3Nm5vaVAzaUh5eE1rWg?oc=5"
                 },
                 {
                   "data": "2025-10-28T07:00:00.000Z",
                   "titulo": "Paulo Dantas anuncia concursos Alagoas com mais de 11 mil vagas",
                   "fonte": "Qconcursos Folha Dirigida",
                   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5ORkF3RHdRQWRudlBOWDZJVFk4WVNEQ1hESk41S1FVRjk3VlJWSnZQOWZXSG5MS2NXajc3YjlLcHNPS1gyZ3doUzZLNkhyZDdwS1ZyczRna0tTU3dSZmVpRkVQeUJzU2RGUTNZU0VRS0pMRXI4SGNtUw?oc=5"
-                },
-                {
-                  "data": "2025-11-03T08:00:00.000Z",
-                  "titulo": "Concurso da PM-AL é autorizado e novo edital pode sair em breve",
-                  "fonte": "Ceisc",
-                  "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOc1ZNVUJtYlNHeHBESnMyaS1EUFZ5bWFoY2xpa2QwT0gwSHdEdlNQSUptMkszdkxGT2lUellkWGc5a3pvX3E0WmZMRmFPLUF3X24ydFpWdFg5VjIyMDFpMHo0emR5ZExtZ3lNRGp5RzBwRFpnTWs0T1g3ZFROZXBrcnhuOWhBY2tSdXlnTklZVHNqN1VDVFRzbjdn?oc=5"
                 },
                 {
                   "data": "2025-10-21T07:00:00.000Z",
@@ -7003,15 +7031,15 @@ export const mandateTree = {
                 },
                 {
                   "data": "2025-10-28T07:00:00.000Z",
-                  "titulo": "Concursos Policiais AL são anunciados com 1.804 vagas. Confira!",
-                  "fonte": "Estratégia Concursos",
-                  "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNLTUyZUVveDZuUmdjdnQxT3B1dU5PSTN0RHhZbVFvUzVOY1ZDMjk4NTNGbDM1WUJCVGZRSEhuenpOMU1fdEQ4NUZfd19ZVDdJakpWcUY1MjI2TS14VUpwTGRKb3RXVXNMbzZzYlRaeXkzeXAybmYxUGxpbXJ2VjhYdlFkbHBrU1JoZ2hz0gGQAUFVX3lxTE53SlNDaXpzZUpFQXJXZVlUd3NfbDFMRkstcXpZd294cmo1TEZBZllISzFBU0ZUa0xvWTFKZ21ySm52N2UxcmYwVGJfU3RFMi13Q09uWkczbUlEZlNQNmFSdmxrelVqbGRYZFRESTE3NzQwclBhTWYtWXdRNVNqLUdZMDd3Nm5vaVAzaUh5eE1rWg?oc=5"
+                  "titulo": "Governo de Alagoas anuncia série de concursos com mais 11 mil vagas",
+                  "fonte": "Ceisc",
+                  "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNczZydWFIMlpiT0lBUUZIZ1JYRUJvQ1RONk51UmN5N0J6QjJpRjBsZjRnajZfQjlTdEtCS1YyUTktUWdFd0RVcXFHWnJ0VzZXWDU0eU03d3h2cEI4aUJMLWNTd2JoSnZWZjl0RllULVVfUEwtU3RtZVNmZjRXbTRRYnpTWWtPT1prVmJmXzZhU0ZHZFJvbkVuMk9sTjVneXc?oc=5"
                 },
                 {
-                  "data": "2025-12-10T08:00:00.000Z",
-                  "titulo": "Concursos Nordeste 2025: veja vagas previstas; até R$36 mil",
-                  "fonte": "jornaldacidadevalesdeminas.com",
-                  "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQWTQzQTh6RU42c3BTX1oxa3czZG9iSHNkQ3FWS3d4V1dPMUhIV3dOWnNoZ2FMMzdXQy1HZHNrQ01LbW5wRU15Y3dYTXZIR09jU1pDNi05RUpMdmc0dFA2ZUMxQWdQQTFXR1hFYThHS1lyRnd4aWRDUXJWUC1NZVRMMGtKbzhyVXhwTmxLUWhKMko0dWpaN3NZeEhSZzNXeUk?oc=5"
+                  "data": "2025-12-11T08:00:00.000Z",
+                  "titulo": "Concurso Bombeiro AL: comissão formada; 344 vagas previstas",
+                  "fonte": "Estratégia Concursos",
+                  "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQYWhhNHNXdUVtU2tXMENidzFwalZ6ZjljRFkwUm9CVDc5WTUtUlQxLUhrV2JoMU8wN3lQanlmN3J4MUl3Rl9VVDdheTdtdE1zRDVrMGFic2g1SllHTzZVV3BmTDFjRzNaaTJtYjlFUWlBdnhBQ002SF9hLWU5bENhT2RPeXU1d9IBiwFBVV95cUxPRVYyTVdlXzRicFQyMHhmb1hZTWtOWVk0QkpIbGl2eXNwd0pUcmtFN1BMVFZYZkRDUHp0YUFqSzgyUEQwa3l3NTZJd0pHWUhHTDVxSXJqQWpyQ0ZvVkp1cjRPSEkxSTNuQWVTUWNZVmFQQXdHdUtDTlJFckVyR3ZQaDBhNW9uR1I1QkY0?oc=5"
                 },
                 {
                   "data": "2025-11-13T08:00:00.000Z",
@@ -7112,6 +7140,12 @@ export const mandateTree = {
                   "titulo": "Prédio onde vai funcionar a SSP começa a ser desocupado no Poço",
                   "fonte": "GazetaWeb",
                   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPcW1YYUZiVWwtWHdiVk5lV0RfbHZvLWdEVU13OGNXWmJtS3ZvSXFxU0VBWU41RGpUZ21yRUF0ell5UmpWNHAxekIxcjFsSEllVVd5SUZhLVhKemY3dVROTHVNM3pHZWJndUVpb1AwWnR2QnU4RzZJdGgzclFmaXkzUG1YNTBaWmo4dUdVanNNSndVakg1YkttZkUxOGF5QlZYeWN3QU5rVXpHSW_SAbMBQVVfeXFMTXU5all5RFJiNHlpczdkS2p5Vk9fc2JBQnA1d1YzMHhfZzJLaGsyNEs4b3pwVGtFREJTVDJibWxUQVdoNnlnMkR0WVQ0ZnhQNks5VnhZaU1jd1d2VmFoNE4tS3NpZ2NfNW41dHNwMW1nNkVGdTZ1WTczZkVscnl0bGQ2YktYYlM1aC1hYmRIZl81UmxheTAtVFFOQ2prWUlCVHk3QTFuZkdOaUlscEdXa3M5VFE?oc=5"
+                },
+                {
+                  "data": "2025-07-20T07:00:00.000Z",
+                  "titulo": "Governo de Alagoas faz maior entrega da história em equipamentos para Segurança Pública",
+                  "fonte": "TNH1",
+                  "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNOG54VGFBaDBHWlZPLVEyOG5lUGMxblVUcWFuNjhpTE5TT3RGZDJ2ak5Yb01yQVJoaVRxWVkxWW04TU1MQXhwNTI0dEhiTl9MUjZkZjZhYTBDX2I5N0Nmd3pXa0V3VTFWQklfa19XTGtJTGk0OUJ0bTBOTUo3NW9fcW5FM0VNZXhUdXBjdmJ3bGxJNTFHc2xDX3NNZXJzWGM5Sm5pTXd2Q2JENnFqT2JTaTdieW9qOExLWFhWZGFvMTAwd9IBvAFBVV95cUxOTEpXV1Z3X3RDbjg4QktySzNleDVBdEg1UDFDSTYzdW5LZXhQcEg2NkQ0RW5KS1hUUnVFWUhsdUZjNEFqVHFjekpxOWhyNnRGRDA3N2ZOeGQwSFFDeXNkNHpkbkR0NkZpWk9veVpZRWVmQUJ1c016Nkd4aDJUODYzMGUwemFxVTdMNmNrd0RZSFdUb0w2VjdoYlE4VmlsRlVubjkzbnBwWHlOUWNQTEl5a1NCdndmMWd0TDY4Rg?oc=5"
                 }
               ]
             },
@@ -7130,12 +7164,6 @@ export const mandateTree = {
               "status": "em_parte",
               "descricao": "O governo convocou os aprovados nos concursos da Polícia Militar e do Corpo de Bombeiros, mas não cumpriu o prazo previsto na promessa. Em vez de janeiro de 2023, a convocação oficial foi publicada em fevereiro de 2023. A convocação dos aprovados ocorreu um mês após o prazo prometido durante a campanha. Como a medida foi efetivamente realizada, mas fora do período estabelecido, a promessa foi considerada parcialmente cumprida. Voltar índice",
               "atualizacoes": [
-                {
-                  "data": "2023-02-12T08:00:00.000Z",
-                  "titulo": "Aprovados nos concursos da PM e CB serão convocados em abril",
-                  "fonte": "GazetaWeb",
-                  "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPbzNfRVhlX2toVTVsSW5UZy1xNFRCaHJiSEZ4V19hVFN1NWJVeTJsaWlGNWtWR1pQN2ZGTktLOU50VkdIMDRjb2I2U2VkRVBkd1VITjNqMEF2RFhvcEF1Q3JJWVcxSXlTalVaY2lydG5GdFdMMDdZTTNLc3BjZXE2Ykl5THdYcDFTRzRPNjh6YUs1cFJvY3duNWRDekg5eldDS0FWVmxQY9IBrwFBVV95cUxPQUJHUm5oa1R1c3gzQ0w5Q0ZjVW9VQkc3RmIyLWliX2xubDA4UUFKRDhHbEdPRmhqbE8xUVJJSHM3M0JXSzlUa1h0WDlxM3ZvREhsckY1Slo2Y3puODVqZGNGYVE2WHBlVElFMEVaMHF6RzU0Ql9ZM1dNOHBEZklVSTFKc093NGNfUUpqSGFTd3RWZXJyM0lxNTBSZk15Wm9PQTRKd2FFRWVhN1VDVV9v?oc=5"
-                },
                 {
                   "data": "2023-02-13T08:00:00.000Z",
                   "titulo": "Aprovados no concurso da PM-AL serão nomeados de uma só vez em abril e não mais em duas etapas",
@@ -7180,12 +7208,6 @@ export const mandateTree = {
                   "titulo": "Cibele Moura comemora conquista de novos voos internacionais para Alagoas",
                   "fonte": "Assembleia Legislativa de Alagoas",
                   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQVW9YUjNkM0lSNFZaQWV4dXd6cmllZzFzYVZiNXNDcTIzVk54b3BkcVROTHZkVXlYT3dmdVVuNUFSNl9kU0l4X1hYM0NXeXg1OFRLVGU5cFZJRWNpZlItZUYzZXlqbW82V2NhZkJmSEJyWVVwanoxVm1GN29jSUk0b0lSaTZNb0ZQcVI5ZE5Dc1hvd1Z6VmpJQ0UtZHhWci0yWTdZaWxGOGF0UVdVUVNTbEo4U1lLUEJ3VVIw?oc=5"
-                },
-                {
-                  "data": "2023-01-03T08:00:00.000Z",
-                  "titulo": "Governo de Alagoas recria Secretaria de Turismo; Bárbara Braga assume",
-                  "fonte": "Panrotas",
-                  "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQVm1ZbGhpa0FKZWoxZUxXcjdyanZNOXo3d0d1bEY4d2ZkaGNXdGw2dmZ4TVo5WUV0dTFrYjJCcGJZTVhaWUd4ODItX3RUMXdDT1UyNzNTMFE3NDV2RTMxOUJmWUhvVjFIMnhHbFFMNzF1SXpaNFZHZFBUbkltOUdVbmZ1ZGVnZFlwQkhFNm1odlR6ZUQ5d0VFdnlfbTFBS1pfbjU0dnNVc19MX0Zpd2I0M2dzbkVQcXVjdzRVbnJpcVJPZUxNNWZJejRVdllYX0J6bmFWakIzbFJ3Y043?oc=5"
                 }
               ]
             },
@@ -7221,10 +7243,10 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPNHlQTXRUclJnQTFRejlQY3lnWmVyV2tLekotOGJueE5qUFduM1E3UUxnb2hpTDl5U1RGOVlTOW9GTWZjMlpwbHBVTkhxVTRTZ0pqb3VjV0NEY3F0dnNTeFFtSDFzQ3RmSXR0cVhBZW4wSjk2VlBid1Q2UVo0OUlrdHhKWTZLcmsxWHl2dWpVdktlNmZCajZUT20za0ZVa1EzWGp0UGxEcF8?oc=5"
                 },
                 {
-                  "data": "2025-01-10T08:00:00.000Z",
-                  "titulo": "Secretaria de Estado da Pessoa com Deficiência celebra um ano da lei que proíbe fogos de artifício ruidosos: \"bem-estar de todos os alagoanos\"",
+                  "data": "2023-02-28T08:00:00.000Z",
+                  "titulo": "Assistente social e secretária: Aline Rodrigues fala sobre projetos voltados para pessoas com deficiência",
                   "fonte": "Eufemea",
-                  "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPWGszeERLakQ4VGN6ZFN3eFpaOTBIUEtiWlVabUFKcjlzNGZoSDd0MG1tS3pPZkx2RnRhckktREtOMHhMREwtUDFid3MxZXo0eXFiY0dFQ3BaUG5MUkZZa1o2TzJiUERnSk9nN09nZVNQV3JqeDh4bTRiY2k3YTYxRzkySnBSZ19zZkhDWnFIbFY4ZVZ4bEo0dlNKMGNzckVWSkFOYV9aekdKVjYtbXVaQVlacnZ4bFhIOVRyMFRyTjN5S0FlbFNod2N2cWVmWEtkZm1uT0dqalY4NlVjY0JiUjJSaVVtd2ZJN3ZsSVBudmJGb2ZaQzFpMkVuTkZhLXFCUXc?oc=5"
+                  "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQd3ByVEdOZXRCSHlRR3IwYVczZ2VNUHVSX2VnOEFZMERSMk5VSThUcDRhVE93OEZoOGlRRFg1VFFSdkZnYXE0Q0VoZTQ2OHJHYk1NTTRob0RPcXZ2OEFXWVVaeE45QUJ5TnpUcHFnMGlQWnBfNWN5YWpEaUJuZW9LcnRvSDg5aDhWanM1dnRLS1VwWG1Jc3NHOGRBek4yNmk4NnpkSWVfTV9fZm92OUgwX004SXRadHdUX2M1Vll0VTVva2k0aW5kNFh4SGhDUVZQXzNYQlpIMEJxUENlVjlCb0JB?oc=5"
                 }
               ]
             },
@@ -7252,16 +7274,16 @@ export const mandateTree = {
               "descricao": "O governo cumpriu a promessa ao criar o Programa Correria em janeiro de 2023. A iniciativa concede isenção do IPVA para motocicletas de até 175 cilindradas utilizadas por trabalhadores, com o objetivo de reduzir os custos de quem usa o veículo como instrumento de trabalho.",
               "atualizacoes": [
                 {
-                  "data": "2026-02-22T16:31:52.000Z",
-                  "titulo": "Mototaxistas e motofretistas economizam R$ 530 em taxas do Detran/AL em 2026",
-                  "fonte": "Portal do Trânsito",
-                  "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQa3RDb1BfQUtLNzJzWHd0dUtqc3JaRWVtMlNhLU5XbFpuWTRNbE1hcmZfX0xXYmVmVzRuT3dQX0l4ZXpoYURmSXFVMkZqdUVKM3lMYXB3TUtxbDVwQ2lvWFNPR3RaY0FtaHVZYjUwRWl0b2ZZYkpHRzBfRFR3R0xRLWtDZE82R0lsQURYbGVSUHRyZ3NkRWpReGIzU0RnZFlBNDdZWFBjMURHOXFHZVZLRF9PU1NzX0J6R0ZvTHdHQlFSMU5ra1ROMmR1R0g2TVZxQWV0Ujlya2tMZktOT3pFS0cwNmM4QlJScjR2ODA4aV9IU3Q3WlVlRnNfLTY1QV9h0gGGAkFVX3lxTE1Ock5qN0pmYVVxVks3Z1A5LVJKRjU2d0I3QkY2bUs1WktySDBBYkYzTTdCa2ZUWUF5Wm1sMmo2dlcwbmZfUG85SjJBNFlXOFFIV3NlbWpqTW1ieVo2Y1cyQk9WTUVFU3czczRjNlJPTURtWktVVGJHaGNnVTV4bFd5b3RQTkNJZU91VFhOdjU0alcyUUZQcWlGdHZBNGRrQ0R2ZkwtSXBZUGlqdmIxQzhOcm1fMUpndlJCeGpxUFM4OUs4UjRPZUt1MGd2VVRmX2ppQ2pBQ3hLTWI0cC05aFlTTzV3RV9rVS1TTzJSS09tVHl0NVNJTzNGeV83cU5XdUg5Y2h0SFE?oc=5"
-                },
-                {
                   "data": "2026-06-06T07:00:00.000Z",
                   "titulo": "Renan Filho destaca programa que levou desenvolvimento e asfalto a mais de 85 povoados de AL",
                   "fonte": "Correio dos Municípios",
                   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPVE1vRmYyZ3lNT2kyQ0pjWUlvSXZ1SkVHc1R3VFQ0QzBfQ3JkZFBmZDFJVWp4eXNJa094WDFUU2FuTVkybXdyNWh3NkdVTlB0NUw5M3lvVVN2RGVubU1uN3ppODB0UENrU1p2NHhSRXUwUkh0QWVIREYyZWNLTUxKVFlGdnQyWjlqSEtTYkF4MnI0XzhDb1RDOXc3TVJvSkVzZjR3c3NpODhNMVdxZnl5cXNZUFZFeXktWEVXRnBROVlSNWxpZWhjcXA1WmxTbWJCM3ZwTUJ2a3N4bGhsYjFJUWlWWEltV3B6QTFPZUdsYw?oc=5"
+                },
+                {
+                  "data": "2026-02-22T16:31:52.000Z",
+                  "titulo": "Mototaxistas e motofretistas economizam R$ 530 em taxas do Detran/AL em 2026",
+                  "fonte": "Portal do Trânsito",
+                  "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQa3RDb1BfQUtLNzJzWHd0dUtqc3JaRWVtMlNhLU5XbFpuWTRNbE1hcmZfX0xXYmVmVzRuT3dQX0l4ZXpoYURmSXFVMkZqdUVKM3lMYXB3TUtxbDVwQ2lvWFNPR3RaY0FtaHVZYjUwRWl0b2ZZYkpHRzBfRFR3R0xRLWtDZE82R0lsQURYbGVSUHRyZ3NkRWpReGIzU0RnZFlBNDdZWFBjMURHOXFHZVZLRF9PU1NzX0J6R0ZvTHdHQlFSMU5ra1ROMmR1R0g2TVZxQWV0Ujlya2tMZktOT3pFS0cwNmM4QlJScjR2ODA4aV9IU3Q3WlVlRnNfLTY1QV9h0gGGAkFVX3lxTE1Ock5qN0pmYVVxVks3Z1A5LVJKRjU2d0I3QkY2bUs1WktySDBBYkYzTTdCa2ZUWUF5Wm1sMmo2dlcwbmZfUG85SjJBNFlXOFFIV3NlbWpqTW1ieVo2Y1cyQk9WTUVFU3czczRjNlJPTURtWktVVGJHaGNnVTV4bFd5b3RQTkNJZU91VFhOdjU0alcyUUZQcWlGdHZBNGRrQ0R2ZkwtSXBZUGlqdmIxQzhOcm1fMUpndlJCeGpxUFM4OUs4UjRPZUt1MGd2VVRmX2ppQ2pBQ3hLTWI0cC05aFlTTzV3RV9rVS1TTzJSS09tVHl0NVNJTzNGeV83cU5XdUg5Y2h0SFE?oc=5"
                 },
                 {
                   "data": "2023-01-21T08:00:00.000Z",
@@ -7270,10 +7292,10 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPSExLekwyb1h0ZkhFSzlZdGpCN1lEbzljcFREeF9iZEJSODdCZzMtajEzdS1CU1ZJa2t4TkpudE5qbXNiZ1NyV3l2aW5YVVhqSFpsZXBqcHlsM0xPTHBTd0FJalU3YzV5dng1eHRRQk9OT0ZHQ3BoelQ0VEFITHRUaFZIeDdPb1JEdDBRRGNXb01BUktnNjYweFRqSGN6aWVnUW9v0gGeAUFVX3lxTFBBY2QtQllQd3VQaVJYRnk2a3RVazR3Q3V2TXo2R252MmlPSzI4bm9fWGk3YTdqdFF1eXRjREo0Z1hBX21pZ0M5NTRZTmZLRXpFc3RhdkREYWtMQzRPS0g2d2xuN3pwM0NhVFZkamVNTHhGRG5SZU5adE52QndDSzFSRnNISV9XYmMtenM0SDU2X1pPY0dqcFl3NlAwVkh3?oc=5"
                 },
                 {
-                  "data": "2023-01-24T08:00:00.000Z",
-                  "titulo": "Isenção do IPVA para motos de até 175 cilindradas já está valendo em AL; saiba o que fazer",
-                  "fonte": "G1",
-                  "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPdkhjcXhfTkUxQzdmUlhORHNac0FxbmtYM0FNbEw5U2NlMXBNeVpWeUNmTDhMLWhzb2JJUi1GZE5XNVBlYjFTVWQzWjdLMGlLV2ZJakR4NFZiLTZZdU03bjk4UFVRTEFUR21wNEE3bkN1a1p4V0tzbHVyMXJmWlVHWWVScXhQLXdkeDZfTFV1Nk1DeXpvTDhPWlI1emtHU0VzdzVRX1A0YjJNYVo5T3JhREE3OHhoTnhWd1lEUkFPSDE5R1ZYSk9uM2lNTWEzQ0JsWHhWQ29yVFl2Zzk0Ulg1aEdOdzdFOFBpNkHSAfgBQVVfeXFMUDhLWEU1bnBHU2tKc1l5dmZ4RnUyRG5tU3h4ZDNlUUJRanAyblRIQkRIYlNXNGJ6eFQ3YW9tMGFvLU0xVzFOeEpINUNDbjFPVGdOeFlVMkJvSm4wazhpb1Y3WUV4SDIzVDRheUJpTXVCS3FYSUdFVTRvMGtRMVJoN0JfdFFMZWZpVVhtSkJJSEl6eEtqSU1KUWlXdjZiN2hGdG50WVc4TXkxd3MyY2gyVkU5X05qcG8zcFhMUHJqZUpBRElRQ3NRWlJYRHNDRzhUTVhVaTlYN2FvUmZ5R3NxM3ZsV3AtazY4emxCLVU4Y08yMy1CWlNQQVY?oc=5"
+                  "data": "2022-09-15T07:00:00.000Z",
+                  "titulo": "Paulo Dantas anuncia ampliação do IPVA Zero para motoristas de aplicativo de Alagoas",
+                  "fonte": "al1.com.br",
+                  "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOUUpjQ3pKb0pUczdpbFVkVGxieXpUU2x4RDktc05ZcnJvdWxjUUVzbFFCU2pWcWNDNVRJYkJrS3dkYXd5TlRNT3dzU2J0N19HUmxLZEpCeXZkQ194REMwWkQzMWgxWGhFc05UeHU0WXRxckJ6cjZzYnVfZTdTdWlHR296OWtqQTZJejNDTHU1bEgyQVNfQkllUkRHYWpqTU83STlOU3dnMWNYU3ZoS3JKb3lBbEkxQ2ZGRHZOS3ZZS2x5ekNTemc?oc=5"
                 }
               ]
             },
@@ -7292,21 +7314,15 @@ export const mandateTree = {
                 },
                 {
                   "data": "2024-12-31T08:00:00.000Z",
-                  "titulo": "Pagamento do 13º do Cartão Cria começa no próximo dia 20 de janeiro",
-                  "fonte": "Alagoas 24 Horas",
-                  "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUzhpVlFDb2dZZXdRdVdGTFZwYjFnSE13Qm9yTk1vUTRUb25OSktDRnpOTXAtbWgwdEJJS1phWmlYbVJxUG51OHAtRTM2MEI5QWdDRkdiVG5EQkM1dWg3WGlzTC1ET25JYTB4eXJOYnItVFh0cGJhaEpjSmxWampzRmNKa3c0TExVVVg3MWVXU1FuRUphY3ZUYmNEWHE0NmtvY1VSVXZiV0RXaUYtYl9Z0gG0AUFVX3lxTE5qZHNGcXlpTkRPOE5ic1U2ZVZsTDZUYS01MU5FWGdhajhhcnI5SEItek1OVVBWUXJuM2Z1akdDaHZqZ2JpSmRYOTU5ZEYtZFlwdUJYNWMwcFpaMWNUNlBhdUhSaWhjTjVEV2NDSTI4OGN3VF9lcWp0aUVHbkpqdlRlcmxtaHBQVGJ2UWN3cVdHd2lfa2JuT3NFWFd1b2hEZ1lYTkFtNDNlVF9Ea1dhVGltTDN0Tw?oc=5"
+                  "titulo": "Pagamento do 13º do Cartão Cria começa em 20 de janeiro",
+                  "fonte": "Tribuna Hoje",
+                  "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNaXZpbVJDUG9XTGUzNXpCYkNqdUlkRE45dE9tRDhsNm1CRVN1Y0h6N2g1TTloRUpPUVdheDJDbEJrMnRRUXFXaDkyYnhSZHlQazBINWNFY2h0S05qS3JqczFfbHBMcHhDUlphTmJybjYydy12dHRPZW9GS3ItTUpVZEFUVHprcGdJX3ZIUTAyUC1ROEpyTEpkRm01dUdseDVoZVBnRExJS21SOEVOaktOOWx2Qnd2QzlHdG1xN3JOb0JKdw?oc=5"
                 },
                 {
                   "data": "2022-12-07T08:00:00.000Z",
                   "titulo": "13º do Cartão CRIA vai injetar R$ 21 mi na economia alagoana",
                   "fonte": "Gazeta de Alagoas",
                   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNbl9xdzItc3d1ZTZYcVBLdmtQTlhxTlpoamh0RExNcHM5UEctbWNicHpfZVE4S2tOLXdLc2dvNkVJRlRscW5aZVVaOFA1NDlPOFlrUDdKX202WXhpVTVGblRUUFlxYS1WMnE2UGJvaFVSYkwxcEJZaTZSSmVVdmVTTm9IUFp0ekVsdU9nTVU2NGc0eHVEenhqZUJ5djJjdzl2VWdIY1VrUDhRYnRMdVHSAbYBQVVfeXFMTjhQTzhRQXVmejhETl9rY3BLS3gydkh3VUU4YXpZdlRWNXpXVkgyelhhZm9xRFNhOFpwWWhkVEs2N1h0UUczNHdlbnA0ck9tUF9LektBRWo2a1BMRmU2RzBXb1AyVGgzMDBvTDFINnFaUXlrcnBHbUhRTlc3aE1VNG15ZW91Ym00XzBwT1Vhdnl1VnN0TkpwM1JDUndrOGN1NzRGTUNvOW50S1dqUWhKRWlnRGVWR2c?oc=5"
-                },
-                {
-                  "data": "2023-01-17T08:00:00.000Z",
-                  "titulo": "Governo de Alagoas paga parcela de dezembro e 13º do Cartão Cria nesta quarta-feira",
-                  "fonte": "G1",
-                  "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPczlhVjFma2hZSzFwbUtiS2VTdndyREhKbGNBbUZWMVNSbE1VOG5jOHhtVUdPMDl5MVV4bUl5bVJaNm40UkZndFl3MlRjMHJDNjhYd3FpaDBxVmoxTDg2N1E3Rl8wNlRSbjRkZnNmd1dEWGxSTkViUkV2VTZwMnRCSVpBTWhacnRGRmQyVTVIZEY2ekQ0Z2lTdlhfRUo1VVdmZlNOUHcySTNnTzR3LVhsMEFMY1o3aHJWdDVENm5fT3NVRnVXZWF5UWxCN2tiY2ZZWXBYVTRSam7SAecBQVVfeXFMT3RCZ1F3V1BnanlKTXphM2JFVXdKX1RyczBZSVNQX2dpd0VwMTM0TnFzekFUcG1UaHlqLUZtbEo2MjFzOFRJdUlVaHVBenpBUzVEMENhWG5qMUFLc014WksyVElfZTZ4RnNuTkZFdFp1WExVbWNhUDUzQ0oxVVBncmVDUVpDU3ZubWc1MUdlVVFLcXZwN0tpT1FMUHluZXctb1lldXhNQkdORXh1ZE5QWWtVejE4QWNTcUo4Z1hveXQ5RGVjc0stcFdxT3p4X1hBUUpnb3djaHdCT0Q5bUQyMmNPdzViUzFB?oc=5"
                 }
               ]
             },
@@ -7409,6 +7425,12 @@ export const mandateTree = {
           ],
           "noticiasGerais": [
             {
+              "data": "2026-10-16T14:29:00.000Z",
+              "titulo": "Comissionados somem da campanha de Lula em Alagoas, contrariando alegação de Paulo Dantas",
+              "fonte": "AL 102",
+              "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQUzJlYzR2UmtTNnlvaEtRQXdILXh5aEVZbjc5VTNSY3NKdmNTSmExUkhVb2UzS1BTMXhodUpaT18xRko0MXRzaGZSYi01OERDYlZ4UElfQnZLU2FuSzdWWHhMWnVoTTJIa1k5Wnl4eElGTHlkOVZCWElLSW9qazhqUXlpZi1nMUUya19pLWRfSDd0WEJIVGJCU2xJeTVlSnJaWFBPZkJTQ2FnNWFXcXd2WG9FSmFLb3lKd2doSXV6YURfTjJxSHRF?oc=5"
+            },
+            {
               "data": "2026-10-15T23:05:49.000Z",
               "titulo": "Bastidores políticos apontam possibilidade de saída definitiva de Paulo Dantas do governo de AL",
               "fonte": "estadaoalagoas.com.br",
@@ -7442,7 +7464,13 @@ export const mandateTree = {
               "data": "2026-10-15T02:54:19.000Z",
               "titulo": "Presidente do TJAL assume governo durante licença de Paulo Dantas",
               "fonte": "Gazeta de Alagoas",
-              "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPV3NqNGtRNmJPR1Ytei0yaDN3OHBKYmZhbEVkbVhtMkZiUEI0bjlVYU0wdkxjS0Y3bWZqQXZhTUtaMGtjWXA2RGhkTm5ONHNCbkZkSUFCOHJGSUhRUm1DY2ZWd1h6WDNqRmw4aVFoaVJkb1JjMW5YNEs2NG9KWU1aaEhpbGNPX3BNM2ZSbl9xelI2YnpELW5ORkN3Z0pWRHQ2NGktY0ZjQlU0ejU1aTU3eHFsUU80UWNWYmNDSGJQTdIBvwFBVV95cUxPV3NqNGtRNmJPR1Ytei0yaDN3OHBKYmZhbEVkbVhtMkZiUEI0bjlVYU0wdkxjS0Y3bWZqQXZhTUtaMGtjWXA2RGhkTm5ONHNCbkZkSUFCOHJGSUhRUm1DY2ZWd1h6WDNqRmw4aVFoaVJkb1JjMW5YNEs2NG9KWU1aaEhpbGNPX3BNM2ZSbl9xelI2YnpELW5ORkN3Z0pWRHQ2NGktY0ZjQlU0ejU1aTU3eHFsUU80UWNWYmNDSGJQTQ?oc=5"
+              "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQZzVpaTFabEF3ZldxWjdnREhyZHhzejRHNHp4V1FKQ2prSnhXUjl5X3ZyYnpweFlkc0FYS2ZpOUxPZnozSFhGaU9FTnVoeE5MQ2FUd09XUFJuNkYtNURPVGppVElzVXV6N0FqMktncDNCN21vMFBHTUttM0p4ajYxdDA0cU9TVDVxUVZuWW5mSkpFYUYzZkhTaGJCUUJMend4aDBQSGJQbHFTcE51dTBkaFY0M19PTWfSAb8BQVVfeXFMT1dzajRrUTZiT0dWLXotMmgzdzhwSmJmYWxFZG1YbTJGYlBCNG45VWFNMHZMY0tGN21makF2YU1LWjBrY1lwNkRoZE5uTjRzQm5GZElBQjhyRklIUVJtQ2NmVndYelgzakZsOGlRaGlSZG9SYzFuWDRLNjRvSllNWmhIaWxjT19wTTNmUm5fcXpSNmJ6RC1uTkZDd2dKVkR0NjRpLWNGY0JVNHo1NWk1N3hxbFFPNFFjVmJjQ0hiUE0?oc=5"
+            },
+            {
+              "data": "2026-10-14T19:19:00.000Z",
+              "titulo": "Paulo Dantas se licencia do governo de Alagoas para coordenar campanha de Lula",
+              "fonte": "RedeTV!",
+              "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPTGw0LU9ZNmhnQnA0VThsNkZ1dDlDTlhpMjRzU1FjN1lWcjRDM205RWpxdlZjVms2eFI1amcyOXZnLWdpajMybHhhUTZYMTV0NmdhUjhsN1JiaTFnSnY3MEpkMXZERWFqZXJweTBIOUhoYlZPeUhyd1JhNG9wdHJiS0lGUlVadm1qQzJwNFNSa0ljckJDZ1h4S0RXcHZQa1lzb2F0WmJFaTFpb0VPZE85Z3o5UGM2NFRKc3BTWXp4OXlhWHfSAdsBQVVfeXFMTlJhOURkbHZtRks1dEhiQThQY1ZLTGVHamJ0cjR6amgyVHNzNjhRYzY1OHotZjFTbE9OajZ4b0tWelZ1QnQ5SEU1MVJqVkpHam5qNW1yakhvU0hRTTBuTHRraWI2QS0xcGhUWS03djBGSjJZUVRVWG9HZ01tbGZURjFsNkJGRFZhMzMtUThjeFBYeElMMWltSGRRSW5URjBWNDdEYzAwc0dWNndKeEhHYWRSUU5WUXI2Q3dWVU1DRzZhX1dJdU13QnRRQ1lBYTBvRnNxM3RNNV93YzNv?oc=5"
             },
             {
               "data": "2026-10-14T18:14:03.000Z",
@@ -7467,12 +7495,6 @@ export const mandateTree = {
               "titulo": "Alagoas terá novo governador a partir de hoje; saiba quem assume o cargo",
               "fonte": "Alagoas 24 Horas",
               "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUnNHOVc5TGp0OEYyMW02eHRLZGdtWkFRQ3lqc01IcXBXaTlISEEwMnk0ZHpUSC12Z29jc2tJa1JDakRRV3VFS3RJb2Z6UFlTZ0M5bGZTWWtLQnd2U2dpY0xhVUNKOXg3SmZEcnZqMlo4ZDUzVDMtcWE4elRScVFXWTlLOWZPQXB3NjFrSmRUVnB2NEpsZFFKOV92Z3QxYkJZa09ibGtxRmJiTU5HUFM2RE1DZG_SAboBQVVfeXFMUGxHcGlPWWNQendGS2RuV1hyR3ZiT2l2T05wT2w5ZDRjcG5OS201TU5tOVVPRnJDSHZLaTNqUU45MmRuZGkyOHJlc3p6aXVwSFg2aGlmT09fcWEyeTlwQjNyRlViTndkSnRDNDdlYW52RWlsY2IxUnZWdE5BUy10NkJyTEkzamtkZnk2bFlFSTdQTTJUU1JPT1RGTWY3RFZfX2JwckhSWnZMYWItbUJ3WkZVZkF4a18tSk5R?oc=5"
-            },
-            {
-              "data": "2026-10-14T16:01:00.000Z",
-              "titulo": "Paulo Dantas define equipe para coordenar a transição para Governo de JHC",
-              "fonte": "Já é Notícia",
-              "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNUnJvTTBUaGhUVjAyNzlpWXFkOTlSNHJtOENVRzFmQ093MXFNQWdxcnJtZDNBQl90dTRfbFRLaGFYMUhkbjVxZlY1TFIyVUpRLV95OURJYjFHQUZ4RnJXVHpSMnFVbDAzNGR1S3lVZ25WTE01RTI5Zi1PSlpQa29yS1pDQ0pwVGFQVEZfdHlxQ25LZ25DWXBCeVdjcV8wUTZacVdUZjNxV0RGWVNEUklJTkRydmg0YVRSbjZJSmFKcS1nMVox?oc=5"
             },
             {
               "data": "2026-10-14T15:14:40.000Z",
@@ -7503,12 +7525,6 @@ export const mandateTree = {
               "titulo": "Vice-governador de Alagoas renuncia para apoiar JHC em transição",
               "fonte": "Congresso em Foco",
               "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPM1ZlMjlEYy1fRkJQOS1zeUFNZFpqVk9VYkJkbERhNjc2RnpaeVdMM1RpeVhsY0hCaUdwZGhnRVpJUGZDcDl5S182WXppckhPMVBtYnU3aFk5MVlkVC1iNExhT0hia1AxUVNkWXVEVVg3dWxZekExTlVIVjUzOXBwUXZRbW5ybHhNc2dac2o0b2Q5MWtTcklmVVJpOFA0ZFRhdEpsMGxhd29lRTU2U2toQ3VoYk4?oc=5"
-            },
-            {
-              "data": "2026-10-10T00:05:21.000Z",
-              "titulo": "Carlos Madeiro: Vice-governador de AL renuncia após romper com MDB e ajudar rival eleito",
-              "fonte": "UOL Notícias",
-              "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPZVJOaDJXeFd1TGZ6TUd0VV9VR0NsN0liX1RhaFpoZHQ1LTRRb2M1QmJRNHVSS25jQ0lmc3FZT05VZjJ2dkNHUFVGNFd4bDJzOVNtcWJQck9OZm5jTHh1dVJWZ2FYZ3VDSm82VlF6aVc3b3E4LVRnYWRUY2p2NVNJZ3Y3TzRmeHJ0VHhOT0s3eDY3NzdtSVE3SThrcmE3Q3k5bmJ5bjdocWIyclE0SlN0SVAtcmlsTVlIQzhqUlk3My1vX29jOUF5ZXRGWWFJcm8yWS1idV9HMUE?oc=5"
             },
             {
               "data": "2026-10-09T20:53:26.000Z",
@@ -7649,6 +7665,12 @@ export const mandateTree = {
               "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQdW9VRElPSGNtMzl2NHZlSWEtNFNqWG5Zb2tOMzJlb1h6MXg4LWVjX283Sm1udUdaMHlnbmd4elFwV2tsemJueHRHTXJIekZ5UTdyRHhjUTROX1QyblFVenlFbFJJWHBGSXE1MmxWcklSVkVBQ2dhVEN4Zmx2ZWRJLTRUM2pBQzdCQl9zQlhBYzhyTEFVOXl6RVB2X01LT0dnUnEzS2ZzZHhabGdXdDNXcktIeWVpMjFJeEVGYU9uel9OU3VreGhMNE8xbkFwdTQxbGQxQUhFZkpPYmtxZktQVFNCZGY4NXZYS2JnbzBVd0p1XzBCZUxNUGdLU1Npenk3SHE3NWsyR2RwQQ?oc=5"
             },
             {
+              "data": "2024-03-02T08:00:00.000Z",
+              "titulo": "“Alagoas seguirá crescendo em ritmo superior à média do Brasil”, diz Paulo Dantas",
+              "fonte": "Repórter Nordeste",
+              "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNMldoWmdfMHZtWkJxcEFSOVFHVWhxRno4U3ZSa0F2ZTdIcmRBb2RVcElfbUtVOUZDbnJ0blh0RzBuNElTNzJObWJNbEFhM3hMNGZqNFIxbUx2U1E5Nks4OXd0RUQ0UjlfSmEyVzRYT1NXV0hKaHhhVVVCQ3dabFFRaFdNeHlSU0NrRG5lOUFRSVJFNmV5cjU5d253b1lMc0NPbUpXMGU3bldaank0SVQxeDFtUzV1Z21xQXpfSkdPRE3SAcYBQVVfeXFMUFptS0JLVVZFTW1kRGhVV3FfdVdJTTZCdExDckxvSXR5MzNvYTZpS1hLTE55S2RsZkVsNEJaMlBzeFgyMER3VzdQSVQ5a3d1dURhNHZ4VERCWG9EUmRWZWxqcWM2RktENzFQLWtxZkhOV2ZaU1hCRzU5TlpmUnNwTGtyVGoxckhsSEJfWi1qRnZyMTNKaWI4cWYtY0Y2aXU4Wkh6Q1kyazVKaW43MnczcGNoMmloSVlqNGk5Tkg2LThYRTFyTnZR?oc=5"
+            },
+            {
               "data": "2024-02-15T08:00:00.000Z",
               "titulo": "Governador apresenta Plano de Governo para 2024",
               "fonte": "Assembleia Legislativa de Alagoas",
@@ -7707,6 +7729,12 @@ export const mandateTree = {
               "titulo": "Reeleito, governador Paulo Dantas fala em unir esforços com Lula para 'gerar emprego, gerar renda'",
               "fonte": "G1",
               "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQTHp1SW55Nk5sSjRDRnFkVm1ZcVVMb0RsU21iTHRybkV2c01fNlVtUzZNXzlSc0ZCZVJCS0o3eGNrSTdtVHR2bFpacGF3NUlwMVlUS1pEblFRamdiblBWTVhNb0xNMmhadVd6dEFqZG1pSEtfWFI4bFBUZUV6ZFowd3RBR1lKN0dLcHlsbWZ3X0NFZVJZcUtsQW85YmxGWUswUF9vSHRfMjVCRlBfSzhGSDktelVPa0xjMzU2NEg3bzNNMU1IYTdLUkd2cEE1RUdCamlzdm5DSWxHemxSeWotbWpJMzVVazlIbkNtek1Sa2XSAf8BQVVfeXFMUGJYQnBOT3A1d3ZoS1VONTIybjRsQlBhNXB2aXUwekJRd29HbG5oUldNUTEtNkJSYUxiVXVxYTFRelZ4bDMyZ0hnVHA1VkR0MUtYVlM0WUUwUUtDbWJUZkhJWE1QRXVpazJQQVZqWTk5TFgtTDZydFFLemdueERsc0M1b21pQWtQZTRkX0FMYkdnNm9mY0NkWVVpYk03d3MwOUF0MjhBeGc2TmJJeWVxWkMxV1puU1V2UU1xcFdMZVplNXBka3V1U1pTcHQtSGFrVkNMT1NOSFpuTi1mc0ZmRFByNGRuaVBoam1ENzhUSDk0RHhHRW5VbVhETE1SakE0?oc=5"
+            },
+            {
+              "data": "2022-09-24T07:00:00.000Z",
+              "titulo": "Paulo vence debate mostrando avanços alcançados em Alagoas",
+              "fonte": "Tribuna Hoje",
+              "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNTTRncDlFejNiNWk5VFhQM2JiVVJoQlU4Ym5XYkYybU8tNFF6dG12VFVfZzRKSVROZ3RnSHZlcndxQzRLbWlpQ2hsYjUzdHFValZDUHdrTXZDMjdDVUR3YWlRV2o0X3BqZEd5RVlKemQtVmd6QVNKVWhBdjd3X0N0R1dxTjBBZ01GUV95SWJNVFREWXA5dTV2UC13RXNpMlRuX1VDeUdfTC1WNGQ4MzJvNTFYeURSbEJDeUE?oc=5"
             },
             {
               "data": "2022-08-16T07:00:00.000Z",
@@ -7843,9 +7871,9 @@ export const mandateTree = {
               "atualizacoes": [
                 {
                   "data": "2026-09-02T07:00:00.000Z",
-                  "titulo": "JERÔNIMO REPETE PROMESSAS DE HOSPITAIS FEITAS EM 2022 E AINDA NÃO CONCLUÍDAS, APONTA LEVANTAMENTO -",
-                  "fonte": "Bahia Economica",
-                  "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNTHByQjNYMUR5XzBvSWhyZmxZQWkyc3NZWmRkaHgxeTRSYlZRTklabXI4SEpPZ0stZ1JOVGNTOVZoUzZyRTQ3RFZDWWduLXpTdnBaTEN3VFdMa2ljMzMyRHRmTVNwSXVfQXhCNnNfSGkzanhvM0FqTHBtWFlsSXFyV2I4MlNCc3hiYkdFLWRBaHd4M2wySUpzckFSTy1tYmpQVDZ4czhqVUNLR2VSVXdLY2ZTZGw5amZwTHBOMlM5SWZ5eENtZE1QaFJGWUo0Q3d2V3dYM2k2R24?oc=5"
+                  "titulo": "JERÔNIMO REPETE PROMESSAS DE HOSPITAIS FEITAS EM 2022 E AINDA NÃO CONCLUÍDAS, APONTA LEVANTAMENTO",
+                  "fonte": "Bahia Econômica",
+                  "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPXzRMMVIyY05qaS1lNFFhaDgteWVsRzFHb3RDZU5jcDV5MTB3bFpuR3BsaGppQ0NoRnZ0NjA3clczTG54NVE0UEFEazhEUWx6a25XZlNkZmJMYlNTMldIbm5NcmI0Z1RzQjNsRVk3b1FxZU1oLVptTzl2endvUndURmY2RG9xM2ZUOE80SnptLXFSaDZzUmZWNEstZWxyZHlUVklPMTdhMmFieUlPV2ZjWWdvSGVKYjZweVgta0RvalFhV0Z1LWx6ZldzQ0NwZW1RLThz?oc=5"
                 },
                 {
                   "data": "2026-09-02T21:34:37.000Z",
@@ -7875,16 +7903,22 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNSEljUkQ1YjlFVmNzaVdfakQtSEstb0ZyMHV1VVJrM0E2VzRha3h6TVlfbUhGTTVyc1V4Yk00SXN2R3plZ0FpMTYyWU1hZWptWURsNWlhTWpRWUJ6cjFaQmwzTUo0U1RpV3pjcGJwYThIblQzR0RjUXoyV2ZhOTR4Z09zaGxQMkdZZEFYN2lQOEpGSGZ0Q2k1Uk9n?oc=5"
                 },
                 {
+                  "data": "2026-10-16T16:50:05.000Z",
+                  "titulo": "Estado entrega centro cirúrgico oftalmológico na Policlínica Regional de Saúde em Paulo Afonso",
+                  "fonte": "PÁGINA DE POLÍCIA",
+                  "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPcy1JN2FXajVRNDU2cTVLYktRQ0lzeVVBMmhSQWkzRGxPNGxNckI3b1hUWFhEOU53Q1hpNmRUdkprWDlrVlVmT3hveUJTMTNvRUd1V190MlNvWHU0MXFEMmVnd3FhSExia3RGZWd3RmpMdkRNQUtZZ085Vk9JVVJ5VkxkOXpWTkxlcW1zSnRJQVZ1Zm9fUEhWbWdOMTAwaEZYU0I1T1p5bDJsdEIybk42bzFYVFVVNlpwRVRpaEhsOXc4MEpyVmhmd3Ixakk4MV92ajRMUmFaUVRLXzd6?oc=5"
+                },
+                {
+                  "data": "2026-10-03T07:00:00.000Z",
+                  "titulo": "Eleições 2026: confira propostas dos candidatos ao governo da Bahia para a área da Saúde",
+                  "fonte": "G1",
+                  "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPZnl6dXdmSFlrcDdlcm54M0puRUNwYXJwLTFyWnNLOGFscWxUdldVdzQxRmt6OWM0cDQ0NXVvYXM1RDNSbU9Ea1ZWQ0N3OWI2UzNXM2g4LUk5WTFHMHdtRURqamNGSDIyTURmS2pMQ3J4akRwb1RvZ1BfMEpDRF9zc1ZPVDd5ZDN2bFpnY1NVLU5RRjJCWUxnTFJaM2NMNUVqUmROTEFiVjJXZ1ZGWTlUdjh3QnFsTmJDOWhPcG9mWTBMRFlWRXMzT1YzenJiakZSN0w2djlQTHlTQdIB6AFBVV95cUxNMFItSFVpZFBGYVBHQXF5dHZ4NEpJZXhIblV1azZVblBneWxMS0pJeWozZnNSSVJRT2p2WExNVXRPSVh1MWIxeDNwTlN4UDItSzB0b2tYQVYtemJwT1BEbFg0Q3gtMzFJdlZCOXdLUHkzZkVvcWpVTzJLSVpzLTJpWkFzb1JtOTlNUk55QlpYaUoyWVJDMHpZV3dybGw4b0tvMWwyU1lMdmlNMXk4eDNjeS15ZUd2ZGxENjJpODR2bmxSd2JlYnNmTnVDMUJsRWdkNFBhelE2R0lOQ0ZQaV9HYnJWWnpRak04?oc=5"
+                },
+                {
                   "data": "2022-09-05T07:00:00.000Z",
                   "titulo": "Jerônimo Rodrigues pretende implantar mais sete hospitais regionais na Bahia",
                   "fonte": "Bahia Notícias",
                   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQT2dxRU5hTzQ4TUwtYXhnVmtFR0Y5OHZUa29EZGlIazFFRDBjcktISkFmQmlOUUpBV2IwM0FGUkNWeWNrRmpSYk1aU0dYTmtGQXJKNlRiVktGVjVoTUFzc2J1bVBlQXM0NWdNS2M3SzRxRDNoS2NEZkJERUJxWXZDMzZ3T3NkQnZ2VkpTZ3BaQmpqV01SdzVFTmdVNlpHZV9uMW1BeVR4RjMwdC1ZLVBEUVptUkp3TXdDY1VnWVN1N3o5Zw?oc=5"
-                },
-                {
-                  "data": "2026-08-26T07:00:00.000Z",
-                  "titulo": "ACM Neto diz que vai construir hospital regional em Cruz das Almas, caso seja eleito",
-                  "fonte": "MundoBA",
-                  "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPeTRxbXltZWVsVnl3QU1iWmJwSGt4eTRaQXhjZHd0emtxbWNHcXFabjdlV0lBbnJpUW0xdlFNY2RudWdmQ1gzQTFnU25lRlRfU05fcFBQTmJTLTBjYnZsdUtNallCYnBfTHpqbVBSMTNLSHUwQzZDZ0w5SmdnbVgtUVExWmF2Y0pSbXQxZTZXUU5NNGNDbXc4b3p4Tnl1Zlh4TUlzRGhHVUpzNzAzUzZ1Rm9UVEFUV1k?oc=5"
                 }
               ]
             },
@@ -8174,16 +8208,16 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOVGs3Rm5jeHhvQkNkamNkSlhMNWpEdVpmbzFkbzI0bC1zc1Uzay1OOVpwUTh2Zm9Ec3dUZ2JMdE5HaW1GNFNHejBzR1RhU25XRlZFNkV5M1lJOFlxSU1nWUE3NFpidWs3Z2VFZE9kUmQ1cGRSU0pqcXFfOHkzaWZpX29qRmRTMlhXYlJPdVdmVDZtdjM5MjFHT1lKSkFPVG5MM2dZSGpTZUFRdnduTU1tSllhX29QeDY0YkxXajNkOHl3blMtdE5BVW1sZ2pXRVFuaDFHbFpwTldBdGdOaGRRMl81VndQME5jOWgwbQ?oc=5"
                 },
                 {
-                  "data": "2026-04-22T07:00:00.000Z",
-                  "titulo": "AMPLIAÇÃO DO MINHA CASA MINHA VIDA PRESSIONA POR MORADIA PARA SERVIDOR -",
-                  "fonte": "Bahia Economica",
-                  "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQeDFQVVFqakF2cWp2a24wbVRfbDZrazUyNnNOYTAtX2hOUElEcWc0Y0FycWJ3T09FTjZ3cjE0QTg4c1hqT0pTNDBlakFGYVFHVjV4emg3NG9zZ0NCaVFDb0d5T1IwcWRha1hvZk02cmZYblZiWU1BX3lEUTdaOWhRQlZBbTVDQ21OVVVSRm93YjlZZE9TU3d5WUpvSE9CVTdVb1hRaVFFV3ZiSFFUclBhTUNFZFRpdw?oc=5"
-                },
-                {
                   "data": "2026-05-05T07:00:00.000Z",
                   "titulo": "Obras aceleram na Vila do Servidor e últimas unidades seguem disponíveis para aquisição",
                   "fonte": "Portal BA News",
                   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNGJYbDVGQWlSVDZlRFphelVqZmJ0OVd0dXdGU0lxaGlFaVdKZEY4Nk16UUxCbkNManZxLV9pTkVULUx4dGFvU2RfR2FVYWtkeS1CdUxyeXBaeG9Oa2tMcmUzV2JOR0RMeHZvdjNFRnhNdlgteXhKR3ZlR3hSaF90Z3UzQWZ2UnZKWE5wV0hTejdEdWpEemVSV2Q4WUhWX2NZTzlKR0tUS0RPOWJOTkFjODVDYXhxTURMMnQ4TWI3Mk5CMVBwZzY0WA?oc=5"
+                },
+                {
+                  "data": "2026-04-22T07:00:00.000Z",
+                  "titulo": "AMPLIAÇÃO DO MINHA CASA MINHA VIDA PRESSIONA POR MORADIA PARA SERVIDOR -",
+                  "fonte": "Bahia Economica",
+                  "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQeDFQVVFqakF2cWp2a24wbVRfbDZrazUyNnNOYTAtX2hOUElEcWc0Y0FycWJ3T09FTjZ3cjE0QTg4c1hqT0pTNDBlakFGYVFHVjV4emg3NG9zZ0NCaVFDb0d5T1IwcWRha1hvZk02cmZYblZiWU1BX3lEUTdaOWhRQlZBbTVDQ21OVVVSRm93YjlZZE9TU3d5WUpvSE9CVTdVb1hRaVFFV3ZiSFFUclBhTUNFZFRpdw?oc=5"
                 },
                 {
                   "data": "2026-04-23T07:00:00.000Z",
@@ -8239,14 +8273,7 @@ export const mandateTree = {
               "tema": "direitos-humanos",
               "status": "nao_cumpriu",
               "descricao": "O programa de inclusão produtiva no mercado de trabalho para usuários e usuárias de drogas não foi criado e as ações informadas pelo governo são de datas anteriores ao atual mandato. Promessa não cumprida O que diz o governo: O governo afirma que as ações de inclusão produtiva foram implantadas por meio do programa Corra pro Abraço, criado em 2013, e do Sistema Bahia Viva, implantado em 2017.",
-              "atualizacoes": [
-                {
-                  "data": "2023-05-18T07:00:00.000Z",
-                  "titulo": "Governo da Bahia lança programa de oportunidade profissional para jovens e fecha parcerias com Ministério do Trabalho",
-                  "fonte": "G1",
-                  "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQbk9PVThBNVdvaUxFOWpYQnNjWnpNSjhSa2VDaV9jTDAtU0FTekoyRXhkTTVuR2FiUExtekZ6Z0pTRVQzYWNSOVRMUUoyRGh3d0hlUHhtVUpfSXFvNjNQWUJ3Y3Rpb0FjLUNfRzBwQTlfa2pTbnZGTnR3Zzd0d1BHSjZUWnVDeDB3dGdMc3ZrNS1XaVpKNGtGRUg0c2xKUkdMYVlHYnRFS3ZMWF96cWppUE1yZGxoU1Zob3YzbjdkdmpWVDVPRUl1VjYzQUdlQVRsZzBQem9UbnFuOXBvSGx5dkMwSFhRaUoxNlpUUmJRVEpWWTM4U0xyT1huXzBTWGZoZkE?oc=5"
-                }
-              ]
+              "atualizacoes": []
             },
             {
               "id": "jeronimo-rodrigues-45",
@@ -8286,7 +8313,14 @@ export const mandateTree = {
               "tema": "direitos-humanos",
               "status": "nao_cumpriu",
               "descricao": "O Plano Estadual com metas de redução do uso de carbono e de início da carbonização reversa foi implementado e publicado em 2024, e está disponível para acesso da população na internet. Compromissos e iniciativas sobre os temas constam no documento, que foi elaborado por equipes da Secretaria do Meio Ambiente (Sema) e tiveram como órgão executor o Instituto do Meio Ambiente e Recursos Hídricos (Inema).",
-              "atualizacoes": []
+              "atualizacoes": [
+                {
+                  "data": "2026-09-28T07:00:00.000Z",
+                  "titulo": "Eleições 2026: conheça as propostas dos candidatos ao governo da Bahia para a crise climática",
+                  "fonte": "Avoador",
+                  "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNd3R5Ulp1b3pzSzdXZjByYlI3WnpjeXlBNG83MHZvaHhZLS0zeVQyTGg5TFNfb0NpajVRcUVIanlsR3ZvNzFvZ2lVa2hhVHR6ckpTSThiZWJOOUFKVWZHNzEwSVA3V3FuSHFLNEM4VnRZUnZIYXFaOHhwQzQ1U0VlTnhkdmVPeEJBZkZjeC1haldaUWZzTk8waXZ2QmVzcHZuOEp0YzV2YXRWY3BpS05fbHRFT1lVUVE?oc=5"
+                }
+              ]
             },
             {
               "id": "jeronimo-rodrigues-50",
@@ -8310,7 +8344,14 @@ export const mandateTree = {
               "tema": "direitos-humanos",
               "status": "em_parte",
               "descricao": "O governo prometeu que garantiria a prestação de serviços de Assistência Técnica e Extensão Rural (ATER) para 150 mil famílias de agricultores familiares de forma continuada, mas o número de famílias atendidas até o momento é de 107 mil. Promessa cumprida em parte. O que diz o governo: Afirma que a Assistência Técnica e Extensão Rural segue em execução, com expectativa de que a meta seja alcançada até o final do segundo semestre, através de uma nova etapa prevista pelo edital ATER Agroindústria e dos Programas Terra Mesa e Garantia Safra.",
-              "atualizacoes": []
+              "atualizacoes": [
+                {
+                  "data": "2026-09-16T07:00:00.000Z",
+                  "titulo": "Comunidades rurais de Ilhéus discutem nova etapa do Projeto Parceiros da Mata e assistência técnica prevista para outubro",
+                  "fonte": "Jornal Grande Bahia",
+                  "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNOUFPZzFqbHlnZDRXeTVrVHEwSFlJR0tfSW16MW5xVXE2QzlUN3dodE00bHFETkxpYTQ0WWdPWFhkaEY3eGdVSkJEZmlyb0xSWUhtRFE1ZGZDeFMtdV9uc2hCVDNTVU9CZkJxME5Uei14MFVEMHN3WHV3WVlyY1VTeHVpV202ZVFreDZoU051SUZtRDBSbFhVVWlFVVBTeHhhenlieFB2dzFzOWFyd0dMeWRRMlZoTDlNaVMtcnlURjJtOEt3Unl0eGhOOWctejFjalEyUUtqdDBsM2xGN09LR2ZpWDN5VUlEVjhtTUVtd1lJTnVVZkE?oc=5"
+                }
+              ]
             },
             {
               "id": "jeronimo-rodrigues-53",
@@ -8460,16 +8501,16 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNUVV6V1lIT2REVXR0SF82bW01QXJNNmhiaEJCTXRHWXdHRDJXcmVuZXZDclFIMFRpNFdWMTl1V1YwOEFVY1lOZkpWUTlEWXA3RkRzQlVtdkJTQUxtenBXU0ViLWJKbWZ1T3pZeWdQV3plNkJWdklHRG1mTzgtaXdUTFUtR1E1UWNRNElMdFM1aHM3NTEtQ0pxTVo5Zzcta1JHTTNEaE8yWEtEa1lBWG1VWnRsaEhPM2NzMDVyZElNVnY0SHZhOU1JMGljMVlDZkowdGU3c1RVZ0VzYkF1cE13Mi1Qbw?oc=5"
                 },
                 {
-                  "data": "2025-10-14T07:00:00.000Z",
-                  "titulo": "Governador Jerônimo e presidente Lula concretizam retomada de investimentos na indústria naval e energética da Bahia",
-                  "fonte": "Jornal Grande Bahia",
-                  "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQZTF6bDI4eWRNSUVBNlhXcng0eFZvRWhMNmJKWEpnMjdQT1ZRRmpzRm1BQWZnTzJMNGtkZGp2UElLRGM1WFNrTFR3WmZNZmtNRHB3eDlFNHc3VXVOcXRUWWpDZ21FZGFnTVduRjh6c1hYaVJKc0gwcTZORGcwWXBSV1JUTEpxNnNVZnA3Sl9SUjVLeU1qak4tQzduaGUxeFVpcldBRTBhUTQyT1ZsX2k0TTY2ZkkxUWNVMGVSNnVXVmhjQW5LMXAwUEZfbDd3M2NYb3NFVW9fVElwdzRBSHBuM18yX1lmLTZ4aF9UR0hiMA?oc=5"
-                },
-                {
                   "data": "2025-10-09T07:00:00.000Z",
                   "titulo": "Presidente Lula anuncia mais de R$ 8 bilhões em investimentos na Bahia com BYD, Petrobras e retomada da Fafen; Agenda inclui eventos em Camaçari e Maragogipe com Rui Costa e Jerônimo Rodrigues",
                   "fonte": "Jornal Grande Bahia",
                   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPaTdndWRDRGktdmdiaU9JbEVwbTB3R24wVEZGZ2kxeHlJX0ZtZHEwdWxhNWlKLU9QbmlJN0tqZUdjMWFKdG11MGtuRlM4cTFZRGxTOGo1QkkxVU5BVkVzczh1MGxRVzliSkNsVU5CQ3dhUjhxaWc0bG41aTRyd0I4R0pucVBnajZmSzBuc0FYZ1ZPejlKMUhqNTc0V1FCV3JWNGtxZFhPSllyYlZYdVVpdnUxeUlyTGFCTGxwSS1NWVI5VDlBN2pacmpVRFp1Sk8tZ29zVmx6aWF3WU1MUzhocE9CMA?oc=5"
+                },
+                {
+                  "data": "2025-10-14T07:00:00.000Z",
+                  "titulo": "Governador Jerônimo e presidente Lula concretizam retomada de investimentos na indústria naval e energética da Bahia",
+                  "fonte": "Jornal Grande Bahia",
+                  "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQZTF6bDI4eWRNSUVBNlhXcng0eFZvRWhMNmJKWEpnMjdQT1ZRRmpzRm1BQWZnTzJMNGtkZGp2UElLRGM1WFNrTFR3WmZNZmtNRHB3eDlFNHc3VXVOcXRUWWpDZ21FZGFnTVduRjh6c1hYaVJKc0gwcTZORGcwWXBSV1JUTEpxNnNVZnA3Sl9SUjVLeU1qak4tQzduaGUxeFVpcldBRTBhUTQyT1ZsX2k0TTY2ZkkxUWNVMGVSNnVXVmhjQW5LMXAwUEZfbDd3M2NYb3NFVW9fVElwdzRBSHBuM18yX1lmLTZ4aF9UR0hiMA?oc=5"
                 },
                 {
                   "data": "2025-07-04T07:00:00.000Z",
@@ -8502,6 +8543,12 @@ export const mandateTree = {
               "status": "nao_cumpriu",
               "descricao": "A promessa que previa a criação das Zonas Especiais de Indústrias e de Serviços não foi cumprida. As zonas ainda não foram instituídas e permanecem em fase de estudos para subsidiar uma futura política industrial e de comércio. O que diz o governo: Informa que a criação das zonas especiais está em fase de estudos, contratados junto ao PNUD, para formulação de uma política industrial e de comércio e serviços mais modernas e alinhadas às potencialidades das diferentes regiões do estado e articulados ao Plano de Desenvolvimento Integrado 2050.",
               "atualizacoes": [
+                {
+                  "data": "2026-10-16T14:00:39.000Z",
+                  "titulo": "Vice-presidente Alckmin e governador Jerônimo reúnem empresários na Bahia e debatem jornada 5×2, indústria, logística e reforma tributária",
+                  "fonte": "Jornal Grande Bahia",
+                  "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNZDFVdTNoYUxkOS0tZjhybmd3UFhXR25XbFlTZnJ1eUd0RG1tTThFLVBiYndzT0R0OW1Eam1IT05pdl9FWWw1NnowU0tDdng1MDRIZG1jU202ZzVOdEtha0JTWXNodXZVYVAzMkhQOFFSNmpWUk9VS3hGZzdXVWRtOGJDWUEzYXUtSW40QnpheWFmd1hjbXdKSUMzVGk1cHloeGlzUmttRm1HaG9tRUVtaHRMZEplRVh4MnhCeE9FVVN2a19hcUhWdWZxbTgyNnRqc2c1dUF0R0F5cVMyb2wtOEJrWFZaUzFTOThEV3l0U25aQmxGcmlOV21Ndm1PcndvYXBNVnhiYkpuZw?oc=5"
+                },
                 {
                   "data": "2026-10-15T15:10:01.000Z",
                   "titulo": "\"Não é possível atrair investimento industrial para um horizonte de cinco anos\", alerta presidente da FIEB ao cobrar prorrogação de incentivos do Nordeste",
@@ -8719,12 +8766,6 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPdDVBWHFsMHBpWVFDUGtOLUdocFh6eG4tZ0JkYTlzcnIyZmFJRnVBVy01dUxVMjFCSGZZcGpZYkZpcTRHRFd5NU9KeFNyQ1p4SUhXZmZmZk5IQUM5NkNSV0p1V1hUcHVlb19lQ25pdmZZTUpFWHdNa1hHWmhOTWxyTG80NEJiVWFaVFhLamtyd0QybmM1a0dycFBESEl4V0pxQVEzRHo3MHBjYXRIMU5yakJWcnJEd3B5STVGRmxIdHlUWlBlMlN1ajhsX0pZb1RIXzhmMG4tOU9iSk5ZcXlwU1ZzMNIB6AFBVV95cUxPQ3MtdzNEVDhManVzZ0RldWdyeUVQRFM0T0FHTFhEcUg3TFE3eHBtNU1rRjEtTmtXOHNoYS1KREZzYkR6a0tpZG9vcmU3UEtnRGczTTdZQ2ZjQmF3RHZGbGc3bUllZHktN1p0QWtPeWdaLUtsTmxQTndraHJaWjhxQ19VLUZpLUpIWDNQUFlOM2JHUHl4VThldndMblQxakFZTlBkMVJrWVF5UWVqU3NfcEJUa3BLNTk2S0tkUmU2X1Z6SWZiWkxlMlJBV2FKb3Jfam9hN1FxNHM1MTBJOWxTYmJqdDhKb3Zp?oc=5"
                 },
                 {
-                  "data": "2026-05-19T07:00:00.000Z",
-                  "titulo": "“A partir daí é o início da obra da Ponte”, diz Jerônimo após chegada de navio da China com equipamentos",
-                  "fonte": "Bnews",
-                  "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQekRkTHNoYzdXVGpDSFdneFJlTDJMOGhyYXpxSmdSc0RLOElLcTJyd19pVU94bm4zaFpfbDVnRjBLb1ZudlozdHp3TVZ0bE9hTVFYRExKTDBjLWdQM2w0dG92Z2M2OUpmZVptX2IxRVVRNFVFVllqdF9JTzl5cWkwMlZldEN1UXFYS1BORkc4WVQtbDlCY282WXhHYndCZDhpaDZEQ1R5b0VGQ09WTmJSTkdZYlU3blVzLTRqOFNjUWFoY0VKOXp5RkNZT3ZvLWlBeGEwYzN3SGJJLXl3VVdvSE5NONIB6AFBVV95cUxNdk9ZRkY4Nzk0Uk5hZmxmQWdsYUR6SGhSME9SRk9BajdKemlYNHZ4T0tyVTBxNHY5czN6MEtrNlhPeWZ4SWJvOVhCYVN5MkJMQzhDTU04VThXTndvbWV3aWNfN3AxVWU0Z3lpZDNUdzQ2czZ1T2IzcFAwZldLTmFQY0VnS001MmpDNi0zVGNKbWVFeHdvNjYtbGZraEZFenhjaGU0V2ZQVWhSWGhoc0N6WDlydkRmVnJqRU1LbjAzQ0k0NkJJSWItRXgwY1NBeTdQamdRYXpveFIxcUV4X05YWU9ORXZHS0NF?oc=5"
-                },
-                {
                   "data": "2011-11-01T07:00:00.000Z",
                   "titulo": "Ponte Salvador-Itaparica: 20% da ilha será desapropiada",
                   "fonte": "Bnews",
@@ -8795,34 +8836,34 @@ export const mandateTree = {
                   "titulo": "Em Prado, ACM Neto elenca promessas feitas por Jerônimo há 4 anos e não cumpridas; lista tem pontes e estradas",
                   "fonte": "Bahia sem Fronteiras",
                   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPMFFTWVF2WG91MUVZc3ZhcjZHbjExR3lVazNFcmo3cERuaS10VU16d2tfeXlRQklvaUdsS1BMQWl5elY1eWQ1bFJTN0d3T0NVLWVVMDRUMmhwVFRDZjdFazlXc1hKZk1IekVXWHFyZ3pkUVZqOEVYRmF2dnhUSDlJMmJEWFgwQ2c4U2pfMmlVcFB1SnhacnVQMDVDV2FvdFN1c29PQ19yZk0zbmx6RlktSkJjRTZmOWlpNDlMdlJaWWc0alg3N2tnWnJsTTJnTDNfUWhsVGtRVDZvdjhZVlkyZA?oc=5"
+                },
+                {
+                  "data": "2026-08-01T07:00:00.000Z",
+                  "titulo": "Em Prado, ACM Neto diz que Jerônimo não cumpriu promessas feitas ao extremo sul da Bahia",
+                  "fonte": "MundoBA",
+                  "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPNVlwbGpoRVBhUmlPSmtPNFBDSlBpRm03UmpEbUZCVzVtN0tFRGk3QkZSa0tYemc4MHZwbVZHckhLZ1p1cFBKaHF1a0VxMGZFU0NpXzJUTC1tbEpoWU16WGw4UjZ2WFAzLVJieUF6RUpuNi1kdU91eDJ4ZTlVellaYUV0NnJxd3NZSVpLbW5jeG1WVV9KdERSaF9TWTNxQ1Jva3dnODdzdkdyNkZvOE9YZmY2bU9BSmJ3WlZaeg?oc=5"
+                },
+                {
+                  "data": "2022-10-25T07:00:00.000Z",
+                  "titulo": "Obra prometida pelo PT em 16 anos e que nunca saiu do papel, ligação Canavieiras-Belmonte está nos planos de ACM Neto; caso se eleja governador",
+                  "fonte": "Bahia sem Fronteiras",
+                  "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxPblJhNXdMeTFaZm9ZeWtXWnVVNC03U1F6YlljX2RmcDluWmpDeGJvRWdoYV9Jb2RCUm1wM1k5ZWhwcU4tX1pRaFVkYVpfOEplTEVGSFF3YWZqbHpDR09EVXptelcwTTFYaTJ5S1JFN096bjJ3X2htYVFWcW5sSENqS2MtOUpxLXF3LTZPVjNBUjlXY1hfSWVPSHFuN2tLVll6VmkwVTIxMVNuM3FlbU1uWTNoSWRqLUdGUFV1Z2FMSEF5M25rMmlIUWhtNEVNNjR1TWtuX0tsZFRSN19QOVRPa19xaWtPMG9oQzVRRGNTRElCRGtuSnMtLWl0d1F5UTFtRmVkRnVTX3VXUG5EakhMYVVPU3Q4emlxdFg0dXh1T29QUVRz?oc=5"
                 }
               ]
             }
           ],
           "noticiasGerais": [
             {
-              "data": "2026-10-15T23:43:10.000Z",
-              "titulo": "Governador Jerônimo reúne 37 prefeitos em Bom Jesus da Lapa e intensifica mobilização por Lula contra abstenção no 2º turno",
-              "fonte": "Jornal Grande Bahia",
-              "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQNlBVODVMa3NoTEJvVFg4a3d6bG5QZThmWXNGN18ycWhwZ3FldDlnQ3Z4ci1SbDNtc0ZIdzVsQjg4Zm1iLTFycEliNmhrOHNhYlpGNzc3TnpCUHZFeUhNQ3FaUTN2ZmpoZTVUWXJLMWc0VUZSN2RFZ19rWXpfc1JEb2xvNXJYZl9Za1otclJabXVUM2RiaTNFUjF3S3AyUWhrcWRjZ0tJTU93Mm5mT1RCdUhSbEt1QzlIbGVHU1k3WHlrUUFIZDIySnJ5RmVQOWtjU2tiZkk0VVdGR21wOG5RSVRzRUFwbTl4WHhMNzJ4emVIUVZzVDRaYQ?oc=5"
-            },
-            {
-              "data": "2026-10-15T16:00:23.000Z",
-              "titulo": "Novo ferry-boat deve chegar à Bahia até dezembro, afirma Jerônimo Rodrigues",
-              "fonte": "Blog do Valente",
-              "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNU0lwS1pnSTVfUDg4VEJoM0htTHcwNkp5TmlpenlWZmgwTkdhSVV3dGlIZlBsaTFtWEVCSXpwS080aG1HY2NSVURSNUdPcFhBRnB1MmpZRXFNZ1JBMk5NMXNXR09zR1gyRUdHX1BEbjV2Tm5Hbjd2Wm9hSlEwMmJJWkNTcjZpdW9RTWp3cXZJa01JUl9QSkJVOURSbklYS3Z4RURpVXh4RmNWSGJWMTFVc0N5WWtSNXp5Ymc?oc=5"
+              "data": "2026-10-16T14:35:07.000Z",
+              "titulo": "\"No dia que ele começou a andar mais perto do ACM para a campanha, ele saiu chutando a minha perna\", diz Jerônimo sobre José Ronaldo",
+              "fonte": "Acorda Cidade",
+              "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPMTZRSzdNY3NQaERSMGV1SVdsXzY0NTItY05EeldvNDh1UEw0elZtazRzTFAxSnJjeGpkLUQ4SkZZZlpTakwzTmtCYnRNcXA4YW1aVEZqYm9UUFllQTgtRFYtMmxDNmItVElRNTM1M1hOZElGVzhJMW5WYTd1R0ZOV2wzWGdhRVJMTnZCXzhXelQ4eWItd3V6ZnBHeTF1aWlwOWRkQ0g5UUg0T3l3Mndta0syTXMzbkR5WWlEcmx1dlZ2OUY5RkE2bkpOTm5uZTcxZTZKaHRjSEVtaFhKZXY2Rzh5SjNWZGoyUjRFUVhqc0JOR3lKMkRYU3Y4Z1U4eTg?oc=5"
             },
             {
               "data": "2026-10-15T15:53:21.000Z",
               "titulo": "Jerônimo Rodrigues comenta abaixo-assinado contra Flávio Bolsonaro",
               "fonte": "bahia.ba",
               "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPNU9pR1pvQ3hwTDN3eWp0bm5YVjBWSjFQVVVlczhja1BKZnRQZ2tQNnNjcXdOMVpVR0haMEdlXzJabThjLWZWSml1UGsxa0ZhWWEtU0x0SjROUzVnX0xmRzVDemNxUHlmaFZDMl9OQVdpTGgySGlOV2pKQ09ENGZMRjc3aFkwR3dvNmJmd3VfY2hUSkRFUk50OA?oc=5"
-            },
-            {
-              "data": "2026-10-15T11:11:57.000Z",
-              "titulo": "Uma nação soberana valoriza quem educa",
-              "fonte": "A TARDE",
-              "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOTjJudGJhaGZWRGZqTU03RGMzM1ItaUlBYjZLaHpQVnZDcW50WmxCbV9qSTBFUEJJWUdnMW8yOVF0VDFXbkxYNVgtdm5uVnk1VGY2TEhsZmJOSTBNd0pib1RVSF9vQi1rUDBEaUxVS0U3V19GcHZkSXFtVE4wMGxhUC1R0gGKAUFVX3lxTE15SDJHV1dySDVlYzhxZU5rREhuSkxsYlFuMjh6dzFaZlJZVXRBZnV1NzZjWnRpNGtQTlI3TGIwMWh1ZmpQM0V6UEIwZE5lM2l4T1dPc0FFTUE4RV9ZV3g2R2o0VDRGNXR6aXMtZV9pbFpodjJHVmtCSEI0WU5Ca1NRYXcxbXFRT1FpUQ?oc=5"
             },
             {
               "data": "2026-10-15T10:40:59.000Z",
@@ -8841,6 +8882,12 @@ export const mandateTree = {
               "titulo": "Petista, governador da Bahia amplia transporte gratuito no 2º turno",
               "fonte": "Poder360",
               "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQUI3SUszM0wyUGR5Q1RuWXF1em9Ic0xHME9EQS1nT2dSUFFPTGZOWFBkeTBfUEFiQUY4Nng2SzdKMjdHOENGd2tKTFlpaUI3OVVGblliMkdxQ0tvbG9xY3g4ck1OV2w1QnpoUURFdEVtRWNaWm4zQ3MyeENUY2FNMTI5eW5EQUpTa3dYa0xITlUtcTQ0elpHWjUxeTgzcmNrQlhhS0dFWGJzWHpzTlZuUUd3YnZGZw?oc=5"
+            },
+            {
+              "data": "2026-10-14T20:37:05.000Z",
+              "titulo": "ÁUDIO: Governador Jerônimo Rodrigues articula investimentos federais para impulsionar o desenvolvimento da Bahia",
+              "fonte": "ba.gov.br",
+              "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNLTBnU3AxOHVYcGZUT09wVy1laTlnb2d3dElTeE1lWURwbGF6eUw2a2VVdHBrckc2bEpDa1dJOWU3N095MUFwdDJnQl9KZ0tRY09JcFBTNWZReUVkdU94MXBJV0Rxc2tsSXE3VzhrdFdiTmVOLTZUQVAtWnpEY0UzUkdzMUc2Mkg3VFVRU1dZbVVMc0dBTnVWaVctX21ibl9mZGFOTGZpd0NIQ0RnLTV2MDRqLUVNSmI3a1BVRzRCdEI2bHhRTXNUWA?oc=5"
             },
             {
               "data": "2026-10-14T16:09:27.000Z",
@@ -8886,6 +8933,12 @@ export const mandateTree = {
             },
             {
               "data": "2026-10-04T07:00:00.000Z",
+              "titulo": "Bahia reelege Jerônimo Rodrigues governador",
+              "fonte": "Congresso em Foco",
+              "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOeXpzMGl2M3ZFWEJjSWdrYURCRnBtTnd0bE51ZUU0TWNuZndidFd4S2IwRjJjcFo1SnNtNEJrc0pnUG9ndGRmdHR0ekQ3X3lFZjE4YjVDR2MwSXRVYnFYS1VQSGdaNzM4RUo3NVFhSVRLTUxxTndqSUNnZXZxSHdjRzlBSGZMTTRubFhtMEpYZjQtMDhBX3NIbQ?oc=5"
+            },
+            {
+              "data": "2026-10-04T07:00:00.000Z",
               "titulo": "Jerônimo Rodrigues é reeleito governador da Bahia no primeiro turno",
               "fonte": "Consultor Jurídico",
               "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQdloza2dIR3dSaEJCdjlmVTJtdUtTb1JxbjlEb2pkTkZMQ1JqQUwweVBtdHNLWEtkdDhSTy1uRE9iOG9iSVBaWXZYN3JudEE3bFE0a0lwc1Y2TFpQSF9lWGZyWFdYN21hd1VYOHk2UjQzOWFJb2xOeFZ4bmZ0VEpJZFlyT0ptczJXSHV3OVJha3JRRWV4X1FTaWRRWXY?oc=5"
@@ -8904,9 +8957,9 @@ export const mandateTree = {
             },
             {
               "data": "2026-10-04T07:00:00.000Z",
-              "titulo": "Bahia reelege Jerônimo Rodrigues governador",
-              "fonte": "Congresso em Foco",
-              "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOeXpzMGl2M3ZFWEJjSWdrYURCRnBtTnd0bE51ZUU0TWNuZndidFd4S2IwRjJjcFo1SnNtNEJrc0pnUG9ndGRmdHR0ekQ3X3lFZjE4YjVDR2MwSXRVYnFYS1VQSGdaNzM4RUo3NVFhSVRLTUxxTndqSUNnZXZxSHdjRzlBSGZMTTRubFhtMEpYZjQtMDhBX3NIbQ?oc=5"
+              "titulo": "Jerônimo Rodrigues (PT) derrota ACM Neto (União) na Bahia e é reeleito governador",
+              "fonte": "Folha de S.Paulo",
+              "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNVlMzanFFQ3pTS1otX0I4WHM2a1RTNjJkdWhYcExsYXMxV3BHSGhuWmkxeHpjYkpjOHI0dEJTaUJXVHQ0R0Z4TXVLQnpyZTA0OWpqdjVQQ1ZrYkZuaFNHTUhlWDE2c294S3RTbDV3NlZWZEhaWnRLMUF5Nmo5eWhUWXdXVDVQWWgzcFRtM0FZN2VBNktiQ1VrMUxVTjhSV1JQZEhSS1Nnc0loNktLMllaUWk0RkJobnhoSDd6b2J2bGJWLXNyZkJFU3FCZTFabTE4cXRvWjNQTU5pUFRvR0E?oc=5"
             },
             {
               "data": "2026-10-04T07:00:00.000Z",
@@ -8916,9 +8969,9 @@ export const mandateTree = {
             },
             {
               "data": "2026-10-04T07:00:00.000Z",
-              "titulo": "Jerônimo Rodrigues (PT) derrota ACM Neto (União) na Bahia e é reeleito governador",
-              "fonte": "Folha de S.Paulo",
-              "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNVlMzanFFQ3pTS1otX0I4WHM2a1RTNjJkdWhYcExsYXMxV3BHSGhuWmkxeHpjYkpjOHI0dEJTaUJXVHQ0R0Z4TXVLQnpyZTA0OWpqdjVQQ1ZrYkZuaFNHTUhlWDE2c294S3RTbDV3NlZWZEhaWnRLMUF5Nmo5eWhUWXdXVDVQWWgzcFRtM0FZN2VBNktiQ1VrMUxVTjhSV1JQZEhSS1Nnc0loNktLMllaUWk0RkJobnhoSDd6b2J2bGJWLXNyZkJFU3FCZTFabTE4cXRvWjNQTU5pUFRvR0E?oc=5"
+              "titulo": "Qual é o número de Jerônimo Rodrigues, candidato a governador da Bahia em 2026?",
+              "fonte": "Valor Econômico",
+              "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOQWo4ejZJdm9JRWNpOXc5SDQ3M2Ewb21RSnlGWDFSa19RQkhlX0h0Y3ZPZ082WGZGbDhFb3FVRkJzU2tleXBlaG1aN3JMeU5JSFZLN014Zm91eTdPNmp6RW95ZTgtRDg4eFJjcmpBcTJ0aENmdUp4OFZnZ1dsM0V1MVdLX1NfSVZXVXdBS0swTG5feTlyVVBwZy1PbXhXM2ZQamQ4Wi1rV3pkUkxIRHFxZ1Mtam1TTGlkMHcxelZqNWFLYlNwdW9Gakg3RlNiM2R3eU9pQnI4VWp6aWpNdm1uOWp5SdIB8gFBVV95cUxOZWlyckZZXzZ2WDlISGQ5ODgwT1ptTmJuLU5DLUhRMkZMZG1PUWtqZkx4MkVON21ZUVFZeVNVa21FLU5jRTZ3cWFmR2RRZXU1VVZJZ2NDVzl6Wk16YzZyaGd0QktYcEtvanJOeVFaS05NQmZvY2ZiVTdOVV9SNXNITlNSWDJOUEtsRXhjMnZHUVROVGV3UHFjVzM2eGZSWTFYUGNncFFkSUU2RFBycWhzV2g3LUlWZ0tsWTgzLXdESzFTOTliTjhwdE94Y01jVGlMLXdmZGJZZ054WWFqZndYeHM3aVRidzFNZlI2allmY1VJdw?oc=5"
             },
             {
               "data": "2026-10-03T10:18:59.000Z",
@@ -8927,22 +8980,10 @@ export const mandateTree = {
               "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNb0pxMHA1VUdvZ3VUeEJoUldSNExKVC1YSEY4NTNfZlhScHNhMDcyQjRGZXk0cU5ucW9GR05jd21xdmFTVERiZ1BubWxoSjdzUVBUbEd2a0lzR2J3VU11ZGxRRmlELXhIM0t6eFkyXzk0eVF2eXpDcUcyTG5YeG9mVUdXaTJvN1NaQzlIZUFGOEdpMzVHdGp6bmtPdkRLOGdtWDNwUm5UbV84Q0djV2ZRbmxYWDh1ZHJnMmYzTG5NQVFzLXJQZkZGX2VBOWV2enk3T3NBbVlDdnlvWWM4OWJzTFRCSTlLa3pLLUlaUk1n?oc=5"
             },
             {
-              "data": "2026-10-03T07:00:00.000Z",
-              "titulo": "Eleições 2026: confira propostas dos candidatos ao governo da Bahia para a área da Saúde",
-              "fonte": "G1",
-              "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPZnl6dXdmSFlrcDdlcm54M0puRUNwYXJwLTFyWnNLOGFscWxUdldVdzQxRmt6OWM0cDQ0NXVvYXM1RDNSbU9Ea1ZWQ0N3OWI2UzNXM2g4LUk5WTFHMHdtRURqamNGSDIyTURmS2pMQ3J4akRwb1RvZ1BfMEpDRF9zc1ZPVDd5ZDN2bFpnY1NVLU5RRjJCWUxnTFJaM2NMNUVqUmROTEFiVjJXZ1ZGWTlUdjh3QnFsTmJDOWhPcG9mWTBMRFlWRXMzT1YzenJiakZSN0w2djlQTHlTQdIB6AFBVV95cUxNMFItSFVpZFBGYVBHQXF5dHZ4NEpJZXhIblV1azZVblBneWxMS0pJeWozZnNSSVJRT2p2WExNVXRPSVh1MWIxeDNwTlN4UDItSzB0b2tYQVYtemJwT1BEbFg0Q3gtMzFJdlZCOXdLUHkzZkVvcWpVTzJLSVpzLTJpWkFzb1JtOTlNUk55QlpYaUoyWVJDMHpZV3dybGw4b0tvMWwyU1lMdmlNMXk4eDNjeS15ZUd2ZGxENjJpODR2bmxSd2JlYnNmTnVDMUJsRWdkNFBhelE2R0lOQ0ZQaV9HYnJWWnpRak04?oc=5"
-            },
-            {
               "data": "2026-09-17T07:00:00.000Z",
               "titulo": "Emprego: conheça as propostas dos candidatos da Bahia",
               "fonte": "iG Último Segundo",
               "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOVGxqWEZRdm9fQkhFT29UR2hfbVJUZlRsTEJhOXhpaFhNdHF0YS01SlVQODhJeE9hbEZoeXJXX3NFc0F2SXB5Q2drVXFyMmFkemZNU2hhbnk2U2pFTG9tMUowLUR3OXR0RXlhMUg3ZnVWOVNwN2pQZE9LTEk3MGR3a2V3Zmx6ZWF2SXJ1NjJnTm80OWZSUXFxUkNWN0FVMU9uSlRBMTBEWDZHZWhr?oc=5"
-            },
-            {
-              "data": "2026-08-04T07:00:00.000Z",
-              "titulo": "Jerônimo entrega ao TSE plano de governo com 14 páginas, quase 90% menor que o de 2022",
-              "fonte": "Acesse Política",
-              "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQV0tPR1pscTVSdmtYamFUTGNBZGhURlgtY1lHME5hUWlsbVNyQjlmVTh2dmRlcTRiSGp4MjduMkwtMmFNeGxsV3BiX2RMSGZWQW9DNlNvT2lUVWVuVzM3MUVKcXlGUVpoUXFhQ19rLXFXS0tjODAtWEN3ajl0R1BPZ19FMmJIRV8wR0F2bmgtTGJIUTVRdkZrbTRxdTNBS1ZGRmJvTkszN3M1ZTdxWnhEYlJKN3Q5cXpPaWpwcTBudkpsTU0xaHBDLQ?oc=5"
             },
             {
               "data": "2026-08-04T07:00:00.000Z",
@@ -8976,6 +9017,12 @@ export const mandateTree = {
             },
             {
               "data": "2026-07-22T07:00:00.000Z",
+              "titulo": "Promessas de Jerônimo Rodrigues: veja o que foi cumprido na Bahia",
+              "fonte": "G1",
+              "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdFpwVE11Ql8yUXJWQ0FENDNUd3A2VTljSEctd2J5U2ZYNzRUc0w4ckw4cFk0ZG4zLTNyMlBUSVYwRlg2dHB0cnJHbG5mSGxMMlZRTGJJYW1zR2tISXFjenZISko2Yk82Q1RaZUNtdUtoNDN6VGxvS0tfZ0NzLWl3aGtWYXVZZVFzQlBqZkZrUm9sMlFraElMZWxqLVcxTWg1RGRyUzAzcnlEZw?oc=5"
+            },
+            {
+              "data": "2026-07-22T07:00:00.000Z",
               "titulo": "Bahia fica entre os estados que mais cumpriram promessas de campanha",
               "fonte": "A TARDE",
               "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPSUg0YjhFakV5d3hBbXBHUlFxajJyLTdBcWZFN1JaelRqLTBmdUpJa19KbTZxNnNQMjlEUmhnWmhSbEtiemd5TzRwaFlXYzB4UWlRYlpmTDJCVmVOdWY1NW1Rb3FueERxdEgtWXJzZWdZQ21IaU5rZ1MteEdQa2V4NzJZSmZ0T2djSEI1RkR6ZWwtUzdIQ2szem52Y3U1RWtnSzFwNGdkWkFQbzDSAbMBQVVfeXFMTVp6WnN6TDBaWUJ3cWk5SWhDaXl3WHRLTTg0ek1RM3VGR1EtMXlBaGdwbjRWbS13Rl9SWjViUG1mTmJ4U3E5LTZIVFlSemhVLUdDcGxSejdHaFM4ai1HRGs4eFVvOUhnOTBHanBYdEZGRWtCbW1pZVBMVHdBRHBhLVl1cFAzQ3hTM3RLa3ZISFRrbW0tUW0tSEVCRkhhY3J2amhWdG9aTjNNUzZ5YWY3bFVWckU?oc=5"
@@ -8997,12 +9044,6 @@ export const mandateTree = {
               "titulo": "Jerônimo cumpriu 35% das promessas de campanha feitas em 2022, diz levantamento",
               "fonte": "Farol da Bahia",
               "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOajhIdGlZT05veWdLcC05TzAxXzVaVlRJWFlwODhkMi1UZVF1QjdiNmxYbWZzeFVKOTlEa1pYbThpTndxQWJIaklkaXdZcTU1RFdZSGJEaW44VmRSLXk0QW9MbG9vd0VkLXUzX255UnRlQzFCRGhhT3IybzhxNlFOeTVlSGM0V3pBTWVHNklnUVBpc3p5M3o1ZkpmS3ZjZHczVVhsczJ0QXVseVVsMGlBTUlpYkUyMTds?oc=5"
-            },
-            {
-              "data": "2026-07-22T07:00:00.000Z",
-              "titulo": "Jerônimo diz ter cumprido 92% das promessas, mas levantamento aponta apenas 36%",
-              "fonte": "Jornal Correio",
-              "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNd3FaaDZTdVlzWVlkYVdMV3VTNml0VmFBanU4aHZiM0F2eFVibU4ySnlVUUg5Vm93X3pxTVQ0NFctdk9TQUllb1lRV2ZCcjJSX3Y0WFA3d3VqNzJ3NmVKZFJXN3ZrV2htUkhzXzQtUWVUWmF1R3hPUTl6dGRMYW5TYTdndWtycU1HUEhjcjl4WWZCOU5sTnV4T0lwYkgwbEFuZ0JZOHpENnl1QlNFSVR1elNhN1k5aVF2LVZrX0xMbHVrdw?oc=5"
             },
             {
               "data": "2026-07-22T07:00:00.000Z",
@@ -9047,12 +9088,6 @@ export const mandateTree = {
               "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPZy1DaXIzamJIX3MwY3c4TjZGTUF6ZklyTHF5V3BoeDlBU25LSDBhWUFCQmMyUHhXdXE5ODhMLVdEU2NoTXBNYnNQZnZYVjA1b0JuOTN2YUVmcWZhV0xjdHNZSTJVb3d3VDBtcnRaMTVJa2tvWWptNUpIMkFQemxkeXp0M0ZaaDV2ZTFLdFhrT0laTUpnZ1BVWlNWNldNSzVZeWpWVGdwY1d0QzVqVm83MGJQUTFFZ1ZUYzlpTThlanBUd3pfTVhOVDMyaTBGR0hESzZRVFVubVJ3QmFFZkg3RXFIUmszTG9jUjVXQ3JOanc?oc=5"
             },
             {
-              "data": "2026-04-26T07:00:00.000Z",
-              "titulo": "Governador Jerônimo entrega colégio de tempo integral em Mascote com investimento de R$ 13,1 milhões e amplia ações em educação, saúde e agricultura",
-              "fonte": "Jornal Grande Bahia",
-              "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxOdXl6WEVBMkdDVVNEcUMtQVdQTE9PQUVLOHBxdGYzUkx1SU9zQXg1X191bkp3QU11MHpZR0M2czdUWVd3VmxlNDFSZ3FLMkE0VkhTM0NfTDdpYUhLekFzSUt0LTM4cVJncEsxVi1mb2lKWFBHTHRuS0ZGd2hydkZqYnJVTnNLZkZuZFd1VGtGb3d5YzU4UFZpdTVGTzF6RVRpdzNyM0h4QUhEXzZQRzN6c0FabDczNHo2bEp1MGlkYVBFN1BrRkhadUQ3ZnJKN3RPSzRVZlFveFFCd1FWdjRNczQ3SjU2T3BBU0tqc3ZZWG8xU0twSUhYNmVnMDdyR0c5eHQ3bWt5TzJBLUxyUVd6c2V6ZERXZw?oc=5"
-            },
-            {
               "data": "2026-02-06T08:00:00.000Z",
               "titulo": "Governador Jerônimo anuncia ações para a edição 2026 do Carnaval da Bahia com foco em segurança, trabalho e garantia de direitos em 150 municípios",
               "fonte": "Jornal Grande Bahia",
@@ -9069,12 +9104,6 @@ export const mandateTree = {
               "titulo": "Governador Jerônimo autoriza obras de pavimentação e recuperação viária em Teixeira de Freitas",
               "fonte": "Jornal Grande Bahia",
               "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNYzRBWTIxWFFXanRHSDBKMVMxUnZyU3ZrOVhtem9wMTJsZUhVU2lSdE9vVkM5Z3VMYWxkaTZMRDBFVjhQSjVxb3J6ZDhBRTFwOENSSWtpbnV0cVB4UUU0SnhNaDRMTVpfbUQ3cWpnNUNybjFncVUtcGI3MW9NdW9uMThRSURrakxWSkNmbjM3UGdrdkJFX3ROd19aY2dtaVlFb0sxM2VCUjVnandhRTh1WEdGQk1QcUg5SENvLWZYZFlQbUtpSmlpb290R2U2UXFNdWc?oc=5"
-            },
-            {
-              "data": "2024-06-30T07:00:00.000Z",
-              "titulo": "Contendas do Sincorá recebe R$ 61 milhões em investimentos do Governo do Estado, diz governador Jerônimo Rodrigues ao realizar entregas",
-              "fonte": "Jornal Grande Bahia",
-              "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNYmt3Zk80d0VSS3NGV0JoSkl4N0sydVN3ZW4tdEN3SEtqTE1ib3A5V3RXQmp2MkpJYWZGeUxzVHl0YldPRDZmVjEzWTRrenFUcm1xSngzcDdkMzJFZm5HbnBZeDVqNm5iLXJrWk9ndVZPV0NWc3RGRXR3TmE0YTRHYmxvY0pZVTNQRG5QTkVZXzJadzd4aVhQRTIzMDJXX2NNNFN1NDVMVENiNlNBcExjVkZlQzFtMERqRWJnSEwyRDg3U2VPd1JfTDU3OWdSb3Y2elIxWTNqd0x5OGFwQ2c5Wi1SWW1uLXRCZEtoanBQd1VvYXk5bGpzeGtjUXhDdzVFTm9DNW9n?oc=5"
             },
             {
               "data": "2023-03-02T08:00:00.000Z",
@@ -9236,16 +9265,22 @@ export const mandateTree = {
               "descricao": "Nenhum dos três novos hospitais regionais prometidos está pronto. O Hospital Regional do Maciço de Baturité (Baturité) está com 14,74%, com prazo de conclusão para julho de 2027; o Hospital Regional dos Sertões de Crateús (Crateús) está com 77,41%, com prazo de conclusão para dezembro de 2026; e o Hospital Regional do Centro-Sul (Iguatu) tem medição de 10,55% das obras, com prazo de conclusão para janeiro de 2028. O que diz o governo: As três unidades têm prazos para conclusão em dezembro de 2026, em 2027 e 2028. Em nota, o governo disse que, após o momento de conclusão das obras, acontece o processo de mobiliar e equipar os hospitais, o que torna variáveis as previsões efetivas de inauguração das unidades. Conforme o governo, isso acontece porque fornecedores selecionados em licitação estabelecem prazos distintos para entregas de alguns aparelhos.",
               "atualizacoes": [
                 {
-                  "data": "2025-05-15T07:00:00.000Z",
-                  "titulo": "Elmano lança dia 26 edital para construção do Hospital Regional do Centro-Sul - Portal IN - Pompeu Vasconcelos",
+                  "data": "2025-03-24T07:00:00.000Z",
+                  "titulo": "Governo vai construir hospital regional em Crateús, Iguatu e Baturité - Portal IN - Pompeu Vasconcelos",
                   "fonte": "Balada IN",
-                  "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOOHp5VURzZ19oeERBejlfYnhfSGJhZ003Rkh1bi0tZThiYjE2UDBsUWRiTWxycVNXenVYWW1EcGlYZE1VYm1uTmN0Q1dzeF9kdWRZUm5kOFpDSmRVYVVWc0ZYc0NJcnd6UkFHMm5ZdlMxZlNUZHB1V0UzUUdfQWdvamhsQXNlSDg0WjRWR2F6bjdHUkJsQjVaT2NXM21uY0k0QV9fNHdUclNwU2toTXpxREFnS1pLMWc4UzAwMw?oc=5"
+                  "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOR1ROYUU4WWdpcW9URVlVMHkwekpJZHE2dDdUWXhNYlc5TExBZFcycnVUWE9YZkt0NzVEdF9abW5IdUVqZVA1a0NybDlISGVCQzVsbGh4VXJHLWVyWGJ1RnZxYVQyRXVPRjk1NTFOenJYODgyZWo2d2VaZG9QMkJmRGM4Z240RGxCYTU1d1otVEFudHNrSE13YlB4X3ZZcjg2Q012LUVSakdHeTZSRVQ2Sw?oc=5"
                 },
                 {
                   "data": "2026-02-02T08:00:00.000Z",
                   "titulo": "VLT Castelão, Metrô e hospitais regionais: quais ações Elmano prometeu na Alece para 2026",
                   "fonte": "Diário do Nordeste",
                   "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPZ2xUTmdVOG9SWEh2bW9KNXdNX3gwdXFRZFNBMmt4TGVqZGpQV1FBRzlVcVpGRGs0a3hHS0lXaEZocjhnc2ExVWJJcklFSlhCNU5WTlV4OFk5eVhjMnZzZnJUQ2JuVnFrUTdhYVc1d2JzdzNoNXlITUZVRGNWNTc0ZkpwTWRtNWNxQnJTSmZ4LWtJOV9FdW9QV1VQbFVLdFplZTlQWlhqeDkzY25ncWF1RGgyV3ZZOWJVaWVUd21iWFc2RFJKdG1pcVVhaTlrdmVOUE5Ma1RLMTU1eUluYmM5WXVrbEphQjg?oc=5"
+                },
+                {
+                  "data": "2025-05-15T07:00:00.000Z",
+                  "titulo": "Elmano lança dia 26 edital para construção do Hospital Regional do Centro-Sul - Portal IN - Pompeu Vasconcelos",
+                  "fonte": "Balada IN",
+                  "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOOHp5VURzZ19oeERBejlfYnhfSGJhZ003Rkh1bi0tZThiYjE2UDBsUWRiTWxycVNXenVYWW1EcGlYZE1VYm1uTmN0Q1dzeF9kdWRZUm5kOFpDSmRVYVVWc0ZYc0NJcnd6UkFHMm5ZdlMxZlNUZHB1V0UzUUdfQWdvamhsQXNlSDg0WjRWR2F6bjdHUkJsQjVaT2NXM21uY0k0QV9fNHdUclNwU2toTXpxREFnS1pLMWc4UzAwMw?oc=5"
                 }
               ]
             },
@@ -9275,16 +9310,16 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNelExT3JmeGsxWTlHSWl6R0R2dzM0ekZBeWQyaHI3NUdzQnBURk9ZTC1POXd2TktCdXBpOXNlUy1oYTVkLUZLY2xQaXdicGpUb0xaZHRZQXJlNnE0bHhCZlpIMTRYZUJZX1U3RHM1VmFLWGZDN3oxVkZmd1pOR0QzVHRTRUktdFNHdHhpUXVNQWM1eE9RUkJGbVRkU1ZSRjNpVEZMaGxPVWtUNWlia2pxdV9SZEk2NjR0LWdxbWNDZWNEUHlCaWpacFVTemtualB4VmJHUzVYVDd5TjEzTVR2d3cyWmRVSk9TTzRubDZCZERCSXRFRXJ3?oc=5"
                 },
                 {
-                  "data": "2026-09-17T07:00:00.000Z",
-                  "titulo": "Ciro anuncia proposta de ampliação do tratamento contra o câncer no Ceará",
-                  "fonte": "No Cariri Tem",
-                  "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMk1ocDBEUmlORWdXQkdxQkYtVU1PMGwyenA5b0hRSlUwOThqc29pQUpvZ0hTTmRCQVlBUXhnc3QyNE5qUDlWcmI0cm5GdjBBMGlOeElvVWdJaUt2YlVpck5aVndnUlJqd18xMUFpVlVVWXZqbmxrRlpIa0w3TFhEcmxMWUYwbVloOWFlb0JMdENqR3FmUWhKanpoSlY2ZDBYdkFN?oc=5"
-                },
-                {
                   "data": "2026-08-22T07:00:00.000Z",
                   "titulo": "Elmano promete radioterapia, hemodinâmica e cirurgia cardíaca no Hospital Regional do Sertão Central",
                   "fonte": "OpiniãoCE",
                   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNcDNhX2xaaFFIcFVYTlpENGhBdlFqYkZ3VWl2YmFHSFc4TkVzNkFtekhUREgtRl9xRnAzc3Y0UkVlUWFvdUluaUtQandSSzFHX2xta2R4Z3FreXNQVE40R1RQbmRQT0RiQ1ltVUVac0hBMWZmZ2EzRlVxa094NW5JM2RaVDl5dVBwY1FyUkU4ZGlaWXZQdVdkd3d0eFd0ZzJGcFhNanZubThXWFNmOXl2dXJLSmY1ck5wMGxkWXhZeU4zemFfa3VuOVJJcWJyb3N6bVNOYU9GeFQwRFlvNXZpeUtxSQ?oc=5"
+                },
+                {
+                  "data": "2026-09-17T07:00:00.000Z",
+                  "titulo": "Ciro anuncia proposta de ampliação do tratamento contra o câncer no Ceará",
+                  "fonte": "No Cariri Tem",
+                  "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMk1ocDBEUmlORWdXQkdxQkYtVU1PMGwyenA5b0hRSlUwOThqc29pQUpvZ0hTTmRCQVlBUXhnc3QyNE5qUDlWcmI0cm5GdjBBMGlOeElvVWdJaUt2YlVpck5aVndnUlJqd18xMUFpVlVVWXZqbmxrRlpIa0w3TFhEcmxMWUYwbVloOWFlb0JMdENqR3FmUWhKanpoSlY2ZDBYdkFN?oc=5"
                 },
                 {
                   "data": "2026-09-16T14:26:41.000Z",
@@ -9591,16 +9626,16 @@ export const mandateTree = {
               "descricao": "O governo não conseguiu firmar uma parceria com o setor privado para continuar as obras do Acquario. Em vez disso, a administração estadual doou o terreno e o esqueleto da obra para a Universidade Federal do Ceará (UFC) construir, no local, um novo campus. O governo afirma que o compromisso central “era dar uma destinação útil, sustentável e definitiva ao espaço, interrompendo anos de paralisação”, por isso “a solução mais vantajosa e de maior impacto social para o Estado consolidou-se por meio de uma parceria com o setor público de ensino superior”. O que diz o governo: O Acquario não será construído, e o novo prédio vai se tornar parte da universidade. Em nota, a assessoria do governo afirmou que, ao longo dos anos, houve avaliações e manifestações de interesse da iniciativa privada para continuidade do projeto original. Com a articulação com a UFC, o governo diz ter resolvido o passivo da obra, o que potencializa a Praia de Iracema como um polo de ciência, tecnologia, turismo acadêmico e preservação ambiental, garantindo o retorno social e econômico do equipamento para a população cearense. *Créditos",
               "atualizacoes": [
                 {
-                  "data": "2023-12-28T08:00:00.000Z",
-                  "titulo": "O Dia D do aquário que nunca houve",
-                  "fonte": "O POVO",
-                  "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNaFpMRzR1cW9IeEY4cmVfSWl2ZjRvTklXdHVSdmNJSEZTN2tnNlVnSnBQUUN0THlCS0pHUzI2dnpqYzdEUmZjNFJ5TVlsYWd2OEU1T3l5a0dPWkhKcG12bEUxVUJLSU52RWo0MW5BYjFUX2JtSFhZNHc0aXhJMlRleV9qNEdjZWRFdWVvT1lqMnlQWENtVjI4dTlvWHo0czROMkdV?oc=5"
-                },
-                {
                   "data": "2022-09-13T07:00:00.000Z",
                   "titulo": "Elmano de Freitas disse que buscará parceria privada para continuar obras do Acquário e geração de empregos no estado",
                   "fonte": "G1",
                   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNb3h6dnQ0bUlXZ2VnTkc2SUZEdzJGbXlHU0FxcDdPN01CeDZDNkU5aDhaY0h1RkJkMEphNTBBWFdfOTNNODNxR1RFRUFCY29obGlLUmhPVnFnOUdvMXZjR2R3NmpGcmdnelZZMGxnZEtFNXYyS2FsV2lUX3hNQWxaWmRFdnFMNGMwN0cyZ1YyeWhCYlRBcDRlN2twNmZkc3RfQk53dkxHdnlpdUZacm5LVGdnQ3k4ckwwWEtqRm5SSdIBzgFBVV95cUxOVjVEQlF5UkQxX1dvTlFJZ0dmUEtNTmg3c2dBbEFVak53R3RoYks5SzRFRHlIanVLRDdnTkFVWDAyQ2VPWGVKcEhaLWJaVkR1SGZCWHZmYW5TOWtOVVdtU2JPNGhlUkFvYWtZVFFOMWVNdVVwbngxSFpnbFRzLUZuMHh0RmhOa3NFT1hTMy1tMFJnc09uZVBLMXRja2xBTTJzQmdnQ0R4UHExOHhHN2FWa2h0eGJpS1RHQTFzaHpNMWliM2dEZW4wRlZKUWVxUQ?oc=5"
+                },
+                {
+                  "data": "2023-12-28T08:00:00.000Z",
+                  "titulo": "O Dia D do aquário que nunca houve",
+                  "fonte": "O POVO",
+                  "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNaFpMRzR1cW9IeEY4cmVfSWl2ZjRvTklXdHVSdmNJSEZTN2tnNlVnSnBQUUN0THlCS0pHUzI2dnpqYzdEUmZjNFJ5TVlsYWd2OEU1T3l5a0dPWkhKcG12bEUxVUJLSU52RWo0MW5BYjFUX2JtSFhZNHc0aXhJMlRleV9qNEdjZWRFdWVvT1lqMnlQWENtVjI4dTlvWHo0czROMkdV?oc=5"
                 },
                 {
                   "data": "2023-05-27T07:00:00.000Z",
@@ -9625,6 +9660,18 @@ export const mandateTree = {
           ],
           "noticiasGerais": [
             {
+              "data": "2026-10-16T13:36:16.000Z",
+              "titulo": "TCE aprova contas de 2025 do governador Elmano de Freitas",
+              "fonte": "direitoce",
+              "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxONzZkS2dyalBWUHhFODRpQVA2eGNraDF5bnMwV2ZHN0FlN1dWRTJEWXFLTkZRbWYyYVFRaVkyeUM2SW5xZGFaWUtTVHlBQ1kzR3BJM3h6V1BPS1pVZEpXQV9Obkw0QmJCNE5pVHQwZmpjaWFxc0JYMzFvTTk5aC0xcWhUa09tbnFQZkw4?oc=5"
+            },
+            {
+              "data": "2026-10-16T07:00:00.000Z",
+              "titulo": "'Esquerda precisa renovar quadros', diz Elmano de Freitas, reeleito no Ceará",
+              "fonte": "Folha de S.Paulo",
+              "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQWFZtRzFpTmJwMFBGdUhxd2tpZHBZQW51d2lfSUFJLUJrejBTX0FFSEo4aFhHRDZfYjJ3N3lkcG9ZMXRBeWdpTEI2a2NyNmdyQlZLdUsxNmt6ZWQtYU1Uc212YllRT01LM0N5ZUdHc2Y0dkMxRk5mcnY2SFptaTZBVllLV3I2eGJhUHZ5ODB2a3paalByaDA5SW1lb0tEUGZvMmoxNnJtLXpPVkZHekVoSzlmbmVDTXQ2SnpqQlRCMA?oc=5"
+            },
+            {
               "data": "2026-10-15T20:08:09.000Z",
               "titulo": "CLT superou Bolsa Família pela 1ª vez no Ceará, diz Elmano de Freitas à CNN",
               "fonte": "CNN Brasil",
@@ -9641,6 +9688,12 @@ export const mandateTree = {
               "titulo": "Comitê estadual de monitoramento hídrico se reúne com o governador Elmano de Freitas",
               "fonte": "Governo do Estado do Ceará",
               "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxORzFZSF82VFBKekcwMnFGZ2I5dGZwdzQ4UUpSZG4yZ3d1X2c0d0FkQ3YyWjgzcmdRZGxKR2EydHdoQTEydGVSUTZhenVYQ0NaUWtCVlFqeWxtSEptUHdzQmgxbDM1ZjZKQ1dYUHZZWWc5enpJN2kzSDZGeVBjNlhLSmlyTTVWemJzZ21OTUlQQ1F4SFVVMWs5dDYyZnFZYWFDbnRZaHo3OGVSbUxOZFh4UWJGWHNRbTlRMmc?oc=5"
+            },
+            {
+              "data": "2026-10-15T13:14:58.000Z",
+              "titulo": "Ciro Gomes aciona TRE-CE contra chapa de Elmano de Freitas",
+              "fonte": "CNN Brasil",
+              "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQzB2OW4xNlR5VkNYQWhGcUZfb1QxWHFBUGxnV0tpQTdZdUdVdHBqQjJMQmxOVXNEcnBBVG54VHZXUzF3TkRtRXBEaVh5YlY1OFpDRFZVdmhRUmR5YTBwTER4N3BicFVNQmI3dmtYaXk4TzJRNmlHOURhRVcwZFVjcC1mZm4zYjEwOUtuTEJReUYwa3BoY0VhaDBuWHVudw?oc=5"
             },
             {
               "data": "2026-10-15T12:47:39.000Z",
@@ -9679,12 +9732,6 @@ export const mandateTree = {
               "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOc2JfbVlQR0ZNeWVtZWZLNHRwNlBXa1FPV1JXb0ZDZmZ3TV9FUG1pckpFZUp3YnA2UjQ4b1M4dldhMVM2Q09QbndhWV96N1BmemtCMEZabzJHOC1ZcEtjbVM1b3c4N2djRWJHQ0dFN19Wb3hwaTFxWDJVdjVLZkhWNm5xMHhpNW93QVlmYnY2QS1aRDRnbmVTdFFmdHdJTThNd2JWUHVra3IybWNVVzF1SE1EcFhScXJqTl9WSm9TNVhPV3dYX2VwYWw3ZEVGZ9IB3AFBVV95cUxQYkFYdVV1YlpjMnZsd083amNtREJRbzBFeG0zY0xRZWZlSkZyV2dKeG9NTHg0NlhrdnF5cFVSYTNvZ3NCVlBaa1g0d2lYd0RyLVQ4QU10di16X1haODJXMEhhZVRlLV90VUV2ZjdIaUIwNnhUSEpueElYelJqbmRHSGllMFdjMzh3UmZ6Tld5R3RwcXpHZlFmaXZqeHUwN1kyOXdHSGluVll2NUVlTTdPc0RGYVptSmpfRDRmbHRZWExOTElPdUplOVM3UFBnLUZPZnBocmVPSXRxRklf?oc=5"
             },
             {
-              "data": "2026-10-14T16:18:01.000Z",
-              "titulo": "Ciro Gomes aciona TRE-CE contra chapa de Elmano de Freitas",
-              "fonte": "CNN Brasil",
-              "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQzB2OW4xNlR5VkNYQWhGcUZfb1QxWHFBUGxnV0tpQTdZdUdVdHBqQjJMQmxOVXNEcnBBVG54VHZXUzF3TkRtRXBEaVh5YlY1OFpDRFZVdmhRUmR5YTBwTER4N3BicFVNQmI3dmtYaXk4TzJRNmlHOURhRVcwZFVjcC1mZm4zYjEwOUtuTEJReUYwa3BoY0VhaDBuWHVudw?oc=5"
-            },
-            {
               "data": "2026-10-14T15:49:09.000Z",
               "titulo": "Dono da Grendene doa R$ 3 milhões a Elmano depois de reeleição",
               "fonte": "Revista Oeste",
@@ -9701,12 +9748,6 @@ export const mandateTree = {
               "titulo": "Mais de 81 mil eleitores do Ceará apertaram ‘22’ na urna para governador e anularam voto",
               "fonte": "Diário do Nordeste",
               "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPWjl6em1BaUJLUzRBZ3F5V3U5dHVQNm0zZnFCQmFLbjNOS01oZHY2X29Qc3dwQVZCNXlXSjNYRm45Y2g3ZmFDVElwaUIzS3Qydmx2OW93Q2tXU0kwSm5QLW8tX21qM1prelJidmVYNDE5YmhfajJYZVVrdnk2cG5HcURmYXhmX01rMWpVZ3piY3Y0UTNKcTFYWHFwYm9WVUx2cDdFM25hM012ajRtcGRLYU1DTmVHVU9rYW5JMnpuM2s0N0NCMmRuUFhHWHAzUnhPVEJpbjc3a2ZfbmZxdmRqRnpTYTdtZw?oc=5"
-            },
-            {
-              "data": "2026-10-05T07:00:00.000Z",
-              "titulo": "Elmano de Freitas, do PT, é reeleito governador do Ceará",
-              "fonte": "Agência Brasil",
-              "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPbFlNOU9nc1dKb0ppc0FzWmMzR29mZVliRlBTTjIyeDBqOG03cHVaeXBrTnVSTUZqX0xUNG9RMk5xVGVUVWRQQzFtOUdXc1QzVGp5TV96dEhyVkFPb0JiMkVVdjFBTzZ2Q2lENVlRUnA0Sl9QN1Q0T1p0UGo5NzJ2ZXJRVTV6MEpaYWltY3dLdG1wdFM2endraktiMzU4VTNJNlMyOFFmSWQxWW5sMUJUZkczQ1dGYzhCUVBJdnRnYzN6NUZI?oc=5"
             },
             {
               "data": "2026-10-04T07:00:00.000Z",
@@ -9734,21 +9775,21 @@ export const mandateTree = {
             },
             {
               "data": "2026-10-04T07:00:00.000Z",
-              "titulo": "Elmano de Freitas (PT) é reeleito governador do Ceará",
-              "fonte": "G1",
-              "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNUXY4UEZneXhKN1V4UWhfeldGUktwQXU0MWxvRzJKZTA0eTFHWEVib3ZqMmRfaklHMGNCTWpZeGlLSFdQTkQ4Mm1XZFVxMWpubWphZ1VFd2wyb3JyYTlHdHhHVUJGNTRzYV9JREhVcGhXVF9GUVltMGg0U2xjRmpUSnVrajM4TmVQVTNmWFJGTVFoYVY1VklneHlaZjZEb29oWFB6T2J0aDRvNGJLWWtwS0tMTEhQN1MyWVpqaNIBywFBVV95cUxQdDVDNXRWeGl6dTZZcTUwOGo2SEZmUFR3bnR2d0RXcW0zM1B1WTdodTQzc3ZFbmxfb0hSVE1sUzJWRUYyam92YnhoYmJMclhtVHo1T1lRZGZpMmNDeFl3ejMzTUhfdEtNV1REb19yLTBBcm0yVTI1M3J1N1ZFMnNEd2Q2Y3RUM1RHdVVWTXNVbmRWUEQ2Nl96eUcydjA5a0VXUDgxRHYwQUc3YTZOejVQakhwcU9iM1UzMTlMYVhKQXZ4dFVsVmFzNDNKYw?oc=5"
-            },
-            {
-              "data": "2026-10-04T07:00:00.000Z",
-              "titulo": "Qual é o número de Elmano de Freitas, candidato a governador do Ceará em 2026?",
-              "fonte": "Valor Econômico",
-              "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNZmFxQXZ3RGdicFBZTnN4djhGeUM1ajNOdlh1cFo5a3dFdnF2ZVdIWGVlU2lXM3FtOFVhVWJSYUxLZ3V1WEtELUpiNUFEdDViTUNsd3UwMzRfaG93NEFhcjZZME9EczF4OGE3UkM4NlFKRlRVVkJmYzJtX2Y4WlhfUjRRS01YSU1qUnpYNlctU0habE9pZXRXZjdrQV9yVUlIYWJFcnNrcFlGd0pWNUNCYXE1Q3JVTlBBS29sTF9iTzJjVmZLOGF5S1hxUzBqdDdRckxBV3Bwd1FNUzI3cndJY3FB0gHwAUFVX3lxTE80UHdXbnpyeHZtdE4zMU1DX1d4OFRVcmxtaEFVczJpWG5hdHFPN2FzaFpNX0lLVVZGRGxWVGlQeXYwaTBPTGJxUkpxUXlnTkNTUmJtNGNTbFhxLWxyVzdTbEtNbThqZ21NcmF1RTJ1WnpqSUFuakFlTk1UNGdVcWNJbWp1UW5tcjNnbGUxLWNuWVB5aGlKZTl5RUJpTjk5WEtHeS0zdzFHbmZYd1g2Sm9uR1NiVVRUSndhc1dHNlZDUE83amJYVUZwWFdqbGpDdXFsTzZDSVhTMVI1c29rYU9QR1VTZ204bmdGa3prbEF3Uw?oc=5"
+              "titulo": "Elmano de Freitas vence eleição para governador do Ceará",
+              "fonte": "Congresso em Foco",
+              "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOd2NpdGhfUnpNaDgyT19RLU5MSkhzTzdFSFZEVTNrMUZMV3hVenRQRlptUVljNDFjSWtIQXFjeElXUHJfeXlSMmRDS05Fa0xqeTlYVFZYVG45WkN5aDBRdjg0akJOOHlzNGplakNkZklLVDl0Q3hqekVyODRYREFLNXdHMnY4WlJ0UGJWLUIyQ0paTWY3Y3o3Nm55c21wTHBRWjA0dGRSVG80QQ?oc=5"
             },
             {
               "data": "2026-10-04T07:00:00.000Z",
               "titulo": "Relembre a trajetória política de Elmano de Freitas, reeleito governador do Ceará",
               "fonte": "Diário do Nordeste",
               "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNeGlvakVFSzNGdFkycFV0Y2h5bHRkWHpmUHZFeXVyMDFhUm1YM2U2bVhBM21nb2hFMmt4dDUxelR4eUdRU3lkUEw1b3U4ZHlkWWhuTEFESHpQSzJ6SVBCQWY4LVIySVVtWTVUVEJSNGJlSmFmUjZHbWlIMW1BRUFmX2YwUjZ1WENmcGo5Wl9zaEtVVHhfaXZaaFpXV0trVE9YSkFtVmxOR2lLZ0JwRHhfSlB0N0NTbmxteVdnREd3REpyZVlkcExkbGhBUXdZY3VrS2tYWU9haEx2R29Vc0E?oc=5"
+            },
+            {
+              "data": "2026-10-03T07:00:00.000Z",
+              "titulo": "Em último dia de campanha, Elmano reforça propostas para combater crime organizado",
+              "fonte": "G1",
+              "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOWXktWW5wTkNCZnRYMExtLWRDRFVvT1JOb2pScE5kbDhVYjlDbWJ5YUFYdTZJNGI5MEhmR3RjUl9jcGd6T3FlSkIwMHR1Y3BlZ2UyY25EeGtBd2swZlIyTjJPNmRFenJCZWV5WmF4clotbTQyUzdnbGFTNGNldmhBX0tyODJBTzExR1NBNGhsU2tUdk5IYXBWbXhYTTVBd0VlRFNMRkxoMmI3SC1BSzdGQy1SSzZMdjM1dGxLVXJWSEdoVW5mQjFpM1ZLU21sczBiZk1kb2IzWDRqZ0lteUlHY0hGYlnSAfMBQVVfeXFMTkRDdzZRclphWUkwbjhRV1NpYzJ4SEFVUWkxWldtcTdZd21JU251ZndMR2lDSk9RekhxNUNCTVVoX3N1N0pJZW4tYUpQLWRGa2U2TllhVkdyaDFXQWZXTTRuaE8yQloydHpHVi1kWERjLWtaTGc0WDA5Wm9jajhvR01LZklHWklReWFmbTBtMW05TS1fMWc4VmRSRHRWbWJGUlY5c0tuUE5FbDRfWFE3NHcwcHc5X01RMEpQTFVkZjlXZEQwSW05bGZPVWFKaVRtcDhDTnZVc2pvZkVNMGluNzZvV25jTWpvRldtUG9VUlBVNUw0?oc=5"
             },
             {
               "data": "2026-09-23T07:00:00.000Z",
@@ -9779,12 +9820,6 @@ export const mandateTree = {
               "titulo": "Elmano reúne secretários e projeta metas para 2026",
               "fonte": "Diário do Nordeste",
               "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQWnVMamk0ZTNNeFpDUmZmbWhBcXZ4NVFDRzAxV3hybTlWWlg1ZE5zLUx4bWtLblI4YmFod2VaWDRwOEU5Y2VwX0l0UjI3c1lCdmJLMTZoMlVOMmxZMEN1clVzMVlIVVBZTlN3aFQyNHpNODJMVE11MFdfWXMtS2JNRW84NzVoMnZTVWdjNjN4NXJaSDVkX1RiXzVTVkhQLThMdUtsV3ZnNzVTTEU1NmFpXzB0STJaQQ?oc=5"
-            },
-            {
-              "data": "2025-10-01T07:00:00.000Z",
-              "titulo": "Polícia Militar do Ceará ganha 60 novos oficiais após promoção comandada pelo governador Elmano",
-              "fonte": "Portal Ceará",
-              "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVFRLNk5zbUJDLUZjVVY3SWg3SGpDY1MxLWlLNVhXb0VESEViaWEySHczUTljWldaX0RRemsyMVpoUk0zdjFsSFplampjRFRLQnJ0YkZPa1YtUW9JVFNNRmNfYmFDZWVTQnRZY0xsZUVqdlRyWlBSTlhqckFmNmxYd2hTLWhQZXRma0xnbXhyLVQyTW1hWEVLM1VERGZfUzR2aWROcU1KYURwS1B5STRvZjZrTXdIRjc4Y1VQMTlEYXo?oc=5"
             },
             {
               "data": "2024-08-26T07:00:00.000Z",
@@ -9965,12 +10000,6 @@ export const mandateTree = {
               "descricao": "O estado ampliou o efetivo da segurança pública com a incorporação de mais de 1.400 novos agentes que eram pertencentes do cadastro de reserva do concurso da Polícia Militar de 2017, que contava com cerca de 1.600 candidatos aprovados remanescentes no início da gestão, em 2023. As convocações ocorreram em etapas ao longo de 2023, 2024 e 2025, com a formação de turmas de soldados e oficiais de saúde da PMMA. A promessa consta no plano de governo.",
               "atualizacoes": [
                 {
-                  "data": "2026-06-11T07:00:00.000Z",
-                  "titulo": "Governo do Maranhão envia à Assembleia Legislativa Medida Provisória que amplia idade máxima para ingresso de praças na Polícia Militar e Corpo de Bombeiros",
-                  "fonte": "Corpo de Bombeiros Militar do Maranhão",
-                  "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxNUzFpakY5QWY1WHI5dW9lUzNFQVRIOXBYZHJNeXdETm9vMDliYzc1R1RDSnYtRzhoRlBEcTZrMU9zNkhXc3oxZkFFQVJyTlgxbjNfOTJ2Q3JjRS1ZVm4yWEVXUGN6Y1p2YjJKeHlQQ3Y4Q01pMDdmYU9hVHdGNTBtbkZfeDhzLUlua08yS0xVLWltc3ZfYVdhdWhXYnB2QTU4UV9XTk13a0lmUW1TeWhidHg0UVhWT2QwZU5LYzJZRk1GRkppMm1GSG53c1Bqd2hheXpIdDRzLXp6UzJ6SzEzQzdKRXd2b2gydmVYQTZ0dkVib2FMUmM1Si1RMEtNRk5HRDNEZVpYMV9kaE5IOEpjTVlrRTBrNnM4Nzg5QnZOVQ?oc=5"
-                },
-                {
                   "data": "2026-05-25T07:00:00.000Z",
                   "titulo": "POLÍCIA CIVIL PARTICIPA DE SOLENIDADE DE PROMOÇÃO DE INTEGRANTES DA POLÍCIA MILITAR E DO CORPO DE BOMBEIROS DO MARANHÃO – Polícia Civil do Maranhão",
                   "fonte": "Corpo de Bombeiros Militar do Maranhão",
@@ -10036,6 +10065,12 @@ export const mandateTree = {
               "status": "cumpriu",
               "descricao": "O governo ampliou a atuação da Patrulha Maria da Penha, grupamento especializado da Polícia Militar do Maranhão (PMMA), com a implantação de novas unidades e bases fixas em diferentes regiões do estado. Entre as cidades que receberam estruturas com atuação da patrulha estão Codó, Coroatá e São Mateus do Maranhão, ampliando o monitoramento de medidas protetivas e o atendimento a mulheres vítimas de violência em municípios do interior. A promessa consta no plano de governo.",
               "atualizacoes": [
+                {
+                  "data": "2023-04-28T07:00:00.000Z",
+                  "titulo": "Patrulha Maria da Penha já atendeu quase 50 mil mulheres no Maranhão – SSP/MA",
+                  "fonte": "Secretaria de Segurança Pública do Maranhão (SSP-MA)",
+                  "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPMDRVOHNaR2haeGdCbEpPc1FsanhGR1R6ckN5Uk9UUFVUcThOZE05MzNnLXY4bmpibnAyb1BzelVNbl9vOWxrRzVZQ2g2cll2S0dGRDZHVmlGV3ZiVjY0cjdpN1BRZE5lM0E1UTVWVFdVUkhWdlVvc2hXSnRueTM1cFZ4dnRLUUFPWTM4MEVENEh0eDQ3TXRFaUFhTQ?oc=5"
+                },
                 {
                   "data": "2026-06-06T07:00:00.000Z",
                   "titulo": "Governo do Maranhão lança Operação Mulher Segura 2026 e entrega 22 novas viaturas policiais",
@@ -10304,12 +10339,6 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQUnotR2F0X1lBeGtFYjVhVHB2dWxXMVZ5NUVRM1dQdU9vWEotQlI5WFd3UGpFWFowVFJHUk9ORE5JUEdQWUNhOEFOVjlxSFBON3V1Rlh6T0NfYl9LOFp2dTA0cE9IRDIwT0QwNGlOQU16ck5YNEgxbWRjek92WFQ5MjFvdFpkUTYyeHowb29FVUcyX3I2U01qNWlXZ21aS0ppV0t6dVBiWXJoOUpzNUNIX1dxcE1LNEplS2dDMlVZc3l5TEJvNXB6eUxMWENFT3hfbDRIQXFYWDFkS2FpbzRIYmViNFpvUktzUUItc2s4dHJrWmtwaWRWMjM2NC1EeUU?oc=5"
                 },
                 {
-                  "data": "2026-08-22T07:00:00.000Z",
-                  "titulo": "Alto Parnaíba ganha Restaurante Popular com refeições a partir de R$ 0,50",
-                  "fonte": "Diário Sul Maranhense",
-                  "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNTXVZdFNBZ1h1dTd2ZzRhbkl2Smw4X2VzUWRyYnlqc1ZZT2xGemlmRzNFV3V3VDVnUVlWdERnZHZfOEJwaE5yVS04QXRJQ2NmRFB4Q1BtYkNpb1k1UGFjNjBxMzQtNlBENWdYLXZxblg5ZnFjUkRXcWt6MHVCZzJOWkd2Q3h3TWZwdUJYeHltM2l4R0RWNWpPSVFrRU5ENDRnUEtDQ1EyWkxCMjczTFZUVkFTUGRXRS14RXc?oc=5"
-                },
-                {
                   "data": "2022-05-12T07:00:00.000Z",
                   "titulo": "Carlos Brandão amplia rede de Restaurantes Populares no MA",
                   "fonte": "Zeca Soares",
@@ -10320,6 +10349,12 @@ export const mandateTree = {
                   "titulo": "Brandão e Casé inauguram o 183º Restaurante Popular em Buritirana",
                   "fonte": "Blog do Domingos Costa",
                   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPUTdvZ0lGVTZ2MGVnZmJJRXlqOTRrdXZsX2dPalY3OHNZeVhZb2hqWWY0MmxtZmVfZUZHVHpSYXdxZlJpN1FldmVCVmwwN0pNc09vc3Y1YVNvTlUyUUI4Y2VsUGE0cmdTUGVkRWNKV1JEYnRvckFfYk9VX1RCYVhTVkQ0a3F6bGtrQk56cUNDTGZEbnNiYTNMLTQ0Zw?oc=5"
+                },
+                {
+                  "data": "2026-08-22T07:00:00.000Z",
+                  "titulo": "Alto Parnaíba ganha Restaurante Popular com refeições a partir de R$ 0,50",
+                  "fonte": "Diário Sul Maranhense",
+                  "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNTXVZdFNBZ1h1dTd2ZzRhbkl2Smw4X2VzUWRyYnlqc1ZZT2xGemlmRzNFV3V3VDVnUVlWdERnZHZfOEJwaE5yVS04QXRJQ2NmRFB4Q1BtYkNpb1k1UGFjNjBxMzQtNlBENWdYLXZxblg5ZnFjUkRXcWt6MHVCZzJOWkd2Q3h3TWZwdUJYeHltM2l4R0RWNWpPSVFrRU5ENDRnUEtDQ1EyWkxCMjczTFZUVkFTUGRXRS14RXc?oc=5"
                 }
               ]
             },
@@ -10347,6 +10382,12 @@ export const mandateTree = {
                   "titulo": "São Raimundo das Mangabeiras recebe ponte, unidade do Viva/Procon e Estação Tech",
                   "fonte": "Diário Sul Maranhense",
                   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxORDBqSWF5LTlZdGY0OWFHVi05NVl1WGVXRGViZ216YUsySGFIOFVka1BiREJpc2lncVRGaUdHaFozWEw2Mkt4d1kxdjZhR1lHYVZ4SVp5c2NQZGVLZUpQNHdST042dFV3UU5LRGVoZ2J1XzF6S1RYNTlCYXdHaDlUZWxBVTI1Nk1WRGhUZG9yVk84RGFSeUg5OHNWTWpYTWlzNFR4VmFnYWlDMUU3T21mUS05TDBJcVNzemdqYjV6SC1wZFJq?oc=5"
+                },
+                {
+                  "data": "2025-10-09T07:00:00.000Z",
+                  "titulo": "Brandão inaugura obras Restaurante Popular, Estação Tech e Viva/Procon em São Francisco do Brejão",
+                  "fonte": "carlosbrandao.com.br",
+                  "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNVVVPd0dCVWtTYkFuQUoxZktWbEwwLUNtRzRlN1R6TFhzdkxwdDBnUTdZSUQ5dndEbnZaaDNrdmcwU01EVTB1TElBWTBHV01ROGRzbGw0NlNkSXJVZkhuTlIzSUg3dXV0RGNrSmhOY2FJNFZlWDhpazhvUVBjamhnT2RKMjM0Wm1qYW9QRTBxNjB4SklfN2VFMWo3LUJ0aFN1TmdPeWJISDlUcUlkbEFmanJPem9pU3lab0NoMHBQMEtpcGRW?oc=5"
                 }
               ]
             },
@@ -10450,12 +10491,6 @@ export const mandateTree = {
                   "titulo": "Maranhão avança nas tratativas para a implantação de refinaria de petróleo na ZPE de Bacabeira com capacidade para gerar 2,3 mil empregos",
                   "fonte": "carlosbrandao.com.br",
                   "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxONlBncmVqajYxWjdQRzFkcEJsRUE3SUdyQ2wzcnhBcHJvblBFejNyNlEtdXNXOUlsR0JEanVKUjJPYV9KUUVwNDBJZjJzTzVzNm1sVEZqY0JGdmxRNGxvTUlBZVc0SUQ3bXVGVTBxU1RLZDNoc29hdG9TZHFwbEVMMnNac1I1R1JNZkFxeDRnME5IeGZnZDJZU1FjRUZEVkV4Vk1Sa2t0S05nVzZhc2p2OTA0MFNDSUY2OEtBRGcwT0JsTnZIMjBqZkk4bktIUWVVNTVZVmI0OFhSMDZRb3N6U2xXemg0blc4Q25TV21GX0o5a2g0MFBZZHl3?oc=5"
-                },
-                {
-                  "data": "2023-10-25T07:00:00.000Z",
-                  "titulo": "À BEIRA DE BACABEIRA – Da Margusa, passando pela Kao I e Refinaria Premium, até a Zona de Processamento de Exportação",
-                  "fonte": "Blog do Walkir Marinho",
-                  "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOXzZKOVdDWV84eUpqWWV1WWZGajJyNWNIMlpqdjdRVTZhcWNMLWJfQTFsNzh1Z0NWaEdNTHB6ZTdUV2VocmVINjdYVTd4dWktSnAzQ3FRVXJMdFN2UEMtUUVzRHMtUzhwa1kySGRfWnJzUDcyQUc3NDdqXy1taFJnNEpwZGZBeW9aQ3VsNzBzTUY1aW82WTZwQ0JvWU5aX0Z1ZEhqdURuZjlyaDFmdzRKendmSnZGXzRCWXJScnZyRDJ5R0tjY2NibERSWWROdGJ6SlVvSUhYQnNEYlkzOXVJT0F1T2k?oc=5"
                 }
               ]
             },
@@ -10705,22 +10740,34 @@ export const mandateTree = {
           ],
           "noticiasGerais": [
             {
-              "data": "2026-10-14T21:22:14.000Z",
-              "titulo": "Brandão segue governador do Maranhão até 5 de janeiro; Braide assume no dia 6",
-              "fonte": "iMaranhense",
-              "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNZ3BfVDNaYnpJcUVic2QzZzR1ZTU2MkVHWDlab2NYRjlYYTNwbVUyR2NyTmNUNWdMenRPYUpvQWF4UU1lVFkyYlVqYWtaNmVlWkNscFZqX0RTNjVHUGlzMXFmNFNIM2xrQjZDZU43dU5oQ3Q4UjhDVkxMQ3pKRmFoQTUtSW9yZ2Z4N3N0VVVtQ0ZsR0JISDBQVDg2VGZ3bkRMWG5JRzdHTVRzZzlidy13SVZodTI?oc=5"
+              "data": "2026-10-16T17:37:00.000Z",
+              "titulo": "Governo Brandão tem até 30 de outubro para entregar documentos à equipe de transição de Eduardo Braide",
+              "fonte": "Jornal Imperatriz",
+              "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOYjA4V0Nid0tRZzliRFhURlV5RWREdmtsUGsyckx3TGI0NFVQSFJjWE9DbU1IaUl6bG1oT1lkb3ZIS1htd2RaNzZaYjZWSTVRMXpRMVhaVmVLMzlhZWc5ZFF3dXJibWlDd2x3Mmd0c0RRN3RGbkVWdGJULXlybVdQeDdmRUdDUUt1Y1JRc0FzM0VMTnk1R1U3Mnp4QmxUNEhBNHR3Q21kc0tYRnZLN1ZlUmRzVEZLUkJjYk40ODlJVXhXaUV4b2JmaXdfY2VXYWVxb3ZPZlhuRml3RGppTzJn?oc=5"
             },
             {
-              "data": "2026-10-08T20:00:42.000Z",
-              "titulo": "Prefeitos pressionam governador do Maranhão por apoio a Flávio Bolsonaro no 2º turno",
-              "fonte": "O GLOBO",
-              "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPdE9pczc4RVVlQ2duYW56UWMyV0ZXOWlDWXFPU01mZ1BhdzlwTEtFU0REUnA1b3YxYUJOay1idS1lSWRRYmNwUlV4cnN6SE9PaXQ5d3hyWnAtSERKU2M0QjVpOUJuYWpGekU0S01lSzUtVWZwaVRNcjFnMkRYWmpESDhFaTllVmhIZDl5ZUZiengzQmlsbzFvcnE3TWhNN1pMZDhIeGRLNFI2TlpjYzBCQzBNUC1WYzViazl4NmQteFJHR2xtQUlGOGlWVHFhTGJ1TGpQbzAzbmpKUEdBY2xDVNIB7wFBVV95cUxNZjc2ZnI2cVdvX3Q0MlRLVVg2SmdmUGFUQlR1cXVSaVdqLW1oOVVnc1YxMzMweFNNczJ3Nm42UFRFeUFld2NxVFV0SVFOVXVCOTZJYUhwN2hjSllqcEc2c2NkYVktbHd1Z0RWVURkLTBEaWxUX1lhcmZ2eE9SVlozTlVnRGdud29ZMEg2a180ZTdHREEyVTJFQVQxeGdHTE1NS2tGd1BGcWQzNEZhNjlKTGM0ZlN6a1FOa1k2c2Q1Z1lRNU51SVZKOGJBZzJLbkJOOWJ6VjN6SlB5ZlZpT0N4cFpUT1c2bGdrMmVJTG9fNA?oc=5"
+              "data": "2026-10-16T13:18:59.000Z",
+              "titulo": "Governo Brandão tem até 30 de outubro para entregar documentos à equipe de Braide",
+              "fonte": "Imirante.com",
+              "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQUVJMXVCX2hkckg3UjBYY0hfNkpEZTZkUGpDUFZhRU1jREhhSGlocWRaWnBWNk1SQkdEdHo2SlNsOEhNOGZoYlFUMkJJVXljR1RCQTE1LS1BQWZzWi1wSExZcGNrc3E4bzBCNy1zMHRHNWRWanlvU1Vzdk8xTVpvZjh4TzAzRjg4alR3MVk1M2FJamNMbXU2OXlqczVvN0Q2NGZNZjRiV1BZM0RfRlRF0gGvAUFVX3lxTE9BRUkxdUJfaGRySDdSMFhjSF82SkRlNmRQakNQVmFFTWNESGFIaWhxZFpacFY2TVJCR0R0ejZKU2w4SE04ZmhiUVQyQklVeWNHVEJBMTUtLUFBZnNaLXBITFlwY2tzcThvMEI3LXMwdEc1ZFZqeW9TVXN2TzFNWm9mOHhPMDNGODhqVHcxWTUzYUlqY0xtdTY5eWpzNW83RDY0Zk1mNGJXUFkzRF9GVEU?oc=5"
             },
             {
-              "data": "2026-10-08T18:40:00.000Z",
+              "data": "2026-10-11T00:13:15.000Z",
+              "titulo": "Maranhão cada vez mais seguro",
+              "fonte": "carlosbrandao.com.br",
+              "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5STUUzUUxZVWk1Si1ZemtzUm1PX2NaU3BnLUZYeUtHTGF5QUF3SHBEeVRCNS1xNE56WGRQNk1PUkJnaDV4R1lHOXYtU2pQSVhDbFFlai04WWQ4Y1hRSGNITlpuZF9sTU14aFJr?oc=5"
+            },
+            {
+              "data": "2026-10-08T07:00:00.000Z",
               "titulo": "Alianças no Maranhão e o impasse de Carlos Brandão no segundo turno presidencial",
               "fonte": "O Imparcial",
               "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQNzh3ejV0THIyVTV1UWdWSVEtbHFPTThnVWtWQ2lmdlRXVGdRMkhZcGpJN0h4Snp3NEhfa0RkYndSYUpUSnRWLWtmTkh5N0xVWGMyN3dSRzBLN08yemt6Z1J4Z1cwU25HSU1aYVFBUnNwODhIMVdaZlA0LTBFTkU2T2N0eWpyczdOeWdYOHZlbEQyb1ZfRkx2SldQMDNGRFB4eHV5UHRCX1J1dXlpUkltTklHeElaaVdqV2pwYW5WME9KQzVkRDBPU3dtd2ZMUQ?oc=5"
+            },
+            {
+              "data": "2026-10-08T07:00:00.000Z",
+              "titulo": "Prefeitos pressionam governador do Maranhão por apoio a Flávio Bolsonaro no 2º turno",
+              "fonte": "O GLOBO",
+              "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPdE9pczc4RVVlQ2duYW56UWMyV0ZXOWlDWXFPU01mZ1BhdzlwTEtFU0REUnA1b3YxYUJOay1idS1lSWRRYmNwUlV4cnN6SE9PaXQ5d3hyWnAtSERKU2M0QjVpOUJuYWpGekU0S01lSzUtVWZwaVRNcjFnMkRYWmpESDhFaTllVmhIZDl5ZUZiengzQmlsbzFvcnE3TWhNN1pMZDhIeGRLNFI2TlpjYzBCQzBNUC1WYzViazl4NmQteFJHR2xtQUlGOGlWVHFhTGJ1TGpQbzAzbmpKUEdBY2xDVNIB7wFBVV95cUxNZjc2ZnI2cVdvX3Q0MlRLVVg2SmdmUGFUQlR1cXVSaVdqLW1oOVVnc1YxMzMweFNNczJ3Nm42UFRFeUFld2NxVFV0SVFOVXVCOTZJYUhwN2hjSllqcEc2c2NkYVktbHd1Z0RWVURkLTBEaWxUX1lhcmZ2eE9SVlozTlVnRGdud29ZMEg2a180ZTdHREEyVTJFQVQxeGdHTE1NS2tGd1BGcWQzNEZhNjlKTGM0ZlN6a1FOa1k2c2Q1Z1lRNU51SVZKOGJBZzJLbkJOOWJ6VjN6SlB5ZlZpT0N4cFpUT1c2bGdrMmVJTG9fNA?oc=5"
             },
             {
               "data": "2026-10-06T07:00:00.000Z",
@@ -10735,12 +10782,6 @@ export const mandateTree = {
               "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOaFloQmpZb1BTc0RweTRJTEhmZHhJSU9jVWpyVjRMUWF4NDkwUzRnNE0zQzVzMkowbEhUWXl0SXozclZpTEpWeG15UFlnemhBcTlyMWNqX2JmZmRaSmFUUVJ0Nk5CYnVtUlVXV051SS00TEExWEpxcUM4Ukl2NjlCcUZXZTUwV2FwYTJ6YmJMeTJiUTVZZkF0ZlB2dXN1ZE5kcjNnamdpNEFFWDV6b2dHMHlUcktFTWhZcnlOVVFBaGVvUHdwVmswYjlhN01mckpvMVNQcDRCeHRFYUhaYXVwdWl3WHDSAfMBQVVfeXFMTWFWODg3eG9OSXpfNDZXWG1xalc2VDcxUG9RbnhuU0ptNzhhMUphQnlCaGNhTEhUVlhLVm9abkE1TFJLWXJqNFRwYkdKeGd2bW8xZm9vNjJJdWU1VGY4R19BRlROdlI2Qi1mU1pLU0JZOF9DNXViX1VZNTBZTVRuQXQyYTExcG96c0wtdWlBQ084d0k0MnJ4SzZReUdCN3lxT3g5MUVnM1kxZjRlV0R6LUdncXFsaWRjZjI3VEtOZUppRUhPVVJQN2pOMDhTNnVOZE9MVVgzUkhYVXpsclBNcUw3a1lwdDQ1XzN5TDNlWmhXMGtB?oc=5"
             },
             {
-              "data": "2026-10-04T14:47:46.000Z",
-              "titulo": "O candidato ao governo do Maranhão, Orleans Brandão (MDB), votou na manhã deste domingo (4), em Colinas, durante o primeiro turno das Eleições 2026. Orleans chegou ao local de votação por volta das 9h, acompanhado da esposa, Fernanda Heluy, do",
-              "fonte": "Instagram",
-              "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1KV1hBRzNleFdteHFCdi01RlJ4M2wtd1BsOEl5NUxhQWtVRmZjSi1ncWV2UFFaQkdzWVA0ZmJkOWRjVkd2anFSa1pKVkdtWVVoOVE?oc=5"
-            },
-            {
               "data": "2026-10-04T07:00:00.000Z",
               "titulo": "Eduardo Braide é eleito governador do Maranhão",
               "fonte": "Congresso em Foco",
@@ -10748,15 +10789,15 @@ export const mandateTree = {
             },
             {
               "data": "2026-10-04T07:00:00.000Z",
-              "titulo": "Eduardo Braide é eleito governador do Maranhão",
-              "fonte": "JOTA Info",
-              "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOM25uanNoZDBlcnNibzdaNGhIdGRmcVhfTENBSXpFZ1RIRTZ6WVRGNW8welZ6b256U25jZVdMeHNIWnB1OVR1bDhGX2pkMk4wMXJlU2RHREVRY1o4a0RjZnpTN2NnRVdKOG93cXFiVWlIcllwT0h5TjVQQVJtbUp6WVJCYU1rb0d3dTNjNXBqN1ZPX2NtV1BhVWM1WERhTGFwM2xXSzNWc19sbmo1NWlXX2ZmRWJPa1RNYW1MV1JPZmU?oc=5"
+              "titulo": "Pesquisa Atlas: Eduardo Braide tem 48,7% dos votos válidos no Maranhão; Orleans Brandão, 33,7%",
+              "fonte": "Estadão",
+              "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOTjZ2TjF6T1dtUnVYMm5vY0J4aHdwa29PYWowNXY1YlFQSDVES1dKVDk3ZGRiZFE0QzZTWEpic3AyUmNRVlU4aGV3VWVOaXB1RFRWa3FpcEVuM1pwQzVzdVZZSWR0LXJ1NUNSYVB5aDdadHd4V1Rqb2hpMjlLLVpCUVVnb0ZMbmppUlJTT1I1cVJLYm9SUVRZRWtuSVlpU1hjTDUzdF9WM3laN3ZMeVNybFE1WDhNc3BRUkJOdFZGV3FWSkc4MTdIWWdIZjVmZ9IB0wFBVV95cUxNanNBczlySElhUlpqQUxwVnNVSWJ1UXFmU3FxUWZ3eXJuVndoUjhlclQ1TzZfNVhfNEYwUXV5bkczNG5iTGRpZHlqWFFmOGE2enI1czQ5S2ZxcnN5dl9oSlp6N3dKS1JELURJUUJXQldXZTdTQWtaU3c3S01ZRXJWN1JlVHB6Z3ZiLS1WZWlmbXdINXdQUUl0UjUwR2FsYUxGZXN1S3F1azEySWQ2SDhjUjdpLWRRQ3R1V3BPYXM0SEdObHZPeUcwNWpmWHRKVk5jZW5v?oc=5"
             },
             {
               "data": "2026-10-04T07:00:00.000Z",
-              "titulo": "Eduardo Braide (PSD) é eleito governador do Maranhão - 04/10/2026 - Política",
-              "fonte": "Folha de S.Paulo",
-              "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQZHR3cjZ6U21YM3ZwV1hDT180cGVwTjhicG1GNzFwQTE3VWc4dEVjX1NtUUt6VDVLbEtwRjZYN0tTcHJ4ZHppdjFmMFJhNlUta2tFUDA4WWs3NEVUdVVRYlFMblJNUUthbFNpUHhrR1QzLXNrcjNJX2xscU5GY2txZmZWZjhYVHFGaFlhZDBFREtFUWFVMU5qUGFaSkt4QUxBd2ZHUUpXTVJrVXZQazlEM3dCS3lUMW9ab1E?oc=5"
+              "titulo": "Eduardo Braide é eleito governador do Maranhão",
+              "fonte": "JOTA Info",
+              "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOM25uanNoZDBlcnNibzdaNGhIdGRmcVhfTENBSXpFZ1RIRTZ6WVRGNW8welZ6b256U25jZVdMeHNIWnB1OVR1bDhGX2pkMk4wMXJlU2RHREVRY1o4a0RjZnpTN2NnRVdKOG93cXFiVWlIcllwT0h5TjVQQVJtbUp6WVJCYU1rb0d3dTNjNXBqN1ZPX2NtV1BhVWM1WERhTGFwM2xXSzNWc19sbmo1NWlXX2ZmRWJPa1RNYW1MV1JPZmU?oc=5"
             },
             {
               "data": "2026-10-04T07:00:00.000Z",
@@ -10769,18 +10810,6 @@ export const mandateTree = {
               "titulo": "Eduardo Braide é eleito para o governo do Maranhão",
               "fonte": "Valor Econômico",
               "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOUTNsS1JrdXBTVEZ3UXRpWnZERzEzXzdQUkdmb1dja3BsMGplN0pyZUJNb0NNUXdKRXFXcDJzcDRWUlBQV19VMWxLTlBHU1B3NjB4emFPVWxyWk05ZzI0TkVFamlhWFNHOFRMT2xrSUJDbEZJeXAzSW85Q2dpMlFEMXhzRVpfc3laX3QzS1pRckNYcXU4R0tCZzU2U05XU0ZlWTdDZUZwbHl6ZEZSUjVUMGx3Z1NWNmw5bUNWaFVZNNIBzgFBVV95cUxNMzJ2N1Iyai1KLWpUNzktZ2JhVEpJX2NCZTBuVkVJN1dMdVlQckN0Vng2bVh4SE1BNWhpaW5oZWZWUGdMMGdydDNQM0Z0N0lXaUREWlhhdmttXzk1QnQ2c05KUUdnaDMxWjl3NlU3eUFOcng2OTFLZFZHQXItQV9iYjZhOFJlTml5ZWFGbHNNZXA0ZG1MOFMxVTZIdVhGUG1NSVZiN0V2aGVZbnZaZFl4LU5obklockliNjFjSnVGZFFtVXNvWkJqcS1OZXJwZw?oc=5"
-            },
-            {
-              "data": "2026-10-04T07:00:00.000Z",
-              "titulo": "Afilhado político de Flávio Dino, petista Felipe Camarão perde a disputa pelo governo do Maranhão",
-              "fonte": "O GLOBO",
-              "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQbEZUXzAzbm84LUNtX2xzbkl5eGd0ZkFXWjJDS3UzSjU1YlE4dXAya0x4R3RtUVBKWmtuQjJXVzZPOUgwUmlza2x6RlZ5STlRMDNjUnEzYWlHR2pxNEtTU3E0WnRkS0lnclZVNU5rSWFJTW5CY1czOGViOTFxSEV6aXJNUmsxbC04NFVSWVViREI0a3dBQ3hoMG5pb3VHSkFkUENRODI3UDZmMENRY0dpbER4Z3FwWWtKT3RUNnNqWUNqU1dxQXhtYmNuVU5rUlNSRHBjOEtpYkR2eUxfc3pnWjIyZ1lTYkFkNm9adnh5QjF4cUhjaDFGY0RtZG03d9IBjAJBVV95cUxQQmRpLTc5V2xpTlpXaW5tbHhBZFZLcUYzUGtBVlRJYVp3Rnd0T1U0NU1SMDJSRnZqUEg4eDJsNnlBWXF1ak05clVWWTNxLWpaTHcyUjE3aXNiRm82NnBZWi01M0RlbjNxcG0yekxyVFZDdXJVaU9nLUNybWNKU3RDVS1iVkZUNk9aVGJfMnBUUTJGaWFfMG83a1BhMXM5WlJqYnhqUHQwNGpiTGRjS2xpTTkwM0xxdDZRVUExZks0ZXc4NDFyVkVFWkhNU0hIYlFVcnFQU3VvdG1PeEY2V0tBR3RrY0NVV2laT09Oc2NWanNXd3pTbjh0SldXeUtzckhBdEI1TW92ZWRIOEVD?oc=5"
-            },
-            {
-              "data": "2026-09-30T07:00:00.000Z",
-              "titulo": "Debate com candidatos ao governo do MA tem acusações, questionamentos políticos, menções a investigações e propostas para o estado",
-              "fonte": "G1",
-              "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTkpLYWRoSUtSRmNZMFlFbEZEMUY5T3o0UkJUTjJJdU1vc1VJVzZEOGxBVmo3VWl3Qm5pNEQzUWp5MnU1REt6SjJpd0JWS05rODV2b1lxMmNkcWlUdkRjZzNVeXZNU2ZEVFBrSzlXdE91MlI5UnhwVXpvQXN0YWpiS2ZFUHZFODl4bnNsSXljUThsTVdlTFBZMHpMSVM2anV1Z2gxVUM4cVp2MnU2S3c3M21qeGczLVRD0gHHAUFVX3lxTE5NSERkWWhMMk1jOUtiMThvbXkyaWRIcFdER0xyakNwTVpMN3hxaGdmbzdwMS1YSmRwWk80OU8xRG9neXN2NFpuZ0F0NlRUR0x1MFBMN3dxWU5PSjJ6WC1KNGlUVGxVT0xmd0tUYTRCcWxkdUpIcGUyTmxUSXNSc2lma1BMLUdIVTVVTV9hNFlxd3gyc05yUUpPVFFSS3ZsLWRYU1p5Mm0tQXQ3VGZ0XzJEWmVQUzF6N050ZF82c0JQZmQ1eDZ4TGc?oc=5"
             },
             {
               "data": "2026-09-29T07:00:00.000Z",
@@ -10895,6 +10924,12 @@ export const mandateTree = {
               "titulo": "Governador Carlos Brandão realiza maratona de entregas em Bacabeira e Matões do Norte",
               "fonte": "carlosbrandao.com.br",
               "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxObFppT1lGWmZfVjdjb3FXd1NyU2k0dFhrOEhlcGZkTTVwUmFubVJYNWx5bTFoNmNhVkh0RUM0ckl4Rmh0dTk0WVlQLUtVUE0yS19LYmpBNWRucEdYcmsyLUhlUWFLZ2FqNDBlTmZqWFNwSk1IU3htNTRrb2xvOWpEcUF6Z081Z2RSckxCUFNiSVFFaVFZcVFrb0c4UlFNTTlvb2pmNkI1eV93cUd3UFBrelFBUlFNQQ?oc=5"
+            },
+            {
+              "data": "2026-06-11T07:00:00.000Z",
+              "titulo": "Governo do Maranhão envia à Assembleia Legislativa Medida Provisória que amplia idade máxima para ingresso de praças na Polícia Militar e Corpo de Bombeiros",
+              "fonte": "Corpo de Bombeiros Militar do Maranhão",
+              "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxNUzFpakY5QWY1WHI5dW9lUzNFQVRIOXBYZHJNeXdETm9vMDliYzc1R1RDSnYtRzhoRlBEcTZrMU9zNkhXc3oxZkFFQVJyTlgxbjNfOTJ2Q3JjRS1ZVm4yWEVXUGN6Y1p2YjJKeHlQQ3Y4Q01pMDdmYU9hVHdGNTBtbkZfeDhzLUlua08yS0xVLWltc3ZfYVdhdWhXYnB2QTU4UV9XTk13a0lmUW1TeWhidHg0UVhWT2QwZU5LYzJZRk1GRkppMm1GSG53c1Bqd2hheXpIdDRzLXp6UzJ6SzEzQzdKRXd2b2gydmVYQTZ0dkVib2FMUmM1Si1RMEtNRk5HRDNEZVpYMV9kaE5IOEpjTVlrRTBrNnM4Nzg5QnZOVQ?oc=5"
             },
             {
               "data": "2026-05-25T07:00:00.000Z",
@@ -11064,10 +11099,22 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOMG5vYVI5dXVXdzdCbVV3TVNzY0F4WmtfSHE2eU13QVpiQU9XQnRWTGhpOFFCUHhnY2tKdlZoZm9zNzdiTVVwSm1WNkFDNG9COU9MSy1SWVBOR2toeE9sVTAyY1pOeDVQYVhEem9MQUc1LWdCWGotWHJneEhBVnc0UGJGY0ZEWFBOeE13bXdkLWtkS3Z0ZnZEYVN1Zjd0MC1SSTd6cmhqbHJtdzFVYVo0Q1ExTW1LWHp3bE1uRXNoUFRsMmxVNmfSAc4BQVVfeXFMUFhTU2k0WmRQUVZodm0wa3ZNbkRpMXdheUp4SmFOc1c4MjBRV0F0Y0w2dFdERFk0QUh3Zm1Da2dfZzRjenJKbDRRc0tLVkZ4TndGc3pXMFVnTWtDR0c3eFZKMm9JVkRuWV83X1BvOXk0eS1nQ3lqTTNqN3cwTW95a0JaT19xV2wzMzJyclBGVkdyTFBGdTh2WmhiQTc3NXRhS0ZySzc0REZveE1tNGRQYzdvaHBxdE9XX1N2NGpvTHRuS1Jhby1rM2F3NTF4R2c?oc=5"
                 },
                 {
+                  "data": "2026-03-03T16:57:01.000Z",
+                  "titulo": "Professores(as) empossados(as) são recepcionados(as) pelo Sintep-PB no Espaço Cultural",
+                  "fonte": "SINTEP-PB",
+                  "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUWxRNWV5ci10UFA4RVktRy00NkdyLTlqZHdlSWI5Ymt0cTFnMzY2Nmd2YS1YbWVVbUZlN21WdUluaDE5a2tqSWpTMFJaLS1OUzY1NXk5VDJhMkFBY1dxQ2liR2ItX3lPT2tSTjlISDRDV0FFRVQ1c0dCcUYzMlhJSi0wTEFWOGlZdHdpVmlxSWxhTm02aG51X2tsZEFEdXc3M2V5V2llQUgwZ1J4eU4tOHFKUQ?oc=5"
+                },
+                {
                   "data": "2026-02-05T08:00:00.000Z",
                   "titulo": "João Azevêdo confirma convocação de mil professores aprovados em concurso estadual",
                   "fonte": "Blog do Jordan Bezerra",
                   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOV3NZbmp3R1dTV2cxNkpBMW5hWGRaRkRURVpDOGc4ZjcxSHJvWHZsVms1NExOQkE0aTZXeEZ2VlF0ejJrQzM4T1YzUUVCOF9mWEd0enoySDdRcXZ4bHZPc2poWWV0aTVWUXRXaFh3SjBubU5zLU1nVmVmRUhaTnRnSzNMRWx1REJIQVcxNlJQVmlySm5objRYY1dQZGdaNWdOVTE3LUdiZjNtUHFrVV8zM3VCT25PLUtRRlcxTEdRLTUzWFIwTXNxdmFxVFU3NWMyOVFr?oc=5"
+                },
+                {
+                  "data": "2026-01-15T08:00:00.000Z",
+                  "titulo": "Governador João Azevêdo anuncia convocação de 2 mil aprovados no concurso da Educação",
+                  "fonte": "ClickPB",
+                  "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE02UDdXbjdmU0gxOThSTlRsa1hjUEFsWUh2TGpWWkRJLU43R3huS2sxb3lMVEdHcEtoSDFhbElRa2M0QjNZS0pBYlFXMm1JMXV6aHhGUlhSbkJ1ZUNSbEZKWlRzblVtUGxDVWhUbGY5UUpfSzUt?oc=5"
                 },
                 {
                   "data": "2026-03-03T08:00:00.000Z",
@@ -11076,10 +11123,10 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOdm1aVzltYTFBMUxhUnlKOVVNcEtTT2ExV19BZXl1d3d2MnZEdnRpbHY2d1JQNE9PM0VJdnJOSGRHb2RoTk9HZnBkOE84dHdVV2tYMktDelBjWVZqY1BSemc4QzVLOEpEZFJCUHNBUkZfZEhJTzFwcGFJY3BmbVdGZGU3aGk0N2lYeFQ0YVhYR3lHbVky?oc=5"
                 },
                 {
-                  "data": "2026-03-03T16:57:01.000Z",
-                  "titulo": "Professores(as) empossados(as) são recepcionados(as) pelo Sintep-PB no Espaço Cultural",
-                  "fonte": "SINTEP-PB",
-                  "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUWxRNWV5ci10UFA4RVktRy00NkdyLTlqZHdlSWI5Ymt0cTFnMzY2Nmd2YS1YbWVVbUZlN21WdUluaDE5a2tqSWpTMFJaLS1OUzY1NXk5VDJhMkFBY1dxQ2liR2ItX3lPT2tSTjlISDRDV0FFRVQ1c0dCcUYzMlhJSi0wTEFWOGlZdHdpVmlxSWxhTm02aG51X2tsZEFEdXc3M2V5V2llQUgwZ1J4eU4tOHFKUQ?oc=5"
+                  "data": "2022-08-10T07:00:00.000Z",
+                  "titulo": "Concurso PB Saúde: proposta para realização de certame",
+                  "fonte": "Estratégia Concursos",
+                  "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBzUUx1blBYWE9GVjN2SUlnNS14SnNiWjVKUmNiOWZWang5NGMtYWFsZG9XYnV0a0dudFpZX2JGLTcyZ2FJQWlLR01BMVBHR1hobDhIOUozUVRmbUJ6ZzBnSVBNX0xnXzNxTFN2ejl3aWxtdVZ2TUHSAXtBVV95cUxNd0kyLVBneWc2UTRHSlFESnllZk1yZnpFUUJnNmxTRlJmMWdxd3BTZ2s5Mk5QclJEblRabnF4NVd5NTFZdVE1VElWVDhtY09GaF9FeUJGM1VBQnpWZm5vX1p5Z3FpbzNQR1VBR0doNUpQWXA1UkIyWjV6alE?oc=5"
                 },
                 {
                   "data": "2024-06-13T07:00:00.000Z",
@@ -11134,12 +11181,6 @@ export const mandateTree = {
               "descricao": "Em entrevista à TV Cabo Branco em agosto de 2022, João Azevêdo prometeu ampliar o efetivo da segurança pública por meio da realização de concurso público. Não foram publicados novos editais para as forças de segurança no período analisado pelo g1.",
               "atualizacoes": [
                 {
-                  "data": "2026-04-30T07:00:00.000Z",
-                  "titulo": "Vereador solicita implantação de Companhia de Polícia Militar em São João do Rio do Peixe",
-                  "fonte": "Radar Sertanejo",
-                  "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPZHBSSExHdXZYZnNMUHhHQ2JvZXJOWC1XUk1CRXlFdERMS3d5NjBLdS1WTUE3Z0k5cnB3eWpJOUx2SjlMZ2lYOG5BU0JOU0N1aTRHWlVtVHk1eEpRcE5wbTl5Z0g1Y2E1dmxjVEZHZUVONy03c3IwdThybC1HV2ZGd0pJbUgxYXZHUllyeDlVR0xDbHZyRThFaEs2MV9yc3B3X29Xa3ZnZTBremszb3R0RzJiNWo3YkF3LWtweUk2eTMtMEtvYlJJaXplVWI?oc=5"
-                },
-                {
                   "data": "2022-12-27T08:00:00.000Z",
                   "titulo": "João Azevêdo anuncia concurso para Polícia Militar e Corpo de Bombeiros em 2023 na Paraíba",
                   "fonte": "G1",
@@ -11156,6 +11197,12 @@ export const mandateTree = {
                   "titulo": "João Azevêdo participa de formatura de 799 novos soldados da PM e Bombeiros e destaca valorização das forças de Segurança",
                   "fonte": "PBNews",
                   "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNLUdPZWJlZC04UHhZTDNrczliYmVIZEhseUdPYWlpVWpDejJXQkxrZ3NXcFl6MU1lem4zeWFURnBYUDAxdjI1Y29LUWU4eDg4UmRVOGFEYXUzOWlOV3k2Tm9ZMXVscnNNRXEybXQyOUU1ZEpCOUpLQmRHOFVVSDBKczBEUG9hR2tvTHU4dkNITG5WdUtuNUZlY2pXQjM4cHR0VDRQMFBBTEZ1SFB4b24weGIyMVlmWlpHRXl3TmcwN25Ea3dZRmF0UXZGWE81VXFyeHNTdlQwVkNqOUJiYktqREJJODFKWlZCWGpfNTFR?oc=5"
+                },
+                {
+                  "data": "2026-04-30T07:00:00.000Z",
+                  "titulo": "Vereador solicita implantação de Companhia de Polícia Militar em São João do Rio do Peixe",
+                  "fonte": "Radar Sertanejo",
+                  "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPZHBSSExHdXZYZnNMUHhHQ2JvZXJOWC1XUk1CRXlFdERMS3d5NjBLdS1WTUE3Z0k5cnB3eWpJOUx2SjlMZ2lYOG5BU0JOU0N1aTRHWlVtVHk1eEpRcE5wbTl5Z0g1Y2E1dmxjVEZHZUVONy03c3IwdThybC1HV2ZGd0pJbUgxYXZHUllyeDlVR0xDbHZyRThFaEs2MV9yc3B3X29Xa3ZnZTBremszb3R0RzJiNWo3YkF3LWtweUk2eTMtMEtvYlJJaXplVWI?oc=5"
                 },
                 {
                   "data": "2023-04-24T07:00:00.000Z",
@@ -11216,22 +11263,22 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxObTVRSFZPQUFLU2NRMmtBU2ZnejZoTVgtbVRCSDVIREdaUzRCUlVKTmVHTHczTnJVeHFNM2c0VnNPeTJsZHpBU3hScUozMWVqaTdhNW9nbU1aa19PMGp5SHdkYjlwSkRpakllQjV4TGphYldMblRyTkE3Nks1ZDBnV2VMTHFrTE9MOGktU1NpYklmOHROVXQ3X2ZCQXMzY3JwTkczMVgzYldVN1BiX1hDay1DdEM3SGlCaE1TNnd5bjRoMDRVLVphZ0JhOXRST25Z?oc=5"
                 },
                 {
-                  "data": "2024-03-06T08:00:00.000Z",
-                  "titulo": "Fundação PB Saúde pode realizar novo concurso público",
-                  "fonte": "Política Etc",
-                  "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPdDdxOUFKTlNfdURQM24wUTkwb3AtMnJPT3l4WmJ6OGFySWJDTG02dEhtczNCWm45OTkycURiREpHUmkwU1ZTcDRwRHl3MWcyY3lmUlF6SGNKNlpjV1kwVXJwNUg5TE12X2lralg4V3lPLWpPRDlEZ0FVRWltS1pLSmJvenB2RE16RGtzV19vWmJ2dHdKZGNFdg?oc=5"
+                  "data": "2022-10-26T07:00:00.000Z",
+                  "titulo": "Veja as propostas de João Azevêdo e Pedro Cunha Lima para a Saúde",
+                  "fonte": "G1",
+                  "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPWEtGT21SVzlzVE9vaXJva01XYUVSSWJSQWsyQS1udDV2MV9VaHliMVBzQ1pVenduRHh6elhZUUlORGtPX2I1Q2otdlN4SXphblVpa2ZYanFwS0F6NTg4WGpKTDZDT1NPN0hyQVl2a3R5UzVwVGtGWTM0VlVleHVvUGVxeW1maXJDMDhSVnF6Rkd2OEVfRWRnYVV0Z0FJRVdWZnluUnhrUjYwaWpBU09aTzlsN0VOZGdHT1BDajNBbjd2Mkc4bzlnVm41M1dsS0JHVmfSAeABQVVfeXFMT0ctcDd0ZS02VE5UMHRHZ3Q5QjNXd1lDTFFQLUxwVU50ZlN5ZkgyUnRmQ1RqWnVpRUUtTjk2V212Yzk5T2J3b2ZXLUxBMW5oWjRYZWlBd2xOMEgzdjMxNk9EdUYxZk5PNkxURkpJMDl2WkVlTFFISUtHdE9YamJDclRkTGJqUlVZT3ZUc2RRZTE3T0w4ZGpGLW5jZ3JsXzFPUy1UTE5ocXFwWm1OQ1hrTmJQbHRPSW80bi1zM0ctT3phRHZxdmRDYjN6MnFlMlFrMG1wT1UyS2lGaF92STJRaGE?oc=5"
+                },
+                {
+                  "data": "2025-07-15T07:00:00.000Z",
+                  "titulo": "Concurso PB Saúde pode contar com novo edital; entenda!",
+                  "fonte": "Qconcursos Folha Dirigida",
+                  "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1lb0pnMUFueXVVMENWRE5HZzZhaEUtWUdTS0s0eERxOU5WY2VEV21mcmhxX2ZJWGZ1TkN4ZUxHeVhHZWNKd1BkTkxIX3RzVTZ0bWg2MlVNTUQ1MVNvSnF5REZEa0hlZk9yTG1aX2tfQ2QyLWFkc2RiQw?oc=5"
                 },
                 {
                   "data": "2023-02-28T08:00:00.000Z",
                   "titulo": "AL aprova ampliação de hipóteses de contratações de prestadores na Paraíba",
                   "fonte": "Jornal da Paraíba",
                   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOQ2prLWpKNWlXTG1FaHRwRm1nZGJhVUJmckh2TUJEREtlZHFCejBJRHlzSDRHQWtQZE1CYy1lZ1JyVU9QV3E2MXJyUk9zNlc4WmZDYjVmeVZxYXZzcDZTRTIwMUtzQ2I3LTNVNmZoYUk2eWI1TXVTcUxYQWFYUVhFS2tXdmc5dGtMeFNtMlQzcmNXZjVvdWZMeNIBoAFBVV95cUxOREZXU1pVWUF4bzhNa0VfakxLV19LaGxwRXEydm0xUTZ4aTlqQlg3OEo2RnBrZ1BURGY3T2ZyMFZaYnZkNjdrTWdjZXV6NkFjM2xoUFMtQ1o3dkh1bnU2YlBvbnd2bHhjYl9NcU1LLXl6QUdGOGxnTjd4YW9sTnA4NERaaUlYMWtQdG5PWVozaE9TYzY2ODZiLXRTMUhaZHZu?oc=5"
-                },
-                {
-                  "data": "2022-10-26T07:00:00.000Z",
-                  "titulo": "Veja as propostas de João Azevêdo e Pedro Cunha Lima para a Saúde",
-                  "fonte": "G1",
-                  "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPWEtGT21SVzlzVE9vaXJva01XYUVSSWJSQWsyQS1udDV2MV9VaHliMVBzQ1pVenduRHh6elhZUUlORGtPX2I1Q2otdlN4SXphblVpa2ZYanFwS0F6NTg4WGpKTDZDT1NPN0hyQVl2a3R5UzVwVGtGWTM0VlVleHVvUGVxeW1maXJDMDhSVnF6Rkd2OEVfRWRnYVV0Z0FJRVdWZnluUnhrUjYwaWpBU09aTzlsN0VOZGdHT1BDajNBbjd2Mkc4bzlnVm41M1dsS0JHVmfSAeABQVVfeXFMT0ctcDd0ZS02VE5UMHRHZ3Q5QjNXd1lDTFFQLUxwVU50ZlN5ZkgyUnRmQ1RqWnVpRUUtTjk2V212Yzk5T2J3b2ZXLUxBMW5oWjRYZWlBd2xOMEgzdjMxNk9EdUYxZk5PNkxURkpJMDl2WkVlTFFISUtHdE9YamJDclRkTGJqUlVZT3ZUc2RRZTE3T0w4ZGpGLW5jZ3JsXzFPUy1UTE5ocXFwWm1OQ1hrTmJQbHRPSW80bi1zM0ctT3phRHZxdmRDYjN6MnFlMlFrMG1wT1UyS2lGaF92STJRaGE?oc=5"
                 }
               ]
             },
@@ -11280,12 +11327,6 @@ export const mandateTree = {
               "status": "nao_cumpriu",
               "descricao": "Em entrevista à TV Cabo Branco, em setembro de 2022, foi prometido construir o Hospital de Trauma do Sertão, na cidade de Patos. A unidade de saúde ainda não foi entregue. Em janeiro de 2026, a Secretaria de Estado da Saúde (SES) divulgou que mais de 35% do projeto do Hospital de Trauma do Sertão já foi concluído. O que diz o governo: Afirma que o hospital segue em construção e deve ser entregue até o final de 2026.",
               "atualizacoes": [
-                {
-                  "data": "2022-09-12T07:00:00.000Z",
-                  "titulo": "João Azevêdo promete criar Hospital de Clínicas e Traumatologia no Sertão da Paraíba",
-                  "fonte": "G1",
-                  "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNOHVDZVhLcXdfMS1rSWZBTUpfbmNEUnNyYU1fSnA4ekYyTTlSNF81U19DSVZrNWFIc2F1M29mNXhTYVBBVzllRG5SWnlTblNUWjZ6U3RGQVRGalhkb1RYNVRJTnBUaHp4S0RBdzZSWnBjS0pLZGZZZ3c5RDJTOGlBSW51eHJFeTlIekZzVjduUEl1b25kNEJ1X194Y2lycGpLeTk3UVpLWF9ydWlIXzJRM1RPa2w1TGkzbG5QdXBRXzYtMk1yT1JnU000MXVUaEJULWt1LXFXWmUxXzVpWl9Ua3NXdE5WNXVxWWl30gH6AUFVX3lxTE4tZGdEQzNmS09DWHE0X3VpNzNpOC1pTm0xWXhoTUNYOUdJM1IyUmVYc1NtUW1YLWplNU5jWll4R18xcVVNNFpoc1MyX2R6R3ZPVkZVU3ZTZFhLXzJEU1RkdXc2QnZBbGFlOGtTelI4YVV0S2ZJTkhzWnE5SEpVemV0QlRmTEZzTTg5X01CSzNLa1pOYWVrN21oLTBfUi1sTkZrUjB3SVpGcXJzVlZrd1BmQ1ZBLVFXempRSWxVMkVEd2NHWnJpaWRvU1czWTVHME9PUmxzOEU4cEZ3a3R3aUo5LVlMMDREcWstSW1pSGQ2QlE0Y1RjOWRNM2c?oc=5"
-                },
                 {
                   "data": "2024-06-08T07:00:00.000Z",
                   "titulo": "Governo da Paraíba autoriza início da construção do Hospital de Trauma do Sertão",
@@ -11454,10 +11495,22 @@ export const mandateTree = {
           ],
           "noticiasGerais": [
             {
+              "data": "2026-10-16T20:51:49.000Z",
+              "titulo": "Senadora Daniella Ribeiro recebe João Azevêdo e deseja sucesso na nova trajetória política do senador eleito",
+              "fonte": "PBNews",
+              "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNYXRkYlNEaHpIWjdVaWhNYUI3c1RKZWZjbmdlOUhFVmRUSWliRUw0MFNxLXhTNjNYM25xcWZYT05mbHlSaVZNUDRXOE02VkF1LXpsZ1hzNk5oYXBoa2laZVJtbFhHN201cVdvaDQ5NVNlMmZMdHpJSGtOOW1LWlBkaEd5RWJoQUc2Yi1xR1BzOUtjeHNYNEVKS0pkM3IyMVNCU1Jjbnd0LVZkMVdpYVRvWl9sRUlOeWVmTXY2SVlQYTdkMHRSR1JPZjFqYmdLZzlSMzlzX2VLLVd2VWNt?oc=5"
+            },
+            {
               "data": "2026-10-13T13:22:00.000Z",
               "titulo": "Concursos Nordeste: oportunidades ATUALIZADAS para a região",
               "fonte": "Estratégia Concursos",
-              "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9CSFdxUWdERndVa0E3aE81MEE0WG5RMDM1TWtUVXpkNkYydVYwWW1fZXA3Tzk3LUZkQXFoMkcxaUNlSmNWMHhJYTVPdldwVW91NS1MR1RMODBMdEUwR2xKVWZzZmU3bGRucXRJ0gFwQVVfeXFMTUJ6UGl0Mjh4NWZ3ZU9VYnZpbDZUMTJfN0p3a0dPNlpSU3JiTzVvTlk0WlUzMWdjRG9VdTNFVUhQV0phYTFyMGl1S0dtNUVIU2hHTHFxemhvV3A1MGR6ZnBIdjUyRUlIYzhiT3pfMmVmXw?oc=5"
+              "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9CSFdxUWdERndVa0E3aE81MEE0WG5RMDM1TWtUVXpkNkYydVYwWW1fZXA3Tzk3LUZkQXFoMkcxaUNlSmNWMHhJYTVPdldwVW91NS1MR1RMODBMdEUwR2xKVWZzZmU3bGRucXRJ?oc=5"
+            },
+            {
+              "data": "2026-10-12T22:04:29.000Z",
+              "titulo": "João Azevêdo está entre os 20 maiores doadores eleitorais do país, aponta TSE",
+              "fonte": "Jornal da Paraíba",
+              "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQTUNkcTREb1ppN2Y5LXNVV3hObVNoZkNUWi1BbWJGY1lwSy1oUW1TMXNpbm5TNTZ0d25yczV1R3p5aTh4dy11ZzlvT1FvYmVrb2hUMnRmejFxWnU4LVFxUS1xZ2d3S2VxQ04yMnVyTkxQZlNxOXVEYkFNdkZXV1NjNEtXLWJ5SnUzMHNHcmNJRlh6TlgzRGtlVXo1bFdWVnNrcFNmTFVIX19XLVhic1JfaGZMM285NHBVUnZjbUMxSndVaGo5QlZUdkhZUkhRWGPSAdcBQVVfeXFMT2Z3SWZxd2FBdGkxU0hzTEhHam92MmE0bXVTbXNUV05ZY19rWGpTa2NDNGIyX2QyaHQxTDlIUTAydThzcnVEckpDLW5ZXzdaa09hQjA2TGEwZ3BxcmV6YXpDZ2VkQW55dEoyVUNXNU1IbHpIdHhDc0tyejdJWTdiWm96WXJKand3MkV6blhuYXRSOWVnTWRKN1ZEQW5STkItU0tZLXJFOE9tR2ttUDJmMGw2RF95ZWVYaGswN0t2cy1ZZFU3RVdXRl9NX0MxbllKZWlzdlBMSFk?oc=5"
             },
             {
               "data": "2026-10-07T20:33:14.000Z",
@@ -11527,6 +11580,12 @@ export const mandateTree = {
             },
             {
               "data": "2026-10-04T07:00:00.000Z",
+              "titulo": "Paraibanos elegem João Azevedo e reconduzem Veneziano Vital do Rêgo ao Senado — Rádio Senado",
+              "fonte": "Senado",
+              "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOeEliWHQ2dElfUjg2LUVSZE96SDMwU2RyZXU1VjdZeWV2Vm9BM1A0OGZYUm5ibW5yakNaU0o4eEdEZGVqdmU3NVBISk9EY3FMUllaaXlLS0xLdHJ3OVBOcG82MHpPRFBqWE1NNWktU3RGSlc4NXBleE9QZUlmR3JuNGlpU0dTalkxLTF0d0UxUEk5NGowMjZrc3BCMnZvVWptajY2Um9seUtHVWE0VHQzVkx1OUJDRzFrVjBJTkNmSzdVakwyZlk2blBmOFE?oc=5"
+            },
+            {
+              "data": "2026-10-04T07:00:00.000Z",
               "titulo": "Lucas Ribeiro é reeleito governador da Paraíba",
               "fonte": "JOTA Info",
               "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZEJRaWZ4YTF6NkowV2hTNzNoR0MwMzlSTWVRbkFfclg4Z1ZZdnZQUmEtWTREdGZoY0JTZjdyVHZCXzhQYktwLWJxUi1leXVLMWJQaGZDQlFqRlRLSmlUYWtrNTdoV1p6V1VfNVVSdTkyV2huY2tnbk5oamhjc0J3anh2RFE3MzMwSFFQOV9xMmtadGRjbUE?oc=5"
@@ -11554,24 +11613,6 @@ export const mandateTree = {
               "titulo": "Lucas Ribeiro é reeleito governador da Paraíba",
               "fonte": "Congresso em Foco",
               "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOOG4wZVRHaXFud2NzbVBXVEJzLUg0cURsVU1qZWduTGZ6bmNmSFZkNEluQklqSzRQT2VKYk1SMGtyeTJ0cG1SZ1ZSZl90M25KMDN0QnVXZGFlSkJaVEpJblcwSTBBVERwdHhvNXJxZTBMWVZ0YnZuYVJEOWxHNWp1U2VYN3RWZDFwai1Qamo2bXAwVTU4YlJJRjhpQmQ?oc=5"
-            },
-            {
-              "data": "2026-10-04T07:00:00.000Z",
-              "titulo": "Paraibanos elegem João Azevedo e reconduzem Veneziano Vital do Rêgo ao Senado — Rádio Senado",
-              "fonte": "Senado",
-              "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOeEliWHQ2dElfUjg2LUVSZE96SDMwU2RyZXU1VjdZeWV2Vm9BM1A0OGZYUm5ibW5yakNaU0o4eEdEZGVqdmU3NVBISk9EY3FMUllaaXlLS0xLdHJ3OVBOcG82MHpPRFBqWE1NNWktU3RGSlc4NXBleE9QZUlmR3JuNGlpU0dTalkxLTF0d0UxUEk5NGowMjZrc3BCMnZvVWptajY2Um9seUtHVWE0VHQzVkx1OUJDRzFrVjBJTkNmSzdVakwyZlk2blBmOFE?oc=5"
-            },
-            {
-              "data": "2026-10-04T07:00:00.000Z",
-              "titulo": "Quem é João Azevêdo, eleito Senador pela Paraíba",
-              "fonte": "Jornal da Paraíba",
-              "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQZlVJX0F5V29aTEpwMlBwNnZnUVA2bkJsaTEwb0FqWTZqWmxCVVoyazJfT2c3bW5Sc3NEMlZWTGRycU1Ma0dxam55LXZKX2pGdXI1WVgycjhpSlpKZ3lUMEZPZ2lCZlEtbXlybVAzOW1IbkNpUVNRUzJ2TXhHSFdOSU5FeTJZd191SnpNQm1iWk7SAZgBQVVfeXFMUEoxNWc3cWRRUDVIOUFRcnFfcGV2d3hQeXptN0ZQUlg3dVU2aUw1c09Dc0xSTlRzRmw5cWpVZUJHNURKZFpOWjJscDNrTHFCVHBUMVM4bTRqNFdkcFd6MkJnX3JiV2I3czY3WjBJdVFJMFRRM0piTl9HblBONm9YaGVLcy1JV0VubC01dEM3YWhaS25DNjI0eVU?oc=5"
-            },
-            {
-              "data": "2026-10-02T07:00:00.000Z",
-              "titulo": "Os números da disputa pelo Senado na Paraíba, segundo nova pesquisa",
-              "fonte": "CartaCapital",
-              "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPaVBYZU5NUE84S3NOVFJ2eVFfaWpnVldQYS1sY0E4M0RWd1A3dG5LZEpxdmZYT1g1bGJETDh0M19WcEYxeVRmYlEtdEQwR2RzUFhGZ0Z3b0hseHVDX3NGMHVjS25BLTh5eE9YVmFWSm0wNzlrZzYwZjJzQVQyWE80WUZ3aXQxZ1g0b1k1SElsSVZVcHZRTG1yZHB2cjlHZzI3T3ptUFRR?oc=5"
             },
             {
               "data": "2026-09-29T07:00:00.000Z",
@@ -11610,6 +11651,12 @@ export const mandateTree = {
               "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQeFlDYmFOcEpwa0Rtc0piS0JSYWtyeElZWTZsZFkxTEpRaHdpVWRQRzEySDdQQU9FaDU5cy1iUVVxazhlWmkxbk9vX1FkdVh3ckxib2NsXzFTWkhVUEZxNDliaXR2dW5EZnRyTmJPWUdsRnVXNXBEWktXM0lxMVJmV0w1SWtwYjNIMVEyb3dqZUZzT1RWLVIxaFNmRXdiUDRMcU1RanMwMllWUmwwSkdEZHZpVnlZUGt5bXVTN18tenNVeWtfUXhhU29LXzhVdjZBRVJmSGp6OUtFdUplNUM0b3lPLUdyUWo1LTR5TVlUQlpJOTlKb2w4?oc=5"
             },
             {
+              "data": "2024-11-22T08:00:00.000Z",
+              "titulo": "Governador João Azevêdo comemora 'nota A' da Paraíba e destaca equilíbrio fiscal e capacidade de investimento",
+              "fonte": "PSB 40",
+              "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQb0R2S1gxaU1Veml0QUlQQk5rSkpWbm5uYTl6dFZMVHRLY2hmOHJRV1dvM1VUTW1kRkVvalZqVnQxWUVpZ2RrSWx4VndZUlFHQUJMRlgyelJ3QXJ3MlVXN2x3dzd3SThzNWlXdldhcFkyZmNnU1hLRUJJbVJ3dl9XSW5nYUIxblk4Um1UV08zeEIwRGdOcXNLSjM2UHUxMEY5YXFuMzU0T1NUa1lUbTAyTzlBYl9oblhfUkg5MjdUdU1VOEo5eXNKcQ?oc=5"
+            },
+            {
               "data": "2023-09-13T07:00:00.000Z",
               "titulo": "João Azevêdo lança obras do novo PAC na Paraíba e destaca investimentos de R$ 2,4 bilhões",
               "fonte": "PSB 40",
@@ -11640,12 +11687,6 @@ export const mandateTree = {
               "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNR2JlcVNvMVJHRVBpXy1NalhTWnYxelBFQXVKNU53R3hDcU5FcmFVc2tqZjZnTnFjcEcwR1dzMUx0bU5PWGNTYWhZSjZaVzFIVjBqWEdZQ3YwRV85MEJjT0o4aFhhTTFIbUVGc0Y1T3pzdWVfZnFoWC1iOEw2ZFpXa3hVa0lMTUI1UGljRTBySE5GZGh3TXNSbUFEM0xOb215dDYwSjc5TC1aeEplUkg1ekVadFVuTVRTMURubWoybnF0cmRhcTE0SE5xYmcxMVZEekxYYUlB0gHkAUFVX3lxTE94ak5DZHBvMWFUblhsLVR1YTVCMVd6UmJ3NEc5aURWNVJVbndtUDN5cmVlWVRseUV2Zm5QVDYxWllRUUk2Y1ZqT01EODFBWkVpM3EyNVJXeE9XNGdlU0F3Sk5TZDlqZGRtdUl2OTJJS3l0cU1sY3RmZ3VOQlpVUDBaMEJBVGtJUVZVLWFiNXlibFhJb0Z0Q250VlJpY3liX0dITWdYUldUVTl1YkZGMko0U29Ya0plM2pLaXZfQ0tMMlJQLU5wWVpXYkpQaVZFRTVNc1JfWmI4a0E2bHVMX2l5YUQzZw?oc=5"
             },
             {
-              "data": "2022-10-05T07:00:00.000Z",
-              "titulo": "PT declara apoio a João Azevêdo no segundo turno da PB, seguindo orientação de Lula",
-              "fonte": "G1",
-              "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOS1Q1ZnhiYmxZMktWMTdFZmRJenZrZnAtOXFrdDZXcXRBaVdkSXdvNUhTdlJNQ0dtbndtRzV6R3lNT2x1NVlwSk1QNlhwdWM3YTJLUlFoejRuWjlLRXljcjdlU0pxaFFudXBjNk9SS2RNLU56bENfQnhONXJ0N1MxZWlHeEY0ZTFFM181Y3VGcThaeTBtSHAzdlFocU5odUpvVUNwVHFMblFJNmtRTjBkbl9vZXlBVlY1d3VDd3NSXzd4RkNHMGZDS29mZS1tS3V6UDV1dXI5NHJ5N0hONFVNaW81bHNhenVncVcta9IB-wFBVV95cUxPS3N4bmJYdnFTRjUtU1M0eFZpT2lzRm54TWxhVHhRVl9RODdiNGJuMnkxZ1U1ZnA2dGJuYjhGekViQ1BwX3RldjlxQmp0eDlMUmR2cnFVWWU3ek93bHhheHJDYTFoY1pVaVFBR3NBTndRQjNFclBmNnc3OXE1bWtjekJ4MU1ZZ2psUHpfdzVLYWNKYUtsa0I0Ukh5VHJveEN5UGtQMzEzSEZBamtyTlNtd19pMGtxR1VwSVhITklzMEN4VWJ4Zlk0ZFVJU3hmWGZUNjhPYWphOXIzUHNacHdsVWx5ZHB1b015VFA2NGFDaTVmVnpfeTQ5V2gwcw?oc=5"
-            },
-            {
               "data": "2022-08-25T10:19:06.000Z",
               "titulo": "Confira propostas dos candidatos ao Governo da Paraíba para Educação, Saúde, Segurança e Emprego",
               "fonte": "Portal Correio",
@@ -11662,6 +11703,12 @@ export const mandateTree = {
               "titulo": "Plano de governo de João Azevêdo não quantifica metas nas \"promessas\" de obras e ações",
               "fonte": "Jornal da Paraíba",
               "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxObmliQUlSM19IY3JpSlprdU80YVF4RUlyVDh5RjdLOVNIOVhjMmpwaUx6YnF0SjRMaUpuUk1XT2FoVUlBck95SVl6dGNCTlFnMDlJdWNvbTBOV0lsLTlKcDFPS3Vmb24yTm9EaDlEV0lyZWNTQkU5VGtnNXJZRXByR3ZRYVRFcWRDSnZMay1RUmNRYnh6NFJLbFpDWVFkZ25kekNvdm1BX1RMUkI5QWR4cVVWMnLSAbwBQVVfeXFMT0Mzc09zRjBSSTRMcFN2UFJIamRPT1VMWGZiZzd3Q3NyQ0E1aHliRldVMHJtN09hSms1SGFLVmxRNmZnNmcwaDVHWWFZakd1UmJtTEtaN1BRTXUzbjFuNlBxWHhheXJSeEJjQnY4dEVLZkd2UHdiZzRGZ004UWtNNGw0MmR1eDhwRTZreWZabmN1bUlRbGh2MDJJZXhXLTBFWi1CQk9sNHJrclhTNW50WmJRZFJlS2ZpejRpalU?oc=5"
+            },
+            {
+              "data": "2022-08-10T07:00:00.000Z",
+              "titulo": "Plano de governo: João Azevêdo (PSB)",
+              "fonte": "G1",
+              "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObWQ2WlNNMVNMVnhBczB4a0JNX216VHVuWjJWSnpPRWFBcEZmT1U2TVdWcHNPZkZUbE1ERlJTaUFGMHRjOFJiblhoWG9Sa2VUQ0xObGYtM2pwN2EwWVpVVTdlMWdBS3p3clZ3bmdiUkxpY3c1SERKNE1sZ09yOV90cjNNRzBpVlJjZVUtT3dZdF9YRHdfUEUwVnVxdXVRdjMtTzdQVjRha9IBtgFBVV95cUxQdFAtRmZCNzRxMktEYzNkZk43SXpnMGpuQm11NkRma2lISGxJeHJCRFY3SHVLNEtPRjMwV1VJS25Oam5SZ09kV1JXQjdpaVlPQUhZeU52Mjd3SWs5cGJYcmtqTDIxeWl4LUxZNDllR0UyTy1GNXE1M3N4aExOb2xPQ3Q5TkMwQkJvVzNyVlZFNlJScnZfWXRIeFBiaU5xVEgyLWlqVVlJY0tkZW9GbXJOY2dZZ2YyQQ?oc=5"
             }
           ],
           "filhos": []
@@ -11816,12 +11863,6 @@ export const mandateTree = {
                   "titulo": "Raquel lança programa de saúde da mulher sem saber quando começa nem quanto vai custar",
                   "fonte": "Marco Zero Conteúdo",
                   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOMUpzYmVEV19QLUU4R3JSMWxSRU1XRUFrazByWWlMcXdoM0dnTzBxc3Bsa1RUSXdfc01FbVE5UmFlR3pUODdWQVhCOGRyQ2lHQjliWXc0QUw0aDRRZUNWU1ItaXFtZWpKOUcyQUZybFpzYm1EWVhZTE9yNkREbmJkZkMyUDQxZFVIV2hRNEFfa2o2cmJ1eVhNSTNiVDVadkwwenRDdDRsM0tlSkFzT1E?oc=5"
-                },
-                {
-                  "data": "2026-02-09T08:00:00.000Z",
-                  "titulo": "Carreta do programa Agora Tem Especialistas chega a Serra Talhada para ampliar atendimentos em saúde",
-                  "fonte": "Blog Edmar Lyra",
-                  "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOSEdFMXhndk5WWklqbE1FcEV6MzdHaWRndllvUTVHRDZEZjc4MUtUMV9KSlllOVhmMkg5bkd2ZnQ5TnRTVFBzdjNaVDE1cW9TRF9HTi1PYnZNYWR5WldDeHRLdkZXdXFtZU1fX3RsLTFKMEhEZUxsOVBJTjNCRm9RYWxwbkZ4b19BUzBrREVySGZTZEk2LVlNNVRBY2ViZzBIZ0Z3RF9OR2x2dVdwWS1UbG1BVE1YandTY3lmT0ZsUU9VdUt0OEE?oc=5"
                 }
               ]
             },
@@ -11834,27 +11875,21 @@ export const mandateTree = {
               "atualizacoes": [
                 {
                   "data": "2026-06-16T07:00:00.000Z",
-                  "titulo": "Governo de Pernambuco inaugura hospital de R$ 178 milhões na região metropolitana do Recife",
-                  "fonte": "Francês News",
-                  "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQLTlfSUVGcUN4cWpxVy1LZFBFaFdGVUpXRzJ4cnZOdkJPQWxoOUlueWhybDhES0tWckM3b1VrLVdpanlaQUF4TEdId0s4SFJsQ05zUTF6aVR4X1VZcXhnYkIwcTVwNUhEaU9QblFrU09tQXpROTJKU1EzV2gtdmo1U3RIUml2Rl96YjZ2ckZyeHNDRG5fXzk3WE02SGN3RzdPWW14Q2hIc1IwSHpLRGQxSGgzRU5nbnhRYmRWMGpVOUhON2xlMUJ6SkR0WW45bjNCQS1TYjJ3?oc=5"
-                },
-                {
-                  "data": "2026-06-16T07:00:00.000Z",
                   "titulo": "Raquel Lyra inaugura Hospital Nossa Senhora Aparecida e amplia rede estadual de saúde em Paulista",
                   "fonte": "Voz de Pernambuco",
                   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOdi1OQUd1REVpM3VkN3RocnA2WXQwYW93ZXhnNHV5WGNKaGlEYU9NdjhsUjlIeEtJM2JzYW9SQ1ZsVGZLSEpYMG9NSXFZckxYdmwyQjh4dnFOVUtsNlg1cEZ6YmNSNk1ydjNVYzFPVmpRcGtCVWV0WXRsV18ybTVGSVB6V1h1RXNzdkRlZGg5S3QycVFDYWFUVUc0TTFWeEloNHNwRUJCbnQ5bnc3OEQ0UFVyaWFVcDRidmFDSFAtSjVYbkVZT2I1SWl3bnptb3QyejE4YQ?oc=5"
                 },
                 {
-                  "data": "2026-05-05T07:00:00.000Z",
-                  "titulo": "Regina da Saúde defende hospital de grande porte no interior para descentralizar saúde em Pernambuco",
-                  "fonte": "Blog do Alberes Xavier",
-                  "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOcmpPdkc2NTRqN3R0azlWN0VrNzJsMkw2RlE5WEZPYnZLWnl6T2Q4X25OR3FMeGdvdFZyVHBiZ0JldGVNSVk4Y1RtVjY4ZnFYSjNrM3drb1ZBQWZSTHMzdWgxMlNPVjNDWk5OaXVhTkwyN2RENmF1WU1KWmx6TlZXZDZWR3c0U0lXYXZmSTJhR1JVOFZkWDdPWkZYXzRUT2J1NWlXV25KV1JacUZNU2pvY3NtYnZ0azd2bF9Xa0pQdFBqdm1wQ1VYYUo5bERCNkc2XzREbUYxWDNjN2o1VUpFTQ?oc=5"
+                  "data": "2026-06-16T07:00:00.000Z",
+                  "titulo": "Governo de Pernambuco inaugura hospital de R$ 178 milhões na região metropolitana do Recife",
+                  "fonte": "Francês News",
+                  "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQLTlfSUVGcUN4cWpxVy1LZFBFaFdGVUpXRzJ4cnZOdkJPQWxoOUlueWhybDhES0tWckM3b1VrLVdpanlaQUF4TEdId0s4SFJsQ05zUTF6aVR4X1VZcXhnYkIwcTVwNUhEaU9QblFrU09tQXpROTJKU1EzV2gtdmo1U3RIUml2Rl96YjZ2ckZyeHNDRG5fXzk3WE02SGN3RzdPWW14Q2hIc1IwSHpLRGQxSGgzRU5nbnhRYmRWMGpVOUhON2xlMUJ6SkR0WW45bjNCQS1TYjJ3?oc=5"
                 },
                 {
-                  "data": "2026-09-21T07:00:00.000Z",
-                  "titulo": "Raquel Lyra promete descentralizar atendimento de saúde e construir novos hospitais no interior",
-                  "fonte": "G1",
-                  "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxONE1YanBNYVo4c05HRzdQQ25XeFg5LWJaY0Y3aXBtYWtQYW8zLU9qUzNXS2hidWhoYl82R2s2aVRQMW1oeG1oLTBrbnRiSnMtanZnRS1pVE92UWZDQ0dlWVdfYlJJUUhORW1DeDNjZXRXNEQwa1lIU1J6ZDA3UHRkUDROWkZVeklRMXFySGZmaWlyN3BidV9rMkJ1cnhqSmpxRFlUU0p1Yzl3ZE9sQ29qbUpoMWp6emFZcXFaOWxYNVFMWnlQOUJ1RFQzc2pnQ0lWY181WkRMZUxQYzdla1N4NG5YaWpZTFplTWx2eDRfdU1hTW10UEFNemdEcW4zZ9IBjAJBVV95cUxPRDE1QTJ2bkRFR0Q2RFY2STk1Nm9DRklUNVgxM2U5Wm1jRTZGWkdfSE1sbVFuSGdTTFV0YTMxX2I1b1NtdWJkYmNtRnhrMEJBWmticW1tck1IT3N2WmlJOEEteU5EbnlMTDlZbU5oalZENVo2eTlmQXhLODJqRi1Yd2VoZ1lPaFlvbmUydERVeGU4eDFjRC1xMWE4bWxSN29yMWJ4TVdLRXk1ZVdCZjRtclh2SlpvVExvV2JiM2tGNFVabjJLNVN3VnE2djM2NDhZYlRfOU9kLWczN2Eya1NqTkl5QmNiSWhBX2Y1b2hUV3Nuc2F0TlBGa2dmREFPN1JpTlpKTjhFb1NrM2RN?oc=5"
+                  "data": "2026-05-07T07:00:00.000Z",
+                  "titulo": "Regina da Saúde defende hospital de grande porte no interior para descentralizar saúde em Pernambuco",
+                  "fonte": "Nill Junior",
+                  "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNVlJjQUYwcVoyczBISnFUTXdyUV9RSHlndDZYaUFTLW81eGd3RGhqeWxoQXpZRVROUzJQbmRib2Npc0dpd3A2ZURvNmVJU0Z5UkdWVEw0bEdJcnRIdFcxd1FyRmJ1LWdaUEJ1dGdxNGlROVVqemlIbHh1TGN1TXFBSC13bmRBbDllbnFlbjAwQkFCalNncnhHMDJCNHJ5cFltMlR0eHZlbDduQmc3U21jVFJiLUs2UUExV1NXRHd4eFdXZTdGSnc?oc=5"
                 },
                 {
                   "data": "2026-04-07T07:00:00.000Z",
@@ -11869,7 +11904,7 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxObnRwR0JDMjRzZzJad1VGU3E3aFZuTWs3Z3JUamJ1TkhoeXh0ZXhkbkx3algtQXZVQy1uQXk0OTBSNThlaFhGaVpBcTB3U1B0N3AzZkxZaVAwalo1dGxMOURHVUtxMmt1SlpmWGJiOFR3ZDhIcTF2V3Fqc0NfMkNqQlFYYzlUQVJCRGlXSWtBZUYtSFZFNi1wRXhB?oc=5"
                 },
                 {
-                  "data": "2023-01-13T08:00:00.000Z",
+                  "data": "2023-01-13T23:44:51.000Z",
                   "titulo": "Raquel Lyra visita o Hospital da Restauração e afirma compromisso em descentralizar a saúde",
                   "fonte": "Folha PE",
                   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWUdtc1EtNzVZX2d1U2YtbFhqc0VqQnV6bGc3Zk1yU3k5d0RaOFk0UFJEUTVTdmVqaWFqU2RuZmQzWWgwQXoxTUlhd0c4a0dTbm13QlQySVNmZDZUNDVkcjRGRUFZTHA2eVZkazgtMW9TZmdWejdzZjBUNzRFQ2Y4cmF4THVXTEVLakZhLVFMcXJ2WldNVVVqd1RvMGJzRS11NUk1eHZOU1dwZ012R25PVGpNRdIBtwFBVV95cUxPX3IwZEZBcWRwZUR5T0JmdTFVTzgwMXVyR3VkY05HQzFVUV8xMVBLX2VxaTd4b3BVOUhHZ2lLZV9jSE1PWGhRYV9OY2ctSHkzWWd1ZTRqNzhtbHVXS1Q0LUljZVEzOHVBa01DaE11S2hxZGlSRzI1dDNnMVgxQ0RJaThjYzRvUlRfQUJ5ZDZCLXBGVExsV01Ra1VTRUdPSmpaQi1ndTR2WC1mS0pEU2tkV1ZZTnNyYVk?oc=5"
@@ -11896,22 +11931,22 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxPcmFuWFI1NFNwWEhkQTlvb1JEdVR0SVEzTXpka2owUFVOMDJ1eGFBZ19lOXZNM3lkREpmS1hYWmxqS0V4ajlYdnFqRENBS19vQm45ZDhBRGt3YTFBUkdsdU1heklqRFI0N0d6NEhnZEhXZkIxNm1hRUhUQ1doVTZwZDJKT0c5REFVRHRJNWNsSGtCRThEbjJjWVlLa2JGdG9ydE9HV2ZGcVVHQm1xdklRZWUzMnAxZ2x5RWlmaVU4V29QNzVacUoyejNnUWVXQk9zaVBrNTk4ODJKOFVRc0kyNnBrRHktZ2pPWGYtTEVxei1SM3VUaVJvTkJ4bVVEUFRUajM3MWtwbDJxMVlLUl9rbWdRSThrSW9zWV9RVHd1eTNfV0U2alE?oc=5"
                 },
                 {
-                  "data": "2026-09-24T10:15:00.000Z",
-                  "titulo": "Raquel reforça parceria com Eduardo da Fonte para ampliar Casas Azuis em Pernambuco",
-                  "fonte": "Blog Cenário",
-                  "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNQk5icHlZNTRPZUdQaFFydHlyeUZzc0Jhdk1uZWxEV0F1YkdsMWxpWGdpaExmemJGOF95RGhVYXVuYmJ1WFNrTmxjQ3lWTzlfRjR3eDdZT1YtdmJLYkJ0M3ZWaE5GQlR2TVFYNWd5V28wVXhrbGxKeFZSbXhiTDhzaXNjdmhCUmpwSXotQTJzR3lqUThaM2tkeV9GZVpqLTA0N08zVVdMcGE4RnpzSjVTQm82S0dRMFUtcE1aV093?oc=5"
-                },
-                {
                   "data": "2022-08-22T07:00:00.000Z",
                   "titulo": "Raquel Lyra tem no Plano de Governo programa específico para pessoas com deficiências",
                   "fonte": "Folha PE",
                   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQRl8wMTVkXzR3TFc2eGNpeU1EalBBSW8xOEpDTFlGQkMxTFVKZzJYUWx6MzNnWFFMbVdackRQS2U3ZFdGMmN2ZU1ZRVRBZkNZUEJQWmxGNVlqbTRZLVdrTEFhc2xBRHFLYUJsY01JbVNSR0hncF9UVU80eGJCeVk3Q2FDSDNpWnpqTVVTVFRrajFpcXhhWXRKUXZfUWRYUldYdVl1M0tSQmFQOXVuRjMtWW1RbUxMamNReGZHai1kQjFzTkhjZlRldTNLY0V1X1ZHeXRTVFpjeEFzQQ?oc=5"
                 },
                 {
-                  "data": "2023-04-05T07:00:00.000Z",
-                  "titulo": "João de Nadegi pleiteia ampliação de políticas para pessoas autistas em encontro com Raquel Lyra",
+                  "data": "2026-09-24T07:00:00.000Z",
+                  "titulo": "Raquel reforça parceria com Eduardo da Fonte para ampliar Casas Azuis em Pernambuco",
+                  "fonte": "Blog Cenário",
+                  "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNQk5icHlZNTRPZUdQaFFydHlyeUZzc0Jhdk1uZWxEV0F1YkdsMWxpWGdpaExmemJGOF95RGhVYXVuYmJ1WFNrTmxjQ3lWTzlfRjR3eDdZT1YtdmJLYkJ0M3ZWaE5GQlR2TVFYNWd5V28wVXhrbGxKeFZSbXhiTDhzaXNjdmhCUmpwSXotQTJzR3lqUThaM2tkeV9GZVpqLTA0N08zVVdMcGE4RnpzSjVTQm82S0dRMFUtcE1aV093?oc=5"
+                },
+                {
+                  "data": "2022-08-22T07:00:00.000Z",
+                  "titulo": "Raquel Lyra cria programa específico para pessoas com deficiências",
                   "fonte": "Diario de Pernambuco",
-                  "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNbWxEY1Y5NzVwQXpoQkxrd1RLWkpDWjhrVC1UTTIzZDRSVUVGRU1TN0h5Tk51eGU2S2xpVndLZ3FZS01CMlQ3SXJGOVpWZVNUb2w1cEtWUmZhNkxqN1F5TlY1MFVRMmJ1OUc5N1NUaks0VXE2SkEyUTBEQ2VnQUhXU3p2bHYyemdKMGctMnZfQ1FZcGRaeXM5WlZfQ2tBekhvdVZoYXdjampLUTRRRVJjY3NwU2d4MUk5bEJWMnZZdjBlc2MzNlRfV1lHeDBRSW1aSWhTZA?oc=5"
+                  "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQNWtEcllJZEhNdDlReFVPU054S0UxdEZBS1ZnZVg1b2ZUeU9NQ3lOcWo1N1A0VzlpUkNqeWtTM1BOQmdiM1pmQjBkWE05NUhkM2NFUFlxVVFaakIxMmFRSktxbF9xS3FJRlZ5Slk1NXJpYTQ5NmJvYjhzd2NjcUFnWnN6RDROWWZFdW5JSmUtSmItNnNQbUNlb2dkLUxDcE9UMU5oZFBlT0NuR2VkMUEzTEl0QUtNLURjQ05pMDRMWGJnQ1JHSWxfTFZiVHBxLWc?oc=5"
                 },
                 {
                   "data": "2025-12-29T08:00:00.000Z",
@@ -11937,16 +11972,16 @@ export const mandateTree = {
               "descricao": "Em 2022, havia cerca de 24 mil profissionais nas forças de segurança. Até o início de junho de 2026, eram pouco mais de 32 mil integrantes. A promessa foi feita em debate na TV Globo. Em 2023, a gestão abriu um concurso que possibilitou a nomeação de 7.643 novos profissionais.",
               "atualizacoes": [
                 {
-                  "data": "2026-09-17T20:44:48.000Z",
-                  "titulo": "Raquel Lyra promete contratar 10 mil agentes de segurança em eventual segundo mandato",
-                  "fonte": "Jamildo",
-                  "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQbkNGcjhkcTRDRUFMUHUxZm9SQnFkcktPUk9yMDdWQWNKbVdPNVQxY1dXX0NvRHR1cnVnOWUzMnJKbW9rVHQ4X2g4b2JlOVRWRkJGV0x3cDJGVXd3VDFyaElUc25HVEJxUUVqbDBhVTZUcXRiSUw5X21xZUQ0VEdmWjFEOGYyUzBIandvZlItRXJCb2phdVJUcUpKbUJqcWRScy1XZnd0U1JPSFA2RERTYjlra2dsMVhvZlJR0gHAAUFVX3lxTFBtNEtrR1RuSDRjZmZNcEhSV3B3S3BSUkZVWGxUY0hfLVJkekdyTjhqazIzQnE3TU9OVjZWdlNYNlZUMmF4YThVNjdaV3hkM2drU2dFOUJkUmxPcFdqTjcycThNZEFKb3pBczFfektJZkZVRnQxWXN3T0dzb0VEdW9JXzFDQzl3enUzMHQtZEZtalpJbGdaYWdSRHo2OXhWYzhCNjJlelhlRGZnZ05oTTUyLUpUVDhBUEFEQnp5ZHZHcQ?oc=5"
-                },
-                {
                   "data": "2026-10-06T07:00:00.000Z",
                   "titulo": "Estradas e segurança na prioridade de Raquel Lyra",
                   "fonte": "PressReader",
                   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNQVQ4RDAyc3ZYSUhQRFBNOGRmcE5aWlF4LVU3LURyNlV0ZjJDNEMxY0ZIUW5ocnZIXzZnV0lCdUdiZEluNzZITVFCV2tYZlVaMlZkcnJkWGcyWlRRY3NkajlIQUNtNFRwbDZMSU5PeHhVakNfSHB4c2lLNjhMMy1yMlNsd1l3dw?oc=5"
+                },
+                {
+                  "data": "2026-09-17T20:44:48.000Z",
+                  "titulo": "Raquel Lyra promete contratar 10 mil agentes de segurança em eventual segundo mandato",
+                  "fonte": "Jamildo",
+                  "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQbkNGcjhkcTRDRUFMUHUxZm9SQnFkcktPUk9yMDdWQWNKbVdPNVQxY1dXX0NvRHR1cnVnOWUzMnJKbW9rVHQ4X2g4b2JlOVRWRkJGV0x3cDJGVXd3VDFyaElUc25HVEJxUUVqbDBhVTZUcXRiSUw5X21xZUQ0VEdmWjFEOGYyUzBIandvZlItRXJCb2phdVJUcUpKbUJqcWRScy1XZnd0U1JPSFA2RERTYjlra2dsMVhvZlJR0gHAAUFVX3lxTFBtNEtrR1RuSDRjZmZNcEhSV3B3S3BSUkZVWGxUY0hfLVJkekdyTjhqazIzQnE3TU9OVjZWdlNYNlZUMmF4YThVNjdaV3hkM2drU2dFOUJkUmxPcFdqTjcycThNZEFKb3pBczFfektJZkZVRnQxWXN3T0dzb0VEdW9JXzFDQzl3enUzMHQtZEZtalpJbGdaYWdSRHo2OXhWYzhCNjJlelhlRGZnZ05oTTUyLUpUVDhBUEFEQnp5ZHZHcQ?oc=5"
                 },
                 {
                   "data": "2026-09-18T07:00:00.000Z",
@@ -11965,12 +12000,6 @@ export const mandateTree = {
                   "titulo": "Ao entregar novos equipamentos de segurança, Raquel Lyra diz que Pernambuco vive melhor momento na área de...",
                   "fonte": "Jamildo",
                   "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPVnZ6QUNiTG0za0J3ZzlPQnE0a1BUY3ktNnNfOGJkSEsxdDhhNkxhU2RtTERvaUdILTVPS2RHLUF1NEluT0FnaDM1WHFISUVUNXBVQjQta0lVT3RpYk5Dbnc1cW9QUTcxQzBJU29PYU9SUEYwOUZiWlhJejZpb0pzN3h1dlJMVVk4NDZqT2d3TlpHV2tpdkVudWhpYWtHSkNxMnZPMGJvWEtMcEZyampRVEgybzJBZFZMckQzOVRMem9xQ3lQWURpa1hyb1prVDMycDVBenBMaFNjd29UN3JITE1xMGNfSm96SGZablZkUzFabTk0TjhLbFprbFHSAYICQVVfeXFMTVdHMkludnNUUnBtQ041bVRBbFZWamFBYWtuVVVRMXYtU3E1a2J6SGJIUkNrUXhkazFYYnhXOE1CRWVaWUFKSEtVZ1hneFlpX3k0cTBYTDVDSmY1N295a0VlbW5xQ1VRaTZ1Z01wZkhQb2xvUFRfWnhKVTA1UXlDRWx5Uk5ZQlk1SDN0bHRBM3hYa1FmdzNrdTl6ZWJ2NnR4bk9wU3puZU42aFRTNkJKak80blN4RzRNcnFwQ3QxQjgyVHUybHRFdjV2YnAxMEJYdDdsUHZVb21xLVdLZ3ZaNDBHcWVDUjZYTHNYeWVIRlVHNGRJTmRFSTEwalI4ZnFETFFR?oc=5"
-                },
-                {
-                  "data": "2026-06-05T07:00:00.000Z",
-                  "titulo": "Pernambuco reforça segurança com entrega de 70 viaturas e mais de 5,5 mil armamentos",
-                  "fonte": "Francês News",
-                  "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNZWlOVkZ2THlTazFiVWZlLUxnaUdZSnVkNmpDZmVqVWZyb1ItWWNMd1ZqdWhuVTRUMDJMWlp1Rlo0bnozeVIwS09vWWxqZmI2YnhMeVd2LXZGOFNCbEp4S1Y5cExQdGRhUS1Tb3QxVTA4ZE9TOXVnYUFTajNwQzVDbWwybHVKMVBOTnJQNEtKemdvSXJCektUMDR3YTV1WUpVNnVQcTlZckFoQ2FMZ3I3RWRqSVFQSUpTejV0ZUNGSi03dVpnVzVpb1p6M1A?oc=5"
                 }
               ]
             },
@@ -12057,12 +12086,6 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQMi14QWJGZl9EeUdZRUNNWnlmZzROcmt6S3dWRjA4Mk41Wi1UUVlaUDd4bFFhU3hlSk9iLTNjR0tLbnBtUTE2Z0hmUFNzcFVQc25yU1RxZkRkUmJjMGE5X1dxZDhPQmVjTGJLX2NBYU11UWQwcnRaNkZIVDBlYVNfd0pUUXFuWm9hdmw1OHRHNkJtT1Zlel9MT3M0aDJ2N2RGc2dWT0oxRF9ZaGhJUVZHQXVSSk01RW1pYm00aFdPU2hVUGpST3RyaGRzdlNpTGNsLUdTdkVta2ZyY1hHTUlRcTJodGo4d0xIMmd6NtIB8gFBVV95cUxORzVsN3Z3WkNVZC1VV2lVSVVpSkNVWkIzMzJDUnZTQW5QeVY4U0JvQmdaOGs2VURTS1lCNmU3LWdGdG45X2M0QVUyeUI3SWtYS3R3NWxzVGNYb2ZUR0JhMzdNOWFhTnV5emNsdGdmZkJYNmJUajYzWk5iV3BObEJaMU85UnZja21GMDhUWlh1WHgyWmRhUEUtTlh1Skpudlh3dUwtWjRTWG9uYmhrcy1ZTkhtNlhJMndCblBGV2Z5cnFnRWNINzBOMWdfWlpvVTQtRC1iVEZyQnQzZElHcUxQVkxnd1JuckRUbmQtZmlTODJ6QQ?oc=5"
                 },
                 {
-                  "data": "2026-09-28T07:00:00.000Z",
-                  "titulo": "Raquel Lyra promete deixar todas as Delegacias da Mulher funcionando 24 horas",
-                  "fonte": "G1",
-                  "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPRUE4WkxpZ1ZTVnc1dWFxNXRmdDE0TmNuMFNXX29FdGlLWDJVbTZDMUZLbkVhZ3pnLUN4ZmdGMWRvYzBoQnZBd1V6cWxWSm1BZG1OX3Y5eU9CNGZ2NW5SM3ZOYmdxZ0tFVC0tRVR1ZUdVU3FsV25VZ2h4Qk1uSmZlWXpWYjdjX1pZQUZLZ3ViVTkyOG5JVi15OXc3WlM5RzBDTXpKQnIyU2lqLW02TGZGU0JxbldQV29jVkxnZ3R4Q0k2WU9BM1pSYk5vaUpSQdIB3AFBVV95cUxNZm1sOU9tVVFGVFc0VDN2VmVIaEJfMFV5LW1ENW41RlA0S05sc3Zwa2tTa28xVE1reW15Q0lNTms3RlE3S0p6Z3NsNVdrLVRiMTVwZWVfYmpFOS1WMzFsZjFSV0lMa1llVlViZHJlRk00LThDUmdCNU1KLTBab3RadHBjWmtkNC12TXFMMUtON2sxZDhHT29OZFVWVGd3UHJTamRNbXp5cmNSWlFkT0JQZFVJNUlCTU1NeFphT2hGM1lnTnltRnV4Wk90NU1YeUtBUXpORWoxVmJzeUo0?oc=5"
-                },
-                {
                   "data": "2026-07-07T07:00:00.000Z",
                   "titulo": "João Campos cutuca gestão Lyra e promete delegacias da mulher com atendimento 24h",
                   "fonte": "Diario de Pernambuco",
@@ -12085,6 +12108,12 @@ export const mandateTree = {
                   "titulo": "João Campos promete Delegacias da Mulher 24 horas em plenária realizada em Paulista e amplia ofensiva política em reduto aliado de Raquel Lyra",
                   "fonte": "LeiaJá",
                   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPNTZQWlI3N0lzdmdRZm4xYU16ekdBOFpPbHR4Z1NMNllQS1NlZG1oQmpfNHpPa0thQWZHN2FWaFMtSnRYMGVvVkUzTUZfcUN4V0txbkJiVFF2Tkg4OU80YkF2SlFEY05YV2R3clBIeHZLbjZ4Z0tvaHFFemRDRUxnQ25ZYVRHdXlqNERQQm12UG5IZHZtODJGNw?oc=5"
+                },
+                {
+                  "data": "2026-09-28T07:00:00.000Z",
+                  "titulo": "Raquel Lyra promete deixar todas as Delegacias da Mulher funcionando 24 horas",
+                  "fonte": "G1",
+                  "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPRUE4WkxpZ1ZTVnc1dWFxNXRmdDE0TmNuMFNXX29FdGlLWDJVbTZDMUZLbkVhZ3pnLUN4ZmdGMWRvYzBoQnZBd1V6cWxWSm1BZG1OX3Y5eU9CNGZ2NW5SM3ZOYmdxZ0tFVC0tRVR1ZUdVU3FsV25VZ2h4Qk1uSmZlWXpWYjdjX1pZQUZLZ3ViVTkyOG5JVi15OXc3WlM5RzBDTXpKQnIyU2lqLW02TGZGU0JxbldQV29jVkxnZ3R4Q0k2WU9BM1pSYk5vaUpSQdIB3AFBVV95cUxNZm1sOU9tVVFGVFc0VDN2VmVIaEJfMFV5LW1ENW41RlA0S05sc3Zwa2tTa28xVE1reW15Q0lNTms3RlE3S0p6Z3NsNVdrLVRiMTVwZWVfYmpFOS1WMzFsZjFSV0lMa1llVlViZHJlRk00LThDUmdCNU1KLTBab3RadHBjWmtkNC12TXFMMUtON2sxZDhHT29OZFVWVGd3UHJTamRNbXp5cmNSWlFkT0JQZFVJNUlCTU1NeFphT2hGM1lnTnltRnV4Wk90NU1YeUtBUXpORWoxVmJzeUo0?oc=5"
                 }
               ]
             },
@@ -12247,10 +12276,10 @@ export const mandateTree = {
               "descricao": "A promessa consta no plano de governo. Em municípios rurais, houve a instalação de 92 dessalinizadores, em 25 cidades, atendendo a mais de 18 mil pessoas. Também foram entregues 21 sistemas de abastecimento rural que atendem a 16 mil pessoas e instalados 54 novos poços. A meta da gestão é instalar 400 dessalinizadores. O governo afirma que foram investidos R$ 100 milhões em saneamento rural, o que viabilizou a instalação dos dessalinizadores e as outras ações de ampliação do acesso à água.",
               "atualizacoes": [
                 {
-                  "data": "2026-04-16T07:00:00.000Z",
-                  "titulo": "Governadora Raquel Lyra e ministro Waldez Góes autorizam novos trechos da Adutora do Agreste e entregam 43 dessalinizadores",
-                  "fonte": "CBN Recife",
-                  "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNNzZUbkdaY0xBWGJfTnk0dnVnLXg4RHpOWldlWWEwX0YtQUpnUl9feC1MN2QwdFVsSE55Vy1WdFBSQl9ZRTR4cm9uS1hZeE1wWl9udHdvbVVBTVo1Z2RJZ2ZieE8zNFNxSV9iNFRSeTgtcVR4ajBHOFUwNFJuVlBXeTNndUdFVWhYcFdWVWNhUEw3ejV0cUJOLURsMkoza1FjNlk4S0NMaGhkYVBmdWVFQmFpS0lsd1k1UUM0QXNEMV9nQkl6cXhxZzFLenQxQXJmSVZ6UVlUNXQ4eWZYVHdmYzkySE9tcXdVVHhpRVJtWS1HWDFaV3UxQWozQlZuWk9qNXNGVjdJaw?oc=5"
+                  "data": "2026-09-11T07:00:00.000Z",
+                  "titulo": "Raquel promete ampliar abastecimento em Pernambuco: \"Quero ser a governadora das águas\"",
+                  "fonte": "Diario de Pernambuco",
+                  "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPZWxsaGVMc2todGw1Q18tNjd4dUNuVDY4VmRlS2ZCMWluV3NXLXBUMW5rWmJjYzFXVmx0NDdBUldzRTVEMDJQS1RZMEhGZlhPQndfYXJCcE9lc3pVS1dKc1dwUGpvNlNSOC1jbjUyN2ktX1YzaXhwT0tCdHBNcWMyUGY4TjNRSDRxbTRKTGZnaXh0dUVldHc0NlJDbF9GWU1TTDFKa0JjNlZCWGREZVNpcXFxVEhIRzcxNUJ1X3RUS1ZOeUNDLWdjLTc4VkduNmEtYkRKRXFkNnFIMXJwd0h6eXhHTnA4S2wyNlVOdDFB?oc=5"
                 },
                 {
                   "data": "2026-06-27T07:00:00.000Z",
@@ -12259,16 +12288,10 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNWnV3VURWTVp4S2VaSWl2ZUxqLXFoTndoVTBZZ0g3R0Vmd0djcGlUNEJReUhIeVpHcENQMDFnNlJxRDdzTGwyZGYzd3lXVzNYTmFUcHEweEFaSGtDaTJwWjFRdUl3MkRScXJSZ01RNDFyaW05Uzh0c01NZnk5N2ZwMHBsdWMzTmdZOU9aNVVsUURtelNzV2g1U1dDTTg5YU1jTXpyMEdSTWdhM0ZncFFvZVNB0gG3AUFVX3lxTE43akMtMy04UVlCQTZHVjduaVlKVEo0djdFVjNkXzU5ZHUxZHpRM3F5end0MVlZaERGak1Na2tvZV9nNVlYWmpEaWpZcmRpOGtYdDJxSlZ6M3dVamYyVlh3eUppTkM1VDBxejh3Q0d6RnREdzBqbTFZU1ZvOFJqRy14cUxkWGF6VmFZOE9KdzZyTWlBT28zMWJsS2hmTk1JMWphZ2hLd1RyTlVhTE1oV2M5UHY2UVFEdw?oc=5"
                 },
                 {
-                  "data": "2026-09-11T07:00:00.000Z",
-                  "titulo": "Raquel promete ampliar abastecimento em Pernambuco: \"Quero ser a governadora das águas\"",
-                  "fonte": "Diario de Pernambuco",
-                  "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPZWxsaGVMc2todGw1Q18tNjd4dUNuVDY4VmRlS2ZCMWluV3NXLXBUMW5rWmJjYzFXVmx0NDdBUldzRTVEMDJQS1RZMEhGZlhPQndfYXJCcE9lc3pVS1dKc1dwUGpvNlNSOC1jbjUyN2ktX1YzaXhwT0tCdHBNcWMyUGY4TjNRSDRxbTRKTGZnaXh0dUVldHc0NlJDbF9GWU1TTDFKa0JjNlZCWGREZVNpcXFxVEhIRzcxNUJ1X3RUS1ZOeUNDLWdjLTc4VkduNmEtYkRKRXFkNnFIMXJwd0h6eXhHTnA4S2wyNlVOdDFB?oc=5"
-                },
-                {
-                  "data": "2025-12-18T08:00:00.000Z",
-                  "titulo": "Raquel Lyra diz que concessão da Compesa marca nova fase do acesso à água em Pernambuco",
-                  "fonte": "Jamildo",
-                  "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPWWxablVYNTVLY2N5aFBwMUR5RTZ0eks4NkI5YTJtdVROM2paakxvYjdmQ2NVazdnMjBSckZ3M0daN3FVTGtGSDFXREhPMlVsblNsbHdnck1hT3RTZ3lZQW9sZFpEdlRSZ1Rka3hTSEg5cllmY1VlaHhMZkxQQ0pFOHdjMDMwOGFuRTJzVFZKRmxoMmZxbEZJNUl4TUQ1RVR6YUVxU0xyRXYyazlyX2tEaG9WWkh3OHZaRDZBRzRB0gHDAUFVX3lxTE9Ua0wzX1BOeWRXckJqRmQ5enppOVc2NmhzTWJOQzhNaFVzOHpRejNCbmtVbXJ4bE1Sc3ZMSUJ6SGJTMEIwbHQxdlRPUkstSXI1Y3o1UDNQTm5Ib2FYblg1b1VyTVB6Y3FQMkRzTjBvT1ItOW14SF9RdGI3am5lUURCZlRvVmYwZmc5Z29wUk5pTTlqQUxobFF4UGFQVVdLYkR0cDFxN01INGE0TWFqcTc1b2dTUTV3UjJiM3RBV0pDQmZVcw?oc=5"
+                  "data": "2026-04-16T07:00:00.000Z",
+                  "titulo": "Governadora Raquel Lyra e ministro Waldez Góes autorizam novos trechos da Adutora do Agreste e entregam 43 dessalinizadores",
+                  "fonte": "CBN Recife",
+                  "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNNzZUbkdaY0xBWGJfTnk0dnVnLXg4RHpOWldlWWEwX0YtQUpnUl9feC1MN2QwdFVsSE55Vy1WdFBSQl9ZRTR4cm9uS1hZeE1wWl9udHdvbVVBTVo1Z2RJZ2ZieE8zNFNxSV9iNFRSeTgtcVR4ajBHOFUwNFJuVlBXeTNndUdFVWhYcFdWVWNhUEw3ejV0cUJOLURsMkoza1FjNlk4S0NMaGhkYVBmdWVFQmFpS0lsd1k1UUM0QXNEMV9nQkl6cXhxZzFLenQxQXJmSVZ6UVlUNXQ4eWZYVHdmYzkySE9tcXdVVHhpRVJtWS1HWDFaV3UxQWozQlZuWk9qNXNGVjdJaw?oc=5"
                 },
                 {
                   "data": "2025-02-05T08:00:00.000Z",
@@ -12298,22 +12321,22 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOV0FhajFxRXlyWkpwZUloY3p2Mko5ZThFSXBkY3NXSjVDQnc3UmRWNjllSUxScGp2eWkwYWN0ZkFHT0ZKR0gwdDRfX1JYcm1KM184SEJLYzdwMVE3QUs3d190ZlNTNVBLRzZNb2I0OFlPZC1GT2tLSURrSTV4VXRKcGU5cm9xS203WkNnVWU2alVnYkNDcUV4UG5WanNYLWl3NTF2a1RXMWdfZTE5OVNDVnJjVmU4eFNjM3dQNmdERU5PVVphVnc?oc=5"
                 },
                 {
-                  "data": "2024-07-27T07:00:00.000Z",
-                  "titulo": "Raquel Lyra assina empréstimo de R$ 1,1 bilhão para produção de água pela Compesa",
-                  "fonte": "Jamildo",
-                  "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZjBTM3hKUW10RU43YVp0ZlBmdFFteEVmbzBDV2tFRHZpYmR1TTNSWDhoc1o4dFlPdWI4MGkxeXVKMS1wZlBjN3VGYXNGQjFERDRsQzBENTNkNGtUMVJ2OUhka1hLNEJ2R0NRbXVpNlRCNnR4ZUV1akR5T1lwdEJNSEhFaFFkTHFOVTFPWGNCVllJR0M5SzhHRlVjdFE1M21FUDgxTTRYZk1QX0VSeUtlc3Jic9IBuAFBVV95cUxQWmZndnB6NkV2eUR1Sl8zM0ZLZVY5Ykd6M3piM0l3X0VlNDh4UWFOZHNxb3VKZUxELXZKdmhGVm5QM0tiYXJQMnRvMUtyUEZFMVpwSmNhMkd1a3ZEeXZKNXBJNnVmZ3FRa1pIazFvVlF5ZTFRdjNqb0ZGOU1nUTZRLVJCd05VZHhDZjBVTUxoNGVVWkI2Y2plVUxwMXgwQ0lwVEhpMlBCci1HakwtM05qOHlfMHNKd0lR?oc=5"
-                },
-                {
                   "data": "2023-08-11T07:00:00.000Z",
                   "titulo": "Raquel Lyra celebra conquistas de Pernambuco no Novo PAC",
                   "fonte": "Folha PE",
                   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTkFMUFNoRDVYS1FKZjF0RGtMekVKM2JoUUpVLXB6aWUxdUFDdzdaU29GOXZzLVR4U2R5SUgzQTYwenBsNTlSQ0d6Y09nakpNZ0ZueEFqc0hlbkpUdWhWZklSdURPdUVzSWJCUzVoYURHUWtrTWQ4QTc0YkJVRXE3YnRJQlNiQ1ZNYVJ4bVROUk1LVjhzcjFUbTdTSkFsZWR3aE5yX1pJemRDMzU3NlI4VThEcw?oc=5"
                 },
                 {
+                  "data": "2022-08-18T07:00:00.000Z",
+                  "titulo": "Raquel Lyra visita Alto José do Pinho e diz que vai concluir adutoras e barragens para resolver falta de água",
+                  "fonte": "G1",
+                  "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxQeVMtaWNkYzI3b0twSmQ3VVFGa29td1FJd3VEU3ItY2VTOWZleDBaZ1k2WlpXc2U1enpnTzVlNlpQWHlaR0dudTVvMDhpLWhHdURGb3U0VG5sREo1akdhWFZITXVFM3NyZkFDc3hoLXFYTmRoY3ZSWmcxaDZ4VVVKb0FzOFRYVVZ0ZEJGUnF3eWxNZUV1TVptUjBxYTZibkN3VnRhU3ptcWx4U0xfemtkc2d6MGRfeFRqMXVNcmVFMEViMFZJVlVqTWFmMnpxakxxWWstUnM5SGNuUHY4dG5KMFFrUk9FMl9UVzE1QmhIX09RaEI0d0YtQmZKNDVMVmpDelB2RGdlNnEwalpWZzk3dtIBnwJBVV95cUxOdVFMd3Jid3RYbUdIdVpnbkhWTFJvdVV6XzN1VmxtZFRscWxoQnpBZVI2YXc3UzRqSmx1S0tyTkNoU1RhcFFmZnRLYzhENkxJMEdVUUFkaUZNYUVNclhzd1VwSU5iczgzcHVTcS1KWmdqdEt4a1BMUmRBem1vV0VzZ2NMbWR3STZVdVMwNUI0dnlRWm5tVkhRaExTTloyOHZZY2xuMG5oZGpJVHNmOGZ5azRtTkhVZlVVc0hLblF4X2dPWU51RzI4cUg1cWJWbTBfYklVaWtVSXhtazNOa3VTNDV5SllLeHJlU0ZJRGpoWEVneFVKLXRvVFlaVXkwek9neDlacDNua1JlWnFIdWV3MDc4Ql9ObUNjckwwbVNRcw?oc=5"
+                },
+                {
                   "data": "2022-09-09T07:00:00.000Z",
                   "titulo": "Abastecimento de água no interior: veja propostas dos candidatos ao governo de Pernambuco",
                   "fonte": "G1",
-                  "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPdWF1WlNEMUFLRFdoWVZZcEdpeF9FT2V2ZFk4ZVdCZUNGcWJ0R180OEhNVldxRlBHbm51c2hGT2NiRGZISkJrb2VEZUR2V0VQZVhMR1FvbnI4ZkwzRnY1X0Nwcnduc1JWMENfZFdxT001UFJ0QXg1TG5ocFVIOHk5XzA5NFM3QXluNWJSczI0NUx4TTFHVldrcmZORGFwQmd3LUF0ZXVReHpTblRiQmFSeFY1eGZVRTg1VW1FWlF3TWtFSHdJX2s3dnZzcHNGLWRRTjhrX1Z4eS1RdDJwa3pTd3VZbXNVU1JUaEFiRDV0Z0hBSDdV0gGDAkFVX3lxTE5JQWk2cWpBcjlnRkQ2bm1uM3J5ZDU2UWtCSERHekt4ZGNFT0x3bm1MSGVFSHF1dDYxWU5NdFVGZDRnaURjUC1yV09XQV8wQXZ3WlFjSEluUEFCVG04X1Bia0l6ek53VXl4THRVaF9CWkN0LXpmamV5LVY3Q0p4T2FwbWREaVlZZXFSV0JmUzUzRWlBbWF6c2gwd01vMGNVZDNlYllKLU5kYkhtekxZZUlreXJOU3I2TTBmUVFwQ2dtS3ZVeVhyZVRwZ0hWZktOZ2RYSGVnZ0VWUUlNVEFmV2pOZDJWM0ViY0dXc0pUV0w1Q0w2d1gyTThyWGZ6QkRNZnhPLTQ?oc=5"
+                  "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPdWF1WlNEMUFLRFdoWVZZcEdpeF9FT2V2ZFk4ZVdCZUNGcWJ0R180OEhNVldxRlBHbm51c2hGT2NiRGZISkJrb2VEZUR2V0VQZVhMR1FvbnI4ZkwzRnY1X0Nwcnduc1JWMENfZFdxT001UFJ0QXg1TG5ocFVIOHk5XzA5NFM3QXluNWJSczI0NUx4TTFHVldrcmZORGFwQmd3LUF0ZXVReHpTblRiQmFSeFY1eGZVRTg1VW1FWlF3TWtFSHdJX2s3dnZzcHNGLWRRTjhrX1Z4eS1RdDJwa3pTd3VZbXNVU1JUaEFiRDV0Z0hBSDdV?oc=5"
                 }
               ]
             },
@@ -12339,12 +12362,6 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNTHdtSTNHR3Qwdm8zSVJqOENxLU14ZXJnV3YyWldEU29RaEE1bnl4ODFNaWY1TmZSSmZfMlNhS3E4b1JoLXVIbnlFZ1FhSWRBNm9JSkp3RTZXZjFCZEp5UVBrdTRFaWNhLUpVd25COXpMVnlQQktHSFU1TTRIUk9lTkNhUU9TdkpvSmRlWDZyNVpUZw?oc=5"
                 },
                 {
-                  "data": "2025-12-12T08:00:00.000Z",
-                  "titulo": "Governadora Raquel Lyra autoriza início das obras do Arco Viário Metropolitano; saiba mais",
-                  "fonte": "Folha PE",
-                  "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOekI3ZFdnbTdrZTdkXzZjaktRU20wcTExQVdVOXNzNUFTQ243Tmxodjk0c1VUTkQ2VkZvQTRpZHA4RU9RUld1bEFfSnFlZGpsRnpkQXU2S0pUTFRJWjhZcXlNMVZNOTBuRDhnZmJsSWM5YWdzZklYZFMyTkRjYktVdHBlVVIzRmlKb24wNzlRYUQ4RDU4bXlrRnk0cG41NmtTWDFjTjNwQ0pWQ2hJRW5VamJTM2RmNHRjbTc2eXBRZml4OWpfYkcyTEJzREk2MXg3akYyMVU1T3JZTUtfOUQ2YzFKUQ?oc=5"
-                },
-                {
                   "data": "2025-12-11T08:00:00.000Z",
                   "titulo": "Base da governadora Raquel Lyra na Alepe comemora início do Arco Metropolitano",
                   "fonte": "Jamildo",
@@ -12361,6 +12378,12 @@ export const mandateTree = {
                   "titulo": "Governo de Pernambuco autoriza início das obras do Arco Metropolitano",
                   "fonte": "G1",
                   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWEgxQ0NRX1B2RmtRYU1JZjFVNjdRN19sRGl1S0RQRldXOGdhY3lVWlFHME5OMHluODU2V3NCUmRSaGwtQkNyNHN2a2p2bTV5WkRoOUhDVTRRc3VxOUZyckFBRDlfdDRMR25SRV9vV3l1bFgyZ2VRMk85RmlZTDRTdlg4VFhudTljOE5VemtqOHozaWtsT1ZvTlFDb3JIeVhlV0xKNdIBswFBVV95cUxNa0ZDMlQ5VUJ4czNkM2ZtVThHMmNUaHZ4bnoybkp5SGxSS3hZdnc1Sjkwa19lTHNSX2tUa0FXTEo1NS01aWZqMUwyaFlqdGZvTGZYREstdmZ4REktYVlmdkxMUnhDU0d6a2ZCMVZkTF9JZzVITUFsM1l3RGxjTnFrenVSVXNmZVhrLVlPakdTWFhzcS1Jc3ZDRnUxSW5ESjhJamo0a3R2eXdZc3pkdERNMjNyVQ?oc=5"
+                },
+                {
+                  "data": "2026-02-06T08:00:00.000Z",
+                  "titulo": "Anúncio do futuro viaduto da Vitarella e Arco Metropolitano vislumbram novos investimentos econômicos para Jaboatão dos Guararapes",
+                  "fonte": "Prefeitura do Jaboatão dos Guararapes",
+                  "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1JbFlDUGRtYmxnTGU1ZmVTTUxzVHpHSURYTlRKcWZKN1BVeTBQdXdiLW1xM0haWVVEbDNRVktZVXpXUV9lUWNMR2RzNlZmYXZlNGc?oc=5"
                 },
                 {
                   "data": "2025-12-05T08:00:00.000Z",
@@ -12381,16 +12404,16 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNeEJMX1paampyVW1jczIxb0FQRWRub3NHTHd4bmVXREFpX3Z4UklQMW15bDkyQTA4NjF3aW1EVWxWSkVlSzQ5czVSMXd2OGVFQ3dFZWJDRlRkakVsSV9uN0pDWTRKWV9wVlVHem82ejBUaGhhcnJQdkNCNWVtejFsR24yMmhZRHl4MmdtcjBQVE5XQUM2OEhVNnB5OG5kc0FyT1Q5Y3ZhbjVkal9TNV82RHhzVDlIM1RIdkczb1FwQTlqZ0tJY3pXUWV4VzBFdk9zTFFYTWhBbkd5OE5sVF95S210Ny1HZnZCMlhtTUx1RU5uQW0wclBPYjZySHF4R29jTmgySFlR?oc=5"
                 },
                 {
-                  "data": "2026-02-06T08:00:00.000Z",
-                  "titulo": "Anúncio do futuro viaduto da Vitarella e Arco Metropolitano vislumbram novos investimentos econômicos para Jaboatão dos Guararapes",
-                  "fonte": "Prefeitura do Jaboatão dos Guararapes",
-                  "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1JbFlDUGRtYmxnTGU1ZmVTTUxzVHpHSURYTlRKcWZKN1BVeTBQdXdiLW1xM0haWVVEbDNRVktZVXpXUV9lUWNMR2RzNlZmYXZlNGc?oc=5"
-                },
-                {
                   "data": "2025-12-12T08:00:00.000Z",
                   "titulo": "Entenda o que prevê o projeto do Arco Metropolitano",
                   "fonte": "Diario de Pernambuco",
                   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNYXliNWdFR0FwZlNaZmxhZTU0V0dObnJIMXpzNGZYV1ZVaFZYNWRqRzVJR2tuVjlMS1hRcGVDa3ZyMlYxZFdvY2Rfc2NkZnctRENIb1daR2N0emF6V2pJMDNiVTdlSU5uTjZsOHU0UTVFenZjV0dsLXhLcmxSbWhfNDEtTHptaEphTmd0ZjBHY3dmM3kxWFNtRWJZOHk4MGhuVlZsTDdRakNxQXE4UWgtSWVyTzNld1h2T3RZN2l3X204SzdpOTIzZ09vWHk4MVRfb3o0OTdiZU0yZWk0VHlqc2dn?oc=5"
+                },
+                {
+                  "data": "2025-11-12T08:00:00.000Z",
+                  "titulo": "Governo Raquel Lyra já tem empresa para execução de obras no Arco Metropolitano",
+                  "fonte": "Jamildo",
+                  "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZVhFN20yWFM5TFJUd0JnR0xVcGFUcFYzdEFKSW5sZWdMTmhqcUpERE9LTXJUT1NSMFdmdGJ2UUNHTHZyb1VDZjlHeVc5bGRmT1ZpNVNjNmtnLTR4N204UzRuZnd5U0tJQnE3TlFTaUZ0SE5VVTVqR0FydTN2Z2x1TEhleGgzWDhUWUk2bUJRbjMydUtvT1Z5bmFyc1p3U01HRDlhWWJhMHF6VDJVanlKd0dvNNIBuAFBVV95cUxQLVB4SmtnV2Z5ZHNsUmhyNExtYjB4Mm1zODZQalhsYngydDVNb3ZGQWstYUhhNHc3MWpmWWxVTS1nY3BmZnlFYXdoZ2R2ZGt0VlMtVUJyWF9QclVrVWhKamRsQnA1LXJhREl5WHdTODRpQlloZ1hxdkFmbUEyalNNbEdLY1pjaktZSTZqc2xiazN2TFhERks1NkFHaWtpU3dPOV9LQVZLa19IaTJhWmtXdlE3WHlZWWst?oc=5"
                 }
               ]
             },
@@ -12426,10 +12449,22 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOTzRqQ0UwSmJYZ1lKd3ZaZnVrazhsamxrcFl3bEEtbTdvR01BNWxyaWVLWXVtNW96dGpBVmhrNm1mUFRDNHVkZzBmaGVLNEJoWldHTURLTnRFRFZGSlhDMDJ6Nl9OaDFZU1dDYkIzSnlWS1V4OVFrVDMyOWtTSHZwSUQ5dWlfMG9XT2E4amJSMVp1MzZKOG8tMWVSeERaNzZCanAtc3JTMUQ5Ul9wanAxNHlR?oc=5"
                 },
                 {
+                  "data": "2025-12-22T08:00:00.000Z",
+                  "titulo": "PE vai ter voo direto entre Recife e Buenos Aires",
+                  "fonte": "Blog do Ricardo Antunes",
+                  "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOWU5EN0lJdy1lOWZ5WG5WQmlaMEVYTlpIeVh5cHAxbjFWRm9JdjQ2dzFET0ZBeDBtbzZtaEU4SjEwRXNxbms0OFhZV281OGoxTVBhQlJWVWZsdmQzUEZfYlpSeVhnRG1rU0UxLTZ1UkVteExMUmNIWmV1bkhKSEI2ZHJkUQ?oc=5"
+                },
+                {
                   "data": "2026-04-17T07:00:00.000Z",
                   "titulo": "Aeroporto de Caruaru recebe primeiras intervenções e obras avançam",
                   "fonte": "Fique Sabendo PE",
                   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNT28tMUQ4b21LODRzMlZNN0pRN2RmazJ0Mi1tTTZ1OXZId05hT2hmUFJRTkVSMTBqNXNOTnZkWWk4Uk5mWWJ3TEhkc2JOV3gydjR0QWVZNjFCUkpGRF9wX2pzb3pzd3pxTVo1Zi1oRG84X3ZFMkRBMi1rZHUzNVJXZ3ZMSkU2a0c3QV9FTVBJVUtNX1JqYmh3akZ3?oc=5"
+                },
+                {
+                  "data": "2025-06-16T07:00:00.000Z",
+                  "titulo": "Com nova rota que liga Petrolina a Salvador, GOL aumenta em 16% oferta de voos no interior de Pernambuco",
+                  "fonte": "Diario de Pernambuco",
+                  "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNRGhsTXJrWjdwX19FYmNBX1RFbk0xLUk2VG43WEJUNlAtQTctZVRjQUpjRVZ0WjliN1RBT0xDcTI2NE42b3BKQWwzU2VtNHpwaWw1Y2FzRnVZSVBMNklZdFhDV083WWJoY0FtQVN5WlRBdXBOTHBjR09YREpMOVI4MUxKd216N1U1d0k5WXNIbEQ4MEVXWkVEOUFSdXdQOXRIU244akRKWHJuMUxHZm5heTdKWGFBTmM4djllNFRlcUdIN29hNFBYcHdsVm8tQ2tvYmFBc2ptaHVfdmtaR1hMN003ZnpiTjdhbjNuRVRMam9YbHhYaDd6eTRYYTIyeVE?oc=5"
                 },
                 {
                   "data": "2024-09-03T07:00:00.000Z",
@@ -12527,10 +12562,10 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOVG5ZN2ExZUx5MEVTalk5ZzlmTTVyTzdEeXVXaGJja3NlRHRZbWlPYzJ6SVlTNkMzcXJKQ1JMSFRBNlI5VVJkR09aSUhuXzFhbGtJbEU3bVhMM3ZpWldMb2lkT010VTNrUmE4VVByVDgxeGJhV3N3UHQtX2w1cXdndWxuMkZjRWpQQjBqNTdjenlscE9Zdi0xUGZaWkJmQTBYeGlWTGdFNHlITzNpNDN4WTZ3?oc=5"
                 },
                 {
-                  "data": "2026-06-10T07:00:00.000Z",
-                  "titulo": "Governo de Pernambuco certifica empresas com o Selo Empresa Verde 2026",
-                  "fonte": "Blog Cenário",
-                  "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPM0YzSW1mbXZrQ3VNdGhTVk4xZ1FrMnBSV1hfcHZfM0Z3a0Z6TGJpbk9MVl9TV1hGeXVFemJwRlFSUHpkN0o5ZTg5N2t1cDg5Zy1CZkoyekRWcEFnLXBxYXlRM1FwWUp3VGxmbVV2TlF5dEFjX0RLN0Q5SlpCdjE0eWpNSS1GeWxJSVZ0akI2NThhby05eVU5cGJOYkV6d2JoTEFHYldxWXRWQ3pD?oc=5"
+                  "data": "2024-06-05T07:00:00.000Z",
+                  "titulo": "Plantar Juntos: Raquel Lyra anuncia aplicativo com objetivo de plantar 4 milhões de árvores",
+                  "fonte": "Folha PE",
+                  "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5fZXJET1M0SUF2Zk82V05OVDlPRndjc1ZCSTdacXhyZTBTalQtdTAzMjNFVkNWX3BFWlMybHpTMVNVWloybjFXWnlRaURIWTF5clhyLUVCSW9uX2l2bnp5TVdjaWUzV2tlVUk1dzNMQjBaNmswc0F3MDhn0gF-QVVfeXFMTzd4Q2JDYndFQzNYQXFpb0VRUUhDRjJsa2tULW5BTXFvUnRHQmVlQndFaFFsWGJFNEFWQ0djM1pTeUZnZ3Jwa2ZFZ3duRGxGTnd6cEc3cklhSDE3WDgxdUV1TGJXR3NORTk1ZTZ3N1R6WnVKTHR6Y2g4b3hJZFJB?oc=5"
                 },
                 {
                   "data": "2024-06-05T07:00:00.000Z",
@@ -12543,6 +12578,12 @@ export const mandateTree = {
                   "titulo": "Pernambuco lança programa para plantar 4 milhões de árvores na Mata Atlântica e na Caatinga até 2026",
                   "fonte": "G1",
                   "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPaU9Wbk1BVXY3emVMeldRV080NG1YdWdUbnNjYzV1TUluUF91MXVBSE5Db0hMSTh0cXdXSU5vSXhTc0pKVHc4aDBlZWdVckhYYWhDM1RVZWdncm5SWWFjSk5ZNHZrZ3dXdWRfWUpmWFhVVXZiZ3pFaE1pc3M3NmR2YUlZU2otSFcxNDdCa0tRTmRiVG5faEttcVFrVHlfSjg3ODJ3bWJ2Zy1UX3lxREVRREMxTEJoTmhQWGY5dmtzQi1RTGpDZFhLLU5WN0NqRGhJVnBqOTBjcVl3SHFSM0ZUZ0I3dEhjSlVVaWtRUjlZUlhCQdIBgAJBVV95cUxOZGE4S2VJeDM2NTdMdlJ3ZHNlQUE0Y1FKdjNwSWY2eUVNSk5zTlNyWlpZSHFVZXFYMXc3MThaYmF3Z1k1ZVc1MERBeGRMbjM4b3pqZGZPajhuN2hYYWtfNkZMMThwY2hNQzM2VXRJOFdKa2E5aHhYS3lNNEFaNUktUnhCVUFWbUJKNUU1MVJhcGt2a1kxVzNodHFRZXR5R0JwbmFmZE9tUU5kd2EzMnBGRkZlZ1pIRjM2SW5McF9NclpYam5paHdPZ2loaDVPQ0dOQm1MTHlrbFc3RnJzWlhsUUZmU0lvbkpvX3JSbnhPaU1nUk9DbkxTTE1LN0gxZVJt?oc=5"
+                },
+                {
+                  "data": "2026-06-10T07:00:00.000Z",
+                  "titulo": "Governo de Pernambuco certifica empresas com o Selo Empresa Verde 2026",
+                  "fonte": "Blog Cenário",
+                  "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPM0YzSW1mbXZrQ3VNdGhTVk4xZ1FrMnBSV1hfcHZfM0Z3a0Z6TGJpbk9MVl9TV1hGeXVFemJwRlFSUHpkN0o5ZTg5N2t1cDg5Zy1CZkoyekRWcEFnLXBxYXlRM1FwWUp3VGxmbVV2TlF5dEFjX0RLN0Q5SlpCdjE0eWpNSS1GeWxJSVZ0akI2NThhby05eVU5cGJOYkV6d2JoTEFHYldxWXRWQ3pD?oc=5"
                 },
                 {
                   "data": "2024-05-29T07:00:00.000Z",
@@ -12588,6 +12629,12 @@ export const mandateTree = {
                   "titulo": "Câmara do Cabo recebe o Bora Empreender Mulher",
                   "fonte": "Blog Edmar Lyra",
                   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9nQnBsQzRoejdjOEg4YTBUTnA5dUM0RjdkbHRyaHhkNlM1RDNCYkRpb0U4S1ZxZlZnX1hEcVliUWNjazVUbElHdElaSE9QbWMxel9wcEtkWkRJRG5QRDQtSVNFampucTRzVHZRbUtzRTQ0aEhVQlMwWGFpbE5YZw?oc=5"
+                },
+                {
+                  "data": "2023-11-24T08:00:00.000Z",
+                  "titulo": "Governo de Pernambuco lança linha de crédito para empreendedoras",
+                  "fonte": "JC",
+                  "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbGxDblJyOHQtYWppM2NPRW5ScGlHRkVpVlBaY3M2NFc2RVJXcjMxT29IRXdSb3RZVm11MDJ5MXNVcExnZFlCRUd1aEx2WV9sYy1GbWpJX1dtaFhvejd4LWktUXRZQTRUUS1WZUU5VUtZZkhYYmpUMWt2bEg2N2RRNUpRNjJLaGJHTVFXNVE1MHBkM1B3OHhQeUpYRFo1czRIb1ZweEpNNHQtRDdfWnpnYUpxVGNiX2hn0gHEAUFVX3lxTE8wVUNxakI5d1dqd2w3UW5WZkVXdGJnYWtZUnMwYmJ1ZmxtZ2ktN0VXS0c2bXB5SGtHT2thMlp1Q1VhRDJmTmRreFZkdWlnU3BtTG14MmZpZElEZW13WklPTzBIQzFsZ0JRRnFRSDF3a2JaajJrbEh4LWJ3bE5pYS1kOTdqSl9MYlIwYzVZX01pcEYtWGhHcDJIdjdLSXJPOFlJVEw0ZzA0ejZCSDN0RFl1YXphbUJ5ZW9FWElvMEdpeW53NlM?oc=5"
                 }
               ]
             },
@@ -12749,22 +12796,16 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQNjNPNWtubzViZjRKOFVXZ09ydEdXRzMxckZISlB4X1dUR2ZxZFBsZUJzbHk1UmNXbi02MWZvTDJIY3Etbko2Q3ZhLWd1S01rUzRMTFdzamlzUXBhRHZVQ3ZXNHlCUzFYR2hpT01mWVBBVDJVeE9LaE1aYzM3Q0dVdzZHZkgxeThjWWdKcXBWcmRINjJMNHBmb2VscEJKYU1RYnNvaUpNMW9sbmdGbVU0cDJScHJZS2tnMUZubUt0YUl3bkdnQkR4Njg0a295YXBzVWF6bDlCRkc0aUJiVWlv?oc=5"
                 },
                 {
-                  "data": "2026-09-16T07:00:00.000Z",
-                  "titulo": "Raquel Lyra promete 250 novos ônibus com ar-condicionado no Grande Recife até o fim do ano",
-                  "fonte": "Blog Edmar Lyra",
-                  "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOejB1dUlCcVB6aHdDM2hxQWNaOGdFdzJsa295Y3RMa2gyU1RTdTJvNVRiOVJOcU5WWWV0X1BtdjZPSGZ2d0xrME9NT3htRXJjeFU2MUxMa2JiZndsdnEwQ09nLWNadVdFdHdwd2NyM21tMlphMVhTTTZXTV80bExjZ2szMGwwMnBMQjVGSkhSUkNQWkdnRTNuLXRRS1RhMW1IZWdUa0F2OGJBMzhwMXptYzNUSENNVlU4?oc=5"
+                  "data": "2025-12-05T08:00:00.000Z",
+                  "titulo": "Raquel Lyra anuncia ampliação do TI Camaragibe após MPPE apontar problemas no transporte do Grande Recife",
+                  "fonte": "Jamildo",
+                  "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOSXFENk1QM1dXa0kzN3Q2cmJjclp5X0RLX1EwaGFlcVoxVnRhekhPMFRhVFBpaGY4ZF9sQmZEYUVCUjdaazhvRmVTMlRpUWlmbnJxNjFTbjcxUnBldW5OQktKZ3F0VnFsczJJQWt3dFZFYVJONTNodnZoaGZNUmE2ZFlKVXhoUUliTWh6cUFsdWtjdFVMdjNRczlyRTlwcjlfWWlXNDBVNTgzYy13Nmk3UUdXS3Q2aFRGM3g2R1lIZlR6YTFET0N0czVTMms1OHRDOEt6TdIB2gFBVV95cUxPUDdaU1U0UE5Db1VDWXIwdHU3dklIZmtYemFDSTlqa1oxRjJDNy1kVG10akJJQ0FuRVUzaEh0X3EtNjcxNGxFT0c4dXlJYzBYSnMxTVNvYmpheXF4R29tMzNGSTgyZDBVRktGZ0FWaHpVRE4wVjU2dmJFU1JvbEZFdTlia3VGYW5ZQlVHYmI0dmV0T2Jid2hrZmNrZjlvb1F3ckRPcEk0cnR2RVNKcTNHZzVsZndRYmY0RU9XelBRRV9UNV85QjhfcDl1NzBfUzdlR3h6d2Y1UXpLUQ?oc=5"
                 },
                 {
                   "data": "2026-06-27T07:00:00.000Z",
                   "titulo": "Mobilidade na RMR: Corredores de BRT terão prioridade semafórica no Grande Recife",
                   "fonte": "JC",
                   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNWFpNbjlocm93NmVPRDFleE9PX3A4LWQzXy1SdkNHbG9FeGcwRG5qdmktZldzOFJDQVhFYVFXTU9tLVNGdnEwNW5qa2pDak9ENnpjLWFJaUhrN1Z6ZDNpX3hoT3c2cDRUTkMzWXRfSHBNNXNKTzZWMTVia2l1UzBXWENhdXNpeXRLb3hxeXdCUGkyTFFDZWpkT25NQ1lCRG9hY0tfRS04UTBBUGI5WldGU29LMUlJRERqaGlfbUJOdWVUeWdsU005d0xRYy1ScmF1TENN?oc=5"
-                },
-                {
-                  "data": "2025-12-05T08:00:00.000Z",
-                  "titulo": "Raquel Lyra anuncia ampliação do TI Camaragibe após MPPE apontar problemas no transporte do Grande Recife",
-                  "fonte": "Jamildo",
-                  "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOSXFENk1QM1dXa0kzN3Q2cmJjclp5X0RLX1EwaGFlcVoxVnRhekhPMFRhVFBpaGY4ZF9sQmZEYUVCUjdaazhvRmVTMlRpUWlmbnJxNjFTbjcxUnBldW5OQktKZ3F0VnFsczJJQWt3dFZFYVJONTNodnZoaGZNUmE2ZFlKVXhoUUliTWh6cUFsdWtjdFVMdjNRczlyRTlwcjlfWWlXNDBVNTgzYy13Nmk3UUdXS3Q2aFRGM3g2R1lIZlR6YTFET0N0czVTMms1OHRDOEt6TdIB2gFBVV95cUxPUDdaU1U0UE5Db1VDWXIwdHU3dklIZmtYemFDSTlqa1oxRjJDNy1kVG10akJJQ0FuRVUzaEh0X3EtNjcxNGxFT0c4dXlJYzBYSnMxTVNvYmpheXF4R29tMzNGSTgyZDBVRktGZ0FWaHpVRE4wVjU2dmJFU1JvbEZFdTlia3VGYW5ZQlVHYmI0dmV0T2Jid2hrZmNrZjlvb1F3ckRPcEk0cnR2RVNKcTNHZzVsZndRYmY0RU9XelBRRV9UNV85QjhfcDl1NzBfUzdlR3h6d2Y1UXpLUQ?oc=5"
                 },
                 {
                   "data": "2026-06-09T07:00:00.000Z",
@@ -12777,6 +12818,12 @@ export const mandateTree = {
                   "titulo": "Raquel entrega 40 ônibus e amplia renovação da frota metropolitana",
                   "fonte": "Marcio Didier",
                   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8xdUQxTGtFNDQ2TmRUQ0NpcVd6UVdad0hYeldRYjNWWk44alA0dU1DeGVvcGtVa1BtMlNGYVZDcmQzTEdXdHpWS0FuVS1DcmhtS1MxSEtOTUwxVzJuZTRvdzNWa2t0ajk3SFpocTB3?oc=5"
+                },
+                {
+                  "data": "2025-08-07T07:00:00.000Z",
+                  "titulo": "Terminais integrados: Com atraso de 11 anos, governo de Pernambuco lança edital para requalificação do TI Camaragibe",
+                  "fonte": "JC",
+                  "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNZUlXZUkzbUFmZFBmY0dkc1RPb1hZMDBNM19nVUU1M2ZxcWhjVUJVN3JxUVpsUi1uaVNUeW5lQzhXQ25ib2Jid1Z2LVFUUVNER3h6M0lHUE5WYkI3SkpPakQzSXprekhVSk1qVmJhSF8yQjlYN3AtZjhtMW56QllWbGVETFFZS2JOdjlnbkZqbzdfZUxTbkRwM29aOHlEVXhUUmR1Z0ZoaDZoSUFLaklWRXoxelVTRnd3ckVCcE5MTTgtLXJsbThYMXdXN05SbG9uVlFReUkzTF9TQWswWGc0Y0dMeHEzRXZQUWR4ODlUQ2dOMkVWUDN5NXIxV2tlSXVn?oc=5"
                 }
               ]
             },
@@ -12857,6 +12904,12 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPWEI2NVdJaThZLW9nOUJHQWJwZ1ZKZXVVbDJtN01jNjFaZlZXTHhyd3BMejdGYkhTMnR6ZTRZTjM4RUdNQXJMX0N2ZlVhZ1ZzZG5VUkEzOWRaY0l0Q2VNVERFNERDMUVsckNsUWFNMDRoZlNraE1NR1hmOUhSdHI5a1BoUnJZMjlFekc5N0xhMS00bFBndDRxYU1QTWVndzB2YjBxZlhuZEhqOUVSc053eQ?oc=5"
                 },
                 {
+                  "data": "2026-08-13T07:00:00.000Z",
+                  "titulo": "Programa Mães de Pernambuco supera 153 mil beneficiárias",
+                  "fonte": "Blog Cenário",
+                  "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQdTl6czlxNWtjSUI3NmhYUmdKSTlrRkZkbTFCQlpzTTdENDR5MVFJOGZrOG1YU2xDSmJ6WlNRY0pTQXZha3NwdDhhMFIzSy1EZ3pCY3E0dHNyMkUxSVNaNi1MbnlqMEpZRE1JdHd5TkpIQWRMbktzMUxSa2ptUTBmMHVNMThQb2I2c3hIQTYteFpPY3U5cEctZ0RB?oc=5"
+                },
+                {
                   "data": "2026-08-14T12:00:43.000Z",
                   "titulo": "Criado por Raquel Lyra, Programa Mães de Pernambuco já beneficiou mais de 153 mil mulheres",
                   "fonte": "PE Notícias",
@@ -12867,12 +12920,6 @@ export const mandateTree = {
                   "titulo": "Raquel Lyra lança programa Colo de Mãe para fortalecer cuidado com gestantes e crianças em Pernambuco",
                   "fonte": "CBN Recife",
                   "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPUXJwa2NjMnVuYVpUdWRVNi1feERrRVNubXVPVGFZMk5CZEZSXzFfWWdFNEF2NEIwazNudHREaThmSlJlazZUdWNGRWVVQ2JQSXBHUVhMYXVCTlpORWc3dnZ6bHRGMkRvczZnNWZBT19rMU1McFFlNFVhR21tTnNGWWtON0U5cjlySU5oSnJhbERYN0pjbG9YTngzS3dJQ3Y1UE5FSVVwYTlKSzI1UThjTklfaktZa2FfdEtCRXNLOG52bkg2Qzh0ajY3ZDYxRDJxcmtkY3J1WkhfR3RnZDhRbGs3N2VmNFZzcXc?oc=5"
-                },
-                {
-                  "data": "2026-08-13T07:00:00.000Z",
-                  "titulo": "Programa Mães de Pernambuco supera 153 mil beneficiárias",
-                  "fonte": "Blog Cenário",
-                  "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQdTl6czlxNWtjSUI3NmhYUmdKSTlrRkZkbTFCQlpzTTdENDR5MVFJOGZrOG1YU2xDSmJ6WlNRY0pTQXZha3NwdDhhMFIzSy1EZ3pCY3E0dHNyMkUxSVNaNi1MbnlqMEpZRE1JdHd5TkpIQWRMbktzMUxSa2ptUTBmMHVNMThQb2I2c3hIQTYteFpPY3U5cEctZ0RB?oc=5"
                 }
               ]
             },
@@ -12970,10 +13017,10 @@ export const mandateTree = {
               "descricao": "Os distritos ainda não foram criados e a promessa, que consta no plano de governo, ainda não foi cumprida. O que diz o governo: segundo a gestão, foi elaborada uma minuta do formato a ser executado, mas o projeto está em tramitação na Procuradoria Geral do Estado (PGE). ⬆️ Voltar ao início desta reportagem.",
               "atualizacoes": [
                 {
-                  "data": "2026-09-22T21:25:00.000Z",
+                  "data": "2026-09-22T22:00:23.000Z",
                   "titulo": "Em reunião com o trade turístico de Pernambuco, Raquel destaca avanços e investimentos para o setor",
-                  "fonte": "Blog da Renata Gondim",
-                  "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOYmxNN0xtRXhNQm1rZmZ5V0JLTWtxMVQzdC1VMnRZN3c3cEQyUmYwMkR0RUE2aEZiVUl6OE9PbExWTjRFU2s4bWJMLVU3amJta21yVnZiTnNydnppRWFockNWUEFvYy1vc28tQ3JtYzZvQVl5UE5yaHZMMGZmUklXMFJodm9SdFg4cFFYcVk2T2tjT1Z1TWRTMWhaNkVySlo1SVd4bndtZmdlM3c4V0I1ZENCZFg0NEdwaUgyRTNjSy13VDQtZ1E?oc=5"
+                  "fonte": "Blog do Finfa",
+                  "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOUXNxWElLSXNXUjZ3OXhaZ1VldUM0SW5tdEhJcXhsMkdPQVpxZmJJRVhyVHoxVS1uRE5Nc1BKRC11T2VDQnp3UmhPbXNaQ284VHdEX0czbkJfU0YwQnBfdFFPUDE1b0FLeGpjazQyR1h3VlJ2MWZQcTBHTHFzS3pwVEZQNWhEZlo5Sk93OFVBQTZjZDJzNG5xWVZId2JvcHk1VmZOMnB4cmJjVXAzYTV2MGZZYzFYaDd0ZHZSbFdQSEpRYXZmY29HQm1vWV9jOW9DQlBCMw?oc=5"
                 },
                 {
                   "data": "2026-08-15T07:00:00.000Z",
@@ -13033,28 +13080,34 @@ export const mandateTree = {
           ],
           "noticiasGerais": [
             {
-              "data": "2026-10-16T02:15:52.000Z",
+              "data": "2026-10-16T22:43:00.000Z",
+              "titulo": "Governadora Raquel Lyra entrega 41 moradias reformadas pelo Programa Morar Bem na Imbiribeira, no Recife",
+              "fonte": "Blog do Alberes Xavier",
+              "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPTG53cEt0aDN0MEFDdzJCY3dycm9IRVZhOWpXdkM3aFU5b29Hdlh2cUNkWkJGVWp2blNJT1EwcEZPYmk0VEZ2ZVl6VXZncnlxNWpwWXhpZHdGaElyY1lqREk5NFNtU0ZyVjRZd0RZZUdMX19zSlpuNWtDejV0TDVucGNZVFQ1ek9tUmxDaU1IbFl6T3dQZnVKMXlxSXk0dm96bF9jakczZzBJZV9Wc2oxb1JUaFYzblFLckoxUEJPZjBtaXRzSXdUZ3llS0FGNWFReC05WGhGbFFES19kTXNESXczb2U?oc=5"
+            },
+            {
+              "data": "2026-10-16T21:34:06.000Z",
+              "titulo": "Raquel Lyra anuncia pagamento de bônus da educação para 30 de outubro",
+              "fonte": "Blog Edmar Lyra",
+              "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNcTRJRDJnWk4zc1RfTVlWN3lBak5yVlhwMXNBUzBDNXZaOEt4QV9LUWJXVGRwZ0lydm9JYmpKTTh4WlV2bEljZ0hDY1o4VUlWTGN3X05CZXUwaUs4Mi1lR1FzYkxqcF9aYjVqTWNSSS1oN2hqQ1lwcFpOT2pqLW5oeV8wY3FIVlh3Ui16THo1MFZyd1JVLUR1TTZiLWU?oc=5"
+            },
+            {
+              "data": "2026-10-16T21:21:00.000Z",
+              "titulo": "Prefeitos do PSD acompanham Janjão em encontro político com Raquel Lyra no Recife",
+              "fonte": "Blog do Alberes Xavier",
+              "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNVVRfTzNNMmhYcDhqc1B3ZGRFMWlHWnotNU1xTWhLdXdaTmlOb1d2bTFoeWFWZnRaUVpmU2p5WTZVRlR2aHNpSmd2MTRsaFc2dXpleUc0Vmk2X1RCTnZwbXFzUFdTTnRLZTBvdEwtZHdydW9jcVdkNlRVYUw0OXpSVXVXeFhTT1lOMUhERy05T2c1Nk1uUlFlQWNFYUdDaW5sU19BUHVYVjNyMDVFN1BMbXNVUkllblY5cU5oUWRWQ1p4bXIzYVFr?oc=5"
+            },
+            {
+              "data": "2026-10-16T15:50:52.000Z",
+              "titulo": "Governadora Raquel Lyra entrega moradias reformadas pelo Programa Morar Bem na Imbiribeira, no Recife",
+              "fonte": "Blog Edmar Lyra",
+              "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQdXYtZ24tT2s5RVdYWFk2alJjd0owVlJUYzhZNVJrc2xBbTdYdWRKWGwzYTRVM25sSWlqR1Vmb2toNjREdkNsQzNZTjVHNjB1a0l6dk9PQXdZTGxobVlyZl82VHhMYkhpQS16dU9JcFdoRlZFOVhvTGF2WWttVmljUGZVSDJqUHFLSUZ5cm5ZcnMwZUh0bDFZRGU1YnNEMkFURThHd2NhdE5XSHd0S044MVIxTmpvM1ZTZXc4emR2b0p5eXRMUHc?oc=5"
+            },
+            {
+              "data": "2026-10-16T02:18:54.000Z",
               "titulo": "Pernambuco: vitória de Lyra não encerra disputa pelo poder",
               "fonte": "Nexo Jornal",
-              "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNY09iN1ZzYkgwUENHTWxmYi0yVllXdmNrb3pDNWdRb1NCbHB0QTJaZEtONkFkR051aDh5ZmVIZUdrUUljdHdVNU9fM0JRZlZ1VDN6Y0lENWlWVEVrNG91M0p3eExWaU9waEZmTThFQmRxY1MxU05tbUVLbm9JWFlfRk5VV2t1TEVET0NWc09nQVZybHZpc3lnc1ZuQldldXBrZXhJaXJnVQ?oc=5"
-            },
-            {
-              "data": "2026-10-15T22:33:00.000Z",
-              "titulo": "Raquel Lyra anuncia pagamento de bônus da educação para 30 de outubro",
-              "fonte": "Folha PE",
-              "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQR2l0Z1B2SGpqMlI0OE9qUG0yWFdUQ2puakw1N25ycUxmTlJENnZsM011MEpnSVRXQU1vdFNrUTRpSG5DV0F2blNsSDEtS1BkaUU0OHVmM05uYzZVMFFfMEw0cUtGNjdqMEEtbmFBTzFTSnNtSlZ1WkFKUzh0TXVMa0liYkNEUzFESFRnX25iajA4ZEc4dGZMSjZpM3diT3pydnRRZmhSTmJBUl9Da09SRWlFRU5nM2Rld1ZkZUktZ1N0blha?oc=5"
-            },
-            {
-              "data": "2026-10-15T13:34:02.000Z",
-              "titulo": "Gilson Machado e Gilson Machado Filho selam apoio a governadora Raquel Lyra",
-              "fonte": "CBN Recife",
-              "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQZ00yLWNsTlNUUV9teDg4YnVhRE5uOG9jZUMybHRRdmhSbmNuQzN3bGVCampTQTBySFZFT3A3MnBBTW1Xb3JCaGtkdTRQTFJibU1SUlhOYjVPUndrOGM2clZBcVZMSXRjUlMydXNCZVlUWW9zdl83ZFJDVHBpSVJyTF9HaEw1TnZ2djdZcldHbmVja1RPV0pPWC12dHNoYk80MWd1WmhRVXduNC1xcE1PM1pTdlItUmtDU25kMnV3UHRoMDV2VEVR?oc=5"
-            },
-            {
-              "data": "2026-10-15T11:50:00.000Z",
-              "titulo": "Raquel Lyra e João Campos comemoram aprovação do fim da escala 6x1 no Senado",
-              "fonte": "Jamildo",
-              "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQQ04zTmFoMmJpTmxOZXBBQUcwZVU1cmJsTGJQZnJlT2xPOU53blJQd0FrMHdhZGE1YmxFZXRHSExWWkRnQVBBc1JJblRVUjVYeDBZaHhLR1FBTmpNNUtYdmJ0aEx2YVlzN2R3RlZLdUhLcG1WR0dPX1dxLU1WQnNUQ09MaV9nekZ1UGxxb3JFbFJvUVljSVRkaHpmLUpXZ2JDTFFjSWstZkpoMXlmbFVr0gG0AUFVX3lxTE5ZSEZ5VkhZZU5DMmhZRFVRRTBrU0NqMzh1NU85U0RFMUdqVjVSSjV5QV9GMGVvb1JEUHdzYWlvM2MwZ1JGUEptay1wbkxHV0h5RFcwVTE5VnhmMmRHbTFxQjlKN1N3VXRwUFlTWUtMU3B6Q3NSRkJTSEgzSU56ZzlxQzNOVzFGT0JKTGFFc3hxazR2ZGotV3pTbENTWjhkTmltUHhyeGhsdWFzd0otaVd5OXk5bw?oc=5"
+              "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPdUUyZHlHQ1VTX3VZY0RYejlqVGc2eURFZmg0REpZaXo0eEV4WjZYRjZfdU5Zbmw5SFJDakZRcXlrVUVEdUFJSC0yVnJIYlAtWDJKdFI4YzNMZHBCYThXV3V1RWlvX0NMcFpuOUkxQXYwTG1GcHhzS0ZDTTdTUGt6MVZmWWZfQmRhQl82d2VRd0Z1R2l5dUhhWjh3?oc=5"
             },
             {
               "data": "2026-10-15T11:34:00.000Z",
@@ -13079,12 +13132,6 @@ export const mandateTree = {
               "titulo": "A governadora Raquel Lyra alerta: ‘Não vale tudo na política’ - PSD",
               "fonte": "Partido Social Democrático",
               "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPU2ZrX09fd0JLUEpraWlzcHVmd01uZmtlMHNid192c2t5cnUxeEgxbzNwYXE0ZWpWdm9NVXdFOW9Md2FZbzFBYUNqUnJFU2JBaThmbG9XSXpDclBQUUJGS01rdTdBSDFrYzJpWDFGUXVjdEt3bHpxelVUZ3F4NXA2S1JsS2U2SUs1aEZvY3VWQ2E?oc=5"
-            },
-            {
-              "data": "2026-10-10T09:02:00.000Z",
-              "titulo": "Eleições 2026: Ficha de Raquel Lyra (PSD)",
-              "fonte": "Folha de S.Paulo",
-              "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPMEx2NFNaQzVaTGM2cjNuSmRaZFRMZWIwVGJCelZuTnEzSzJaa3Q1MXVzTUtIcW03cmdWNG9MOUQ0SGdVOTVRX0VSNEI5X0NrMElYd2lWMXJSaUVaRHI4QUVkbjgwWlZXY2VHTDJjNEFJMUNmUVJMUTBnQXRPQlpmRlRSYU5lN1pwczdVS29LTGlCQ2NPaW9xakFPb19tVzF3cWhIX1FmQmE?oc=5"
             },
             {
               "data": "2026-10-10T07:32:20.000Z",
@@ -13166,9 +13213,9 @@ export const mandateTree = {
             },
             {
               "data": "2026-10-04T07:00:00.000Z",
-              "titulo": "Raquel Lyra, do PSD, é reeleita governadora de Pernambuco com 53% dos votos",
-              "fonte": "Brasil de Fato",
-              "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxObXFjY24yMVBHc0x3SkZFVHpvaVJZMmpTVnY4NXVKeGdtZzRuaUNyd1BCOEs3Q1pvaVdSOGU4SXcyWUJvcXBWd21uZUYyQ0hudzdobDUwNzJKU193ZWdKdkRVcjNvakVjbGpWR3VIVlYyQ3NQZ3Z1b2kxYmh3MkEtNlAwMnJqTHZvZTBXanNwNWZ5R1o3VkNoT0l6eUtZVGxrQzd5Q1ZwX2JIZw?oc=5"
+              "titulo": "Qual é o número de Raquel Lyra, candidata a governadora de Pernambuco em 2026?",
+              "fonte": "Valor Econômico",
+              "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNWmVSY2ppelYyVElpd2JaVVkyZGtjcVlFTERhSm9PNmpER1FyOVE2M3p0R0t3blpPVElza0JRT203bDRXOTJaalR5eG9qZjdxV1lpZVd6MUQzSklRWnFfQXRFbElNMVVmVGlNc1lNcGhOZ2FNVTBCRVo0akZEZTlwUlhuLXp3TXZlWDdBQlFpcS1vM0ZPSU1saklSbkdyVTlLRUJlU1dUUDBKQWU3eUU5SVJJNm5KcDZTV1FZOWx3dkhsOFItSE5KU29jbURBNF9ISXktdUZXcV9LSzJWTy1LYW5R0gHwAUFVX3lxTFB0UjJmeHREN3MtcDVNN1hqY0R6T0NDV0pwdTVRMnJxaTFHSE5fYmxEc25LdU1wbWlpTmczMUpRUFRjVjIyaUpXX2NJM1dIdldBblBJclU5azNVOWVEZlJUWGk3NmtydVhra2t0OGtxYW1vbzR6QUFERXN5dW5SQ0xxZXBEWXZtelF5YVhUS3hQTmNFMkJROFAxMzJwZ0RzbnM5elpON1hpR040Q3ZISXlOUU1nX2VhWDdoMzdwMTJ6RDRobUdVdTZfN3VXYXJhanExN1RSZzhxVVVMSURURjl4bXpSM3lYQ3ZJdGRGWFdCXw?oc=5"
             },
             {
               "data": "2026-10-04T07:00:00.000Z",
@@ -13178,15 +13225,9 @@ export const mandateTree = {
             },
             {
               "data": "2026-10-04T07:00:00.000Z",
-              "titulo": "Qual é o número de Raquel Lyra, candidata a governadora de Pernambuco em 2026?",
+              "titulo": "Raquel Lyra (PSD) é reeleita em Pernambuco no 1° turno",
               "fonte": "Valor Econômico",
-              "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNWmVSY2ppelYyVElpd2JaVVkyZGtjcVlFTERhSm9PNmpER1FyOVE2M3p0R0t3blpPVElza0JRT203bDRXOTJaalR5eG9qZjdxV1lpZVd6MUQzSklRWnFfQXRFbElNMVVmVGlNc1lNcGhOZ2FNVTBCRVo0akZEZTlwUlhuLXp3TXZlWDdBQlFpcS1vM0ZPSU1saklSbkdyVTlLRUJlU1dUUDBKQWU3eUU5SVJJNm5KcDZTV1FZOWx3dkhsOFItSE5KU29jbURBNF9ISXktdUZXcV9LSzJWTy1LYW5R0gHwAUFVX3lxTFB0UjJmeHREN3MtcDVNN1hqY0R6T0NDV0pwdTVRMnJxaTFHSE5fYmxEc25LdU1wbWlpTmczMUpRUFRjVjIyaUpXX2NJM1dIdldBblBJclU5azNVOWVEZlJUWGk3NmtydVhra2t0OGtxYW1vbzR6QUFERXN5dW5SQ0xxZXBEWXZtelF5YVhUS3hQTmNFMkJROFAxMzJwZ0RzbnM5elpON1hpR040Q3ZISXlOUU1nX2VhWDdoMzdwMTJ6RDRobUdVdTZfN3VXYXJhanExN1RSZzhxVVVMSURURjl4bXpSM3lYQ3ZJdGRGWFdCXw?oc=5"
-            },
-            {
-              "data": "2026-10-04T07:00:00.000Z",
-              "titulo": "Candidatos ao governo de PE votam no primeiro turno das eleições 2026; FOTOS e VÍDEOS",
-              "fonte": "G1",
-              "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNb0ZWX3B6b3QzWHBoS0NwMUVKZGF3M3lMc2pETDl5bVpwY2syX2lzWm1aYUdRSG91aTIxa3BVRldqVlVHTkZLVVVHcFFrZi1TTXpHeVJMaW9Vb2N2anhaVDNVTmZxYzJKall1VGRONDVoZDZNZ0VxMEp1SHl6Y0FDNkd6cXRoMXpudUNkeV9IQnVXUHYzUXJ5b2hHUXN0R2xLUDVTbkRUWGJZcjYxcDVvTFBvNEVRZjNuMjdQNC1TRk5KWjl1ZWpXLWFzNk1saTVZUTc3NG9lLTlxU29HV1F2TmdYWFJOVDlrb19TWjRqU2JRc1pIZnBfRml30gGIAkFVX3lxTE40UUhzT3JTY2VVNlpUTUdkTW4tWFE2YW9rNnhqaGZqcldTNk1feXVLR3o5aXhFY0NrS0lTQVpWZUdkZzRpdFhZTW5DLTRabE1RUnFIOWgxNmMyQmxTRGc5UjVxM2hJaXJGLU1KUUdlbkJCU1FIazNHVGFCcXJ3cmNITGRDbnlPVTJhX2ZkeTNiM1pkRHF5Sm9PUS1PWVZkLXpXdEtoM3pFVHc0TncxUzJJVUFoTWdTVFcwUHZ2bFo0NUtFbC15aVlTS1hFVElBT0Z5Ql9MeDJnLUY3eDJfclRCaERkM0tzRENMMFpkUEZQZlRuZS1jZnE1MHhvRC14OUp6REFoV2N5bg?oc=5"
+              "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNTDhFTjdSQXBhSW1jS2doejF0Q0Z4dGhMXzEtWDdLWnNDc0NNTTFwNGFwMmo1enctRDZ2UDFBa1A5eGNKWHpRb19heVNuN2hUenZpR2JXSXdXV3hGWUI0NWVIVWZSdE5PdkQ1S29mbC0xZ1ZaaDdza3dsYW11TnV6cTlBb0JRWFIteHhjUk1DTHhkRl9PRzN4bTQ1dnJHaHQ2aXpRUkR1cFhsaFNjaHlNeVd4OVlqZnd4aTY5STVYWXFCdGFzemI4MHZnWEZCNUtQTlZyYk5kRC1tYXlhUmNjcjdHc3JDc09CemNxQjhhMnRldUxOemhiRVBySUx3TEtobTFWV0tXOFV2a3M1UjBmUtIBnwJBVV95cUxPNjF4YVlaWEF6cUNaallKbEFJZEVJR1FCVzR6S3pIVkFCVm9RbC1FT0RNd3U2NlBEbnpKVmZPMHYtejA4c0Y0MVU1bk1BT0dMdHdKUk1oSkVDeFFpQkJLamNLWlBGeGxyczloQlZjSGJ1WUtqNTJhdlNlZmNzSHR0bHhuNGJDTFVUYTlnRmxlWUdFdFBlcV9LcDZWUTNOSzUwdXJwakIxM1NFNlkyTEp0VFpmcDNDTUhQX01xWDFyLWZWTldkOUFXRXFfTUg3d1pzSG1wTy12MWJPN3Fwa2NDUk8wSlM2ZXUwTC1POW1CRmVKWnphNk5FdENoNVBpdXNlLXU3S0pkZjRoZEpwRHRjQ20yYVY1NmgtREI5dXhJSQ?oc=5"
             },
             {
               "data": "2026-10-03T07:00:00.000Z",
@@ -13196,9 +13237,9 @@ export const mandateTree = {
             },
             {
               "data": "2026-10-01T07:00:00.000Z",
-              "titulo": "Propostas e tom emotivo marcam último dia de propaganda eleitoral em Pernambuco; VÍDEOS",
+              "titulo": "Tom emotivo marca último dia de propaganda eleitoral em PE; VÍDEOS",
               "fonte": "G1",
-              "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOQlQ2cFBaUkRIWVFqSnN4ZXlNUTN6ajRET2ZXSDhBbktYTGRMR2tmWVFaTXB4MFUtNFpKRzhpNTNXZThDNEx2OWUwQ0tVYUx0cDA2aGZqMTZDOXd1ZlMyU1lNTU5QRkZFajkzM3ZLdVdUVU41czVXVTZRbTY1NDd6ODdjWGdLUk1YNjRWZ1poNkpRTnNlSjJSSXo0dHJvTFhBRHUxT2lGcW1TZFVmaWxmSmFCRW5GOVJMZGpvYXBZbzZFQlA5Z1FiV25kUVF5bjViUzA0Q3libldCWmZGUVBvS0pXWWVsZHZ6aFhfdXdULVNJd9IBgAJBVV95cUxQVEZhVUNxNFN4al80NVBRZkdmUUpzaFBsWUdxLTVuOXpfbHNneUdDRkRPaG9QdnNIUGxtdkhqUEJDZS1KWWxHdVJsek9Wa3B6bVRXQjBuVEZNVXZpYWxZZ2ZRNWU0M2FpdmNOSURWZVZNZG1TQ1BxeWN4NExrWFJDY1ZNS3dVWGw5NkdXX0EwTllFeHRPdm1tWXdhMnZZX0M0azVaVGc5bUM0WDFNX2d4X1ZjN1lYREwyVDJ1djFBZHpiSVVScXlUUWdWOU4tS2JKZkU3QXJ0SmVpZy01NlZMUFB1Ukt2bHl6WkUyUUlaZWlzSVRzRzV1bGxiRkpna180?oc=5"
+              "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOQlQ2cFBaUkRIWVFqSnN4ZXlNUTN6ajRET2ZXSDhBbktYTGRMR2tmWVFaTXB4MFUtNFpKRzhpNTNXZThDNEx2OWUwQ0tVYUx0cDA2aGZqMTZDOXd1ZlMyU1lNTU5QRkZFajkzM3ZLdVdUVU41czVXVTZRbTY1NDd6ODdjWGdLUk1YNjRWZ1poNkpRTnNlSjJSSXo0dHJvTFhBRHUxT2lGcW1TZFVmaWxmSmFCRW5GOVJMZGpvYXBZbzZFQlA5Z1FiV25kUVF5bjViUzA0Q3libldCWmZGUVBvS0pXWWVsZHZ6aFhfdXdULVNJdw?oc=5"
             },
             {
               "data": "2026-09-30T07:00:00.000Z",
@@ -13231,9 +13272,27 @@ export const mandateTree = {
               "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNT2lsNEppNm9FSlMtaU9Nd0gwSnA1UC1yMVZhdHRrOUZ3WDNzaTFpZDJMVzV2bkNWbG9hQ3VnQnVQcE5NX2F6OU5haE8wZ3A4bDJ4ZUo3NW1iZVFfQVMzOElNbXUzYWNsTjBZMDNMRFFKZEZQYnhlazJ3N1BJQjBVR01GUzVHRnNraDJEUl9qdUNZTlBXeUhVa3BSWGN1WjhOUHJBU0VPTHFIcHlJMmdyNUR5Ull2dVpMLXozNVlTU29RaXRiMUxvQndzUm5OWkduNXNieUxQLXFTRkFOMjRwN2dpdkVNNGxnRDhxRUlBc2Nqc3NxbnppVkR30gGIAkFVX3lxTFBZaGVDbGU2eHBpUUdxLXMwZXNOY2NfZEhpWVhrSTAwYm5wMXVZVDN6LUtRdFlHVXk4R2NhZFZQeGF6Y1JXNmJyTUFxSm52Xy1VdEF5VWliY0RJQ2V3SHZJbDlZU0xmM19uRmNHdzBpdG9JMmxsQjFwLTJfUWR2THpQUE9vUF94ZXZ1RUFtbFdSVGlqTlZjOTIyTXEyQXVBSVBsVHhDWTF1dmV3NndYa0FQTGlRSjBLSXVOdXhvVXFBT0RXR3IyalY3ZGd4SlhYOVJnenVrMjZUT00tb2NELU1HTWsxNy13TW9TeUhKODBTYnZaZmxxOFpBaHc2NEZ5ZUw5emg2U0ZjbQ?oc=5"
             },
             {
+              "data": "2026-09-23T07:00:00.000Z",
+              "titulo": "Quaest em PE: no 2º turno, Raquel Lyra tem 43%, e João Campos, 41%",
+              "fonte": "G1",
+              "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZWZETlRGd3VDSlhuazl5eUEzMEFNOU9XTEJtMnNTRTJxLWpraTJ6QUtKSEdJNjBiZ0QtTHMtUXNxeGJLT0I3V0xzOWU2SzZsbmI5MVMyblNmQi11WVNtdUJIdFp4UTduZFVsZm9fVjMteElKRXNUYl9zNDl3d2Z2QjJEdXhxUmRzTkhtTmVUZkExc1NFYTd0VFpYU3BPWEhSYjdmeERwZlNad9IBuAFBVV95cUxNQ0s5SVRMTVdpc2VKX1QtQTBvLUNJQS1mN1JmNV91bVpaV3NrRF9PUzh5MDl4eXBQaEZPNF9VQVNkWlNPRHhEQnl6cHBlM2ZEVU56TUgzVGZBMXE4RmVWZEFRendvTVA0SnpxQjZEZHF3UF9HOUtoREc2NjI1R21JME9jbFo5VGhkWkZ1Y3R4UTZpVm5kOFhJSS1YODZkMUZKcDB3QzhiNHBYTTRpX3VSOU5DT2FCeHZO?oc=5"
+            },
+            {
+              "data": "2026-09-21T07:00:00.000Z",
+              "titulo": "Em debate, Raquel Lyra destaca entregas e promete ampliar obras em Pernambuco",
+              "fonte": "CBN Recife",
+              "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNWUVLMVREU2djZWwtRFpSQzZBdVJrRkU4U3ozT1g2ckhVVEhfTW5hQzFvRk1XT0VGaGJjUVNUWVJneElpMjBvVi1CRlVjRU5CTkp3YUtXZFE0S1lTOWNkNVN1bkZUdVFyMmJ6ZXdwRlZTT0FxQWl2M3l4dDFhRUlSSWFzai14SFFJQ012cGNjNkg4cXFTZ2lrOHRPQl9yRm1fUzUzR2VBcFoyQ1VadVE2RmNrMEpuYXBUeWUzcENGTktmX1FpMThpYg?oc=5"
+            },
+            {
+              "data": "2026-09-21T07:00:00.000Z",
+              "titulo": "Raquel Lyra promete descentralizar atendimento de saúde e construir novos hospitais no interior",
+              "fonte": "G1",
+              "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxONE1YanBNYVo4c05HRzdQQ25XeFg5LWJaY0Y3aXBtYWtQYW8zLU9qUzNXS2hidWhoYl82R2s2aVRQMW1oeG1oLTBrbnRiSnMtanZnRS1pVE92UWZDQ0dlWVdfYlJJUUhORW1DeDNjZXRXNEQwa1lIU1J6ZDA3UHRkUDROWkZVeklRMXFySGZmaWlyN3BidV9rMkJ1cnhqSmpxRFlUU0p1Yzl3ZE9sQ29qbUpoMWp6emFZcXFaOWxYNVFMWnlQOUJ1RFQzc2pnQ0lWY181WkRMZUxQYzdla1N4NG5YaWpZTFplTWx2eDRfdU1hTW10UEFNemdEcW4zZ9IBjAJBVV95cUxPRDE1QTJ2bkRFR0Q2RFY2STk1Nm9DRklUNVgxM2U5Wm1jRTZGWkdfSE1sbVFuSGdTTFV0YTMxX2I1b1NtdWJkYmNtRnhrMEJBWmticW1tck1IT3N2WmlJOEEteU5EbnlMTDlZbU5oalZENVo2eTlmQXhLODJqRi1Yd2VoZ1lPaFlvbmUydERVeGU4eDFjRC1xMWE4bWxSN29yMWJ4TVdLRXk1ZVdCZjRtclh2SlpvVExvV2JiM2tGNFVabjJLNVN3VnE2djM2NDhZYlRfOU9kLWczN2Eya1NqTkl5QmNiSWhBX2Y1b2hUV3Nuc2F0TlBGa2dmREFPN1JpTlpKTjhFb1NrM2RN?oc=5"
+            },
+            {
               "data": "2026-09-14T07:00:00.000Z",
               "titulo": "Raquel Lyra defende continuidade da gestão em ato de campanha no Recife",
-              "fonte": "JC Uol",
+              "fonte": "JC",
               "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQREtxcGx6bXFISFRaOEFpMm56YngxOFY3aUpmZ1pSZnU3ZHRTN1JJNVdOcldjSTlYaUhXd0hzUUhNUDRGb0lueVBSbUpCeVU4bXhla0ZyTUtvWmwxVFh4RFRPQ0pWODlkVUNWR2FYNkgtUFpJYVJreHhzbHFjSUp6akFCRWhmTERTWUpqV19yZXY3SUZHakZZZ2hESW9HX3ZfU05MTjF4VjRjU2k0V3ZjRTltRzVpa19kekE?oc=5"
             },
             {
@@ -13267,16 +13326,16 @@ export const mandateTree = {
               "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQR0didHlrbTE1VFkzMjdXbkNzQVhIbUhpYlRzcHplUllvai05U3lPYld1YmUwOGFmMnJHeVRGMkRGdl9ybDNZRTlYc0xSYmEzMWlxMklDd0g3SVNvelkzSmRjRHVSeVc4ODlVRmxwcjNPVkQ1NGNta05LX1pYcUNOdHp1czBTdldwUG9yUHdrZFdhQW9LVnZxa05lUFltcWxxWVo0cS0wZVV5dkhhRUxuTFd30gG3AUFVX3lxTFB0TnBQQy1CVi16Q1ZON1hlelFmSUJGOUZBWnVKTGhhVGdfUVYtYlY4clVfRHNsYXFmOVFxVUUzS0Z5bE5pU2dRb0xnSmM5UzI4ekxkaDA4UlF1MEx3Q0EtRXh2U3VWTkIwQkhzUFdIUlZCYkJpelIyVDQxN2Mxel9aRjB0RUdYYTBBUHBGQXRhb1BWVTFGeVVNemxBS0VKUHg5STE3SGp3Mk52ZTJwUHFSSDRvaU9pOA?oc=5"
             },
             {
+              "data": "2026-08-16T07:00:00.000Z",
+              "titulo": "Raquel Lyra apresenta plano de governo com 20 prioridades para PE",
+              "fonte": "Marcio Didier",
+              "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE81QlBoUm1EUzZSeWVjdTVxT3VfMXVWbVFSTG85WWpHUTJ3a01WWDBPZmVEQWtHalJnejZIZlRuLU5Gd0RCM0NwVEh4MVF2SDAwSEVwWUVoZC0wOGxiV0ttdl9FODlxSk5qak1XdFd6bmdBWWtIS3Zv?oc=5"
+            },
+            {
               "data": "2026-08-15T07:00:00.000Z",
               "titulo": "Plano de governo de Raquel traz certeza de futuro e continuidade de ações que estão transformando Pernambuco",
               "fonte": "Blog Edmar Lyra",
               "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOemRTVWpST0VuTXNSWjNpTDFMSlpGVzN2NFhJT0xNWTRQOUxCMEFjLTdrVWRMdWM3QXVOTF9MS1hVUVBpT1UzQ1BzMHZJQXhpUTRiZ29pQnVlLUFySnVwdWp1TzdtNnoxcS16VDNwQnR6WWtzWXViVms4dU9mR3l5LVNyamZ5a0lfeHp6SGJtYXBMZDJLZDZ4TURFQmRIYlRkS2c1aGFFVTlNc0hhZnEzMmJFUXBjVW9lSzJvTjVObVVONnhxUlh2MGFDMXpSLWhm?oc=5"
-            },
-            {
-              "data": "2026-08-15T07:00:00.000Z",
-              "titulo": "Raquel Lyra apresenta plano de governo com foco em infraestrutura, saúde, educação e segurança",
-              "fonte": "Blog do Mário Flávio",
-              "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNcWZZU1VPcVNEVjlobTZBWmFSSHhVdXMxRGwtVmgzYWZKMkNzWEpGcGRhYUZNYnctVURVcnNtU0JwcnBFVVpxNTVDLW53SmxLS1BxakZZdW1jRktvNy1vdENxSGl2eDk2cGdzc1FRWVVBQVpvZzQxbEpwNFpQd1JlQUZrbmliRm90LUlQdWRMcDZJUnlOa3BZWW9hXzFwS0FBY2x4cEZVWkN6bGVVU2NoNXNzYWxsU21rY2lIYlRPS1l2ancy?oc=5"
             },
             {
               "data": "2026-08-06T07:00:00.000Z",
@@ -13289,12 +13348,6 @@ export const mandateTree = {
               "titulo": "Plano de Governo de João Campos prevê mais de 170 propostas para Pernambuco misturando herança familiar e ...",
               "fonte": "Jamildo",
               "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQWVhxNHJpdGNiNU1pYWxzcXV6V3c4dFVmUVM4cG56ZkFyay11YlVqemd5UWJWUVVzcmJ5VGhKOWJTR2pYc25sTDZSc2FKTHVYMEgyRWpWNnpMMVZVNlEwd0J1cWJtV0F2WDJjaGEyNHhQZWJKcGt6LXNWQ2Y2WEpzV29UcDhpQVdwVnQ0MVFLY29Ma3NNbTFNMXg3V1NrdlVobVRzQ0tLb0tyYmV0Y3gxeXc5eEtSb2pEUUh3YWdHTW1lNmNrMF9QZUlZbzVmLUd5OXlZek9OZllvdGUwUmthSjVB0gHnAUFVX3lxTE5uOWk4eFRVTTNUZHF4c29rOXFfemRLaURVckx5N1B4R0Y1ZnR0dDZxaTh4dkNMcXBvczVBaVc0WmFITDRvcDQwWFpFRWY3d2dmZzJHd3pveENKQmJwU1V6eWxLYVZkRmhOcHhjMUVRRUR1WFhBX2FXWmhvTFpHMmdDY2Z5NVRlaDJXMkZ2UE03WDdiczVfWHVuQXgyZXR4dWVWY0RqNlQtMElXUDB3NWoyU2stS2JUaDFYZmZUS3N1TTUwcHFMbzFnZHU2Z0lwNTlTVFV2NVN3eTIybjR4OFJTWGhVaU8tYw?oc=5"
-            },
-            {
-              "data": "2026-07-26T07:00:00.000Z",
-              "titulo": "“Temos buscado fazer com que o governo chegue aqui”, afirma Raquel ao destacar investimentos em Serrita",
-              "fonte": "Blog Cenário",
-              "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNb2FldGZqR01pRG9OYzB1UjkzVllhcGlyYmJBZ1V4bm5fUVdBeFR6OHpza2FlUVBveVJSNm5vR0JCZFI5amt2QkFUQUIxQ1JlN2tYUjJUUEJlSmVZcmRqa2lYT0U1OVhOa3VCQ3BXaGhlVnREcjh5S3A0MXpTMUVZLW4xcHJjR3dKSWhRQjcwU3ZQeTEwM1RIMWZkQkZUYTY3OUlRdktmLU1yR3NiMEloZHpienJvNkJJNW1aaVBvelNHZGltLTYxeVZ0Y1dKNVFnd2JMWg?oc=5"
             },
             {
               "data": "2026-07-22T07:00:00.000Z",
@@ -13313,6 +13366,12 @@ export const mandateTree = {
               "titulo": "Pernambuco realiza entrega descentralizada de cadeiras de rodas por meio do Programa Pernambuco Acessível",
               "fonte": "Blog do Elvis",
               "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNeEppRm9HU29hOXJmSk12TjRzM09ma05rT3NHdmljVFpxSEc1VW5Uaml4cm5uQ1k4eWp6dUhlZkFIRmxfTkhPTXAwalI2cVRwMXIyOWZUZGRlUGZoakxyWG1pMEQ5Q1RjV1dubHVWZjNJTFdmWWZPMVFyNDBPc1JubVlTWnRTVldib0t6R3ZCYm44T2QyYTV4QzEzTWFMRXFyZ0Fjc0pQQmxmVmZYOUQxYllzTVBFZ1FSdHRnOTJZRnpfY2gwZ1hxT194ZUJGUUdlREZ3MHJscUd0WDZabVVj?oc=5"
+            },
+            {
+              "data": "2026-06-12T07:00:00.000Z",
+              "titulo": "União libera quantidade recorde de recursos do Novo PAC Saúde em Pernambuco",
+              "fonte": "Jamildo",
+              "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxON3VoU2RtVVR4cV9rTldZVzE2ZE9nZWhVd0ZlTjJUdnRYSHFmYWY0M1M0eE9FeFptZ0h3ZGxfMktvMVVNZVV5RTNMVFNYTHFnTllrWEZHRWRjWElsbEhpRDNuLURsYmQ1My1oVFVqTFppVnJzXzVsMzdIYW1id3hhVjdsM19PVk9hUDZYUVg1dGRZT09OQnk0b2dkUWI0bzBmV2FsOUJyYjBCWHd0Ul9jYjNCNUzSAboBQVVfeXFMTVlsZ2JuVTctTkE4ZGVoZ2dYSmR4UFlrdmVkRkNzVGFwTkQ4dEZNSGRPVWlXQ1VSZElJZG9ITTQ0MUFGLWVwMWdDV0k0bGxWellKWHk4UE1KRjVGUjh5MnRsdmxLUXNCc3J1OE81SDJnNVBBS0NDT3VoMUFmb3Nvc2ZhQ29yWkJuR0RhLTAtTkZzVFM3WTZVTWxEcldGWDk3c2NhTy1MSEtSUExfb1Jkc29oa3dYVnpRMzFn?oc=5"
             },
             {
               "data": "2026-06-05T07:00:00.000Z",
@@ -13345,6 +13404,12 @@ export const mandateTree = {
               "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOYzdDNFZwNDI4UW95YmEtZDFTNGZyMVBMQ3RQSFFBcXFjeHdWdVZXcGFsV25GdEpqUl9BVkZUTXdvSUEwN3IzbU5oUzRQYUZGS2QyRFFVbnRTNE5zQ2JSb1duSHJNaDUzRWZWSkliME1FNlRoMzhhNm1jRmRpZVZGSHRyZl9LTnF1SmU1c05VdkJmSkNsckhzMi1Sckw0dmZxNHlIS1dEcU9vMnFmLVZvbks5ODJLcWRTVTBjRkFUUFVwYjNxRG5XYmgzdl84ZmVKZFB1NnJ30gHbAUFVX3lxTE41dE13Y3NjekdEY1hqU2dRd3p3eHVUcUU3ckxHMnRhQ1VHRWpVc2NTMHVJdGI0MHBQX3duUFZNSHh6M2h1RmVMd3NBTmN1ZEpRN3pLam5PMUJYNDU4blpNVkdBNlY1TW12NEdRczZWVi1Ea1llRkdTMG9IZGk2Y2ZHc1MyOUE4aFBrVTVaQ3U5dEg3WFk3WTk1aC01YlhmU1JmdzNsNVBxaVdVRWxuTVlwQjctTGkwV0pzZnNYZk1IamJNUmg5S2RzUE5nSGRNeVRZNW93T09BLUJ2NA?oc=5"
             },
             {
+              "data": "2026-01-12T08:00:00.000Z",
+              "titulo": "Serviço de saúde para mulheres gera atrito entre governo de Pernambuco e prefeito da oposição",
+              "fonte": "Diario de Pernambuco",
+              "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNa3NsSERBZC00VlhSZHF1eFZ3VlFfR1Ixei1VbFNrU2FXdG9jM1Q4RUlMQzJvMlNoTWFpUkFRT1hZdEtJNnlxb3RVUmgyOGVaeVpTalE0N0t6RjgxS2NsNUdMcmNiZFdLNDhDWDBWUDFOd014WlhWLWFzQ0xFNkRENE50MXd6Skh6MS1yOXRkR2lHSlRIUmtnT3I5Z0xUeTd6ZWUxNjMzdkU5bkdpdTVDcnVZeEJleWdIOG5mcWRyVG91c1p1WjdnNDN6ZzNRTGJiUFREYlhacy1PaExJVF9fcnFwQmNtdUxCOU5GSG41dTlnbWpm?oc=5"
+            },
+            {
               "data": "2025-12-26T08:00:00.000Z",
               "titulo": "Governo de Pernambuco sanciona lei que institui mais um fundo de cultura para o estado",
               "fonte": "Diario de Pernambuco",
@@ -13361,12 +13426,6 @@ export const mandateTree = {
               "titulo": "Raquel Lyra quer entregar novos hospitais em menos de 18 meses: \"Temos dinheiro em caixa para fazer obra\"",
               "fonte": "Diario de Pernambuco",
               "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQWDBIRWFWaEdRQVYxTi1yV1FmWGlCZERnblBpRmxxVFUtWlAzQV95T19ObVVHUU1TM2V1VTdCQUE1d21lWXFWY3VHTldfMjlJVnRsQi1xSWtRR3RjMllnTTJZQ2d1VXgwdUltNFZjbTM4NjBYcFNpOXhpY3JaSU03LTNzbnM1eVFYdFJORFViV3F2ZXh4TWdEY3JPOVctRDdGQm9GMVNaeDdPekNyVllsMk9FSHVISENNTmlub0FCbkNQVWNIZzAyQ0FxVGs?oc=5"
-            },
-            {
-              "data": "2023-12-07T08:00:00.000Z",
-              "titulo": "Raquel Lyra faz balanço do primeiro ano do governo",
-              "fonte": "Diario de Pernambuco",
-              "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPNWtVaVUzUXR0TGFUSUdOTXB0eWpMNmdab2RFUkp4VVNQNVdIOEFXR2hMVy11QWNXa3dfX3FNSE53WGRsTl9IZ0w1bDhDMFZwRGhvVmlWMmZoWThHOVpLdWdNb0xrWmY0Y2JZN29qQWRvVXVGckNmYm1VVkUtN0RVZUZRaVhPOGQ5UlJaWUlmUVJ4eFhMRmtQZWM2cmVDZGluMmo2dmpHRUFNeUdIVm5SZ3lqb2VqX3p6Z0E?oc=5"
             },
             {
               "data": "2023-12-06T08:00:00.000Z",
@@ -13415,18 +13474,6 @@ export const mandateTree = {
               "titulo": "Raquel Lyra promete finalizar barragens e adutoras, investir em saneamento básico e criar 60 mil vagas em creche",
               "fonte": "G1",
               "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNYVRVRGJhWjhkMmlBdFh3LW4yQmQ2T0R1RGR3UVpNYkhMVTliVGRNbjNaLUpHM0puSEVUYk00QnJ2UlhVeWdyNU9hVThKdW1ZYTE5S3BmdFBwVFNZSVZXZ1JUeWs0X0tNekNZa0trc0lnTTVTbXhJdk9ER3hweENCaGJRRGdhYUlRN2p5YU52aTluaFM4LWxKRWZzUXAyVE8xMGVKMm1QX3dxMXF1SEg0WjRIcUlQSUZsa3d6LUxtbHlONUxHZ0poeFg2VXBPMm5uR2Z2M0tQV2UzSEVwN3JqMU1LaWdtNHMwQzNqQU9GRUJVRUZkTFFRMXd1T3dDVnA4TXJQRTVWb0ZncVJpamZkUEJPd9IBogJBVV95cUxNNGVEclBSZlhfaTFNU2QtekNHSC1INEQ0bHU0MUlxVVZpWnltRTI0THp6b0xvV2l4LTJCRmJCOGlYTGdLa0swQnFydHEyYTBHXzZPTUpWcG5pYnkzRE1iZlZVYnRXbVRnNEtVQzdvVExkVzRET2FxTVhOQ1VsTXFneWxZYk9xbjU2alJMckRNRDhhNWJ0a2hId1lHV2NlcXpXZXpkXzhlbEcxa2h4U19iUkdTSUUyOVA0MTVPZ3BUZDYtMWYyUkwzY1gyeFl3bFRRSk4xdzk1WFkzR0VEX1RJNFVnWGdoaGhkOGtwTlZZd0Y2Skw4OEcxNExJdFJpNldCbDdmMnE3eUxQWFBMajBVdUx4eTlucXVRRzl0b0ZyLS1ZQQ?oc=5"
-            },
-            {
-              "data": "2022-08-31T07:00:00.000Z",
-              "titulo": "Raquel Lyra apresenta propostas de governo a moradores de Santo Amaro",
-              "fonte": "Folha PE",
-              "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNSUdZWFB1T3dRXzAxY2pDTFFMTDloRFlwd2JLYnFNdlhfMTRORUliWGMzNWI4VVhxWHJZdzlZTXM4TkVhT2RubHlGLXBsX3V4VDI1UzFfaExTR1RTMmowWVlvck1YVnJ4a3RyR3pkT2NvNGdKUnlXdDRRRjN3YmRucy05WlNOZkh0cDBpRWZJWjZFRTV0ZkRqQ0N4Nk1RbWhUTHdmdUFRRHBHdFRwTWV0emlOYjZBM3ZvX1dBeHR4VlBmOGdx?oc=5"
-            },
-            {
-              "data": "2022-08-25T07:00:00.000Z",
-              "titulo": "Raquel Lyra promete criar programa de segurança pública, 60 mil vagas em creches e fazer 'choque de gestão' na Compesa",
-              "fonte": "G1",
-              "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxNdnVLd1IzNm41bVpTQ3p4Zk1lblBaejMwSUdHekJDODRfOWUwVEE0Z201Q3dibGRxNXhKeHlWa2c5UkNRV2JLMFdTSkF6NnptTnNXRlFxSzNRRDJUM0t3Rl9PWmpJODV5eUVxMER5ZzZxckZKcXJXQjc4VGRkVEFYUl9EbzMtMFhMejJjaTFvWEptY0VxakRTaHUxeWhpblNIdVBFbDBCak56cFc2OUV2dUI1YWlVdGhCeG5xRHNuOWRZR3VVTmNIYXVBSU9rMUZLQWRsNUFzb0RsZkQ4OWRnNnBtZVZWTnFIbGxLenZ5Slc1bFdubDByOVZpUmU5LUhnQjZLQUdXMkJaMFVvQUd4QmV3ZjZxZ03SAaYCQVVfeXFMTzA4MDd5Y3FpanJBN0treXg4ODZuZ292ekZKaE9HaGtWdHJKUDNuNkk4SzMwT3ZkTHhhVU1VRmRyU0hsaHpHWWxOVEwxM196TGZaaWRYLXRTZFFMOFpzbjE2MXhsR2hZcEtNWTlGUjFzT3FFVVdtU1BHS1YycVVESUFvZkhTZ1plUDBSNzF1ZGhOWkhXTGFQVnpacHBvd1M5MTVsWUJsMU5xQmo5eDNvQmlEYi1XUHk1YktxdGhZVGxYQnB1RTZuVHc3YjdyeEwydXRHQWxwbHhyZldoZU5fNWNnRGlPOVl2YndObWl3LXhQSWVuZmNqUW1XWXBvbHg4b1doMGt2VDc3MGVoM09jZXB6SkxtV0FscU4zbU1qQ3ZCUWpzOXVn?oc=5"
             },
             {
               "data": "2022-08-06T07:00:00.000Z",
@@ -13499,7 +13546,14 @@ export const mandateTree = {
               "tema": "saude",
               "status": "em_parte",
               "descricao": "A obra está sendo executada em etapas. Embora a unidade já tenha sido inaugurada e esteja em funcionamento, o hospital ainda passa por intervenções. Dos 226 leitos previstos, 216 estão em funcionamento, enquanto os outros 10 passam por ajustes. Não há previsão para a conclusão dos trabalhos. O que diz o governo: a gestão afirma que a obra foi concluída e que, atualmente, estão sendo realizadas melhorias na unidade. No entanto, ainda estão em obra: cozinha, refeitório, copa e corredor de acesso às ambulâncias, além do abrigo de resíduos e do necrotério. Também estão em andamento intervenções no setor de imagens e na Unidade de Assistência de Alta Complexidade em Oncologia (Unacon), que corresponde à ampliação do hospital.",
-              "atualizacoes": []
+              "atualizacoes": [
+                {
+                  "data": "2020-04-24T07:00:00.000Z",
+                  "titulo": "Neurologista Tércio Luz assume direção técnica do Hospital Regional de Picos",
+                  "fonte": "180graus",
+                  "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOQWhlM1laTFo3MkhheUFzSE5NRXVZamVOdW43cC1IWHlzMG5QTHYzM0dNTkRadnQ0dmppeVZ2ODZxVFlxenl3cGlBbUhVREY5Z2k0VmJSSzFqTHprclZPUml1QjhXUml6Uk50ZDJNS052ZmNNT3hneUh0VVNaQ3MxT2Z5dDRYRzR2TkhvSThkREVEYVJ6WTBZQjFUSTdGa0RMNm1TQkNrZw?oc=5"
+                }
+              ]
             },
             {
               "id": "rafael-fonteles-5",
@@ -13554,12 +13608,6 @@ export const mandateTree = {
               "descricao": "Atualmente, o Piauí conta com cerca de 19 núcleos e bases da Patrulha Maria da Penha distribuídos por municípios do interior. O g1 confirmou o funcionamento em cidades onde antes não havia o serviço, como Valença do Piauí, Corrente e Bom Jesus. Segundo o governo, entre 2023 e 2025, os atendimentos sextuplicaram, passando de 1.497 para 9.075, com 7.488 visitas assistidas, acompanhamento de 2.096 medidas protetivas e ações de prevenção por meio do projeto Maria da Penha nas Escolas, que capacitou mais de 290 educadores, profissionais e estudantes em 2025.",
               "atualizacoes": [
                 {
-                  "data": "2026-09-03T07:00:00.000Z",
-                  "titulo": "Rafael Fonteles promete ampliar Patrulha Maria da Penha para combater feminicídios no PI",
-                  "fonte": "G1",
-                  "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxORkV5NDhPNnFZelRyY0NzZTl0SVM3b19kc2I5WmlQQ19LUlFfczhGY0NvSGNZaDVlYXpNcUZESmZlREhZcmQ3Ym1MeURhSjZMRG9vWGNSQm1HVDJESWV0MzBaYnRTQjVEUDk1WmtPTjJ5RkNId0N0VnZwei1SZzd5MVZsNzlpM28xb045My1BYnAwV21PczY4dU5sWlpqQdIBrAFBVV95cUxQbWtpTFp0amNiVlhSTVJnSGdsS1hoQ0tOSk81TGtBMTRlTXNtODZhY3Z1d215aFFlV1NvTVlHcU9VcFEwOENvQmRRM2JuM21FTkp0WUVvaXAtUWlZWEN2RWRLcUVDb0doTDRENW5PSHd1NDJYYWk4TGdIT3RnTkpGNU52bDh0bncwV0hXNldGNzFZNkpMR0pXaXlULUo3T3FpY1MyMjltckJvakZJ?oc=5"
-                },
-                {
                   "data": "2026-09-14T07:00:00.000Z",
                   "titulo": "Fonteles promete construir novas vagas em presídios e ampliar Patrulha Maria da Penha",
                   "fonte": "Portal Piauí Hoje",
@@ -13572,16 +13620,22 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPcUttemU3ZDY4WVpwUDRsVFZ5TjY5OUZzbXVOSHllV1pNeHdqaC1fRTdiZ2NsSUxIXzhlVmpsemZJa3B6ZnJldDJpSXFoYW5ROV9VSU5zZEhydm9Kb2tYdk5UdkJIWFJXWm9HQ013OHB2Mzd0NEpDRE8wWFZtT1dyWmdqdjlOdlZndWxNS3BZZlRld1N5aGctb0cwWjRXTm1NaWZjaFVLVWFmTUFjOFAwbHpvZmpiRnB0SEpMMjhWVDh0SjY0WF92Y1lnYzRxTWtHLXUwRXdWbWhsYUg0NUhMYW9CdU55RUN6QThNVdIB8gFBVV95cUxNNzZiMy1Ld3EzSXRRSDZGOURIM1o1OGlUYTE1d2RPUTRqeDEzOWlnS016aWp3TEhvd082a1dhN0h5UEl4MXJLRExVclF2ZmEzdzNESlZFb0VzM2FGS0NYYTJzbVVwQVR6ZWozeG54WHJPRmZjbUx6R0lQSVNRRXVVV2lpb2duNDRFVFR1MmdIbl85bE1oTWhUaldkd0Iydk5SOHFNYXY0ZWMyYVBTMlU5dWdlOFpCUTA2YS1uZjV3U3lYUFVJN21vN3EyeG9pYmVPRmJRS09iTU82NVlibHJMTkloVzBqSHB3cjY0TU44WDR5UQ?oc=5"
                 },
                 {
-                  "data": "2026-08-07T07:00:00.000Z",
-                  "titulo": "Rafael pretende ampliar rede de proteção às mulheres para zerar feminicídios",
-                  "fonte": "Parlamento Piauí",
-                  "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOUllubVVSRmZndjdxamJRUHdMN29lX1FJQjBFX1RBenVYbk82cGlNZ29uXzl5WWRmNUFzX0p2aGhBcEVXdUV3OGpGTlItd2doSHdqWm9GcnloTmotTnpxT0xETDJZanFjbWJFeEpPcVJyUHZBakZxVzJjdVVKVVI4MVpLQ1ZSWFNfTDBMTHY4Y0tHLURFbEd5SUpoRTdYRDhsR1VfWjdyS1ZnSndnQUxqbjMybzJsYXFjOEJz?oc=5"
+                  "data": "2026-09-03T07:00:00.000Z",
+                  "titulo": "Rafael Fonteles promete ampliar Patrulha Maria da Penha para combater feminicídios no PI",
+                  "fonte": "G1",
+                  "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxORkV5NDhPNnFZelRyY0NzZTl0SVM3b19kc2I5WmlQQ19LUlFfczhGY0NvSGNZaDVlYXpNcUZESmZlREhZcmQ3Ym1MeURhSjZMRG9vWGNSQm1HVDJESWV0MzBaYnRTQjVEUDk1WmtPTjJ5RkNId0N0VnZwei1SZzd5MVZsNzlpM28xb045My1BYnAwV21PczY4dU5sWlpqQdIBrAFBVV95cUxQbWtpTFp0amNiVlhSTVJnSGdsS1hoQ0tOSk81TGtBMTRlTXNtODZhY3Z1d215aFFlV1NvTVlHcU9VcFEwOENvQmRRM2JuM21FTkp0WUVvaXAtUWlZWEN2RWRLcUVDb0doTDRENW5PSHd1NDJYYWk4TGdIT3RnTkpGNU52bDh0bncwV0hXNldGNzFZNkpMR0pXaXlULUo3T3FpY1MyMjltckJvakZJ?oc=5"
                 },
                 {
                   "data": "2026-08-08T07:00:00.000Z",
                   "titulo": "Rafael Fonteles quer ampliar rede de proteção às mulheres e zerar feminicídios",
                   "fonte": "Portal Piauí Hoje",
                   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxObENiX1RzdFN3c3BILWVzc1c3WE0tejR4clVzOXpydGhBbzh4am83c1YzeU95UWhvR212QS03MjNJSVgwV1N3ZndlTDJpckFqeE1OS2pCTWNlUk9zNHZCb1BNa1ZxSE1iTTFoMzlTU2MyWVlaQXpoRGNVeTJjTnZTUXhMSGE4S3k4ZEFQYTdnOHhIdDJHS19jNk9oV1RUTWRtZDY4YUhDcm9FS3dMRTB4Y2FRdFBoWkhFVHN2a2VWX1hJQk9ucVhLUmYxa1R0aXlUa3NyY01R0gHPAUFVX3lxTE83OW5FbDd6cmVlT0NqZ3RJSG1JdXVBWm9MNFlxSmtXdl96TjVyaTVYQzlHSl8zN29ValVNNU84SGc0SkpvendwNUY0NFptQ1RLR1NuREF2UHJHbzBGZHJ0MS0zV0ZUMTRYOEhPNGs3UUVLWEZEX0tfN2tTSDlYZzRqSWx0ZjhqS1pVOExDVk56dGFvTG01WDhKTzFZQ0VfTW9NdjZkRGQ2V1JwN19qR3pIYWJneVplbnlTb0YtMzFGTVRQeWQ3Mlh0Qk1SN0dGZw?oc=5"
+                },
+                {
+                  "data": "2026-08-07T07:00:00.000Z",
+                  "titulo": "Rafael Fonteles reforça propostas para proteção das mulheres no Piauí",
+                  "fonte": "Conecta Piauí",
+                  "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPS1VuTEU3SlF0aGpodjFqcnJUbk5EWmRLOGdLZ3h3Vl9RQW44LU11ZUxPVWVEY0t5TkVpZTlQTkFibXl4TUZzMEZvQm5tZHZSOFdLY2Zva2s4bmtZOTR6R29TZFhnMFFfU04xbl8zSnE2ZFlJNldtUWJEaXllZkE0UzlLQXJHSmM3MEROMWlpMVJ3VXRKdk5oVGpGaTM4X3E4R1hJSTR1QVMzVFZ1YjlBc1A5NmlYeVgtUlVEWW1NNnlQNjhCeEdj0gHMAUFVX3lxTE15WDV4QmtwbWp0R3FpWlRJQ0pRY1pfaVEzUHpXVHFZcHpNTy10WjNCb3lnZ1lCUUs4LTU2Wm9oR291Q0tGLXp6enB4NUs4d0NfbUltZU16T0tHZmtTRjRYSEhoQWFrdVNKSlViWTNKX25vd3JDTUlpWjhRaldzaGtjV2tKSXJ5WllGQU1NcGdCSHNqWGk1YmRaNFgzd1RUOUtkTEhFS1c2ZVB2bkloSVdkNEdYZkVQOWtkZDg3R29RVUFkeVhrVGpsNWM0bg?oc=5"
                 }
               ]
             },
@@ -13609,22 +13663,16 @@ export const mandateTree = {
               "descricao": "Houve reforço no efetivo do Corpo de Bombeiros com o aumento de 349 para 820 militares. Também foram implantadas três novas sedes em Parnaíba, Oeiras e Esperantina, e reformadas cinco unidades operacionais. Contudo, auditoria do Tribunal de Contas do Estado (TCE-PI) apontou falhas na adequação da corporação e na capacidade de resposta a emergências. O que diz o governo: afirmou que investiu mais de R$ 99 milhões na corporação e que renovou toda a frota e os equipamentos, com a aquisição de caminhões auto-bomba, ambulâncias, drones e materiais especializados, fortalecendo a capacidade de resposta e a atuação em todo o estado.",
               "atualizacoes": [
                 {
-                  "data": "2026-09-14T07:00:00.000Z",
-                  "titulo": "Rafael Fonteles promete universalizar água e ampliar Corpo de Bombeiros no interior",
-                  "fonte": "Portal R10",
-                  "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPSjlzRjdWc1JMaXJLd1FtX1ROcFY4d25PaHBlTmk2MFNVZ09FVExZTW9yUWxiXzZldVRPcGh5MmYwcG5wdUUzcVhOV1ZySUJ5Sm5JUTdkNUlUWGdNNVVlajVkU0lJUDhZOFR1UXZTbW5Ka0owNUNDZC0xV1VhUmVMWlUzOFRJWUFqbUFKTzZUbFRwTUZia0ZXN2RoR1I4WWdnTUYwMUdILTBlUWhuMWxuY0NWd1ZXM1EwMENqaWNQSGM5QVVLRTZFTlRpWkg1Z9IB0wFBVV95cUxOYVg0NFJra0djckhfZHhNZU1NREJrS2JPQVI1RnZ2RGE5NWZ3UUVkTklkWmlGa0p2bW9JYTdvUTM0Y0UtZHNjRVBhZGctaUhzdDYyS2dRRDFaVmYwYmhfamR0eDdNbm53c1dJSXhPTzFkOGx0Zkh2aXBUQlU1dWJtMmZ0YkhxS1BFeU45YWx6WHNsUnVhN2wtM2RramdNa1VORlVWaWxYZDVYbUU5NFVXMXBReUI4ZDR5U0YxZlotbmdfNE55QXE3LVU3Z2pYSXYtenJz?oc=5"
+                  "data": "2026-05-14T07:00:00.000Z",
+                  "titulo": "Rafael envia pacote para Alepi com mudanças na PM, Bombeiros e criação de cargos",
+                  "fonte": "CidadeVerde.com",
+                  "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMUszTFFtcExqMlhveXlmczBlLWR5X1ZPZWdQREpfcHdZX0pvaFF4d1FCR0tpQU05ZkJXVGZhcGs2V2FZQU9HbUpzSGFZc1A2NE1UTndHX2o5S2VMaWxRWERLeHozaEVleWlxWTVXQjBtcllDdVhMV0V4cnNfVUcyZGU0SkdWYllzakk0dUg3QTB5NnJ1Ql9zMHFyWEI3Z0cxRHhjWnY0MzNDdTVmNk9waVpaNEpvekU0ejhN?oc=5"
                 },
                 {
                   "data": "2026-05-19T07:00:00.000Z",
                   "titulo": "Corpo de Bombeiros do Piauí recebe reforço com novas viaturas e equipamentos",
                   "fonte": "arenadenoticias.com.br",
                   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQdjBoMWxNWnZCbzkxQi00U183RzF6bnVfcGYtWmZWdU1KNks5X0JELVotWWZJeDJNOUN5bFFJclFlYzJKcm9JN09uZ2VZWHhRMG55U0JDTWZNWEZhUUZ0aXN0R0swdWdkcElIckhfU21VNjNaN0pSa05oZEpSbXhEMDloTjRobE1nYUt2Rmo3RkFHUURoQlIwMWNLUUxrQ0JUY1BtSnhWQy1OcDVrY3g4QzFINnpBUFZKZGJGb2ZTWQ?oc=5"
-                },
-                {
-                  "data": "2026-05-14T07:00:00.000Z",
-                  "titulo": "Rafael envia pacote para Alepi com mudanças na PM, Bombeiros e criação de cargos",
-                  "fonte": "CidadeVerde.com",
-                  "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMUszTFFtcExqMlhveXlmczBlLWR5X1ZPZWdQREpfcHdZX0pvaFF4d1FCR0tpQU05ZkJXVGZhcGs2V2FZQU9HbUpzSGFZc1A2NE1UTndHX2o5S2VMaWxRWERLeHozaEVleWlxWTVXQjBtcllDdVhMV0V4cnNfVUcyZGU0SkdWYllzakk0dUg3QTB5NnJ1Ql9zMHFyWEI3Z0cxRHhjWnY0MzNDdTVmNk9waVpaNEpvekU0ejhN?oc=5"
                 },
                 {
                   "data": "2025-05-22T07:00:00.000Z",
@@ -13727,7 +13775,14 @@ export const mandateTree = {
               "tema": "3",
               "status": "em_parte",
               "descricao": "Em 2025, de acordo com o Censo Escolar, o Piauí liderou o ranking nacional de matrículas no ensino de tempo integral e técnico e alcançou o percentual de 85% dos alunos nesta modalidade de ensino. De acordo com o governo, de 2022 para 2026, o total de matrículas saltou de 47.264 para 121.507.",
-              "atualizacoes": []
+              "atualizacoes": [
+                {
+                  "data": "2023-03-17T07:00:00.000Z",
+                  "titulo": "Educação levará Curso Técnico de Desenvolvimento de Sistemas a todo o Piauí",
+                  "fonte": "Consed",
+                  "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQnRuRzB6UndKak4zQVE3VUFkLTczWkFxdlFBMjd1Y2YwOC1jeFNIQ3FZUHpINzZsdXNMSnVZT2pvOUpHNHQ3RllUSF9UUjQtZnFCM3JsNFFQZmVDVklkeDNVcXpnWG1VVUVLdndlbHJrT1VoUEw0RVVQX2ZHcHN1OUZjZ1JUODFpUWFjRnJQRzhDTFk4NHZKamRvMXV0TGtyY0Z1MDdmYkRQQQ?oc=5"
+                }
+              ]
             },
             {
               "id": "rafael-fonteles-16",
@@ -13805,14 +13860,7 @@ export const mandateTree = {
               "tema": "esporte",
               "status": "cumpriu",
               "descricao": "Em 2023, foi publicada a lei que dispõe sobre o programa. A ação mais recente foi a divulgação, em 2026, da relação dos atletas selecionados para receber a bolsa. Segundo o governo foram ampliadas de 70 para 100 o número de bolsas desde 2023, assim como os valores por atleta que aumentou de R$ 700 para R$ 1.000 e de técnicos de R$ 900 para R$ 1.500. No plano de governo, além do Programa Bolsa Atleta Piauí, foi prometido o passaporte campeão. O projeto foi lançado com outro nome: Programa Piauí no Pódio. Com investimento de R$ 696.430,14, cerca de 950 atletas, paratletas, técnicos e equipes esportivas receberam apoio logístico ou financeiro para participar de 30 competições nacionais e internacionais.",
-              "atualizacoes": [
-                {
-                  "data": "2023-07-11T07:00:00.000Z",
-                  "titulo": "Secretaria dos Esportes do Piauí lança edital do Bolsa Atleta com novidades",
-                  "fonte": "GP1",
-                  "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQb25BUnVabm5DNFM0LXFkVGJ1RmNyZzVhelJnNzlmNldDTGp3TUNWbVdLcHJDWTY5a05XZEduRVhicTVlY25hRllXU0lzQmpaNzlqQV94Rmc2YzFlU0tWSXNXYlhubzVxUURhOUtmWlFKeFpyeVNYYlJITS02Y0piQjI0TTdNTjdDdG52SVoxaHJsT1NzcHlkRmtpUVJLbnlXdTY5bGt4VGpQRW9hd0VCODJfX3pSanB1UURZRW1jTndZdVVBUXlUWldDcGdhc2ZibENv?oc=5"
-                }
-              ]
+              "atualizacoes": []
             },
             {
               "id": "rafael-fonteles-24",
@@ -13926,12 +13974,6 @@ export const mandateTree = {
               "descricao": "Em junho de 2026, foi concluída a ampliação da linha do metrô em 1,1 km (de 15,55 km para 16,65 km), com a inauguração das estações Todos os Santos e Colorado, conforme informações veiculadas pela imprensa. Segundo o governo, também houve substituição de trilhos e dormentes da linha férrea e as estações Itararé e Renascença foram revitalizadas em 2025. O transporte tem tarifa gratuita.",
               "atualizacoes": [
                 {
-                  "data": "2026-10-13T18:13:33.000Z",
-                  "titulo": "Metrô de Teresina: Rafael promete iniciar ampliação, mas não garante entrega em seu mandato",
-                  "fonte": "Portal O Dia",
-                  "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPcFNVZUVDN2ZacHJpd0FLNXVsbi1lRmUxS0wzYkRHYmtrNmJ1WHVoNXNwLVA3VFdoeW5iVlRsVkRpVVVDUVkzcHc3Mk93OVNLaGNJanRNNTIxcHJzTDk4V2ZiMHpVLUZLb2U3cXFuYzlBMF9mTERLV1dIWjBadTR0MWNMYVRFRXV6TnN0QXZLTU80ME9VVUdoOXJrVzdfZHBOcVVVTVN2UDhwTE13dnRHZU15bmJzQ0ZHcFgzZ3dwOUwtU0xSS0ZpUWJvWE1OcmNZeVFfYmx3TmFxaHdKek00ek9qUWVIbDhqbmY2NNIB7AFBVV95cUxPcFNVZUVDN2ZacHJpd0FLNXVsbi1lRmUxS0wzYkRHYmtrNmJ1WHVoNXNwLVA3VFdoeW5iVlRsVkRpVVVDUVkzcHc3Mk93OVNLaGNJanRNNTIxcHJzTDk4V2ZiMHpVLUZLb2U3cXFuYzlBMF9mTERLV1dIWjBadTR0MWNMYVRFRXV6TnN0QXZLTU80ME9VVUdoOXJrVzdfZHBOcVVVTVN2UDhwTE13dnRHZU15bmJzQ0ZHcFgzZ3dwOUwtU0xSS0ZpUWJvWE1OcmNZeVFfYmx3TmFxaHdKek00ek9qUWVIbDhqbmY2NA?oc=5"
-                },
-                {
                   "data": "2026-10-12T18:30:00.000Z",
                   "titulo": "Rafael garante que vai ampliar metrô e diz que tema é a “dor da população\"",
                   "fonte": "CidadeVerde.com",
@@ -13947,7 +13989,13 @@ export const mandateTree = {
                   "data": "2026-08-23T07:00:00.000Z",
                   "titulo": "Rafael destaca expansão do metrô para zona Sul durante carreata em Teresina",
                   "fonte": "Portal Piauí Hoje",
-                  "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOUXM2ak0xWXFNRGZ3Yk56NmcySmV5VGxTNlVmVHBFS2s0T2djNnBOVGNNYnFYRnVFb3hnWjV3VVFPQWlYMlp6VmdoYlo3dDlwX0lvU190U1RsWGtHRDR6Z1JZVDhVaWRjVHFHR3Z1UW9mUjN1MnVTNmxINUxObUxOcDkycXFqU09wOE9YNXlOcXdZZ0FCYU42Y1RvdDQzbmQ3T0VmR1dmdDRsbzlheTFsNWVpazlNODJIQklZSzV0S0RURWh4RnBpR1ZZcDlzMEpramJB0gHYAUFVX3lxTE4tSTNGT2U1Z0Q1RDAwSzl5UTU0T3hCUHpSQlhlU1Y3ZEpXMlNUb2RZeFhqaXl1ZHd5ZTRONS1KZl9pd3Zmb3RRU0N4Q2IxZkR1XzF1cHJ6M1pzenYyaDd2SGJhQ3g2eUhXUFkwbFl2UGlsQ0NsWWRqOFNPUWx2d1R1SDFDdlN4REJYTEhIbEpUNTdldUdSSFpqbmdQRXVUb05WQ2NLbHM2OFZtNFdQSmZOODNPZEhXNUwzb0s1VmtlTEFLREhqbFJDWVBuT19BcHZ3dldaUEhXRg?oc=5"
+                  "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQc3l3cS1rWV9iNHlDYWR4ZlNxcGZJWjMzanFabi1lc1dkVDJwQXZ3cGRpLVIyTklmNEgyTGF2b0ZESHFnci1vMGVtdXBITjh3alFySXFGQ3A0YXFXT01xaV9oaktwNmVWTW81bnpUWTZiTmhEamR6NUEzMFZaOFBaTkZKMzNveGxwRWdkRDQtSHo3cElCZE9iVXF0V3l6dVJERnZzZFl6YVpNQVRpZ051bVpxQmJEd0stVjJqdG9tZnpMbVhFbkHSAcsBQVVfeXFMTTI2Q1FsY1FZakxsX3ZkYUJNRG5tb05WS1hlUzkxUXBHSTRYbGtTLVliRl9hV3Z2SkNzeHE2QzNHcjFSaWQyUzJGNWJ0a2JxczgxSHo4WktoVkVDa0xpMGlxOE9meVdKQzBmb2NXMVF1cGd4ai1DSVJwLVljN21zUWdPQ04wZkxVeHBLQlE0T053bXZzNkJCNUtyRXB3ekpoelA5NmxObHVGTllpZ1NaTUVHOTQ4N1p0ek9JSElBLXJyOTBRcjNLNnJIUEE?oc=5"
+                },
+                {
+                  "data": "2026-06-02T07:00:00.000Z",
+                  "titulo": "Rafael Fonteles entrega mais uma estação do Metrô de Teresina",
+                  "fonte": "parlamentopiaui.com.br",
+                  "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOR19UN2tmRFBNRWhlbTdFRjFYVUx3S3RqbEk3MjQ0X0JlSm9JQ1N6cHdQUlYtNnpISk5UYUdGZWtHdnUxYU9JbWRmOFk1U3hKSTBVV29Kek9OTjRIZ3ptbklNeW5JcjdJQm9EYU5CUjR2VnVfTGlOZHg4LXVvZm9yWjhzZVJlMjc5UGpVZG5BSzZzVzhoQmVleTM0UXhhVjVQc2dDU1pJaw?oc=5"
                 },
                 {
                   "data": "2026-08-24T07:00:00.000Z",
@@ -13962,28 +14010,28 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOcDRxNHRhbFNYeGdhNGNyeDZwQ0dlaGVTaGZNTDVmb0xMdmlfR1RLREJMVVhOZlpCOW5QcGZtYnNoc2JHcEhyWVBxNUxFNXNsVDVyeGJ1Q0RGcVF5bm1ZWTVnNWRVLTd3YVlOYVpCZUNCTjNaRmJ4SmtCWVV0VTZlYzZOeEE0RGpLS2d5NXRYY0dxQzJQMlo2WEV6Vm9rLU1McUFLTjMzMjBCc0FY?oc=5"
                 },
                 {
-                  "data": "2026-05-31T07:00:00.000Z",
-                  "titulo": "Rafael Fonteles sanciona empréstimos de R$ 395 milhões para metrô de Teresina",
-                  "fonte": "G1",
-                  "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQUUFDb2UzNFEwNlY0SmJBUnpSM25GbnhncnA1bFFMa2xCMjFxYXpOZUtvOWZrNEg1UGdRR1ZsUFhKcDdJVlJadXAzMEdTZDRxUVU0SVhWZ2poSUl1Wl9oUHdZa0dnME5MVURrbW5pUF82czVES2tCWUtibUw3cFpWOW5IbDJmT1J5SS1LX2JRaEp1cGZLVXExYmNzNmY0Z9IBrAFBVV95cUxQUnFXc1FsLWQtQ281M2VuclRLUnJ0V0VEVjNWMVhVLU13bmZRdk10WkJELXJYdnZ1N2dWNXBVdWRWcG1ZejcySlhXaHJvWENGYXliTEppb2MzRWM1MDM5LWozUEd2NkZoR1NuSGdqbkNOWHJ5bF9QTEtMSkRJbTV3cl9seDRab0RUeTUyVWN6V1Vac0thMHZiYlcwTXVQQUtMSFFRUzlCQWxYazJQ?oc=5"
-                },
-                {
                   "data": "2026-06-02T07:00:00.000Z",
-                  "titulo": "Rafael Fonteles entrega mais uma estação do Metrô de Teresina",
-                  "fonte": "parlamentopiaui.com.br",
-                  "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOR19UN2tmRFBNRWhlbTdFRjFYVUx3S3RqbEk3MjQ0X0JlSm9JQ1N6cHdQUlYtNnpISk5UYUdGZWtHdnUxYU9JbWRmOFk1U3hKSTBVV29Kek9OTjRIZ3ptbklNeW5JcjdJQm9EYU5CUjR2VnVfTGlOZHg4LXVvZm9yWjhzZVJlMjc5UGpVZG5BSzZzVzhoQmVleTM0UXhhVjVQc2dDU1pJaw?oc=5"
+                  "titulo": "Nova estação do Metrô de Teresina é inaugurada e dobra capacidade para 10 mil passageiros",
+                  "fonte": "URB News",
+                  "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOcUxKZ3BDZTdfSWNjU3V2ME9seEtIX1huRkFWcmpGbUJYR0JYTDdLTlY1c2hzUzhSMFQtV0NQSVlBbHl5MEVlS3I1OVhlVnBCYTFmWGFDaG5ZWUo1MGJiQkpyY2p4UmNhWGVMMjIzbXBHX2JJTnFYdFc2b29iN2tXMzJTY1M1OXdRSTJDaHRIbW5DOEd1YVlfNXloTlA3NFp2SjRHRDlKdUlkYjk5Y3lhTHNmb1I5RVFvZnBRNkdJTE8xUQ?oc=5"
                 },
                 {
-                  "data": "2025-01-07T08:00:00.000Z",
-                  "titulo": "Metrô de Teresina receberá R$ 335 mi em aportes para novos trens e estações",
-                  "fonte": "Movimento Econômico",
-                  "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNSlQ2UzhwZHl1aEJMZkpueDVvaE5DUFRwdERtYXlPWndqNm1HR2tkQjVKVkJiVThENzVoV0ZhT1lGQmpoYlY5OGxjb0lfOVFkcDlOUHV3TzJuVE1zUlFxaGtFU1BjMUZTWldteFFNNTlZdmJ0cmZyTzlFZTdrZ0ZNQmpBWU16ZjUzbGttckxTc0pXZG1wOXU0ald5WEtxdHM5aEpEeWhEVC03d3Z5VnJwVXA1MUhVRkZuUGd0WUJPbmJkaTI1cnQ1UHV3V2Y2TnM?oc=5"
+                  "data": "2026-05-31T07:00:00.000Z",
+                  "titulo": "Rafael Fonteles sanciona empréstimos de R$ 395 milhões para VLT e trem urbano em Teresina",
+                  "fonte": "Portal Piauí Hoje",
+                  "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQaTVSazQyYk1FVXJxam9MbUZFbHUyZG9VQ3JKYXJRUWU4TXdVV1AyN3haczZyc3RFdi1ZMGViVnp3alBKRWZoQUhpT0NKQXpWM05DVlZIRlVIaFZqZEZ5NzFLVlZ5YXNXbzE5TXFZZThUcDVrWWxLcWRzMG1qUjYzR0F1Z2ZfcmtyalZlU0xndEI1X3ZZcEtyZlJFT1NibUVtbEstZFU1eUVxaS13cHFTckgyNlVoOF9JZVdrU2FpSHBfb3hwa3hJQmdxY1laeUVQZ2RN0gHYAUFVX3lxTE1zcldjaWF3eDdYY0czc2ZhdjFVeW03VmVnWnlqVlFBZzB0aHhrOURSSmtSblQ0VUhLQ082elA2dnJGZTRrNThRR1dOTy1YLVJReE92RVM1M1hkR3NmSmg2eWFmWGRZaERINGhKS2dTMjJDM0ZjUDhwc2VhMWkwdnBLZV9wZk12TW93SGRBV3B0WENMUmxCSUJjYmt6N1l3cDE0eC0yTDFhdnRIYzFZQU1QV3kwRkYxLVZXRlJhejlYQXhWdnR4czBQNlpZY1N1Tl9QM3o2R0h3SA?oc=5"
                 },
                 {
                   "data": "2026-05-31T07:00:00.000Z",
                   "titulo": "Rafael Fonteles sanciona leis e autoriza R$ 395 milhões para o metrô de Teresina",
                   "fonte": "CidadeVerde.com",
                   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSE44RjkxaTRfekVwalp4Z2NpemZYRGdZUG1lZm5XYzBmaXJnMm9QN2hldnQtVXpzdjBYRzhZNFFlZ1dWNlFQaHZEU19EWE5uaGY1ZHNRc1pCUGo2cktnTG9wN2JwUHQ3OVFRZ2pyNzY2SGVaSF8zcmNpdDJJaUxNV19pQ2taaXpSUlRPVDU4OWh2VlgtRVZpQV8tZ3p4UWRDSW5wR3pMN2s3akdvblVQZ3RBTXlsR0U?oc=5"
+                },
+                {
+                  "data": "2026-05-31T07:00:00.000Z",
+                  "titulo": "Rafael Fonteles sanciona empréstimos de R$ 395 milhões para metrô de Teresina",
+                  "fonte": "G1",
+                  "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQUUFDb2UzNFEwNlY0SmJBUnpSM25GbnhncnA1bFFMa2xCMjFxYXpOZUtvOWZrNEg1UGdRR1ZsUFhKcDdJVlJadXAzMEdTZDRxUVU0SVhWZ2poSUl1Wl9oUHdZa0dnME5MVURrbW5pUF82czVES2tCWUtibUw3cFpWOW5IbDJmT1J5SS1LX2JRaEp1cGZLVXExYmNzNmY0Z9IBrAFBVV95cUxQUnFXc1FsLWQtQ281M2VuclRLUnJ0V0VEVjNWMVhVLU13bmZRdk10WkJELXJYdnZ1N2dWNXBVdWRWcG1ZejcySlhXaHJvWENGYXliTEppb2MzRWM1MDM5LWozUEd2NkZoR1NuSGdqbkNOWHJ5bF9QTEtMSkRJbTV3cl9seDRab0RUeTUyVWN6V1Vac0thMHZiYlcwTXVQQUtMSFFRUzlCQWxYazJQ?oc=5"
                 }
               ]
             },
@@ -14054,12 +14102,6 @@ export const mandateTree = {
               "descricao": "O governo não alcançou a meta mínima de 75%. Até maio de 2026, 157 dos 224 municípios do Piauí tiveram a cobertura mínima de 75% consolidada. Segundo a gestão, em média, 72,64% da cobertura estadual foi concluída, o que corresponde a 9,34 milhões de m² pavimentados. O que diz o governo: a assessoria de imprensa afirmou que mais 1,68 milhão de m² estão no cronograma de pavimentação até dezembro deste ano, para completar o percentual.",
               "atualizacoes": [
                 {
-                  "data": "2026-04-28T07:00:00.000Z",
-                  "titulo": "Governador Rafael Fonteles autoriza pavimentação da PI-456 e trecho entre Padre Marcos e Simões deve impulsionar desenvolvimento regional",
-                  "fonte": "Diário GM",
-                  "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNMlRteTVWMExZRVZpMTlLVUdKV0xyeFBNZVctVWd6cEx6N012dElxQzd5bi15dXNfVHpUMGFkOTdYeWdTRzBna2ZNSDY5UC1lZjBrWlV0aTJRbmVsVmdfczMwVkUtcnVnRGFlQ0dZTnFGZzZmbGQ3anMxUFdEYUVRdzhQQ2tyaEMtY3FYRDhWTlRpQk92Smlhb09ad0lTZW5TWmk4VFQxb2kyWEFQaDBFOFJtaXN5cE9kcFBUMEI5U2trcUgwdlpKaVFxY1l1Z29BRTNaS0toTW5WRnV5SWtCWm1CaURrNzF2N1BTN3JyaVp6Tkg4ZjdrSHMwRFU3eW5VYnNzS1lR0gGLAkFVX3lxTE5tcW5ISnF5a1dtbXFhUHRUN3FHd1JuS0RTV0pfZGVucHgyejNQaVk1UmxjeTlXcl9aLTVpLTdfLUI3RDZhZzFtZmRaN3FXT3hxZlNrREVJQ1kxTWQwNk5EOEgwMlBHWURfNEVQWG56Y2VGekpXNU1odDlqR01zdWpNdElDdmJpRzdZWm9GZVlNWUFsY0V5ZHhOaS1ySjRDallGTDhjdUM3b0dXY0R0N3B2bXZYT0pIR3hVMkQzZGRaeS1uNS1RZHhpOUVrTlNrS2g2V3BvYTQtY2psQThXbXRUSlFKYnhmcW1Zcl9JUXNZaXc3blY0QkQ4T3lVaGpncEZXTjRJSEw2RVNUYw?oc=5"
-                },
-                {
                   "data": "2023-08-02T07:00:00.000Z",
                   "titulo": "Governo do Piauí investe na pavimentação de 40 ruas de Parnaíba",
                   "fonte": "CidadeVerde.com",
@@ -14123,6 +14165,12 @@ export const mandateTree = {
                   "titulo": "Governador sanciona lei de proteção à fauna silvestre e a animais domésticos no Piauí",
                   "fonte": "Portal O Dia",
                   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOa2diY2t6dVdNMVZEN2JVOWNyeFQ2UHBXTTdPWjBFYkFoU0UtZmdBSmFLUUFJZk92VlZGdXhmLWtmenhRYVBVRG1aeDQxWmxRSXJ4TGpqZzZuUWpxODhrcklqUExuazlZMDdrOWZ6WlFOamFFb0p2eVhJUjU1ZXMzV0oycWUyc2haeVVpR0gzd0FBMm5PUS1HR0w1YWJSQ0FWMm04OC1qRnFHSml2UlBtelltYUJZcXNkdVRwQkFGOXpBQlpTbC1WYlFXQlk2NkxS0gHWAUFVX3lxTE1vZ2ZjUzVUbGl5TFhUaGJ4RnVoV2tFMkhMSlFFRFBmTGFMZEFZRU82MzNwbng4SWFtN1JNb1BwZ29pZEFsSURMc0VaMDRkSGtQdktqbXRXMVJibVhJRktubnRRZjV6WUIwRGFIajQwa3R5V1V1eHlWV2dmbmVOTWZ4MU52QkZHbjZMQ1lyei1fNTNyYW1GUDV5R0htLVlNZHU2ODFIc2JmcVhLUGNHZjRLRE5EdFg5a3VscHR2YTRaNF9EOEt6dmw2MFROc195R3BIcmk1TWc?oc=5"
+                },
+                {
+                  "data": "2026-09-22T07:00:00.000Z",
+                  "titulo": "Rafael Fonteles visita Apipa e promete ampliar proteção aos animais",
+                  "fonte": "Conecta Piauí",
+                  "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOSVcyaEZJWG9UdTRtdmY5YURhYVFjbzlEWUJBZHQ4RFlqTk5nNHp3dWNtZ2otaGpNLXBFdm0yM1FLTkpJelJvZjl5dHNRaWwtSENMYk5GWFZhOWtUM3ZCT3VrTnhiZU9ySldqUHhwcEo0V0ppNVRQR1p6d2loczRReGdFSjVkMVlzYjZkRXp6MEJ2OTRtZDRQVzdaMDNYSkcyUU9yV0Mtc2NGTVYxZkMzN3VXZ2pCLWV4VU9XeEt2YmnSAcYBQVVfeXFMTmZHQ1YtdzBWNEZ5S2NsM29GbGZaUExJREtrdHpJbEVENFprOXVuWEppbzQwb3BJWUJmZ0lYSFl6cE1yNXBhLUxnNVhxSXFrdFQyRVI5WnJ6Q0lFOG4tOFk2dTJJeXpHQ21TcVJtdEN4eGRnaVBaNllZYWVOdnV5eWY3bEJObnVhOGsxbzNNNWEzREhmX05wdWt2VU42NHYwS19vZF9ZUFNzSDk5MzRDY19zV0Q1TkFUQnBCZm4td1FLUVdINkhn?oc=5"
                 }
               ]
             },
@@ -14133,12 +14181,6 @@ export const mandateTree = {
               "status": "nao_cumpriu",
               "descricao": "A promessa afirmava que a revitalização do Parque Potycabana, localizado na Avenida Cajuína, zona Leste de Teresina, aconteceria “com novos equipamentos como auditório, teatro e mais espaços de eventos”. A construção de novos equipamentos não ocorreu. Segundo informações das Secretarias de Administração, Cultura e de Esportes, foi lançado um edital de licitação para a concessão de uso por meio de Parceria Público Privada (PPP) em janeiro de 2026. O Parque também passou por uma regularização do domínio do Estado sobre a área onde funciona. O que diz o governo: em nota, o governo informou que não construiu o auditório, o teatro e mais espaços de eventos, porque isso fará parte das obrigações da empresa que assumirá a administração do parque através da PPP.",
               "atualizacoes": [
-                {
-                  "data": "2025-12-20T08:00:00.000Z",
-                  "titulo": "Governador Rafael Fonteles autoriza concessão do Parque Potycabana por 35 anos",
-                  "fonte": "GP1",
-                  "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQZDF0U25ITGRITXV1bi1fVXZmYXVFZ2ZKR28yTlhOVGo1UDBWS01kV1Uxa3hnTWJCU0VhVzM1X3FEaTVSeC1vc3hVOWhyMllYcHFZY0YtTEx1OXlmTU9HMkZFb1VzNGdsdTdfb21obFBsekpQSFVaMnV4RGg2Y0ZuX284emlKLW1tRjl1czV4Ynp3bDVBN3RQb2R3RWlXNXFrd21IMkplTWVXS0JnOUhETHhFZDVJUFduSHYzLUZjb3pvOGkyVTBoMEZHN09XOFJ5bHFReUJ4eV_SAd4BQVVfeXFMT3lYZkhiZGU2S0tIU0RCTVpxTzc0enJXdnBsb25aUjgxWDBfVW9zcl9LbVpBaHB0UlZ6Y3hYNGozRm9XV2R0dk9wdjgzMjNiSG1WdDFvVnFIRmJsblA1QU94WEl6UzEwRmxma0ItOHhVUXhwbnhPU2FXY2xIYjktUHZOWjdMQVRnOVYtVEhBRTY4eVpxM2NhNXUwQ2lHS0FWXzZKR2VQNy1qcW82Z2xPYjh5RTR5WHdMcWYtYnlKVGtIU2EzYTJIaFdBX1I0X0w5bDU3UEdITmRkYXlGZzJn?oc=5"
-                },
                 {
                   "data": "2024-08-13T07:00:00.000Z",
                   "titulo": "Governo entrega terceira etapa da reforma e revitalização do Parque Potycabana",
@@ -14196,20 +14238,7 @@ export const mandateTree = {
               "tema": "direitos-humanos",
               "status": "em_parte",
               "descricao": "Rafael Fonteles prometeu atualizar o Plano Estadual de Recursos Hídricos e definir o uso prioritário das águas e as principais obras de infraestrutura hídrica. O documento foi atualizado, conforme resolução publicada em 2024 no Diário Oficial do Estado. A documento validou também o Plano de Conservação de Nascentes e Rios e o Projeto de Navegabilidade e Revitalização do Rio Parnaíba.",
-              "atualizacoes": [
-                {
-                  "data": "2024-11-26T08:00:00.000Z",
-                  "titulo": "Secretaria apresenta atualização do estudo de navegabilidade do rio Parnaíba nesta terça (26)",
-                  "fonte": "CidadeVerde.com",
-                  "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxObFlCVWRjZ1BlejVQQU8ybVhSUXZIWE5TVWk0YUNTcmVUVDVtRHVOQ3FqTlQ4WnpUbjFOcWRoaEc2akhSYThLQTRYRVJIdEhWV2FsaTNQZktSSlZYSnIzZVZwa2g4S0xFcnh6TVRKalhfV1Z3c0xWczVXNlZhZDB6NXFKRlJZVVlGM1NpbVJ2WmR0cW11dktFS29wMXBkd05yQjlGNk5yNkxZbF9HS2xncXc0NXpQOFFkaENGY1llVWxkY2ZFZ3NZQjhR?oc=5"
-                },
-                {
-                  "data": "2025-10-21T07:00:00.000Z",
-                  "titulo": "Piauí apresenta plano climático pioneiro no Nordeste e se prepara para COP30",
-                  "fonte": "G1",
-                  "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxNSHlTaUxjcU9fQ25CLUxzRzliaWhfYVhOcUM2Y3Jjdkh1WWQtQkVGQS1kUExBRURxTnRKSW8zUHlwQ3BDMGM0UjU3ZGk0aDY0YXUxTHAzUWpnUlMxWWI4dTljZWd5MmJZTHo5RHdsbHZUM0d0WlJHZDNBbVdINi1fVlByUkMzS1VqNzU5enVKVDhBRzdEakhsbWFhMWItV0d3dllRS1dFN0k3akxza0djNlR2X0FwNUZwbnFIRHJlX05WanloUHhhTnhnUkZfOTV2and4WHNXWUlURzRwXzNVLU5VejZRVXloRGhPT2lIVDFsaG5HZElSMzVkN3JYcV84QkVYQ3l0ZjMwZzJFa1pvdTVNc05OXzlUa3lCVU1tSU9OYVVvenlyMUhUQlfSAbsCQVVfeXFMTVBPbGRNYjZxaHdBczQzSXlwTmRNcWxjOEY1bjRTWXZCVzA2dVE0OTlNQzRtN1hGVjhWNXFwWHpjcDNRZ3pNRmVxZTd2NWxuS0NocDA0UFc5aXJ4X1N4TTNiN293WXFCY0FvczFSRFpadVZETWd2d05ESzBkcWowVk04LWtGWGpPRS1sMzZZZGctMmhNYVZDeXBrNE13aGNOc2hkVHFRbVg1T2hZOWpTQlIwRFFKTVBhb0wzazZrNEVDV3ZrSlpscDliUXBmVGhRZmhKVUtybTBUdUtlbmFKMmJ6NGpNd2d5NWFoTWpPOGZJSlF2cEtWSDNHVmN3X3owc3RxQm56SzhvUlhBdjRKVV9qTzBDNHMtTjNZUmp0dUlOZnkzcVJZaXZMWG1QaFZyX09jUE9aZURQaE1V?oc=5"
-                }
-              ]
+              "atualizacoes": []
             },
             {
               "id": "rafael-fonteles-43",
@@ -14309,12 +14338,6 @@ export const mandateTree = {
                   "titulo": "Em São Paulo, Rafael Fonteles destaca experiências exitosas do Piauí com parcerias entre setor público e privado",
                   "fonte": "A10+",
                   "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNRnBzX0toWG9VOTlESVhJTmJBSUFIcVpWLXRaeXM0b1ZyWnlMcXJQd1ZOSnp4RWhhdkRPQjF6d0M4S3luZ3huY1BWbnR1OGZCX0JvRnUzX0o4SF9MQUV0ZFdrcDVJVk5sWkdZV053OUE2ZlA1TUp0bC1VaWxVd0NqOGhOQUJxMFROaFVHWEpPbC1pQ2RCSjRscndxeUdLaU5xdm5xMFNZa3M1dDIya3JDM1pRMWNGd2ZobHRGaTVyeUh0OWk0QzVWZWx2aDdrWnBmamp6QVVFeE4yQnd3cWZnYzB3MHhwbjkwRmgwWDZEOTlLd9IB9wFBVV95cUxQdEpkTWh5dHFILUdQZEl3VkdTU1p3NmpGUGxhQTVSdlplenA5MzNTczAwcDlEZU96Yy1xZVdWYkxWSnYzWVdMMjMxTEFnU2ljNlhITlJfNld3YlZYbW5SbEU3alFsZ0o5VHdEQl9FczFmbDFlOXRXS2NkNlNFRThkODNMcGtPd0VLMnpsMEs1YnRYN0poc2Q2RlppUnZONEZvZUlURzhORnN5LTdXajd4eWJIWUxBYWJ5UGxEU19ZckNOZmZ5dEhtOUZTby1Zc2dmbTQ2MjNVY0xVSEVJQUtybUhrODA0YzJoM3pVN0c1bGhXbmY3M0RF?oc=5"
-                },
-                {
-                  "data": "2024-04-11T07:00:00.000Z",
-                  "titulo": "PPP do Albertão ocorrerá em agosto, diz governador Rafael Fonteles",
-                  "fonte": "GP1",
-                  "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPQlJQeVlfYTVjd3ZUN3djbWU0RWhrWVFpSTNzMDItWGFMWlJkZjA4ay1wTmdCYkdLek9LZks4S3pBR1d2WTQ2Z2RVZVhyWG5PUkJ5SWNYQ0pQU0FFUG5HZHVnXzR6elNmQVgyQ2JiN19OODFCQmQ5UFo2RWd2RExxLWVxRVRFR0RnNC1BdXlIck1CZ0VrRGQ1M1ZMUy1wem5DTXBFck9hX1E2VFNnSXUzMnl2SFV6X21aR3BQTzFob2QwZFhzV2c?oc=5"
                 },
                 {
                   "data": "2026-01-06T08:00:00.000Z",
@@ -14433,22 +14456,28 @@ export const mandateTree = {
           ],
           "noticiasGerais": [
             {
-              "data": "2026-10-15T22:19:44.000Z",
-              "titulo": "Dia do Piauí terá celebrações em Teresina e Parnaíba",
+              "data": "2026-10-16T15:56:00.000Z",
+              "titulo": "Vídeo: Rafael Fonteles comemora promulgação da emenda que acaba com escala 6x1",
               "fonte": "Portal Piauí Hoje",
-              "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWlVZdnhXOV9kbTlQLXk5QWZCQ2dtX0wwdGNWU3owZWUwbVNLMGJ0S2xQQjdqWGE4eW1DaEtJc24zV0xycVVDZUJSSnJIUlM2WXNBVVBzbWpDbkt0b25yVU9DaTA2d3RJbGFlcEE1VmszeDFiVkl1T1N5cnhUOF9EdDNpV2VyVC1UVml2cm1rcGc3bmY0WDkwNGFhUHVrQWh1d3cyMtIBqgFBVV95cUxOYXNrMjF2NGNvbC1BcEswOERlclB6T3AyZmF1ckpwcVZVR0FJME1mUkozdlJ5OUlndUJ5V1JIbWlDakItWHk0X2FhNTYxSnJNX3JSY3NKYXJyQ0UtWXg3WXhQUzIxNjZGSW84T2NuUnRZQXlNUDhKZEFpTU8tdnFBNVp4ZXJMeFI0YWFEdEVmV3RfMWYyQm5jQlUzM2s2MDVmNzZOTFE5dXlhUQ?oc=5"
+              "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPT2FITkNKSFFHOFVINDZXdDlIeUFRaXlrbUNGaXNVX1FneUhZYVcxUi1aT2E5alg0aTctXzE5OUdjbVptMXpFME1mckk3YU1BNkdxaUFJOGk0Q2lTMExkb25HS1dVR3IyZkU3aDNldHAtbzhqZWJhZUFPWjh3WVBVX3NhUjg1aGVqODVQOXJTbnUzaUxPMkU0ZFhrRUE5VURxOWVSWFdnczRRSmhMc1ZyTm90cXo2RndfS3lfSjhjZHI5Y2pzQ1ctT9IBzgFBVV95cUxPZnlwQk16dmEzMGl6b1ZGbDN1LWZDQkdCR0FDLUV5NE0zMEFNSkxpVXlRNGRLWVJGQ3Q3czlpM3JwT20tby0wcnY2MWtXOWxBRFpwdUpTNzl1a2RDNG9HdjZQeTlYR3lUaEN0cUJDdDY0ZUtidnpGOGV6Q1d6NlhQbjNVRktqWTlLbkh1TTlvemFvQk9KRTJOYmRpN3ZWLVFwdnY2R0IzeXQySWQtR2stZjl0azA2RnVzdTRyNVhEaTRzNTJNXzhKQ0lHaHhKQQ?oc=5"
             },
             {
-              "data": "2026-10-15T12:08:00.000Z",
-              "titulo": "Governador Rafael Fonteles comemora aprovação do fim da escala 6x1 no Senado",
-              "fonte": "CidadeVerde.com",
-              "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQZnRQU1MyRDNGMzVLREJJaGRGQWNYeVFrcC1iNjlvNGRUekxaMVVJR0tVVXktNElKNVJsWlh3cUJmRWpJc25NNE1UWDZDY2dPYUVQNkl4eWE2Nnl1SWJFb1pFaHI3azBHU2J3Q2hiNWRZNXM2a3o4elU4b2xhd0UwVVB1OTdkZ2gzOFgzR3ZYTXlRaWc2Rk5RaEItMHQtdjhYMzcxMHk3bDJBd3RCN1IyV3dRVTlRWFk?oc=5"
+              "data": "2026-10-16T13:16:00.000Z",
+              "titulo": "Governador Rafael Fonteles se reúne com Gilberto Kassab em Brasília",
+              "fonte": "GP1",
+              "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxONWgtM0V0SXRFNGFkZTFXYTUtQnBnQTNaZXd2Z2JFYWZ3d284d0FrT3k0NjNCY0hlLUkyMUdaVmtYVUJVTmM3aE1jSmZkOTFhRTRxZ3JiVmVEckNkNExybnZ3QzUxbl9kZUdNMHRxOEo3M243Umh4cUltWFlEOGJPWWw0eGJGd2hpV1ljcDUyNTlUWDR6Njc5cndEOG80XzJTY1g2OTREOEtwaVhfUkREbEdHNU9QZGV2cl93aUY1UmtPVkNnSWgwV0F30gHPAUFVX3lxTE1kaGN6OEVHb1hUUTI0UVJtOWFpU1RLUXh0RWZQRy1CZWYwWHY4eGxaMmJEckREczV2OWZiNWJNdHJUMWVwNXhmaUlFU1l1QTFjci1ZOXREVVQxOG5YSExvMUFtdHpOckVLUFF1Tm5TdzUyYnJsLXY3UUF0QUsyZWFjTmc4ckdmYlA1ZnVKSzdlalhlZzJMdWs3LUhEb2htUjVValNxQTM5dXNwZGY3M3BOSENWcFU0UXA5WEc3RlhIQWx5U3lXZWRHZDRRVDZUZw?oc=5"
             },
             {
               "data": "2026-10-09T14:33:50.000Z",
               "titulo": "Rafael Fonteles fala sobre atuação na campanha de Lula e anuncia que vice coordenará secretariado do próximo mandato",
               "fonte": "G1",
               "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbVNlOVFqc1ZBZENVVFhKQzRCajFIU2ttM0VkM0pCRVFRbkh5dFFJSHdia2VHYVkwaHhtYkFuekU3X1VyTXJxSVRNSFlSSHJqTHR2Z2hCS1dHcl93OE8xYm9saV9IcEh1NlJkNjEyLS1oVndzMjBuRGpvczlrd0QtY3Rsci16Nno3dzFwZTZ0QmxFc2lGTHdHZ0wzZWQ4TnFwaWdz0gGyAUFVX3lxTE5HNTNpc3J6R3lBQVB5SXhzY2tIaGE4YmIwaGp5bXkyeE5kSlhnOU5RSEd3RGkwekg4eWRRRGNQbHRlSGk1NDBteTJSSkwzNVR4bENWX2FLc1FOaHZVLWNKd1B2aUxJck9xX2VTWWc3dlJUTUhUbWNuM1V4UTIwdWVPb1FMMDlNRmh5M1RmZmxoSzJYTGY4TVVPVmJBZFZ5UFBkRUh2aEg0X2F2VWx0cXZvcGc?oc=5"
+            },
+            {
+              "data": "2026-10-08T19:11:00.000Z",
+              "titulo": "Rumo aos 80%",
+              "fonte": "CartaCapital",
+              "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1NSmVKYTNFVU83cTk5VjVfX2JmZEU2RGp2ZWYyU09Cc2lRbk5vNHVSN1djSVlxaEVqZ01hcDFGYXphd2tjRlRwUXFVLTg2SllrdlpWVTBuaTZLSWR5UXBrM05UaVF6ZDBsb2c?oc=5"
             },
             {
               "data": "2026-10-05T07:00:00.000Z",
@@ -14476,15 +14505,15 @@ export const mandateTree = {
             },
             {
               "data": "2026-10-04T07:00:00.000Z",
-              "titulo": "Rafael Fonteles, do PT, é reeleito governador do Piauí",
-              "fonte": "Brasil de Fato",
-              "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPV29KUUQtdzdWNGYxTzhpX3RuS21FS2RoSmwzSFlRd2xjcEZFcVZKWGZkYThnUWNTM3Z4d1dyWTdJeEtRanI5U0p4TWwwUkFkVGFncTJrS3VPYWVNMTUtU0UwTEdZQ2xZWUNLSmk5ZmlmXzRyTjhqNWI1ZDJtTHlpWkplZTBJd3phVkxVaDdJR1huSS1SLUtjWDhfTjkxVkpiRE5PdWRlQnFXMUo2S0Z3M1ZEcDhtdDc5b2sxV0wtajlrQWc?oc=5"
-            },
-            {
-              "data": "2026-10-04T07:00:00.000Z",
               "titulo": "Rafael Fonteles é reeleito governador do Piauí no primeiro turno",
               "fonte": "Congresso em Foco",
               "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZ2ZVQ28wQ0ZKOS1IYnJBb3R2Y0pwTTc1ZENzR1RHWlhBd21tcDMxWnNndkQ1RWdNS3JqMjRhUTBqYnJWaVdLeDRZSHVyWHh2eUVhempWYVNsZDZXVHVSVC00WXNHamgxOUd3ZTN6SnN0U1NQdnh1RF9IU0VBYkYyNXhyZFNLNk16YzczdjV5SnZsM2FFWk1yNjQ2TnhtNDl0WjloU1lrZWdtblZXNWVFR0RTQ1E?oc=5"
+            },
+            {
+              "data": "2026-10-04T07:00:00.000Z",
+              "titulo": "Rafael Fonteles, do PT, é reeleito governador do Piauí",
+              "fonte": "Brasil de Fato",
+              "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPV29KUUQtdzdWNGYxTzhpX3RuS21FS2RoSmwzSFlRd2xjcEZFcVZKWGZkYThnUWNTM3Z4d1dyWTdJeEtRanI5U0p4TWwwUkFkVGFncTJrS3VPYWVNMTUtU0UwTEdZQ2xZWUNLSmk5ZmlmXzRyTjhqNWI1ZDJtTHlpWkplZTBJd3phVkxVaDdJR1huSS1SLUtjWDhfTjkxVkpiRE5PdWRlQnFXMUo2S0Z3M1ZEcDhtdDc5b2sxV0wtajlrQWc?oc=5"
             },
             {
               "data": "2026-10-04T07:00:00.000Z",
@@ -14497,6 +14526,12 @@ export const mandateTree = {
               "titulo": "Rafael Fonteles, o governador mais votado do país: como matemático 'superdotado' virou uma esperança para PT",
               "fonte": "BBC",
               "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBxeDF6U09ER0FHQlhaQVN1b0xjVEpqTnBHYkMwa1NGd2VIZlZaUnM0bHM3cWtCUmVqN01Lel9sREZ2bk03NUt3OS1ZOXA3bDRjQkxEMVAyNzI4SFJBM3A0ZWNWUQ?oc=5"
+            },
+            {
+              "data": "2026-10-04T07:00:00.000Z",
+              "titulo": "Rafael Fonteles é reeleito governador do Piauí no primeiro turno",
+              "fonte": "O GLOBO",
+              "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNT0hCZXR2WnJkTThjNnB3Rm1wb0hRYWluazBKMHFLN1RLMEhnYU5Zdm1zQkRsdVhVVzZaT2pESEhQOFpTOF9kWVl1MEY4YlFoaHJ2alNGbmpKQ3lHWkNWaTByWWF3YVN0ZnlTaFluOGI4M2dwcFc5M2dPcG1aVlo1REhGVG1PU0Z3UUoyWV9zbXk2YWtWeU9fLVl5bjVVZ2ZySmprakdLUmFyLUxKV2huQXpSSE9FVEFaSy14M0FZMFdyclhzNVNULVhFOFRGUGZBZTZR0gHiAUFVX3lxTE9HOXRIcjNQNnNxMng1Z0xHcXVNei1TaDhVR2U5UVZkN1pQd2Ytb0cxbFlNMndsVFNmaVNOdnByTEdCTFNaOVIyNFpiMVlNemdpWUtWQkhhb3drRHVfWEptQ3U4YVdfUC02VWxvWERTTFZSTm1XbWtTSm5lMHJpVnM4bjB6R2xualhrc1R6NVB4a1lMck80eW5kQ3Y5dVhrS3ZhQnhYc2Joc2UzQkRqWFNTWXJ5a0hkLUtpTHo4Tk9DclFydHVCUXNuYmc1NjR5Y2Zka192ZG82T2l2T1RpVUJMRUE?oc=5"
             },
             {
               "data": "2026-10-04T07:00:00.000Z",
@@ -14515,12 +14550,6 @@ export const mandateTree = {
               "titulo": "Petista Rafael Fonteles supera 70% dos votos e tem maior percentual entre governadores eleitos em 1º turno",
               "fonte": "Brasil de Fato",
               "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOcmV4MllZOHZrS2JnUDY2bkdvTERBOVlhRjkySVkxWE9SSWlHSFFtS3M1SUQ5UXFva0RjZk83TjhNVkdoZi1rVjhhMF96OXF5cmJpMnVVVFd2elBJZkxSNHpCaVR5cV9PQ25XN1ByS2hrWEtNZ0F3U2Qtb1Y5bU9BZl83Tkh5TlVfNXhoQnYzSFkxdDdJbEZ6SGhuTDdneHpnVXN4ZUxBVlNiNU1zdzI1SlRCQThoeDNfWWUtOERfY0VPdVZvRzBOSllpMXV6bjI0NGdLV0FLTnZIbE1BblBtYTMzRQ?oc=5"
-            },
-            {
-              "data": "2026-10-04T07:00:00.000Z",
-              "titulo": "Rafael Fonteles é reeleito governador do Piauí no primeiro turno",
-              "fonte": "O GLOBO",
-              "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNT0hCZXR2WnJkTThjNnB3Rm1wb0hRYWluazBKMHFLN1RLMEhnYU5Zdm1zQkRsdVhVVzZaT2pESEhQOFpTOF9kWVl1MEY4YlFoaHJ2alNGbmpKQ3lHWkNWaTByWWF3YVN0ZnlTaFluOGI4M2dwcFc5M2dPcG1aVlo1REhGVG1PU0Z3UUoyWV9zbXk2YWtWeU9fLVl5bjVVZ2ZySmprakdLUmFyLUxKV2huQXpSSE9FVEFaSy14M0FZMFdyclhzNVNULVhFOFRGUGZBZTZR0gHiAUFVX3lxTE9HOXRIcjNQNnNxMng1Z0xHcXVNei1TaDhVR2U5UVZkN1pQd2Ytb0cxbFlNMndsVFNmaVNOdnByTEdCTFNaOVIyNFpiMVlNemdpWUtWQkhhb3drRHVfWEptQ3U4YVdfUC02VWxvWERTTFZSTm1XbWtTSm5lMHJpVnM4bjB6R2xualhrc1R6NVB4a1lMck80eW5kQ3Y5dVhrS3ZhQnhYc2Joc2UzQkRqWFNTWXJ5a0hkLUtpTHo4Tk9DclFydHVCUXNuYmc1NjR5Y2Zka192ZG82T2l2T1RpVUJMRUE?oc=5"
             },
             {
               "data": "2026-10-04T07:00:00.000Z",
@@ -14553,6 +14582,12 @@ export const mandateTree = {
               "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQTUo1Z0hGLUZtVDFrU2ZqbFpOUjFSb1hKSWIzM2V6Qi1ZOHQxdDZmRkF2RzJGbEh4dy1CdU5ZZm11MkMyRndPS05iemlTdUxlc2JCbVlEcWlSUHpQbVRYdWtpTG9ZNlZqUmxZc1JLUEYwMmZybVI3Nk9JajcyMzRhY2pQSVZkMlpuOWFOTWx6ZUc1YkRoaTlDM1EtSVo3S1lsbFR0S1RyU2E2bUdfdkZUR0lybi1Hc3laZnBMRDhhUllWcU1wTVUxSktB0gHYAUFVX3lxTE1tOWhMaTVzUnp5bVNza0hSd1pNV2xqOVNqQXNKdHpoVHRHbEZnM0c2RkJUWkliNjRwM3BrdVBrUGdrMTNuSnQ3QUtaXzBhX3ZTQWd1d1BpTV9qSjFvdEFGTXdjU0pFcElqNGVOYXJ3S29rZXJXQmJNYmQ4bGxnaXdDWVRHbUhBNDZwcmlfckZ0M28tdTZGbi1rbGhocjJfSUctWUVwY1g5NlUxZ01vMkFJeEFTeTZaem50VTZiV0NMamJRdXhxbUl0LU9rbTNjVXE3Y2NJOVJ5Vg?oc=5"
             },
             {
+              "data": "2026-09-25T07:00:00.000Z",
+              "titulo": "Rafael prioriza água, turismo e geração de renda em projetos para a região da Serra da Capivara",
+              "fonte": "Portal R10",
+              "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQaU43ME1nVV9KZU1FVmN1OXdOX19QTEpyOHNzbTRRQ29UajB6VkpZbG5ZQXVON0Jncm9iR3JlRWVsMHQxb0dLbFMtNFF3WmpuQ1JJZUFNc1pxdkRQT3BTVUJBMEJPSXpOeElfMDExQTVkZmVBWnRNSnZXUURZdmphaHJvWjF6YUl5VERDcW9seG95a094RWZnbE1kQnFmQm9KdDJQSDJRSk8wNXdsOE96SDdSNGtsdnZXMll6R1doVUpXUFlxbnVMTTJNLUVjNnVHRmhGRGVmUnpjZXhK0gHiAUFVX3lxTE5MRkZWZmlIdG5pOVBLZHV6NGlWWHFyZ3JoY19aZm1uay1QbWNKekE0YVZjUDJfWF9GUjZQYmVaTVl5X2tyMGpLWTEtSU9MZnRCWkt1WFRhWjRjVks2VzFCN0UwTEtlbmtWVi1vZUZWQVBzNFRCMGp5S1NiTmhwVkVEVTRYdnIxdXhOLWkydllvaEIyRnBTc0ZoOF9sUXN1M1BKYllyS2EtVTE2MEJlcUJOdUdQeVZzRV9Ia1VPSUxzazFkZ001X2hraVZ5bU5qdHYycld6aWJXRjhwZ0pvRGZjaXc?oc=5"
+            },
+            {
               "data": "2026-09-15T07:00:00.000Z",
               "titulo": "”Vamos punir os criminosos, ampliar a rede de proteção e zerar déficit prisional”, afirma Rafael",
               "fonte": "Parlamento Piauí",
@@ -14571,6 +14606,12 @@ export const mandateTree = {
               "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSWZialQwcDk3MkEyb0pvMVF1bzhhZG1jSVUtdENsQmZLS1YxVlRFdERBU0diNTNnRDVRY0VyR3p4bk5aOF9tNVJBeTJnVk9tcjZKVDRWenlUcWY4eW9lYmx6LU43VUM2eDNzTHd1VzVaOHlGQ2JoLS1MRzFkenRnaDI2T243SkcyOV9JSmJjeXBSXzJUSW1LWWxSYzgwUFk1NnhkcNIBswFBVV95cUxPb0g1ZS1nYklUREdHbm9TaU8ybm9FaW16Wjg5NHFZYzNDT3BPYVpZRlh6eGdRdVRISGFndTBQWmZrRFZpS2gweFVheHczWDdROXlGellOU1JjT1RjZUpFMDNFMVFnNU1hT09rUTJUdVFxYVRfaDJfbUNEOGg4aXVrV2xHd1g0RmpSSDhzN0hXeXItWDVhMTIzd3dyXzZQTGpiVXRqSGpWdkxEODF6bGJQQW5OQQ?oc=5"
             },
             {
+              "data": "2026-09-14T07:00:00.000Z",
+              "titulo": "Veja trechos da entrevista de Rafael Fonteles ao PITV 1",
+              "fonte": "G1",
+              "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOQm5PTS1ILVIyWWRBaHdfRGhLeEZFV2N0aVVNS0wtSDFhWmdfMXVFSDIxdWl5OFdYQjFiSGdWTUxTdjVSZDNYZWxabEVMWEhTVzVObFhIemRlcGVxVS1PMGp3RFJFTHkzLUxVclpHVUFkWWJmOGI2UC11eVpUbFpnaUZUY0Radw?oc=5"
+            },
+            {
               "data": "2026-09-09T07:00:00.000Z",
               "titulo": "Lula visita Piauí nesta quarta e reforça agenda de educação e articulação política",
               "fonte": "WSCOM",
@@ -14581,12 +14622,6 @@ export const mandateTree = {
               "titulo": "Rafael Fonteles quer aumentar Ideb do Piauí em 20% e levar estado ao 1º lugar do Brasil",
               "fonte": "Portal Piauí Hoje",
               "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPNHcyMnRSclhucGh5eWktZzcyZjhnLWdNSlNQYzV6TFBzalhvN0JJUzlnQ2g0ZlhYU09zRlpaMVNnRmdBWnFYeU9jYVZNNUNleHA2Z2MzVV85Q3J0endYYTNwMU1rSnlXc3ZJQ2JWU0t0eE5VdDJDMTg4RzQxUkFIQXFWQmlIV1JZUDhoMF92MHdLT2UxbFIwNGh2Z0UzNlF6dWxFM2xuUFVzcnNhblZJYlpzbzZtbHdNd1hyZ1gxT2tmUHlBZWdUUXFIOUNMUHJBZWM5N9IB2gFBVV95cUxPNy1mWEVEaHBOQ0pNRnAwbnZ3WE1rZkNWdmU0UXdNeGNUa3B2RFUxa1hnVHFRWm10ZXBYSE5TVmd1VEJsNG5CZGZ3VDNuUFd5NkZGRF9ZVm1BZmVDMm83V1ZRcFRGUzRNQTlfX3JPb2JHeXNudUxhQTdjb01hd0hWa3g0cENMYjZaa0w4WjdaMS1qYjlIdE5mdXdsYzJ5aFBBWVA2MkNxUi1mVDlXa0NTTE5ZSjB3RlhuLXB6ajBIRjVSaG9iUl90dDhWVkRmQlRuazRsRmVKa1N1UQ?oc=5"
-            },
-            {
-              "data": "2026-08-27T07:00:00.000Z",
-              "titulo": "Rafael projeta queda de 45% nas mortes violentas e mais investimentos em segurança pública",
-              "fonte": "Portal Piauí Hoje",
-              "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOZnVnUDhXdmNzdU8wOWlyYWhKcTE2T05rMzNZaTNGUl9FMVhjS0lNaE1Nc005cktidWV4elROZTB0bkwzcXhkMGwzcmV0UExSWjdkZ1o3aHctZk5Hb2xBdnVIUFBOTElWQkdZV0dMdWhtLTNRTjdRRGZsbVdpT3JPdXZ0ZWxYN1k5TDlrWVFfcE5aMmQwQUthUHJQeVdJT3FkMzNKUk5wbmU4ZFI3M1JiUnpRRVY0XzRTR3ctNDJjc0xHd01sblp6WVdWeDBUUEdCcVlmY19hZ2_SAd4BQVVfeXFMTnp6VEo4bXMzd000V2tmZVdhQ3QybnpqRF9HRVh4UldkaTA4SEhRRlRkVGZaNHFLOHM1ajdnR09XM0E1aDBzWTFNemx2RzRPd3YwdzA1Unp0Z0g1d3dfUURRdVJJbW5mX2tFWGpMNnd4dFM3NENTUW5Vc01RZ05kODdLemM1UEU0OTgwS0djWkxlNExfWmh1RzR4eW5GWXlrUEJ0ZEZNVWwxWFFRMUh5UXkxTlRLMzJmV3pMWUpvcGhJZkhieEJQSDVrNU4tY0JBaFp5azRnRHRPZnBnekF3?oc=5"
             },
             {
               "data": "2026-08-22T07:00:00.000Z",
@@ -14673,10 +14708,22 @@ export const mandateTree = {
               "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOaWdjZ3RGWHdRM3N6TXpOXy1jMlVDQ0FIOW8xakY5OEltSDR0R2IzSTAwbVdZUVN3VG80N0tINHQyeThaUVctaE5YLXJTYWxWVUpvbTNfX3VtRFp0aEJfRXZ1TVJ0U2xKUmhqb3A5RUp6MVpUU3UzZ1NLY3lsUGZ2RTFKZ1dXdVlNRm5EbFp2MWs1TkZDMzg1Ymo2Mm9FUlhNTTFFOFhuQ2E2SWVYV1Vtc2lYWkltYl9NWUtFOGdDTFU?oc=5"
             },
             {
+              "data": "2025-12-20T08:00:00.000Z",
+              "titulo": "Governador Rafael Fonteles autoriza concessão do Parque Potycabana por 35 anos",
+              "fonte": "GP1",
+              "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQZDF0U25ITGRITXV1bi1fVXZmYXVFZ2ZKR28yTlhOVGo1UDBWS01kV1Uxa3hnTWJCU0VhVzM1X3FEaTVSeC1vc3hVOWhyMllYcHFZY0YtTEx1OXlmTU9HMkZFb1VzNGdsdTdfb21obFBsekpQSFVaMnV4RGg2Y0ZuX284emlKLW1tRjl1czV4Ynp3bDVBN3RQb2R3RWlXNXFrd21IMkplTWVXS0JnOUhETHhFZDVJUFduSHYzLUZjb3pvOGkyVTBoMEZHN09XOFJ5bHFReUJ4eV_SAd4BQVVfeXFMT3lYZkhiZGU2S0tIU0RCTVpxTzc0enJXdnBsb25aUjgxWDBfVW9zcl9LbVpBaHB0UlZ6Y3hYNGozRm9XV2R0dk9wdjgzMjNiSG1WdDFvVnFIRmJsblA1QU94WEl6UzEwRmxma0ItOHhVUXhwbnhPU2FXY2xIYjktUHZOWjdMQVRnOVYtVEhBRTY4eVpxM2NhNXUwQ2lHS0FWXzZKR2VQNy1qcW82Z2xPYjh5RTR5WHdMcWYtYnlKVGtIU2EzYTJIaFdBX1I0X0w5bDU3UEdITmRkYXlGZzJn?oc=5"
+            },
+            {
               "data": "2025-04-08T07:00:00.000Z",
               "titulo": "Governadores: Tempo Integral e colaboração com municípios são apostas para aumentar a aprendizagem dos alunos",
               "fonte": "Todos Pela Educação",
               "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNa1N0YUNfY193LXlGLVBXT1IxYlpsYzAtOHIwYThVV0hheW4tcEpkNkFRU0NycVR5VEpVc1prWmlMeUg4MEJ0b3ZGNUxFSGZoZEptcVI0QzVQbEJWcEI4QUR3MUZScTRVVi1WbnIxTmJwTkRqQ1ptSjRRT0tsWHVfVFNBMHlCa2oyTFpybVdVZHdmcmh6WjZxVUZEbFg2WG9jckEtU0QtaHB2S1F0Ni1yRXJpTzdrRFFjMm1kLUxwQ1ItOUwzUHpfUTRJcDB0RHlqYjMxWDBn?oc=5"
+            },
+            {
+              "data": "2023-12-31T08:00:00.000Z",
+              "titulo": "Rafael Fonteles faz balanço do primeiro ano de gestão e comemora conquistas",
+              "fonte": "GP1",
+              "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQa1lVbjY1T0R1ZFg0MW41LUlWUnFfc0JHeDhicElqOEstYmtpN3BvOWVQNTA4cWlLU09VTG4wa1E0SmllS1JCdThidlhEeE9wNWVOMHpkSDBIRXY1aVlmNHJvSzBnMEVrcWV3eS1EeEJTY2t1TFhUY0lTX093NVFEdjdsQ0hCWndJc19LM19NN2FHSHI0SHB5M0tlWGhMRXlyYXcyNUFFT0dQYjJZQzQ4cEo5VGk2N05oLVpTSnRzbHZyS2tzY3c5SlhYWVRmNktX?oc=5"
             },
             {
               "data": "2022-10-07T07:00:00.000Z",
@@ -14760,16 +14807,16 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPZGxnanZJRk9qR19WN1hXR2dEcE1KZXAxNXFIMlNYZDdoRFJ4WUF0Z0hlZURjNGMwU0N6VnFvUmw4OHIzNHRfdm5WR2c1a0VsN3FRSU8za3dLUUd3dW5RZWxfWEZVRW8tc0RDWWpkR2tnOERqR1JLUXZ4bXI4ZDU5bGFxNU9leURDRG9SMHlyQWdVcHd0LTlEN2J3TUxlNU9lTlFNc002b3hlZVd0dmpqTnRnOW0zZkdHT3VEbWRSR3UyZWUwTXZ6U2J2bVlUaFNXdUE?oc=5"
                 },
                 {
+                  "data": "2025-06-12T07:00:00.000Z",
+                  "titulo": "Estado finaliza licitação para construção do Hospital Metropolitano do RN",
+                  "fonte": "Saiba Mais",
+                  "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQWHdhVmx0ZGIyRVN3M0c5VVgtcDVYTUJLS29RbHM3M0ZLbDlfVjZodzloUVNGWVE5V3NudEI4T0tjWjFPbVdtTHNiNnloaHhBQzl2OXVtSEk0ZDkxU2F0bVJWZkhTdjZxU0V5eWNVdlVFMldjcU1NMzBsalhmMmtPVjRoYWF2cnRzZ1Zfc1Bhamt6R3NIMmU0dmJnTW1VZXNPaXBJd01kWTY3U28?oc=5"
+                },
+                {
                   "data": "2022-11-04T07:00:00.000Z",
                   "titulo": "Em reunião com bancada federal, governo do RN pede emendas para construção de hospital na Grande Natal e recuperação de estradas",
                   "fonte": "G1",
                   "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxQS01RQVhYVVUzZTl1bzZ6WTIwX0ZnT0FoNnVTbkUydG9UbTNvUkpwX2g1aW9HWnB4MWEtMmM5WTNNSkZFdE9KZnh1cUpUckpLU1MzNW5kSlVMZllmV3dXVnh4MmpmRU1IcHM3NlZIYWVETmQ1Yi05T0ZYd3pPaGhGbk9ERXZHbWtQdnFBS1k5ZTJPQVNtRDlQYzZXQ1U0cFJrNDlMWGxoa0txY2I0c1RDQXFRdWl3cDZEZFNlTkNlY1RHYm9taG0tSENPWnNBVm5wSXRjc1J5TmRPTkNIUFlyQlRvS2w2QVZrRWdObHE4NG1QVDRoNVBUZW5GRzJ2cWE4NEpMNTNWbHdlWVlfeE5VZkhmZnZYY1FPeU02UUk0RG8yQ2l1QUgwSmg0R1XSAbsCQVVfeXFMUGtibFNkdHpyVkZpY3YyTXN0clpLQW5Ha2lrNWs1T2MwbFpwcE1YMzhqZm94RjJRSV83UXhmNk82SjROR2U3cU1MNUVvZTRDRUpmQmJ6N0NzZ2ljaUJ2NHk5OTZMNk5nbElEM2Jfek45OE1lQlF0Y3lTY3I0VnZXZy1uNGJZVXBTeUNEOEhET3ItcXhOcEdaU1lwUnZtckxDanRGRkdLbkNYSXo4WjdGa3lRTXVNS2dMSzhTaUx0XzlVdkhDN0RzMnc3QjdhRjk5X0Yzb2l4eXh5R21tWkk0aEFvUFVxV2F5d01kR18xTHl6WUhaUWp2ZnRBZnl3bFgyMVNaRTdNaUxOZl9xTlRxSWdlV0E2RkpuWnV6ekRsYUI2aEo4R3g0QTZLZHBsMkNVVzB6ZjIwUFpBdllj?oc=5"
-                },
-                {
-                  "data": "2025-12-27T08:00:00.000Z",
-                  "titulo": "Construção do Hospital Metropolitano entra em fase decisiva",
-                  "fonte": "Blog do Barreto",
-                  "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNem8xLTNQUFZBU3BnSE53NTBrRmlfdlJ5UjFjUkp3eVEydG51X1ozemUzRUZ6SENSVVBQb0l1cUZVaTJRdkdyTXBlSEpjZ0RWdXVOSXdQQ1BQYno2S1hnN3ZkOHVVdXNNU1o3WTlxeldJeWFmYXhjdGt5TGl4YUJWb0FCTmtqazVGZkJPaHRDOUxjNkE?oc=5"
                 }
               ]
             },
@@ -14860,15 +14907,21 @@ export const mandateTree = {
               "atualizacoes": [
                 {
                   "data": "2022-11-07T08:00:00.000Z",
-                  "titulo": "RN ganha mais de 300 novos policiais civis",
-                  "fonte": "Blog do Marcos Dantas",
-                  "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE13RGlsNExadWwwcjNDRXNYbDVRNjNXQ0xvQWtCRm9zMWZfR0ZRbFFkaFJuX3pFcVNPVTVWS1luQnVNZ20wc01oTloxa0c2NGl6cnMwb1p4WGdNeDU3Mm03Vmx2eFpRSThheVpreXRsRmxXU0RiYWFR?oc=5"
+                  "titulo": "RN ganha mais de 300 novos policiais civis entre agentes, escrivães e delegados",
+                  "fonte": "Costa Branca News",
+                  "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSHVaWjl4YWJWOHVua2x2VUN2M2doeUxqQUp5OTlfUVBfM2VqZEtzRWVURFpENGdzVDQ3aGZHby1YUWZud3JaM3RJZTV5WnJpOWczeVNEb0xaUGU2Uy1kcVRSZFlfNUxiYW1aRnZSWXVoUWhvZFhnbGJLMUxUNzgycXFjRTdTbFVkQS1rU0pCT0UyQWJSbFBZeTluZXExNmZzWjBmcXc5QkdTeVU?oc=5"
                 },
                 {
                   "data": "2025-05-26T07:00:00.000Z",
                   "titulo": "Vai ter mais concurso? O RN terá novos policiais em 2026? A violência está caindo? Veja o que o coronel Ar...",
                   "fonte": "BNews RN",
                   "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPdEUtZHUyWnlFb1FnTzQ0MHkxd3pKcTRqRmpXN0xOaUVXTDY4eS13bkFxOEZCVFZ4NXlKZEhuNXhnZUNYYW03bWMxQU1ORVpCTmdBanFUMFFqSm1zQUhlR054RThfWm9rQjZsaXZxUk9BVTU3M0g2OTFzYURPX0xPY19oTkkzNDZQYUJiQmkzcktydGtJSVJ2NmhWYmxyVUhjNUkyNlhRUTJiTFlUQUhwQmV5ZXNHdWcxbEhxX2JvVF8ydG0xekV5Y3A0T2NmaTM1V3BQUi1zLVpvaFRfX1pzaXQwZVNpYUFnMTJnS1A5V0I5SEhVTEJkNnVGONIBgAJBVV95cUxOdFhLMF9Wc2RUZEJ1R0dFdW9pNEVLVDdMYkJMM2lJYVAxWFRzbDJtUlNRWXEwN09QRVUzNUVqV3pWVzVTaWNkRGd0QlRLQW1idndBb0hsbGh4UnI3QTlyXzMzeGpZa0x4YWlxRlhnbWtwMEpCLWdaT043alNvSkFPeldpUjJqN2tfbUhHUmFlNDl3YXhibm55bkhTbEg1TU5OTUp6bVFlX3FBd3VTZC1TRjczeDQ5eGF6NzY0eTJ4dnFJdWdiUEtqX2pEQzZXdXhLNUh3RGZsUF9VZG0zX2ppV09CdlJ6M2pReVR4dk14d0xsSkxRVEVJc2Q1b3dNVVAw?oc=5"
+                },
+                {
+                  "data": "2022-11-07T08:00:00.000Z",
+                  "titulo": "Governo do RN empossa 333 novos policiais civis",
+                  "fonte": "G1",
+                  "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOc08wZFF6UXNtOXhpODQwejJHUTV0Z2pxa3JidmJCSFI2VjJyakMyZGVaRUV5WGh2UHpOMl8yWnlHVkhGbjZZeHlud0dtWC1LZHBOb0xjVzlCZkRnWTNiWlU0U1hFVk9KYUl2V1VQTk1CUE9ycTFveTl1cmV3cnVITmpwV29xYjY1YjFmNlJBOFZNeWVNX3RyYVlPSDdzUXUxRW9qcnlPRGdPSHRiM3pIdVd5RW9GclnSAcYBQVVfeXFMUFRjMnB5UlVldlhDYlNjZmp6dVcwX19NNU9zbG15aHQxaWRqWDdNUjhFSk5xNFVBV1loT055Y1pzcUU4TDFsRHlnQ2Nwc3lzMlA2VlktVHFSYWkxczBHUkM3UDVlaDk1ZnN0Q1h1SHlxd29RTm94dG01cTNIYzZQdkVONzduTVNXVFZmSlFIcHNSSFpGUXo2X1JDZXZxMDNhVVZkc0pQMWpfWVBkdmZzUWVlSEdKUlM5eFVqYzJfNU5NMXpxTDZB?oc=5"
                 }
               ]
             },
@@ -14993,16 +15046,22 @@ export const mandateTree = {
           ],
           "noticiasGerais": [
             {
+              "data": "2026-10-16T21:30:00.000Z",
+              "titulo": "Saúde Governo entrega novas ambulâncias e carreta inicia atendimento no interior do RN",
+              "fonte": "NOVO Notícias",
+              "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxONW45b3pfcHZBNHh2OUNFMW5sUGxGM3RaelNVbWtoRjNjTTE3Mk1uTENjbjdEZjBaUDRRVU9oSmNPUTN0am9pdE9uZ3B1a1E5R19BOXhIOHk0emVSeGE3emxDZmY0WG5mWm1uSzBTRjJpQ1lJUXNtZFVnUmJsX1JiaTlxSmJRS211MVNNSXlER2haN3FOcjkwTVFYblcyNHZ0eDJNSUFkUXRYY0VVWXc?oc=5"
+            },
+            {
+              "data": "2026-10-15T20:36:45.000Z",
+              "titulo": "Governo promove 1.496 professores e especialistas da rede estadual no RN",
+              "fonte": "Tribuna do Norte",
+              "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQYldmX25WVU5BVjlURFpVTzNTUHdRam5lMVkwb04yM1pqaE5ldUNRb3dZUFlCVUNDOUNPLWtOemR3dVRqVVU4RUlNUWE5aUJvNzZBaHVoYkFFNDRWaWFOZWthQXN1OWZpRVFmbldGRHpxZm1vLVBKX1NLT1FHdURXYlRvYk9rY09QVEl0TmJHX2dzYmxKM216R3o0VG5yYnJLbzVGR3BCUlBOZks3bDlzOXpsNWlua2UyR3FKQmtqbDQ?oc=5"
+            },
+            {
               "data": "2026-10-15T12:42:19.000Z",
               "titulo": "Walter Alves com Flávio carimba o bolsonarismo no palanque de Allyson Bezerra",
               "fonte": "DeFato.com",
               "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWWdLckRLSzUwRXh4VVNoakhCbm9mcG5SQkVTajk0RXl5dldpZmx0NVl5QTVSVFFRN1FJMTRQRWtrdExuQ29oRTdDU2J5a09BeHZ1YXg0b2RiWjF2WC0xMFA0ZGcxRDJvUDBMaDAwU1VTbjdIZ0RhX0dBWDFIUE04UTllZ1dOOXJheG5nTVRybnJXbHVWNmJVOV9QeGttX29KZjR3dk51YWhleUt1RWUtbw?oc=5"
-            },
-            {
-              "data": "2026-10-14T02:49:54.000Z",
-              "titulo": "Quaest no RN, 2º turno para governador: Allyson, 45%; Cadu de Lula, 42%",
-              "fonte": "Costa Branca News",
-              "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQRDFzbU9uZlpYcnBYci03MVk4NHd2UnhCaXpRWURsMDJIWk85dWk5VUMxcU1zTC1HSU9zWEZ1RVdhemc4dm41OFlteHlhRVVlYndkWVZxRXFLVTVoYkR6THJZRk1fYTBHUTFZY1V3Q2RWTjZCRHpOakFjOEdjakI1WUZiSVlUSENQNlZ5SEl1dEQxekNXdUliWA?oc=5"
             },
             {
               "data": "2026-10-13T22:57:33.000Z",
@@ -15054,9 +15113,9 @@ export const mandateTree = {
             },
             {
               "data": "2026-10-04T07:00:00.000Z",
-              "titulo": "Fátima vincula disputa pelo Senado no RN ao embate nacional com bolsonarismo",
-              "fonte": "Tribuna do Norte",
-              "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNZkl5ZzM0dUdvS04zWEZOVnBvejZTZHJ0UkJ3cnd5QnFvNHRMX3VPZzQ0akk4SGdPMW1KRDIzT2dNenduZXB5dkJueGU5UTVrcmJGY0FmbUstd2hnUGh5ZHloSHRNVElqbm9TbDZsUlQ5bDVKaG1LcDZITHBTZTVnVVRISHRWR1ZST2pTamFSa1RxU29jcnJiQng5VDBOREtYMkRaSjFpMHltUWdWT3dlODNtbURQRUpvQ3lzVk5OcFRZRmdjNl80?oc=5"
+              "titulo": "Allyson e Cadu de Lula vão ao 2º turno no Rio Grande do Norte",
+              "fonte": "Poder360",
+              "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxObFdPaE1mMkpTZXhMMDdramVBU2Y2OEdFRGFQaFBRWHZjUG9HOGhCT0cxV2pmZGpFeFVPTURoWmdrNUdzQWt1bTNpT0ZXZTBSckktQlBLUnpFTjk1d1A1U0lmMS13c09jMzQtQnpTaDJlUlk0eF83QzJLVFp4XzI1b1RaWEUtMTk3bnVicEc3bUgwM2lpdWpZY0ZnT3F3TTl3Ykx5eF9EOEE1ajN2anp3?oc=5"
             },
             {
               "data": "2026-10-04T07:00:00.000Z",
@@ -15066,9 +15125,15 @@ export const mandateTree = {
             },
             {
               "data": "2026-10-04T07:00:00.000Z",
-              "titulo": "Allyson e Cadu de Lula vão ao 2º turno no Rio Grande do Norte",
-              "fonte": "Poder360",
-              "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxObFdPaE1mMkpTZXhMMDdramVBU2Y2OEdFRGFQaFBRWHZjUG9HOGhCT0cxV2pmZGpFeFVPTURoWmdrNUdzQWt1bTNpT0ZXZTBSckktQlBLUnpFTjk1d1A1U0lmMS13c09jMzQtQnpTaDJlUlk0eF83QzJLVFp4XzI1b1RaWEUtMTk3bnVicEc3bUgwM2lpdWpZY0ZnT3F3TTl3Ykx5eF9EOEE1ajN2anp3?oc=5"
+              "titulo": "Sucessor de Fátima Bezerra vai para o segundo turno contra nome do União Brasil no Rio Grande do Norte",
+              "fonte": "O GLOBO",
+              "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOc1BFZWkyS0pxLWZSc3dzVVpqUklvOUJJeGljalZCVkFLNHBJV2szeWU1WmJQNWI1Wjgyd3V0OUVrQ1duejgyel8wTmt1eTRPd01kdjNVUE9zbVNHNllGUGxHenhTMno3RTl6OXBsd19pV0J5SE5RaGxmcEd4RHltV0VuYmhpZDAybEJWa3d3MS1MNGJSZHJwNl96TEwtMDVEeGI4V3hCMmFOOUQ5N0VRU00yVWN0Qkw3WlNCODJVM0Y2MzBvSV9tRkVnN1JwTnhPQkZ0R2VHWkZaOEFQaXRUQWhkc0NoaGY2bV9BRktTWWF3TndMRVNMalRvWkxjakViWlZQS2hB0gGUAkFVX3lxTE1McDBVY1VJN3J5S3hzUW1ZelZSblBXUzRkZXc3Z0NGSW9BMlRQaWhaNTBDd2JKRENEVWJJYXR0dzFfanVDMm4wN2lKZktTaHhrcDVJbFJXNU1oaG9nbnBKX3J5NkVCMXpzTnEyOWVmemtwVXRkaDVkXzF6dE5wNTFTSkY4Q2xvenIwOHlzMHY0OUhEVVFjQkxpZlI0dWNFa3VkYm5zdENJYmkzUmRGQVJndVhIM0doT0dXQW14S29BX3dVc2tqWWxubnRYcUxNMi1WcWUzbFpZSGhVV0NVQ0FQeG1UeEtpM3IybzUtTzMxQjN0N0RJWUxSS0p4dEJIdkJNamM3ay1BRXRHY3hKUlR4d2tqUA?oc=5"
+            },
+            {
+              "data": "2026-10-04T07:00:00.000Z",
+              "titulo": "Rio Grande do Norte terá Alysson e Cadu de Lula no 2º turno",
+              "fonte": "Congresso em Foco",
+              "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOYURDSlRxMjYxT1k4SGhxdWN1bE1jYkQwOENmVzcxaW8tTE02c2o4dC1RUWRoMWlIdThkdy1xXzhlRE56bG9zbU5WTTM4R3BGejhuamRkRTFRV3NjT2FnOFhhaTE4R1lJR1pDOUdaYWtRQ2hMRE9YWklFTnFXYTBIWVRFM21KM2ZNTTQyMW44ekRzbzJjMzdVSDVHOVVqUkxubUdZZXVnTmpVeWo5?oc=5"
             },
             {
               "data": "2026-10-04T07:00:00.000Z",
@@ -15078,15 +15143,9 @@ export const mandateTree = {
             },
             {
               "data": "2026-10-04T07:00:00.000Z",
-              "titulo": "Governadora Fátima Bezerra vota no primeiro turno das Eleições 2026",
+              "titulo": "Fátima vincula disputa pelo Senado no RN ao embate nacional com bolsonarismo",
               "fonte": "Tribuna do Norte",
-              "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPRU5NRGNGVkxzdy1FSEloZDNtUmNnNENyU1hOR2RDXzczR1hDa2lIMUVwN0NvVmZ6SURJcTlkMUE1ZjBleksxbDNsdGVIbkJ5Q1IxU1VfWmEwVDg1M3dGOEVHbEhndVNZaEtTUjNSSmRFcVdRbTZPcDRNRDlfRU8xVUtoemk4djlxdU5PWUQwNWRfb1JWbGFoNGh1aVpyeXk3NnBIdVIzQkRfbVBRUjR0Z216SUEwbUJkRVp3?oc=5"
-            },
-            {
-              "data": "2026-10-04T07:00:00.000Z",
-              "titulo": "Sucessor de Fátima Bezerra vai para o segundo turno contra nome do União Brasil no Rio Grande do Norte",
-              "fonte": "O GLOBO",
-              "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOc1BFZWkyS0pxLWZSc3dzVVpqUklvOUJJeGljalZCVkFLNHBJV2szeWU1WmJQNWI1Wjgyd3V0OUVrQ1duejgyel8wTmt1eTRPd01kdjNVUE9zbVNHNllGUGxHenhTMno3RTl6OXBsd19pV0J5SE5RaGxmcEd4RHltV0VuYmhpZDAybEJWa3d3MS1MNGJSZHJwNl96TEwtMDVEeGI4V3hCMmFOOUQ5N0VRU00yVWN0Qkw3WlNCODJVM0Y2MzBvSV9tRkVnN1JwTnhPQkZ0R2VHWkZaOEFQaXRUQWhkc0NoaGY2bV9BRktTWWF3TndMRVNMalRvWkxjakViWlZQS2hB0gGUAkFVX3lxTE1McDBVY1VJN3J5S3hzUW1ZelZSblBXUzRkZXc3Z0NGSW9BMlRQaWhaNTBDd2JKRENEVWJJYXR0dzFfanVDMm4wN2lKZktTaHhrcDVJbFJXNU1oaG9nbnBKX3J5NkVCMXpzTnEyOWVmemtwVXRkaDVkXzF6dE5wNTFTSkY4Q2xvenIwOHlzMHY0OUhEVVFjQkxpZlI0dWNFa3VkYm5zdENJYmkzUmRGQVJndVhIM0doT0dXQW14S29BX3dVc2tqWWxubnRYcUxNMi1WcWUzbFpZSGhVV0NVQ0FQeG1UeEtpM3IybzUtTzMxQjN0N0RJWUxSS0p4dEJIdkJNamM3ay1BRXRHY3hKUlR4d2tqUA?oc=5"
+              "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNZkl5ZzM0dUdvS04zWEZOVnBvejZTZHJ0UkJ3cnd5QnFvNHRMX3VPZzQ0akk4SGdPMW1KRDIzT2dNenduZXB5dkJueGU5UTVrcmJGY0FmbUstd2hnUGh5ZHloSHRNVElqbm9TbDZsUlQ5bDVKaG1LcDZITHBTZTVnVVRISHRWR1ZST2pTamFSa1RxU29jcnJiQng5VDBOREtYMkRaSjFpMHltUWdWT3dlODNtbURQRUpvQ3lzVk5OcFRZRmdjNl80?oc=5"
             },
             {
               "data": "2026-10-04T07:00:00.000Z",
@@ -15095,16 +15154,10 @@ export const mandateTree = {
               "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOckUycnFLRldvZWJ3OGIzaFNZMUY2RzV4RmdON3BUenE2azVoTEQwYlVnXzVZZFZKWGxRUi1zbmdib1JoM0UtM2l2ODFGQ19mUlVjMENMMUExaDFGNjkwZjVYNTN2b3Y4aWZNSDdaSWx4M0o5NlZCbkUyREt3YTZoODhUVGxPMkZ5VHZ5VlZpN0swU0cwMGp4emVKNzBCYWhyaDlOMjNaWXY1bVY1VlhRX2V6RHQ4WWhGTGpr?oc=5"
             },
             {
-              "data": "2026-09-23T07:00:00.000Z",
-              "titulo": "Governo do RN transfere temporariamente sede administrativa para Mossoró; entenda motivo",
-              "fonte": "G1",
-              "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOR3JBWUxuNXpsc0VfVVA1eVNpcEFFTWJCaVRET3VqcDQzN0tJemljWHo2ZENtZ09oN0dDWkhJcXdxd2NrMUFzalBtYTJOU3NxSzBWVHFVSVp0NWhUdVQyMEtNQmY4OGZvSm5DbjU1elZlMVc4UVpEbnZ4NXE1eWFwV2Z0el9RZHdqd1BjTnIyeW1UWkcwNzRBM2UyREdwSVNJSERTSmFPUlZrMDdzOGtMOXd3ZzlOZTZYbDBpcWdaM1dUQ0tQaHpweXVfSlpxTWdPNEZweTdZdEJOOUpUc3U4V2JqbDU4ZldaMktCTtIB-wFBVV95cUxOUnRoMEVSc0daejByXzBQUEpEYl9weC1ZMmxMTFA1YXVKSzE2TzRRSnpRcUYwMzZnU2JCQ3AxZHZPUlBVQ2hMZ2d6RmtyQmwyekp4N1JtcDgzYkRrQkx2TjM3TkMxeFZlNkhNTGlIZzUtNEVCTkRSb1hZQ2QtN1ZnNEEtU2xOZXVoLTMxZzBNeWZvMXFheDZGUW5IRUZNSEhRRXV2SGRFWlcxZUN0bzZYeHo0M0VELVNER3c2a3dJODNGLWs1VEJhd3drODdHQ2ltWjlWN0dOaTBtd2VzZUNYelZ2cktRVWtGeDVCbWZ3ems0c0N1VXZxa1pQbw?oc=5"
-            },
-            {
-              "data": "2026-09-21T22:49:52.000Z",
-              "titulo": "FIERN discute desenvolvimento da indústria e pauta ambiental com governadora Fátima Bezerra",
-              "fonte": "FIERN",
-              "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNdy1fSVRUVllYSDFwamNYWW5RZ2pMem1sX013aGw2NTZPWWdOeTNYMGllSkVYYk9QNDlLNnhRNWR6VWp4al9ZV2dFdmVpMno4Ry1GdTFwRURyeGVZOXA5OENxTUloWVNqWTROZ0R3cnBRaWlGcndySGV2M2YyLXVodVVCdkZ2S0x5LUhQcEZIUmpNdDlvLTdVWkVSdnk3ZDIxVFRCLUpMLTJfelhXLUlPbi1xODVkTkZpTGc?oc=5"
+              "data": "2026-10-04T07:00:00.000Z",
+              "titulo": "Governadora Fátima Bezerra vota no primeiro turno das Eleições 2026",
+              "fonte": "Tribuna do Norte",
+              "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPRU5NRGNGVkxzdy1FSEloZDNtUmNnNENyU1hOR2RDXzczR1hDa2lIMUVwN0NvVmZ6SURJcTlkMUE1ZjBleksxbDNsdGVIbkJ5Q1IxU1VfWmEwVDg1M3dGOEVHbEhndVNZaEtTUjNSSmRFcVdRbTZPcDRNRDlfRU8xVUtoemk4djlxdU5PWUQwNWRfb1JWbGFoNGh1aVpyeXk3NnBIdVIzQkRfbVBRUjR0Z216SUEwbUJkRVp3?oc=5"
             },
             {
               "data": "2026-07-23T01:15:59.000Z",
@@ -15437,22 +15490,16 @@ export const mandateTree = {
           ],
           "noticiasGerais": [
             {
-              "data": "2026-10-16T02:09:59.000Z",
-              "titulo": "O vice-governador eleito de Sergipe, Jeferson Andrade, declarou que votará no presidente Luiz Inácio Lula da Silva (PT) no segundo turno das eleições presidenciais. A afirmação foi feita durante entrevista à Rádio SIM FM, no programa Sergipe Verdade. Ao",
-              "fonte": "Instagram",
-              "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE54UFREZ3hZVUNXZVVnOHFHdnJOLXhON3hZOXZSRkJqYXR2WkpnM0FVWURIZERJemY5aGVRUERjUDc5WmxyUTJaeEJLTGVQM3JHOEVlQ253?oc=5"
+              "data": "2026-10-16T18:19:13.000Z",
+              "titulo": "Com Fábio Mitidieri no estado e Flávio Bolsonaro no país, Federação União Progressistas define caminho no segundo turno",
+              "fonte": "RO Acontece",
+              "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOZ04tYXVtbktXdzZlQnEydFhiTFk4d3VmY1FYQjZWV3NwSjBwd2l3dktKVkdJWm5nSTA5YlZYcmR2RzJ0Smw1b0ZyS2dISEVSdlctYTZ3bTB0Nzh1SmNGTzNGaVVpdS1CQ19kTUR0dVNxdUhDNUlOZF9lVTNlYkFHT3duX3pJSENoa1NFWUItR21yNlA1UWowTFF4VDVHYjk5M2lRSkFnSXZnWUFsVDRkQkc5VUo5UFJKRXlCZm5rREwxcXpDaW5GX0VwWDM4QWVaOGRoS3g3VzVLNDd1U2tuVDJCRm5zREJsTFRsSw?oc=5"
             },
             {
-              "data": "2026-10-16T00:51:14.000Z",
+              "data": "2026-10-16T12:05:54.000Z",
               "titulo": "Governador Fábio Mitidieri recebe presidente da Associação Brasileira de Educação em Engenharia",
-              "fonte": "TVC Brasil",
-              "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOLS1aeUlWNl8wa2ljME1Wcm1Ed2ZTazVVaFJwTm9DT2dJbmhIeHBvbzZwN3hRZTlFRXJZQXRnN1NxTDRhX1FQWHVTRjAxamFXOHBzbEFfZmV3dDBzQW85VHlzWWFrd1FzZjNqOUM1bGE4eHJHTmVWVF9BZ1pkNU9pWE5VU3picHFpOS1pdW1VRnZ0YXp3U2FzclYxcWJQMWdTZWpDNVdQNVJvanRJbU5VeUg1NnR5eGZ4MXVMQnBWUEM5NmdjTktuRzhqbmlKRjA?oc=5"
-            },
-            {
-              "data": "2026-10-05T20:15:00.000Z",
-              "titulo": "Governo de Sergipe",
-              "fonte": "www.se.gov.br",
-              "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPU1FnTHlFcHo0ajVMYXBaMlRDZW1XLWQySEZabWVpbTZXTndLTFRZR0VQMDc3YzRyaVlOV3MwN2FRMmdTalBlbG0xbDFGNEhGaWFjN21PcGlSQ0t0ZUIwMko1SlZpQW9UQVhYUjA2SHZ1VU1rNzZwaTJJZnRrMXdPYm1henk3ZV9QVU5OWUNDTHFoRWpxd291RU9FRmNLYWRVd2xBRVhCTzdzX2hjTDFBeFMwMFZHbGlzM2NtaVB4a3NINmdZVWU1VWx3?oc=5"
+              "fonte": "Secretaria de Estado da Educação de Sergipe",
+              "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQYThXcnV3b3RhU2UxMVhmR3Y1ZUZIVHljWmxjeThoYzY4NXFTblVKaEI4WnlNemtBMWFnWHZRN3FCdFdPVk0ydmlVQi12MEsyRU9IcDVpN3ZMSWJkUmxFNHZyZEJKdXVKc3VyRmVNYk1JZ2p2Z1FBTm5weDFxaFJFNm9OT0s5clJDWEUzUDdSRGlPbmxDWGUySEVZc3ZlTlR1VmlUSFEtWE5acWE1bzR4a213c08zSjJNUk1HOQ?oc=5"
             },
             {
               "data": "2026-10-05T10:02:00.000Z",
@@ -15498,9 +15545,9 @@ export const mandateTree = {
             },
             {
               "data": "2026-10-04T07:00:00.000Z",
-              "titulo": "Fábio Mitidieri (PSD) é reeleito governador de Sergipe",
-              "fonte": "Folha de S.Paulo",
-              "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNcmhzckZvbUtsWXJzbWxpYWRDcHNLeHJ4cXRlcDcwV0x2bVhTcWxHMjBuc3ViWHdHaGJMcGVRaU5TSVduQjRRcF81c3hxa0F1aDFsYkdnUzc5TXhIbm9TMjlXWG0wdlNCb3FNd0xXbDBiY3NrOWZCMkVIeFZJLXRGWC1RaWhHZFpsVmtGTjZQenUxQkxMZEk2TFM5LXlCZG5uZTM0eWpGMWZKUnhaUHVSN0ZyMlY3c0lzdENULQ?oc=5"
+              "titulo": "Em Sergipe, Fábio Mitidieri é eleito governador de Sergipe",
+              "fonte": "Valor Econômico",
+              "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNcmc4aDdqU1VWQlFYbjRtb0hNMFdvd3o3ME90WlJGNk5lU1JXa1NUQVFsU2ZPa1EwMWpxN1AwQm9nQVpna2s0NHhyNmJ2dkQ0bjQzS1ZjRWs1ZC1KWnVxNElKamdBX1NTMUpWYVpYSVR5UmowS0JZeXQzbnJ3VVlGYVo2dW9IdW91a0x1UUo0UUI2dzFFSnprNTZKdkd1SVBjaVlHbF9yR1ZTVlJPMlp3YTN5a2lka2pxNFYxZEs0MlNEdkpyZWMwT1BuRk5TZ3NFSlRiYzl4SDBVTUlvSmMwQXFwbFF3T1ZvRVZjNGFVcVh4LTZQRXEtd3pXWFlnZEhm0gGPAkFVX3lxTE5iQS1haE9GdkFySjctQWxPTXptYUgtcExoQ2JJdFd2VnhzOFdVVEdaa1lpc3ZpWWdHX3BBWXRGR3VGeGZwcjNfc1pCeVFtaUlrakszTVl6dmEwS2dhbnV4dWczMVVBamU0LUxnUWFuS3hCMUI4djA0NjlFeTlfZ28yd015MllzcFBkdGdXd2RoYUxfYnkwRUxPYl9tbEQ3VWpHV3dZVTF6YVJhYjl4OVVydnNSMV92VUd2Q3BweHNsTEV3ZFg5V00xMzA0Ql9qZ29acmlCTE5DQzd0NjFwOGs3dVlVWnItWkhwNElSQU4zdmlzS25YVUhnSjlRRDVueEZvdGxGWTBidk1oXzNIWWc?oc=5"
             },
             {
               "data": "2026-10-04T07:00:00.000Z",
@@ -15511,14 +15558,14 @@ export const mandateTree = {
             {
               "data": "2026-10-04T07:00:00.000Z",
               "titulo": "Fábio Mitidieri (PSD) é reeleito governador de Sergipe",
-              "fonte": "Brasil de Fato",
-              "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNG5rTUVGRjEwMll5a1dqWUNfYnhORHo3cWxUQVkwZC1memlMcGtNZnYxaTlwa0kxWTNheGpIa0ZzSnd2RlA5TVhwdnN5Y2VXcmRBOUZYYVNEZWFrU2lkaS1JS0lPX0k2SlhzRGlKdXFWYXBmSEVhOC1aS0hkMnJ2cmxLWEJpT1BuMGZVNThSaWtiTFJrcEZyTzVIaUE?oc=5"
+              "fonte": "Folha de S.Paulo",
+              "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNcmhzckZvbUtsWXJzbWxpYWRDcHNLeHJ4cXRlcDcwV0x2bVhTcWxHMjBuc3ViWHdHaGJMcGVRaU5TSVduQjRRcF81c3hxa0F1aDFsYkdnUzc5TXhIbm9TMjlXWG0wdlNCb3FNd0xXbDBiY3NrOWZCMkVIeFZJLXRGWC1RaWhHZFpsVmtGTjZQenUxQkxMZEk2TFM5LXlCZG5uZTM0eWpGMWZKUnhaUHVSN0ZyMlY3c0lzdENULQ?oc=5"
             },
             {
               "data": "2026-10-04T07:00:00.000Z",
-              "titulo": "Em Sergipe, Fábio Mitidieri é eleito governador de Sergipe",
-              "fonte": "Valor Econômico",
-              "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNcmc4aDdqU1VWQlFYbjRtb0hNMFdvd3o3ME90WlJGNk5lU1JXa1NUQVFsU2ZPa1EwMWpxN1AwQm9nQVpna2s0NHhyNmJ2dkQ0bjQzS1ZjRWs1ZC1KWnVxNElKamdBX1NTMUpWYVpYSVR5UmowS0JZeXQzbnJ3VVlGYVo2dW9IdW91a0x1UUo0UUI2dzFFSnprNTZKdkd1SVBjaVlHbF9yR1ZTVlJPMlp3YTN5a2lka2pxNFYxZEs0MlNEdkpyZWMwT1BuRk5TZ3NFSlRiYzl4SDBVTUlvSmMwQXFwbFF3T1ZvRVZjNGFVcVh4LTZQRXEtd3pXWFlnZEhm0gGPAkFVX3lxTE5iQS1haE9GdkFySjctQWxPTXptYUgtcExoQ2JJdFd2VnhzOFdVVEdaa1lpc3ZpWWdHX3BBWXRGR3VGeGZwcjNfc1pCeVFtaUlrakszTVl6dmEwS2dhbnV4dWczMVVBamU0LUxnUWFuS3hCMUI4djA0NjlFeTlfZ28yd015MllzcFBkdGdXd2RoYUxfYnkwRUxPYl9tbEQ3VWpHV3dZVTF6YVJhYjl4OVVydnNSMV92VUd2Q3BweHNsTEV3ZFg5V00xMzA0Ql9qZ29acmlCTE5DQzd0NjFwOGs3dVlVWnItWkhwNElSQU4zdmlzS25YVUhnSjlRRDVueEZvdGxGWTBidk1oXzNIWWc?oc=5"
+              "titulo": "Fábio Mitidieri (PSD) é reeleito governador de Sergipe",
+              "fonte": "Brasil de Fato",
+              "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNG5rTUVGRjEwMll5a1dqWUNfYnhORHo3cWxUQVkwZC1memlMcGtNZnYxaTlwa0kxWTNheGpIa0ZzSnd2RlA5TVhwdnN5Y2VXcmRBOUZYYVNEZWFrU2lkaS1JS0lPX0k2SlhzRGlKdXFWYXBmSEVhOC1aS0hkMnJ2cmxLWEJpT1BuMGZVNThSaWtiTFJrcEZyTzVIaUE?oc=5"
             },
             {
               "data": "2026-10-04T07:00:00.000Z",
@@ -15549,6 +15596,12 @@ export const mandateTree = {
               "titulo": "Fábio (PSD) é reeleito governador de Sergipe",
               "fonte": "G1",
               "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNaDdoN3gtTnJHLVpXc2RHMDVTRXJaRGdYVHB5emdacXc3QUxmS1drTS1QbGZoZFR3bTBMYlg5ZUdITXJsS0hKWGgxYVdVejVhN2Q2czliRE10d2t6Ylgwd3pieXpzYklRX3RTX1R5djF6d2dVUDF6WndiMnRKQUx3SzNBempOdFQ2MlllazZoTmpGbVFTMi1jOFduaFRUVWY5eXBKNVFJLTRQWjdWalp1alVB0gHAAUFVX3lxTFBGajI5NTFhNU5JVVUzUndxUXZqakZycHNUNE1TMGVXTkgwaURTMHIyU1FSZ1dKUkdmd3BJRjlVV2xUSDhQbUhGbHJQYVkwUzhGbVE1SWRVVDB5Tk02X1U2Q09NX1duVkdBN1lYSDBFSWNZNTNqYjFxWUl1NHdoV1E1UXVVTFFlREpyUXZMWDB2aFZ0X0N2TzE4ZklmOVZDNHphdVhDWmhrTDJEeDFRRDZJOHRpRGZ1dGViQXJqUHRWMA?oc=5"
+            },
+            {
+              "data": "2026-10-04T07:00:00.000Z",
+              "titulo": "ELEIÇÕES SE | Com 92,99% das urnas apuradas, Fábio Mitidieri (PSD) é reeleito governador de Sergipe ⁣ ⁣ ➡️ Acompanhe a cobertura especial através das redes ou no site do Estadão",
+              "fonte": "Instagram",
+              "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5yV1pMR054RkxzQXZ1QklqOW43UGJ4cGpoOWRnR0M3TXU5X2ZxTWloYVpGRG5PdXdTNFZMZUlFS09LMGhib1c0MzlNMXNva2Z0Rmc?oc=5"
             },
             {
               "data": "2026-10-03T07:00:00.000Z",
@@ -15591,12 +15644,6 @@ export const mandateTree = {
               "titulo": "Eleições 2026: veja propostas de Fábio para o governo de Sergipe",
               "fonte": "G1",
               "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPczZ3Y3dnOHdKQWJZRWRMLW00Nl9NSm5kWWtYR1IzVUxqQWswT2NuNlJWNWtOemV3NGZaS201X2hTbVBwcmZTRl9IRlNEWXJFVGlSZlRleGdpUEVDalh1akhfY0VvTkZQWWt0Y3UzcnI4RDlOMHVNUUc3N25rQnJmcWhSazlsdnY5anlLa2R5cnVXSjZPS2tlZDFUWUptRjluc2pQSVNjNC1JbGhqTkZTbHg1VWh3QlMzaUVsTFgzZFMyVzhLbGRlbENZNV9TSUHSAd4BQVVfeXFMTm1FVWZPa1VfVHpwemh0ZHhtWC12UGZkUU9aTWJrRGpLbTN3aDVKMnpxNFlFU1dEdk5zMjRMdUtqejlrQ0EwcXlUWl9kdlYxWktCVmJSeTVNNGRFRVRjWjJiaTNBVHZ6Uko2RS1JWmlBR2xZZzhBbVVBZ2ZnQXhob3phbUl5NUtmQ2IwYmtuc0tfeGd3bXl0ekUzbkJib21OaXNtYTRuQkdkaXVDbzlQSFpWUFpTMTFkd3dmb2kzYm5NOFNkN3d0TnBuSV9tYnZkbUYxX09vQXh3clMyMWNR?oc=5"
-            },
-            {
-              "data": "2026-08-23T07:00:00.000Z",
-              "titulo": "Fábio Mitidieri arrasta multidões e fortalece campanha pela reeleição em Boquim, Lagarto e Itabaiana",
-              "fonte": "Hora News",
-              "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSTVOR1lFd05LZTNwZV9zdVBEQzYtZGh6dk1FRnpWMzhVVWxSYlBWTS1kYVJsOGNueVIyVnFmNzJQVnRxRFA4LTkwajJZR2FjdGJ2LUNyUllMY28tNFFRdVBXWkpweXhxN1lZNTlUckpaS2RkX2pBUG1ZUHJfZ0J0c2hKZXFXaktsT3BJdFdfOFRKOU9adHhnajZOVHUzNlk4bE1Va0VhVjEwU3RPVEVoSTRNYVdNdVNHTmZaX3hR?oc=5"
             },
             {
               "data": "2026-08-14T07:00:00.000Z",
@@ -15729,16 +15776,16 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQNE8tSVNSaEJNbkhkaVhlNzc4SjZEU1dtekM1Y0UyUnR6NEozUFJ4VlpBNHZtX01PakczREFKT21jR19SWmpqc2Jnenl4d0I0VHJoMmt4QW9VVzVCUS03V0NSN1ptb0FCbU5oSFlpNmRGZlZINlJJYzBqWWJNbWhFLXR2SmstSHpNVktYY29NbUhXSy16Q1VOdTJtRkZkZDJRZlE?oc=5"
                 },
                 {
-                  "data": "2023-07-14T07:00:00.000Z",
-                  "titulo": "Governo Leite promete seguir cronograma federal para o fim progressivo do modelo de escolas cívico-militares",
-                  "fonte": "GZH",
-                  "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxQbW1WakhnYUYybjRzakdkaEF6cVBQVWYtTTlMN1JmdnhKTVRkYWwxMTN1UjNLeFRMQkVPZEpocmxQRmpWeTNTMndRcVlzV2R3blFFeHB5UG1sRmszVmxaSXlBTWJSV0FtVnR5bHh5TFpSVXIzRlh0N3RHa05mX05tYTBpWjhNWFVuT296S0g1OXJDQ3hHMzZyZFk2Yy1CZGNTVHVKNGhkV0EwRFpxMDF0dlJiRFN1STY2Q1FpbFdrWnhQbzREYzZFMl83OHpGYTdTYkIyLVpGMkJteHZ6Yjc5YnFuV3psanhqSWdWM1k1Y3dyVFc5VUJ1TWliWkJPYU9XS3VwdDBBTWlLa2U4am9CNWRZT0IzcXlZeGxtY1JqWXEzZEs4OGtEMmoyeWc2dw?oc=5"
-                },
-                {
                   "data": "2024-01-23T08:00:00.000Z",
                   "titulo": "Escola cívico-militar: os estados brasileiros que mais apostam no modelo",
                   "fonte": "VEJA",
                   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTjdNV2JzbEhsX2FLQVcyY1VybEE2R29qdHpWZkx1bUxvNjRETEtITmM3T1lKNHFIa1JqUDRac0x6d0RUZ1lURTRtWkEtMWRmOFBPcVJBS1lUNzZFQ0tQbjgtY296bTgtYURNOFZaUjlQa2VveWRnUXFsMVd4anppelF0UW9JeU5fTnR2TG1Galowb19wSGNlTVRsRmxkNzBIdW9fd0ROTHFEbWR5VVVjdmUyVmc5QQ?oc=5"
+                },
+                {
+                  "data": "2025-09-30T07:00:00.000Z",
+                  "titulo": "Setembro Amarelo: militarização versus adoecimento da categoria",
+                  "fonte": "Sinpro-DF",
+                  "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNDlhSnJ1OEQycFZPN09Vbmx1SmMxUHJIYmkyYTJMcDhScXlCdDNBeEMxTXJZVFdSRDNxYU9tbF95eDdUODk2dkI5UEFzVTR0VVR4ZlBpU2NHaEhROXBOR29GLTNoNC1HbzJMZmR4UkpNT3RHRDR0TmxYNmhlZV83VEljMDJ3dUtNa29jZFlEWFM5YjduRVE?oc=5"
                 }
               ]
             },
@@ -15805,14 +15852,7 @@ export const mandateTree = {
               "tema": "infraestrutura",
               "status": "cumpriu",
               "descricao": "A promessa de construir um novo reservatório para ampliar a segurança hídrica da região norte do Distrito Federal foi cumprida. Dois reservatórios de água tratada foram entregues em maio deste ano. Segundo o governo, vão abastecer mais de 355 mil moradores de regiões como Sobradinho, Sobradinho II, Itapoã e Paranoá, além dos condomínios do Grande Colorado.",
-              "atualizacoes": [
-                {
-                  "data": "2025-03-14T07:00:00.000Z",
-                  "titulo": "Governador Ibaneis Rocha celebra investimentos em Sobradinho DF",
-                  "fonte": "EldoGomes.com.br",
-                  "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNT25Dc2RNUWtZRVZ3REJ0MV9vbkZmMk92VjlUd2doS2JwZjkxSXppU1k0RnE1Y1FfNnhEMUhYYkFUTmtUbDdNUmY5NDRBNGFBSDFIUzdWaG5zNFFyd1VlUmpZYlRrMVJCY0dTY0owclY3ZzdBUldXbkY3UkIyVGNkcnFUMUVVVG1aODNGNGQ2U3BqQ1k?oc=5"
-                }
-              ]
+              "atualizacoes": []
             },
             {
               "id": "ibaneis-rocha-3",
@@ -15850,24 +15890,6 @@ export const mandateTree = {
                   "titulo": "Sedes: GDF vai ampliar refeições para todos os restaurantes comunitários em 2025",
                   "fonte": "Agenda Capital",
                   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdTViZG5tYU9iTWNLUmpFUkp2LVB1aXV3S1ZNc2lBNUlnRWpScFMyS1VTaXVZUk5kckdnMl90c0MyYXN3cjdqYTdDbS1YZU9MWDJrTEVtREhES1gxWHNJb1RiM1UyTUxVNUlQTkQ5WllzU0hPWHFwaHh0Y00tT2E1c21RbHNfZGoyZnRCekR6c3B1cTRpTkE1MWdJNFBmOEhVdTcyRTYzNXplTldLalE?oc=5"
-                },
-                {
-                  "data": "2023-11-08T08:00:00.000Z",
-                  "titulo": "Restaurante comunitário de Arniqueiras vai servir até 3,6 mil refeições por dia",
-                  "fonte": "Diário do Poder",
-                  "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOQ09RQ0JxMkw0YnlCMHRsQ1Y3amV6TDhpaFVrTER2QkpEVkpyV2tXcTBhOEs1eHhBVmlJRkcteElWejVKd1FjS1Bqb3JHLW1veGdWdWQtM2YtdFl2WmhXX1RlY3FoZHJIaWNqSVRWN2ZldjJSdkEwdzhKVE9XMTY5eEp3bllUNmw4VlN6QWYyU01zUnJ3aE9Ob2NkRUpPS0NCMnRxclFVRklyNjZ4VWlTa09TRDg4X2hXbFBDTFI3RHBIVXFESUdheC1xNUZhVUUxX3pERDZvU3RUS0kyd2ttMXFCYnVldHJrSjU4X0JsQ25GWE1lM2xMetIB_gFBVV95cUxNcDh4MUxnVEM5aWZLWV81dHNrbjlSMFRnZlFJXzVka0Y3SFBCTUhXMEtHbXB2YTlNcWFvVzRsZ0VvdE1VSHBrYkJQYzRaWjFxOUh2cjBja1BKRGU1SXVHQW5MT0FwT0tXLVYwbzhoX0djMWhaeVRXbTdIOFN6S2trdzFzQjZyNzlXR2Y5RGtIQzRWLWNLQWw2OVN1eDNUZHZwNThKcjFUYzdkQUhyV21pc1psTnlTOUgtU3REYmk3U0dYV0pydEVxemc4LXMzZlByRE9qQU91QVRuaFRqSnhIVUZzTUg3M0NkdzlXdGJnaTVtM2xxTTdKODExZUM5Zw?oc=5"
-                },
-                {
-                  "data": "2024-12-30T08:00:00.000Z",
-                  "titulo": "Confira o funcionamento dos restaurantes comunitários no ano-novo",
-                  "fonte": "Jornal de Brasília",
-                  "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOUjdKdFh5TWUtN1c3UlNIV2JGdjF5VGNTQ3Q4SUNjUDJSejdTcDd1ZUpKTjJ2YS02bmFaU05fRldpWkFYaW5QdlN6bF8xNzVMZl94LTRxNGQwejVOQ1ltbDRBZW42QWhHOGo4Z1hZMG4yUkhKOWE1OHFLa05TUS1MMGE1YXdla1EwTmxkcENyWVJVTTFBeVlMTGUwbDY4X1FMdC1vN0NQMm56b28?oc=5"
-                },
-                {
-                  "data": "2023-06-26T07:00:00.000Z",
-                  "titulo": "Governo do Distrito Federal amplia oferta de refeições nos restaurantes comunitários",
-                  "fonte": "Tudo ok Notícias",
-                  "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPZEhLelhVQVdzUTlmWXhPOVNwQlNtM2NOVHNoVHkyX3BqeXZURE5lcDJEM19PdmJzQ3RCOWdfSFRMeDN2czY5X0pDZUZ6WktVWU14c0NkVXJKdnhhS2lRS2htaDBpQ2hPTm9ZYjNEOGphMVRvdFJ5QjlwdEFKR0s4a3hoMFpXRjAteWN6VFlSRFRRaDhIODlpWXRWc3Zpd09IYjVFWFk1Z2xEVW01NGw5bHN5aF9OX0FLR2ozOWIzbURCdw?oc=5"
                 }
               ]
             },
@@ -15879,28 +15901,28 @@ export const mandateTree = {
               "descricao": "A promessa de criar o Programa Órfãos do Feminicídio foi cumprida. A iniciativa foi implementada pelo governo do DF para identificar e acompanhar crianças e adolescentes que perderam a mãe em decorrência de feminicídio, oferecendo apoio financeiro e assistência social. A Secretaria da Mulher faz a busca ativa dos órfãos e avalia a concessão do benefício. Se os critérios forem atendidos, o cartão é emitido pelo BRB e o recebimento não impacta outros programas sociais.",
               "atualizacoes": [
                 {
+                  "data": "2023-05-18T07:00:00.000Z",
+                  "titulo": "A pensão para órfãos do crime de feminicídio.",
+                  "fonte": "Correio Braziliense",
+                  "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZFBkNzdVSWdGWllpVVNIMXFnMjI4SHV1eDNNemFMV2RRVncyZEJSd3g4NEwyUF9WLXNfYktKdHRNQ1ZmOGI1Y1ItS3ZKOFR4RDQ5cV9mVDM0R1hrYkpkU01fVDlMTzBIVkE0RFNLR0JPMUpkSTM4c2xzc1FBTGtxanFNVFN5UFNFaGtobDUzMU54b2NReHJTSHdkRGZRcG5tWnI5XzBsY0tyRVozYzBBNA?oc=5"
+                },
+                {
                   "data": "2023-08-23T07:00:00.000Z",
                   "titulo": "Câmara aprova projeto de Ibaneis de pensão para órfãos de feminicídio",
                   "fonte": "Diário do Poder",
                   "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNT1JTUG9WVWlvRjdabkdNNEpjN3E1UEY3REI4MUtpTjlfZFhQdFJsb2xlUWlwTGRGU1ZrbGx4UHhQRmlpSmlXY2twaGVLSmFqWXNnaTR1SHF1TFQ1MjFaOFhRWWF6RmMtRE1TWFpmMk1JbzRMcHNRUjdCbXNSZlpTTlNOZE1CZXc2Q295cFJCZTBlc0ZiOW82NXZkeE9jWlhjNjl2LTFSSWFZaVVFWUZPeTBEbkk0bGFqRjFCYVV1OFNDNnV1R0cwRGlMdjZ0TkFUbndrTGY0ZUFUYkRhcWdrc0J2cm5uRXUyaU1GTEVKal9DS3Y0MS16Yk13a9IBgAJBVV95cUxQaEVERXF4REpuMTJGUXdDMkJSNDNxR18ySFhTMl9QbUxGbnhTU0UxczZmaDdiekpXVGhGV2hKWHZudkd2VjZuVHp6RnRuc0lPT0VmZ21kYWhoNGJ3NEdwTGZQa05tb3dOeGN6XzZZNjNxMWhZR2hYMy1tNDd0M3FlN2VuVktCNm5GdXBad3BlejlNMFliM1NVM1VINXl6RjZMM1ByYXZpdEtEdVB2NHlrOXNzX2V0T29mbHlzT1hyd1J6OGViVEtsdWJXZ2doNDQ2dkNlamVUM2lqTDhDRmlOUVNlaGtOSEVaTV9kQ1VpTUJka09oOFpBMHdzanltMWYt?oc=5"
                 },
                 {
-                  "data": "2022-09-20T07:00:00.000Z",
-                  "titulo": "Violência contra a mulher vira debate na campanha de candidatos ao GDF",
-                  "fonte": "Correio Braziliense",
-                  "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPWldIdHRBbDZKcXFvWXdkWkNGVUF5VnVUc0VOY1FsckZlNFdtMC1VS0MtOGFkcTFqa1I2MVVqbzdIVmlBbi1PeUtkUGpnbF9sZkw5VG1lQU11M1IweUFaQmdvUWhnVTBJYWlxV1d6cFBLR1NjQVZpUWRHRnlXb1dCaEFLQWRScU9iWXpNaTRMN0VLSW41aUJPTTBPMHp5MEFPcVE5RkZmUkNWbWIyeTAwekJZSTBKRUNSWDhpcV9EV1hoSDRpZkM3Y2dUY2tjSFJJSFpRQWEtVdIB3AFBVV95cUxPRy1MampwRW5uV1BkVkVvU1VNZ2RfQmdlcU9JLWF5dW1ZX1VOUlRmdkpYaUFzdGFxYTdyWnU3a25RYktWZl9NbXV1eW5McVdra1FPSUloUUU1U1YyN2xZeUh3VnUwSXpwaWtpWWJJNXVDd2hnaXU0N3NjdGU4S1JiaEhndWotYWdSMVNpV0dUc1lqN0N1VmItclNVNE5fTzdGQnRyNkk2MlV1b3lpd3RoWlJ6ZVZDOXVFQzlTMTRubDY1bDY5aHNxQm00al9yT0h1YVNBX2hIWWJ6Zm8z?oc=5"
-                },
-                {
-                  "data": "2024-03-06T08:00:00.000Z",
-                  "titulo": "DF já registra 350 órfãos do feminicídio, revela secretária da Mulher",
-                  "fonte": "GPS Brasília",
-                  "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNSWZhU3lqVE1YaUxYSEdNZGpSYW5WX3FmbjNJeVVQekNnSkFpMUhtcnNrR1ZOb1NVcjc5bGM3akszLUc3bnFfVkRvX09JeVVfSGtlUHF4MWZQQUd5MXBtU2RuVFgxNUxNbWFWLV9Qay1iazNrbVZaTEtEbngySHhhS3lSM2t5SDlodURtVnc0bWluRGZRSGRkclB6WWg?oc=5"
-                },
-                {
                   "data": "2023-08-28T07:00:00.000Z",
                   "titulo": "DF será pioneiro em auxílio financeiro a órfãos de feminicídio",
                   "fonte": "Diário do Poder",
                   "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQTlh3WF9BRF9CVlo4SVhBczNOQjJPZzRmajJtLUVnYXNRU2RVZjNkR3BONnVrQ3A3cm85QlViZlg4dGYzNEc5UEotVXVoNjFZTXpGUjhpYnBnRjE5bU9TTWFBcXdwLXhJbEw5RWFNMEJ5dUhxWE8yc2g4UFVtc21fYTVPUFpGSm9JSDBPYkI2em0zbFlTVGlPN0FnelJTTFFyeEN2ZTVqTjNrNkFPaEJ4TDRQM1d6QlpDMk5kV3lOQXYwYURtV21EWURQdW82S0J2MHZUQmdrU01uMlBJSndEcTlBS0J1SHROdk9nMEFWZENuQdIB9wFBVV95cUxPTm84WUZacDY4b3B3WTZWSFcyZTVhVzVTN1JRX05rM0RfV0hUMXl3VmllTmxUbGZkc05BbTlMZkhtVWtVdW10bmZfc2pFd1ZfbXhGVVZLU0NYOHVSRjYyTXc3UlFlem4xSC1oclRkUFMzZTBlUW9RQmVVTERBZGFwSlduclRKT0Y0MzZaVWQySFBpRTdUUjVjc3BZandwU3FPWS10UHJUTVh2bm5laElTT0NpdGRFNl9EcEEwZEhHdEhrcl84T0k5R1U2d0lYMjV4LTZndzBoTzhYa1k4bzR3Tzh0UE1yRVNDYXBuMzdZX0hDellDcEdF?oc=5"
+                },
+                {
+                  "data": "2022-09-20T07:00:00.000Z",
+                  "titulo": "Violência contra a mulher vira debate na campanha de candidatos ao GDF",
+                  "fonte": "Correio Braziliense",
+                  "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPWldIdHRBbDZKcXFvWXdkWkNGVUF5VnVUc0VOY1FsckZlNFdtMC1VS0MtOGFkcTFqa1I2MVVqbzdIVmlBbi1PeUtkUGpnbF9sZkw5VG1lQU11M1IweUFaQmdvUWhnVTBJYWlxV1d6cFBLR1NjQVZpUWRHRnlXb1dCaEFLQWRScU9iWXpNaTRMN0VLSW41aUJPTTBPMHp5MEFPcVE5RkZmUkNWbWIyeTAwekJZSTBKRUNSWDhpcV9EV1hoSDRpZkM3Y2dUY2tjSFJJSFpRQWEtVdIB3AFBVV95cUxPRy1MampwRW5uV1BkVkVvU1VNZ2RfQmdlcU9JLWF5dW1ZX1VOUlRmdkpYaUFzdGFxYTdyWnU3a25RYktWZl9NbXV1eW5McVdra1FPSUloUUU1U1YyN2xZeUh3VnUwSXpwaWtpWWJJNXVDd2hnaXU0N3NjdGU4S1JiaEhndWotYWdSMVNpV0dUc1lqN0N1VmItclNVNE5fTzdGQnRyNkk2MlV1b3lpd3RoWlJ6ZVZDOXVFQzlTMTRubDY1bDY5aHNxQm00al9yT0h1YVNBX2hIWWJ6Zm8z?oc=5"
                 },
                 {
                   "data": "2023-08-16T07:00:00.000Z",
@@ -16132,10 +16154,10 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOSFFhdGptUXdnRFRRWTllMGtHOWlFUkxrTFpnNGxfemlfQkx0MGg5bjlXNVVtR21WUVJDOWowandjNXJyWTdnb1c1WEZOYi1uZGQzdW43NzJDTnFJakdaT1RGQmlacUpPZkluSGtMZG9KM1Y2azBCYmFsazI0MTBmLTF2ekJjblY2T3BnOTMzQ2hSWUJZREV5VDFaX2ZUZw?oc=5"
                 },
                 {
-                  "data": "2025-09-19T07:00:00.000Z",
-                  "titulo": "Governador autoriza estudos para implementar nova linha do Metrô saindo do Gama e visita obras de expansão em Samambaia",
-                  "fonte": "Jornal de Brasília",
-                  "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNSjR1QngtQVRNQ0VFN2YyY1NVSzVxTmtzR0thMjFXcmF1WFNCUWgtQ0twdFUyMFozaml1ejVFempaQzkxZVN0d1ltMEVFR0NLMmdhQmdDS01Ddk16eDVEbjlHcU1TTW94U3dodnZlMDZvcGU1RlBkNlh3OWFETWZCNWkxUExfSDYxU1k0d1ZrUUsxOGNCc1NSVkZaUUd1SGxwSW5VNzFCa0RfSDh3dnppZXNUUlozNVA4WUNFd1RreC1rWF9VeHRSemxKME9ral9aYm96cE12QVJESlU1OXZKNk9mdTRGXzR3ZHNkSU1oZllUQzg?oc=5"
+                  "data": "2025-11-06T08:00:00.000Z",
+                  "titulo": "Desde 2019, sistema recebeu três novas estações, melhorias tecnológicas e investimentos que garantem mais conforto e eficiência",
+                  "fonte": "PDNews",
+                  "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOeV8xdTBhSVh5Q0lUR3Rob3htUTJFWW1qdjQ5X2RiVWNjWER3MlNBN056aGt5R2VBS0hPeWYxblo5NXE2NkM2d1NtellKNFdTUWhqdGgzS29EZXkwZnNndkVneUJCWlFnMi1FUUVhaGlGbC1DdF9Nanh3aWFCNHhTVTFKcVZZTW9VN1A2UXdRVERVcFJCOFoxZ04wb0R6Vl9SelYwLTRCMVFXb0pmbWprTtIBtgFBVV95cUxPNnpmRENTS2VLcXU2YUdlR0U2RVd4bm5HbjBCMzBhT1o3eUM0YzExRWNXTjNIbTdBbUxLbkRyUGhmMHJwVnFxWDNXdDJMUHVycWFMVVdqa0IzN2pBMVUwT18tcmtqTk8xRjVFRVJhbnVpb2JpMXo4V3ljVUFoMUp3bV9jdk9uejFLM1JKbm8wby1LVGQ1RUJlUlNpNFZqZGpwQTNvNExUWmdtTVBBcUlyMzFMdTRrdw?oc=5"
                 }
               ]
             },
@@ -16204,12 +16226,6 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNZTR5SVdyYmNsYnFtU0Q2cXFBZkNpeFlvb0puQ2FuQVBOeHF4eExJWFdUQy1wM05jRmV3T3FKTlZSRTZUVUpMZGtIZTBCUENHVjNPTTZvelk5ZHR2QWRjMG5hYjRxTmphbU1QYi0wbl9YWC1wYkFiaHhMQ09feXdLY1ZQWUQ2TUlKYXE1MHpSSjM5V1RGTXB5QW5UNHEwV2FaSWc0MnJoVEF6YmJyZVE5VVR3?oc=5"
                 },
                 {
-                  "data": "2022-05-05T07:00:00.000Z",
-                  "titulo": "Autorizada obra de novo bairro no Recanto das Emas",
-                  "fonte": "Jornal de Brasília",
-                  "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZUpSc2NRcnhpVFdDUnNRWEZMNnJqRnJTdUVsYkY3ZExqeVNrVXFnMGlFSDcxUk5zYzhiYzQyMzg1cFRjX25XcThveDhVbmZ3Ml8zZ2tmR2lQQV8xLXMyVFhid3dnRU44dXo5cEVkQkU1enpsekRUZkRBNXFJaUtPTzJDQzNXWDF4RnFQeHlVLXN3NWJxSGFV?oc=5"
-                },
-                {
                   "data": "2022-09-14T07:00:00.000Z",
                   "titulo": "Entrevista ao DF1: Paulo Octávio promete criar novos bairros, ampliar escolas integrais e gerar empregos fora do Plano Piloto",
                   "fonte": "G1",
@@ -16226,6 +16242,12 @@ export const mandateTree = {
                   "titulo": "Iphan vai definir altura dos prédios no novo bairro Jóquei Clube",
                   "fonte": "Correio Braziliense",
                   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOZ1ZlSUVfcG1iNTBPaWhfT2phUEZvV2JjSFNzU2hQb0R5bXc4YnZZOHJqZlBzczRHeEkwekgxWDhFQ0RZRm9laWpLWWstX3M2VVhnMlVCdGM5V1FTcE94aDNNdklyR3NBa2ZXOE41NUEzNmF2V0hhZUpxbjk3ZGZ3SkdMa04tQlo3YzNWcVlLVGFpQktOTG9BVzZVT0NxSG1KRTVHWVpMb3lyZ1kwV053OEc5bzVSdXVvV0htbWVUWl9XUnZTX3c?oc=5"
+                },
+                {
+                  "data": "2025-06-06T07:00:00.000Z",
+                  "titulo": "Primeira etapa beneficia mais de 230 pessoas; imóveis têm dois ou três quartos e fazem parte de um dos maiores empreendimentos habitacionais deste GDF",
+                  "fonte": "PDNews",
+                  "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNUEc2dlV2eVp0UEJtZGRvLXdTUEt6WGRpblo2cy1fQVVGZW80RG8xRk4zdTBiWldyMlloSXF0ZmRkM01Db2h2ekZxRnE4RmJIQVAyQWFDSXFQMG5qZURiNVVUZm96aFNoZUZYa1h6ZDMtWGJ5dUprREdza0haYWJlV0xZa3dtY0xUSWlxak5XTnQ5aERyU05saG9oUURobkF6aHBHQXo2bVBudUpsSzBxSk9wMFp3VkZENGFMVnl2a3FRRDYwX3c0Ry1UbW4xRldCay1FYVRB0gHbAUFVX3lxTE9oeVhyOVU4bi1ybWxtaHdrSm4tdlhNN3FGYXo3RzU4NzVTZGxIa3ZNQkpTU0lic2JBRDdubnhjQm1Sdmc5Y3ZKMnd5RWRuVllScDNzN0l0SXVsTmd6ZDRzT1loMUdqRWdLUDRmM0hNamJad0xUV2w4c2QwelE0QjZqS3U0OTQyaFRaUGtGejVmQmdfTC1KQVhQMEJ6TXFmNVJUS0dxbFR1ZEFvamNMMkY5c2NuWnl5UU9ac0xZMV8yN0Q0ZklZeWU4Y3FYbk4yX01PX3RXeFFjX3FsQQ?oc=5"
                 }
               ]
             },
@@ -16243,6 +16265,12 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQdUlpMXZhYWRaOXdwY1ZINkdDQWRWRFliQTh0MDBNaWp6NGdqR3V1YjhxUVJ2WXA1aWtlTGJtMEhjdFhxRkdHa1dDOFFDbi1zank0THR0R2JTdUR6Zng4M08tZ3hLc3dxUjFqOG1meTFPTzJ4TWNiMlBTd3ZkM0VxQzhsY3Vka1MwQUVrOFJCNklCZU9Tbjl6dWRianR4M29ub2JtWVhJYmEzenNk?oc=5"
                 },
                 {
+                  "data": "2022-03-24T07:00:00.000Z",
+                  "titulo": "Protesto de moradores do 26 de setembro interrompe trânsito na Estrutural",
+                  "fonte": "Correio Braziliense",
+                  "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQTmEzdmNKY1RtRkxWX2dRS2h6YVlBbFItLUd1N2RBVnRGclRHZU9fVm9RTFYweWNxeC1Qc1BYT2Q1Um9IQ0YzbmcwUnVmUDRocDBmdjkxTWtVTVc0aDk5YV93UzI3SWJOdWlLWDhKYUVFcms4X1IyMlEtZ0NnRTJHbm9Dc2c5d3Ata3hRcV9ZdVR0anYzSXNYd0lxWTMyTUlubnhtQkprcV9zMGc5RFU0cWFPNlRQRHpZTU9aSHhQcF9KRnVvZmw1N9IBzgFBVV95cUxNeDc5VF9keldlbjJZTWwxRGRnWldtVDRnZXVBMjJSRmwwUGd5OEJXWTkwdXFDVEFWVklfUTZUWUZ5ZW5WeExwTkUzSEVZU3JXZUExNjFPaWQta3lEeVRJd18wdUVyRlRMeUd6UWY5YjVURXZzWXNNUDNkZWNTWEUwUGNWVkE2VWNNTEQtY3Z0bU1velVnWjhwcU9VWlZiVFl4UDBXQ1pJblc3SUtmODRGOXV1TjZ1YU5NM3BxSVN6bnI4cGdSNTVvRmZxZVp3Zw?oc=5"
+                },
+                {
                   "data": "2026-04-10T07:00:00.000Z",
                   "titulo": "Ponte Alta e 26 de Setembro avançam para se tornar novas cidades",
                   "fonte": "Metrópoles",
@@ -16255,10 +16283,10 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQV05SQm5aanZhSEcyQW9zZTVycFZGVG9sYXdPUjhQLWc4enRYeXZkNk1JRE5qWTdwdmJ6WUVCd1czeHpnNlUzc1NlYTdlVlgzMmt3RzlWaVhTYTZ1aHZ0dEgwSGk1eEcyamhXTjdkN2Z3LUt3Ujk3dm1oeVpVYVR3WVVfekdQQ3drQ1JfWUR4dVAzeThESHplSTJuMi0xMTROaFlTR183alpJOW1hd182OFZxSjBDYUg3T0I1YmtBUTI5ZVlrdEpZMklzZTM4Wk9TZ3luMC0xa1ZHYjdRNU0yRE04UDFtdXB0eDAtdHZubw?oc=5"
                 },
                 {
-                  "data": "2022-03-24T07:00:00.000Z",
-                  "titulo": "Protesto de moradores do 26 de setembro interrompe trânsito na Estrutural",
-                  "fonte": "Correio Braziliense",
-                  "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQTmEzdmNKY1RtRkxWX2dRS2h6YVlBbFItLUd1N2RBVnRGclRHZU9fVm9RTFYweWNxeC1Qc1BYT2Q1Um9IQ0YzbmcwUnVmUDRocDBmdjkxTWtVTVc0aDk5YV93UzI3SWJOdWlLWDhKYUVFcms4X1IyMlEtZ0NnRTJHbm9Dc2c5d3Ata3hRcV9ZdVR0anYzSXNYd0lxWTMyTUlubnhtQkprcV9zMGc5RFU0cWFPNlRQRHpZTU9aSHhQcF9KRnVvZmw1N9IBzgFBVV95cUxNeDc5VF9keldlbjJZTWwxRGRnWldtVDRnZXVBMjJSRmwwUGd5OEJXWTkwdXFDVEFWVklfUTZUWUZ5ZW5WeExwTkUzSEVZU3JXZUExNjFPaWQta3lEeVRJd18wdUVyRlRMeUd6UWY5YjVURXZzWXNNUDNkZWNTWEUwUGNWVkE2VWNNTEQtY3Z0bU1velVnWjhwcU9VWlZiVFl4UDBXQ1pJblc3SUtmODRGOXV1TjZ1YU5NM3BxSVN6bnI4cGdSNTVvRmZxZVp3Zw?oc=5"
+                  "data": "2025-11-26T08:00:00.000Z",
+                  "titulo": "Novo PDOT prevê aumento de 5% da área urbana do DF; entenda",
+                  "fonte": "Metrópoles",
+                  "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPZGg0b1Z2VUpZNHBLVDVQWVgxejdIUkpFd0FaaDNTR3FNcVBIVjlaWThweFdxcTZhQk01UzR6WG83YWoxc3YtMERxMmFqQk1STWVoWEktbG5JeDh4MjZBYnJNenh0enI2VmpqVnpKVjFNWlIweEppNVBVZTF1WFBiaWs2bUEyeURpMEh6YUhkbmdlNFpwWHNqMmdmV05EZ0ZrVk5v?oc=5"
                 },
                 {
                   "data": "2019-01-21T08:00:00.000Z",
@@ -16279,7 +16307,13 @@ export const mandateTree = {
           ],
           "noticiasGerais": [
             {
-              "data": "2026-10-16T05:30:51.000Z",
+              "data": "2026-10-16T14:34:12.000Z",
+              "titulo": "Ibaneis Rocha passa por cirurgia no quadril",
+              "fonte": "Jornal de Brasília",
+              "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOWE5VN19EdktjMmYzcV9xSTdsRDd3a0dIV1pYQ196NUh6UzR5NWlPdTRGd05BWWF5SEg1U0pETVZHWXRWbnFSLTNCVGI4aUoxc2owZUcwX3ZvZjdTODJhUmRnNV9wXzVSNzF6R3g2d05KZi1CSmpPZW5qY1pKSVNjWDYyU21SejJQRjlUZTd3?oc=5"
+            },
+            {
+              "data": "2026-10-15T23:30:49.000Z",
               "titulo": "Quem são os candidatos ao governo do Distrito Federal (DF) no segundo turno das eleições 2026",
               "fonte": "JOTA Info",
               "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNcUJhY1lNOVNVNmJWUVNzN3FsOG9KSzlrYVJueVY3QW5GX29UWGh4ZDluNzBzNWlqVldvTXE1N2dsb0ZMMWJLUl8yNFdwRi1WWkVIUWtEUk5VVHBROGliYVctRlF2b2F0YWVxb3daMElZWjlKRHhEQy14bUt6SHFOaFgyX1JpMEVYNWNRVzE0R25KRmo3UGY4ckhld1p3d3gzdmYzYjlpSDFzRVFHdFFoZTY4b2EtX2xFdzlKQ1pfYnFSeUlPNlF0ZnB6b0p0MVZDZWc?oc=5"
@@ -16297,22 +16331,10 @@ export const mandateTree = {
               "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQeTJqSmJxdEFONGdvQ1J2bDJnbVpObXFNaHBCSHBrVkluVWR0VFpYckRtOXI4emVuZEllX1hFRjN4b3F0bFJWblpxajJEVktsQ0pyM1RURzROOEdsdy1VcHhjWVF1RUd1b3p5YlFSN0ZqeGJ2YkZfWVhaZXc2RkdweExwMGZEenhwckF5Z3ZMcEVUUVVCeFV1TldyZU9LNV92bkl2M05xRE0zbHZvMzdET2JOd0NnSXVRMDBsczlKdE8?oc=5"
             },
             {
-              "data": "2026-10-10T17:15:00.000Z",
-              "titulo": "PF aponta atuação direta de Ibaneis em tentativa de compra do Banco Master pelo BRB",
-              "fonte": "Rádio Metrópole",
-              "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOaWdkUHR4TGozbWJmVHpzVEc5eEhoTDNKQmZRNXpqM2lHVVI1QUExZ2NoQTlrbTZIMnk1ZVdCT2p4eklYQ2xCS2Z0WkNUSnQzSWlwV0p1ZWEwT2Z3WTRoaFhFWm81RGdMX25iTzRUd0tUdkY3dUcwWHJaVklYV2RIaUhBUS01YmxUb0N4dDNiamlkTGlCWUpBcmhDS3pteDdfLUladjZsSzlqNy1XY0pUeHZ6RlFrUlZEUll5YUtGUWhKRlI0VnZFeFRSQk8wSm8?oc=5"
-            },
-            {
               "data": "2026-10-10T14:40:04.000Z",
               "titulo": "PF: Ibaneis agiu de forma direta para viabilizar compra do Master pelo BRB",
               "fonte": "CNN Brasil",
               "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOc0FmbkhoczVuV3dfc05GbFYyRV80aHpPUTc4YVpST0czdHZkRGUyQnVET0RGTEkzN1d4TWtQRV8xRW54WkR6WjhLLWkwRlNsTkl0YjlNdWFKWlFfa1oxZnlkR3lySEgxX3lsNzhieW4xNkxTUzRIVHExaTNMMWRrRmpXaEtsMGc1SHRjdElnNm42QXFDdW85RUJaX25XbnRlYUFkN092dU9vaFhIcFlmcHowQkJYdl9oWmJSZXg5LTBHLVQ0TDhoZFNoS3RoNS1tR0E?oc=5"
-            },
-            {
-              "data": "2026-10-10T12:22:51.000Z",
-              "titulo": "PF: Ibaneis Rocha participou de reunião na Suíça com Vorcaro para selar compra do Banco Master pelo BRB",
-              "fonte": "Revista Fórum",
-              "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOdDRZRlltaEE3V3VrSktpazlPbXdHSnZiUUJvNGd6alBuN2NwUGdjZGdGc1U4eDVzcDZCZGVDd25qY2REd3BNVWdyQ2pqLWtxb1pRYW9pTjZmZHBIWVhiWV93X1BtTlhMa0pVa3N2S2dITlNyMVAwN1NoM0R2ZzhNdFUwbmw?oc=5"
             },
             {
               "data": "2026-10-10T03:00:00.000Z",
@@ -16363,6 +16385,12 @@ export const mandateTree = {
               "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPOERlNUdzU2xKQjdhM29iVGNNanFUdG4xVFUzTTFTbExKWWdnMm0xeU5fU3BPQWZPdUVPZUt1dDZSVm9ITkxTQ3ZUbjFJa0JYTUhuUzdtbFJ4YVpuSXh0ZUdhdjl1MGJPRjA3M1VvVEN5cmhfMlFmLW5sOUtGUHJMT3A1Ym9ucXBMR3BJa2R6SUZTWU43dC14Q2VZZndLak5wTWJJMS01MUE3R21pRlZLWTUtR0c4bXlWSDBkWG0wbWFzOHdBYVhtVy1ocWZfRTNzRmtqcXRzMGdhMi1QT1FyWVhzaHN0blVwN2JjdTZR0gH8AUFVX3lxTE8wUEpNLWRBZ0dFaG1VV3A4bzBBODJIU0ZwV2FmTkVGa3lVejgyLVpjVDg0SjFCVHhQcG9yaDFSTG00U1c2RS1nLUpjQkpxaUxkQzdlczNLRGQwdHpkZVVYOEpmMmRkWEFreUhOb3h2dmRWeUFTamh4bG5MdDJuOVhtTmJ5V1hJQUNCTTB0dkVCT2llelVIejRuQ3lxM1ItV1JzOGdqa2ZWWjhoRU80MzZTdi1mbFRFYUpIRXJUaU9ZZXlKQXY1THVQbl9yakdIQXh3eEw5VEt0NExkR0kxRnl2b21Pd0Z1dGo3X0ZJUmplbVRGaU10bW9IaXlpZw?oc=5"
             },
             {
+              "data": "2026-10-04T07:00:00.000Z",
+              "titulo": "Celina Leão e Leandro Grass vão ao 2º turno pelo governo do DF",
+              "fonte": "CNN Brasil",
+              "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQNUs4MVRvSHlxMGxLMnkwZjRfbk5KSGNSdXdoZ2haYjZmTVpvX01UdjRSdG1GOVJJWFhib2I2SXpVUkpSN2VTYlVxeE1XQjNTV01tOXFMdUxnbHBsaTBGSlAxdzhkcGU5c1owczVPSmlyTEdaSlp3Ym9jUV92NU1vQmIzN3BFVEZWdzVtZk1HOXJRVnVtTDFkdDJQaGhLUXhoSEZZ?oc=5"
+            },
+            {
               "data": "2026-10-03T07:00:00.000Z",
               "titulo": "Quem são os candidatos a governador do Distrito Federal em 2026",
               "fonte": "CNN Brasil",
@@ -16405,6 +16433,12 @@ export const mandateTree = {
               "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNUEhza2xBd2s5NHVBWE1nd21TYnFsN0ZURF9URVRiOE5MRXNSSnpNQ1NDdzh3VTZjZlhxSWo5TV94ZTVuRnIyQ0xlQVpNWm5KYzlYQjVfYVNnTjRocXU5aGJCbHFmd0JBNmVrZ0hqbzdaUlFZTVd6dXVrNzJsa0NFRFRJYWhvRDVqbl96am5sLWV2eWhxYlZMY2ZLUmx5VUZXUkxvM1YxZFlWLUZUWVItVE1Na1BMbjdqaC13SmRDbG16WVVUT2pYVUgxRVpFNTZU0gHWAUFVX3lxTFBseDdaeXRfeUpkZ0JoNGd5RDIxSWFMSmtxUS16NzhQRGM5dFRKS3lTME9TcEVoNTYzNHNucEJBYlQwelRnTXhFNW5TYzlKTDJyanZ5akc0d1Y5bU53bExRbGRXa28yOE41Y0NxU0FlSjg1Q1NBVktzeGh2WFhUU2VDMXU1UnB6elFCVWlwUnotVTVCUkJuRlNtYTBCYjBDZGV1bHNMaVUtTElZMWI1TWpVUEszcUM4TWV5Tjlhc0Q2aWRlTzI5NmMtemlEZmtiZzJ1VUFWcmc?oc=5"
             },
             {
+              "data": "2026-07-23T07:00:00.000Z",
+              "titulo": "'Recálculo de rota': ex-governador do DF, Ibaneis não vai disputar nenhum cargo nas eleições",
+              "fonte": "G1",
+              "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQdTExT3pPd0N2dHRfaUctS1FUR0ZmcGw5Z1pTN1B1Vl9MakFkLUdiM0dMQXBRTWY4Wk5MX3hnWVdTZnRWMVhqTW1qZHNQT3JMc3RTMF8yaUFOa0t5Qjk5UDdyamdZdGd0b0NSYWFERjhBOXZqLWlCRWZPbEhpQWNsUlNXQmxNNVp2VzhYRmJaOFdZMU5KWjg2RnhmRF85dThzVlRTcUpSakVOcmUxdXhOTGlMa0FYS1B3Mm4zTzlUYzhBWk1PUVk0MWFKdXFqTzA5UjVfeGN6UXFjT01iaUE3SkUwY09VLTdDVlhCLVlQcDdDQ1pfZGd4MGJXdmfSAYsCQVVfeXFMTUZVSFFHMklSWHNmaV9qM1RKaEszV184RGJKZzREaU9JaGY5Mk1zZUkxMnlnSUQtVFE3YzdoSDlueW4teENhSnVEbmRwa09OVDdsOGktUXFQRUNIcmp4LWdoTlNoT3VSSl83WnZoVjZGeXNuRW51TFp4OWZmMXoxcVZySjFDbmZ0U0JfUFl5TXR1SlhQUkFTN2xMSjJYYUVvdi0tcDdUbjRIYjdVRFgwMlFoZmYxbFdCMVRRUlNkS0w5NXVVTHZSeUR2WGIzQ1dUSlhhc0FPd09TQWhpWE1uLWNJYWlCWkRIX0JyaHFWYndUbXVSQWxLMVMybjVEcWFTMF9Vc2pBbFVFc2Ew?oc=5"
+            },
+            {
               "data": "2026-07-22T07:00:00.000Z",
               "titulo": "Promessas de Ibaneis e Celina: governador e vice do Distrito Federal entregaram restaurantes comunitários e escolas cívico-militares; meta de expandir rede de saúde não foi cumprida",
               "fonte": "G1",
@@ -16421,6 +16455,12 @@ export const mandateTree = {
               "titulo": "Entrevista exclusiva: Arruda planeja ser governador para reinventar Brasília no estilo de Juscelino Kubitschek",
               "fonte": "Jornal Opção",
               "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPSDV6cFZkaEpHeGhCVHUzQkxfUVhrYnRjTnYwYjFaYUtpWlBncGNDbmRPbFdNbzhiSmxhRW5Nbml0aTV1X3BEd0pYNE1Ydm1qa2RLT050VHdIaUhUQ09SeVNaWkVtM1c1N3JuZW5MYUZVMkpmckYyVERzckFKNUw3RTBZeURWZEE0OXlKOGVBVkMtMnJKdjdqdmZsUVlFRkEyMkRPbnBpNlIxbF9oT0hDVDFtS2lQSV8ydHNvRDl6RzVqX2h3NEZxd19MR1hFSlgwS0ItLTJHVjdUUThwVDF0YWx1aVV1NUE3M0pRY3M1Y2VNc0pKTTNsRw?oc=5"
+            },
+            {
+              "data": "2026-05-16T07:00:00.000Z",
+              "titulo": "Ibaneis reforça discurso social rumo ao Senado",
+              "fonte": "Tudo ok Notícias",
+              "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOR08yNGlfSmpvVFdQVkdmLTRBNHhUQnRYcFJMZFJ3ZXlEMUdkTkJHcTdtNFpPcFZoQWpmekR4ay0tSjRkSVpISVJvUkhBZ0Q2TjNzYkFjUWNTX3Rsc0dwaGVhQ2RjZFNicU44eUlhekxESjNtbE11M1dXYjhJYjcyVHlhbWRpWHhmNndSSDNiUHZ3RjNNS2xqVXpn?oc=5"
             },
             {
               "data": "2025-09-17T07:00:00.000Z",
@@ -16447,10 +16487,22 @@ export const mandateTree = {
               "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOWXdiUFJXUFppYkdUejZuMWloY0dyVFVRSjBCNkI1ejBNdWk3WVlFdVRJVEFiVFR4RnJjYjZRNmRwMTJZcHVZX3ljcFh6ak5xSklOSzVhMnpaOGNTSkVaUG91MF90MGtDOExORW9pRFBQZ2tDV0E2MmpFdDU1ck9YVHdCQVlDQTRVOENiV2MtXy1iTkpxck5NaVBRRFVwRkpjRUZkLUIyUnMxdXY1T3NQMFZRLXXSAcMBQVVfeXFMUDl6TjNLWGJLUlU2X0FnZWNQZWk0N0hKNGw1eFgyUG1HQmNtOTFSVWMxaHpjaklVcVpCVmp4ZmoxWGhvVG5EbUlhNWQxQUd5clg3UkY2emRwaEZFVzZXS0VnLXhIUm9HakdMenlZejBFTHlvLWpFSUNVU19JbHYydG4wdl9Za0U4dUZJS3dxQzh6TlUyWUFzZW5DWlFXRmlVZ28xZG1XekF4am9wa3JCMkY3eDQ3MzhWS2ZUSFgxZUNLNG80?oc=5"
             },
             {
+              "data": "2022-07-13T07:00:00.000Z",
+              "titulo": "Ibaneis Rocha quer chapa com Celina Leão e Damares Alves",
+              "fonte": "Correio Braziliense",
+              "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPOUtMSGIxcjFqY1YzaFFSTVdyUzlNdDBTZVVzZTloWGR1ZVYwejY4a0g0YjhxTW9hVFpCU0tHTEVMSHMyUW1BaWRnRUJ2R2tHZkt0ZE9xeDNUSl9PZ2NuWVgxemVMTUlMYTE5cmNIRDJjSzF1STNHczZlR0tacjF4T05YcHFOdjYtbGVzbm5LSXktQ2h6ZUJyYWV5cGpjT1hqczBfVGJocFdsQkp0MG1WTE96T2p1WFE5QVN2Zg?oc=5"
+            },
+            {
               "data": "2020-04-20T07:00:00.000Z",
               "titulo": "Bolsonaro quer reabrir escolas militares a partir da próxima semana",
               "fonte": "Folha de S.Paulo",
               "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNMVFlMllvb2xvNjJ3S1ZxTjk3ZWJjMlNjbm1uYWpucHdaQkJmTmM0TURLWXpiNnN4aFNCc3NPUjJrSVdXYzNma3VQa2VQVWE5cWlidWg5dHRsd2d2YzU0UFJoRmJWNDlGN2NJczBmVjlQNWFTcHZrc2pacHlhR2xZa1hCekdydVJuOWtwOVZMYS1BTmR5S081ai1aem42ajJ1b2tFRHJBZnJjVHFQOExsakRtOWtGS19GRVNXSNIBwgFBVV95cUxQWjhOemtabER6OGx1WEtPbDVnVjR2dkY3UEJjWHBpX3VvVUgyb0kwcmRsSGhjXzdVaDNuaVhhNVZfSjliRkVmakxrWWtiZUdmUWFaWGYzQ3ZvSndlZk9OOTc1V19iS2hmRFEybWVwYm5DVUtGUUlSZXNmWkdyemRvRExGeFRSWWtxdWYzM2FjRzMzUFlVR0QzeWlORmYtZlBIX09GYTNiNlJyRzQ1S3Y3a044MlUtTV8tSDdYQWJ6aWV5dw?oc=5"
+            },
+            {
+              "data": "2019-08-15T07:00:00.000Z",
+              "titulo": "Ibaneis Rocha, o governador de R$ 94 milhões e sua compulsão por compras",
+              "fonte": "O GLOBO",
+              "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZXFKaFVxS0hLUU50Y2lQMEZ5RnFoSDFpcnBIaG9HYmhQN1B3T2RXOWp4d0RPdDRQR1VfSl93MUZsY3lVXzFvQnM1TmlzUW9QQ1pwSVFCS00zYUdPa0htblROOEhac2RJWHpsRGVrRWNXbnN5WDBLQlE2NldFbEVMSXhXdm5zc1o5TFd0SXdyNFMwVlFvNFBBUzFYWmVmTlJOQV9TbHIteFlsNUVRNENLaNIBvwFBVV95cUxOa2c4Yk83aTNSV0F2VWQ5cmpLZ1czTEwyWjZIUnpVSzJOQmU1bE85Z2tRaUN1Qi1aTk1acmFwc0tsam04dnM1SUJ6MEk2dE1lV1NNODhUNVNaVnRaSGppaVNST2M4d1hBeFdRR2FGUkhPU0hDWXF0ZVBRRHRCNTAxX3FacjE2TldiR2pBMmg3a29yajdSbFVJNFN2OVVZLVNpZk4ya0Vob0x6NHZyNFJYelZidk1ZMTNjWXdVUXZpcw?oc=5"
             }
           ],
           "filhos": []
@@ -16496,6 +16548,18 @@ export const mandateTree = {
                   "titulo": "Educação: veja propostas de presidenciáveis em 2026",
                   "fonte": "SBT News",
                   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZk5teFc0WGVaV3Y0UVdXQld3QUd5S0E0U3hFUm5sZVFFM3FwZTU0ejBuVXpmZWd0Tm9EX3hzcFlud2ZhRXEzVUNJd1FCMGJ5b2Nxc2RxMlZORmVaTkZyUFd2QnlLa2pSaXpGaGh0TnlHYV9tOGdyQ3pMUkU2c3FXeGNpTU4zM1hnc0o2SUNWTXN3dHN4UHZvMnhR?oc=5"
+                },
+                {
+                  "data": "2025-02-11T08:00:00.000Z",
+                  "titulo": "Prefeitura de Aparecida faz parceria com Escola do Futuro e divulga cursos gratuitos",
+                  "fonte": "Prefeitura de Aparecida de Goiânia",
+                  "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZjZ6bWRoaVZ1dEJNTVZCQ0xLaGItS0UwZl9xU2YtQUZXLTRjTWFMZHpKT3JxMDhNYXRyQUh4eWkxVUpUcGwtc25IcjM5UGhiRWc1QmNsdHNON212WHJ0TkpXNGlHeVFaSTVjdUVWTFk2aTlKQlhLcjAzbWc1UnZVdlNMQ01qX1FKcDdjeWZKQkxER3ljakd2VXRVUEVJQWtOMHN4cTFmVnV6S08yUlpTLU9R?oc=5"
+                },
+                {
+                  "data": "2023-08-10T07:00:00.000Z",
+                  "titulo": "ESCOLA DO FUTURO EM VALPARAÍSO DE GOIÁS TEM OBRAS AVANÇADAS",
+                  "fonte": "Prefeitura Municipal de Valparaíso de Goiás",
+                  "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPdFBreWgxSWxlQmdkUTlaaWhsLV9uVndsZkUxaUVONmU2S3NMcjF3V0MzbGNra2RlQ0FxODVRWEpOdzRKamZUbVc3STZ4ZXNCd1JYOFRCT0FfQWp0TTRiRFNtenA2bzJ0QnFHR2tVSEJDLUhvWG9CeDRNeUJFeGtSQmE1WmxIaGdTMmxKQmdvZS1GVVJvZ2p3bTZReWM?oc=5"
                 }
               ]
             },
@@ -16750,16 +16814,16 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOWExXTHVRRjN4Z2t3c0pySTkwRDVYOWp2enZVWmF6WFE0MEY1UmxnSFlxM2VBX0ZrdDNzWklaOE9hZkkzN1gwbmt0OWZiM05qcTBxV1dTVlQ5ODRIMG9KZmo5Wk92LTdaZ1pfZ2hxX2JURTZaS2VzVnU0YjJJeFhVR2VLYzZfZU4xVWhHaVN0alNMenpvU1Bpc2F6b01jM0NDOXVVQ0l5eHdia1dSN2xHRkhRdDZDUXUyQjc1S3BnR3Y?oc=5"
                 },
                 {
-                  "data": "2019-10-09T07:00:00.000Z",
-                  "titulo": "Projeto que cria programa CNH Social é aprovado na Comissão Mista",
-                  "fonte": "Jornal Opção",
-                  "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQX1hRT3owUU1QWF92R3BBY21ORzBwb3l0RC02bXNad3VsOVVFelIxYzhuTVAtay1GNWt5TjhKdThrYVFyVXUzMm5weDJHTF9VaTByOGs4cWNQRXhLd1VVTlZFOUk5dnBvM3JNOTVyb1NYVzk2RUY3YU93TDljSnlXQ3NUaTJjVUgwdnhQN0tpYWtPd0YtX2lVeWFLYTdVZEFxQ2lDSktvQmQzbnJjWjdLcFVDYmJ1eGNjeng2Nzl3?oc=5"
-                },
-                {
                   "data": "2019-09-18T07:00:00.000Z",
                   "titulo": "CNH para pessoas com deficiência pode ser facilitada",
                   "fonte": "Mais Goiás",
                   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPY1V3RUQ0ZFBqSHFER0xpd3FGX2M4dEtNaWhVZnpnT1JXSmsydTZOVHhybVE1X0F3cC04SU11TFNYa2Raa3RfZW9WUEZzc0d6b1k2eFdaa2dvbTFzbWg5RzhXdUNfV2hHa25HV3NTZEFTZ19QQkFMS2l2TlFzYlZRZXRRNnZiVHpwWTQ5b1RIUjlhOXc?oc=5"
+                },
+                {
+                  "data": "2019-10-09T07:00:00.000Z",
+                  "titulo": "Projeto que cria programa CNH Social é aprovado na Comissão Mista",
+                  "fonte": "Jornal Opção",
+                  "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQX1hRT3owUU1QWF92R3BBY21ORzBwb3l0RC02bXNad3VsOVVFelIxYzhuTVAtay1GNWt5TjhKdThrYVFyVXUzMm5weDJHTF9VaTByOGs4cWNQRXhLd1VVTlZFOUk5dnBvM3JNOTVyb1NYVzk2RUY3YU93TDljSnlXQ3NUaTJjVUgwdnhQN0tpYWtPd0YtX2lVeWFLYTdVZEFxQ2lDSktvQmQzbnJjWjdLcFVDYmJ1eGNjeng2Nzl3?oc=5"
                 }
               ]
             },
@@ -16770,6 +16834,18 @@ export const mandateTree = {
               "status": "cumpriu",
               "descricao": "A promessa de manter o subsídio do transporte coletivo, garantindo que não haveria aumento na tarifa, foi cumprida. Não houve aumento da tarifa do transporte coletivo durante a atual gestão.",
               "atualizacoes": [
+                {
+                  "data": "2026-08-26T07:00:00.000Z",
+                  "titulo": "Representantes de Flávio, Lula e Caiado defendem atuação do poder público no transporte",
+                  "fonte": "JOTA Info",
+                  "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNNkJZTUktaU5Na2tyeFhzam5hNThhZHFIUEc4UDNLZmVHV0VhY2tVU1BsbEYweVgtWHlTOU1Oa2tJNFI3OEwwLXZST3B1Y18tNC0tSF9iS0tJY0JGLU5KT1ZSb1lNVnMyZVJLVFpuWHBVN3RRdlRTRVpsa08zMzRLOUt0UWc3YXJqMWJBZzdtbjlXaG1fUHRtaHFXVzlFWWYteTl2eVNJeHZSWE1ISnRtZ1VIWFhaQVB1S3FpWFZCSFBib1JINmdqb3BBOA?oc=5"
+                },
+                {
+                  "data": "2026-08-14T07:00:00.000Z",
+                  "titulo": "Caiado promete implantar o 'Transporte para Todos' se eleito presidente e defende liberdade para uso de motos e patinetes elétricos, mas com regras",
+                  "fonte": "JC",
+                  "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxQd281NWw4WFAxZHVSRUNvTWJxRENieE1jQTBBN004YWZBSHZMcFhBM0xYejJrOEh0amg3RkZBYVduVXFrRTN3YUZwaXh4Z0J3VzZReGk5V0FWazRieXdfcVpkdnFBV0pnRXd5aWhxVkVNaG1KRFlEbE15R0ZBb3c3XzV6ZXp5NlAyT1hXR1ltZUJRdDRNNEVtQUlRRU53aTVGV3FqdFFIVTJVSUdBWVNTWnZfX0N2emNMUEZmcGY2aS1TUkJPU192R1V2eHNZTjFXbWVFWjBUVXhzUXR3RGd3VVRWSkx6aVV4R2RfbzU5Vy1FRldCWmdfeUlEUk5nMzhBMS1wTTRBa0RfZVJ5WDN2QnF2ckRRR0ZtNTBBSFZmeWNXMktSQm45OQ?oc=5"
+                },
                 {
                   "data": "2025-12-18T10:11:18.000Z",
                   "titulo": "Goianira e Trindade podem elevar tarifa do transporte público a R$ 8,20",
@@ -16795,12 +16871,6 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPZWlkalRSdmhZLTdrd3JnLV9keXZoeHZuZDJFUm5YbHBvYlFkbVBLVGdmc2dLcTJKTFMxSnJlTi1HNXByeUlNakUwMlZPWS1KQmVveUNyTGVDVDU4MVVicVZha09CUS1IcWpreTN3Z3p5NjZrQUx6bzdidVlzRzRjNTZvU1JlamEwdl85NHZidzh0YW55c3diVnBTb3RkQkdjMGdr?oc=5"
                 },
                 {
-                  "data": "2026-08-14T07:00:00.000Z",
-                  "titulo": "Caiado promete implantar o 'Transporte para Todos' se eleito presidente e defende liberdade para uso de motos e patinetes elétricos, mas com regras",
-                  "fonte": "JC",
-                  "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxQd281NWw4WFAxZHVSRUNvTWJxRENieE1jQTBBN004YWZBSHZMcFhBM0xYejJrOEh0amg3RkZBYVduVXFrRTN3YUZwaXh4Z0J3VzZReGk5V0FWazRieXdfcVpkdnFBV0pnRXd5aWhxVkVNaG1KRFlEbE15R0ZBb3c3XzV6ZXp5NlAyT1hXR1ltZUJRdDRNNEVtQUlRRU53aTVGV3FqdFFIVTJVSUdBWVNTWnZfX0N2emNMUEZmcGY2aS1TUkJPU192R1V2eHNZTjFXbWVFWjBUVXhzUXR3RGd3VVRWSkx6aVV4R2RfbzU5Vy1FRldCWmdfeUlEUk5nMzhBMS1wTTRBa0RfZVJ5WDN2QnF2ckRRR0ZtNTBBSFZmeWNXMktSQm45OQ?oc=5"
-                },
-                {
                   "data": "2024-02-01T08:00:00.000Z",
                   "titulo": "Será que agora o transporte coletivo da grande Goiânia vai melhorar?",
                   "fonte": "Jornal Opção",
@@ -16811,18 +16881,6 @@ export const mandateTree = {
                   "titulo": "CDTC aprova proposta e abrigos dos pontos de ônibus serão mantidos e implantados pela RedeMob",
                   "fonte": "Prefeitura de Aparecida de Goiânia",
                   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNTGd3NEY3VE5EUHZiZUVGSVI2VldHel9fbjhNazV3LWQxeHVhUEhudkFDbzZLei1PUlRxQ3RHVmdacHZ1MEFIVEt4NjQ3Smd1Q2VCOWVxSW9yN2FNaTVrMTVlQ1pPMDZ0TUF4M0R1WG4xaHJVajFmWUk1ZnM0VUxWdjUzQWp0UFZVT00zVGNtZlRySkRQUzRSOU5CZE40Q3RDNEo0RVIwcm9uQzVBTndfZlE1V3c0SDI0M2pkWmVGcklmVDYzNG4zcTFzMTFjMDktckIw?oc=5"
-                },
-                {
-                  "data": "2024-08-20T07:00:00.000Z",
-                  "titulo": "Ronaldo Caiado Entrega 60 Ônibus Modernos para o Sistema BRT na Região Metropolitana de Goiânia",
-                  "fonte": "Transmissão Política",
-                  "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNWngzbEdscTBlSlptX29na29yS19kZ2FvNVZ1eXNCZktjaXdJVkZwOEozb2I5MTJPSDdETjJ4RVJYUHlacVVjSFNzekVUQ0ZRUGkxY25hc08tZVc3ZjA1alJHWW5xYWFfUW9IR290c3pyVHNZcEhoMVFrLTdyMWgyQjAzSW1tSjRGcy00ZmE1SGRxSUlPQ1lEVEFoSHl2U01CT1Z5Y3ljOENHUF9sb25VOVhMejNGNXVMV0thd3BxejhicjA0VnZVSHpFTVl6TGtaWWo1eXZoQVJ2M2VNeTg1S0VDdjE?oc=5"
-                },
-                {
-                  "data": "2025-09-24T07:00:00.000Z",
-                  "titulo": "Caiado critica reajuste no transporte do Entorno do DF e cobra subsídio para tarifa",
-                  "fonte": "radiobandeirantesgoiania.com.br",
-                  "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQeG9LbG42My1HZVE2aVB2ZmI0cmFKdVZJU1hsRjJLQll3SkhjLW41azQtNE9LUlFkTEx5ZC1iVnhSdXhKM2Zub1NzQzhkM2pCaG1tN2czYndramVWcWx5cVpLVGRBbGZ6NGExbU51ZlNqUDVvQWFIUnJVdlJlRDR2TlBjLXNyWmtZc3I5WWVMZ1R6VERyMlNPYWVqMjhwQzhvcGx5NUZqeTlnOVZ1aGtBT1ExREp1YkNHTmRZQnVONHVQdw?oc=5"
                 }
               ]
             },
@@ -16892,10 +16950,10 @@ export const mandateTree = {
           ],
           "noticiasGerais": [
             {
-              "data": "2026-10-15T01:31:00.000Z",
-              "titulo": "Quaest mostra para onde vão os votos de Ronaldo Caiado no segundo turno",
-              "fonte": "Transmissão Política",
-              "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOcVJLUHZDU0FQZlRXRXB3ZHF4akNCdzRTV3BDVFJ4UXhmQkVEaXJkeG5zRzJnelRkM3lxSVZZRUR6ZkNudU9DV3JTb3ZOUkxDUkNsWnF6Um05dUZSLVJqM0ZyMEJiaFdDbC1kTi1KaHZEZE45QUlsVEdmYlRES0pza2t3aGhnUEptTE5TWktzbEY0VjhWalM4bUluc3A?oc=5"
+              "data": "2026-10-16T10:46:30.000Z",
+              "titulo": "Zé Délio mira o Governo de Goiás no futuro e aponta Caiado como nome para 2030",
+              "fonte": "Jornal Hora Extra",
+              "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOSnJLMzZiYmtOMU44dXI0U0NSQnpXc0FuNGFQRzl5MHN3Q3BFaFhubVUxeE9KclJVNHRxaEUxaGNNajVCYmpXSWx1bU93X1VackdldG1PcVdzOElLeG1GSjRSa3Eycm5MaS1zWDZTTDNBTVM5YlFPU2tjaC1pbG15X2EzZGYyNnVlMlEwdXFsWWdSNXQ5R1Buc3lLb1VDa1QxcTg3STJFLTNwbjdGWjgyS1lPVHhtT1pmLUh4azMxd2Y?oc=5"
             },
             {
               "data": "2026-10-06T07:00:00.000Z",
@@ -16929,9 +16987,9 @@ export const mandateTree = {
             },
             {
               "data": "2026-10-04T07:00:00.000Z",
-              "titulo": "Daniel Vilela é reeleito governador de Goiás no 1º turno",
-              "fonte": "JOTA Info",
-              "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVVE2YlEwclRhQ2otSGhuUHc3RmMteERpaFNMUURwTVFLcS1jYkdnWk51b2JQbWphZE83TkhmZnJ6VGZBd2Jmd0x4TWxqaXNYV19fMm5iYzJRUzktb0c4RzVPZGVicWhNMFFrbFFtek9UbkdzT3lXZ0pfYW9HOXVoNklCRTN5dm9HdU5LVERYZWZhWHdfMWJoT1VESXRzc2VyMnI4?oc=5"
+              "titulo": "Daniel Vilela vence disputa pelo governo de Goiás",
+              "fonte": "Congresso em Foco",
+              "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPd1FZNHY1a0FoWk1Ka2tkQ2NGbEYxdEdabWlfRGg5bGJBeXFWR25Cd2FHWXZZTHhGQkU0djBrRnphSTVGNlFpWHhTVFR3NjlIcUJ5V0lpZ2JvNUV2Q3NNYm9BWjdDMDRvazFIbUxCbXJhZkhfd0otLVJJb0VLdmIwOThYcEExR0UzU0FOdDgxcnlnRnpMb2ZEdEJLU05QZy1H?oc=5"
             },
             {
               "data": "2026-10-04T07:00:00.000Z",
@@ -16941,15 +16999,9 @@ export const mandateTree = {
             },
             {
               "data": "2026-10-04T07:00:00.000Z",
-              "titulo": "Daniel Vilela vence disputa pelo governo de Goiás",
-              "fonte": "Congresso em Foco",
-              "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPd1FZNHY1a0FoWk1Ka2tkQ2NGbEYxdEdabWlfRGg5bGJBeXFWR25Cd2FHWXZZTHhGQkU0djBrRnphSTVGNlFpWHhTVFR3NjlIcUJ5V0lpZ2JvNUV2Q3NNYm9BWjdDMDRvazFIbUxCbXJhZkhfd0otLVJJb0VLdmIwOThYcEExR0UzU0FOdDgxcnlnRnpMb2ZEdEJLU05QZy1H?oc=5"
-            },
-            {
-              "data": "2026-10-04T07:00:00.000Z",
-              "titulo": "Ronaldo Caiado vota em Goiás",
-              "fonte": "Poder360",
-              "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNUEZESUpiS095bFY1WVJ1U0ZlclBSWTJCZlQ5eEV1R3BVd2tNalc5TkVuN1pyNlRUM0dqQnB0a2I5elFCcVBWd1ZTU2NmdjFTWVEwel9XZC16VVZLU0N6MGFJM1hVdDNuS2ZQRTItdzN4anN4ckt0LUs1TFNQR092RnBXOA?oc=5"
+              "titulo": "Daniel Vilela é reeleito governador de Goiás no primeiro turno",
+              "fonte": "VEJA",
+              "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZEVsMDE4MWZUdjRGd0JPdlRuelVCX0lUWUFrNFZqRHVoenllNHMwS0k0QnVXNXFoV25YSTF4V2hHZ21kdXRnUEdHbGE3Wmc3UEVzR3FoQ05RVkhQWUJVT2dqZVFnQlFIaU5uRVdEUDJGNDBoU3NhdWlYQlJUMG9YOXZ4bVpvQlBtb3pzUURlTHZDNFh6R0FHR1dDT2lCN00?oc=5"
             },
             {
               "data": "2026-10-04T07:00:00.000Z",
@@ -16965,6 +17017,12 @@ export const mandateTree = {
             },
             {
               "data": "2026-10-04T07:00:00.000Z",
+              "titulo": "Daniel Vilela é reeleito governador de Goiás no 1º turno",
+              "fonte": "JOTA Info",
+              "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVVE2YlEwclRhQ2otSGhuUHc3RmMteERpaFNMUURwTVFLcS1jYkdnWk51b2JQbWphZE83TkhmZnJ6VGZBd2Jmd0x4TWxqaXNYV19fMm5iYzJRUzktb0c4RzVPZGVicWhNMFFrbFFtek9UbkdzT3lXZ0pfYW9HOXVoNklCRTN5dm9HdU5LVERYZWZhWHdfMWJoT1VESXRzc2VyMnI4?oc=5"
+            },
+            {
+              "data": "2026-10-04T07:00:00.000Z",
               "titulo": "Com passagens por Câmara, Senado e pelo governo de Goiás, Ronaldo Caiado tenta pela segunda vez chegar à Presidência",
               "fonte": "G1",
               "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOR2VZZUZHNmxPWVIwaEFfU0RwUElqQTl2bElJMUN0a0xtMVdkbFhoQzdjN095MnlMQ2JtSUlOMlJibzRpV1NnQkluQi10VzdTclNlVy1xNUNHOTJRb1JsR2lmUFhUNWNIelpTcFpybU5BbWVnbnRYWWFQRlJheGgzaDlzX25pMXJabVlTZlRUWnN2aERQV3BCVno2b0VmWG41cm1KUDF3d3g5ajNUblZzTVdHcVNKYUpqOTJ6d3pRQWJhSDFFS0dIVTRlemQ3aE5rTTRLSVdGUmNpVFcxSG5qMWVYUW0xNFR0T1dIUjN5aXY0Rl9nb1ZZT3ZEMzNGY2JmY1dYaWp4T2NaSXVPY3VkcdIBnwJBVV95cUxOa3p6SjU4dXlGM2t1SGRDcWp3cW1DamFmbjZlVWxtYUMwQXlZRmFidXUzeG93N19WbW0zWDJUb0FoQ1FrWVNxckJ1cXo4VF9LVDh4SXJWYndjaklsVktCVFdWM09YVFNvZXoyaVkyalNQVXVYUjZPd0t3d3QyMDhKWnhCd2J5SGZsQTM3cFdTZlVPZ3hxUktrU2h1cUZUUzJSQTJJblNGdFVmLWo2ZkFqdGp1a3JGQThpUjFKT2hZUFpjMXhFTW1yZEFfVWpHSGNfdjN1VGFUdnNPMXRjU2Z5VDc5aTZmVXdub3NnMVhBYlQ4Wk40cjBnY19lOWN4dm1weHRhR0NOQVFUSVRkbGRTWnFzWHNOdGdzOTBTeV9TZw?oc=5"
@@ -16977,9 +17035,9 @@ export const mandateTree = {
             },
             {
               "data": "2026-10-04T07:00:00.000Z",
-              "titulo": "Montado na sela de Caiado, Daniel Vilela é reeleito em Goiás",
-              "fonte": "CartaCapital",
-              "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOX3B5cmJUa09WNjR2NHU5eHBaOWdZLWlNZFdIY3dKNWt3V0hjNEpMdTdLWUh5cWhZOWcyek9BUHVmNk1scnAyY09vUWwxYnBhenJnbUFnbEJrSGVaeHdsSEtianJtRDB0c0tqdFlrWjk2UDluUk4wVmc4QXU5S0t5T1JXdEdvVm4tUnoxYVBvM3hSaFA5SkdoeWVEeTlkLVpzU1Z3?oc=5"
+              "titulo": "Ronaldo Caiado vota em Goiás",
+              "fonte": "Poder360",
+              "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNUEZESUpiS095bFY1WVJ1U0ZlclBSWTJCZlQ5eEV1R3BVd2tNalc5TkVuN1pyNlRUM0dqQnB0a2I5elFCcVBWd1ZTU2NmdjFTWVEwel9XZC16VVZLU0N6MGFJM1hVdDNuS2ZQRTItdzN4anN4ckt0LUs1TFNQR092RnBXOA?oc=5"
             },
             {
               "data": "2026-10-03T07:00:00.000Z",
@@ -16995,9 +17053,9 @@ export const mandateTree = {
             },
             {
               "data": "2026-09-29T07:00:00.000Z",
-              "titulo": "Ronaldo Caiado",
-              "fonte": "Brasil Escola",
-              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9TTnhQRXlzU29VZWpNZ0FKbjZwbXJrSTdxWHpCSWpmUGdwYkthblhPNzRRVVU1a3QtcHpmQWgwQi1LNXZYb3ktYUg2eDZwVGtGcVlaNzZLaktmYkIwX2dZLVlxeDkta2Y4bU9Qd9IBckFVX3lxTE14OEJJeWRUSVY5R0Zjc1ZKRjZVY3Azejk1OTBZMzc0TjRPQ2R4MERxbkpWdWtrT25CR2cxR0Rfb08yOE4wakVvd3RfRmM1Qnl2NmgxUk9iYUJxbmFIbEpWalRmY2lMNXQxRDRrT1NaMHdIUQ?oc=5"
+              "titulo": "Quem são todos os candidatos a governador de Goiás (GO) nas eleições 2026",
+              "fonte": "JOTA Info",
+              "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPOTZYemY1cHNJQjNxQzVSbm1iY0dCNWVidi1vY3FXQjdEX0xNWEpvdHVYS2N3XzQ1Q2M0clhEQ25YOEtHeDdZeFJGTFp4YWRGTkR1U2ozSk1kT0xfNnd3Mk9SdWJFUEF2Mm5WNEJWcWJON0pHc2FrZUtRbnY4Sml4d1pRQ2F5WUczazdsT3pMY1ZvWXpxTHRUQWZhYWo2WUVaM0Y0Yl9VUEZyY1p4UGxwOWd5VG8?oc=5"
             },
             {
               "data": "2026-09-29T07:00:00.000Z",
@@ -17006,16 +17064,16 @@ export const mandateTree = {
               "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPRmVQX1J0RUNJbjM2MDdxOTlHdFgwSGVEYWxPZTA3SUlyVUlsb01oNXhwMmhiV1lzZFdwbnI0VnpiX2lLQjl0SUJyX1dUUEZqcW4tbV83RUpfTzBqY3c0Z21WZEZiMncyNHd5ZGpBbWxiZFB3RzZhcTB6eng2WEtFT19zMWdnTTVkSTZKRWVFQ0FmbWM0aU9xQ1N2V2hSWkJRNm1FbXdZUmU3X3Q1UVV3MFg1R1dQY0t40gG4AUFVX3lxTE9KbmNHVGREX25aakstRjU1RnhjakhnbjdmaGJER0tzakF1eU5ta21tNUt6SlUzMURRbXNvbWQ0dUpYRmZUV1YxdGs0MmllY2w4Q2ktTUhvLXRlTWtjZWxGVzNtenBWaFZEdzRfN0RMWm5PUDNabTd0SkwzeHNpUDR6eE81Q2tCM21iN2hMX0gtVXppWVFXRjVTZGdSOV9MU05ZeFJDXy1nT2RYWlFQNEVyOFlMdjQ3UHk?oc=5"
             },
             {
+              "data": "2026-09-29T07:00:00.000Z",
+              "titulo": "Ronaldo Caiado, candidato à Presidência pelo PSD, faz campanha em Goiás",
+              "fonte": "G1",
+              "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPMmZNeVZJZFIyWEhmeWFzZ3FQNnpYUTFGZmJYQU9FcEFQS2VtTk9BOWRueWlmc0M1eW5TZmtPWkJSRkRHQ2RMUnlHeG1KZVh1RlV3RmhYTzlsOUU2WWFjeW9NS1ktX3JrZk9hLXpZTVNwd0RqN3ZhVFpZX3ZZRzVKRUxZaE85THVWRVphYXRUcUpQakFraUp3bFNlcFZOb2dGeFpqSkpWNnFHck13eEVXTlNIdW04Mlh4bzlmSk5nSWFDNFlQMDQzbF9fWdIB2gFBVV95cUxNLW14SXRpSGVEOU5HZTZrX2xON0U0dFJKSVhTWC14V1NvYkhMVmR6czYtOUFQdm44UFdsQXlLZ1ZINmxCcmUxYklFaXJyTEdHN2tVVFFONWhscWZFWG1KS3hFMUJLRm96S0dRN2dSWjJMREZ2QTF6c1h3ejh2LWdrdE9kNDNqSlVTanEwcTduQmVONm55Rkg5eXJERGhfWlY4Y2FhdmFoalBpVlA3N3l4bmYzaXRqa1RoLVM0MUd0RzFSanJaYXNYZ2VSRUFNOVhFcVdJeEwwMGZNQQ?oc=5"
+            },
+            {
               "data": "2026-09-24T07:00:00.000Z",
               "titulo": "Caiado diz que resultados de Goiás podem ser levados ao Brasil",
               "fonte": "G1",
               "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQYUFBNUxwRmsweHdOQVdPVEtLcE5Ec1lzenhKdTQ0TVFNckVyRGNVVkNOYjBad3ViOGd4LUc5S1NRVkcxMl8zODBkZy1NVkZHTVpFbmJ0WHp1Y0hWU1lGalQ1Zzh0SXhFQkdjNlloOHZ5MnZjYVV4TlJXdkxmT1BPSC1FeVhoRnRHanZBNDhnSWlqdlZYVjN3NnBfSmdTTnllNUF3eVU3cHoyQ0VQem1JUTQ0RTZpSFFHUy1kWmdGOUs3ck52dDByaTQ0SdIB2gFBVV95cUxQRmxmQTlOREwwMWdyeGtrTEZ1TkxOMDNtRGtZSHRrNmo3dE5YN0JlSkZGRGNIX0Zmek9fOGZ5N3I3cVExMDFRRmJKR0I4OHVFNnNSbkJJT19vUHdNQklqOUJPNC1CWGdHbjJ0cU43bUVwR2Y1SHh5RmZ2SVpMWTVPWTVfeHhTVHFEMm13SGp4UlpGTUFobFR1RTBURVZmNmRYc0xpSWlSVWprM0tJZmEwODd3aHZsa2VBRktyWWNCTzRpNmV6YTZxRFNCVHEtLVF4Z0FmM3NEdGtvZw?oc=5"
-            },
-            {
-              "data": "2026-09-22T19:34:52.000Z",
-              "titulo": "Caiado propõe ampliar escolas cívico-militares e de tempo integral no Brasil",
-              "fonte": "Repórter Ceará",
-              "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOdUc3MWdlMjlmd0JVSDh0dGR1RTBlWVQ5bkRQeGI5X3dTYkRINUdKWUVjWFEtR19UMUxrQTJvZDRCTFhRaTRQcXN3MjdJTGdfNjV4alp5cU9JbTNoRjlFYmZoX0lreFdHdUlZNkl0LWpvUEp4OFVNc1RUeVF5NzlHYWtwdld1Zjk4SjNwTmNzZmx3bm9FaUdNS3Qtdy0tRWItVzFseDU1RDJEYTFRV0lhczlPX29DZUVD0gG4AUFVX3lxTE51RzcxZ2UyOWZ3QlVIOHR0ZHVFMGVZVDluRFB4Yjlfd1NiREg1R0pZRWNYUS1HX1QxTGtBMm9kNEJMWFFpNFBxc3cyN0lMZ182NXhqWnlxT0ltM2hGOUViZmhfSWt4V0d1SVk2SXQtam9QSng4VU1zVFR5UXk3OUdha3B2V3VmOThKM3BOY3NmbHdub0VpR01LdC13LS1FYi1XMWx4NTVEMkRhMVFXSWFzOU9fb0NlRUM?oc=5"
             },
             {
               "data": "2026-09-22T07:00:00.000Z",
@@ -17031,12 +17089,6 @@ export const mandateTree = {
             },
             {
               "data": "2026-09-21T07:00:00.000Z",
-              "titulo": "Pais buscam escolas cívico-militares porque ali existe disciplina, diz representante de Caiado na Educação",
-              "fonte": "Folha de S.Paulo",
-              "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNd1RobVE3WlBpVkdSMFlleHlWc29LN2EyZ2F0REFvUnpIWk5kTnhuX2tVM1BnTFhaYk8xZnZvb19OVXhVdk5FNHBTREJNRXpWUk1OUXdaTHdJdWlXbWNTbThIWWk0TEdzdmVDRS1ISVk1Z1RGajE5eE5MNVFNRVpQT0lpVFlWMHlGeFoyNVBhNGdqQ284S2M3Z3p4QzRqOWlwTjFITk9VSkVEcXVDNVROX1RCWnlISE9pNU5fZVZCMGx6OXJTVDIyY3pacFlkU2ZENWh0MDBGQk9VLU9TMG95SlJNOFpadlhlTXRTYUdrWQ?oc=5"
-            },
-            {
-              "data": "2026-09-21T07:00:00.000Z",
               "titulo": "De defesa do 'modelo El Salvador' à desmilitarização da polícia: veja as propostas dos candidatos a presidente para segurança pública",
               "fonte": "Terra",
               "url": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxOWl9weUY1VW9oMWl1eEJPSmVSbFBYX2NPdHlHaGhFOFZtNENhb21QS2gtSkxXUG5mMmptZU44d0tiUnlCZlNCZjRjaURFcTBCQXBKUVltaGtYbU5PblNUdEV6aG90SS1WZnNWdThzeXNZeGl1QVh0T2l0TlFSU2EtYVR1X1EtNzN4blZwMHlQaE9JX25BUkhaTlgydWdDZktCcldnN05zWms2M3dXaUtzOTEzMXlENGlUWHpMWFVDNU9yT1dLb1lBRVhpLWEtcXVkdUZQR29wczFPVGJoYUxQVHZjOGROMWttbG5YSXBERkNzTlNLWVg1X2FoWURtVzI5czNMWE9Kazc5aVBCMkstN0g2QVpubEc4VkRTaXpYM2ZPZmtES0xCZXhJQzRrcHZCYmE1cE0xbnV3bDRVNWNfRQ?oc=5"
@@ -17046,12 +17098,6 @@ export const mandateTree = {
               "titulo": "Caiado garante presença em Goiás e reforça apoio à candidatura de Daniel Vilela",
               "fonte": "Poder Goiás",
               "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNUmJUVHdSV181Z1R6V0ZISG9rTnFZQXZrSDdJVWVIeUxMVUFOQXpWZjk4Zm11UXRuX0JYaWFvQ0hUUXhOQW9HSndrblZMcVNLcE4xY29vR3RmTVlqSWY4Y2NuOUw5NVgzdExVMU1jTUUwdkVTdnZBN280NU1oQ0liLUFac2J2S0xEc3Q0Q2VZVnhRNmlSTUdzNHMwRnZKR1hlZ0E3V2Y3TEdDalBWSzEtLUNEMEtUN3llbER5ZFhUdmc?oc=5"
-            },
-            {
-              "data": "2026-08-30T07:00:00.000Z",
-              "titulo": "O que os candidatos prometem para a educação",
-              "fonte": "Nexo Jornal",
-              "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPQVhJLUhXZVRmWjNKUERsaEhtejFUNmlJdmxqTXNPVVdZSmltdS0weXhrYWJQX2NPT0w0SGo3amNlQzg5Y2sxc0kwS3NyLU54LVNWVTJvOUpfUWpaemlwTUw3Yi1hUmRxUWF0bnR4RlBXcFJxcVdWbGtlR3VYRG5TWlJMQ3ZTUmV0V2t4cFRuRUR3RzVKcHU0Rm13?oc=5"
             },
             {
               "data": "2026-08-28T07:00:00.000Z",
@@ -17090,6 +17136,12 @@ export const mandateTree = {
               "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQbUlmaEFpZkR1aXdsTDhBYUROWGZLeTVsb3RaV2huSGI1VXAteE9FUjFJa1pqclNsWnZ4OVBUUmx0LXBrZXFmRWphOVNQbS1ZaW5tMTQwTGpqejdOeFZiSDV1QUNqRDFpSl9TdG1GOGxDZzQ1MFBXc29iZE82TjNpMXlKZDdHQVBtS3VBSElJOTRKSGNqYndZU0xLSmpaT19lVkdRd1JxQTF6aVBQMUluMUIxZFIwTVJSZGFnNVE0NXpSaFXSAdIBQVVfeXFMTlVOX1VtODcxSXBkSUVMNEcyVVlaNjJWakltZG11bDk4cTVrcl81bHEtcmlSUFNuamVsMlFVaXl4b3Bwamo5X2tDN3JtQUpGY2dUODkwc3FBcEF3cEJGQjJTdERhX05Pb29aa1hjQjVqbnhnNzhIV19LdkItWnN5VDE5Ql9BcThJanE3T3NiR203ODBnZHM1Nmd0ZDU0TVNsc29DandjLUhJLTZnaDIxcEpaaTdJSzNYSHVnTHVGNS1BMGtfMk5xekc3eUpzOHpLaUtB?oc=5"
             },
             {
+              "data": "2026-07-16T07:00:00.000Z",
+              "titulo": "Sistema FAEP apresenta demandas do agro ao pré-candidato à presidência Ronaldo Caiado",
+              "fonte": "Minuto Rural",
+              "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQOWgzNld6OVF5X29MWHJiZkpKb3lXb3NuUjFGbk9Uc05JUEhQNTRTbVhyQ0ZXVk44bFZtcGNhaEZwbGpGdEtONmt5VWYwYTFEYllyNVZfU3FnbXZpY2J5WWlBOXFNeUxtUTZwUE12N1JqSVNwSWxlZ01wNjRyMmd2eGhGV0twN3d4aGl0ZExqaGdYRjdIb2JONEkyeEVfOXFJdzBOdjFWQUdkY2w0MlQ0OUVLQzN3bjlhUUNRUlIxWHZXbGRNWkZoVzl3?oc=5"
+            },
+            {
               "data": "2026-06-10T07:00:00.000Z",
               "titulo": "Daniel Vilela diz que Cora superou disputas políticas e pede parceria com União",
               "fonte": "Tribuna do Planalto",
@@ -17100,12 +17152,6 @@ export const mandateTree = {
               "titulo": "O que dizem líderes da segurança sobre a continuidade adotada por Daniel Vilela em Goiás",
               "fonte": "Jornal Opção",
               "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQOEt3Q0ZGbnBtY3hmOUN5ZUJlemxGTFdhVlhLbmpkelpVTEJqLXVuVXJVUkZMWkV2Y1kwSjNva0NMeENzTzV0eUZUUnl0Z0k2V1FLSGgwaWtpcmowTXdDQWtNYnMyd2hBcTBRQ0QxNm5TcXhpZnYxZEdDTTBLZ3ZQR1lGTXFodkVjMDU2dmpVc3FMM2thSjJHOTVOSjZ2b2pWSG5rYkF5MU15NkhSSFEzMHhYNjIxUm93M2E3ZEMxX0oxV0dzNHpIbXVabjVUNHlBYXRSZGNUdnlnZ01IZEdYRQ?oc=5"
-            },
-            {
-              "data": "2026-03-30T21:22:43.000Z",
-              "titulo": "Redução em indicadores criminais faz de Goiás referência em segurança para o país",
-              "fonte": "Portal Caldas",
-              "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPNUk1elMyeUxBdUF2cmN0RklDNHlJeVZwbElqNXhMbFhEZEZid0cteXJRaWJDV0trRnZ1MWVNb3NDX0R6TS0teklVVVRLT29tNUctRVBnN0M4NFJIdHlUOG5PUVdJTFVxT2hlTUZnWTd1Mng0Mmd0eERSczVhazVENGlpWC1mU2xyeTlBY2h4Nm45WUhzVnhJUFRTWkRtaElCUjFuT1lLMjNfbFZteGZIR3NfWTAyeUZJTEFTaUdn?oc=5"
             },
             {
               "data": "2026-01-15T08:00:00.000Z",
@@ -17154,6 +17200,12 @@ export const mandateTree = {
               "titulo": "Plano de governo: Ronaldo Caiado (UB)",
               "fonte": "G1",
               "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOOFRCWlpRanhNdHdaTWRwMThUWDZYRlR5czkwNHllMGFRVFViQUZnblZ2S1VtNjZ6V0lwdWZzSmMtd1dtQnByQzdHbTY4TUJGNF81YkNDTHlOd2tfdTZSQ09OamxzOVFIcTFZSGdjR3F6ODM1dGtnTGZRZEZhLXZQX1lVUGNpaDlNTkVjdGNmSHBoZ3d1TEdsSGllSWVtbUFqdjJIWWlB0gG0AUFVX3lxTE9OSWxmYkhZTDliUkp6SUFnelFvNFV4enc2NWh2T0JOSXJ4U2ZWUkNqbVYtc3RiR3h3ZWJSOUJFdkVabmdRNGFyRXVNUHFxWnktUHY3c3pSbUZOQi0wX3ZLaEZLLVpTVzcxUTM2aTl0bmFWYk9ERUZ3bmFHWUFjRjNPQk8tWGctNWRlc3lXWmt2VWVuWlI3ZXQzZ0JXQ3liSzFBSkZSUmU3X1VkTnBYczFBNEdsaQ?oc=5"
+            },
+            {
+              "data": "2021-11-09T08:00:00.000Z",
+              "titulo": "Evento reúne gestores educacionais de toda a rede estadual em Goiânia",
+              "fonte": "Consed",
+              "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOeXRnMkt3b1Y4NVAxMFVyQmJJZUw0dkc5SmdteHk4VmtGUnJvUjN6cnVrZHlzaVJ4Vm1pc0hNYTFJWXBkX1dqZEp4cWNEdmwzd1JqLTRTRDJLYmhIc2VwcngxSDBhZHA3bnJtNGQzYUROQ0lNRk50d2xWdDZPMEtjZUE4ZnpONElfZjVqTDNLanFzTkZjWTNFSngyMnhDZWNT?oc=5"
             }
           ],
           "filhos": []
@@ -17310,12 +17362,6 @@ export const mandateTree = {
                   "titulo": "Riedel cria grupo de trabalho para levantar ruas sem asfalto em todo Estado",
                   "fonte": "Campo Grande News",
                   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQb2xMSXJET0ZPUU5sWl8teklLaWxXaUYxR2djb2huel9DVHV0XzRCU0dlTnhyVXlGUzdIaEljWmJnYWRFMlhvbTlNUG5KV2pCTGNTUFNJZEpPUVhDbW5JOU5DMzhmRlpwM2VpdGRseUVGcDcwLVlYYmg5WE1QV1doY3BBWXdWZFZBSXMtblFBQnd4aHdwMnJpenZTWjBKMXozOHJSR3RicTdFSGJBbXBpSmFCZmtOVXZfbkN2bldXclE3S1liM1VR0gHHAUFVX3lxTFB1Y1V2ODRIQTJUeUc4aGFscVVqMUdPSGVXbERXRHUwUFVNcUVqeFNuR1VXTHQ0dGVqMnNNa3diUGZOZW9aS29rdGpwdUQ2Xy1jVllpdXRqeDNvcEZrMXhQMlNMbGFKdTQ5YWt5MndLdlQ0c1JTTW9jMHZMRjM0RUhtQWt6cGdCWGlZSEpnZExNbF9iWUszYXRCYlR1Z2wzeE1VZFdyY0UtSHRYTy1zRGF5MUNkWkdrN2VtaGlUaFdEMU1OR1E5VUk?oc=5"
-                },
-                {
-                  "data": "2026-06-20T07:00:00.000Z",
-                  "titulo": "Riedel lança obras de infraestrutura, amplia saneamento e entrega equipamento para saúde em Naviraí",
-                  "fonte": "Idest",
-                  "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPVkx0NDlBSExBclN0aFY3ZzVIRm03eTlvV3hremd4Rm5yUjZpenptSzItNWVYYWk1SHoxSjdGVktYYzFHVXRFeGU2ZDVVMGFEdXcwd09lN0NpMlBFbGk2WWJ5NWptR2JsanRsN2hKZVJ6LUQzMWt1TWdaOElFRGRzV1NhTU5XdFpVR09ZZGI3OFVYWFhpNHhUN3Q3bkQxMjRucDRWbTM1VUttT3BUaVl6RHphenFJdVZud3NZZWo2V1o3TXp5LUE?oc=5"
                 },
                 {
                   "data": "2021-12-20T08:00:00.000Z",
@@ -17494,12 +17540,6 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOUXhfN3M2dkk4THdXVlFSQXVDTHdNTVI2c1B4NUFDZUtHLWkzYW1kd2JfN25icHZkWWxxVkRsUkE0bHIxeU5IbEg0bk1iRVhHUEZxbWZnREJDZk5DNFFMOFdCZG10NlVVUlVsY3owdXl3T21YY2VzV0F2RlRxc2hLaTNpQng5RU0yNE1NWVVsN052SjR0ODlDSllpZE5nMG1hRGJlQ2l4UC1BZDZPTE5KV3VnSkk3YjFDUTdn?oc=5"
                 },
                 {
-                  "data": "2023-05-25T07:00:00.000Z",
-                  "titulo": "Com foco na geração de empregos e qualificação, Voucher Transportador deve iniciar inscrições em julho",
-                  "fonte": "funtrab ms",
-                  "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPUTgyZU96ckhZdkJ1VWJFcmtQcTI5aGt4dTZGLUtmYWFhSnd3YTBscTIxVV9mNVFkYm9kaE13VkZrSTBhX1hGbjhLNVFYcXJ3cXRYRGNodmJUaUR0Q051QmptU3FjVUc1b3h0R0Q1aXp0NTVHS2xNMkxVMk43X204M3VyLUFHTDNqTDFrd1ZUTUhqMTdVV0lpUFBobUtTbDhQRExlWFhhNERpaElJd0J3SHRWVkp3alJJN3lEMHlKWElOWTBLZ3NDWDdVMFQ?oc=5"
-                },
-                {
                   "data": "2023-08-11T07:00:00.000Z",
                   "titulo": "Semadesc firma convênio com Senat para início do curso de qualificação do ‘Voucher Transportador’",
                   "fonte": "Semadesc-MS",
@@ -17534,16 +17574,22 @@ export const mandateTree = {
           ],
           "noticiasGerais": [
             {
-              "data": "2026-10-15T15:08:00.000Z",
-              "titulo": "Eduardo Riedel articula secretariado para 2027 e ex-secretários voltam ao radar",
-              "fonte": "Capital News",
-              "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNMkI1d1hGVjQzOWt1X01UOEV5a25VS2RINDJKMWVtb2dld2dIc2YzVEVrdkp6cjhLeTZ4UHdaNHpvREZsSTBNanFJeVA3WHJsVXpEVnA5VVhNS1FWN2JOV0ZxQXJiYnFub0xmSEh2MkNfbnNMQU5CYktwem9NeGpkaVgxejVkSjJySHNTNlhZTDlDWkpma0ZLMjYtenAtS2JCRzdjTXhjdGVVcWh2cWtpZVlvUVZlNlQ5cVI2QzNsWkVoc0FYM2Q1RlMxcGNobzA5eW9NaHB5TEZiVmQ0?oc=5"
+              "data": "2026-10-17T02:35:37.000Z",
+              "titulo": "Mato Grosso do Sul: um jogo de cartas marcadas",
+              "fonte": "Nexo Jornal",
+              "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOV2gtMGhkRUxzNnR0bklvMzhGUVZvWHdFbzJNb24weHM5ellLc2hLQW9ycGk4aTVEdFdPSzRSTW1YRDZlcUpVSDZ4dEJPVERTLVVQMGk5SU5DdDhtQzVIdkowY2xnZkJsYV9rdmVUaDNCbzJIVW0yeEtiMEkxMlM2U3lqY0k5UQ?oc=5"
             },
             {
-              "data": "2026-10-15T13:44:00.000Z",
-              "titulo": "Ex-secretária de Cidadania e candidata deve se reunir com Riedel após o 2º turno",
+              "data": "2026-10-16T16:55:00.000Z",
+              "titulo": "Eduardo Riedel se reúne com secretários para discutir obras e planejamento",
+              "fonte": "Capital News",
+              "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNQUlESDRmZnA3RlhHcDlVUjBxb2tmY01vYzZwMkRFY2tDQU9sa3AxTFN5ME80RnQzX0tmTXhlTXRfT2JLc1N2ZXNab1JGcXEtc0Jqa1VPUmU5TGN5LXRNTG9wUVJLNTJTRlE0QzRtNy11dy1hQ0ZXazFRSl9ZTHRIOGJtM0NSU3JSeDhuMHd5QWhBVzdHSTh3TGVrQ1k2OHRpcDBaWkdubFc4U3M4eHB2U29hN0w3cllXSk9mcWYwZlA1YUdCUDBrNUJSOVNiM2dYNXp6bFl3?oc=5"
+            },
+            {
+              "data": "2026-10-16T14:03:00.000Z",
+              "titulo": "Riedel se reúne com secretários na Seilog-MS",
               "fonte": "Midiamax",
-              "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOblFhZ3JsNkdndmlhUDBrR3lmOFFMN0dNeU53R3lSRHdWOGItTmJzM0dET3NrejlfN2xyMzJ0YVRNbzVueHV1ZHVIZll1aV84b3Znd1VleDhpMmdpWmNWQ09uUzEzdFdla3dwSkxkUHBnMFRZV0pKUUNFbUdHZFI3QzYtbkVheW9xalFNbUVTWTlvV0hUSk82czNwd3VJaHFLdHctbmw4amI?oc=5"
+              "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBPV0RRSDZXU3d3Uk5nV0xGemVhV1JlQk41bzctUG1Zel9aSDg1MmZTWXdlWC1RSm5MYndHZmozS05SNEp0U0NrWVNvamhSRmp4cDdWeFVIME1JZHJ2YlZscGVoX1NpWmdzUGQyR1BHVUU4bE14bjlKdE96c1ZqQQ?oc=5"
             },
             {
               "data": "2026-10-13T23:05:46.000Z",
@@ -17556,12 +17602,6 @@ export const mandateTree = {
               "titulo": "Riedel bate recorde de 40 anos e tem maior percentual de votos para governador na história de MS",
               "fonte": "G1",
               "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQS1VwT2FhdC1YLUQtcGlXTGdPbWhsTVRDVmhGN1owNXdHcTcwRmtvTGVYaTBJaGp6YkNrV0pVb25mb2piOHhWY0JTRlQxVlBqTkpkbklncUpLY3VONWYtQVlOZ1NDVllmM201SnB0RFdKVjBWZ0xhT2E0TnhrM1FIVUlKZDBLWG1MaGVxckJ1emRZT3F1RlJnRVdfRnZDaWVuZzZCcTJZWlNUM0NPWHFzZDZ2dGNRaTJKdGF2My01U1R0VXpMWnJwWkYyX0VWUXNQSVE2aXFkQkMzTFFCMzUzV0ZZWVJSaC1HR1FZX2pZZFc3Q2hzOXlN0gGGAkFVX3lxTE03SXFNQ0RiMGdUejJpalZydFdna0h1bGNBMzk4YWVDaXpIMlE4dElkZVU5SWF6aWFETDV4SS1XeExTNm9maVNkNUs4RmtFS2JXbmZwaFVhS2xKLWxwZVFjNTMxMS12V19KVE5Rb0JhaG5icnFaWlJHcVJ3SElsV0ZSZ2NRQllOeGNYdGIzaTRqaXNLNzhzTHg2YWNZdnRWaDFqRTVzYVhiMFRwSThRQm5IUXBiSG5BdjYtRnMxT1U4SkVXTDk2S0NkOEFJTUxBT1Y5Y3liRlpQZ2MwNVY0a0V5d0k3dTJwM1hZRkJKX2c0YjdxcWxReGxzY3RCVkktVWlESnAzMGc?oc=5"
-            },
-            {
-              "data": "2026-10-04T21:37:31.000Z",
-              "titulo": "Resultado no MS - Eduardo Riedel é reeleito governador de Mato Grosso do Sul em primeiro turno",
-              "fonte": "JOTA Info",
-              "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQVEV1czliQ0U2a2pycjFGNHdLUGhjUGFQMklCQlZ4ODBaVzRfZ2Q4N3ViSGQ2Wk9oNU1MbUdEZzJmTGFNbllkWG9VVlgxajA5czcxLUJsUjI4cWZvdzFsVldIYUlxaDRqYlR1YjRDZ2ZUeHN4X3JYV1M1aEdkWmpZREJuVl9oY0lMZnlidVE2bWZjZnVQejFqR1pyWHg1cFNPMkxGZXhIVk9iUVNZQ0pHajlPWXdNNFBrQTNTLUJ3?oc=5"
             },
             {
               "data": "2026-10-04T07:00:00.000Z",
@@ -17577,21 +17617,27 @@ export const mandateTree = {
             },
             {
               "data": "2026-10-04T07:00:00.000Z",
+              "titulo": "Resultado no MS - Eduardo Riedel é reeleito governador de Mato Grosso do Sul em primeiro turno",
+              "fonte": "JOTA Info",
+              "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQVEV1czliQ0U2a2pycjFGNHdLUGhjUGFQMklCQlZ4ODBaVzRfZ2Q4N3ViSGQ2Wk9oNU1MbUdEZzJmTGFNbllkWG9VVlgxajA5czcxLUJsUjI4cWZvdzFsVldIYUlxaDRqYlR1YjRDZ2ZUeHN4X3JYV1M1aEdkWmpZREJuVl9oY0lMZnlidVE2bWZjZnVQejFqR1pyWHg1cFNPMkxGZXhIVk9iUVNZQ0pHajlPWXdNNFBrQTNTLUJ3?oc=5"
+            },
+            {
+              "data": "2026-10-04T07:00:00.000Z",
               "titulo": "Eduardo Riedel (PP) é reeleito governador de Mato Grosso do Sul",
               "fonte": "Folha de S.Paulo",
               "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQOGhxTUVOLW5PMTB6X0FNWlZBTzZrZXFHVnhpajBRNmxTV2l2WTZweW1nX3BzSTljRWZSUFVUVEI3ckI5OE5xOXpJWHhiTTlraHZRTHdfTHEzN0hyX2dQZWJuOEtNVVRPbU5oN3pBelJxRkdGLU1VWkh2X2FSd1EzQlFYeWZrTE9IMXU5NjV3WTdwVTZXTnlSeW8tTHNReks3cVdYMU9vZVllOVRHWnNJa0J4dFJ5Yi13NjA5LTRZNGpZck9jU3FORg?oc=5"
             },
             {
               "data": "2026-10-04T07:00:00.000Z",
-              "titulo": "Eduardo Riedel vence eleição para governador de Mato Grosso do Sul",
-              "fonte": "Congresso em Foco",
-              "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxONXk3YldxeTZSdUJUZzdHeHF6akNyUWxOaGpwaVpTblZyUE81a1pDcnRiMzhyRFltUjRtN1l4Y1Q4bGpmbVF6ZjNiZTZpUmRDRHZpWjBLWHJ1TWhGeFhPUVctbl9RRnhTakIzT0RCMlc0dmRlMXY3U3E4QUdlVU5WRUtFLWdvbjN6VDdRS0lBMjA5Z01aYlhLZ2Z6TG1fRzAyYUVacjBMYkxaamcwUTdqNXpNSVdLM3M?oc=5"
-            },
-            {
-              "data": "2026-10-04T07:00:00.000Z",
               "titulo": "Eduardo Riedel é reeleito governador de MS no primeiro turno",
               "fonte": "Agência Brasil",
               "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQS2lXTFFzNUJYbndXS1I1cU1PZ2FwalB6cVNvdlNjd0o2X21VWGg0LVA4MUhkLW03ZjRJOUJobkJ6T3hZRzRiU3FsR3NuUFF0TnZQcFk0bVZTT1RNM1JEWlJOMVhROXdZdmxqWERpT19BWGZNM0VmYWs0b2oyc2duRDZrYnpEZzR3d0pzZl9LQTNQWldHcTFqbWlKUzNqcVlqZGJvRUh6cEY4dHE1MEVGekx2T2tpMlFZYmc?oc=5"
+            },
+            {
+              "data": "2026-10-04T07:00:00.000Z",
+              "titulo": "Eduardo Riedel vence eleição para governador de Mato Grosso do Sul",
+              "fonte": "Congresso em Foco",
+              "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxONXk3YldxeTZSdUJUZzdHeHF6akNyUWxOaGpwaVpTblZyUE81a1pDcnRiMzhyRFltUjRtN1l4Y1Q4bGpmbVF6ZjNiZTZpUmRDRHZpWjBLWHJ1TWhGeFhPUVctbl9RRnhTakIzT0RCMlc0dmRlMXY3U3E4QUdlVU5WRUtFLWdvbjN6VDdRS0lBMjA5Z01aYlhLZ2Z6TG1fRzAyYUVacjBMYkxaamcwUTdqNXpNSVdLM3M?oc=5"
             },
             {
               "data": "2026-10-04T07:00:00.000Z",
@@ -17613,21 +17659,15 @@ export const mandateTree = {
             },
             {
               "data": "2026-10-04T07:00:00.000Z",
-              "titulo": "Eduardo Riedel (PP) é reeleito para o governo do Mato Grosso do Sul",
-              "fonte": "Agência Brasil",
-              "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQeF9FS2dXbmc5M25WSTh1dll2NUx5SGEzTnJtQUpjZEJBVXpHM0d1UEtlUmlmeGpPNTdURklveVQ0MGZYLUJMNUdfaEdSSWl0MkJMZV9rZDRVS2IzMjlKSUV1eGxDc3NHOWRTM3JtMzhGZkJPTlR3cGUtQktLQ000Y3Flbk94ZWNNMk96dzNpQ1VOQXhPQm1xX3Y1eTl5Mk1pZXp3eFh4N0FKV05Na0huN0pYUk9RV3BNYkZvMWZtNkJuMEJxUDJ0bUJIS3ZuNG9HVmlNMFgyUQ?oc=5"
-            },
-            {
-              "data": "2026-10-04T07:00:00.000Z",
               "titulo": "Eduardo Riedel (PP) é reeleito governador de Mato Grosso do Sul",
               "fonte": "G1",
               "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQWnVxbDBHQVI3Y1NUVUlpNF9lZ2dFYmJON3RnS0htT05kWEgyT2FEM0JFUnpWbE1SbGRPRVZLWmRneFhqSnVKMktCNkNDakFxUklJbnBwTzN1YnZpRXVZbDE3dEh5ZENvN3M4R2VaVEFGbV9OVmRxbHBQVVVWTTdoZzJ6TC1zbzJkTDFNSl9lY1FzZmY1eHEwRnhZZHd2T3VhRjlidmpteXNDLTFlX1JKNURLLUNVcF9ZUjRLVFFCMXMyYTVyZ3kzUHFWTWpFY1lGRHJ3UkdCd1ppbUnSAeoBQVVfeXFMUFVIdFhENmFzQlhmWXdNd2llbU04NGpXM1h0anlaMUtvWC1oWGI1dGhJWEE3ZmZEOXhqb0tobnJMUDJ1OXotdzVDZ1NWSmJwVk1nRl9nc2VCRHpILU1KZ3VtQVFub3RyamRUUzF5cGxLRzZnbzVpMkQxLWhhZjNqQnRfdFVNYndKSGpYTFh0WlJxTFNOa3RaUktmUGVnWFA1dUp1Zk1aSWw5VkRGaU91MUkyaUJ0M1J0TEVKMVM2Y3llV1FWUm5GNnE5a2ludERIQUJMbXRRWlpTZU5MbGZHR2h1MkxmVFpNTm13?oc=5"
             },
             {
               "data": "2026-10-04T07:00:00.000Z",
-              "titulo": "Em MS, Eduardo Riedel está matematicamente reeleito para o governo",
-              "fonte": "Valor Econômico",
-              "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPZWE0TjB4R2VxbVZYT3JISDR3ZWo2cWNLSjI2V1dhYVBEQ3NkRnV3OHg1cWhfdTVqVzV1bmw2U1lWdDhESm80RFg2SlVyYk55aVhfRHl6YmQ1YVp4ZTVIZEx4cVVIQWtQMUc0V3Jya3ZldkFnckNBU1hKVXQ0ZjU3bDUwUTZoSnNFZ3QxOW1vVzYyX2FCaEpGT0ZORkRUdlJxZEl1U2xIWDIwcHdhbnhkakVfOXNRZjR5dXRYcTdNOFUtVEpBVThscEF1VU94VEpRamtERGxobTZENy04R0Rkbk1UQUwtVjFoeFVWR3JqWkV3MHlYeC1JR3lfLVdqamdGOGlXeURQYThWRHNXRE14StIBnwJBVV95cUxNLVprMmZ1ZlE2RDZqLTBQT1VCTnM2NFdrQUFkSnRBNHVHSjRDcnBvOXpib3A1UjI1V3hfUzRTTXo3RmxVWDBVWlV0REVENHRTLWtodlo3NGZMQUtyUHlob1I0WTFUdG1LaHZnOFZTNUxrT3ExMlZPNXlZdGZSVW1sd0JOWHczNG9sTU9IZVdpNjBTYlNSS0xXMWRtWjNkVU5ZQkN0Ny14TTBoRjBjanpZRE9QMl9GdlFBell3WjRabVVZSGQydU03QWdJRlRkdnJUR3BqZGdjUUtfZDFaNDdCbDRBbEdLOVZSRkF6S1V4ekJjcHRfNzdmTTkydGVNNFNTcF9qZ2MtcF95N25Wd3VKU0dwMWU1VGQ2TzBmdU9xMA?oc=5"
+              "titulo": "Eduardo Riedel (PP) é reeleito para o governo do Mato Grosso do Sul",
+              "fonte": "Agência Brasil",
+              "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQeF9FS2dXbmc5M25WSTh1dll2NUx5SGEzTnJtQUpjZEJBVXpHM0d1UEtlUmlmeGpPNTdURklveVQ0MGZYLUJMNUdfaEdSSWl0MkJMZV9rZDRVS2IzMjlKSUV1eGxDc3NHOWRTM3JtMzhGZkJPTlR3cGUtQktLQ000Y3Flbk94ZWNNMk96dzNpQ1VOQXhPQm1xX3Y1eTl5Mk1pZXp3eFh4N0FKV05Na0huN0pYUk9RV3BNYkZvMWZtNkJuMEJxUDJ0bUJIS3ZuNG9HVmlNMFgyUQ?oc=5"
             },
             {
               "data": "2026-10-03T07:00:00.000Z",
@@ -17660,12 +17700,6 @@ export const mandateTree = {
               "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNdW1KaWtUSk05cjFlckxsdHA2TU8tWHZFZ28yWGI5UVFZQXk0SlZmUXhFcE55TWhRaXBGbnR6b3ZKVXB1NUJralltYnh2WUFUMHlFYXdFTHBKV2k0MmlhS1ZUTkhKaS1DYm5XbU5aMVI3ZWJRZVd0bi1xbVpubFh3eVpQcC0td0ZmcGFFVzMxWFoybHgxWktQYnJ1WC14MWtxQmg1U09uSmhCYVFaMzBuN0lTa2VsU25wR1JUNWE5dw?oc=5"
             },
             {
-              "data": "2026-09-15T07:00:00.000Z",
-              "titulo": "Eduardo Riedel (PP) promete fila única na Saúde, concursos para Agepen e frear violência contra mulher em MS",
-              "fonte": "G1",
-              "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOaXJVTDI2OElrbk96UDJ6RjJ5ay04YzlmY25lOURHSnZWNVVrMnNMM3NOalZJaFZCR2wyR2RMUGYzRUdRTVpxaFdzajlTSUsxY0NGTjJoVnJyWlBCMmJ6bWRaX19pRUFBX1RTTlp1SzdWTFJXZ1pBdFVYRmJaeG5YRkFhdG4weDQyWmljTFM2V091NGVMd2RPbVVoY0ZRbXM5SF9wLXpXY9IBtgFBVV95cUxNNXF2eWt5enRqWDUzMld6bWhTUDJnQ2N0NF9pdVMwd2MwY3FiOEdwV1dMcjVCejVkQW1OOEpGcDhQLXJYck55eFRRZG5tUU5CVkFYNDduMXdPTmdPeEpJeVEySGZyV05kYWFfS1BJVlZGTkt2QWpmVmQwN3BKd1JzdXlmWGdjTGVZbmI4YWEwOFlaVVpDZ0tfbHRYamtkMFJqMnhFaEJEZUYyQ3lXRkxFSnJzQm1CUQ?oc=5"
-            },
-            {
               "data": "2026-08-08T07:00:00.000Z",
               "titulo": "Riedel defende a continuidade da gestão e Fábio Trad pede um novo modelo para MS",
               "fonte": "Região News",
@@ -17673,9 +17707,9 @@ export const mandateTree = {
             },
             {
               "data": "2026-07-22T07:00:00.000Z",
-              "titulo": "Promessas de Eduardo Riedel: governador de Mato Grosso do Sul investiu em hospitais e criou programa de capacitação profissional; meta de universalizar a pavimentação asfáltica não foi cumprida",
+              "titulo": "Promessas Eduardo Riedel: veja o que foi cumprido em MS",
               "fonte": "G1",
-              "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQZnZTdDlsb3Z5MjJ2NnpVenpMT3JiQ3gwc1FuOV9xUXBfQlUyZXhsb2pOc2NkU3RpdjZneW5KQ1lsd1ZxTmIwVVFtdFdZS2pzYnFkSHVrNkducTB1WmNtLUg3S0tGWVVZTXRnNFFfMnFybkM5Y0tla0tOSGJSU2UyRjJZUEptaFJvd2Nrb1ZncFRKSV9VeWxSQTAtMG5peVJ1bURWSURpT2M2SUpGdi1Xdi1VaUxyMFFPNVg4X0RvRDhhYTJsSy1n0gHWAUFVX3lxTFA3bTNGYmM0SFQteGcySjZ5OWtBMnViSEFuUWRfYld4UkJKQTN6RzNGNDdLTGRBN3Vvd0NCNEJrTi15N0JpaktqQllISFdrejNNeEpGRTR5VVZ4aF9zT1ZGWGMwaHc4SUhjaTAyZFVhLTBvWHJuTGs0ZUpKZXlZNVRaUnk1NjZzQXRLWXhfZWh1ZWsySHFteXlQcVFOeGwwekhERWFxMm5rRFp1SVJNNUNSWGJBWjVvbTVOQ21FTVQ4aFV5dzJRaC1mWFJINmVvT1lWLXhTOUE?oc=5"
+              "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQZnZTdDlsb3Z5MjJ2NnpVenpMT3JiQ3gwc1FuOV9xUXBfQlUyZXhsb2pOc2NkU3RpdjZneW5KQ1lsd1ZxTmIwVVFtdFdZS2pzYnFkSHVrNkducTB1WmNtLUg3S0tGWVVZTXRnNFFfMnFybkM5Y0tla0tOSGJSU2UyRjJZUEptaFJvd2Nrb1ZncFRKSV9VeWxSQTAtMG5peVJ1bURWSURpT2M2SUpGdi1Xdi1VaUxyMFFPNVg4X0RvRDhhYTJsSy1n?oc=5"
             },
             {
               "data": "2026-02-10T08:00:00.000Z",
@@ -17700,12 +17734,6 @@ export const mandateTree = {
               "titulo": "Eduardo Riedel substitui balanço dos 100 dias por planejamento para 2023 nesta segunda",
               "fonte": "Midiamax",
               "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQNDNDZVRfekpkWEk4alRuTEdZejJ4RW9EVzB2QnVtTEZGc1FMbDliQ2tOVzdLaWktTDFXWVVtMWlTcFNTcUwySVRBTTJTWDZVMmQ0YUVZWkRMUDUxcUhFWnhwSFlvTWhhcm1USU1vLTJIWUVyeEpLVndVS2JzSVBaOE1TQ3FLZ19hbllOaGlfaW5POV8xQXJhZmdxU3llX2Vvdml0TlBsSnFvbFQxeGJZWjFDalphemFUcFE?oc=5"
-            },
-            {
-              "data": "2023-04-23T07:00:00.000Z",
-              "titulo": "Governador faz evento para lançar metas para secretários e servidores",
-              "fonte": "Campo Grande News",
-              "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOcHhucWFpaFFZN2hRRmxVU2pUajNMUW5HT2lxS0pFbGdzM0RzUklhVEpyRmhUSC0tdUJZRGV1eDgyanRDSTF5OWQ2SEFVYW9zbDdFcDhsN2NmWVI1REV2SGlKcVY0UUtqTURBM0ktT3YwVHZUazZ4WTVScjZmdkYxNkhBVm1CSUN1ZVJaQWg1UHNvV09KeDBqUnJaR2lQV0dPeUdTbzNzWmN5SnVYMWVvMTBvTdIBswFBVV95cUxObFR5TEZ5Z2hQd2ZUSDdBUnRsMXdIZzFVWEZxa2p6a195SktUNklkclJjaGhkbzVpVmZGanZGMGdqUWk4WFFYQnZMQXhJWkVVY3JUdVhrdUpvZHZKekZmTjE1Vy1KSk1pcFZ0WU5wcWdZOEZyc2tkbmZxR09qV3V5M3FfQ1Y5MXJEU2VXb3VRS1BHNDNnd0ZHSzRoRXJmcjU5QVlnVmE1MlZLNUwtOHNQZzBvNA?oc=5"
             },
             {
               "data": "2023-01-02T08:00:00.000Z",
@@ -17751,14 +17779,7 @@ export const mandateTree = {
               "tema": "saude",
               "status": "cumpriu",
               "descricao": "O governo entregou em março de 2026 a nova estrutura da Escola de Saúde Pública, unidade administrada pela Secretaria de Estado de Saúde (SES). A promessa foi cumprida.",
-              "atualizacoes": [
-                {
-                  "data": "2026-06-17T07:00:00.000Z",
-                  "titulo": "Fundo a Fundo: um marco histórico para a educação de Mato Grosso",
-                  "fonte": "O Bom da Notícia",
-                  "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPbjFrWlBweDFfb21Fcms3and6WS1wUDl2SlVOZ0VTV2UxeUpfMFdpM3diWkxEYXhoWjVOblluYmFpZklMeWcwVFhwMU1adldFZ25CSTJZMHhwMjZhdXZ6a0dGdy1NVDUyNWdHMnVSbU9wc3lsUElMY3VBVHVTd2lnbzNNYkRPUzQ0aXZjRTV5eG5vSVhoOWJ3UWRwT2FGTGNnZzhiY0ZkS090QmJJNkNTUw?oc=5"
-                }
-              ]
+              "atualizacoes": []
             },
             {
               "id": "mauro-mendes-1",
@@ -17804,7 +17825,13 @@ export const mandateTree = {
                   "data": "2026-03-17T07:00:00.000Z",
                   "titulo": "Governo de MT inaugura Centro Logístico de Abastecimento e Distribuição",
                   "fonte": "MidiaNews",
-                  "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPczNSQjdYSE5uQzViMXZVbllVTmZmRjVSSFUzYmk4TDlkMVBZdzVyZjBIc2lVQzFBOXdLNWhfdXNCTmFRM01MVnBSWEhjQXk3Q3JpMllyTzdBVjVIQTlOZFQzcGxmcV9kUWhZUF9JQnZ1MW9LclhmbVEySV9ybDltbElWWjRtQkg3NnY3QjdULThKNzF0T1RMamhzSllvaVV3MXRmWUpGMkxfREpkYjhURWl2UU4wbmc?oc=5"
+                  "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNb3FzeHBoaHhMdVpVajNSWWpKSTlEX1NZVWpqVWRiNHlpbkJ5SEVEUjNMaW1vd0xDRzZ5MjgtdkJJQjlVQWlmaklxU21EV0dSbGhxVENZOWNtRFQwNnZMSTVpT3BTbnJ3dG8xalAydzVFUjJpYjJtMGdHbGxybmJBMDZfdUN2Z3FrTTZUNmw1bWlvbWc0WXBHRnRkQVhaTzBQWENySDBIenBJdUxpWC1PQXJQQTdwaFE?oc=5"
+                },
+                {
+                  "data": "2026-03-18T07:00:00.000Z",
+                  "titulo": "Governo de MT entrega novo Centro",
+                  "fonte": "FOLHAMAX",
+                  "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE4tM1l3aDZvbHVRcGdqbVRPRV9oNnJtMko3bjZLWGJsa3E2bEx1aXlick9GZVVSQWNxMkNUQWRJckdZTG91SGt2V19PTUd1dVVDVGp0SE52UU1qN1Y5bEVwNTBRVTlrTUIwSVRaak1xX0l5N3FJb1J0NUx6MVhydw?oc=5"
                 },
                 {
                   "data": "2026-03-17T07:00:00.000Z",
@@ -17834,6 +17861,12 @@ export const mandateTree = {
               "descricao": "A consulta no Cadastro Nacional de Estabelecimentos de Saúde mostra que em junho de 2026 o estado tinha 2978 leitos no SUS . Em dezembro de 2022, esse número era de 2431. O governo afirmou que de 2020 a 2026, o número de leitos passou de 1.238 para 2.449.",
               "atualizacoes": [
                 {
+                  "data": "2026-08-07T07:00:00.000Z",
+                  "titulo": "Câmara aprova doação de terreno para construção do Hospital Regional de Barra do Garças",
+                  "fonte": "SEMANA 7",
+                  "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZm9BYTVseTFOYWtQcFgyQnBqUEdLWmc4RXJiVkd2bGM0RkJoeXl1djE1ZHJBdmtOU3IyejJ3RUJZRjlBaXlDcmcyUFR1MFNjUk5DU2trRVRwZUxwTnZxbmFQOHh5QWpwR1RRTUJTVUo2VzctdmJBdmhmdHlzN0gyZmJqbUFrdEdZdmFUdDZzcExlS2RyTHhsYkk0dWRCVkVtR1RlUVJ3OUljcE1BYzRFOVN0aFpKc1RhcDA5SGFfb3F2cDVYMVJ5Yw?oc=5"
+                },
+                {
                   "data": "2026-07-31T07:00:00.000Z",
                   "titulo": "Hospital Central alcança capacidade plena de atendimento",
                   "fonte": "MidiaNews",
@@ -17846,16 +17879,16 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNMXJHblEySHc3S01vcXdBWUxTVW56aHRwX0xOZ0luV2M1RkdvOUhianFxb19ncG8xNEtPSmY3NUR6R2FHdV8zWUs4RGRLNkRKNlJEZG9jTHAydW5jbzJLNk5LcHI5N0c0UUYyMk5SMDVGNmNaMlBwRDQzcGJDeVFoNF83QmRCNmZuY2hWamR2Z1p5VXAtVzY5cDhjQ0ZzdGdsRjdYVWNNSUFKb0VlcGNHS2RkLVVQM1JEalBNb01UVk8?oc=5"
                 },
                 {
-                  "data": "2026-09-16T07:00:00.000Z",
-                  "titulo": "Pivetta prevê entregar quatro hospitais regionais até o fim de 2027",
-                  "fonte": "Olhar Direto",
-                  "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZnhCbENsNjRhWlVWYXZ4Mkdrb19CSE1NcmZhZ1ZzeEh3X0VNSDVudjBjRDJjaVZJalNWNEhFNVNOZ256Y2lHTTF6S0xzRks4RlZ0TllYbTVmenF4R2xDVHByYXdUS0FiTk9ZcWZnczNwSkRnUkR5cUhHSDZHZm5IU0RMN2JXVDYxY3VDaXZSRTA0QnRRd05tTVlzUWgxWjc3cXhTSHhMeVBfVHc?oc=5"
+                  "data": "2026-09-23T07:00:00.000Z",
+                  "titulo": "Com articulação de Moretto e parceria do Governo, SES anuncia novo hospital regional",
+                  "fonte": "O Bom da Notícia",
+                  "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQUUk1MWJoMjM0NjdZWEtqV1d6TWNZLS1saEVLeFJtWHItQ2pIUU9MeDBrYlRtVmhOeVdmSnlBNjR4d1FreGVEelVyTTZUcWJMMEtqeFltUGdQV1JtT1lrWHQtUWtGaWc3YkxVNDRSYlBPakQ1S2haSTdQZmVLdzROS21fOTRzdWlieUViLWdMaV9sYkV6dVdqdURBRWZrQmdzbzNxVmZxODBvQkdpSVYwclNLWEdkNF92TUFaVVlTUXFxTGdzNEtlYVRJdVg?oc=5"
                 },
                 {
-                  "data": "2026-08-07T07:00:00.000Z",
-                  "titulo": "Câmara aprova doação de terreno para construção do Hospital Regional de Barra do Garças",
-                  "fonte": "SEMANA 7",
-                  "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZm9BYTVseTFOYWtQcFgyQnBqUEdLWmc4RXJiVkd2bGM0RkJoeXl1djE1ZHJBdmtOU3IyejJ3RUJZRjlBaXlDcmcyUFR1MFNjUk5DU2trRVRwZUxwTnZxbmFQOHh5QWpwR1RRTUJTVUo2VzctdmJBdmhmdHlzN0gyZmJqbUFrdEdZdmFUdDZzcExlS2RyTHhsYkk0dWRCVkVtR1RlUVJ3OUljcE1BYzRFOVN0aFpKc1RhcDA5SGFfb3F2cDVYMVJ5Yw?oc=5"
+                  "data": "2025-06-05T07:00:00.000Z",
+                  "titulo": "Mendes assina contrato com Hospital Geral e amplia procedimentos",
+                  "fonte": "MidiaNews",
+                  "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPTGxIS1A5WGpFQ1cxcHVtbHpFNTk4aUIxRnVPYkxaS0NZQ2tYZlJlUFpfRWcyM2dFdEdsYXJaV0QyczVJNlJUZmh4VVdqbV9IS2ZOWl9tRU1OcGEteE0yeTJiWUYzV3lrMFhmMXhCSGtjRDEyekh3b3V2dGtXSzRrNVpHVkU0c0JFbXhsblRIdURnVlRXZGRLSkVpcC03XzdXTFlPb1pKQUlJcDJQMWc?oc=5"
                 }
               ]
             },
@@ -17889,6 +17922,12 @@ export const mandateTree = {
               "status": "em_parte",
               "descricao": "O Hospital Estadual do Alto Tapajós, em Alta Floresta, foi entregue em março de 2026. As demais obras foram iniciadas, mas não concluídas. A promessa foi cumprida em parte. As obras dos Hospitais de Juína, Confresa e Tangará da Serra seguem em andamento, com 64%, 65% e 63% de conclusão, respectivamente. A previsão de conclusão da obra de Juína é para dezembro de 2026, enquanto Confresa e Tangará da Serra têm previsão de conclusão para fevereiro de 2027. O que diz o governo: Outros hospitais passam por processo de modernização e adequação estrutural. Andamento aproximado das obras:",
               "atualizacoes": [
+                {
+                  "data": "2026-09-11T07:00:00.000Z",
+                  "titulo": "Pivetta faz vistoria com prefeitos e prevê concluir obra do Hospital Regional de Tangará da Serra ainda este ano",
+                  "fonte": "Notícia Exata",
+                  "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQLTdONFQ5bFhVWGk1Qk1GajRlTzNfSzFKZERvLTZIYVNqeVVSTlJLeG5STlNqS2tOSjlULWxvbXBUTHZFbVFoTEcwZVFySDVnMVpRZGZRM3hFWmlydkRJT3R5eDJXcWpQcDZ1R1BmYXFUckJGTUZXRFJNYW1BbFZ3MENXY0lKMzFiUmRtR2ZZZGl0cXhSS0tkTXF5LWE0aUJyWGZlWElWZndRXy1XS2duWExPcTlnLVpqcjk5dHlVcjZidVBLVkF6NXB3OEw1aXdBeHpOQVdGZ04xNmd2YUJ2bWZEQ3E?oc=5"
+                },
                 {
                   "data": "2026-08-25T07:00:00.000Z",
                   "titulo": "Prefeitos destacam obras de Mauro e fim do isolamento de 40 anos na região Noroeste de MT",
@@ -17947,12 +17986,6 @@ export const mandateTree = {
               "descricao": "A promessa foi cumprida. Em 2024, o estado oferecia 17 cursos técnicos e profissionalizantes em escolas de 15 municípios. Já em 2026 a Educação Profissional e Tecnológica (EPT) foi expandida para 275 escolas espalhadas em 108 cidades.",
               "atualizacoes": [
                 {
-                  "data": "2026-10-10T13:52:00.000Z",
-                  "titulo": "TCE propõe curso superior no IFMT para formar cuidadores de alunos com deficiência",
-                  "fonte": "Gazeta Digital",
-                  "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNcVVUNV9FNkJNeXNVbkYxOGxZa0wzMjBWSExjQkFwcGRFeG00ZGdhYkJITU5xSFlzU1dfY256X1dNQU5oekZJWjBQYVR4NlVFdGZiajhNSUxOdWJQQm12a0ZVZF9nUGFUaGxpT0FKaGR2dEhIcXFYMzN1YU51c1lZQk5OV0Jxb0xMNW1xZm9HdzQwUFFQQkpmajVLUGcxTUFfcmtILThRR1FfbFZQMndyZWk0R2xkaDBRNzI3OTlwRFlRWjdNRjREV3BROE1QTE90OHptQUU3VHgxdzA?oc=5"
-                },
-                {
                   "data": "2025-09-16T07:00:00.000Z",
                   "titulo": "Governo de MT entrega modernização de Escola Técnica e amplia ensino profissionalizante em Barra do Garças",
                   "fonte": "Secom MT",
@@ -17989,12 +18022,6 @@ export const mandateTree = {
               "descricao": "A promessa foi cumprida. Em 2025, a Secretaria Estadual de Educação (Seduc-MT) ampliou de 36 para 76 o número de escolas que aplicam o Exame Certificador da Educação de Jovens e Adultos (EJA), em 62 municípios.",
               "atualizacoes": [
                 {
-                  "data": "2026-07-15T07:00:00.000Z",
-                  "titulo": "Alan Porto destaca investimentos após MT registrar taxa de analfabetismo abaixo da média nacional",
-                  "fonte": "Olhar Direto",
-                  "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQTnhyY09hOXVzWmgzSThzdUZNVjMzU1BRNlBpVklBSzNobVUzcjFOSUpqdVRmTDlWWjFGSnc3c3NnZDIxdU9ZRjN2QXVYYUVzZ0pqWk0xalowN0diSG1zMnloR0hmd1VMbmtjbDdqMU9CYjkyTHVpbDFZdUZoZURoQ1FkTW8wWmtvYkpvcDlvaENXZ1BtY1lsSHA2QmVaMERVc2hJbVhyRDY2SUhYRWx3ek9UcHFLQjJVTUQ5S2NuRkE1VHdoSHlpQXJ0RVBaNXhNdjVJ?oc=5"
-                },
-                {
                   "data": "2024-12-05T08:00:00.000Z",
                   "titulo": "[MT] Fechamento de Escolas no estado desmantela a educação de jovens e adultos",
                   "fonte": "CNTE-CUT",
@@ -18005,6 +18032,12 @@ export const mandateTree = {
                   "titulo": "Jaciara participa do lançamento da 3ª edição Muxirum de Alfabetização de Jovens e Adultos",
                   "fonte": "Prefeitura Municipal de Jaciara",
                   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNRnRfbWVqOFVhdXdRQmRvRW9lSnNzMDlrM1M5UE1rT1lVYlNRN3lGbE9yOEM2NktQdV9KMG5Zb2RCdGJVck9NUkxBY1NqMDlZS2h0bGp0MnF5bjhCSGREZnNNUy1TVnN2UUZBNEhjSWsyMmhWSXVVci0ybFdPeEI3OEhNVXVTNnU1LWFwYy1UT0wwcDJJOWptNmVPWk8yNlM3QVUzbGJLVTlpR3VoMTFqN0JrdkY1NEcyMzV0Q2EydEhsX2hqZUdVdVZSUHFMQ2Iw?oc=5"
+                },
+                {
+                  "data": "2026-07-15T07:00:00.000Z",
+                  "titulo": "Alan Porto destaca investimentos após MT registrar taxa de analfabetismo abaixo da média nacional",
+                  "fonte": "Olhar Direto",
+                  "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQTnhyY09hOXVzWmgzSThzdUZNVjMzU1BRNlBpVklBSzNobVUzcjFOSUpqdVRmTDlWWjFGSnc3c3NnZDIxdU9ZRjN2QXVYYUVzZ0pqWk0xalowN0diSG1zMnloR0hmd1VMbmtjbDdqMU9CYjkyTHVpbDFZdUZoZURoQ1FkTW8wWmtvYkpvcDlvaENXZ1BtY1lsSHA2QmVaMERVc2hJbVhyRDY2SUhYRWx3ek9UcHFLQjJVTUQ5S2NuRkE1VHdoSHlpQXJ0RVBaNXhNdjVJ?oc=5"
                 },
                 {
                   "data": "2026-07-15T07:00:00.000Z",
@@ -18075,14 +18108,8 @@ export const mandateTree = {
                 {
                   "data": "2022-05-19T07:00:00.000Z",
                   "titulo": "Delegado-geral da PJC anuncia aumento de efetivo para Sorriso",
-                  "fonte": "PREFEITURA MUNICIPAL DE Sorriso MT",
+                  "fonte": "Sorriso-MT",
                   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOaVpfb21ta0hiVUMyNWR5YXo3TVBsdEVTbHVCNVAwbzBHVnlVQnhMMElYZkFkMWNGb1A0bFdnTFRvWUc4M095QkNBRm40cHhscE0yVXJjSXVNX3I2WWtHSWZkNWR3b2tmcUk5MjJPdUc3Z0tiMEFIX2JNQ1c4T0NDUU4yMXVzZVNqQkg0bTN6RjdZT1hEMzNwc1JMLVpHSV9HUzctQ19QUW9HMTA2b2VscHQteUU?oc=5"
-                },
-                {
-                  "data": "2026-03-24T07:00:00.000Z",
-                  "titulo": "Lucas do Rio Verde é a nona cidade de Mato Grosso a receber a Derf",
-                  "fonte": "Prefeitura de Lucas do Rio Verde",
-                  "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8zcUNyNGY2YXlWOFVBY3RaajhTaVFTNENCcVd0RDFvU2xibVBFbkZuVkJuN2d6MFNyaG9DZHF1VTRQaVFrT0UxUTZIbXZaWmZWVmZfSG1ER3VpdFlCWklfY0doRF9sODZE?oc=5"
                 }
               ]
             },
@@ -18431,6 +18458,12 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNaHVjOXlXUk1hbzZSYzlDSTBtYUtnQTQ5TXRDTFE5NTBxTFJNRmJVTGZkZ1QzcVpINGsyN0F5ZXZ2U1A3Vm5IMUx1R2JjTDZDZUVlUkJhSkxoRlBid3dmcFdaOTNObXZfVFVwN1dNaUoxZkxkTVd4SXNibFEzM1NmRDlKX01kczA1ZTdvMWZiRTgwUTNsRHc3bUd0ajNDV1JWQnBOQkpxRQ?oc=5"
                 },
                 {
+                  "data": "2025-10-16T07:00:00.000Z",
+                  "titulo": "Governo de MT avalia substituir BRT por Bonde Urbano Digital",
+                  "fonte": "MINUTO MT",
+                  "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPT19pY3RCZEZkZlZxcm9HS0lzVEJ2VzBJVmVvbUVLVnluczlycWpzd0NmWG13dDNYVkVmVjBmSWJ3WWlsWjNkanNmV0J0eGxhSUhFN25ZcUZGWlBkb1lDN0lpVjNhWll5V3JnZFNaazNNZFU1R1ZPcHNVVXRaZGNHSTI2STdsUzJoWE1Ib1UxVWdac1hSdEN5Qmt0WQ?oc=5"
+                },
+                {
                   "data": "2021-01-08T08:00:00.000Z",
                   "titulo": "ALMT aprova troca de VLT para BRT em Cuiabá e Várzea Grande",
                   "fonte": "Sapicuá",
@@ -18447,12 +18480,6 @@ export const mandateTree = {
                   "titulo": "Estado notifica prefeitura a não renovar frota de ônibus até definir rota do BRT",
                   "fonte": "Gazeta Digital",
                   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOQmlUMTAxWkdiUzNpRkF6cENWVXN6b0lQWEhJTnhaaGpvNERUZW9FdDViQXdlcnpQVFEwQlRrTzlvRjBJemg5ZjFMWVlqR2FiaVRQdUtQb01qd1lrRElnNmFQWlFybklGQVZZMTJEY2hGTGhVSkJZbVdlWGdxaTZYaWZJWVNfbHlxZnAzeEI2VDJfdVBNelhzQUg4Q2xId3ctODNYSmRMeGpQN0tZYUJweWpKRkY2YUF4b2ZpVnFkM3hIblZxeUR0LUlRampaUkVCakxVV1FkT1pHZw?oc=5"
-                },
-                {
-                  "data": "2022-04-07T07:00:00.000Z",
-                  "titulo": "Entre BRT e VLT, Cuiabá ficou refém do carro e da moto",
-                  "fonte": "Mobilize Brasil",
-                  "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxONEM0Qi1tUGs0ekFYcFEyR3BpYy1hc05IZDlXOEVVV3gta0lxNl95MjFLcmlZeUd5YmdVREhhQXdRSThfenlPNzNycjRKb1U1TGdfWlJ3d2hvS08tQlJiSFdXdnVveFktLVh5aTBBR2RmWEx1NEhEcHg2aVIzaDFTUnJhcFE0cnozaDk4eEFpWGxaX2NrdGdWak0xeGt2T2p5WFNj?oc=5"
                 }
               ]
             },
@@ -18516,28 +18543,22 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPN2JXaWRabkFkQ1hhODlqa0ZfejBvTGFINy1HM09qdEhMR2tSYjA2cXMyOVVLSW5oMzMxNWcyYllCaXRpSXpwUmxINEREU3FFTkRfY1ZGYWxWNGdFUV9vZEY5NHBKV3JibmN0bkhUV2Q5LWUzbGZUS3BYak45Y00zeHNiNlh2ZTBTc2E4cmFPVnVhcUl1MGp0UjNaRzUwb1VtcWR3RmNTLW9hSkFuSmFia2lhNDhxNUFqSzBxcjA3S0JtazU5MlZIcDNsZ05LV3NsdURoQWx5eDNtWnFoT2E1TDNWNkZvYW9JU0w0?oc=5"
                 },
                 {
-                  "data": "2022-03-04T08:00:00.000Z",
-                  "titulo": "Mauro sanciona bolsas para atletas e técnicos de até R$ 2 mil por mês",
-                  "fonte": "midiajur.com.br",
-                  "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPM1d5QWhyMW5Mcmw1cjM0dERtWkxYc25adnJsZE9PMjY0UHNFbnJITzVvREh4VGlGRHl1NVBNeFNaUlZRNXFxSHFRV0prVktWaUotVUlyT1lJNEttMWNjYTFVVndPSG95akhaUlVtVDlLMTdEdXc0QTZ0Z0dZQmxCeGxZVlBpQS1WSHptcXRPbFM5TnZ0QnhQRTN6UjdYUk1CQVZGQlEwN2F1dE1YSk43OQ?oc=5"
-                },
-                {
                   "data": "2025-11-05T08:00:00.000Z",
                   "titulo": "Atletas e técnico do programa de bolsas do Governo de MT são convocados para Surdolimpíadas de Verão no Japão",
                   "fonte": "MOMENTO MT",
                   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQaXhZTmRqTGlGMWw2bk9MX1F3UjVJMmlfcWFHMzhFNlFkZVVYeWtHOVA0WUVNWmtRN3J5elM4eUEzUDUyeTROWDBKM2lFUDAxRG15eU5YRk9yRkN0SllISExiYU1rMk9LcHlrbF9iNXRpbDRRZmw3V2hJbHk5ajFUV293SGhpLWUtbE9yXzV2RzlaNTB5Y2dLQ3M3cWZYaVdyTlpwQnBXQ2d1SWZCaGRXNmRIejVPV011RkZRb2pFZ2RDZnFkTnJKZElEN1A0TnVD?oc=5"
                 },
                 {
+                  "data": "2022-03-04T08:00:00.000Z",
+                  "titulo": "Mauro sanciona bolsas para atletas e técnicos de até R$ 2 mil por mês",
+                  "fonte": "midiajur.com.br",
+                  "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPM1d5QWhyMW5Mcmw1cjM0dERtWkxYc25adnJsZE9PMjY0UHNFbnJITzVvREh4VGlGRHl1NVBNeFNaUlZRNXFxSHFRV0prVktWaUotVUlyT1lJNEttMWNjYTFVVndPSG95akhaUlVtVDlLMTdEdXc0QTZ0Z0dZQmxCeGxZVlBpQS1WSHptcXRPbFM5TnZ0QnhQRTN6UjdYUk1CQVZGQlEwN2F1dE1YSk43OQ?oc=5"
+                },
+                {
                   "data": "2023-02-25T08:00:00.000Z",
                   "titulo": "“Programas do Governo de MT atendem 100% dos atletas olímpicos do Estado”, afirma secretário",
                   "fonte": "SEMANA 7",
                   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOd1dBdE5aOU9xRGhUN3FNNjN3U2VJUXNMczRWVXk0UG52YVFrZ2N6aTFRNFBJZUNuenpYR1Bpbmo2OEhXWExuMU9jQ05FZ0x3VlBUUzFJVEI2WnlueWhYM3V2b2wtOGhPZ21Qb0Q4SV9UaEdQNVZjUDJNU3ZHSEFManpTQk5HSlpSbDAtNGxmVGJMWUkxWE00MjBPUWVJSHdyWC1Kb0UwZ3hlcGRvd1pmZ1hoeVR2c0RrMTFZd19mWU82eVpSVmtTRQ?oc=5"
-                },
-                {
-                  "data": "2023-12-27T08:00:00.000Z",
-                  "titulo": "Governo de MT anuncia pagamento do Bolsa Atleta 2024; 482 esportistas são contemplados",
-                  "fonte": "MidiaNews",
-                  "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNbzVsR0R6TFd4X1N5NThqV2tQWDNDaFhEeGw0RDV2UGtBdzhCVHoyZW4zOWdpTm4yYWFtN3otb2NNOC1qTlNXU0JIb0NrZENwTzVQQ1N5THpHbGtXWjN3emE2dmZuY3RHMnZKb0hZS0lyX0MwYUtKTTJXUEIxRlRRSXc2aktlLWY3dlRUZWNEbE51NWg2S0tua05kdnotWko3V3JDWlJhbkt6WlNzeTdJQjFnLTBPVmx2VHpxWHBGWE1Zc241My0xY3JR?oc=5"
                 }
               ]
             },
@@ -18603,25 +18624,25 @@ export const mandateTree = {
           ],
           "noticiasGerais": [
             {
-              "data": "2026-10-15T23:00:00.000Z",
-              "titulo": "Ao lado de Flávio, Mendes afirma que Lula atrapalhou MT; vídeo",
-              "fonte": "MidiaNews",
-              "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPb0dqdF93MmIyTE8wdFhHczl1R3BISkE1YmRnTEF6RlZYX3hqSnpNdTNGVUt1TTNHQUI5MF8zMXRYZHpBX2tWXzdzNG9jNlZVMS15NEtZelZ5ZHZpblZqLU1jcnJHbXhWVF9oeHFkQnQ5aHU4MGZPbFd5ZHB4ZnFTUWxUTWJ4NzlRTElnVEI1YzZ1aGhxRXJEREd0WFgxUDNNMkV5RGt3djM?oc=5"
+              "data": "2026-10-16T22:02:00.000Z",
+              "titulo": "Mauro Mendes acusa governo Lula de prejudicar MT e pede mais votos para Flávio Bolsonaro",
+              "fonte": "rdmonline.com.br",
+              "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPREQwRFpQYVlzb1plX3dNNjJDYmlZWXFnVDJPZTdNVG9UWUppR0twR2pMWGQ4akthVjVIU1o3a0pRTXJDMGVteDhfTWVLbjMzbDUtZXhqZXh5dDV3aGZCa3ZWWHdFVHNRWjVSak50aUgyRGg2Ui12MUJtMml4WWRyZS1zODJwSGpySGdTbW93MThCYXJDRk1lSGhnS3BHd05HTy1CYzRXbEVsVWNxaUswRVJ2Zjk?oc=5"
             },
             {
-              "data": "2026-10-15T22:20:00.000Z",
-              "titulo": "Goianos são eleitos senadores por Mato Grosso e Rondônia; veja quem são",
-              "fonte": "Jornal Opção",
-              "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOZC05b0g2MHFNTmgtWUQ3NGpzZFhnNE4yaU5XY2djMGY5VFRLYlNLc09BRFFnTVY1U25iX2VUVE8tMWpIcldvT1dfQUx1N3l4Z1ZfRlVPUVozVnJUVlhxLUJkaXladEo2aXVRWWtybW1JYlVRb1MyOEFMa0pRU2FhVGJLMmZ1c2NjZG5YXzhhWGxBVG5xZzM1RFZoUzh1Vjk3VXVjS2U5WmJhSTM1Y3ZsTU9Id2NrUHNqRjYwaHk1RHdkQ3hy?oc=5"
+              "data": "2026-10-16T16:44:00.000Z",
+              "titulo": "Caso Oi: o pesadelo de Mauro Mendes está longe do fim",
+              "fonte": "VG Notícias",
+              "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOckNCSW1CNVRSbkkxTUd1Wl9ILUJQc0dDX3FocGpZNzduTWhDUW5NcWMwdUtMQTBQZjlsV2JLQlBnT25LNjhzWnc5dVUxZlhYOWRrOXFUa1FMSEFGZ1Z0TlYyb3oycV92aEFYUXh4VHc3UjhLakItWHpGZ3dhUEVyTjZQbzc2RUpmWE5UaHhNNDRyeldPTktDRURrOUNMUQ?oc=5"
             },
             {
-              "data": "2026-10-15T14:16:12.000Z",
-              "titulo": "Mauro Mendes disse que governo não está em dificuldade financeira e corte de gasto é \"natural\"",
-              "fonte": "O Livre",
-              "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQT21KRkdKRjlnX1lxRV9pSksxd050a3JEM251LUtjU1VKSzdrYS1rMHYxMmlqbFZtT0V2SUktQWh3NFAydEw5em1qMjVUOWkxelhRU2lzN29WV1B2U0lGdzFOZk0yUEhpSWtad3hZWEhXVVpOWGVSN1kxYmVpZzZrdlVsbUt6enVGeEM3OHZ1eW5udXhxakdBQ0RvTGJ6NEVkRmFCX2U1UnB3cGtyQU9ianhlUFhXUQ?oc=5"
+              "data": "2026-10-16T16:40:30.000Z",
+              "titulo": "STF mantém bloqueio de valores, retenção de passaportes e proibição de contato em investigação sobre contrato de R$ 308 milhões em MT",
+              "fonte": "G1",
+              "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxPUnF0a1BLNEpBOW1CT0Y4dXpjVWJIbkVtNWlhTmNsaHg5OVk3X2ZaLWp3Mmo3T0p4czlSc01IVzJ2RVpKSHAtVk1fVHBmTFBRaG1jY2Z6OVA5M2pVcHZNd0I2YnpTQzlWX3d6ZW1vLWZIbWZtSnBpMmg3QXNDVm80WU4tUTQzeVFhemVVdXRUN3AyeUQ4ZEp3dVViMDFXRjdwNDdSZDdMTkZDQnU3dEQyZkRwRFBVNWRiZW1SaU9xVElsTmQ3LW1RZkZmWjlIRWpfdU9xVGdxMVBkNVB1SEdDdzdYSjE2MXZXWGVHTGd6SkN6SWI4TGIyT1pCdmR1NzlFVzBWeUdZYWNMZzVtTHRsQjdOZjFvczVSeHdsNERodV9PMThPQmRnU1VyVdIBqwJBVV95cUxPUnF0a1BLNEpBOW1CT0Y4dXpjVWJIbkVtNWlhTmNsaHg5OVk3X2ZaLWp3Mmo3T0p4czlSc01IVzJ2RVpKSHAtVk1fVHBmTFBRaG1jY2Z6OVA5M2pVcHZNd0I2YnpTQzlWX3d6ZW1vLWZIbWZtSnBpMmg3QXNDVm80WU4tUTQzeVFhemVVdXRUN3AyeUQ4ZEp3dVViMDFXRjdwNDdSZDdMTkZDQnU3dEQyZkRwRFBVNWRiZW1SaU9xVElsTmQ3LW1RZkZmWjlIRWpfdU9xVGdxMVBkNVB1SEdDdzdYSjE2MXZXWGVHTGd6SkN6SWI4TGIyT1pCdmR1NzlFVzBWeUdZYWNMZzVtTHRsQjdOZjFvczVSeHdsNERodV9PMThPQmRnU1VyVQ?oc=5"
             },
             {
-              "data": "2026-10-07T09:00:00.000Z",
+              "data": "2026-10-07T07:00:00.000Z",
               "titulo": "Senador eleito em MT, Mauro Mendes (União Brasil) critica fim da 6x1 e defende modelo de trabalho dos EUA",
               "fonte": "Folha de S.Paulo",
               "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPRjRUZVc1dVppOGc5QXJsZmVacERwS1F3ZmQ5TFpoUjRxN3ZKU1kxMENTNzAxVFR4MkxTUjNnV1Jud241NnEyRkdhdURucUgza0I2LUJReFIzWmJrSzM0RTU4WDhCdTJ5dVFXbHdPYU9TWC1GSE1WLUNxRkJveFpVenNXc3FuSWIwRzd5aGZDMkNET2JWcnpqa09Hd0pSaVNfTDZPblJFMGZhUzVyRnRYaEJiN3AyTFhldEFZVEY1LTBWYWFUV1czSkZtNWtOcnlOV2FxMU1MVjNKSVlydk0wblhubVFQcVVSQ0E?oc=5"
@@ -18652,9 +18673,9 @@ export const mandateTree = {
             },
             {
               "data": "2026-10-04T07:00:00.000Z",
-              "titulo": "Em Mato Grosso, Mauro Mendes e Zé Medeiros se elegem para o Senado",
-              "fonte": "Valor Econômico",
-              "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNTHo4UFhaY0dpdE1zbmxKR2J1X0liWG80a2c5cmFlRk9NOURwMWtfWEZvcUxZTkpYQl9wYUJDN3djRW82bEIxTWFRb3M4b1NqTHV2bnBMOVMyM2RiRkZ2NUJOUmRmQWZ6a2dTT0NKZzNnS3ktRFdZMjJrQ3ZyajAzcXB6STUwUmxmT3RMWmtvYjZCMlNKQ01IZ2NwVlRRUGdzRWdaMjZwQnVvSXpxeWJ4bFgzQjg1NUQ1QXpaNHJIR2JTRkYwa1kxS0o5MS1IN2VEeGhj0gHiAUFVX3lxTE9vQ1NtR2hoQlZEOVdsbFVYM0hWaXdocElBRFd1QmJpcXlYT2VycXdvMVc2OV8wbW5Qd0RxMjRPdGpwa0RkdEc2a1NaZkFYTWdJQkRsR1RtTG9CMnFPc1JmUlVHcnVEcDFBQ3VhbEtnei1jdXRacHRySFV0amp5d0w1U0t1WTFzSWdST3JJTF90Nk5CM2NPQktNVE0wXzlZTTF6dFpQcHlqdkxjSGpRbzlxZzNJaVRVTllpZXdBbElrczUxYmF4c3ExZ2xDLWZDcktLanpTcnhZQzdZTnFKcG5uamc?oc=5"
+              "titulo": "Quem ganhou a eleição para governador no Mato Grosso?",
+              "fonte": "O GLOBO",
+              "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUHFWWUNKMF9BaV9GX3E1SzBOVHp4eFFxY0xxWmcxbndHV2tIUmh5MXpTM2lua09QVlFpY3d3UnJEbzNSVXBSdXppYVhrUWJ4d0tGcXNKelVqa2xaUlZmMlhDaHRqRFJRdXhXSUNGeUs1UlE1MFJRQWhkWmRKLXJhQUwyNlpQMnQ5SmNMa1AtY3ZIRzJoZ25QdmdRSVo4dl9acGF3dmVtX0NVWk5ZNDZsTWxBZWxPY0h1bm01MTB3by1vVm_SAdIBQVVfeXFMT2dMeTJpVlZFQVc4dU9NQzZhVDhjTV9NTkNJZzZWWHVFRWxGaHR5Zy05OVJMdE5BZkJmMkNtcmw5eXMtZkpMMFZON3djSW5UUUd0RU5sQjRjSUZ3X0FJVE5EZzhaTnFUXzJ1Z0N5NnZoM1RoYk9DVEZFcnExTDR0YUs5U0poQmNaZE5HUkpodHlGR09BSUF4TWVmS2xSRFQyQnh0M1lXY1VteC1KeVljcHJUYUZNY2VqMjRuUlhFdDB0ekJ6N1lUR29SVmM4U2hQeGRn?oc=5"
             },
             {
               "data": "2026-10-04T07:00:00.000Z",
@@ -18682,15 +18703,15 @@ export const mandateTree = {
             },
             {
               "data": "2026-10-04T07:00:00.000Z",
-              "titulo": "Quem ganhou a eleição para governador no Mato Grosso?",
-              "fonte": "O GLOBO",
-              "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUHFWWUNKMF9BaV9GX3E1SzBOVHp4eFFxY0xxWmcxbndHV2tIUmh5MXpTM2lua09QVlFpY3d3UnJEbzNSVXBSdXppYVhrUWJ4d0tGcXNKelVqa2xaUlZmMlhDaHRqRFJRdXhXSUNGeUs1UlE1MFJRQWhkWmRKLXJhQUwyNlpQMnQ5SmNMa1AtY3ZIRzJoZ25QdmdRSVo4dl9acGF3dmVtX0NVWk5ZNDZsTWxBZWxPY0h1bm01MTB3by1vVm_SAdIBQVVfeXFMT2dMeTJpVlZFQVc4dU9NQzZhVDhjTV9NTkNJZzZWWHVFRWxGaHR5Zy05OVJMdE5BZkJmMkNtcmw5eXMtZkpMMFZON3djSW5UUUd0RU5sQjRjSUZ3X0FJVE5EZzhaTnFUXzJ1Z0N5NnZoM1RoYk9DVEZFcnExTDR0YUs5U0poQmNaZE5HUkpodHlGR09BSUF4TWVmS2xSRFQyQnh0M1lXY1VteC1KeVljcHJUYUZNY2VqMjRuUlhFdDB0ekJ6N1lUR29SVmM4U2hQeGRn?oc=5"
+              "titulo": "Em Mato Grosso, Mauro Mendes e Zé Medeiros se elegem para o Senado",
+              "fonte": "Valor Econômico",
+              "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNTHo4UFhaY0dpdE1zbmxKR2J1X0liWG80a2c5cmFlRk9NOURwMWtfWEZvcUxZTkpYQl9wYUJDN3djRW82bEIxTWFRb3M4b1NqTHV2bnBMOVMyM2RiRkZ2NUJOUmRmQWZ6a2dTT0NKZzNnS3ktRFdZMjJrQ3ZyajAzcXB6STUwUmxmT3RMWmtvYjZCMlNKQ01IZ2NwVlRRUGdzRWdaMjZwQnVvSXpxeWJ4bFgzQjg1NUQ1QXpaNHJIR2JTRkYwa1kxS0o5MS1IN2VEeGhj0gHiAUFVX3lxTE9vQ1NtR2hoQlZEOVdsbFVYM0hWaXdocElBRFd1QmJpcXlYT2VycXdvMVc2OV8wbW5Qd0RxMjRPdGpwa0RkdEc2a1NaZkFYTWdJQkRsR1RtTG9CMnFPc1JmUlVHcnVEcDFBQ3VhbEtnei1jdXRacHRySFV0amp5d0w1U0t1WTFzSWdST3JJTF90Nk5CM2NPQktNVE0wXzlZTTF6dFpQcHlqdkxjSGpRbzlxZzNJaVRVTllpZXdBbElrczUxYmF4c3ExZ2xDLWZDcktLanpTcnhZQzdZTnFKcG5uamc?oc=5"
             },
             {
               "data": "2026-10-04T07:00:00.000Z",
-              "titulo": "Resultado Senado MT: Mauro Mendes e Zé Medeiros são eleitos",
+              "titulo": "Mauro Mendes (União) e Zé Medeiros (PL) são eleitos senadores por MT",
               "fonte": "G1",
-              "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQZDZScVIzdmNCN3F1b2szMDFiRUFHR3VmZHh1UjUtQ1ZiMUFvTy05clRRa0RkOVBaeUgxdDBLcFllaXRTMUF2Uy01Z0g5MDRzRzJCX01lQy1IQW8yYnpoQ3hDVXd0ODhFVGRRb0xQMnlaWThGUGFlNnFCdXU2dHlBWjZnMVl4dnRiSGpjTjF6WXJrWVFMUXVmcm1UUXk2X28tQVNlZkk3c044X3NZ?oc=5"
+              "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQZDZScVIzdmNCN3F1b2szMDFiRUFHR3VmZHh1UjUtQ1ZiMUFvTy05clRRa0RkOVBaeUgxdDBLcFllaXRTMUF2Uy01Z0g5MDRzRzJCX01lQy1IQW8yYnpoQ3hDVXd0ODhFVGRRb0xQMnlaWThGUGFlNnFCdXU2dHlBWjZnMVl4dnRiSGpjTjF6WXJrWVFMUXVmcm1UUXk2X28tQVNlZkk3c044X3NZ0gG7AUFVX3lxTE9Za3lFdGRrakJSajc1OW5wSllMZ19GRVJnUThoZ3VMNnZPbmxjSF9kQVBtZFFWNEJuQ1VaWlcxcnVDdHZhYl9JTUNTeTF2ZDllYmtkWEhIcW5VdkRMbDRzbXpIQWp1QVNUWFR5VWZLVFVzcHVMaVptYVAyT1ZTcGZmdTBMQ0JxOVBLOTlMUkM4eXo1WklxbWhWSmdSMjdqZnBvOVhseU5lcGRPUGhBbk01NGhwLVByOWlTSTA?oc=5"
             },
             {
               "data": "2026-10-03T07:00:00.000Z",
@@ -18729,12 +18750,6 @@ export const mandateTree = {
               "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPSnJkVmlHaEQ1RG9HaTMyRUE0bkFfbXpZLW5Td1RmRTdVZ0R6SFQtbGt0NmhGeTYzM0k0c1VyOWRXQUFLQm80Q0VoNm4wLWZQNko5RG1zUW9aR2RoSl9MWnFIV0t4dWVYSWs3Q1pfQkJFaTdxRk03bTBZRnZyZjVLWXBJdGFmamlTby0xOXpIMkZtZi1HQjRBdklkNXR5RHRRVVIwTGd6THZUMWNSQ3h0VW5tOExuQTJjNlJrRGprWEd4aVR0eWJwbmVSUGFQN2tuX0ZsRHZUaEs0cU56S0w0?oc=5"
             },
             {
-              "data": "2026-08-28T07:00:00.000Z",
-              "titulo": "Mauro aponta virada na saúde e destaca aumento de 24% nos leitos do SUS em MT",
-              "fonte": "O Bom da Notícia",
-              "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOLUM1ejZpQllhbTViTURpeFBXLUFFNC0zNlo3azFkcnZZT1ZVVTIxaDhSUTNJWV9BZXZwTlVaSUg4TG9rWDNKU2RTdFJ2S0lSSTRyMHRicHFzSzhLMWR1UjM3T0RIVHM3TmFjSG9ubmRvU2hzODNKdnBEU0FCV2dLTnhiWU10dTdQUm1BUXh4TXR1NXFzU1NkX25BYXNTR3A3S1dtdGp1ZjNkTWhPMHdWNXJGRXVJaGFkUWh5SVZuNHl5V1U?oc=5"
-            },
-            {
               "data": "2026-08-18T07:00:00.000Z",
               "titulo": "De carro sem IPVA a formação de pilotos: veja as propostas que destoam nos planos ao Governo de MT",
               "fonte": "Olhar Direto",
@@ -18760,12 +18775,6 @@ export const mandateTree = {
             },
             {
               "data": "2026-07-22T07:00:00.000Z",
-              "titulo": "Mauro e Pivetta são os governadores que mais cumpriram promessas no país",
-              "fonte": "O Bom da Notícia",
-              "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPdDhHY1hiZjRRQW1ZRlJJdTUzSjhCbjFGSFdKR1J0bVVKdktEeU9XZGR5bmU2azd6YXN2V3FXd3dQaU5CQk1JeTJRd0FhZkJ2UWI4cU15dzNUcmR2ck5QUjRfdnp5dFpRU0twakU2Z096d3AtVjhzQmdUOElGVDZFeTM5ZVUwVEJrYzkxc3ZRZV9yR19mQ3RMa2R1YllveXI4WjNvVC1qaVJ5WEVMY1BQMjJCcGhuTDhHODRocFBR?oc=5"
-            },
-            {
-              "data": "2026-07-22T07:00:00.000Z",
               "titulo": "Levantamento aponta Mauro Mendes e Otaviano Pivetta como os governadores que mais cumpriram promessas",
               "fonte": "Folha do Estado",
               "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPQXBSS0dlV1ZQME0xWmxma28tcElSTks3QlNOTEY3R2ozekdiVmR1TzBIQ0pfMDdrNHJRRmhzdEhiMHdDWVdGQnBCZkVRQ0NPUkh6WFBTcHBwTjhrQ0hLV2lKem5DTmF3VTJhdWpJQldVU3RIdEpBa0RuWmk0dU51ak01V3RXNk1XVHI1MXl3MHVZMU5MNldjUE5Wdl9PbHhPWTllS0NaY0haaDVyeUwyeTlaZ1F4aGFpVFoySjY4SU9OMUgwQlFXTE5fRHdOQWNNOFRLeWNuUFkzdjl0d1JDQ1l0bVZQejlh?oc=5"
@@ -18775,6 +18784,12 @@ export const mandateTree = {
               "titulo": "Mauro e Pivetta lideram ranking de promessas cumpridas, aponta G1",
               "fonte": "Midia Jur",
               "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcmFQTUk0ckoza1FoTlRCTFNVYVFHZmtyYl80S2pyU25BT1FCMDRhTmVHWjFKTmNIYl85UllkZl8xTzMyUWlZQzFET3ZVb0dmZUd4c2szRUM2blpLeHJRVFlSSUZua0VVakRybEFRU2s5VUQ1M3RlRlZmNXpRNFF5WldNVWwxMHZjc3hYc0lMZlJ5bWxGRDBSTVBxeXNfWm5uMFN4Z1lvOTVBTTRoYmZ6Y0xxRmJ4UQ?oc=5"
+            },
+            {
+              "data": "2026-07-22T07:00:00.000Z",
+              "titulo": "Mauro e Pivetta são os governadores que mais cumpriram promessas no país",
+              "fonte": "O Bom da Notícia",
+              "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPdDhHY1hiZjRRQW1ZRlJJdTUzSjhCbjFGSFdKR1J0bVVKdktEeU9XZGR5bmU2azd6YXN2V3FXd3dQaU5CQk1JeTJRd0FhZkJ2UWI4cU15dzNUcmR2ck5QUjRfdnp5dFpRU0twakU2Z096d3AtVjhzQmdUOElGVDZFeTM5ZVUwVEJrYzkxc3ZRZV9yR19mQ3RMa2R1YllveXI4WjNvVC1qaVJ5WEVMY1BQMjJCcGhuTDhHODRocFBR?oc=5"
             },
             {
               "data": "2026-07-02T07:00:00.000Z",
@@ -18795,10 +18810,10 @@ export const mandateTree = {
               "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQeTZIaS1lbEdNRVF2dFZFbG9MVlJ2S3MwWlltM1Y5dmxjVVBDajRXTmU3RHd0Y0ZDNlMwT1V2TUhmdmttOTlrOTNGTklzZ1pkdkFfRkZwZEM4cThTU0xvdW5qTWRpQlhsWFJLU1Zna2tYRmxLVTFvS05sQlpaX0ZNZ1Uwbl9xSVhLa3M1M1JIUFdwWnNicThZMi1YLWNwWXB5clBYT29fSTRrMDJ6cHU5SWQ1cGFsV1lmTktNb1N5N2d4YzZkaU5lanA3RE5wSU9hX3J3eTBZaE9acWFxektpc0JJaDNBNU5MRlV3V2dhT0dvUkE1cDNiNmhxbVBfUDBtWWRMTDF3?oc=5"
             },
             {
-              "data": "2026-03-21T07:00:00.000Z",
-              "titulo": "Veja todos os investimentos anunciados por Mendes para Cuiabá",
+              "data": "2026-02-02T08:00:00.000Z",
+              "titulo": "Governador destaca evolução de MT e agradece parceria do Legislativo no crescimento do Estado",
               "fonte": "MidiaNews",
-              "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNclhHcndzS253UlZBb3daTlpIMVJnSnIwbG5ONzlKVUgxWHFFYjRTNmpSbkJKMkFUZlZOYzZWbFVqX0RUaTdqVWFtY3dDRUdIY3Y1OGt1aVJBWk9TT0pyZlA2QThvYWUzV25BN245Y3VsOGhsa2Z3WmlXWkFNOW5qc3g1RDllNlhuNjEyT1p1dVBOQXV0UE5yVUVmMWtuV0xEOWR2d2gtbnY3dw?oc=5"
+              "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQNC1tNEVaMDRWN3czS2xZZDVNLVhja2tFUkRfUkVpaFZRa3VsM2lycDBHbk1iWWhIdWFEQmU5cF9mcmxwRW1DMEpzSWlLbTV1Nm9sLWpWa0FwZFJQSE1pS2xIb0xYYnRJdV9BVUtCR3pPWGNva2hTX2U3aHQ2aFR5dTFDVVNYdWhCSlM5bGN0TzRsVkZidHVDdDI3YmVDTUhWV1JiSmw2b3JDMU5ObnVkY3AzcE5TSmxQenpjUnRaOGhNY19yMEFFbzMzQUl3TExmZkt4Nw?oc=5"
             },
             {
               "data": "2025-04-10T07:00:00.000Z",
@@ -18857,7 +18872,7 @@ export const mandateTree = {
             {
               "data": "2022-08-16T07:00:00.000Z",
               "titulo": "Plano de Governo: Mendes espera concluir BRT e criar política de gratificação por eficiência",
-              "fonte": "VG Notícias",
+              "fonte": "vgnoticias.com.br",
               "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPM3c0Q0IyTHo3aE40Zkdua05HU2toV05LTWdEcXJrUThkaWFuUElSY1IxUmlySm0wU1cwd0xFVXV3XzBDN0Nub292bmxyb0ZYQmhoYmFPSlpnQnRZWlFBS1lLMnptMjQ4M0xQbS1hWENZNTFkVC1wYWVlVFcta2JhaXJZYmF6YlZwb0FCTGZMNU9BNTVfRGItZksxaUhVZF9zV2RtQTlwN1YxTnlqczVaX2VPZ0locGhZOEw2OG1weUNWblRNYzBsZk0zWHdpMnRFT0E?oc=5"
             },
             {
@@ -18865,6 +18880,12 @@ export const mandateTree = {
               "titulo": "Plano de governo: Mauro Mendes (União Brasil)",
               "fonte": "G1",
               "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQaGhydm5pdmVwR0NTbmNuYmZSVDFzanIzaFRtbzlYTW5pRW5iQ21tcWpUUDdyUDVsTFgxdjB3UzVKNGhQTEVGU0dlNHU3d3Q4QVo4bEtaWHVBa1RyUnM0bU9ZR0tDaC1LaElEbUx1NmpMazVsbG1IaDRtMWdLVWVLTmI5cUlwQTJ2MG43QjZiNEtsZ2VvaTBIamhaR0xOTXY5dEVJYUVKWkNoVkF6NENSaENBWW02aXBX0gHHAUFVX3lxTFBzUVNJS1pLMmk4b3hnZFB3cmtCekVZOFdhWFFacWxJTXBRUmppWUpVaTluZFFFOUdIejhqaTg1ajczcUVvV0pKUmpTbVgweVN3OFVkeFFuOE1QQzlYSExYNjQ4Z2VIOTd2aU1WcHNiUnFRd1RxUmxRZnQ1dlNVWjZDT25RZWVVYUF5cUZSLWN4bDZZa0NyeTYyYWpTUzllY05pNW5RU05FRU9WazFtLUc2cXJBcEpidWhic1FtVXpmRUpIRWpTU3c?oc=5"
+            },
+            {
+              "data": "2022-07-27T07:00:00.000Z",
+              "titulo": "Em 3,5 anos, Mauro Mendes cumpriu 59% dos compromissos de campanha",
+              "fonte": "G1",
+              "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPZUJyUDJlcjgzeEkzQVZld0Q3aUh0ZWJGdGxIekFSRDR3RzQyMnNfVGxmZnZhZ19SN2dfd0RJTnIyTjlhWkZwMDE3SnM2ajJKb09wUmVRU1BLNWJmbm1DYUFYUWtaUTY0bVFveXJEcTBqWmhuUWNaYzVsRHYwNmR6aUlXSHlqNG9nTUFsREx5M2RkWmNWOHkyVFVnZXlWYlhqNFhNYUJac2tkcDl3TktLSVdGWThXdmxqQlp3TGpJTk1hbFBvMXdLQ1Awd9IB2gFBVV95cUxOSmlqTDM3azhya1JSZE5LVllWZ3ZZSGUyOTBjNzR4bmt3czhfRzR0MlNGWmlHdnBoV2lWempZS0Mwdi13MlJJT1M2aGF2S1BJdlFfVUUybklKQnVLc2ZvaXp6UFVVTWZ0Z2NPZVFEek5Id3pIS3hPVUk0SHUtOUI3NU5wMG9MaHptZ0pOd2ZreGpJZTdTNmRjSDliUEJEa2d5OGgyWGNiVWU4UzRVTDFjTnhtRHl3bGVVcXZqS0dUMl9VZmotU0V0b21hUmZiMElSWnVCc3YzR3laQQ?oc=5"
             },
             {
               "data": "2022-05-03T07:00:00.000Z",
@@ -18929,6 +18950,12 @@ export const mandateTree = {
                   "titulo": "Governo do ES promete entregar o Hospital Geral de Cariacica em 2026",
                   "fonte": "Folha Vitória",
                   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNR1V4a09BRFpfbGh1SThuYlRCLVlPRVRVeHZMSndXX1ZLOEw2Q1B0LWFZOEJYVGJiczhEaEo3cG82RnJJVkhZNUdjc1U5Z0lxN2dMT3lHOWI1NDJmV2FaLURsVFZMWlFEMllGcVY0NDZaUEdJMEpVNkVnbXA2UW1aRHk1MHdLcGsxaUJUMmp6WWJUZmc4eGl2bjNUcUJaX2ItbzdCZUUtcEotNlU?oc=5"
+                },
+                {
+                  "data": "2021-01-27T08:00:00.000Z",
+                  "titulo": "Governador autoriza segunda fase das obras do Hospital Geral de Cariacica, ES",
+                  "fonte": "G1",
+                  "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNUTY0OWFXWVY4Mm90SzB5eVl3eTJ6ajFyTnJNY2lVNVRrd2tONHpKUkhqZlJoY296OXgxejNWb2huZkMwaXlJcjJJZld0UXVWQ1FzV0pmWlliV2xqbTVuT1FTcmxlOHpheGRpNFFfaUhiVnlFd3dIWHI2Qnh4YkZieDc2bVNZNktKWEZ0VkJQdlFqMUVGdnlIanJVNjhjMm9wTi15dEtTeUNJZVJhWjR3UHBQY3dGS1dMekh0SHNFNmNSd1c2ekM1SzZGS2wzRWkwbWZoNkVwdUpCejTSAeoBQVVfeXFMT3BzYXpKRndYalp5dWFJR1VFTklwMHRGSERmN1ZKczBpbFFJanQxSV95ejhqaHVMbWVDOTJaQUNfUUhNUUdoYWE1cEdPd0Y4OUxSYlloSEllTS1lNUNTTWZIYk9MRU9CZk1TN3hHVnU0eHBfSnJXenRnNTdkV3EyWGgzLUpidDFJMXZfWjVYZjQyRUdyM3dhT0ZFZ0dTTUJUMVIzMDk5enFvNEc4bjZtNTYzQUZ2MmhWSnhhRXZ6WGVyWVNROXlIR1B6UVJJVjMxemtBaDV4cVBmYWNfUXVkOWh3bWtzR0VrazFR?oc=5"
                 }
               ]
             },
@@ -18940,7 +18967,7 @@ export const mandateTree = {
               "descricao": "O Complexo de Saúde do Norte do Estado teve a obra anunciada em abril de 2022, primeiro mandato de Renato Casagrande, com previsão de entrega em 2025. A promessa voltou no plano de governo do então candidato à reeleição. Em entrevista à TV Gazeta durante a campanha em 2022, Casagrande afirmou que a obra já estava contratada e que a empresa responsável pela execução estava se mobilizando para começar a construção do complexo. O que diz o governo: as obras de implantação do Complexo de Saúde do Norte do Estado estão na fase de acabamento. O projeto contempla o novo Hospital Roberto Arnizaut Silvares, o Hemoes, o Núcleo Regional de Especialidades e a Farmácia Cidadã Estadual. A conclusão está prevista para o final de 2026.",
               "atualizacoes": [
                 {
-                  "data": "2026-09-28T11:00:00.000Z",
+                  "data": "2026-09-28T07:00:00.000Z",
                   "titulo": "Hospitais, exames e mais leitos: o que os candidatos ao governo do ES prometem para saúde",
                   "fonte": "Folha Vitória",
                   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPVl8wOGVFMnJNSERXSm9EZENpV3BRQ29aVzdVYi15S2J0VlNiRjlsWWFVVWNEcjhvMEJ3S2RYSURNWDU3ZFp3S09RT0hmeEJwRDR4UHR0V3AwV2VlRHpBbUtJTzJpOFdDbllTc0F4QjZDckVfRDNEWG9FcV9DSkZBY0lPQTdsRWR6bUt4azlkTHFKeTNtQ3pJOElWWGo1amRZZzZCLUZiV0tEQjA0SnhFS2hVVGNraU11cWVaMERNX1dSLW15bGc?oc=5"
@@ -19216,6 +19243,12 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNOUhfbnNiX29OckU1U2llWE93LXI5RnoydW1Id0hBZHY4Z0Rtb2xGZW45QXZ0ckY2ZHJjRWNkc0pwZndUWkppVnBfWUo1NmpNTm1tR2s2Y3FXbnFPRGJRdHZHVTVCc3NvVGFSRWx6UG5ISTlqblJ5eXo2YUFZd0ItZG1WNTFVRGFvY3RYaEU4Z1FEUHluUEpyT3NNazVwSG10NHpWMFRGWms2emJ1WkRzenV2SVMyVFlQUTh2V19RX2lRRFZlUnk0WEtQNTA?oc=5"
                 },
                 {
+                  "data": "2025-02-21T08:00:00.000Z",
+                  "titulo": "Estação da Cesan dobra capacidade de tratamento de esgoto em Vila Velha",
+                  "fonte": "Folha Vitória",
+                  "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPcnVTcXhiaW0zWTBiQmFTV095TXdfdGpfR0d1ck84b19NWHM4Ti1DclB5MFNHakhia1VGZ1Z6bG9kT3FYaUtvWlF4WUtIZWw4N3RWaEo5MDBQZUdiSWNkMU94Y1RCQldmdDVwcTdCZVBZOVhJNFI5NDdkdlo0VEV0NVliUHBPaEFEOXg1aWcxYi1waDJ2RUotd216R3JXZ0hBYmNFRExHMXAwZG40dTJyU2Zja21CLW5kTjFCOA?oc=5"
+                },
+                {
                   "data": "2026-02-25T08:00:00.000Z",
                   "titulo": "Comissão da Ales debate ação judicial e nova lei sobre balneabilidade",
                   "fonte": "Século Diário",
@@ -19226,12 +19259,6 @@ export const mandateTree = {
                   "titulo": "Cariacica cobra hospital geral e, em troca, prefeito dá praia artificial em água contaminada",
                   "fonte": "Grafitti News",
                   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxObEQ1dk9PaUFYZ3NKYjExMExQNkdtWElHdGoxQUlxY3NYWS1ZSUVfSEpKanFxZTNBelNHdC01QzFta2NBV2VpeUZHdXNiOHJOcGNvYmxOdnN0UlRtdGxzb2tFY0xXSEV0MzdTbGwxT3FZWkx1NTdNUW5ueUoxSW5zdGdFc1JnWUV5S1dzUEpLakNuRUpZeTBlcUxaQUlPel9LUnRXTDVOeDVvN2ZJTW5nUzNyTEt1LXcxRW5R?oc=5"
-                },
-                {
-                  "data": "2023-01-13T08:00:00.000Z",
-                  "titulo": "Munir Abud será novo diretor da Cesan e promete: \"Dias de falta d'água estão contados\"",
-                  "fonte": "Folha Vitória",
-                  "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQUnpGeU9aQTExWUx4UUNQTERTWHI4U0ktUEh4RWt0V1FfdWlseVF5enVFalpIM1pmTmNOYXNuR3FON01VTjVva0dPUG5ETWExMHRacnA4NEJ1M240eVM0WG5uWE0xbnpPX3B2UlEyQWpkci04VWpSNnFmZllpam82Q0VZelRpNHJzbUdtY2RBNlZWaHlfMXhHVUtKN0YtRUxmeUFqbGFzaUdCYnBseFFzVmJVVE5vdnppODJndGtXSG9xdw?oc=5"
                 },
                 {
                   "data": "2025-06-17T07:00:00.000Z",
@@ -19254,6 +19281,18 @@ export const mandateTree = {
               "titulo": "Quem são os candidatos a governador do Espírito Santo (ES) nas eleições 2026",
               "fonte": "JOTA Info",
               "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPM0l3aUl3ZkFBZGpxU1lRMV9BM1JVU3lrek5TTG1IVVJlazV1RGhWbjFfMF9xZkdzVjNXYnFZZE96cW1qM3l6b2l5ejh4d1ktMjgxWWg1YndkbUZJQ2ZGeU1NYVRCSTB5cW8xdjBzZUpvRS1Dd3lRTTVERjVkOVE3TkRyRmgtejV1SjRVelFUTlpDREpxN3ItaC12dEZVRkZ2aWdHM0QybHAzMXd3d2pfQVMxNHdPdGdhNk5KX3lRTVNIZkgtR2ZuNDVVQ3hGYUY4THFQQzBwSVNFZHU0X3VHWm5BX1lOOUxJ?oc=5"
+            },
+            {
+              "data": "2026-10-15T01:38:27.000Z",
+              "titulo": "Pazolini tem 47% e Ferraço soma 38% no 2º turno no ES, diz Quaest",
+              "fonte": "Poder360",
+              "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQM1B0QzhrNTJZb1Z3ZDlMV256Vjk1NFZzWFd6UDhsdnFqa0VwVzdMSGdoa2VUSjhMX2M2TmJnR0NyWHplaDVRWkI4R0FLa191ODJLRXJ5WDVuZTBlb3A1V0Q5MDkyYUpEbDd0RFYxa2JzdC1iLS1DWlQ4S0NicHdtMjFLbnJhaHk5YXlycGd2aWE2QlpsMkZFelFoWjJkYkZjR3hVRUVjdw?oc=5"
+            },
+            {
+              "data": "2026-10-14T23:54:57.000Z",
+              "titulo": "Pesquisa Quaest: Pazolini tem 47% e Ferraço soma 38% no Espírito Santo",
+              "fonte": "Estadão",
+              "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPSFJ0TlU4bnpaN0ZZM1QxQjV5eGVUNUVLcXlLb1BIcG5FazQwbTZqbVFlbEN2Y0VBUTZUVnlrc055bWFBVzNDSzU1VHg0czQ3cGhyRzd5TFVFcGViZE1FLWdHbFItUTl3d0VnNG9BR3Z6S0k3aGQxZVNRTE00MGZHYXhjRkkxcTB4TmgyTGVWSFY2NG0talliOEI2Njh2a1NsbEMtUDFPOGt6NDR1OU82LTRpUdIBuAFBVV95cUxNbTZwZ3l0Nk1kUzlQTms3TGRXcTRWTHJoNWtnNEVBVDZoTzlVWDNuam10WFBhajJFeEJiMHY3UTM0YzZaQXhfdlFuVWpqWktvZmdleS0wUlQ4aEJaRkd4ZHVTeUI1NjJRbmZyWEpIVGRILXlCQ2pGTF80NWFWUUtDRE1WMmk1dzlPbDVBUURZb1VWb29sUkJNWDRFdEFTVTNXb1lpbmxkNEpRMEctWVBaVVhBd3BFWHdQ?oc=5"
             },
             {
               "data": "2026-10-14T21:51:31.000Z",
@@ -19341,15 +19380,15 @@ export const mandateTree = {
             },
             {
               "data": "2026-09-30T07:00:00.000Z",
-              "titulo": "Renato Casagrande lidera disputa pelo Senado no ES, diz pesquisa",
-              "fonte": "Poder360",
-              "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQTlpwdVdyMEU4dUxndmxlMVl0OXdvbmFUYmh2N3RVSkcyQnR5c1Z0b2JqUUpaVUc3WExRbHNScHRMRloxU0lWcU5rR3NMRE52cThPQU1BYjNIUGdzazlIVWVBSGJaMGl3cUpCT0xQUWJxN2pQMGw3MUtCeEo5Q2xGRnZJajIxVVNqb0VWOTM4dWl0VU4tNUFyQ3UyNThFN2pJcEVpclY4ZmlwYndwb2FfSjVVWHc?oc=5"
-            },
-            {
-              "data": "2026-09-30T07:00:00.000Z",
               "titulo": "A nova pesquisa Real Time para o Senado no Espírito Santo",
               "fonte": "CartaCapital",
               "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOcWpUUmtfcl9yMkZLUE5mWnFaam1mNFNQLTlTbHlMTGttb2JOX1h1dUNfdVVrVmpLXzVid2JiZHlkN25lOTV1S3dDcFZGUUdTemlRajJwQ2RmcGFYYWZkdjFvbmNuTjMxWmU4a0oxUG1Ed3FIWXRRM25OZ0FQUTI2allWQ0x6cVkwS3hoblBRVnh3bmpld3Q4SmlPSzJsRE1ibURBTGVYYXE5eFR6d25GWEViNWY5aWtoTmNxcDhn?oc=5"
+            },
+            {
+              "data": "2026-09-30T07:00:00.000Z",
+              "titulo": "Renato Casagrande lidera disputa pelo Senado no ES, diz pesquisa",
+              "fonte": "Poder360",
+              "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQTlpwdVdyMEU4dUxndmxlMVl0OXdvbmFUYmh2N3RVSkcyQnR5c1Z0b2JqUUpaVUc3WExRbHNScHRMRloxU0lWcU5rR3NMRE52cThPQU1BYjNIUGdzazlIVWVBSGJaMGl3cUpCT0xQUWJxN2pQMGw3MUtCeEo5Q2xGRnZJajIxVVNqb0VWOTM4dWl0VU4tNUFyQ3UyNThFN2pJcEVpclY4ZmlwYndwb2FfSjVVWHc?oc=5"
             },
             {
               "data": "2026-09-30T07:00:00.000Z",
@@ -19359,21 +19398,9 @@ export const mandateTree = {
             },
             {
               "data": "2026-09-29T07:00:00.000Z",
-              "titulo": "Quem são todos os candidatos a governador do Espírito Santo (ES) nas eleições 2026",
+              "titulo": "Quem são os candidatos a governador do Espírito Santo (ES) nas eleições 2026",
               "fonte": "JOTA Info",
               "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPVXUwY19GQ3JxaVIyeGxBaV9xVTlTZ09TUGJyaVk4ZDF3NmY5TXBpV3RVSkJXZG1WSm5Vb19DVTRDU2w1VGlwNDZhYmoxQ2YzWXlGUDUxZ1d3S3pGdGZzaGFvUGVGeU1sMGRzbzl2cDI4ek9sTUJKZXlSdlA1Q2sxMEp4T3Rfc1NhQ1BEUHlkUU9tUlNyZjRsQXVXbU5wVDVqSkstbXp1M05NMU1hX1RYYXdDOVBUbmEtWnpmUkJIbHloTFk?oc=5"
-            },
-            {
-              "data": "2026-09-28T07:00:00.000Z",
-              "titulo": "Candidatos ao Senado pelo Espírito Santo; veja lista e conheça perfil dos concorrentes",
-              "fonte": "O GLOBO",
-              "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNaGFZc1d6SXlLT0NGV1ItcVFSMmc1S2ZsWkszT0hvdkVIQWdOUS1hR2ZITzhGVGNGYXdZZ2gzZmktM2pHRDRDT3BzdFlsdmtIZUxncXIwY2NLcGhWYjYtX2ZuN2RSSGk4enRZMmh3Vjc0MDVpYlY3dkF4SkhZdWlycGpWYWNqUFhzQ0ZsN1c3bVV2VWpIM0NIeEx3T2xOTHhuX3lYRFgxaTEtaEQtcC11R1pkQTBfVGpUdUJCSnR6Wkoya280dWk4ZHRVUjdFdW5xUk5zWTFfU3JZRmRw0gHrAUFVX3lxTE1OTFJINDlNNkhIajNKR3VSaUE1SEpJZE5Ka3BzSnhtaVNmZTFtcjFfZGNaMEYtbERfUThYUkY5YzVqQzJnbHh5VDdzZC1mTEpiRThyVlhjTE52bHFrck1ZcW1vNnlzTmFEWnNWckJYLW1mVWJuMWVlUmNOeXFXT2ttSWp3V1JKdGxRMVVNMHAxd2Jnekg1c2lCQVdzYWpYOGhZaXU3ZVV6aGxBOXlXaDMtUzNvRlV6N0xPMkZBQmhyeUxLV0FjdnduakdMU3U3SFVRU0lkeFp6RWw1S2hGanBVNE5LQnotY3RKOTA?oc=5"
-            },
-            {
-              "data": "2026-09-28T07:00:00.000Z",
-              "titulo": "Candidatos ao governo do Espírito Santo; veja lista e conheça perfil dos concorrentes",
-              "fonte": "O GLOBO",
-              "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNLVppM0Nmc05BWGxLTGxJQVNBa29USmJxSVU3eWFDTEp3R2dScTZkWVlSN2tJZzNRSDBoaG44dmNGcTFhUGl4VkdDUlBqemFDN29jQk00SE5fdFo1WEQ0ZjFyX2pHYXhUaFdDV2pPdHNNdjB3VURFUEI0bXRmUHh2dkFJZlRreXN2TkNYVlJiRy0xVWttc2w0YUxsYllwS2hEX2dXamhibVZWZlFpcEpwRVgtbTB4TzhtUXI2aHFKU05aQzMweExmZUh4bTY1SGk1OGUyd1dDZFJxa0HSAeoBQVVfeXFMTUpzUWYtQk4xbjBSRFlwVGQ0OGZPeExDYzUzSjNYU21oV3JXXzRpS0V1Sk5ZRHNIT1lDTUFWMDk3Q3hVcHZQUFF4amhRbG0yZWxTamhLZ0l6NzRMM0gwNXF4TnhlV2F3WWpEZjc5Qk1paDUwWHBVbGdPTWZ2XzdBNUhWR2FOVVQ0U1NkMzFsMEJSZUdZQjZjUkNwVnJEbGdDU2xERGVTdEMzVDBYUVpxNk1XR052OUJEZm5jYnZsM3M5dHdSTl9zSnhqV1dTV1diaG9VcmUzWmNMdDYxdnVvTi1fd01yMndHRHp3?oc=5"
             },
             {
               "data": "2026-08-27T07:00:00.000Z",
@@ -19422,12 +19449,6 @@ export const mandateTree = {
               "titulo": "Governador Renato Casagrande inaugura obras e anuncia novos investimentos em Nova Venécia",
               "fonte": "es1.com.br",
               "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNZTZNbzdsa01pdWNueXBBNnJ4Y0pMUTdsYzB1dDV0a20wc1VCeTVLclAyYVFBcWg2alF4cTJ3TUFCZ1QtY19HSTFCaTVVZ3l4TmpwbXZBRUZ0VXlrQ3VCN1NkNUJxZ1hYSFNWTzNNZWNUamNwd283TFlja3RVblpsZjMyR2lLVF9CN1JYRXFtdWNQTmIxVHBrcTFqd2NvU1kwVWZ5MFVaMmdRVmRGamc?oc=5"
-            },
-            {
-              "data": "2023-01-05T08:00:00.000Z",
-              "titulo": "Casagrande cumpriu 18 das 34 promessas feitas no 1º mandato",
-              "fonte": "G1",
-              "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMU5GUVVMclBPOWJxRnlSeVNOVEpFd0NHWHd4V0M3ak5rbnBERDl6d1Z4SmRuNUhySDBEcXF3S2Y2SkM0VVFPSGJnWTdrZkptSGdzWW4zUTllSERZV0NwTDVoa0djNkZaQXNhSjBFdTVoYlRwRUFTMmJrN0xqeGlad1h0WXNZeDJCLTJOUtIBmwFBVV95cUxPZzE5VU15T2xaQXgxMTJ6VmlVQmtnZG1DN1Z5VWFyd0NMYV9UWm44ZU4teVpvcE56UFBmcy1ITUVVUmhPSEVpRlBzaWE4NlVDUUFvZzlGOWJkOWV3SXVDREdyZTgwSGlsUHItQTA1MGxOWWUtQnE5Y0JIakg5bnptZk5ER2ZrZi1yaHMyYVZuTm1Zcm9zbEJmZlRtUQ?oc=5"
             },
             {
               "data": "2022-10-30T07:00:00.000Z",
@@ -19680,6 +19701,24 @@ export const mandateTree = {
           ],
           "noticiasGerais": [
             {
+              "data": "2026-10-16T20:01:01.000Z",
+              "titulo": "Em aceno a Cleitinho, Lula diz que reconstruirá Minas Gerais",
+              "fonte": "Poder360",
+              "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPek1ISEI5UU5YR3NBeXdzcjVuQ3lnWkxRQkstbUxtVnZIdENEQkxpaks1dTNIVDgtN0FIRlE0bFZYQ2l2blZDZHdNc2JyT1YzZXphNVYxWndsNlhrdWJtS2liNlRwNWx6aW9vY1hjODVIMVY4YWhmODlnZC1RX3pjX0JCdlF6OFM0cEoyNEFDVEVrTFhzTmhCeWN6UQ?oc=5"
+            },
+            {
+              "data": "2026-10-16T18:50:21.000Z",
+              "titulo": "Em MG, Lula acena a Cleitinho: \"Não precisa me apoiar, só ficar quietinho\"",
+              "fonte": "CNN Brasil",
+              "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOX0VUZ2xXRFdLZjFIdk1CYTA2SVJHaFE2T0tqM0VvZGtTdWdKcHhaTG90VnlVYWpMYVZxZ05tZm9FN3ZIeTF5TFdvZ0NHMTlkamRQOFdLdHc1cVNQRHhZUUhIcVZCLTN5eHQyeFBIMHhtckRpNG94MFBkSmRLNUhQbGVOOTQ0YXVtOF9PZVM5V2FKQW1NTWZEY0JjWWNjMnpxc3ZocVZRcXByUTlq?oc=5"
+            },
+            {
+              "data": "2026-10-16T12:34:21.000Z",
+              "titulo": "Simões entregará governo a Cleitinho com déficit semelhante ao que Zema herdou de Pimentel",
+              "fonte": "O TEMPO",
+              "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQM2FndTNjNnBIUUxuT2NpNG94X0c0RmlGRy1kN0NhcVo5amdKc2phdTRTMzN2Q0VSM0txb3NvX3VTTWJlMDBSY3R1VjV5YkVwTktkb0pJSE1DVGJIU205clBjQUptOUlZaENCSkU2R0Z4bDFNd1FIVEJtMjJRanRQY3R0SGZfajVKR1h4UjQ0cjhiY0xJdHNkZjl4UTU3VmttOEpIME1DNkFaY25JRzNEeXdmR3E3N2pURF9EQW1qdndxckk4Ym8yOTNPakM?oc=5"
+            },
+            {
               "data": "2026-10-15T23:53:00.000Z",
               "titulo": "Romeu Zema é candidato à Presidência pelo partido Novo",
               "fonte": "Agência Brasil",
@@ -19698,12 +19737,6 @@ export const mandateTree = {
               "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPQlo2QWtyUl9WU19ZYzY0NlAzalpQRENaYkN1MEt2SFdIaWZ4LV8tNVFmSXJYLVlrQjBwa3B5VmdMZUhVN3p2Rzg2UUkwbHE5OTBnNmJ6M3BUMklrMUV3RTY3bHpxUHdqNFdWUWh4Sl8wYVc2TkV2UHBiaHlyRGJ6Y0RfellITU9ibXh1dEw3aV9kUQ?oc=5"
             },
             {
-              "data": "2026-10-05T07:00:00.000Z",
-              "titulo": "Romeu Zema ficou em 6º lugar em Minas, estado que governou por mais de 7 anos",
-              "fonte": "UOL Notícias",
-              "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPU1FOdVh3VGFtUExiRU5fTHNqWXZ0RTR5NkZfMkMxcjBlTHVYdHVSQldCTG9ualBWMFFPTUY5MFVJQkhNZmNYTXpkLUUydmdVSkxxcGp2S0R0aFQ4RTFwN3NYNE1qR1BTZTZLQXloVEJmdExNbkdXdmllZEFUTXZOb2ZSTzdVYUM1NEJsZm1hU2swQjFPdXpNMGtaQXFpYVdQa2xFOXhFcjBzRlhmZ09hMzFKczFqem1jdGREd003OA?oc=5"
-            },
-            {
               "data": "2026-10-04T07:00:00.000Z",
               "titulo": "Quem são todos os candidatos ao governo de Minas Gerais (MG) nas eleições 2026",
               "fonte": "JOTA Info",
@@ -19714,6 +19747,18 @@ export const mandateTree = {
               "titulo": "Zema não venceu em Araxá e em nenhuma outra cidade mineira",
               "fonte": "O Fator",
               "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQeU8tUkFCNkY4bURzazZkSzA2VFphb1JWTVhfOVc5cXd2STFIWGw0LXZaZEJMZU1CVHo4ZnlsbXJpRXZPY1J2NUFPZ1M0R1o2Vkl2dktDMW9xMXZGNkIxa1k3VlVDYmlVTk8yaGhDTnRKZ3B6aXBIQVBuUUppZjdfMjl6eENRNko1dllKQnh0eHBtYnc5SkJ3?oc=5"
+            },
+            {
+              "data": "2026-10-04T07:00:00.000Z",
+              "titulo": "Cleitinho é eleito governador de Minas Gerais",
+              "fonte": "Congresso em Foco",
+              "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQTlNZVmNnNHhhcjVBSTBkdDFvTGIxZUtnN2FrdkpTTjhWMkwtckZ0c2ZFbXBQZnhjZzB2QTJqLVJkRTVHbzFjZkwtV1gzZEtWV0VXcW53dnVXQXBpQkVoSnJobkdIUnJMUUo4T0pEY1JtVUFRdkF1cWx6NVYtUGlnZDhzYzdYQ1dYdzZXYU1UMTcxYkR1dTB5MWxRcw?oc=5"
+            },
+            {
+              "data": "2026-10-04T07:00:00.000Z",
+              "titulo": "Zema desidrata e tem menos votos do que quando disputou como governador",
+              "fonte": "UOL Notícias",
+              "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOM0ZrZmVQckxtWUVPT0FtbWN5X1lmTmtLRTdlMXdRYjJNZ2tWU19Wa3V0a1hyWVhaUFhrR0NVX2lIOXY1eS1QU0l0TWhJeXBsdGtlc3JDOTIxR0ZxWWhjQUc0VzVyQ2UzY1ZmX0RBaGgxM0NMQnVBRFR4bTdJRUVWNWF2MWtlQU9NVVNZMGVacUYxaEFGQjlxZUY1LWdmcEhjcEJDTzVfWHhWT0RNS0M3WUJaRWtSZVAwSmFNY2xYTUF4TVg4WkE?oc=5"
             },
             {
               "data": "2026-10-04T07:00:00.000Z",
@@ -19729,27 +19774,9 @@ export const mandateTree = {
             },
             {
               "data": "2026-10-04T07:00:00.000Z",
-              "titulo": "Cleitinho é eleito governador de Minas Gerais",
-              "fonte": "Congresso em Foco",
-              "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQTlNZVmNnNHhhcjVBSTBkdDFvTGIxZUtnN2FrdkpTTjhWMkwtckZ0c2ZFbXBQZnhjZzB2QTJqLVJkRTVHbzFjZkwtV1gzZEtWV0VXcW53dnVXQXBpQkVoSnJobkdIUnJMUUo4T0pEY1JtVUFRdkF1cWx6NVYtUGlnZDhzYzdYQ1dYdzZXYU1UMTcxYkR1dTB5MWxRcw?oc=5"
-            },
-            {
-              "data": "2026-10-04T07:00:00.000Z",
-              "titulo": "Candidato à Presidência, Romeu Zema vota em Araxá (MG)",
-              "fonte": "Poder360",
-              "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPeXVsLUI0X3lYRm90VFpCZXRoUDNSYzNVUDROZWYyek50VFd1MF9hS2g1SmVvZUh4QmRfR2paa2NIeUJjVzYyU2dPRjN0eTZBZ09wc0VLVkZONUdTRU4tV3FMT1B6ZU9udnVjY0djZmlVdWpOM28wOGxGaFlCYlY0NzFidVg4QktCcmFReGZlMEJWQkRsV21TSTJyYldmZDdLX0E?oc=5"
-            },
-            {
-              "data": "2026-10-04T07:00:00.000Z",
               "titulo": "Romeu Zema vota em Araxá e diz que vai continuar a luta",
               "fonte": "Valor Econômico",
               "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxONG1NaVFONzNFanVxZWw5Y2VxbWw4VFpOb3dZcUFoeWlyVjk4d2JDckhzNlg1R2xKUVFVTDQySTZLN25fMjI4eU0tVndORmhNYkhDTUpReFBRczlJTFozanp5THg1QnE2VjFXMEk0ZEl6VE9kOTdWeDREX1NkdjlRLS1Fc0xqaWdVWjJuMUlERTFqeXF4ZnBBSXRveGhaN3kzd3dacnhYblFwUHB0QVh1eHFFSDgxQkE5REZGTEoxUE1TT2VlRGfSAdQBQVVfeXFMTk5xbjRIdmE3enBlYnBRQTZaa3R3RDQ4Q2x5WnZYVnI3bEpfdnp2UmU4T1QyLWRzbWZ1bWRSVUZSek1QWmVuVmlJTS1yVlBBMzA1bWlLUmszYlZtbHBMT3M4eDhBY0o0SVgzUEtGNkdLTkFWV3h0cDBOdnU5bkNnb3l6Z2p4S0hZbHM4MVpjRmV6Y3JQSU1wUjNXNWxYV19XRFN4Z3dLUi1QZUt3QklIV3dpbW9FcGdKZjUwWDg5X085RFVRa2xNSWg4VFp2RTFRVm1XQUw?oc=5"
-            },
-            {
-              "data": "2026-10-04T07:00:00.000Z",
-              "titulo": "Zema desidrata e tem menos votos do que quando disputou como governador",
-              "fonte": "UOL Notícias",
-              "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOM0ZrZmVQckxtWUVPT0FtbWN5X1lmTmtLRTdlMXdRYjJNZ2tWU19Wa3V0a1hyWVhaUFhrR0NVX2lIOXY1eS1QU0l0TWhJeXBsdGtlc3JDOTIxR0ZxWWhjQUc0VzVyQ2UzY1ZmX0RBaGgxM0NMQnVBRFR4bTdJRUVWNWF2MWtlQU9NVVNZMGVacUYxaEFGQjlxZUY1LWdmcEhjcEJDTzVfWHhWT0RNS0M3WUJaRWtSZVAwSmFNY2xYTUF4TVg4WkE?oc=5"
             },
             {
               "data": "2026-10-04T07:00:00.000Z",
@@ -19794,18 +19821,6 @@ export const mandateTree = {
               "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPTHpid3hrX0lGZ204QTFGMlJLSlRBdXN0WTgzX0thTDhOcEQ1VmFUVnJnb2NtTkMwbExraExybXBtYW9hMFBoaERhNmRqSDV3ZDFGU3RyU21pYkJ3eVhfNnl2Y0Q3eTNsNV84YnhHRW51VElMVFVHNkVQOTVqYUZ2WWxzNERyQXd0VUc3eEYxa29FYVVTY2NfN1Z1Sy14RUJRaHN2VHVYQ2tXYmk5VndDd3RORkVyRmhzWDYwX3RiTW9LT2ZPV2twTXp2VmZkaWdDUGVSc3U0bktxSlHSAeoBQVVfeXFMT0t4NF9Wc3d3YzBJN3RRSkpOUzN4bXA3Uk5yeTJQQUdHSXNVWnhITHpGN2JnWUN0aTYtVy1nV2VPcUg1eE9hV0FzcThBZ2plTGlaWFlwQWp4ci1HeV95b0Z5TlRZS3VBUkVnSkFmVHAwdEM5cnFBOEhqTFVGd3JmUENMNVl2dGVMRU5xanhYMVA4MW5XTmg1eEg2Y1d0VzlQQklfNlpkNV9MRmtBcDh2VXNHUGRjSEdYdVJGR1NITU9PX1B6SlpsSV9xT2ZkWTA4ZkY3bzJDNmE3bW0zQVhWQVFzaWx6cHV0X0l3?oc=5"
             },
             {
-              "data": "2026-09-27T07:00:00.000Z",
-              "titulo": "Brasil falha na alfabetização e candidatos tropeçam em ideologia e omissão",
-              "fonte": "Folha de S.Paulo",
-              "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOcUg3d3pqUkJ2UVRYVGoxWndsZjhtRl9WNmlVLW5BLS1UNHdzaGUtWGpnSHF0N3BuZUN3MWt3cEtLeEwzUWc2aTF5TlZwbDNGOUxVNVpYczVpZ0dJSWh0UXFQbmgzcVV6UzBsblF3UzJwbTV2Z2d4cWdnZDlEei10aVlyekVfTm5PdkdheVN5M2h0Sy1GVjhJX2VyLXlpekdoSThKdnFicjduYmhEWk55WmhfR2tSRFY0VVVnNnVoVWRSUQ?oc=5"
-            },
-            {
-              "data": "2026-09-24T07:00:00.000Z",
-              "titulo": "A ‘culpa de Zema’ no fracasso de Matheus Simões em Minas, segundo a campanha",
-              "fonte": "VEJA",
-              "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSlR3dFdvT3hVZXJPRTJRcmRvOVZ0cTFTR0lTLW5HSGtHQlF6VjJtendsemIySWtZY0phX1Y1X1BpSFhJTkk3aWFHemI1OEZtY0ZmQ0p5RDlibEVhNGdzaXk4MVlMLWpJakRFb0t3dGJVQm5YSVRzbTMyc010UG03MXBSLS1aeTB3Y1VBNXQzVWpwd0ZiOVFXbXNMMzYzeEN5aUNuMWhnTHZ3dm8?oc=5"
-            },
-            {
               "data": "2026-09-23T07:00:00.000Z",
               "titulo": "Mateus Simões vê unificação em torno de Flávio Bolsonaro e diz que eleitor de MG ainda está 'desatento'",
               "fonte": "Valor Econômico",
@@ -19824,10 +19839,22 @@ export const mandateTree = {
               "url": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxOWl9weUY1VW9oMWl1eEJPSmVSbFBYX2NPdHlHaGhFOFZtNENhb21QS2gtSkxXUG5mMmptZU44d0tiUnlCZlNCZjRjaURFcTBCQXBKUVltaGtYbU5PblNUdEV6aG90SS1WZnNWdThzeXNZeGl1QVh0T2l0TlFSU2EtYVR1X1EtNzN4blZwMHlQaE9JX25BUkhaTlgydWdDZktCcldnN05zWms2M3dXaUtzOTEzMXlENGlUWHpMWFVDNU9yT1dLb1lBRVhpLWEtcXVkdUZQR29wczFPVGJoYUxQVHZjOGROMWttbG5YSXBERkNzTlNLWVg1X2FoWURtVzI5czNMWE9Kazc5aVBCMkstN0g2QVpubEc4VkRTaXpYM2ZPZmtES0xCZXhJQzRrcHZCYmE1cE0xbnV3bDRVNWNfRQ?oc=5"
             },
             {
+              "data": "2026-09-09T14:36:37.000Z",
+              "titulo": "Eleições 2026: o que os candidatos à Presidência propõem para a educação?",
+              "fonte": "Educa Mais Brasil",
+              "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOWGVJcy1fcC01aW12TEJHMzJoQWNJQkhpXzhzN0ZoNGVsX0hkRnNjVlFiTnVYN1JHNzQ0Q1lvMDB1UlUxLUVhWFQ1UnRYR2pZSE9rdldFVmFQeVF0NmhoN2xRNkVtMjlMV2ttVHRjemo2TjZKNHVzeW15SjNPaDFiQnRfQ3J4UTItbjNzRF9LUHdDRnlsV2dXaGowa0xBU0d3VlFRNk1jRmlQOTlSa3paTUd1XzAzRWI3a0x6RFNHYTFxdw?oc=5"
+            },
+            {
               "data": "2026-09-09T07:00:00.000Z",
               "titulo": "Eleições 2026: o que os candidatos propõem para a Educação?",
               "fonte": "BBC",
               "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB4em9jZ3U2VDdHNUpfdE11V2V2TXpBVzhuY1NQRkNzb19uTHM3dmNvS3ExM1M3SDE0VmkwUTF3OFAxdGM4WHpJQzhWdlc3eUx0TWVXc1V3RDg3c3U1RThhbEhn0gFnQVVfeXFMTVRVTUREV3hrN1pKWXlaaEFnU3lQckJNbFlzekQ0VWxteFRLeDhSTE4wOXU2RjhOUVN4SDdqbmpfbjM4NXZOQUF2VmtEWHRNdHVieHcwRng2TTYxTm1iZmFybFIyUFNkNA?oc=5"
+            },
+            {
+              "data": "2026-09-06T07:00:00.000Z",
+              "titulo": "O que os candidatos à Presidência propõem para a educação",
+              "fonte": "Revista Oeste",
+              "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPQnhxR0pUU1VyeFJzVHN1aC1mYWdPS0MzTi14R1lZakJreENmZGRlYXlkc0JqZ1ZzRzZqV2NOYTlKZW1DYUh4Z3NFRnFkVXJWZm9wbHRiai1QS3Z3UUFzck1iVVZHc2J3LW5Yb2VOMkVSWU9FNE1CTkRRQ082X1l3WWw3M3Y5cW9UQmtONk5sS2lMdHhNMHFj?oc=5"
             },
             {
               "data": "2026-09-03T07:00:00.000Z",
@@ -19870,12 +19897,6 @@ export const mandateTree = {
               "titulo": "Segurança vira campo decisivo da eleição; veja propostas dos pré-candidatos",
               "fonte": "InfoMoney",
               "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPQkVEZGlERzB5V0ttUGlUeTZOZERMNVhnQVY4MDMtNmRsYjRDcDU1R1htLVlNbVR1SWoxWjVoZE1QTWFrc01adC1IYlM1SnRWWVBzcklWMFo5YkpnQVRTWWhuOXJkcVNzdlZyZXhiZnF3ZUlSWHAzNHkwV0J6Vlp6Q2dXemozWUxDNFJFbDI1dm1aX1dncG1IVFk0V2ZuWXhzNVp4Zk0ydkwzU0U4eERwT3U0UdIBuAFBVV95cUxNTFJpUDBEa0NWNHB6SG1HVVV2aEl3Wjl0X29RVE9XVG9JLWtiSWF5N1BUOHNlbmFQdmk3MnhaQXVwVGt3R0ItdEczT2ktZlpSeHFoX2ZhT2JweEd6RHpla1A4NFBHUnNwM3pYblNlZUY0UTNBeGhZZ0hlVmEwQ0huckRWRFRNSzNoM0ZqdmktSnJPbnlDcDBsTkxBZTVOM1pwajktMzRZSEJucFM4U2xXbHZETzZIdkg0?oc=5"
-            },
-            {
-              "data": "2026-01-24T08:00:00.000Z",
-              "titulo": "Eleições 2026: segurança pública vira campo de batalha entre Lula e a direita",
-              "fonte": "Estadão",
-              "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQVjFBNmwzWFRUYWtiMUF5T18zMkRUTm1kQW9PQzhPTHU0ZWhJd0VMUi1NYXU0WlloVnRXTUM4TjEtOTRUOVdvNnJnQXVWUnEzS2JUVEFUOFpEVVFmM1h5RFVHMFJNbVY2OGppOHBaTy04MVFJQXcyVWluSnNkdWFYa2lmc1RnRGt6RTBGeGM2WnFfVzRESktiOFpTMUhJRTczYmdsTWRUcDlPZGZpdUw2TzZCZ9IBuAFBVV95cUxQZnZMaG45TlhMNjJiOXpubFVHZndLRXlVSVd0NjZFV1lMVjBSUGRtYU1Ka3Y4U2prWGJSUTdkc0s0cTZScnNXeUFydzhhcU9qTFlnTFYzaHpMU2FvVm9NUXJSV05BV2pZMUhRRjFBWDN4d25nTjVuRVNmRVRUV25WZDVldnZlc1BiWTREdXF4Qkx1eVV5N3U5eVk0V204elRlNkgzUlJCVHIxbFVla29iZkIyalFYTm5v?oc=5"
             },
             {
               "data": "2022-10-05T07:00:00.000Z",
@@ -19923,6 +19944,12 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQWnBhMWJDZGI3ZU02U0N4UnlDc0ZWQnp6YWppT2t2cDFIOHdFM01NdkdrXzhqTHhfMldPX1UxYVRpS2dTVm83dGpXdmx5TzRIOUt5T0dFNkNwVHVMX2NpVGhQemhVbnAyejZDZzMwSnlNRko0Y2N2UDRCNXB4MzZJbmZTeE02NTVVcEE?oc=5"
                 },
                 {
+                  "data": "2023-07-08T07:00:00.000Z",
+                  "titulo": "Governo do Estado inaugura Rio Imagem Baixada e anuncia Instituto do Câncer em Nova Iguaçu",
+                  "fonte": "saude.rj.gov.br",
+                  "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQNG5CQ0hjNVZLcFNuQlhTV2JRTzJHcHBWZUIza0YwR1dTbGF1SjFLOTVfZVhEMFkyLUVHRmNYT193M2hEeFh3THpOczgyaXM4OGRJMjNNZ0ZmWTZhRDNkNTZweUVqMk91LTFOMWJjX2diWU9kN1p5eHZFWl9NdDc5SkhBTUoxbWtiZkN1eExXNF9DYmFDb0EydWFidnIySm5mdTNnSjROQkZiUU1LcEFuUjZsWnpHZXV4ZGJFakJLS1VFY1RyWmZjZUFqTWRQU203?oc=5"
+                },
+                {
                   "data": "2026-02-13T08:00:00.000Z",
                   "titulo": "Cláudio Castro inaugura Onco Baixada em N. Iguaçu",
                   "fonte": "A Voz dos Municípios",
@@ -19941,28 +19968,22 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE84NXdZUEhsbVlhT1F3d2dSVnI1MFQ5dlNsZ2dMSEwwQ0FncTgtb0dpeUU5SFNILXppRHlkV2hLeGlXSW12RUZjNDBDd0Y?oc=5"
                 },
                 {
-                  "data": "2023-07-14T07:00:00.000Z",
-                  "titulo": "Governador Cláudio Castro e secretário de Saúde, Dr. Luizinho, inauguram o mais completo Centro de Inteligência em Saúde (CIS) do país",
-                  "fonte": "Saude.RJ",
-                  "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNdmRrOXlMTDNxUm1UaldGMjlHU0pkNUtsS2N2ZFJTWVdkOWoxV0NZd3lrajBxVjF5T25LRU5WV0IySTVhbWlwaGp0dElqMlFDaFA4X2EtOTRrVGNNblZ3aF9Bd2xvQ0Z1ZW9kbHNCQXNOWl9EdlBqZjU0aXlLY3NMT1ZtUHUzY1pyQURXTW1SQVRzb3lvbGZuVV96ZW81QkwzblkwU1JmTEhKUmtObzctbkp3QktJR0lDR3VyckZqRzBfN21nWUVOd0ZyWEI5OV9jVE11ZjB2WmtBeklwY2tvakd4eVFkTzdwbmNKN1dyVGIzRXJ2QzBJT1I0Z2lvR2gwOUg4Ug?oc=5"
-                },
-                {
                   "data": "2026-02-10T08:00:00.000Z",
                   "titulo": "Onco Baixada será inaugurado e promete ampliar tratamento de câncer no RJ",
                   "fonte": "Agenda do Poder",
                   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUFNuNVE3ZnhsaDc4MzZvUGlQME02UlA5UHlfbG9HLWY4UlIzdUJ2TmZ1Mkc4WVljWURvc2tUR1Bmdnk2SVV1R3FKRnlsdkVnQ3YyaHBqZUNPTDBDdVVBVXBlbTVWVU1tcGVnV2Q3WFFEblRkdE9aZ3pmeVdKTTUtS0MxWlJUVk9uVDZIcmdwVWdzUjVMUFU3TEhGZUU3OTVOSWJGVzZn?oc=5"
                 },
                 {
-                  "data": "2026-02-10T08:00:00.000Z",
-                  "titulo": "Estado do Rio inaugura hospital contra o câncer na Baixada Fluminense",
-                  "fonte": "O Fluminense",
-                  "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNa0loSDlGSW5jU1J6dmR4ZFFTTEtaZ3ozWXp6UUxPNjFzUkQ4cUNCd1FXRkNoVVBoendOZTVBeVFCSE1MU1RaWHRaYWgyRlNGcDRGdGN0c25OSXhaVkNRb0hrdkt5ZlYtYUpqbW14Nmh1QktLMzRNd1praUdBcEZPTWNxbUNoVW9TOXJPcERqVEZ3RVJ2UExTcENIc3dQdw?oc=5"
-                },
-                {
                   "data": "2024-07-15T07:00:00.000Z",
                   "titulo": "Cláudio Castro, Cláudia Mello e deputados visitam obras do Instituto Estadual do Câncer em Nova Iguaçu e o Rio Imagem Baixada",
                   "fonte": "Nova Iguassu Online",
                   "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQTUNsY3J4YXQzUlR6UVRvcDNFaXFIT2Y0WVo2Zl9TVldJenFhclFMbE1fNUtETzFLR0YyZFVnS0tXQUE1WXl1MHZuckI4cjhGOEcybXhvdVlJZmV0VnlSYTNQeUYzLVFJRXBrRzhDTnlTVk10R1U1bUNsaUFiVWZadHNaRVFoRVFuTUtyRVF4OV9KY29iMzhKT2lxTk5DSjNld1A5RFM5UVZQVGJGeVpPM3lTV0dFZHhtS09uZlZWemhfM3V2SW0xZ2FtWHpXdWwteFBUMnFVWjZLNDl4endVc2NXRURvT1JESC1xR3l30gHzAUFVX3lxTE1lRUw4UFhfXzRZY05vYUd2eDZmbjFVc01mLS1sSzRXWGgwbE5LVVVHbDV4X1pMRGo3d0JaUDNVUFN5SHlZTnB6amIxV3YyajBobmpNMzIxVUd2RFM3QUdNdXA5RzR4ZTZ5cWY5dWtZTjA0S1V2R3lWSGE1c0R0aDd1a3EwSmxiekRsQTdlUjliVlZMd3E1b0hsZTdIbkpCUE5OU0N5U0lud1pHTVNxUklfLWNLNkFCcTgzeEd4ZTRaVzFUUnZtSGJxQ29nXzdaR1ZTbjV1QzBTSVpEZUhLVW1nVGdVRWFhdVdlZ3V6TWV6UWc1TQ?oc=5"
+                },
+                {
+                  "data": "2026-02-10T08:00:00.000Z",
+                  "titulo": "Estado do Rio inaugura hospital contra o câncer na Baixada Fluminense",
+                  "fonte": "O Fluminense",
+                  "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNa0loSDlGSW5jU1J6dmR4ZFFTTEtaZ3ozWXp6UUxPNjFzUkQ4cUNCd1FXRkNoVVBoendOZTVBeVFCSE1MU1RaWHRaYWgyRlNGcDRGdGN0c25OSXhaVkNRb0hrdkt5ZlYtYUpqbW14Nmh1QktLMzRNd1praUdBcEZPTWNxbUNoVW9TOXJPcERqVEZ3RVJ2UExTcENIc3dQdw?oc=5"
                 }
               ]
             },
@@ -20008,12 +20029,6 @@ export const mandateTree = {
                   "titulo": "Governo do Estado inaugura obras de reforma e ampliação em dois hospitais de Duque de Caxias",
                   "fonte": "Governo do Estado do Rio de Janeiro",
                   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE4xNmFXQ3J0M1BnZWJ1aU0zTi1DYUpENUk4dEY2T05yNWd3eHRTRDk2N3Y2bkktT1o0N3lpVVA4a2stQTFoOTZjeWNvalY?oc=5"
-                },
-                {
-                  "data": "2025-06-13T07:00:00.000Z",
-                  "titulo": "Hospital Carlos Chagas é reformado e conta com novos equipamentos",
-                  "fonte": "A Voz dos Municípios",
-                  "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPNUZYcV9jU1hPcVJLbnRKYnJRY1JSamZFaThtWVZOcFppUUtRcnBuNG1fRllIVHUweE1kakFPOVcwbEdoQ2hneXdVMU9lSUJPXzJPV05Kc3RQelBRb1NFU2p2czJWRGE3dHhlSkZ2VlpoeDNvVUxsWU5MSjhxRnZ5cldWR1NHNUdQSjlFRmxkWEduaU94cXFHRWo3Mk05bDBrOHF3OFEwLUw5Wkpqb1E?oc=5"
                 }
               ]
             },
@@ -20097,16 +20112,16 @@ export const mandateTree = {
               "descricao": "O programa de governo prometia aumentar em 43% o número de bases operacionais, com 15 novas unidades. Em março de 2026, o governo informou que o programa chegou a 61 bases em funcionamento. No momento da promessa, em 2022, o próprio programa de governo de Cláudio Castro dizia que a Operação Segurança Presente tinha 33 bases em funcionamento. O programa passou de 33 para 61 bases. Ou seja, houve acréscimo de 28 bases.",
               "atualizacoes": [
                 {
-                  "data": "2026-05-01T07:00:00.000Z",
-                  "titulo": "Segurança Presente está nas mãos de quem deveria estar, afirma secretário nomeado por Castro",
-                  "fonte": "Diário do Rio",
-                  "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPdmNCc1N3M3E3bkVGSy1CYlpwOWN4aTJaQk1mdVAwNnQ5N2VVWHFqNW1uQVNtdTF2UjY2OXNUMFdNZXRmeFlhcmI5OW10ZmZwQjFwUHhJNDVBbUwweTNVNDZLQlNtbERyTnhjVEwzLUQ2UDdxWnRBdzI2SThHemdoZWxBRzdlWUNTajlmSURQaVB2OV96dGxxcWY1NkEwNWg4TzdaT2loQnVONHo2cWtmbDNTWEJzMTFxZS12N1dEUWRzSFBzeXFGd0g0c2FRVzZPZFlQWnkzMXB2dw?oc=5"
-                },
-                {
                   "data": "2026-03-05T08:00:00.000Z",
                   "titulo": "Búzios inaugura base do Programa Segurança Presente com presença do governador Cláudio Castro",
                   "fonte": "Prefeitura Municipal de Armação dos Búzios",
                   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZXZMTkMwdFpmNThteF80STVpVWlTcmRyMm5Xa2xkanlvaE9QUmxvX3ZLbjlTbFM2cFZWTlVhZFdtM3JpX1VQTmtsUmdzWXk3ZVAzSGdtTHBTTEpiU0Z3Y2pGemVhQ1c5VmVRUXcwZ19TWmtTcEVPZUFud3UtOXNwSXR6RTFxZV96WjNtbEtFbFJPdlRINlB4eWhMWUUzd3NydHRiYU5GTkRwZU41a3lyS1pPOGZyMTZFTkFZ?oc=5"
+                },
+                {
+                  "data": "2026-05-01T07:00:00.000Z",
+                  "titulo": "Segurança Presente está nas mãos de quem deveria estar, afirma secretário nomeado por Castro",
+                  "fonte": "Diário do Rio",
+                  "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPdmNCc1N3M3E3bkVGSy1CYlpwOWN4aTJaQk1mdVAwNnQ5N2VVWHFqNW1uQVNtdTF2UjY2OXNUMFdNZXRmeFlhcmI5OW10ZmZwQjFwUHhJNDVBbUwweTNVNDZLQlNtbERyTnhjVEwzLUQ2UDdxWnRBdzI2SThHemdoZWxBRzdlWUNTajlmSURQaVB2OV96dGxxcWY1NkEwNWg4TzdaT2loQnVONHo2cWtmbDNTWEJzMTFxZS12N1dEUWRzSFBzeXFGd0g0c2FRVzZPZFlQWnkzMXB2dw?oc=5"
                 },
                 {
                   "data": "2026-03-03T08:00:00.000Z",
@@ -20160,10 +20175,22 @@ export const mandateTree = {
               "descricao": "O programa de governo falou em uma \"aproximação entre a corporação e a sociedade civil, com ampliação do Programa Cidade Integrada e do Programa Bairro Presente\". O Cidade Integrada foi um projeto de 2022 e que, em 2023, entregou obras em comunidades do Rio, mas apresentou poucos resultados de infraestrutura para a população. Segundo a equipe do ex-governador, desde sua criação, “o Cidade Integrada já beneficiou mais de 224 mil pessoas em diferentes territórios”.",
               "atualizacoes": [
                 {
+                  "data": "2026-05-11T07:00:00.000Z",
+                  "titulo": "ADPF das Favelas: plano de reocupação territorial no Rio pode repetir fracasso de projetos anteriores",
+                  "fonte": "Brasil de Fato",
+                  "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNUy1GdGk3SDVtQkJYbkFwRE0xU042QWFvTWpMeEZmeE56RHRzY2dGQkdZMWpwQWhSQ0xVZlVwZS1QbUZySjBhNmtKVzNlWGp3SEtUUGtCb1hfelZuZlBOdXA5TFRQaUljZzFNNGZtOC16eUxHODV2MzFjLXFQajlNV1cyZmRjT0F4UjByVEJfbG96SFZFbHZ0ZnRoTG9LMzNDYmI3MG5ha1RVSXcyMXpQNVVYY1dqSmNRZVk4T3RocWh1VzhTMXlNRjhEMDZ2QVlaVVllYkRZcEQxWjhN?oc=5"
+                },
+                {
                   "data": "2023-01-19T08:00:00.000Z",
                   "titulo": "Ocupação de favelas no RJ completa 1 ano na mira de investigações e sem entregar promessas",
                   "fonte": "Folha de S.Paulo",
                   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOa1ZOQndMX3pvLUdNYVhQRk15UEItdFRWUy13NlkzZHhRTmRXcTNTbWo3WUxEak0xem5JQTdNMkNkcGNpVlpvdXZNZlNBWGdPNWUzX1U0SUJXYlU0bGY0V3Z4QTZFcUZWc19WWDdJZTBoMi1qOG1SVlR1LW93ZmhRc0pKRVIyZEFaM2Y5S1ZfbGI2NmlPSmptZ21ndGJFMzJtVUVXanBlX29icWc1ZmNub2drM3VTWHlOdFJJajE2YkxMQmlCUTN3NzZCal9NVklEMW15WEJNZGZoelJX0gHiAUFVX3lxTE5QOTFXTERQY2JSaURzNUZmMEE5Q2NFV0ZoVWVQNzAySTJZMW1vOEY4RXAwa0FmNlB0WVc5VkQwYjF4SmpyVXNhZjhGeTk0UmxIUnZpR2c4R3NPbm1URGRIVHRmOHpfUE5uWHUxbDNDckJtVjN1TDQzd0ZKelM4ZzJtMG9BZFlRaHhUQkd3T2RKODZVMXpYbWxnbDRXeGhaZVFBZDBDZ2FZdWMteXNzUFJCRzEzenhXR2RldEROMU5wd09na210MWE5SklDcENJbF9xM0JxM2doWjJCNVBnN2puUnc?oc=5"
+                },
+                {
+                  "data": "2022-01-19T08:00:00.000Z",
+                  "titulo": "Cidade Integrada repete erros das UPPs e silencia população das favelas",
+                  "fonte": "Folha de S.Paulo",
+                  "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPb1MwU1hXdVJOV0RzeHhKVnpuemlJbFluMWl5NnJjTGo2UHN3Q28wV1F0REV1Q25rejVna2o5YkdWNlVzN2NucG9XeldQNldFQlFfMjk2enlyTGhuRWFBUHZxWnRza2ViWHg2ckpERTZkRV9vMzl3Q2x0OU9lZWVtVTQ5NENrV2Y3ZkQzV3Nid3lqeExyVVNFcDFWWHUwS0hxVmt2cUNrSUJGRUMyM0x0Y0I0S0ZmM3RNOTNnYVNqYXBqQWPSAcgBQVVfeXFMT1gzZlZxTUFfRHdXMkZqZzBXODRKcU10dElpWGZOY1pFVnE0aVg4UWJYZEZhc0hqU2NuVTB5OEZXTHZiQXppTUZvUUkyWGxXcjZTRGVLOUNBYWhzelZfWnJEQVFMZGg5azNSVVo3N0FRUVp0T1o5eFNFU204d0h2WXFwRlBFeVZxQkRKQWQwdU44RGRFSHU2NkxsUlRrbnphQ2hfME40QlZkd2RVQUFfdEF3enB6akZBbktNNFNONzJGdW5RTzZ5X3A?oc=5"
                 },
                 {
                   "data": "2022-10-03T07:00:00.000Z",
@@ -20172,40 +20199,16 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNUW5HSzliTm1pdjl5d1hicUxSRTVtWjhZUWRvcWZGT2VUS0hIYVRVTTZTcUdoYTZwdnRyYmhXbWVuOUwwNU5vVVpFdkp0TmFMVUJYM0Nlbmp6OVBDb3ljczh0RlpGZnhSRGtOZURYZExLelBhTFpyNWNZckNYa2diUVdOUXROaVUzdlFsNlE5NXdvSkxnSEFFRnVRUVoxTVpaLVJqN09Ga1ZXSW1HTWxRZUFOWU8tSWpsWXJvYUpn0gHMAUFVX3lxTE1HLXhDSC1UbE9TZUt3NzFWRGFfRTgwSEg3VFlYeGhHMkdOX01yeGI3YlpCaV93THV6WnJHcU9MVDJiMGYtV3Fud3dZS2l3clV4VTBEOGRGdkFSZzBVVFNCNmtGTVN1RXZRRmJ2ZHBEWjFyWmFaRmNZbjk3LW1BNjFqRHhlWkgxNnRJN0VoeWNkQjRfQmVEZEozRUxJX3RLbDhBcUJOY29LNE0wdlZxVmI3S2NRNEFqNWJlTnJxNnd2Q2xUT3hQVFdDc1IzMg?oc=5"
                 },
                 {
-                  "data": "2022-01-22T08:00:00.000Z",
-                  "titulo": "Cidade Integrada tem pouco a ver com UPPs, diz governador do RJ",
+                  "data": "2022-01-19T08:00:00.000Z",
+                  "titulo": "RJ inicia novo projeto de ocupação de favelas com operações policiais",
                   "fonte": "Folha de S.Paulo",
-                  "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQLU0zNWRERmhkSkpIUHZGSFpkazFQNVZDZllYVnF3Q3NuclpuMnZEcElKRlNNeDVEelVqZHV6dFVIaC1FTmdsbHVROTRSOXRoeTVBVTdWTnBjNnNKOU9wQ2kydzE3dW02dUJfZTdReUNKZU1kT1ZESHgwMHBEV2VMNmlmRG0yVEVGYTEwOW1XVFZmSm1pRkliQlpzNjBOR19weFVpTWF5bmdxLWFfX0hTQ2tvOWkxdk3SAbwBQVVfeXFMUDhHNWY3TVFNY01uWGk1NG5kN2x3dU5OLVNGcl9KZ2dUbGlOZ0lGaGtrbmdUdUU2TmwyMV9idFNXejJoQ3VUb3c2SHNPWFRRLVlZZXZGeTQ2RHk3eHVDbTVDX0NnOV9xNXBiZVUxeFg5OUpOb2dGeHdMbjdkMG1zS3BuTTl0ZzJacGtqWjZ3VVJKZ2xfSVRFaHpqenY2UFhpT0NfNkd4Qi14V0FSemRtbnZjWWE2V3JJNHpwQzU?oc=5"
+                  "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVmF3b3hfZmFrWEZlYTk5VWZMeWw0NUZ2TFplcVI1VlJfNnpNVXRtVVdvZ3FteWFDNENxVGRFdXRxck9NVUs5cjB0U1ZCM3BwdXhRSVVHSkgzWU5STmIxMkttVHIzZFdUWmFONHhCd2FtcWhBWlVnV2picHlSV2ZKbW1ITzQ3NTdwYWdWUGp1Vmg1Q0RlZk5KbFJGZERMc2tXMWNXcnlhbmp5clNsSXBCS0JQQy1qMGJzd3NrajdlLUXSAcYBQVVfeXFMUGtJVnR3aEwyRjlrZmRNQTBsYmdkbkItTS01MFhmZFVNUWM2LUhaRmY1SHVDOHdWalp0eHBsWVlfcU1iM2JLRkpTWE9xZElmcXN5d0tOUzFHZDk2eDBGeGhiNW5MNUlMLUZDZENkRUx3ZFJqa2NqQXFzSk5qUFdSaTItNzZDbE1TWGY5RTRUTnhPR1lIS094enF0WU9iNGJmZy04TDh5NWJ5alNuWDFndHBPWGRLNUgwMUNHRDdoRjd2M0gxM0Z3?oc=5"
                 },
                 {
                   "data": "2022-02-04T08:00:00.000Z",
                   "titulo": "Cidade Integrada: Castro faz balanço dos primeiros 15 dias do projeto e diz que não vai cometer mesmo erro que as UPPs",
                   "fonte": "G1",
                   "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQcjhfU2E5cnhMdk5LcjRra1hPREw2Tk1sN2lyWWQ4MmlvdU1xSS15UE5MZ203RnI0Rk5LWXp0Q2gzRGJ5ZWktVS1RVVotOXNqaXVMVUxXd0VpdzB4dW5qZkZERzV0MnFnRlBLVTdMeDBOeS0wVjNGUmZaUGRSekpQRGozYUVqaXBWWWNPeXdxV21MZkZxdVU0TmltX1IwTDYydWdMRmhIZmtXbG1qQmxBQmIxTHFoU3QtcVpwMFFpcXhISGh5MmdRUzV0ZEFQWEJUaFVqVDN4TTJ4enctN1NpS2pjRzRqTk1vY29ZMmVfYkc5ZG5FSVpiMHd0RzZPQzZuMEhGbEdfR2wtdmtEOHfSAZwCQVVfeXFMTmM2WjVlQmM5SVJQaWo1bHBOd2xtekJsUmNUSUlSYkRUVzc2THBRX2R2cldwOHdRTm14TzluekRCczRKLXlWOVFhMlVuNGtWeE05M3JCdVNrOHdoUE80V0oxeEVmU1FuY2tYcTNaN0Z0SjJwZUs2S3M1cVdGaGZ2TnY1SjhzWGFIQTlCU05TcVB6Z0xKeUJ0RHotakJVeHZUYkptdUhfU2psZkZqVWNsb1c3WGU2V1RUN3lKc0p6cWd5eG9OcnBrczBSdG9Ba0FpMERLUGdlZktHWHVrUlpzaXdvYnVuTkNUZmdUQkFlSnp3LVM0WlkxWDlvdjk5Ymg3U2NZWUFNeGpZWjdpNHhnakF1ZGktNE9MM2lqVEg?oc=5"
-                },
-                {
-                  "data": "2022-02-04T08:00:00.000Z",
-                  "titulo": "Após implantação do Cidade Integrada, roubos de rua na região do Jacarezinho caíram 65%, diz Cláudio Castro",
-                  "fonte": "O GLOBO",
-                  "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOY1RiTzdmcFJZVVppM3g1VUNYUC02TWJjY1MtSGRXMDlrUlA5NklicGhjbGs1S0dNa2lhWUpoR3JJekx4T0hWQjlXZVNWNHNTblhoQ0tiWVNCRldkRElCTTFBOVZXYURtTDBiajJ2OVVDSzBzY2J6MjFpYmpfNFg2QzVhOEk1LUM0Ul9kQ0E3a3RSNUJjbkgxR2pDNFhXdDFLdWkwUjlOVDE2LUJnS0g2aUFPNmotUWJJLW82MFZtNzhlRGlQbWp1Ti1CQnBpZVhsbGhUZml4YnJwUdIB6AFBVV95cUxNb05KRXJtbnRGUDlJWTNrMjU0b09DRzlOXzhZazluaDhiUXhVUWZBQTVaR3RfT2dCc1NGWk5MOHE4SzhSMjROUlVBQ2NBd3BWRGFmX3FERG9QbWhUc0JiWVZBbHNHdmFRZk5JNEFuUk1HQjVZRWlEQTAzSVdqX1dwZ0dDTGFKeGgxOTJIUUVkeDNOYzlMb1IzRFctMVNBZW5jM0NXR1lyZGRKbEtobEhmZm82QVJlRlpKYzI1MUJwNTVRSmNWTDJBWFl3TEtCeGVLbk1OQnY0TEdTUWo5ektwSTZEaEZNbElX?oc=5"
-                },
-                {
-                  "data": "2022-01-21T08:00:00.000Z",
-                  "titulo": "Investimentos no 'Cidade Integrada' vão custar R$ 500 milhões, segundo Cláudio Castro",
-                  "fonte": "G1",
-                  "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSHJIXzZMVzVZbUQxRWNiRzJ0R2tSUXE0R1dHMlRzU3NkbVhuYmNfYmI5bVUtXzJGbVpPUFFFMjFkMDNVUW9Yc1Y1cm1DcXhOY3hUVTFzQThoYlNsdUJyeDAyWGRXVFdYZ0xIS0dLU2RnUkYya2pGTkdmdXd5Q1RpMzlqejFway1lUkl5OXFDTngtZ0NLRS1RetIBpwFBVV95cUxPTGw0VVMtZlRnV1Y0NUZfSjAwMUdsN2JfbTlneEJPZTZrRmNBc2o5YU1RNTZyYXlueW1HU3ZEQm8wRHF1aFcxUXgwdWxpa2JtY25iQVVzMncxckJZbFVzVUdyQWNEY1U2RGtPVVpteFotdl9Ib3NHckpNak5Xc3QzbmdOSW9LdTFCdmw0SXFzZGp3MGhzVThDRVhfeWRWd2NmeFdBUzZUQQ?oc=5"
-                },
-                {
-                  "data": "2023-08-03T07:00:00.000Z",
-                  "titulo": "Em preparativos para o Cidade Integrada, Pavão-Pavãozinho e Cantagalo ganham centro de saúde e elevadores reformados",
-                  "fonte": "O GLOBO",
-                  "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNal91bGphc252OUdvSjBxYzhqcGdVWENnZGtuWWI0b0FWZC1vSzFnc3dFNkY5dEZNYkd6Vl81QTE2LXVBTTFLRmpVU1k2eE1EYnBJU3FBbER3dk1VOVlaOW1rYkpjX0JSeGJoM0thQmhSWjVmNkxIMWVDM0pNNU5YeHV0YTJCRmNIQ2Q4N1dESlFicS03UXhJQmhPZTZBSUNYeEVVaE9CaHBCc1JUTTB1bkxMWTEycTFVSGFuOE1SVGxCam1EZk1VaEhsaXNMcHcwV3luLTI3eHVfX2JiMktJZmhzQXdFbG4tQnhReERNbGZwZ21SY1FYSVpkdmdnQdIBjAJBVV95cUxQYUpjNTA1dWdDQTN5eDUzNjQ3cXRlSjl4Rzh4NkNNell2NU5wM09Ia3U1T280c2g3VW9UNU5FNkdvcVN5dDBlSS1oRzc5Um9GVjc3ZXlKdnVRVDNoMDQxRFJyUmMwRU9TNkk2T1hjWHBMUmh4Q0VxQmFUMk1xdFJySzZQUDRfRGpFUVVNdmMwWEJnUld5Wm1sdlVVdnFUQTQ5M2d3bU1QQjZ5bmZYekhxWVhYR1lpYklTck5yc0hwcm14LUJYaFFqUjdLendxX2NaTXpzQW1BVUg0ckVsb0o2cTVHcjA1cGJaMWo4Znp0UG45RjYyRlBnUExmbGFDU0hFZV9GdWlqWnNFSmRS?oc=5"
-                },
-                {
-                  "data": "2023-02-05T08:00:00.000Z",
-                  "titulo": "Cidade Integrada: MP envia ofício pedindo explicações sobre supostas irregularidades no programa",
-                  "fonte": "G1",
-                  "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNazNQLVg1LXBWU2VvRHE3MmgzS3A0YTQtTnU2UnJnM1ZrVFd3eTJVb1IxMDJVSnFLRnNwTlAyWkZDaTJuT0gtOU1CcXRQMFR4MmU0V3lCdnVLV0FCaW5aaWFDUFNCOW0zeG5BSGo5ak1XWUpaNkU0ZzA4U0F6anVvaWdLZm1iU19hQ2w4cm5NbGQ0YW1xV2gydlNjQVRwQ2REbkxQMDdxbU1YcjdtWUpuaWtBZVp4cEI1V29QTjBWTEpKTVpOeXpOLW1NeHZBRklXM0E1ZFlQV3AtZ3JTMFN2Si0weEhYTzQ4dDl0MkZUNXDSAf8BQVVfeXFMUDRnTUhtVDBJd3FCVkk4OTVKalZwYnF6SVJCQ015UkIxdF9PRUlxb2dyU0hSakllYk9kYU1ST3JZZDB5S1dfMTBCRHJfRVlSS05ibkxWUWtGNTJfeFJPOXU3Wm01WFJYSVpuWkNacGpweENxcHJnTmh6Y2ZLUW9sUmRtZTFiSVQ4OFVZZkttQW1LWEN4UW1IUi1tN2VwV1NvSFo1MFBNaU83a1pHVjAxeDdlQ19DRXNhUS03ckRlMklQX1JMYS1qaGpNYWJZS1NYTGhSNmt2dkdrWjlQck1GZWFTOC1HblZUVWhJYUl4VnJpeFYwdDcwLUsxSlB3LXVJ?oc=5"
                 }
               ]
             },
@@ -20263,6 +20266,12 @@ export const mandateTree = {
                   "titulo": "Megaoperação contra Comando Vermelho no Rio: mortos chegam a 121; moradores recolhem mais de 50 corpos",
                   "fonte": "BBC",
                   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9DQXZjc3NySDdyOUF5aWRLbFU4emd6ZHhpWmV2c3pDSThPVFhJMjJWd2Z0WkNvSUsyX2NFRlZnMUw4N2tGRzU3WWttZjkyMFduN1NQV1RBaVBQUzV2UXZaak5R0gFnQVVfeXFMTXY1U1VjNmh4YzF2clRCNjUyQ0NmQ05sZjVTcUppNnVlaEpaQXF2RkRac0JFeElrT0Rvcmo5UldwSmZ5b3hyaHZQdjRITm84TmxsTVZIT044NG0xcXJRS0lmTU9sVlMxQQ?oc=5"
+                },
+                {
+                  "data": "2025-10-30T07:00:00.000Z",
+                  "titulo": "Operação policial sangrenta no Rio expõe aposta de Castro no confronto e ADPF das Favelas esvaziada",
+                  "fonte": "Estadão",
+                  "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPLVBPM3FwNDJ1a0tWMVMya1R4TlhvaFNvX29vZzh0REpoRXM3VU9jNURYM3FTTnZqMzBmM1U5N1BMVVNFalp1VjhMc0RHdVE2eUY5dlF0MksycE9EOVNlZGd1SHYtaW10UUJJdDRHOEpjWk52NE12NWRjX19uZ3RVT1c0Q3drRkItUU5PLVRVSzR2UHdBMmJYSE41RTUxYzVPVVBaM0lmZ1JTVEpTUDhjcGh3aHZLT3Z6YnR0YWN6MGR4dmQtTng4R2ItR3hyTHfSAdQBQVVfeXFMTzlFeWJzVjNST2h6V1lTcXE5OTNueTBuR0FDeDlYQWEtTHdVV2hmRGg5R2k1WW95eENXeFFRSkxtQWM3T002c3ZNMXBxd2RQOUFnTkFoNW5lYnd1TnB5RTBIeV9KbWxfYi1hZmpmZXhZNkhBMm5EYWx5U0hMVjlrUEhRMXkzVVJfcFpSbHV0X2lwYnpJeVRldXlaRlhiX0hvWENBb01jSVRoZzI3QVplbmNrdjEzVWxoQWtCbVdUUzlQOFMxUnc0WFZkeHZnVFRtaWdQOG8?oc=5"
                 }
               ]
             },
@@ -20373,12 +20382,6 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQenptRk1RNUNJdkpXd1lFTllNYzdUTmRlakhuenBMOGp6clBlZlNjZC1Tbm12VHFZXzRidkVTTmNYYlNEeUMxS0NHaWxDNnUyTktDVEgzaFA0NFZGYUxaa1ZMdmdtbU1KZ2Zub0RST3R5M0dSUXNEUDFSRzRkc3U5OVN6VXY5a2xFbjJILXZSLVBXcVJUMFR6N184TlJ1Y1NwaHpiN095SWVfUXphT2dENU94UlkycVdvaXhmTUYzOHp2NXpPNjc4MlctUXlSM19kaDBFdGlkdkdlNDlqLUJhTWNZbG5tRlFKQnNCcFZB0gH8AUFVX3lxTE55YW5qWnl3QmRseE82SHd3YkRIOFk0MDRyaXc2NXN5SHJXb0YwNkU2NGh3N0ZsOG56WDY4VWozZDI2bE5ZRkZLM21BeW9tUlRrMnhZd192a25hOXE3MGFKNnA5eTc5aEtmWkduaUlMQnZMSTBzZUQxUmt5VkhvUTRRSmtvRlpaYUJmUWlQT3F4NTZIcHNZY1NGZEdvXzF3Ul91dkdJME5DVlc0QV9MOHcxR3Y3MWlZT2FURU44bDZuREUtVmtNV2FucnF1WmJDM2JtckFqNVkwa0hxMVQ0ZnZRWXFIMlYtOUZBampwSWJ0U2RJRXhQZzI1Rk41NQ?oc=5"
                 },
                 {
-                  "data": "2025-03-21T02:00:31.000Z",
-                  "titulo": "Governo sanciona lei de recomposição salarial e reajuste para os servidores",
-                  "fonte": "Governo do Estado do Rio de Janeiro",
-                  "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE44bTVjQ2NROUEyeW85clB6d2JFZVBGNC1XTm8ybmVScUdiTk5RSy1Cc1hDV0JmY21WeEZKSnVpeUw5MmdReG1Vc3QzRzFzQVBX?oc=5"
-                },
-                {
                   "data": "2026-03-30T07:00:00.000Z",
                   "titulo": "Professores da UERJ aprovam greve contra calote em reajuste salarial",
                   "fonte": "Hora do Povo",
@@ -20409,10 +20412,10 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQTdHWWRXT2ZKempaWG9Yd2NBeHlVVWZieFN3amp3SFNTMGhPVURXZFdEc2NxOVJpZFhFRFNKRmhOakc5Y1N0NUJISGg3QVhoa1JRR1phWnJ0VU9BQUdxV21zaUQ1MnJXX3h2STlwc1NEUVQtNlJ4VDBjb2dUX0tiWmV4Ni0?oc=5"
                 },
                 {
-                  "data": "2026-03-19T07:00:00.000Z",
-                  "titulo": "Servidores do Estado do Rio passam a ter direito ao auxílio-alimentação durante férias e licenças",
-                  "fonte": "Tempo Real",
-                  "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1yTlRORTdJR0t4bWpLdHBfZ0RQekFYM20tRWJrekZhTU9aS3dUNnRMU2pjSmNieXktZDlpNzJHanlyQ0tmM2JqdmdDMHVZVTVLV2h3OERVNjJpMUFBcmNadGF0eGI2NmxiUFZIQ1ZEem40WVp1MFFRTw?oc=5"
+                  "data": "2023-05-11T07:00:00.000Z",
+                  "titulo": "Profissionais da educação do RJ entram em greve exigindo que Castro pague o piso salarial",
+                  "fonte": "Esquerda Diário",
+                  "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQeWw4dG5aZW5oakdjb1ZGTml6RngtWlRtS3ZnaXVTMDMxWnNvNkwxOFNqdGpnak11VVVDZzh1VkZ6a05GZ1BURDdwRXNncHNZZ1k3N1ZDY0VjYjBOT2Jrd1VoelJfR2FtaXVBVlhZZlh3Uk1DaWN4emtOWVBsSGVjQno4REEwdlBhYWtOdzhrOVp6alRMa3FlLWtEWDBLMGt1aUpZelp0bWlwd3pkcGwtemRVc1Z3SUdUQ05UemhtWm_SAcgBQVVfeXFMUHctM1M3QWxGODk1RjQtNHhacWkwY3hlRjN2MHdmYVdlaUh6dmV1SnBtT0xDVldIZHZ5Y0c0ZWJ5STczQWNxWThaNUxnVTY3cTdoTWZESnFCdXV6aXRzT01fcXFrT3FVMmd1NWdUZm01RFdaTWFPRDhoLVFMRmFjRTVpVHRQOU1XaWRITWNBVUgxVGp4cVBQaE5yaERyczExSXI5U1BXWE5mTTlISGJ3amhrZWVfeDJKQ05FWU5Tcl9DS3NDTllQYTY?oc=5"
                 }
               ]
             },
@@ -20543,12 +20546,6 @@ export const mandateTree = {
               "descricao": "O programa de governo prometia “construir trecho interligando a Via Light à Avenida Brasil, na Pavuna”. As obras não foram iniciadas pelo governo do estado. A assessoria do ex-governador afirmou que \"trata-se de uma intervenção de alta complexidade, dependente de estudos técnicos, licenciamento, estruturação orçamentária, desapropriações e articulação entre diferentes entes públicos.\"",
               "atualizacoes": [
                 {
-                  "data": "2022-08-25T07:00:00.000Z",
-                  "titulo": "Na Baixada, Cláudio Castro promete melhorar o transporte na região para atrair mais empresas",
-                  "fonte": "G1",
-                  "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQS1N1Nnk4bFQ3NHJMTFd5NmdIb0hrSlhPM1BubFloT0EzSnR6MW1HY3JKc1FJYzhicXdNNS1vekxiYUtPbGt5ck1EZ3FUU3pxcHZ0RDYwSWJPV0dKeWxCd3hid21pUHVoQXJ3TVVEaGhGTHhJNVRUaFNEcS05Wk14bW90V0JvdnNERHQzWTYyMDk4WXNrYXg4eHRnWGw1X09obkRXQlpOV2JyRXhJNW83TmNSZzhuNnZ0bkFBVzdlWlBBRm5XcElKY2lmUElSNjJpV1FDWVRjaFVKRlBObVRGWjVGMVkzbGFaMlBhTDMyTzBlVGhNUUdBaXd0QVZ5Z9IBjAJBVV95cUxQbEpzaFEyVmNSRE9teFFPY1JzS2ppX3dmMElxVGFqdFdsMWdzT2pyYldfMjVpN20yMDdSZ3J4a2RYb1A3cUs5WHB5cDhkWlV0OS1BS2VndTBUNUR1dElsLTFlVXRXa1FZNEQtMEM4UHRwbWtmMlZjWEpZRWVyVnFNbWREUlZSTkFZSUN2c3JKQktsRkN2b2JhaGNGbFNicVkxaWhQYk1sd2ZLR0N2di1rcy1oUkVwYmFBb2swRlFOcVJnRlBXc0tsUE40bXZrNmhzOTlZLUdraHp0aGZ5Vl9wZWJEX1IzQWhXMldXWXZUZnVTSEp1TzFqcU43ZEFZWUFLYUpqeUVTQVI3VGdh?oc=5"
-                },
-                {
                   "data": "2022-09-30T07:00:00.000Z",
                   "titulo": "Em Nova Iguaçu, Castro promete começar em 2023 obra do metrô para a Baixada",
                   "fonte": "G1",
@@ -20617,12 +20614,6 @@ export const mandateTree = {
               "descricao": "O programa de governo trazia a construção de uma linha de metrô em superfície com 23 quilômetros cortando a Baixada Fluminense. O projeto não saiu do papel. A assessoria de Castro informou que o projeto segue em fase de estudos e estruturação técnica.",
               "atualizacoes": [
                 {
-                  "data": "2025-03-21T00:55:25.000Z",
-                  "titulo": "Governo do Estado realiza consulta pública do Metroleve da Baixada",
-                  "fonte": "Governo do Estado do Rio de Janeiro",
-                  "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1ocEQzN2p5amRnaHlJWk92ZEdjNVdBU0VLY0MtTkRwLVFvQmFkOWJXdFFfMnZkX1N0T3RUNi0zd2c1QkV2Q2dYdHVnUWprd2c2?oc=5"
-                },
-                {
                   "data": "2026-03-18T07:00:00.000Z",
                   "titulo": "E o metrô para a Baixada , governador ?",
                   "fonte": "Nova Iguassu Online",
@@ -20650,12 +20641,6 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPcUZRdElaZUlWU2V2UUFETmZ3TkI3MnZPRFg0NjAxSmdtMExTc1hEUFdCbC14bDd2QldldlVoTFJRanprUm9TdFgzSHNFSmZhRjhjUHNfWUh1eEgyZWtWbkFMc1V3aU9fcjJUYnBrTkpzOHNVQzRpbHZFTnNicTQyVWVMVi1JVS1nUWtsekUtYVgzcVpQYWV1c1p0cw?oc=5"
                 },
                 {
-                  "data": "2023-08-29T07:00:00.000Z",
-                  "titulo": "Linha do metrô para Niterói entra na pauta do Governo do Estado",
-                  "fonte": "A Seguir Niterói",
-                  "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNNU9uV0gxejJVSXZYbmhOSXl1azhrTjBUWmxEYVpsMThBTC02WTZUSmkyd2gwUVBzVVFtUWtxanN1cDZLY1VyaHZZZHNCb1pQU1lfcDkwWXZLRDZEQzNMeDZRbkFJN3JSeW9MU0EyV3JMbnFxajRkajBzY0RmLXZCQ3ZSM2NtY2tTNGM4SW5DUFFKRjFwNzdWOTdxTUU5V01zQjZuZVJn?oc=5"
-                },
-                {
                   "data": "2025-06-09T07:00:00.000Z",
                   "titulo": "Governo do Estado apresenta prévia do maior projeto de expansão metroviária do Rio de Janeiro",
                   "fonte": "Governo do Estado do Rio de Janeiro",
@@ -20665,6 +20650,12 @@ export const mandateTree = {
             }
           ],
           "noticiasGerais": [
+            {
+              "data": "2026-10-16T18:04:20.000Z",
+              "titulo": "Governador interino do Rio autorizou curso para 35 juízes na Holanda que custou R$ 450 mil ao TJ-RJ",
+              "fonte": "Estadão",
+              "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPZzV6UkpKdlgzS0ZpNXBVaHlDYUdXSnFCWV9HZkQ1R0l4QjE0ekV6dm90QnppTGxid2lUQ3dVNkRma0hqTXRPYTl3djVkUXRFZnp1TUJhX0RrZGpmWDhDdFBtVzRIdURvNmozSzNYbkRLSFZyOHNGZlF5TlJtR3dMQnlyeG9DWERSeUd1VjE0R1lpWnNHVXVvSjRsYWEta0lvZGU1M19NUDl4LVJpMjBwcHl1QnFudUVtUDFiMWlsSUJ3ck5WUEhpQVZtR0ZHdU040gHWAUFVX3lxTE0tcmtpQVhLMjFXRGFZZUdHcFYtY0loX1FJTTZRandUQmJ2OVplSGtSRVpuNjE3R1FsUm83bUlzSTYxSkI1aWREVW82NVdMMXVGSVRCLUh1cXIzV09KOWxXOVBqanYxTTRROVE1M3J6WkdZU0xzdmJLTWFKclZ4OUpQenNIUWJBTjhQcXdTVm1sck5aS0NMU0N5WGxLcGFRb3g5NndhdzlPanJTSjNydUZRalZnRGZCa0Z4c0pwLTA4SGhqSHFfTVdHNlhieDRzLVM5alN6NWc?oc=5"
+            },
             {
               "data": "2026-10-13T17:13:00.000Z",
               "titulo": "O perfil de Delegado Felipe Curi, eleito deputado federal pelo RJ",
@@ -20690,12 +20681,6 @@ export const mandateTree = {
               "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPWlB2N0V1bTV5TWRTR3ZrWl8tTVhtdE9TQkVfVWFfUjJJMk9HN3BkVmZteVFRR1F5bjhhMjV5THN6Mm5BdVF6cGJodmtSM3czRnp5WjVOVDI2RHViYUhqbjhpUENfOExtV05nVEl4MkpLbkpqc2xIanRER2hrYXVSQ0NjSThkMTdBekNF?oc=5"
             },
             {
-              "data": "2026-10-10T18:59:12.000Z",
-              "titulo": "Douglas Ruas é eleito governador do RJ após TRE retotalizar votos 6 dias depois do 1º turno",
-              "fonte": "BBC",
-              "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9wY0NQbVBaa0VoMEwtS0tGSjdwT2dhckhJeUVrcnBfRzY3ejVObDlJUEF3b09kckpRZFNBZWV5emk4dXdXRFhzblRjcFBlcFJSa19hUzQ4NUU4ZUM4SDVGT1NLc9IBaEFVX3lxTE1JY2g1TmdKdjFzSWtRTGREZ09mZUVXcXhwWmkwVUFtZEt5MEtyM2VUTFdSUWJFWlQtYkFsSUdaWTJGXzlBVHZnc253Y0VsM2xIbzRpZGxFRzNnLVZqdi00X0RhdE1aa1VM?oc=5"
-            },
-            {
               "data": "2026-10-10T18:42:00.000Z",
               "titulo": "Douglas Ruas: quem é o policial civil e deputado declarado eleito governador do RJ",
               "fonte": "Estadão",
@@ -20706,12 +20691,6 @@ export const mandateTree = {
               "titulo": "Douglas Ruas: quem é o policial civil e deputado eleito governador do RJ",
               "fonte": "G1",
               "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQaDRlUk4wbjZGc0t2dE5vdXE0YWxtRnlLSlJsbExJYXUzakdqT296TFZYS1M1eldsLU9fVy1TejhMeGNqbW1uTXJKYkVlVmxLWVZQa0ZqTFcxaXVBajhOSVd4WW92bEpSWEstNGJXVHNFMkVxUzZTNnh0YlBGWDA4QkZjUmw3YVlYSzd4SXJ0R0FvcXpIejFhZTU0UzVHSHJ4al9yVUpHNGFIdmZNYUVGOURXNWFrY1drUV9OZGh5dmh3VjRkTC1QVGJLLWpXZXZ2RmV5VDRWNmpSTHVjRFoyTzhTc9IB8gFBVV95cUxPNVBfWVN2bUduOG5oeVZUaHZRQW4tYjhtcFdGb3Y4dXhodUNFN3ZMMDVhR21FdUZHeHR6OGczRGJIV1YtTnRNMnRwS0o2NS1iblUzeVNxenE5ZnYxRDA1OGJSXzBJbnVfekNVT3MxdUZZR0haMmJWTmlRSUl4NGV1al9qTlV1NGVXNUVXSDM1RkFEd0JIN1hzMmxRazJBanhhYngtZU1UUEFfalkzLVRVRlJIejBORjV4LW9uQUdiVDBLVW5rRmt1VkFRVkE0RTlaa0p2NF9vdFk2NjZpVHFQd2Y1Zzc5dmdiQUZ2cmY4bEc4Zw?oc=5"
-            },
-            {
-              "data": "2026-10-09T21:50:00.000Z",
-              "titulo": "Apesar do discurso de mudança, Douglas Ruas é continuidade de governo Castro no RJ, avalia especialista",
-              "fonte": "Brasil de Fato",
-              "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxORUM1TVFKS3ZSbjZaQU5DWUEzM2RPcW4tSEE4NTVPNFdveDl0S2ZIRzJCMjdRVmRfMjVVa3RwcWZoY1RkYzhad2Zla3hCc3ZPNWRVNU9sY2ZhUllRZFZnZEVON2huTGFfaW0xSUdwU3pHWmZaT1pGX28wUm5IY3k1TjFjQ3dHSnV6d3FYSWZrNkhPZnBLRDJFTDhIaE1EbnFqVEdVTkUyYWN6NC14RXBNU2toWFlGMnNROXl3WXlCU0Y2SkE0eC1WMEZmb01JY0RacVYwNENXaXJRS0xvOXc?oc=5"
             },
             {
               "data": "2026-10-09T19:56:20.000Z",
@@ -20726,16 +20705,10 @@ export const mandateTree = {
               "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOeTU2NURnWXRVeVFOSWUtUXdBMGZUNnMtNGp6NmhlZWR6NGZJWTk0aVgxSTJ2ZnZFc1cxeXl3Q29FQXcxdDNkbzBsS3RWNXZiUmVoemgxeFZfbExYZDFoeXY0bHVRYVdKZmhxdnhkeFREdk02RkpSVlBHVVY0RzlBLXQ4UTZnaEZZblZLcDE2dDJVY0xlbXVJc0hB0gGoAUFVX3lxTE5YVnpLRkVIMDVZbUVCajYyRkxRbllsbUpaYmhGOV9zcjR6alJWMGlHQXV6M1JzNllIbm5SZmZGdEc3OUgtMW1YZEJNS1pIVms1OXlnX2t4YmsxOVkyRjZrb0d0SmExVUs1SXc2dzJGd0xQMWNheWVVM0NQMHotal9pMUxVSHlabUhUOGcxN3A4Z2FrU3hEZFdkeXotM3hHNUNYRTZ3eENfYQ?oc=5"
             },
             {
-              "data": "2026-10-09T02:26:12.000Z",
-              "titulo": "Douglas Ruas: por que candidato deve se tornar governador do Rio dias depois do 1º turno",
-              "fonte": "BBC",
-              "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE15aEVHMU83WXMzNW5yd3ZobF9mWXdILTZFRE5fRktCTTZ0czBYM284SFNPcWRnUU1mWjN5ZFFEeDkxNUNnMmxUbnRiVVhkdFg3anZULTREY2M3TVpLT3N2ZHVSWdIBaEFVX3lxTE5XTUpGMDZ4MDN1S0tuemR1Q3pPWjROVHpUdkxZdkZESmxSSmNyZW92cGZjakVkbXYwZWxzclF2RUIwMjJNUk5aak9xVlA2cnJUWnRtcGJUSDFrdDlDMUJGVHZ6RVVWQjRo?oc=5"
-            },
-            {
-              "data": "2026-10-09T00:56:36.000Z",
-              "titulo": "Aliado de Castro, Ruas se diz 'diferente do que se viu nos últimos 30 anos'",
-              "fonte": "UOL Notícias",
-              "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQUEk4WmlZVTZsbFAwMElwcGhlbTlneGx0R3B4eVVrSTZUVkg5X1V3ZDYxZmJ5TDdpcEZpZ3BSVjVZZURPTWFyVU1DaklMUFRHY0NXZjFvT29OMjFMTm5Bb2M4X0xOVXdtNnF0M3luTlJOMFFfZGZfbGdPbFdDYURWd2xRUVlJbFMtM0dVRF9RbXVuRXExaDVkYjd1akpKUFg1N0xpTmlpdUNQS1RxYkZpbTE1VlhKaUJubmNON1pnV1RvZw?oc=5"
+              "data": "2026-10-08T15:44:28.000Z",
+              "titulo": "TSE anula votos a Garotinho, e Ruas pode vencer eleição do Rio no 1º turno",
+              "fonte": "Consultor Jurídico",
+              "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNRzhOb2xyT21RdDZQb29OWWxSQWJNeC1rM1VxclczM01wYk8yZ2JBSXJZZy1STlVlN1hNRjU0eFprZVc4UHhvNEd5WFR2MUYyUFVGV3B5a0NIelFCMWpad3ZXR0dsQXFmUkJyN1JMTnU2Q1lDUngwcXY0R0dOVlVfaERvNzZrcGdBbXVycmtOTi10TTQzenJPdng5a004YkVxN1dsYzZ0dFMwb21p?oc=5"
             },
             {
               "data": "2026-10-08T15:24:45.000Z",
@@ -20744,16 +20717,28 @@ export const mandateTree = {
               "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQeC1kdDNab1J4dV9ka3BkVFRkRFlwUWFWMmplbG92dmw0U09hOGJhTlNWbGdGOVo2UmZQNGJXcW14TllyeTNGNmhTSTljUUVHbm02TEN5RDcyck0wSC0zOUR1ZmJsM3d3NTVYRkJ2aExaak55bmN1WFJ2T0U1Zk9NSk1MWXhjbXgxNUt4QXdxVTFPWVdqYTgyOEpjQVBvS215eEFnSWFKVmFiVmtsUHI5M1JtS1dZNXhVdXN2THZSOUljZmZDdy1adHVGb19pR0QycDBRMHdUNFhFM3ZzcmMwZUxjX0xCbEFLV2ZyalBvbklJY2JPOTJPUVUxRzNkZ0YtQ3fSAZACQVVfeXFMTXBHaFlwelJ1VnFUM0RPeVQwQ3NNLTR4QnIxYXNmVGJWdTdzbm1GUlh4TTRtclczQU1XbVU5eGtGb1Q3N2g2SHE3YVJIWkhkQ2RtVlNVcTN6Z3djTkRKc1dpNXJiaXEyb2FVMWpjeVlRaDY3bU5ZdGVjU0RSMUs0WDRES3pzNHBJY1F6VDB3ZHRaakxUWkdJb0VKLVhTeXZyM3kyWm1TRVVCM2ltT1JjYkhDUWNOdUIyYjF1MW94QVZXUzQ0bm81YUVyRndubWNiLUFsNlAtRzZPWF9kemtyQUV0QU5hYzlJeTg4cURfc2hyc0FTVU1meFBGanJHWnhYT3pBZkpkelJ1NWk1cXJBdVE?oc=5"
             },
             {
-              "data": "2026-10-08T15:12:26.000Z",
-              "titulo": "Aos 37 anos, Douglas Ruas será o mais jovem governador do Rio desde 1959",
-              "fonte": "O GLOBO",
-              "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPUXhoNjR0MlhBdmlqS2huWnVsU3pidElKeFk1VWFvZTh4dUVEV1J1WmwyZTVNSWxRVTFJTVhXQndUeFFOeDU2M0UwNzNlZUpBMll5a0RjcXlTNk9iQU1XS0RraXJ4bEU3bzBxYmJIbXN3UXJrc1A1Mnl0Yk9Za242bmdRREJqMWVQR0dsWnNOZDJmRGpIVjFrTlpkU3N5TFRtRjFROElteWFoZFllbko4eU4wZkt3MlNRSmNkdEtscVZyMk03d2p0dGF3UUwyRF9fUmhyU0p3UE1yMElZ0gHrAUFVX3lxTE5rUGI4QU4yVHpZM3MyX1JfUjl5VDVRUTlJYTFfTmkzS2JpdDFYaGdlUVdHdkFaRHg5T2pvY2xwcVY2UTI3SWs1ZkN2WUF3Y3MxRTdUeVVXSWJkS0w4WlVZUHJhcndDcUtpeXZ5U0Y5M1RtUUVJN0JQcEYzUWl1aGV5eUozNldQaVhVaE5uQnJ6cE5uOFZhSXBxS2x5RjJXRXNBeWJwazJaREdKVUNpeGYzQ28xRlR2VjdkWjJRUXFuR29pZUJsWlZtaVJPTE1KOTJOWUR0VTZONGxWNmdGOTJBdmFsczJRRzBpMGs?oc=5"
+              "data": "2026-10-08T07:00:00.000Z",
+              "titulo": "Douglas Ruas: por que candidato deve se tornar governador do Rio dias depois do 1º turno",
+              "fonte": "BBC",
+              "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE15aEVHMU83WXMzNW5yd3ZobF9mWXdILTZFRE5fRktCTTZ0czBYM284SFNPcWRnUU1mWjN5ZFFEeDkxNUNnMmxUbnRiVVhkdFg3anZULTREY2M3TVpLT3N2ZHVSWdIBaEFVX3lxTE5XTUpGMDZ4MDN1S0tuemR1Q3pPWjROVHpUdkxZdkZESmxSSmNyZW92cGZjakVkbXYwZWxzclF2RUIwMjJNUk5aak9xVlA2cnJUWnRtcGJUSDFrdDlDMUJGVHZ6RVVWQjRo?oc=5"
             },
             {
-              "data": "2026-10-08T14:43:27.000Z",
+              "data": "2026-10-08T07:00:00.000Z",
+              "titulo": "Aliado de Castro, Ruas se diz 'diferente do que se viu nos últimos 30 anos'",
+              "fonte": "UOL Notícias",
+              "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQUEk4WmlZVTZsbFAwMElwcGhlbTlneGx0R3B4eVVrSTZUVkg5X1V3ZDYxZmJ5TDdpcEZpZ3BSVjVZZURPTWFyVU1DaklMUFRHY0NXZjFvT29OMjFMTm5Bb2M4X0xOVXdtNnF0M3luTlJOMFFfZGZfbGdPbFdDYURWd2xRUVlJbFMtM0dVRF9RbXVuRXExaDVkYjd1akpKUFg1N0xpTmlpdUNQS1RxYkZpbTE1VlhKaUJubmNON1pnV1RvZw?oc=5"
+            },
+            {
+              "data": "2026-10-08T07:00:00.000Z",
               "titulo": "Quem é Douglas Ruas, governador eleito do Rio após decisão do TSE sobre votos de Garotinho",
               "fonte": "O GLOBO",
               "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOa2k4UDFMWHhha2c4Y0tiM0FfRFFBd3BLZ0ppTkN2MU5GMlZlTWl1aEhFeFFLVHhSQ1VVcU9qQ0VlUDR3ZWM4S2lwTGpQb21ieTJrRVNrQ1BnS201S1pZbmVaelZHQ05sLWlaTV9SNWVQSmZET3B0UEo3M2JMdEpIMVJaVC0waWhZZy1ua2pTSnc2TV9DY0lXdFE3WFJ0WU5jOVExT2FPdmZqRHpfS3dpY0wtcHM4b1dpQjZwVWlfamNUUU16SHlseDl0bDJhVkpwVmN5S0xwVkt0cXpkaUJUMUNhMGxDU1Z5d2QxTUVBWDZadFphQWV6ODByaXEwNS1NZ0hsWkNn0gGUAkFVX3lxTFBKN3VMcENhWTNIOV92OHdVM3RrWXduNV91WVR1Z2FkQW43bmJMcHVCUEVDeW9mZGxXTGxodFdQS2Jjb2FDNDhsaVNOck4yaURwWURMd053enhYM0hWVDE2SnVTRXRGdDFOWlUySnY5RkdBdlVZeFJOenpXM3hnZkRFTFBXU1J5TjRyaUI0TDRIdWZtMVk4RC00QWVEcHlrdldMZU5WTEpBdl8xRVZ5anl6eDgxeFJjeXVkbDNKTGJqQ094UTZpbFVzX3hXMzBuR2dfcXYydFdBbWs4ZHhCbzZWdWhJaWZzVFFvLTJiRjctbzl1WWEwVkxlU2ZlWk83Rl92TFJIcEhBd1VkV21rd2xDaG55bQ?oc=5"
+            },
+            {
+              "data": "2026-10-08T07:00:00.000Z",
+              "titulo": "Aos 37 anos, Douglas Ruas será o mais jovem governador do Rio desde 1959",
+              "fonte": "O GLOBO",
+              "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPUXhoNjR0MlhBdmlqS2huWnVsU3pidElKeFk1VWFvZTh4dUVEV1J1WmwyZTVNSWxRVTFJTVhXQndUeFFOeDU2M0UwNzNlZUpBMll5a0RjcXlTNk9iQU1XS0RraXJ4bEU3bzBxYmJIbXN3UXJrc1A1Mnl0Yk9Za242bmdRREJqMWVQR0dsWnNOZDJmRGpIVjFrTlpkU3N5TFRtRjFROElteWFoZFllbko4eU4wZkt3MlNRSmNkdEtscVZyMk03d2p0dGF3UUwyRF9fUmhyU0p3UE1yMElZ0gHrAUFVX3lxTE5rUGI4QU4yVHpZM3MyX1JfUjl5VDVRUTlJYTFfTmkzS2JpdDFYaGdlUVdHdkFaRHg5T2pvY2xwcVY2UTI3SWs1ZkN2WUF3Y3MxRTdUeVVXSWJkS0w4WlVZUHJhcndDcUtpeXZ5U0Y5M1RtUUVJN0JQcEYzUWl1aGV5eUozNldQaVhVaE5uQnJ6cE5uOFZhSXBxS2x5RjJXRXNBeWJwazJaREdKVUNpeGYzQ28xRlR2VjdkWjJRUXFuR29pZUJsWlZtaVJPTE1KOTJOWUR0VTZONGxWNmdGOTJBdmFsczJRRzBpMGs?oc=5"
             },
             {
               "data": "2026-10-07T07:00:00.000Z",
@@ -20762,22 +20747,10 @@ export const mandateTree = {
               "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQdzJOREtrV0NiRzkwZFR1aW5SU08xNlhqTDFTZUE3U2JfbEZYRklVeFJUZzIzc05iNkdRaXNQVk8yR1k3TGE3a2dpNnFOeFg4Q3p5S0o0TXlyWjhzN3BMUC1GTWZxNVQtRjdXbkJmeWdDREZ2T0NTWTNPNWpIaTh4QWMtUWxlV09TbnRvX2drOXNhSlhuM1pFZUdNQ054a0ZlTTJ6VDl6am52X2FjTFRMbHhPMDllY3lX?oc=5"
             },
             {
-              "data": "2026-10-05T07:00:00.000Z",
-              "titulo": "Ruas surpreende, recebe 49% dos votos ao governo do Rio, e definição sobre 2º turno contra Paes depende do TSE",
-              "fonte": "O GLOBO",
-              "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPQTVvU1NWTmlxSFdTNFEzZllJLXg2VnN3clBhWXdieVJHX2RsYWVsNk5IOTNZUk5wTXY0dGlVUzZjQW5aU0FFamdoLTVxMURza3dLMnpnN3pUdXFnRlJSdnJnd3ZUdGJlWnkwekp5OHdoaUVIZ2l6bVlGZlF5Qk1ua3N6REM2N0VSZGZvYnVuaHZ2NTVVbWdaRzVYYURpMXlXRlhIQzNHRkF3MjJqUlZYZHhfd3FSTE91T0xDd1BfV1Y3TXFaalZRbWFnRmdWWFpQaVJvQ0E2aWQtUXROYzJsNUhYZGx3YzZ4RmxyQ1FoQWpxM3F6SG01azRMQWxQZlR1SXY0cG92Qk5FNGhrS2xOUGlZLThGZ9IBpAJBVV95cUxPUFBXZ1l3ZEpVYXlqUFpHYzQyaE90c2NKNDlhUUFWQ2lQZzhGNktqODIwTlVVSWJXQVE3OXpGOHdpOGRyZkU1Um1yT05YMTE5UHpMQkdQMl9nOGptaUIyamVLMS1sZGcxMmMyc2hYM1FHYTkweFViWXJRMmZZZlU2US1oMWFNSktVblJianNLRWU2Um5YUU5BRi1xRnJ3S1VVeHVRMnFuZ3Y5b3l5MzUyc3pVYzVFQjFpaDVxeWVhMWNwLVlvdVkwd25CejRQLWVrN1FQLUo0YnpsdVpVSWVMMHdjZFdLcnJuX3lCX3M5dWR4RHdNclUyTzhrcU5HdE55Uzh1MnRjYTFsS3oyTUdzdUJHYWdVMzM2aTRzeVFsUlNuWXc1?oc=5"
-            },
-            {
-              "data": "2026-10-02T07:00:00.000Z",
-              "titulo": "MP-RJ investiga Douglas Ruas por peculato, lavagem de dinheiro e organização criminosa",
-              "fonte": "Consultor Jurídico",
-              "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQVnRpMWJnOF9ORnB3QnFOUkZhekhNNzlmU18tYWMzVkxpX1F5cVppMDY0OGM4aFJUT1RBSHJSN2ZIV1hMZzBYbFRpenY4Qy1hVUZfa1AtWEZLVUxJbXltQ3JmSmF0dTQ3UEVSZmJzX21iZnc5VDhoRl81MzJEdGRHNEZVdHJfamg1WUhXckdaeXQtT1BhVFRmSUJ4X1ZOTmlyQW1EaC1TbXhVYVFIVDdsM2VKVE9HNEVlcUVSUA?oc=5"
-            },
-            {
-              "data": "2026-09-30T07:00:00.000Z",
-              "titulo": "Paes e Ruas trocam acusações sobre Castro e Bacellar",
+              "data": "2026-10-04T07:00:00.000Z",
+              "titulo": "Resultado eleições 2026 RJ: Paes e Ruas no 2º turno",
               "fonte": "Gazeta do Povo",
-              "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPSHhYUUFqd2Y0UXp2eGNQOEszbUlvRndLTzBZWC1sNlc1QjlZOUVvX3A1NllMcnhkODMyNTBJZ2pPZlFOa0dBZ2tBSnl4ZXA3UWZxVldFeGFnc05UZDIxYmVrd1V2aHJiT2xiSFlWNktzSk9TV1k3WEh6eEx2cFdVMlhPS0xoRzViUE84RTBXOGNkcnF1T09fbWpjOFl6SEV2UWFialNtb0lEdmtqOWJhbmVIb0trcGt1UlZQQWtXVFpLZkhlUENLdElMUmROZmRZdEJsVXQwQkdWbTl2M1BqZV9VTHFLdFZDWFhXOWI0THpfQ00?oc=5"
+              "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPTVhGMXRteHFyVFN4Y04yOU1XQXZuT3RnOWR1RFRNbVRlTS05M096ZmhLVzFZSXMtMUhQejNZSG1VRmUzVnlWejlZVGFkelpTRnI4eVAyclE0Vm9mUUx0X1FZM2pXUHUtZjBGVURjMzlIRmRRNVFMTWN3QXVCX0hzbm14R3ZQem5BRG9sQ3B6RlNhYUZOZlZUQjhhSGVhMUxBNUpuZ292LUtCQi1LSnRHS2tucmNweXo2UmZqcmJFcG1oUXc3VnhyT2E2RHRHOHpQ?oc=5"
             },
             {
               "data": "2026-09-30T07:00:00.000Z",
@@ -20798,6 +20771,18 @@ export const mandateTree = {
               "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNemM1cWlOc1AyQjJ4bmNWTkNiUmlJZDQ5WGZGbVU1VmxXSXF4bnlXem9NdjdEb2RaUkk0M1B1dmQ4S201TjZDWmRzTzdTbDdCeFYzM3VNR0JiNUZlaElZSUxDVE83MFhndFJYME04YVFXYmgycU5rTEVCaDZDMHNBcUZKdVhkVkZSTm4zOEZnVVZKVF9tVHNZT2ZWV1NNYzV4X3d2Q0VsSXBXXzNqM0NIWkdWRU5aaXRManlkYzZFanhteTJISjV1NUw4SzFtV1o4NHhfbUVDQ1FEbllxa01VaDlkc3M3QTZ4a1HSAfgBQVVfeXFMTXMxWXFHbi1yNzhtalBQeTRYOHBlR3gyZVhZUnhfX1MtWExESElMYnBDR2dMbnZiNEhXNnVJRDlhS1Q4SnBRZ1BxLVpvOHMxdEZUcWFMSXJoSWFmRS1fclZuTURkbWVOMGc2MG9GeG5RbE9rTUtXeElnMmM3WlNfb0NFd0dTOFUxVkw0TlZLa05BRFpXTW9CeDE0UjN0SUdkLVRUWFY0amZzMHIxN1lFMVZ0cXJVa1lCMFNOMHBKYlBuaGN1Y2RTSHQ1TXE0NzhNN3VvLVJpTzg2dG9iVTZ2T2pLMGw5eWY4M0ptTkc1dVhqdjYza2ZnWEo?oc=5"
             },
             {
+              "data": "2026-09-17T07:00:00.000Z",
+              "titulo": "Veja o que é #FATO ou #FAKE nas entrevistas com candidatos ao governo do Rio de Janeiro no RJ1",
+              "fonte": "Sem Pauta News",
+              "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOdnV6T1d1OG1NQ1VGRjktdFJNTXdYNEllbjREeXNVVVM5dlQxMGxBQVk1aEdWMTRCZmV6RC0tWUQ5OTVDVmNIWXc1Qk5fRnBBVUpJaUVoSEo2bUJrMHhrVUtoNEhDS1k3QzExY3hsVVhiY2lVUjN6Y3BTRlprY0dKT1p3T0RtZWlQdGFtTUNSNGVMcGF0dWVDcDE2eExxb2JmOGpkQ3dGYndKWG5MY2JJTlBwWi13dExTSjlBS3JVSFRPTEtxblNTQ1JlXzM4Y25R?oc=5"
+            },
+            {
+              "data": "2026-08-14T07:00:00.000Z",
+              "titulo": "Cláudio Castro na mira da PF: ex-governador é alvo de buscas pela 3ª vez em 3 meses",
+              "fonte": "G1",
+              "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNa3dDZFdRalZUNUhTWHRmVXkzNkZ5WEIzYTIzeTN5U1FfLVJNdlBoUlJKSURjaUEwUGpNSVltckdab1NxbVhFQXh1bHBZMy1VUXItdmxHcy1US21sVDdGM2hDNVNkdlRVTVRxYnJtdVRvTXBDNDFlSDdTM1VZNl9RNy1PaGQzOV9pN2NrcWNvNFVGU3NXTDRuNUNuRmZWZU9YaXZCM2JhTlQtVGNDMmhCbjJZQkxCWVlNNmpxQVl5UWhiNnp2ZFh5ZXRiSTg5cXdrRXJMa2J0ZnBUS3B6NVJB0gHuAUFVX3lxTE85RkJYWXNLamNIREg5ZTBaV3NpbTY4R29GZ0hsc2dEYzFqTzdrQUZUUUJzTUtrc1VHNHRuNUNNQ1ZXWlVySDZzY25Pb0xuOTRyZmk0RHkySVhPb291TncyU1UtQUVXZ2VBei1yYlV3ekV1bU1OY1h6SHlweDNRM1MxX21ZLUl3Y0ZmVjRxQklCbVZPOF9ITUNEUnp5dmNfMmNLa2dDcFU5SnRrRmxJSnJ4LUUxWVkyQzR1cF9fUmpxTXpINk85RlF2YTB1S21xVVctS2xScnlzYmRoLXJDb3A5QklQcUdmOEVJU3NGUWc?oc=5"
+            },
+            {
               "data": "2026-08-14T07:00:00.000Z",
               "titulo": "Rio de Janeiro: uma disputa num ambiente volátil",
               "fonte": "Nexo Jornal",
@@ -20808,6 +20793,12 @@ export const mandateTree = {
               "titulo": "Promessas de Cláudio Castro: ex-governador do RJ ampliou programas de segurança; obras do metrô não foram entregues",
               "fonte": "G1",
               "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQS09odUpFa0tXM3ZoSENRcVBmbUQtQ2xJcW9fR3BtMmxnU0NFeURUdjQtN0d4WDZ5VnNibk14dWxNTXJQcXlpekpZSFVRVW5sdHJxd2VkZU5iRVZPT1ZLbDYtVWx3b3h3Tk1vOEFrS0RWbGxRbWo1WG8xNGNtN0E0LW4tVmVYOGJrUm13Um9GUVVuY0VEbVhIVW9TVlI3NVlCcl9wLXVwRldYc3M1d1huWdIBvwFBVV95cUxQRHVHSEx5Q1I4RGVVUGZuOGVaMkFxVk5SbzFzMUtKUjJndkJIRHpUdDNGS21VaUpHVERmOU5ZSlZMd2xMOW1BZ1pCVXd5enh6ckJ0TnQyR2hiektQNTBLa2NYczVCNVlZV1RLMEw1TTNRbmxqN0N2SFI2ZUxNWGlwaGRXQWpSOUJxdlNxMXZqWWR3LU1XWDBHdl94SlNVNE5BZjRRemNvNVl5ZHZOYm90dEhBcGhwNi10NG9HN2xUbw?oc=5"
+            },
+            {
+              "data": "2026-05-14T07:00:00.000Z",
+              "titulo": "Rodrigo Neves: \"eleição de Paes é fundamental para a recuperação do estado do Rio\"",
+              "fonte": "A Seguir Niterói",
+              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5CZEFHRWJGdm9Iamw4dVpDY09yc1dMX1NiNTE2OXZSXzE3TUc1S0pRbXlmZjlxWlNOVUdZQlNlVk84M2JzQnBzLU8tRDgya2JSYm14LXhWOVc1VDg3YmtObnFQV0ZhejMyeGJ2cQ?oc=5"
             },
             {
               "data": "2026-03-25T07:00:00.000Z",
@@ -20832,6 +20823,18 @@ export const mandateTree = {
               "titulo": "Governador lança PactoRJ com investimento de R$ 17 bilhões nos próximos três anos",
               "fonte": "Governo do Estado do Rio de Janeiro",
               "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBPM2RiaDNqLXRma0t0d1VaamtJTGR1ai1LQkpHanJuby1WN0hCQUd0aTdkMzh3dkEzNG9ZRWlJcENldEZsNTdyVnZiMFRwcDB1?oc=5"
+            },
+            {
+              "data": "2025-02-24T08:00:00.000Z",
+              "titulo": "Condomínio em Vila Margarida recebe obras graças à parceria da prefeitura com o governo do estado",
+              "fonte": "Prefeitura de Itaguaí",
+              "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOMl9fSnNDTWNPYUZxVXlIcXo4ZDRwS0ZVTW9lTnRCel9QSDR5czdScGFDeTZFaE40Qjd2NUdsVTBRVVlmYTlWSGctNUIwbFM1aS1sMnlFY2djX3BaQ1dZRl9lNkJGU09FdnFST05mNUhsS1NyVTBzN2VqVlNTYkRCVEs3R2lzTS1FdTZ6b2pUeHBkTlRobkd5QTJnT0xCZzNzY1pYU2QzZ1BZM0l1TVBDYUpIZW1VdjdYUy13alNVS3ZFQ1hTMjk1T00wMmdVRmJXajJCVnJwTmxWUQ?oc=5"
+            },
+            {
+              "data": "2025-02-02T08:00:00.000Z",
+              "titulo": "Eduardo Paes capitaliza Pan-31 e disputa bandeiras de Castro mirando 2026",
+              "fonte": "Folha de S.Paulo",
+              "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPNk5WaElON2JIY3VfZmxWUHk5RWh1WDdma2t1YjdfQm9JM0xoYXQ0ekdscjNaUUR5NkwtWWdQWkx6MDhxZjBPVWhuTWpWWWZkMXlkZkFJYUxwNWMyTnBKU0ZsV2JtNHg4Q0JQVHVBNjNBUjV5ZXNzLS1HYmlLQVlpandIVG1sYlZOWmNJX1pJOXRxMW5aeWQ5S2dJMnhiYTBzVGlKcXlWXzBDdVNSVDFLWlZDVlRhUUgzTTZVc3drSzDSAcYBQVVfeXFMT0FUXzRvcExqdVZ4TS01Sk5qUnhQTmdLSVcyQkdUaXh4VFJScWc2M2YxbGNzVFluWDVpVGN2akdrX2VSeG9RUUJPeVE3UEgyYTg0RHN2ZWpkLWt1MDM2dUZ5aGFmUFNTY0ZVekU0Y1o1QXkyZUxGdU5FbkJFZGliUE9ONTFUZ0J1aXYxNHRRRG1aeG9scVlmZkZVb2pRYU5kLWdFdFFHMm9nRTluX2tNRS1RQnZQRk5HVi1hX2JTZ3lmdE00ckV3?oc=5"
             },
             {
               "data": "2023-10-12T07:00:00.000Z",
@@ -20862,12 +20865,6 @@ export const mandateTree = {
               "titulo": "Cláudio Castro toma posse no Rio e critica ‘boatos maldosos’; leia o discurso",
               "fonte": "CartaCapital",
               "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNMUtJTjVOaUpmSDVVS2pqTHlpZ24walNxdm1BbkdxMmRQV09uSkxJbXhaNWdTREp4ZGhHMEtvUGk2SUZmLUtlaE5WTE9CZUFUWUQzM0lLMi1QZk9BSVJ1ZnQ3bjY4eVJzeG4wSmFycGVDWWhDZXlRY25remFvWk01dDZnZzNLSUhGSFNfYWgxeTg1MjVmeXV5aG02UjBwQ2hEMjNFSDdFVEp0eERfbzVQM28xLWtqSzg?oc=5"
-            },
-            {
-              "data": "2022-10-07T07:00:00.000Z",
-              "titulo": "De reforma administrativa a Cidade Integrada no Pavão-Pavãozinho e Cesarão: veja promessas de Castro após reeleito",
-              "fonte": "O GLOBO",
-              "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPNWhiTWxpbEZpaUd2VzlBTjZTSkhHSDRHUmI5QWxiTmo2QV8xVkhGdkxubDlTYnRxLUhYTldGMnJCWXNLcXhpbkl1cndHUU9UUHhzdWxTUFZqemtnSHZETWNoX0xkU1lUSGUtckx6VlFlU01MakdIMUcydS0zS0JsMzkwQUg4Q2hjWHlyanMyakE2aW9CZmZ1UjZiVFNUc2p1OG1HbzdlSWlEamo3SUZla2ZseUxmcmJBa0xERmhaUDc4Nnc1bmtEV2tqSENNNzlWaXNFdlBwc0gzc1lOaVVDT2lTaHNrSHEtMmtWYWpuQjZ6aTB1dnNr0gGGAkFVX3lxTE4xVEdFU0pOQnVrNGE2SEZRRkhzbjV3bVJvd0JvaC1SRHRpZFRMRmRHaTBkUmFoX3ZCeFgwTm03MWhHOXd2VEp4MzNYWmpaQjd1NU16Y0ZHTnZLZDJtd1JIdnFNNEpqU3VucjRZZ3kyQ1JfMjlCUFltdE1MQ0JTOHdDRkZLNFZld01TcnFETE5neXdKSG9UUGxKOFluQ0YwWlFiVzhCN0VYYzdmX0FDc3U4NUJVTS1md2lxZ3EwZ09XbjVGYWxNank3NDNtLVg5R2pVak5FTlNST2dPSUZMcFgzcUpzYzQ4X3dpOG1jNUFJOUdWMjE4ZEJYd19DVjFSd0lheVVoX3c?oc=5"
             },
             {
               "data": "2022-10-04T07:00:00.000Z",
@@ -21017,6 +21014,12 @@ export const mandateTree = {
               "descricao": "Desde o início do mandato, o governo criou 15 novos abrigos para acolhimento de mulheres vítimas de violência. Desse total, seis são unidades regionais, com 120 vagas e capacidade para atender mulheres de 30 municípios. Outras nove unidades foram implantadas em âmbito municipal, somando até 140 vagas.",
               "atualizacoes": [
                 {
+                  "data": "2026-08-10T07:00:00.000Z",
+                  "titulo": "Efeito Tarcísio: Cidades com mais feminicídios no interior não têm Delegacia da Mulher",
+                  "fonte": "Revista Fórum",
+                  "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOSldSdUNLVHNNQnhUOWZIMGltWHN5aUdMbW9XeWIyYjdacTRwNWpXSVJFRjNzby1KeldqejJQV2stSmN6djR4RnB5Ml9IUjl4cldiT2VJV1RtYTZZRi0ybVRSRXZIT1V0YnczNENpaE04TUgxYTVOVkdOeEZqdjlueHFpWTRqV0dSb3c?oc=5"
+                },
+                {
                   "data": "2025-12-17T08:00:00.000Z",
                   "titulo": "Governo Tarcísio deixa de investir 70% do orçamento de 2025 destinado ao enfrentamento à violência contra a mulher em SP",
                   "fonte": "Brasil de Fato",
@@ -21033,12 +21036,6 @@ export const mandateTree = {
                   "titulo": "Auxílio aluguel dá segurança às mulheres vítimas de violência",
                   "fonte": "Correio",
                   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZWZIQjhBU3VwcS1keVRUTXVOdF9UNmpWZldPdjBxR3ZsbXc0S0F1ejB1bzBvRm1FZXRTN2l1RU1iQ0JORXZxY0c1NENlNnRnSXdrNV9mcDhPc3lVSXBlM1hwZWM1YU02bExGWWgzcjcyM09BcFRQR0NjSzNnakhySENrLUc3LTdjZU5SeFkyVDBSdjJVaTVvOU4ySHVzNlVzeHVleGpwWkFNbHZhenpEWNIBuAFBVV95cUxOT3Q3Tng5c0dNRGVLYlBRMHhLZHFiMzZvN1g4enVSaTNoVDB6elhQQWZabmdsdDBaUWZRZVJvM1otanhrSUdHRkEyQk1Xa2FUMjBNSzc3eTl1Z29UeFVOYjJMT1ZjeTNscDFoZm1hcmxkUllJWGt1UlhXV2RBNGlIb1pQZWpTVUk4NGk3aHJwdlM4U19PQVBjeUkyYWRzVjZwa091MlZRM0Yyd3ZZVzZjcVItRVJXWmha?oc=5"
-                },
-                {
-                  "data": "2023-03-08T08:00:00.000Z",
-                  "titulo": "Prioridade na campanha, mulheres viram tema secundário no governo Tarcísio",
-                  "fonte": "UOL Notícias",
-                  "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOdHR5UlN1MXVMeFp3ZWktVmVpTW1OU3pkZ25EbU9vMGdCT3JLZXZ4WndxLW5WN3FkaldSdmJpSjVMb3JzSjZjel9VY3RTR2lGVzQ1dXlmTkJvWHFhWk9qOVNjZUxidE9lZXc4SjlkbWs0VU9VaUlCcERCdFlIV19sTGR4N0xxaXB1ODY2UW13WVJWSnpWWXBvUXRMdUp3RmhFYkdMSk1VMWdyR0JHTW92VUdsVzAtbTljczZIS3Z5azdkVzNtdjlnd2d5X21ydzRLSmI1Ym50R0lZYzQ?oc=5"
                 }
               ]
             },
@@ -21071,7 +21068,7 @@ export const mandateTree = {
                   "data": "2022-08-30T07:00:00.000Z",
                   "titulo": "Tarcísio visita o Brás, no Centro de SP, e promete contratar 10 mil PMs e 15 mil policiais civis no estado",
                   "fonte": "G1",
-                  "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOTXRRejBtbjVRUFhJa2dDVnlXUF84Tk1ld3VHZGp5RG5Ed1V0VTItU1RwcUhBTHJTWnpjRV8wR1NpYjV1S2pxX2lYSFJvczZEaFpzN2dlc2FpNXIyZDdGVnRWMDZ5WDdibmM0Rkx1NjVJeXFFSUhobms5R3JIdmV5WFRndXc1dEY0Uy16TVFTMGpCdTR5cWhNQ2lLVDMwTElELUIwSWdzNXpINHJGdnVsNEM0R1F5aFRkdXZEU1RPc2ZNeHdHOGlCSDgxZjZLLVVoLUpocVo2bjRyalUwemJiZnIxeHo5TjZ3OHlMRzhwNi0tYWFlaVHSAYQCQVVfeXFMTXplWnpQTHVBazNodUlLbDR1NEZOSmpsa1Z6ZGhBc1kxeTJXUS1NTHlYc0ttc3RwOHhBallTMF8zU1VvRTJnemliRkxfRHl2QmxQUDdKMzJUTTZIUEotUDBKYmZYT0U5X2JKT1JBVVI3YllYNVg5NE9jazRJcXI4NXNmQzRkOEp2OUlkSEhlTDVlMy1uX1VfSFgxZnRiSThabTV5SldUSzFqRG1wejZ4ZkxSeFE5NUJSd3hvTUZVaHJXVVlMZEVyd2JQSFF2YVNmcEpMYWpsYXUwak9OYTZ3ZlZEQUJiRndRRjFOQ3VMdlJaVk00VUt4YUxCR1VTTkNBc2NZa2w?oc=5"
+                  "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOTXRRejBtbjVRUFhJa2dDVnlXUF84Tk1ld3VHZGp5RG5Ed1V0VTItU1RwcUhBTHJTWnpjRV8wR1NpYjV1S2pxX2lYSFJvczZEaFpzN2dlc2FpNXIyZDdGVnRWMDZ5WDdibmM0Rkx1NjVJeXFFSUhobms5R3JIdmV5WFRndXc1dEY0Uy16TVFTMGpCdTR5cWhNQ2lLVDMwTElELUIwSWdzNXpINHJGdnVsNEM0R1F5aFRkdXZEU1RPc2ZNeHdHOGlCSDgxZjZLLVVoLUpocVo2bjRyalUwemJiZnIxeHo5TjZ3OHlMRzhwNi0tYWFlaVE?oc=5"
                 },
                 {
                   "data": "2022-10-22T07:00:00.000Z",
@@ -21162,28 +21159,22 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNQzdQRlBVWDlqUDdlejV3LXl5R2lGVmNNSVVlSl8ySjlnWFFLTmlzcVoyaGhDRXJDdjdOMnluX3luQU9WMkdUak82d2FvcFozNENRMzV4NTRTZlM5Q3UxS2tJSzBzUmpuYk5lTFMyc2VDVWpabk9zQ2RZZkRZanhjWjJBRWVmZHFEOGp1OTBDcGlXNUJRbVhodkpoeXEzSE9McEJwOEZIZXdwdUFFa3YyMVE5djc2NHZFUzRGTUdBWkxXS012anFEU3pMX0FyeEthV1dKZlJSQ0NlZ2_SAeABQVVfeXFMUEVwZ1VZT05IN1VwYTQ4UzVPS0JfaDNyRERUWGdDcW1GcHR0OUZrV1dyWmVPZ2kyZWY4NWs1Tld2X2VDdWJaMWQ2Ql9sTjhoc3BWZ1VtYV9tUVhEanktU1JaRTJldUlDUWhrRWxnSXRweUdnd21wX2U5V2F2X1JxWVpOeHpFb1lfSjFIbzVvSDV3QjVfTFBUdmJOejlWTks4bk4tdjU0N3hNWVEzdUN2UWVPVTdQSktNQ2xxMGhWcDFuZmNoWmduSVpTZFgtRFFrNHc3X1NuZjRSNXhjd0VOV0g?oc=5"
                 },
                 {
-                  "data": "2025-04-16T07:00:00.000Z",
-                  "titulo": "Governo Tarcísio quer remoção da favela do Moinho, em São Paulo",
-                  "fonte": "TVT News",
-                  "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5PNEVILVBQMWRqRExzUGNpMF9iSUtXVVhUVzhOSHhidkd0RHJIMXdDMkdtNWNWMWdWbXdsenVFRWJGZFZxQmRuRDJJMXBjeElxNXBGbm5PQVlrNjNFRUlIRGVtVUN5SVJFTUJyeW5jdWNuR2Y4U2xodkV5algxQQ?oc=5"
-                },
-                {
                   "data": "2024-08-26T07:00:00.000Z",
                   "titulo": "Avança projeto de R$ 4 bilhões para o novo centro de São Paulo",
                   "fonte": "Guarulhos Todo Dia",
                   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOWXllUUZ5OGYzWURsVHF6SGlveDBPbk9iRTZ2cC1uWklVUFZnaE5JYkhsSThvNllsRWV0SkI5ampfQWgyaWt0dnJrc2dOVnBRSUl0U3dJX0l5Q3h6NE1lNmJnbFNVN0tPblpWUlFWUzhUeTBYNWtObGxOOWd3M0ZFbGtySGNXTFRSNVJURW1SbmYtVzFDUWZoS0lWbGotQmhObGZv?oc=5"
                 },
                 {
+                  "data": "2025-04-16T07:00:00.000Z",
+                  "titulo": "Governo Tarcísio quer remoção da favela do Moinho, em São Paulo",
+                  "fonte": "TVT News",
+                  "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5PNEVILVBQMWRqRExzUGNpMF9iSUtXVVhUVzhOSHhidkd0RHJIMXdDMkdtNWNWMWdWbXdsenVFRWJGZFZxQmRuRDJJMXBjeElxNXBGbm5PQVlrNjNFRUlIRGVtVUN5SVJFTUJyeW5jdWNuR2Y4U2xodkV5algxQQ?oc=5"
+                },
+                {
                   "data": "2024-08-27T07:00:00.000Z",
                   "titulo": "Veja as fotos do projeto escolhido para ser a nova sede administrativa do Governo de SP",
                   "fonte": "Portal do Sudoeste Paulista",
                   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOc0ZubE1zS09SZXBreHpTNDVzUW9vU280UWxtTTNxMXpPWWVtT0pqem1CU1lvQTBGREJpVTVGTTV2N2NSUllxY3ZSUlo1U19BR0RXaDc2YzN1TWdPUFNSNTVwMUFVOHEyTmFjY1VYYnNIMjNiNXRBelBUSWhiQ2VuZVBidnphT2FEXzh2S2xDVW8zNFVaLUV2UEpnWE5wb0dOYlNxcUFFTkwzdWduNmFnay0wRlZPQ2NHRXlmMA?oc=5"
-                },
-                {
-                  "data": "2024-09-27T07:00:00.000Z",
-                  "titulo": "Secretaria da Justiça transfere sede para Campos Elíseos, em primeira mudança da gestão estadual para o Centro",
-                  "fonte": "O GLOBO",
-                  "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOMHB1SUZaVWM2RWVGNldIU1VlVmNzYmx2ZmJBeTJLbUF5VFlPZy1XWGl2UWRCWWNrWm1JNkd0T21wUmpqUHJ3cnJ3SjdLOE5aWFFfMWtyMnlxc084R09NVTRmNE5VXzE1bmh2TlRKcloybFQzTDUtVUNGQ2lwdnNQMm1kMVVqUnUyV1lRb2VMSmg3aXEzSVdSUjBqUUpUZlh5UzdRdllSSGkyWFJHeTdRV2pFVzlmUHRWdTBWcndXby0zYktSN2RCRmhqMkZycjZYekJBUGRLTTBjcFdEQjlUb25JbjBzRmdPTW5wR2J6WUMyaUlDTndUZHdzU0w3Z1VBcVlmMFNuTdIBlgJBVV95cUxQUjFqdmhJajROUWQ4Z3JMYmZSSEQ4R18wb1ZCOUJZVEhMN3ZpcWF1c3E5UmZEaHdCMDE1aWkzNkFMZ0xTRE5PYjdJeVZMOXhYTlRYdEZCZkxJV2JyMEU2Q2FRV3dqSngxSTM2d0VIZzdMcHpFaG1xbldPOXRNdUdpalV3VV9YRkdJVFlMUHJxVUZETjFma3JFOTVtd2lPOUljMW9pRnBvZEV3SHl1STVubHJaMWY5cnpFb2VSbF9wa3FqMmdYam1Ndk8zR3ZuUHpjOVdReVNJN1VUY1JoMmtVaDQwcTFuM0UxWDRCR3NsMzg4b3l5dFF3MFFmSC1aVXdadDJ2VEJTblJvb2xheDlNQm5oSHlWUQ?oc=5"
                 },
                 {
                   "data": "2025-04-15T07:00:00.000Z",
@@ -21337,6 +21328,12 @@ export const mandateTree = {
               "status": "nao_cumpriu",
               "descricao": "O ritmo de ampliação da rede Bom Prato pelo atual governo não alcançou o nível anunciado em campanha eleitoral. Desde o início da gestão, foram inauguradas 26 novas unidades, sendo 22 móveis e quatro refeitórios. Além disso, para 2026, está prevista a implantação de um refeitório de grande porte em Registro, que dará suporte à operação de três unidades móveis destinadas aos municípios de Jacupiranga, Cajati e Sete Barras. Depois da publicação desta reportagem, o governo afirmou que planeja inaugurar outras quatro unidades móveis para atender Santa Bárbara d’Oeste, Nova Odessa, Monte Mor e Paulínia.",
               "atualizacoes": [
+                {
+                  "data": "2022-10-20T07:00:00.000Z",
+                  "titulo": "Para combater a fome em SP, Tarcísio promete aumentar Rede Bom Prato",
+                  "fonte": "Agência Brasil",
+                  "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQUW52amhyTm5qTmR4OVBMcWNVRGVzSFVlcUVMcXI1UXU5S0FlcVlzbEhUTUZkaGZUSlRnaWpuUVFld2Jid3pfci1zaHJNNERkQUI5bFJkRGpSRGhHZjFKcEg0Q0ZBeXZkcmhNZVJiVlZfSW80SmU1Y2lGNko2SmdENFZ2NUdFRHNfSzhQVzI5RzNlRF9vQTlIWXByUXRfYURNZW0xdzNxUzR4TEVEZXFUSGJnUzlHV0tXSExWYU1aVHg?oc=5"
+                },
                 {
                   "data": "2023-02-01T08:00:00.000Z",
                   "titulo": "Unidade do Bom Prato Móvel voltará a atender o Jardim Varginha",
@@ -21537,6 +21534,12 @@ export const mandateTree = {
               "descricao": "O governo regulamentou a Lei da Liberdade Econômica em São Paulo por meio de um decreto publicado em 2023. No mesmo ano, lançou o programa Facilita SP, voltado à simplificação de processos para abertura e funcionamento de empresas. Segundo o estado, todos os 645 municípios paulistas já aderiram à iniciativa.",
               "atualizacoes": [
                 {
+                  "data": "2026-03-17T07:00:00.000Z",
+                  "titulo": "\"Livre iniciativa\": Tarcísio veta regras de protocolo antirracista",
+                  "fonte": "Metrópoles",
+                  "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPN3BTMVpUb3dsbDhlUTZOZlZ2Q2d4dzYzQjNaTDl6ZDcwS0pScGhoQjhtX1JSZ0RreFhvQS16bjNYenV5eGlNd21jZXJoOXJzZlJadGJkNkpFWUZSaGprT2xnbHFPRUxyMkhmaGJweENMRjNmaXd0Y0w0b0FDRmQyaDBwSDBjZzFpMDBlTVJ1Q09ZLUkzQS03Q2ZMRmVUVmlKRXg0LUpMWXdweWwtWnM3QW5US29rNUJy?oc=5"
+                },
+                {
                   "data": "2024-04-03T07:00:00.000Z",
                   "titulo": "Prefeitura de Rio Preto adere ao Facilita SP-Municípios",
                   "fonte": "Prefeitura de São José do Rio Preto (SP)",
@@ -21547,18 +21550,6 @@ export const mandateTree = {
                   "titulo": "Aprovado em 2º turno projeto sobre liberdade econômica",
                   "fonte": "Portal da Assembleia Legislativa de Minas Gerais",
                   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxONmVCRXF6UGFkOWl0REl1S2lsc2FNOGRfZUFkQmZfN194Zm4yUFNtNFNUZWh1M2dDVTVLY2FCQVUxTFRrU3pwRjNURGxzRHVlY2VLbEE3OE1NLXFzUnF2MDk1WTE1cUc3aF80dXdJZWtMMjc1MlpGNDc4NmdHQkhnT0V3YWc0OXNsdHFacHk1SGZ5cVp1UnltTjhZdXk4MTNpM0FkZEs1VjVqbkZzQTBEclpCb21hR0dVOU9DY0kxX3Y?oc=5"
-                },
-                {
-                  "data": "2026-03-17T07:00:00.000Z",
-                  "titulo": "\"Livre iniciativa\": Tarcísio veta regras de protocolo antirracista",
-                  "fonte": "Metrópoles",
-                  "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPN3BTMVpUb3dsbDhlUTZOZlZ2Q2d4dzYzQjNaTDl6ZDcwS0pScGhoQjhtX1JSZ0RreFhvQS16bjNYenV5eGlNd21jZXJoOXJzZlJadGJkNkpFWUZSaGprT2xnbHFPRUxyMkhmaGJweENMRjNmaXd0Y0w0b0FDRmQyaDBwSDBjZzFpMDBlTVJ1Q09ZLUkzQS03Q2ZMRmVUVmlKRXg0LUpMWXdweWwtWnM3QW5US29rNUJy?oc=5"
-                },
-                {
-                  "data": "2023-09-26T07:00:00.000Z",
-                  "titulo": "Governo de SP lança programa para agilizar liberação de licenças e alvarás",
-                  "fonte": "DComercio",
-                  "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQd2RGdnlKRF9LRnh4NmdkU20zNk9MWnhfZmFrbThmWVNQYmY1M3lLbDA1MTF1WWVKZFVQaEFNSWlHY2VxaDhNMm5mY3QtR1QydFVPelpQV2RmYUIybU1BSmxCTzJPMVctSlE1a0hhV25LYnhDd3dHdVk4UWNLRTdzWGtmWGVMbG9XZEs3TjJfcFEzc2Jucy1IWGhDcEZKU0Y0cVp3QmJLcmpyUDNyTDlKc3l3?oc=5"
                 }
               ]
             },
@@ -21652,10 +21643,10 @@ export const mandateTree = {
               "descricao": "O primeiro reajuste das tarifas de trem e metrô da gestão entrou em vigor em 1º de janeiro de 2024. Assim, durante todo o primeiro ano de mandato, em 2023, os valores das passagens foram mantidos sem alteração.",
               "atualizacoes": [
                 {
-                  "data": "2026-01-03T08:00:00.000Z",
-                  "titulo": "Até quando é possível recarregar Bilhete Único sem reajuste em SP?",
-                  "fonte": "Folha de S.Paulo",
-                  "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNNjlIcU95UGFObktFZlpVRXFvUnp2WXRLUkRKMkVmRUttNWo4VUNIM0w4Q2hablVscmZLakl5UE5YTktTQXc4SUVEcF9JWHhDbVk4ek95SVhHTV9sT2E3aVBtaDdWdjZhaXJ2OGtfRERhaWhfNW1KLUdKR1dHNFVpYmVwU2c2ZHBVSVRjMGJIalBJT0JYUkFfdTBXTGtuR3pmTEdVQXJlOUZKRlRnbi05WVVGd1JPMl9hNE440gHAAUFVX3lxTE9qVk0zS29SQlJFVFhOSXJheDVaSlZ5ck03cThqMVZ2V1Nscy1fUF9Wc3Q3RTV1cWJ0NlNIcW5hbEZidzlvUlFtbVBaWUpWMTBxZThONldWa3FYM0Z3Skt4SnJFY2lkYVJQSmQ4Q1FMdmt6UkxjRGVsbWZ1TEpzWFBWVWY0dGpOVnZKQXZ0OVowTHFpbC16dUJqeTA1VzB2dHJycWdIeUkxU3hmVnNlR243UVkzT3JHYUxJS2VnbE5HSQ?oc=5"
+                  "data": "2025-12-18T08:00:00.000Z",
+                  "titulo": "Tarifa de Metrô e trem vai aumentar em 2026? Veja o que disse o governador de SP",
+                  "fonte": "Estadão",
+                  "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOYndaeEQybEtoTVNocENMejFSYnUtUTdiQmNncW9PSTl6SUZiTHoxQzQtczdGcVY5dUg0bU5yNHdLV19LN1JLZGs0bE1DUW1EdFBDZEdLdWRRc3pfV2RDYU1QRkRVMHE2Skg3MTZVU2tMMGVQd1JIRmZBOVU0S0NqdDhYQ01NNXdHQzhKUVRlT09DSlNUdm1jSmZnNkxXZm01bVRtTWxTRWVBSFdEYU5NRlpjU2x5RTFaTl8yTHZ30gHDAUFVX3lxTE1KWmxndGZNUmRzeXFFLWFmcEZJbTQ1ZmZDSzU5Yk5CeEFtY0VmQ2hWTjNKaGZaQi1fTFYyMWxsaDllZTdZZzdrSWNtb2VINmRiV1BxRXZVMWJUaXZpX2xHWmlOSmhuV21xS3F1RTVrWkZwQ3RTeW90b2dDdW8wdkFVVlN6cDlOanJCOW9yZlQyNmRWNWE3MnB0amd4bmx5UV9WT282a2RsTzlORWMxYUpqSFloVHBsSUtFTUhyNnlGOFFvZw?oc=5"
                 },
                 {
                   "data": "2025-12-18T08:00:00.000Z",
@@ -21670,12 +21661,6 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNc2NnZkZFanBzNk9iS3Vka2h2UXlQaS1MbEpxektCR2RjeFZ3M0ZSWkVWVjUxZlNDeGk4RWNSZW9wVHZUNXJSZjVtOHZWUEEtYXRYNVd0ZUNkS2pFWnE4dWE1NFdXWVR4RExCZ3JuMGhFTTVubnprWkkxUzhYMjFXbk56Y1B0VTRwTlBHbktuUV9sSVExRTNnOUxWVTBqVktCdzl3?oc=5"
                 },
                 {
-                  "data": "2025-12-18T08:00:00.000Z",
-                  "titulo": "Tarifa de Metrô e trem vai aumentar em 2026? Veja o que disse o governador de SP",
-                  "fonte": "Estadão",
-                  "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOYndaeEQybEtoTVNocENMejFSYnUtUTdiQmNncW9PSTl6SUZiTHoxQzQtczdGcVY5dUg0bU5yNHdLV19LN1JLZGs0bE1DUW1EdFBDZEdLdWRRc3pfV2RDYU1QRkRVMHE2Skg3MTZVU2tMMGVQd1JIRmZBOVU0S0NqdDhYQ01NNXdHQzhKUVRlT09DSlNUdm1jSmZnNkxXZm01bVRtTWxTRWVBSFdEYU5NRlpjU2x5RTFaTl8yTHZ30gHDAUFVX3lxTE1KWmxndGZNUmRzeXFFLWFmcEZJbTQ1ZmZDSzU5Yk5CeEFtY0VmQ2hWTjNKaGZaQi1fTFYyMWxsaDllZTdZZzdrSWNtb2VINmRiV1BxRXZVMWJUaXZpX2xHWmlOSmhuV21xS3F1RTVrWkZwQ3RTeW90b2dDdW8wdkFVVlN6cDlOanJCOW9yZlQyNmRWNWE3MnB0amd4bmx5UV9WT282a2RsTzlORWMxYUpqSFloVHBsSUtFTUhyNnlGOFFvZw?oc=5"
-                },
-                {
                   "data": "2025-12-29T08:00:00.000Z",
                   "titulo": "Gestão Tarcísio autoriza reajuste das passagens de metrô e trens de R$ 5,20 para 5,40 a partir de 6 de janeiro em SP",
                   "fonte": "G1",
@@ -21686,6 +21671,12 @@ export const mandateTree = {
                   "titulo": "Os aumentos anunciados por Nunes e Tarcísio aos transportes públicos",
                   "fonte": "CartaCapital",
                   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNWVhXN2RuYkJKTW9kUUd3MmQwV3hHQkNNMXlINEh0QWNjemRRTy00SXcyb25RV3J5Q3VTUnBSZ0dkNHMwNFdMVkpuOU8zZlNGZThWS25xVlhjT2dJTXpiZFJWejJ4c2lqRFljSmp5SVhzb0dQaWJ3eVRnVHAwM2lmd0xPeTUzMVpZaEkxU2ZlS0N6S28xcnZEYXJDVmlQRElnUU1JemFWSDI3QzZCQUo4?oc=5"
+                },
+                {
+                  "data": "2026-01-06T08:00:00.000Z",
+                  "titulo": "Nova tarifa de ônibus e metrô pesará no bolso, dizem passageiros no primeiro dia de reajuste em SP",
+                  "fonte": "Folha de S.Paulo",
+                  "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQeC1COWlLaWxoT0NveUo5RFM2U204RWYwOWg2RzhISGJoT29KWnR0MVNBVHV2NC1MUlo2cHpwbWlnX3ZOWUZ3cWEyWjJZX29hdWx0U0ttUzZ4QWlNVDloTFhITWFJaTl0R1VsbFFORG1sX3hVZ0szOFZndEtPMHY5b0lCdE9ZRHVzUTBfNmVyWG96NGQxcmVfYXB1TW5NZXNwSldqejJsLXZkRU5uV0x1VTM4anc5QVRabVM5YWlQSnVrMUJqOXNDS0tVdmhNVmp6R0FVX3JROHNkTi02M2FJVmF2RF9ZUdIB6wFBVV95cUxPLWtNRjhxN2kwT1JIbWZUMkh6V0VlWlR2cEEybG1BYzlOSGFrUjZHZDNYbXl1SWdFQ3N3YTNvSDJObU50MkpLVlluX0EwQ2VlRzRpYjBibkVZUzBSUnQ2QzNib3pMRGZrLXN1cEVVb0QtdG9XLXI1a2ZhQVFXM3ZDY1U1T09COXVYck1WN0dFSWJkSkE0eG84RU5oSGNiVmluNjJJcjlQRGZIV0VHRkl1SVlaOTd1M2lyYlV5U3E5ckYzWXFBT3RsR2dNa2Q2YjlMbFloemZJenVOMmJ4T1JZclUwbTB1V1lPdk8w?oc=5"
                 },
                 {
                   "data": "2023-12-21T08:00:00.000Z",
@@ -21703,10 +21694,10 @@ export const mandateTree = {
               "descricao": "As obras de expansão da Linha 2-Verde do Metrô estão em andamento. Segundo o governo, o trecho entre Vila Prudente e Penha, com oito novas estações, tem previsão de entrega até 2028. Já a extensão até Guarulhos, que inclui a futura estação Dutra, tem conclusão prevista para 2032. Para o trecho Penha-Dutra, o estado informa que uma nova tuneladora está sendo montada e que as cinco estações previstas já estão em fase de obras ou implantação de canteiros. A expansão da Linha 2-Verde foi retomada e as obras avançaram, mas nenhum dos trechos prometidos foi entregue até o momento. Como as conexões com a Penha e Guarulhos ainda dependem da conclusão das obras, a meta permanece parcialmente cumprida.",
               "atualizacoes": [
                 {
-                  "data": "2025-12-30T08:00:00.000Z",
-                  "titulo": "Escavação da expansão da linha 2 do metrô de SP é retomada; vídeo mostra tatuzão em ação",
-                  "fonte": "Folha de S.Paulo",
-                  "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNUU1xd0FrcmJmUnJzR1ZJLVVxNlpwTkxtVzlGMXl5bUp4T25teXlhTEtYTWVhRHpSZUtpUlhMdjA2UnJqd2FfcDJUN3UyZEV1MHMxeTN4b0VtNnRWV1dVNjVjX21WVmVMaUM5NFd3N0U5YnZ0bWNuR3RaZ1RTTkdZZnhjRWdxNnp6bDlPRDQzSVFaRlJPQ1NKVDhMeUh6Sm1PNEgzSVpPOFFIUVFBVTRhSURXLTlELTMxYXlkMmtQUzhQcW9lRGpONGtVeHFCd0dFUjNtc2FUTHfSAd4BQVVfeXFMTk5vNDc3dmZmaTVpZUh6bkwyUDBIMEtaN0h5clRMU3BMcTZjS2JiaUZBSFRKX1l4cXBscXVXRENJZjhHODVPREM4a1BISjZOTDV3QzR0YlEwTlRZSGNaQlFKWmpnYjJwdngzeFVYVGlZUVB0dFBmTnE0Y2dfcDlTOHJvZkhSbDk4bExibFYzenEweUgwUlc1TkhFT21VVFI1V0Rkb2RDUDYzaDh4ZzlORjlZYXRRN1dCdFhpYmQ4ZmxKZ3Q2VXd0Y2dTS3FFWXZ0TFUxZHQyNFY4V1NtTWJn?oc=5"
+                  "data": "2026-10-16T18:26:00.000Z",
+                  "titulo": "Tuneladora começa a escavar Linha 2-Verde rumo a Guarulhos",
+                  "fonte": "iG Último Segundo",
+                  "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNHN1amVQdVpoQVpxT091T3BpV2dSc1BSNE5zQVRHUFMzck01NmxCVV9rMzZHdXhHZDZxMjlydnU2VUhvMF9LbE5YeE81MmwwRGNZdDViejdsNjRwU0VUWTRJY3k2UTU2QW1pYUlQRGhWdXpxcWlWOHEtcGtNSWhpSVJFZ0FhcnE3WHUxV05hN1gtR1ctVGlRaTFEUkR6SjM2SlJWVWtCalJVV3ZmNk5Jbzl4Mkh2Z0nSAbwBQVVfeXFMTXRxT0tNdFMwUWplVkVpYmR4R1hBOVpvaDU2UHNva09EcExUejlJT1NaVlFFdl9iUUctXzI2ZjF2Y3RGWjdMcGNYSGNZOHdaV0tmazVwTEt5MlNwUlNpV3FoX1FNaThaNFVLNU1OUzhzQ1BERVptZjNBb19ydEhXRmREOWVuRWxoa2VvUll5OVpONk81RjNwTlpKWFhsV0NBSU9BUXNMU0JHTS1ualNkSURvYWdMUnFvYVBGMkQ?oc=5"
                 },
                 {
                   "data": "2024-12-20T08:00:00.000Z",
@@ -21772,10 +21763,10 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOWnkxUHlzUzNrRHF6MmtrNzMzSW9TUW9KelluTWptNklYMDQxSnN0Q3ktalRLNVh2UkJrME9BNmtLU25kZVk2OGVlNEFlX0xLU2pnaW4wLVR2SDhfd0syQnBYbFdhZElTV1ZqUC1yeU5KaldUNEtqQUJybW9ELUd6MmFaRG5uNjJhMHp2RXVMRFBoX1Y5bWNLSTRkVEFNUlpCN2xqb1k3MWY4UWVkTGxuTmdBQWxNT2JId0xPYUw1VkNjdw?oc=5"
                 },
                 {
-                  "data": "2026-04-22T21:12:46.000Z",
-                  "titulo": "ViaQuatro pede autorização à Cetesb para iniciar obras do metrô até Taboão da Serra",
+                  "data": "2026-04-22T21:28:12.000Z",
+                  "titulo": "Obras de expansão da linha 4-Amarela de Metrô até Taboão da Serra devem começar ainda em 2024",
                   "fonte": "O Taboanense",
-                  "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNODZZTTZrV2s4azdCMGhfZ1BfVjA5MlpRdTExSUJRWHNSUlpzV1E1TEMzbUpESERUcUdrWjIxZ21QNmhyanN2VmlIYW83NTJkMkh0a3c1dEdjQ3V6S09Lc1RvSXBJQkRud3ZDOW5fVmhlRlRoTEk5T0dPTEluLU1aUy1oUjNjc19XazlsTXJ1Z3NvRXZnVVJwZkh3RFdsd1FlMi1YUzdDRnMzQllxUWR4Vg?oc=5"
+                  "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPN0N0dUZvelFZd0pyZkVJTVZ4c2NTRU5vZDB0M1BvcVJOMTgtUTB6UFBEc0gyTzF2RndpUmV0LVlwcWhOYUQzWVBJTDhIUDJiQmNkUGdMYkpoLXNuRXBOVWs5NFRnTWJrQXhuOVdSZk1QcncxOUhHWjlxc0NBVUlaaGpnWlNfYkhud3p3QkUxWkZMbkRZLVBBYU93NkNJS0RfR1RqR0VwcEU4U3JxOHU4TGYtdU4xUVI2d1czZm5R?oc=5"
                 },
                 {
                   "data": "2022-09-19T07:00:00.000Z",
@@ -21796,16 +21787,16 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQczlXREQtc0Y4NzZ0SFdFbWZzWThvNmdTeXlySHJ4RW5aMC1fVVJNRlRfUnJCU21HUVVPLTRzTXladTZEeTNPM2VTclNCMndVN1Y0OHZNOEFEUTQwVEVDQVg1ZnhOZlpTNDZOeV84Y2N6Ti15T1ktelNVcF9WNWE2a3ZGMEZPeEgweEtuTEVmMGRUWlRKUFhlZkVHelBjRWpETzJBZTlTaGE0VnEzNkxwS0dmYW8?oc=5"
                 },
                 {
-                  "data": "2026-04-23T12:22:58.000Z",
-                  "titulo": "Governo de SP lança a extensão da Linha 4-Amarela até Taboão da Serra",
-                  "fonte": "O Taboanense",
-                  "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZ21aeWF2N3pUei1NaG5ZemZnVE1IZzVrR0YxVldQYXhuck8wZVJMMFQxNlRRel90V01kZ1BCWms2NVJmdjFyaXcyRmotRTVCLUZiRkdHV1Vib3RSeTdSSHJZV2NlbjBvNWpGM2F4andHU3FTRHJJT09mY1BuREJqXzZfaGVWLVBzWWJSMDBMMjdnSTJMZjJlRGRuREhHQQ?oc=5"
-                },
-                {
                   "data": "2026-05-06T07:09:05.000Z",
                   "titulo": "Metrô: Governador Tarcísio visitará Taboão da Serra na próxima segunda-feira para assinar contrato",
                   "fonte": "O Taboanense",
                   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPdDQxTy1KUU5XQXpwQ0xfMklnS2QzV0kwWFJhdFNXa0FBd0lyS1dpcXFMNG5TTlNEZEw2ZlVXZXRfUmc0MEZWSTV6eDNMdnAtQm8wS0dhdHlsUDd5UkhSeG1ESWZBSU9VUUVaLTB0V0MtU3NkcURfeUhLS3ZQNms1Z0JhRi1xWmtoQm1zbUtUM3BuX2ozaGl1U0s4TjFnUHBpMHM0YVRFX21RS3FaaTVleHhUaXc4RTZ1bTFadE9OSXpuOEU?oc=5"
+                },
+                {
+                  "data": "2026-04-22T21:12:46.000Z",
+                  "titulo": "ViaQuatro pede autorização à Cetesb para iniciar obras do metrô até Taboão da Serra",
+                  "fonte": "O Taboanense",
+                  "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNODZZTTZrV2s4azdCMGhfZ1BfVjA5MlpRdTExSUJRWHNSUlpzV1E1TEMzbUpESERUcUdrWjIxZ21QNmhyanN2VmlIYW83NTJkMkh0a3c1dEdjQ3V6S09Lc1RvSXBJQkRud3ZDOW5fVmhlRlRoTEk5T0dPTEluLU1aUy1oUjNjc19XazlsTXJ1Z3NvRXZnVVJwZkh3RFdsd1FlMi1YUzdDRnMzQllxUWR4Vg?oc=5"
                 },
                 {
                   "data": "2026-04-28T21:53:52.000Z",
@@ -21841,12 +21832,6 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPSjhTbllSMjVMZHc2SU5HTUZjUFo4NDlPbUFBLW9CX3BwVlhkbi00S2ZqWW00eGFMU1kydW1iR3Y1QXpqSzk2QzNNMXBqWWZScGpBRzB5YXlQYnFrY2RmVHlTTTRwLUFKdmFFQnF0NDdVUjR3bS1FRmNzRkhpSWlWV0tkWGozWUx4QkZ6Z3pJYUdscHRKb0FkWWc3Mi1zbVBKemJ2S05WWEo3azJ1QmZaYTZIS092M2I1OUduTDZfWdIBxAFBVV95cUxOTVZ3MHlBUl8xYjdQX29JQjNyZGhUelJqSEtNWFpZTEQ5eEVmbTFQYjlIcFhPbENFY0o1WkZCdG83dGVCY1NTMUVMY212Y0w5TFZHby0zcl9DQ3M3UjlHZUY3dTFaalQ2cXB1QmRoNW5oc1F2RkIzUzF4ZDluTTlGZFNLem80YTdhVkdaTzFGMGFyT29uSkRlYThwaWdBYXNFNzVwd2NQSGVITGlkRTFMclR6d0QzNjJuRjU5VUJialdFbnpB?oc=5"
                 },
                 {
-                  "data": "2023-06-24T07:00:00.000Z",
-                  "titulo": "Alesp aprova PL de implantação de trem",
-                  "fonte": "Portal BE News",
-                  "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOODVVVHRnVDJKVzNWVkRJMnZPdGw4Tk1kSHhLV0hLOE5sRVdMeDZ4WGNYUVc3Nk1DaTg2SDh0UmhreV9RRHB1bEw1RGFXcWlkLXp2TGtxUHlYZTFGYWwzZmE2azFSR2JpR1F6UzQxLUYxS2ZDdElfOGNqdDk4VzM4RHVTOW1lYUxaalBnRnpFQkxIM0xxSU9LT1NmY2piX29OU3psRmxuaw?oc=5"
-                },
-                {
                   "data": "2024-01-27T08:00:00.000Z",
                   "titulo": "Trem Intercidades motiva viagem de Tarcísio à Europa",
                   "fonte": "Correio",
@@ -21869,6 +21854,12 @@ export const mandateTree = {
                   "titulo": "Trem Sorocaba-São Paulo fica para o próximo governo",
                   "fonte": "Jornal Cruzeiro do Sul",
                   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQd1c4d0d5b3RPRWpyekMzS09NZTFyYy03NDdGai1ZQ2FMOS1sbkt4ekwza2J0Q096THJzMzV2cXlzcDRsWnJmeHFITEgzaERDVUlwWXJheTdWRjZTUkZwMzlVZDlHVTNxVmMycEVSNVduX0wxY0RQaUY0eFpxMDA0aVZLNDduVi1IUGhtM2N2WEI1cVQtdkQwVnZNRm9IZUhacnNzamVTa0JGV2lUdlA0S0RjR25aMWN6aG85bHZBSHjSAcYBQVVfeXFMUFNjVXBaUG5xU0g1b2VtXzNtdzhCQ1ZCLWtfSEZIMmRNRDV5MDl2NUNRN3J6MlpJLV9MLV9jNHBUTGFFLWUyYlRYaE9STVYtVV9mWUQtVlFpdzd2RXFyNGVDcHNJUGl0Qkw0cU9yNUtzbjBSdUt6Qlpsc3VSV1pab05QMVlpTGpHanpvT1o4aG9hbXRnMzJNV0xXN2JlUzNCTjhsdVJ1UEk3WFFYazdLRHNwMW5TNzJfSHV0MnhLNVRLSm9yS0RB?oc=5"
+                },
+                {
+                  "data": "2024-05-29T07:00:00.000Z",
+                  "titulo": "Tarcísio assina contrato de trem SP-Campinas e lança plano para ferrovias",
+                  "fonte": "UOL Notícias",
+                  "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPcXFaZWhhd0NaWmNhb1NQLXRMNXZxUF95cUdDTDJtSE1rTjZEZ2ZHQXYtYUVyWG92MlFObEh6R2VLNFlKbmJsOG5PbHEzNDJZeFlzdklwdDJ0djFpaENZVEgzdUJpVU5fTlV6Rjd3OVVHZzJYS2I1LTJSVHgwdUdrMVpPMkpSTHY5U3ZJdzRoTURmNlJfLWVBQ1BWb1ZMRjF6MFdpVTFPQ1R4VXZmN3lZbU5YbVNwM0ZiOUhzWlVBZDdCdFpwMU5sag?oc=5"
                 },
                 {
                   "data": "2023-03-02T08:00:00.000Z",
@@ -21908,12 +21899,6 @@ export const mandateTree = {
                   "titulo": "Prefeitura entrega primeiras 374 moradias do maior empreendimento habitacional da capital e 2,3 mil títulos de propriedade em Capela do Socorro",
                   "fonte": "Prefeitura de São Paulo",
                   "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxPTlZ5RWZJVVlTeUtsQ1p2OF9xVnVXNWZXckdtdS01SVdEQjZBa1E2dDNzMlV6bVNfdzk2UFRrRU5Od2U5VFV6WTk5V0FoOXZBNFFtTjVEWEdudE9nNzdMbjA4TEpkUEkxZDZJektzU2lEY2s0aGI2UGRLSWhURGJTMWtLbW83SVJ5YzBIN2x3amNyRVpkdFNxLThaeXRSbEl2ZkdLVXVrMHdDeENaT2xPRWlpS3FQcWU1SExaTTdmdWpjUDRWSEd1QW5aLTY2UFNFX21QNGZKdGY4NEcyN0pITFlyVkFsWEt4NXZ2SUlnbHU5WHBIdFYwSXk0djVMbmo1Y2piRUlEMmVUdXhQbVdwZXVzZEtNYVAzVUk2Y2xNRQ?oc=5"
-                },
-                {
-                  "data": "2026-06-10T07:00:00.000Z",
-                  "titulo": "Governo de SP e Prefeitura transformam a capital com ações integradas em habitação, mobilidade, segurança e revitalização urbana",
-                  "fonte": "agenciasp.sp.gov.br",
-                  "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5LWmc4ejNGMFptMl9CdG1yOUhRS0tFaTJIeEMwR01fa3ZqQnpZNzRsUjNReUtIZ2JkQ09mTmlqSzJVZEs5Q1RZMmhHb1U2bmd2U0tDdkNnbFBtM0Q2NzgxaldmN0tHaXc5cHQtdDRRcXdRbm8?oc=5"
                 },
                 {
                   "data": "2026-05-12T17:45:21.000Z",
@@ -21971,52 +21956,64 @@ export const mandateTree = {
           ],
           "noticiasGerais": [
             {
-              "data": "2026-10-15T22:35:00.000Z",
-              "titulo": "Tarcísio diz que túnel do Anhangabaú deveria ter sido fechado durante temporal em SP: ‘Houve alerta’",
+              "data": "2026-10-17T02:19:45.000Z",
+              "titulo": "São Paulo debaixo d’água e Tarcísio na dancinha de Flávio Bolsonaro",
+              "fonte": "Hora do Povo",
+              "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQeVNhQmdaUnN1Q3F0eGxIZWZGYkFubUkzaDlNcDhOeVVNS1htbEdHazA3VzZNSTQyd2JrT1QwbHhfczU5R3hONDFKSFlfc1ZuNlNfLVF2ZHNOT1lrdzdaV256Vmxkd0Vpak5EclRMTDgydUtQbU1meDduN2tIbUhSd05ENWhCM3Y0V2lDVkRWcEJiWFNyc2wwT2JTaURidGNpZlU4ZWgwUQ?oc=5"
+            },
+            {
+              "data": "2026-10-17T00:44:30.000Z",
+              "titulo": "Tarcísio defende rever conduta da PM após mortes provocadas por agentes",
+              "fonte": "CNN Brasil",
+              "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQNlc4UWVtSDBIbUx2WmwtTklYWGlCX1pid19TcjUtRE9qeURTM2xzOGVTcVhCZDNORjdlNHJSOEE2anRscnJFZU9MTWZNZFBFT2VJNTVuREpuM2pRMkRpSVBoWTBtSk5Ia3ptMDBoSjNKSTBGZF9TOXZxQ2tOSGJRV2djbWVHU29na2YtQ2YwX05ySnFGWkx0UXphMkR4RHdzdkNkTmZiZEJjUlgyQmRNbi0wZ1g4N0RfRC1yQXln?oc=5"
+            },
+            {
+              "data": "2026-10-16T20:46:00.000Z",
+              "titulo": "Tarcísio admite necessidade de ‘rever procedimentos’ após PM matar 3 pessoas em surto",
               "fonte": "Estadão",
-              "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxObmxQa2tLMmhrVXk4SXJRcTU3a2JyaEJlWi1YSDBKRV9xSzNxdTFpY1cwWFR0YjdJU3I5dGlFSTlFMnhQUllNZmJPSWozYVFOQmQzZDNxZmJySkVIZXFhRFdLb0Z4aDJiODI1cDB6NE5kVVRGeTMtNFFzUUxmVnBGbHNfOHpHdW55ajFwcDFtdzlIc0hSSE05dE43NVBtY1FWam5aaVZUcmVxdld5OHhLblFkMTBoZUcxRXZPdjc2eDdDU3VjNzU5SEI5cGlOckFP0gHWAUFVX3lxTE56MFNWSVZIZE5qdGw3T3ZPRTN0d3h5MURtZEJPTDlqRGZDRmcxVGZTc29WVFNLYlJBb2FkVExhWDVCSTVScGpsQnFNUkg2Tl8tREEweVRVeUl5aGtWUl9Ndm80T2VyLVJwZTNfYl9qbUFqMjQtSUNhN3BhUmVxNmYwMnBydEZTMXh1VFRUNTB0WWFyNkRWaXRYWHNUa0FkaDhVTzVaUlZOQTllV3prVDVZQXdxWm95RG5MQnBxVThsNHN2WHNXV0piZjhaM2hMbXc3QjlXWGc?oc=5"
+              "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOVUdvZllJQnJYTVdNWG9oSXRLcEh1SE9pWjR5YmV2c29Bc3Q1VWVjLTVzOTI2NmFIMkVhdHVEa09xQ0M5RWdjQnUzWFc5eGM0OXM0cy1xZG5DVmJ5WkdnQVFVY0g2amdPU1VlSFpvZ1dQT29vV0pqNGc1MzRaU1hPbDlTeUozM2R1Q0luWmpyR0l5LTAweVVURWhKQzVIajQyVTEzeVdMOU1FX25nRGJWS3VxODRlalA4THJhZ3ZYdzUzQjTSAcgBQVVfeXFMTThTcWZXbGZDbEo0ZFAzSm1sTjZNSEdnV2J3bXZKTTdURl9Qc2EzaDdOaDg3VDFnSDZoQjVhWUMwSVdqRUxmNU1Sc3FvTTU3NFM2T0o0UFBvNkJ5Sm1vTklTSk5uOC1kR1ZSeEdhdVZIeXlPUzZHemxXSzNwcGJFWXd4LUhzeVcxcldOdHA5TEpYYjQzNDhETkl6RkRKbnY2aW1mYjQ1V1ktX2FRNVQ3aHhOV04xclVjYlRQQzFsWUNpbFJKUktqdW0?oc=5"
             },
             {
-              "data": "2026-10-15T22:25:00.000Z",
-              "titulo": "Nunes e Tarcísio divergem sobre enchente no túnel do Anhangabaú, que deixou carros submersos",
-              "fonte": "CartaCapital",
-              "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOM04tMHNoSlRKRk91UkFta0NBMVdrbnlMMlhPODdaSFd3Y3gtdWxSMlhXdUNzRHRlOEFlZUNMNnFvdGs2VnBzbXlzdjZvOGcyOVpSblZHd21hVzBoc2IxWWRlV00tU3VkcHVyLS1OWE5VX2hJZ1Y2cVlncW5oQk93dWMwcG9HWFJDTHpWNUljZzl3SWpDTkw1cFVJVWtrLXFNOVV4U1lPcDZvbENUN2k4emVXOVJhZks2eWxMQTNmNTJidGw5R3dRaGhqRE5YZw?oc=5"
+              "data": "2026-10-16T19:30:44.000Z",
+              "titulo": "Defesa Civil de Piracicaba participa de congresso que prepara para eventos climáticos extremos",
+              "fonte": "Portal do Município de Piracicaba",
+              "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNYnpSSEJwVnB5Slg1SG1yLTFJQTRRSW12RkZLUGtOY0hhOThSSGtyZFZIQjdrLUx4Sjh4OWxDOXRXU0dPdUZFd1FkUVBad01NXzFlX1pEaWcwTWtsazRCSURZZDA4T3doanhZR2tIcjRlNE44NlJvOVE3VUxrb0tQaEhNSUNhekpETEJKTHJCRjhXOTlRZ2lYVG42TjlreE8zbVpmVUdXbGlyencwcDN1OUdsT194REpqaFl5R3FTX0J0ZlYxSGhySmF5V3gxZw?oc=5"
             },
             {
-              "data": "2026-10-15T20:52:20.000Z",
-              "titulo": "Tarcísio diz que túnel do Anhangabaú deveria ter sido fechado antes de enchente: 'Houve alerta'",
+              "data": "2026-10-16T18:30:00.000Z",
+              "titulo": "Tarcísio chama de 'estelionato eleitoral' promessa de Lula sobre passe livre no transporte",
+              "fonte": "Folha de S.Paulo",
+              "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxORTBYSTRvOWNwWjVpZWlGRlZjcDY0aU5mRzlTd0IyMTNiRFg0bjhTMDJnbkswdzd6ZjJLdG1PTVdNUXFTZEd6czcxMFhZclRzY1lxTGRLcnBEQkpER09uNnZQTkotaG1VV3Zxb1BDNUJHTGZpNE9iRzFxRG40c0NxYTdZa0JXTHZiUGdBbjlnSzJ3eTdiZ0RLdnFMZzFEUk1iRkJPRmVaQVJnMnNtc1FCN0U1OFIyUElna0Jpb0ctV3JFU2VJbk02NmhzaWJGNlloTXYwNw?oc=5"
+            },
+            {
+              "data": "2026-10-16T18:29:00.000Z",
+              "titulo": "Tarcísio diz que PM de São Paulo vai rever treinamento após mortes em abordagens",
+              "fonte": "Folha de S.Paulo",
+              "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOMXZPTGJMUGFsQ19ZT1Jma3RWT3VCV0hHb191OW1hSm5laGt6Y0ZXa1VkRlAtTV9OWlQtcXNWU3RWZy1IZTlzcUJCc3FZTGlDUlZKVE12U3BTcWVCVUFVQnhaazdRSmk3UlI2N1hmZVkyRW1oMURsaU5UaUM5NnVNVDA3alVfMnZIQUtBSVZUb2xycHhyMi1oSncyV3RyVmJyeUdsWDhFMlNVbnZlaFRtWEU0QVZqTVBSQkhMYVZuY29fYzU0X0sxbnp3cHRCOWs?oc=5"
+            },
+            {
+              "data": "2026-10-16T18:01:58.000Z",
+              "titulo": "'A gente vê necessidade de rever procedimentos', diz Tarcísio após três pessoas em surto serem mortas pela PM em SP",
               "fonte": "G1",
-              "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNSHZYeFpFNFIyanhic3ltbzdFcExnY0hEZjh3bmpSR0R4NkJKc3dyYVVWYjdZZmwybF9oc0ZwaFhTRDNUZ1dXcWROajNnQjBXSEloVGl0Vlg5M3NpSTZZekQ3WVlWQVRxbTI5YlYzUkw2aENhT1lhaEl5VTNuMldjZ20zbFFVdTlYbU9iUWhEeXpUUW5fTXpOYWFyTzQ5XzhhQ3FYMlFBalRtMFJiS1FyMlBoeWNpdzZINVpXaTlDc3NDNzJXQWV3WEZRUmFWM1I3UERhaXphOFU0SE1lR3laMTkzek1mUdIB9AFBVV95cUxQQ1pONjFKdmplbmlqWjBOVUVBV3FxR0ZMb2xYVkx3TE1xX1h5R3NoSFRhTzA1a0lmY1d3WE1HZG5HbzFUR3YwWkZRREoxeW5mMEVFVjlnYlBGX3oyMzZvMzNlMmk2enFOdkUxRks2aFJHU3hKTHpUTGE4cVF5WVY3cUg3TDVkV2JfMzBUYUM2MWJYSXdUdC1VTE9pbWJ2UDRGNXhaRUE4YWJ3UllGVDlrdi1VdHFoYWhQWE12VDZFQXdwMDhzb0JXb3E4NFRxdk1WY3ZENkNNa3hVMWJ6aTAyQ3hIaUtUWWk4VlAwVHRoWVFWMHhL?oc=5"
+              "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNNFF3dXRRVjdoQ3FPNGloREJ3Y2lTVHhDTlVKMEJkdElMRDlpZE9XNzNub2prZUhBNnB0a2hNZ2U3U2hyVVV3VFd0Vm5QZ2NhdWV2ZjhoMGRTY24wTnpVSU9zSmFTQmJGbE82Tm8zMHFtN3UzQjNpNGxDZ3Roa3lDNlFzd0hnUldRTld3eEVuOGpUSzhJcW50SldiOUdNSEdQUGRyMlFDZGNudUlnaEVzYnpWa2taLW5mVHd4c0ZFVlNMbFZrUlJQVjB6OU8zeTRFZGRkVE9EUVhJVU5SY0RoYnRMN0czRW9LcENUUU9BRU1uS0RTRkUxZDN6cXRiM2Vo0gGPAkFVX3lxTE1qTEQ2M0tCWmw3MWFCd3c4OGJjNm44d1NQd3RCd0VJWHhpZHZkLWlTNjQySlFPZzhYX2xDdUJhcnpCLVYzaDQ2Z0VCbFBueE5obHA2ZS1EUHExRkdfdExhbWlpZ2xJVXFJSHBwQkt3SkJIWDdwd0Y4RE5yNFFPRjRNb21oQTFGeVlEX2FUV3ozZ1pHYWpiZGxDV0F2dnZ0UzAxbTRvaWQtSk9jQ3dRaDZfd3JxN2V2NVlPaWxfcll2OXRoLXpMUWdkeHBvNkxIdHQ5djlub0V6ZkhkUmQzaURTMzZET2tqd2REVWI5R296UEljTmU2YWcxVklkbjFHRElyMEVzSFRnb0czejlPbUE?oc=5"
             },
             {
-              "data": "2026-10-15T20:01:16.000Z",
-              "titulo": "Tarcísio diz que túnel que alagou com chuvas 'deveria ter sido fechado'; Nunes afirma que 'protocolo funcionou'",
-              "fonte": "O GLOBO",
-              "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPMDBnM0x1TU9wNWtkRTNzcUNhcWpxWFVCTDdSQmZGZkZReHRxZkk0Y3NRRmJqbE1FOWM4dnVaVl9wbjNzZVU4dktTQnJIRG5iRkY4YkFLNkN5UndGM1M4TnhjZjJ1Q3g0TGRTQm5lT0VyZVdMeTluNDkxN3RYOTdILXJHV0RacDFqVU9zcS00eWk1Rk1ERHJMSjhUSXhxak1tbnZBTHZUODQ5dkZnWGxsX211aEV0elFEU3lxODVXMUJocEx6RU5SalZlYXpjZHBUVGc3TXBQRDhxZkxWdk1DRUpwS2JlemlNZUpNNUczNHJpR2QydElySlQ3TE5BWnBxMkEw0gGSAkFVX3lxTE9Rczg1SVExTklPTU1yMXhEdElSdGU2RlQ1S3VzZUcxMG0zZ21EOVlRbVhvWlk0Wml4amQ5RmlULXVVbXZRUFFEQWhaWWExcENuWGsyTTFjemlSLWhNVVd6amRpRm8xby1iajFpSFpZUmlLbGxJWld0M0ZSemN4b1JWbE82ZzFZd2R3a3hscGR2Nm1MUzBJeXoydEdQdHY0SG9zXy1nSkJQTmMwdVBhaTdYSjVJTVViVmVFMURzWTRKaGRhR3NQN3FTMVNBMXlKZzFtSUhveHFCZUhoT3VtODFWcWZBMDhoc05uODlENkJjQy1SYTBXMTY1SThFQnVPOUZyNWZQVjMzTVVNS2lQOVE1akE?oc=5"
+              "data": "2026-10-16T17:24:20.000Z",
+              "titulo": "Tarcísio questiona proposta de Lula de oferecer transporte gratuito aos fins de semana no país",
+              "fonte": "CBN",
+              "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOd3hwZkJtTGM4YzZKV0NncWM3Y2QyYzBwS0Y5RUJ1QVQ2LTZnRGRDMmNFSlB5SEpoTEtFalNWQ2M5Vi1QaERYTWhvMkdVVVB6OV9xcUxOOVJUTkgyTElrX2Itd016SHJFblhxR0NHejFCWDBMMmE0dVh2clB5cWQ5c0c4aXZzVERUbEZBNzlMU1lzMjN5UTJvOU1DekJhYnZCajBxNHRqaW94UW1FMGxDazM2WHFtX1ZvNzVzU2NQc0ZhTGNqT1lrZ3YzU3B5SDBXX0VrQV9BOGdvZVZsYVdaNHEyZHjSAfMBQVVfeXFMTzVhSlJnUjVhakdheTIycU1POVJnY2JYbXJLTzJVUUNVZEpTY1NqY3lydzlqd1k2azl5bFZWbzYyV0dmLV9uNng2bDdEZEhVenhSelNpY2Rmck52aF9MMUlYVFp0ZUZrQjBrekRidzVUa3BvTkVWbDNHTXY5V0hGUF9MMV94bWFPZ2RFYjhfUXNYX1ZVUndsc1J3c0E3U1pieVVqeG1COGxQc3RVR2FSbk1DSm15TFg0U2tpSlFzUl83X3QtX1AwM2J4QWFhb0RoNGQ5WG8tXy02TFVpbEV6QkVvTDhLTmhVNFVkcjVuZVZxS3VR?oc=5"
             },
             {
-              "data": "2026-10-15T10:37:17.000Z",
-              "titulo": "Flávio Bolsonaro e Lula contam com Tarcísio e Alckmin para atrair votos na reta final da campanha",
-              "fonte": "G1",
-              "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSHhSV1g2b1pOYlRsUXprTV9TRFlwdzE0TWdOQ0dmUUhSbUhLdWdsNEdoaTlTaHVmaHduWi10OXFsdkJLVjdaa00ybUt1cUJqVHNDcUhZUThwYlp4Yzg4cXRfNWgyMFdfYUVMWFFOR0g1aDhYY0FuN0xwUUtHeDZEalZnVmRDOXNMelo5bW9ZRWV4clZuRmREQzh1YThmZmFVUURuVTdfX0TSAbcBQVVfeXFMT19DV2xhSVJILTE0MmlSanN4ZTRBMkU5eTlQMDJMS2RfaUU2VUFNcEJpQlhNQWRuNXpnMHN4VE9NaW43UUlzY3RZS1FORTMyeG1YMzZHaTN4LUQyWVByRW8taUxCdm1IOTdUdmF2ZFpYT0x6OTZTdFVnM29DUmlPTENXeVF4MWNBYkhZRFVhTGY2eXhxY2x4cE9xWFdZWUlMeVZtd09zelBJZ0lIUEU0d3RTYktKelJZ?oc=5"
+              "data": "2026-10-16T08:30:00.000Z",
+              "titulo": "Tarcísio mergulha na campanha de Flávio e deixa governo de SP em segundo plano",
+              "fonte": "Estadão",
+              "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxObWhnWXF5UkwtTGNfeXZXNFlFRkZJZUs1ai00bnlFc1pfNDB2NkhQcjhqdVl3NHI2REZnWFNQLVFjcWFkeGNNODh2TklhU2JhNnpkbXpUdmlRUE11QnZhVjJma3V1NDRPVnIzSWZ1b2ZBUFplUDByTzBKVXZfelo2cEs4Q05BeG0wXy1XNlRrOEhWVGZpVFFXbUJqQ2VDLTNEc21WWlhtZ1liaUllWUVwd0ZMMTBLdXk0YUJnaU82NzRVZ9IBxwFBVV95cUxNbTlqR19Ybjdnel9XNUtZOExETzZkNlNpWUctYnRzLTBJMGNTdzNfOVFYcFFOTTV1MjBVdHZwTHdaNFJxT0pWVjJqYmpmNVZyLXo5aFlaUEZUUi13Y3kyN01PeV8zSm5GT2lHcnJVZ2YwSlllQWJkMWhZek1RV0h1RW1jdzBBTGZLS2VaUGRtWUJ5TFpGNGpwTm9VWHBFdzJUajRieU5nbTlpWkN0WVFwaUlFd0tmQXlpbk5RSDJ2bjJpYXZOWWt3?oc=5"
             },
             {
               "data": "2026-10-13T23:50:00.000Z",
               "titulo": "Tarcísio tinha expectativa de ser candidato a presidente, diz Flávio Bolsonaro",
               "fonte": "Folha de S.Paulo",
               "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOUXl5UnE1R21QZ0x3dkctT0dSUllsa3JMNzdGR2xzaXRwa001R3I4MUFUU3U0el91VDJtcXFHUUc2TkJ0WllSaTQ2MnBIeHRyWDdzY0Rjc3MzVDBDVER1dm9HVW1YbGlIVGRVLWFkRjBxMnRTQkNzX2xZTWJQdnNNTzZRbFY1T254Qmc1TXdobjFraEhVR2N3cUoxaDZJd2xtZzNaYXFtb2JXNWJodW9OQU44bzNWUHlLU3RlUFRjNjE3Um45X1E?oc=5"
-            },
-            {
-              "data": "2026-10-11T23:26:34.000Z",
-              "titulo": "Flávio e Tarcísio criticam tratamento de Lula a SP diante de prefeitos",
-              "fonte": "UOL Notícias",
-              "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdm9jRm02MGowS25QZUY5bVlXY0tFUjA1UVJqX0szUV9ES216V19lUXMxb2p3WlBkLUFoS3A1M1BSellPcENQa0FVNlVLQUtSazl0aGx4S0lhbXFMaEFhYWVLTGVjczBSV1Qyand3NHBNeVk5NFdnNXVmQTVob0p5WUpERUI0QlRScmxwQXl4aTBPdmh1NVJvX0xPYm0wM1Q5ekdyUVo3X3A1Ty1JbXhHVkhmYkNDbnRic2V1ZGxrVXA?oc=5"
-            },
-            {
-              "data": "2026-10-11T17:09:05.000Z",
-              "titulo": "Flávio, Tarcísio e Nunes reúnem prefeitos e vereadores em SP para impulsionar campanha",
-              "fonte": "Valor Econômico",
-              "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPLXQ3cUpkT05mR3dPNklkWHNRMnN5VkZkazFrbXkwbVVlS3VTWWFWcHB2M0VSN3hsVkF1aGlCN2JWcFVrWFZUa0JMOGt6blJoYXFwSS1UVGxqNTBOSmxXeVNWNGRHemMxVEFQcVJLTkY3YWkxakJ2R2h0QnFEZDREWm9WV1FBTkZBLVFXMFBHSDNHLU0wbnh0eC11ckM1dXRtb3BrOUJSOFF5N3FXeW93VDB3UV9hOXpjWUxPR0plWEZWeElPY25fNEZYUXVOWTllSlpLTXNuRTlNVzBlNE1RZnY3THI0VHNWMGfSAfgBQVVfeXFMTXVuNmN0V1E4WWF4VHlLMDRUX3pwX2dmNWNqZXRjU2VwY29ReTdOVEdqenNiMXluRktIOE9BOGxPYmhCdWhjcjM3czVFM3R5Qjh0ZlBVRUZYRVBlY3RuTVNvWXl5bDJlM3pXbG4zTU5PcFNrQ3JlNjBNeHVPeWkwc3RzdEFxV19PVzZ3RXdHU3AtT0Q0Mi1HYVVsVjUyYWFsWnNCQ1QzcTVvQXdFZ3NGWi1xQkpnaWVIWGktTkE4VlVkeXpoSjJFRjVFTWptTzl0THl3OFRWY3Y2eklNcDBsbXYyZXNMLUxoYk1DdnRMbno2azM3OHlEN0k?oc=5"
             },
             {
               "data": "2026-10-05T07:00:00.000Z",
@@ -22056,27 +22053,9 @@ export const mandateTree = {
             },
             {
               "data": "2026-10-04T07:00:00.000Z",
-              "titulo": "Tarcísio supera Haddad com folga e é reeleito governador de São Paulo",
-              "fonte": "Consultor Jurídico",
-              "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNTDJGTnJ2MnRQQ2hBY2lscUZZeDJxMElNWGpKeVVpTGhCS1pYZVY0dl8za2ZGLU1VMmVhS08yOUpCQW5WS3VzaUtmRDBIa00ya096LXc3NF9GUmU1V0dKemtDZURlWEZLZnhBVldaTFlHbjNweXI2MVdYdDllVF85YUtNdXRoT2l3TUVUVUZSZF8?oc=5"
-            },
-            {
-              "data": "2026-10-04T07:00:00.000Z",
               "titulo": "Tarcísio de Freitas é reeleito governador de São Paulo",
               "fonte": "Congresso em Foco",
               "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQa0FQQTc1cGJmNjRfNW1VTC1vUkhGTjBWQllTeXJHYjVBd2l1X01jRlJzQzU4TzY1RUdZTGJkbWZCdjlDQUJOamw3eU1OQ3Itb3hYUS1WZ2hFUllUWFFkUmNodGlCeV9RdFZVWVFZUHRLNDBTQm1fWUQ4SGhOTUQycHNVWkVMYzRwNm1TY19QcFdXQ2Z0bXVFZHo0alZYZmRkcm5YZnNHQQ?oc=5"
-            },
-            {
-              "data": "2026-10-04T07:00:00.000Z",
-              "titulo": "Reeleito em SP, Tarcísio promete mais entregas para o próximo mandato",
-              "fonte": "Agência Brasil",
-              "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOcmM2UUtibjlYaDQ3NmNqWVdYLUc5anV4bjVETzY3aWszUl9wU3pmUVd0UFZiaEc1bjZxSUVBemZjQTYzY3V1bTdLT3VKQm9BUTV3a2ZfZlJvbnIzQ2x4U2VKbzdVZVlJcEpha2ItZ09qRTM0WVJTcjBJdW9nMmdjR1FFcVFfaTZ5RDIyTGoxdm9tWjBza0dFLVR5UXJ3M0xCUVB3SEdqLTlRYkpfN0xlaDFuLWs0aDlCR0ZUZUZpYzdSUy1t?oc=5"
-            },
-            {
-              "data": "2026-10-04T07:00:00.000Z",
-              "titulo": "Tarcísio derrota Haddad e bate recorde de votação para governador de SP",
-              "fonte": "Folha de S.Paulo",
-              "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNTU51eTdVcS1IS05keFRHcHhGLVYxaG1mVDJkN0VQbERnT0RiUFlBNE40TE50NVNRRnA4THlKTTRvdHdLdE9FVTNhTXVUMDRSMi1XRUxDbVloNDUzNFhseEItazRtTXJuWjVfZGdLNEY5WEU3OEpncHcxYTcwMzgxUG9RTk9CZHJOekN5XzhfNzNTVnpCT1p0VWtiNWMzX1VpM295UDdfZVcxY19PLUxLeXp0YVMydnpV?oc=5"
             },
             {
               "data": "2026-10-04T07:00:00.000Z",
@@ -22086,9 +22065,15 @@ export const mandateTree = {
             },
             {
               "data": "2026-10-04T07:00:00.000Z",
+              "titulo": "Reeleito em SP, Tarcísio promete mais entregas para o próximo mandato",
+              "fonte": "Agência Brasil",
+              "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOcmM2UUtibjlYaDQ3NmNqWVdYLUc5anV4bjVETzY3aWszUl9wU3pmUVd0UFZiaEc1bjZxSUVBemZjQTYzY3V1bTdLT3VKQm9BUTV3a2ZfZlJvbnIzQ2x4U2VKbzdVZVlJcEpha2ItZ09qRTM0WVJTcjBJdW9nMmdjR1FFcVFfaTZ5RDIyTGoxdm9tWjBza0dFLVR5UXJ3M0xCUVB3SEdqLTlRYkpfN0xlaDFuLWs0aDlCR0ZUZUZpYzdSUy1t?oc=5"
+            },
+            {
+              "data": "2026-10-04T07:00:00.000Z",
               "titulo": "Tarcísio de Freitas está matematicamente reeleito em SP",
               "fonte": "Valor Econômico",
-              "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQcWM0ZFd6NGhnMTRXam1Sb0wweGFFZUZLSnpUdWlwczRfNlo4RXhBaVdOWms0QlJvd0xzejdDdjRBUk9PalBua0tVZXR0ZGgtcmpVb29LTWxTTmZmSzNIMXowWnlfZE0tSmVVQWxTakc3MEtKRVM1NFp1b3Fvc2hTVXBaamxhMXlPRHhvQmNlSzkzSDVJd3JRejlVc0xPTVZCMXBkX0JIRk9sZm4yUnZzeHNZRk1IN19IMksxQkMxUFZvYmF5QmfSAdQBQVVfeXFMUDVkZGcwQTZFNW5QcHFPQUo4Z3JrWUQ4eERlR1BIRi1Tb0gtRWVlZFdtVzRfbVdLVE54VkdVcmtaOFdab2VKVVlUcFh5eFdXRDZONUN4Z2JSWGZiZGJ5bGpBaXdhSGdveGd0TWlkRWZUdl9VR2gtVUpnVU8zX0xtR3hxNGRKdmhFWjNiWHloOXRvWUU4MU9qTmhWR3BXcEVGSVVtVWNULVd4MzM1NnA4YU9zaUJXNm1oWDhiLUZyMVZfZko0VHk3Z09vbV9xTDFUWFd0LVc?oc=5"
+              "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQcWM0ZFd6NGhnMTRXam1Sb0wweGFFZUZLSnpUdWlwczRfNlo4RXhBaVdOWms0QlJvd0xzejdDdjRBUk9PalBua0tVZXR0ZGgtcmpVb29LTWxTTmZmSzNIMXowWnlfZE0tSmVVQWxTakc3MEtKRVM1NFp1b3Fvc2hTVXBaamxhMXlPRHhvQmNlSzkzSDVJd3JRejlVc0xPTVZCMXBkX0JIRk9sZm4yUnZzeHNZRk1IN19IMksxQkMxUFZvYmF5Qmc?oc=5"
             },
             {
               "data": "2026-10-02T07:00:00.000Z",
@@ -22107,6 +22092,12 @@ export const mandateTree = {
               "titulo": "Governo do Estado, Tarcísio de Freitas anuncia investimentos para Tupã",
               "fonte": "Visão Notícias",
               "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQk1SWTlOcFo0cjJmVG4zWTF4bS0zYUxHQVZ1NjRtVFVmc0o1R2tDVnRyd2syNTJrbjhmYk5fa2tOMy1OcnB2ZVhiUXlTS3p1cm1sakJFY2lOX1Q2b1g2WjV5VzBjRW5RUU1tbkRwOVdKN0JjMGVfSHg2UENRUDBJYUlkOU81cTg3d1U5aEw5UUlFMVFsUURmZ2d4dmRXb2R4WWx3OWh1bFpEQVJjS0UzYnJCdw?oc=5"
+            },
+            {
+              "data": "2026-09-21T07:00:00.000Z",
+              "titulo": "DECISÃO 2026: Tarcísio falta a debate e diz que formato virou “mais do mesmo”; Haddad cobra prestação de contas do opositor – veja dia dos candidatos ao governo de SP",
+              "fonte": "Times Brasil | CNBC",
+              "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxQdzE0RUpRcFpKSDcxNlBYVGs3Y3k3SjVUdFdOSFVULU12MEhhX3dLU0p3akZFbldyVFotaWppdXRyMEoyazQxa0tXY3NIaDE1QktlYmNTMGxrS1gxR1VDU25iSXpRbUhQSWJvNmVDYUpJdHRQSFFHczhnWGZwV0hfTUg2THFBcTJDZmRMUm13YTR1OWRiUjg1ejBSSjdSUGxyUl9SQ0VyalRIWXdMOGxIeEtNVTRpQlhZdGtKNkJCY1U3M09DaHFKLU1yU3pGSEY2eE81UFBhLVJBX2ljNDRRUTNNeXhkVFBhQkJtZGc1T2Y5dHUxdEhjbndHSEtvVmpObTdHVWNpSUNWbG5YSEdrYy1aMTh2NkJ2TGE2a2ZVaG8?oc=5"
             },
             {
               "data": "2026-09-20T07:00:00.000Z",
@@ -22131,12 +22122,6 @@ export const mandateTree = {
               "titulo": "Pesquisa: vantagem de Tarcísio sobre Haddad oscila; veja também números para o Senado",
               "fonte": "ACidade ON",
               "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNYXVQcmhMc0l3NDlvNnVFaUlzcFMzcF94b1YyWTh2Z0dHajlheEExbEs4cW9JXzNOcDY0UmRTU245ZjBKNThHc1ZweFFqaUlpWGVLSjdjN0JTQ0ljV3NKeXRPT1h4a2w5eURIX3dlb0ZtRW9tUTZLVjJlOXlKcHd4RTZxXy1sdi1DU29TQUN1dE9DaTRYSlFMUkJpNFBVX3V2a1p2aE55MEg4LWV2b3dHTGFNV0xZdWFIWTk0b19iVjJSd0dsSXNv0gHMAUFVX3lxTE4zWmEzRWtXeWVuV2ozSE9qekNrSENfZHBrWVFKRm5KSnJqaWl3RV9EeFNkU1hLVXAtOGhNejlYc2FrejQzV092STFYVE83MTZtbUVhVjdrVklkMU5YQk1hcWExbjFPdUx3Q0c0cTZjeC1wVndpc1lMUEpTeERjTjMwTWQ0ZXhSaEVXVVFOSTVrQlFYMXdOX0RRY2w3ZWFtZF9aOHN0c2lmTjN4azU4MFg5MGtTcVFmeHdQclV1ZjVlOG9PWTZlSmk0Z0lSZg?oc=5"
-            },
-            {
-              "data": "2026-08-18T07:00:00.000Z",
-              "titulo": "Plano de governo de Tarcísio destaca social em contraste com imagem de bolsonarista; conheça propostas",
-              "fonte": "Folha de S.Paulo",
-              "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNd2ZVYlRETXMzNnI5QmUzS2RrbldlZDVIUHhmRXZ4X2k4YzV0YWFUS29ZOFp2TVJkQTd6YXljbEQzRGRXRG05ck4yWG9zM0tVRUlReFljSVo1SUtBTVlYZjc0NmdyekotS1o2T19qaUdnX3VIVmU1Qjhta3kxUmdNaHlramxLbU5IbndXT3lPZjJPYzVoMGNmZDMxei1ZQWVMWC1qZ3Btdi04OFdQMkFmZE5QYmJ2dHFDM1p4R1NMNGx1TVVOREJaUU5QMmNaRlpGWWVIcWZncTYwRzY1MC1nYV9VWWlXdw?oc=5"
             },
             {
               "data": "2026-07-24T07:00:00.000Z",
@@ -22169,6 +22154,24 @@ export const mandateTree = {
               "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNRzdVMkVybnNoS1QwSmk4UE5qY2FDdUU1bjZxWVVLaFR2bWlWZEFSaHRaZ1Y2UGpDZ2VSQnFxMVhlRTRXMXdpQ3lVd3Eyb0wzUElxUjhKNjZ6VjVjVGN4ZE1xZlpYaXJMcEJfQlBRdnhjTTJYOHYtMmxhTk13YlNRZmVQamswUHdJc0xLTEZwXzZreGl6RkFMejNRakNmUkZyX09Md1U5SWNuUllWT3Naa1pZMEN3cUVpUTlyaHpyYmx2U01YQzhTY3NrTWQzREJZ0gHWAUFVX3lxTE40V1loVGc2MHhVZUZDV3BSVHh4MFpUdDBWcDJoU3YyLVM2eXhQYzFTMWNNWkxaZllvMVJReHhXaW85R1RRbk96S2RycmhnMTRKaEdoaU9rd2c4X1VyYkZQMUQ0azdUM3UyOGc5UVZIMlU3ZmN6bDdiX0Z0eWxfcHpOd1YyYlpyUVo2OEdJS3pMUHRXdVFtbTdCZHNDNG9pdnM4NWc2VUFaSklOT2ZBNlBvdXU4a09QYWVJWjNzdkxIRnRaRTNlcGx2cU5LMXpuY2dPS25xVHc?oc=5"
             },
             {
+              "data": "2026-06-10T07:00:00.000Z",
+              "titulo": "Governo de SP e Prefeitura transformam a capital com ações integradas em habitação, mobilidade, segurança e revitalização urbana",
+              "fonte": "agenciasp.sp.gov.br",
+              "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQ2xwUEhjMHZsa1Z2TWFWc2J0d3NUYW5nT1N3WlR1Skh2SWlXcFM1WXAtOEl6Y1RiTHdacUVaOTgtQXpYR3FnS1pYTG84c2hpQVlNb2RtSXhmeGlZNUZSNzh0UFZZVE5BbVo3MWdYV2F2NGpOdldjZGtpRFJxRTljSGVBbGREZ1pv?oc=5"
+            },
+            {
+              "data": "2026-01-07T08:00:00.000Z",
+              "titulo": "Orçamento de SP em 2026 amplia investimentos em saúde, educação, segurança e social",
+              "fonte": "BOM DIA SOROCABA",
+              "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQbG9PSzdzenFoSm5YVldtRHJWdjk4NHJWZkdYd2dURUFFT2o1MGdsa0pUdzJ1a3VNT214ODVSQjdrNlRjSEpCcVhrUDkwTlNoSzNLWnpjc2xUQURlaHZEcWZRUXcwb01oalQwNDJjbTFSZkRoVVhFd0U3a3dKZnp2QWR4WnBVZDk5RnNwNEJNd3hhaHJrd3hoeEVCbzlOazRlTEtlaUExbWNHZUVfQXhKMjlDeEctOWk4RlRtRUM5RDFmTk0?oc=5"
+            },
+            {
+              "data": "2025-12-18T08:00:00.000Z",
+              "titulo": "Em 3 anos de gestão, Governo de SP destrava obras emblemáticas e faz expansão histórica de serviços e investimentos",
+              "fonte": "agenciasp.sp.gov.br",
+              "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNXzZnWXBjdmxraXNRbnN5YkRqMEdxS2psc2FscWIzbnphdXltQnNYQ09sWlpxS3dzOHBVWnFUb0gzMzVsdjlzXzFnLXBmME5MLVJDUzFCSjZGNzB6eVFqbUdmbVBzZDl1ajFfb3U1WmRCbnJBZFdfempnUE9MZUZLRG4wRFBmVXJBODd4ci1sWnkwNXhDbVRrbXg0aGFnSFhfbGFqbjBGN01QTGFzZEZWWDVtMVVZd1l1cUxqU1BRdDRLQWRuZU16XzlMd19VdExvOGp5UUN5ODVNU01mTDducUh3ekNvOTZmQjFIeTNheHRwUUMzd1E?oc=5"
+            },
+            {
               "data": "2025-12-18T08:00:00.000Z",
               "titulo": "Em 3 anos de gestão, Governo de SP destrava obras emblemáticas e faz expansão histórica de serviços e investimentos",
               "fonte": "agenciasp.sp.gov.br",
@@ -22179,12 +22182,6 @@ export const mandateTree = {
               "titulo": "De virose na praia a prejuízos milionários: a corrida dos estados para melhorar o saneamento",
               "fonte": "Gazeta do Povo",
               "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPYjkyOVhvZkdNN0U1TVU4eXVUMDNtVmFDT1ZCcXpIQ0JXWDcya0dKcWxYMm9aRmxUZFZQeDZxNjZheWQ0bXBlMVJHcjlPZEo4TWRiZ1dEblZFNTJXdTNGNDdlWkp6SmFibHpVOWRweGVUaVN1ZVRBR21zV0RIelRpMVk5RDBhU2MzRWtmaURlRGM2UFIw?oc=5"
-            },
-            {
-              "data": "2025-01-20T08:00:00.000Z",
-              "titulo": "Promessômetro de Tarcísio: veja situação de 124 compromissos na metade do mandato",
-              "fonte": "Folha de S.Paulo",
-              "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxObjJleV9rOWNsS3hUYkpkNWpzQ00wcHRDaWZicktQVHZvb0Z2TXlsX3d1TVBYOERWNV9TSElyMmM5UHRoMVV2X2lJX3UxOGh0TFFjYkZINjM1YlhTVW9zZHVOeHQ1T2tkY0dvMTBoMjlaeDhRU3Z6dmk1WkQ1ZmxDQnZNMFU3Z3NOb0RRbTF5a2tRRnNmQ19HcmdYa2JmbnBUdXFOaEVnTHhvZDdtbEZOamlxRC04VXA5REpOd0Fkb21obE1yUDU0VnN3?oc=5"
             },
             {
               "data": "2023-12-29T08:00:00.000Z",
@@ -22235,6 +22232,12 @@ export const mandateTree = {
               "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOQWwwbFpQdF9pSW5BUUtmVEszV1FiODJsV00wdUxtbm5scUtJam5iSThHYlEyN2pkSWprNmdjNUczNjZQcW9xSU9tV25pRUZkejNQZE43Y2NBSTZnMGFjcENqY0JmOWdxclJaYlRtTnI4eFJqc0Z6TkhqRDZZeWlwWkd3S2xKMEZCdEFqMUhjN3ZRdmxybHZSZHl0cU1FTUYwbTF1S1hTaUZOd9IBrwFBVV95cUxORk5LVEhqQlF5RzRZamhrWHh4bm92Tmhkbks5bEstZWhtOUdBVlRiQlg4eFJhUUJIRE4xTDNRTGpFbHZGUjFENHRlUUZMN3lSX0Y0MDllb042NWhWdmZRVGhEWDlaX01vLTJLaTFDVkJxMWxEZE92LU5yTzZ5Ny1WZkRPVnRCNEw1OHFTV2tPcG1QMG4tekVpU2ozb2ZvN1g3bFV2djBtQ2dfal9odmFR?oc=5"
             },
             {
+              "data": "2022-10-30T07:00:00.000Z",
+              "titulo": "Tarcísio diz que quer 'olhar para os interesses de SP': 'Vai ser fundamental o alinhamento com o governo federal'",
+              "fonte": "G1",
+              "url": "https://news.google.com/rss/articles/CBMi2gJBVV95cUxPdXhDUUIxNlNReXJPdDR5X29VdG1nbVNkXzFLLW01UnloQWUtLU0tRjFxQ1p3MEdTNloxMU9RQVp0c19fekp4VG1PbFRUdXhhbkJKYW1KWWQyUjA1SWhyVDgwMWxrM29lT01aN2I4YlZjVW9oeVlSUll1VUtld3I3QmRvbk0xNFZLd2dMSE1UVGRNcU9yYjFDM3BmX2huTzRZRjZuam1VcHk5bGV3WHlaVldwSGFNd1VQZEsxWVBqSmFndUFzQUtibndMNHFSNTdtYnJZNkNsNzN4dHl4VTZYQ2xXS1VxRVJkYnh5SUhhZEVOeVRVUnFUZE9KT1o2R1hlNFJ2M3diaXVrN211NFp3dHgxY3RpYjk2QXFsbVdyRTRDUDdlVUhHUHdoZ0RhS1F5WFViaXE0Qy1STnVfbEVqMExiUzVGcGNydUhfUWtCNHIxMFFfTGVaeEFn0gHoAkFVX3lxTFB6WGVxamNoY1F4Mk1pVGFWQXY5d0JXUlY4WEFDc0huZVZaYmpPRTdKbDZ0aHFqa0p6NWdRX3NCMzlpOTQ1NG5OaXdndElCalZYV3FuVmV1TEdCOXBxajQtQ3ZvakY5S0FScDd4SjJBTHQ3TEF2eUN6RndmMnN5enVsV2Z3RkFVUjh0M1dCVlFxLUdnTm0wZDg2OTRqcW5GRGJWdGU5UGZ1a2t4b0NFb0xzTnNxdmg4Vng2Q1M0UWF2MzlOb3E0bzV1RGVpckhndDZxdmx6Ymk1UTlYaWdfMDNMZWFhMTAwS09uckdHYkFJZGkxTGEwRml6OHZkaldOZWdUeWh0LU5Ia1hGNEZnb0dFX0t0cWtsTHF5aS1ydjFWLVhJd1pBUjlta1BvbFZYLXVtUU1TMlo0VFpGdkVVclRpT2ZEMmFKejdHTmtpenNMdlVCR2E0MnVJZEw5MmNoelQ2Vl9FYTU4QQ?oc=5"
+            },
+            {
               "data": "2022-10-28T07:00:00.000Z",
               "titulo": "Haddad e Tarcísio nacionalizam o debate na Globo; confira os destaques",
               "fonte": "CartaCapital",
@@ -22253,6 +22256,12 @@ export const mandateTree = {
               "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOczFRTllDaUUyYXJaYTYtaHNPUWZ4R1ZEamZaYmZ4UXQwSmdtNU84d2d1VEtQOC1kN0pWNjBnWnJyWXhvTlBjZGRvM0NUbnBHNmhGbjBfNmtaTGI4VkNIZjJoYUlWcGloMGt5MUFRR2J4SGpYV1owYUJ1TDJuc0hORFJzMk9QZFRjQVVWYVJDVzlQSE1tRjlvOVZPR2F5Mm1ZNEZkTklXZEdhT3JyZzBRdng1WWgxRTVp?oc=5"
             },
             {
+              "data": "2022-10-01T07:00:00.000Z",
+              "titulo": "Haddad, Tarcísio e Rodrigo disputam 1º turno para o Governo de SP pautados por eleição nacional",
+              "fonte": "Folha de S.Paulo",
+              "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQZngzUzgxTnNUM3JxYmg4anUxNnhTSWs1MnpVbHVmaHZrY3RzMXAzZklNVE5BRnVWZGI0OXVzRDFHZTNKTnZlWkxBTzFHaHFidDl1V01hRlpHLUJzOWtqVGhxUm13NnJQeEJjVDBoUnVhRWRDYmpzbDVsbnFUQ1BaUm9fUThYRGM3WG5YQUxPdE1FbVZ1QXZnaXc3d0JkZVFmeVFkNGhTM3FwRUMwZW4zZzZLYnRwTUR1NUdIWEVkV3NUbk1waEtMUXlvMmFNQ2tnX0FZZi1QbmRWMS0z0gHiAUFVX3lxTE1DR0hPMFMzQnl4elNvdWdwcDhhUmx0T0tia2dRYmcxRTBHbTNFcFpuMXNQSlpGS09QblN2aTFfVk1jdjR4TEk2MG14bENxRDB1Q0NJT3prNHBMenVCLVFMT1JOcG5DaUU5UV9CZ09GRGRUU0JxaWlONktVX0RNQlh3WHJiUTZ6OE1JYTB5MjRxR29XQ3c0MDlmdmxYT3pUS0VXelZaZ1NXQjRBdTV6RHFCMXFLd2ZQZERVRzBnVXdKU19QaHV6M3VzdWtkeVJZNmJfUTR6SS1tOUhueFZUM0VENnc?oc=5"
+            },
+            {
               "data": "2022-09-30T07:00:00.000Z",
               "titulo": "Quais são os 7 maiores desafios do próximo governador de São Paulo",
               "fonte": "VEJA SÃO PAULO",
@@ -22269,12 +22278,6 @@ export const mandateTree = {
               "titulo": "Debate ao governo de São Paulo repete polarização nacional",
               "fonte": "Gazeta do Povo",
               "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNN0owZmxXQVZvMi1wV0tMNlJ6Ri1pQlU5eWZ3Wnp6TFFLMnJ1Ti0yTVNwT3VQb2ZnRi1yeTBkSndJQ3RvUkRJUVVZemZRc3g2WnVtQnhOVmFqdHg4MVpmTi1OMGRuaW40RGNfejJsRERrZjhvbmM5RTV1YXBxS1RxS1ppaDhpVHVLMF8tUk9ONEVwWWVRQkIzWlFHNE5iTERJTnBuUUJGVV8?oc=5"
-            },
-            {
-              "data": "2022-09-12T07:00:00.000Z",
-              "titulo": "Tarcísio minimiza corrupção de partidos da base, promete elevar auxílio para estudantes e 'zerar' população em situação de rua",
-              "fonte": "G1",
-              "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxON1dCUUJZMVNyZUlpQmd0eG1zTjhnRS1ZbVFrZGRYLUFvR1lZQURZT3RleTFtalU2U21yM25qcWYwWkpES2xtZlVKbzFvOFAxVElVZnlHdUkyZW1kaXdwRUQ4UTJzbmd0VWstdjZXY2Y5SXJXdW82ZjFUbERLWmpDak45djdrdU1EMC1BaGRPb0czMUtfLW5Wa29wLTNFR0dkMFFEdnlhMkVZeTJvVmpaU2VRSTluaHIwYWdjZl8tZnRNOFVhMWQtNk43VXhYNDhLcUV3eUNzS19tMmgwNEotdnhtS3MtNGlVTkhLQzQ3alBSNGF3WWlhOWNkWHJVQkZPdGxWWVp0ODdFRWRlRzZtWmtweEZwZVJFdFU5QkYzT2tBQdIBsAJBVV95cUxPcFBmV3VRdUdhWkVQVHZnUEJZc3lEdXRoSkl6cTZBLVlCZ2M4TVFpaWVXdUZWdF9YYzJ5X2FTSXlkZDB0cmVxTU1rR09SUWcyNEhYU3BuQzNVbFVNV2JfYlRScVprYllzcDgtZHhvTi15ZTh4OUFkMS10SzFkMkJaeFRqQVpJeUxYajhhbXAzZHlXYWVrWjIwMW42ZVJXVHY5SDFNR3pTSk82YnJtRTVMRUhxZ3BLa1BrYmRPV1hYbzV5SlJvUWMtc1IxSUtScnlwOENKSDJ5dWRsYWxMRE10VkhvT1A3djEzQjhobW9CcmVzNTlCektGaVpnZTVGRnBMVFBWYnF3NGRoeGFrOEVuZjk5ZWNHS2tLNjZUMnU4ZHl5LTZ4OFJTRVhMWXhQS1dp?oc=5"
             },
             {
               "data": "2022-09-08T07:00:00.000Z",
@@ -22382,6 +22385,12 @@ export const mandateTree = {
               "descricao": "A promessa de reduzir a fila para cirurgias eletivas foi cumprida. Durante a campanha, em entrevista à RPC, Ratinho Junior se comprometeu a diminuir a espera pelos procedimentos ainda no primeiro ano do segundo mandato. Em 2022, a fila era estimada em cerca de 200 mil pacientes. Em 2023, a Central de Acesso à Regulação do Paraná (Care/PR) registrou 91.449 pacientes na fila para cirurgias eletivas. O número continuou caindo nos anos seguintes, passando para 84.992 em 2024 e 73.130 em 2025. No mesmo período, o total de cirurgias eletivas realizadas no estado aumentou de 488.441, em 2022, para 790.629, em 2025. O que diz o governo: a Secretaria de Estado da Saúde (Sesa) afirma que mantém controle permanente da fila de espera e que o tempo médio para realização das cirurgias caiu de 105 dias, em 2022, para 57 dias em 2026. Segundo a pasta, a média mensal atual é de aproximadamente 66 mil cirurgias eletivas, mais de cinco vezes superior à registrada em julho de 2022.",
               "atualizacoes": [
                 {
+                  "data": "2026-02-19T08:00:00.000Z",
+                  "titulo": "Recorde no Paraná em 2025: 786 mil cirurgias eletivas - PSD",
+                  "fonte": "Partido Social Democrático",
+                  "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQaEZBYzlsVlRrdUJsVVQ5OG9YdXJqWjhFaUtFcHhmT0syWjRkd2gtTTJUdVNsUVRWN3JWdTV4b0dfQVNBc3EtbGlmNnAxYThFRXctOHlwQ2FiVTRpSGg1bVk4ejZVREhOOHJtVFV0a2M0WXFwUTlUOFk2RWlqZHE5cGFlYnQzN2R1?oc=5"
+                },
+                {
                   "data": "2025-05-07T07:00:00.000Z",
                   "titulo": "Com investimento bilionário, Paraná faz mais de 2 mil cirurgias eletivas por dia",
                   "fonte": "Conselho Nacional de Secretários de Saúde | Conass",
@@ -22392,12 +22401,6 @@ export const mandateTree = {
                   "titulo": "Opera Paraná dobra número de cirurgias eletivas e chega a 687 mil procedimentos em 2024",
                   "fonte": "Secretaria de Saúde do Paraná",
                   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQbzdiV2RYeks1T3hzaVFRc3pXUUVRQXk2NmZfT1JucU9kTmp2QWdXd0lhbXlCMXZ5d2R0T3hRSGZMWVgtWWRDNnc1a2dVcXRJQlBaRm9SR3kzS1F2bXY0STZ3OG1OaFBOSjN6V0JHd0dycjJfVWdROHQySzJFUkQ3TER3cFBJNjlKQkhSMHRiUWZ0NjVjbUZ0a01zMWlNS3ltb1NrMERMZ0p5Y1h4UmVFTkQtdGlWUGF3T1Frb3RR?oc=5"
-                },
-                {
-                  "data": "2026-09-09T07:00:00.000Z",
-                  "titulo": "Sandro Alex tem meta de ultrapassar 1 milhão de cirurgias eletivas por ano com Opera Paraná",
-                  "fonte": "Tribuna do Interior",
-                  "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPWFNmMGE5bk90SmtVdzlQQkJON1Z0ZVp1R3dOb1k2STI5cjlOcEZMRFVFZ3BjMVZHd092NjFHUlpMeUwzdjBRSURsRkZ2OURRQlNCOENWM0dkSXpwZjJST3hTYnZoQVY0SHRlN05aZUxSaXpxajJRTW1KMTZrRU1HdUcyNW1EUkV0cS1QcF9DUU5YaXFrQXBadW1Ic3pyXzBlZDhzaHdib3NMQVhJdkE3Yk5XQ1JlMVM1RXpBNjl1NXlkWHZQNnB1UWZlNWQ0VURYSVF3Yw?oc=5"
                 },
                 {
                   "data": "2021-09-06T07:00:00.000Z",
@@ -22433,6 +22436,12 @@ export const mandateTree = {
                   "titulo": "Aprova Paraná Universidades garante 10% das vagas da UFPR para alunos da rede estadual",
                   "fonte": "Secretaria de Educação PR",
                   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNeHRjVk82dmtpUVh4UVpvR3V6QkNaSmZxRWpyOVRZUDhUZDJNVm9GSnU0NU1DVTRXMnAwTHpfOGZVc2xoVDdHS01OUzdHMU8xQ3dWaUlRMDJJUkZ5dHhzYUV0TXY5MVM4cFl0Yi11bGFOVnpZRmt5WFUzSE1xYmlrbWJ3OW95amlqblBYcGFwTVkyZWg2Vi1wZ2NXMWlzWm5FVGVmOUpIN1dtOGZibzJtWlJzdzBhNjNIRko1VlhzMDJ4Zw?oc=5"
+                },
+                {
+                  "data": "2026-05-14T07:00:00.000Z",
+                  "titulo": "Estudantes de rede pública vão poder ingressar na UFPR com o Prova Paraná a partir de 2027",
+                  "fonte": "Banda B",
+                  "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNTHM3VmxGSTZkbmFRMjBvbXpXeHBlSnFwYzBmM0R6dTV3dTlVaWxOcW5NeVRGamQ0d3NkOGlxaGxfN3Vma1FJeVB3NHBLYXNRNEpxelE5YVc4aHBJdHVqbzVPTERNZkxxU1BjQTB5TWZWWjRnMGlxclNLRVlxQUVmVTZwWTlWR0N6MkoyNGg2QU4wbVk2MHJTQngzakRjdDZSZ0hoUUpVTUpyNFJlVjJpVFBwT1VuZkxIdXNuQUpEZEQ2LXRE0gHKAUFVX3lxTE9YeDVDWVZxOGdoVGpKR1czVE9Qazc1ZVYzelpfaHVfLUdLaHBVTU5UWk5hSFBlRE9hMWVySEZyX0hRSThoUU9Lb1hJeWNHTVZmTkRvUVcyVHlFM1hxU2l1X0dSdjZIOHBwUUJLbmtDaWcyR0p3bGhna2JSU3RRYWFwX2dmTUJ3Q1Q3Y01kbzJRSXRfOEk5YngyeEFsQ1FpMWZYZklveGJId1dndVdtbkwtdmFGNzZlcFc2NS1Ub3Bhc2tHXzNXdVFQSUE?oc=5"
                 }
               ]
             },
@@ -22456,10 +22465,10 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNa1N0YUNfY193LXlGLVBXT1IxYlpsYzAtOHIwYThVV0hheW4tcEpkNkFRU0NycVR5VEpVc1prWmlMeUg4MEJ0b3ZGNUxFSGZoZEptcVI0QzVQbEJWcEI4QUR3MUZScTRVVi1WbnIxTmJwTkRqQ1ptSjRRT0tsWHVfVFNBMHlCa2oyTFpybVdVZHdmcmh6WjZxVUZEbFg2WG9jckEtU0QtaHB2S1F0Ni1yRXJpTzdrRFFjMm1kLUxwQ1ItOUwzUHpfUTRJcDB0RHlqYjMxWDBn?oc=5"
                 },
                 {
-                  "data": "2026-06-24T07:00:00.000Z",
-                  "titulo": "Ratinho Junior assina maior PPP da educação do Brasil para construir 40 colégios no Paraná",
-                  "fonte": "Blog do Doc.com",
-                  "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPWW9VQUY5N3ZUMjhVLXRtTDQycjdvQS1KTGtlZUdNb1J4Q1NjMl9CWWthUkVyRVE3WmhkZ0JJdUNOMk0yZWthVHNLTll2bzFWcll0S3JRSVJ4MzJoYUkxZ3BTMFp4S2lfSkZDb0djRVZtQVJwYzlLSDlYU25keWdxOUs3WTNUck5VcGV3WEhFX3otV3hncGllaV9SY2gwRV9MRG1qTEJBMzBKYTlWLVNTUl9GUUotbGRGWDhfNHlaci0?oc=5"
+                  "data": "2025-10-29T07:00:00.000Z",
+                  "titulo": "Paraná aprova escolas cívico-militares e reacende debate sobre gestão democrática - CUT",
+                  "fonte": "Central Única dos Trabalhadores",
+                  "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPYllHUXNRRUpWcGtIa1N1a043a3VQWWtxOVRqbnNwVFlwOUVPTjhaOGRmbm5falc5N1kzbFJKNkF0U0N5N2VhUVV2c0IzWmwxNlBFZE1LTkN2TTNMOGdJZHBTYWNrY0tON1FPb0l0MXZROE9sNWl3MGQyMHFNa0h6Q1RsZVc5NUNYQlFGQXlIcVBlSloyREFzVTZPazJEUGhWa2FRdno3VEtHcnlqY3BLVENMN0h1Wi0y?oc=5"
                 }
               ]
             },
@@ -22477,16 +22486,16 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOQmU4ckZXcjRDWjRqd1Z2RHFBa0Y1T0pMLTFWSVQwdHZGUHRab1UxRmtRR296b0RxanF4MDJocHpndlQyNTBZZUc1VWhDRFFCRVkxOGNjdGRxRmt5MUVXYVdhZHQ4bFBnVXJKaXZyV2RCV0xwMHY1VkhpV1ppWUlTWjFMQjk0bG9oNTFoVzJSM2dkeGZDM08wREgzY25vdWZuQ2dHWW5sanNKaGRoRnVNVHp3b3JzWncx?oc=5"
                 },
                 {
-                  "data": "2026-04-28T07:00:00.000Z",
-                  "titulo": "Ponte de Guaratuba: Nova data de inauguração e denúncia de custos",
-                  "fonte": "Gazeta do Paraná",
-                  "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQbWZ3bzg1M1kzY0VsTzQ2aDNMVUlvZ1ZIMDVTWE80WUxpR0VWTk4zVmdrc2RWbHBSUUNSU0hWVFRjams5bml2aXJGZm9yT2Job1hMNDRJcXpFWHNKSXhLVlNzN2RZYWJ6aDhBS1AyVklGb0IwbmdBSEJ0eE4yenVBYm4tRF9Kb2U4MnVPcXpKcW0xR2V6NG5pS1JVWVluN2oz?oc=5"
-                },
-                {
                   "data": "2026-05-11T07:00:00.000Z",
                   "titulo": "Depois da Ponte de Guaratuba, começa outra obra para impulsionar turismo no Litoral do Paraná",
                   "fonte": "Bem Paraná",
                   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOU09xVUhLUTFlc3duV19ybk9QbXRFSUg4UllySFpZY0Y3cWhhOHFSVXRicXVaek9YU25lQUV3YVhRV0o3T3dXOXdCMEFrYzVsZFBlNzg3N01SVDFpT1o1aGd0MDlSckViNHpDOC1pel91ZmlGOUJJWVZIRnVuOG9HcEZUTEdDQ0Vrb21COTB3Z25pWF9hREVma0phaGo0dVhOU1BKWUN5VWlqdEQ4cjRrcFh4V1VuZ3d1T0pDckpiQUtFdkNHcnlWOGswa3luWVdkemZDVNIB2gFBVV95cUxQV3Y5QVB6S2hVS2RLNzF2MjNqdmJNejgySlRTbV9XVUF6RU83TDNCNzRpaURELVpTTm5VMmFUTkdWaF9Ua0RUUjJFS29LZl9Dd2tUTVdua0lEV3RpN1hJZFNGeGQySGlzTno1dHNTOUo1ZTlPdkxBVnAyVjQtaGZRdHZFV2lrYlUzdlJUM2JIeW5XalR5dGRqbEk5Y3daWXNCcGt2WE1RRTF4cHdDMkpqY2NKeTlXdnFRNU1tNnlta3RiWkhibDFqbkNRbkhUR3N3cnAyUFZqVTU4dw?oc=5"
+                },
+                {
+                  "data": "2026-04-28T07:00:00.000Z",
+                  "titulo": "Ponte de Guaratuba: Nova data de inauguração e denúncia de custos",
+                  "fonte": "Gazeta do Paraná",
+                  "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQbWZ3bzg1M1kzY0VsTzQ2aDNMVUlvZ1ZIMDVTWE80WUxpR0VWTk4zVmdrc2RWbHBSUUNSU0hWVFRjams5bml2aXJGZm9yT2Job1hMNDRJcXpFWHNKSXhLVlNzN2RZYWJ6aDhBS1AyVklGb0IwbmdBSEJ0eE4yenVBYm4tRF9Kb2U4MnVPcXpKcW0xR2V6NG5pS1JVWVluN2oz?oc=5"
                 },
                 {
                   "data": "2026-04-27T07:00:00.000Z",
@@ -22513,10 +22522,10 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNUUNLU09mWDMxWmw0M3pPRTJyUjVCSDQ1LW1zeGYyTlNaR2J0T2ZyT3JIbGtEcXhadDRuSkxXMjBGbzFYcTA5MUhLWEhsYWt1YTRZS3BVVkVGeGx5a2FqNnM1MVEwcHYtdEtPLTlRczQxbGJaZnR3Nkt4N1hHZ3l2Sk9HTGpsc1dUZ2pucnB6blJmRFRxMjJ6VEUySnA?oc=5"
                 },
                 {
-                  "data": "2024-02-23T08:00:00.000Z",
-                  "titulo": "Veja imagens de como avança a construção da Ponte de Guaratuba",
-                  "fonte": "Gazeta do Povo",
-                  "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQOTF4STZaZDBIeFZlSnBrQ3A4b1RDbmZhckgyMVg5Z19zdVZEbm44OTJ2TlZ2a1BsVWFaT2I3anZPaGlvbVpMUXdiQkIzYzBVTnFrRmVsZEVoVjFsZ0VyUlJxdFhla0JOdFktemxZaTNEclpFSWI4M3dXTHBsWHkteTJibw?oc=5"
+                  "data": "2025-09-12T07:00:00.000Z",
+                  "titulo": "Ponte de Guaratuba deve ficar pronta no início de 2026: relembre o processo de seis anos",
+                  "fonte": "Bem Paraná",
+                  "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNTk55Ql9sN1ZYRGxRX2xjbzhKMTlpdVZ0SHhtMG1xdjk2MVBrMTAzYmlxNU5ORllHRFQzYnlmNEMzdFlJTXJzMTA5UFR6bkd5cHNWaS1paHNaTHhGQzRLWjN2MWNQeml3WXVmZjdKZGwyM0xZRV9HOGlxYTRuS0c5cVRFMTIzeHVfY21wcXZFdnJsSW9BbXVmdVBmeWVDS3c2Njc4ZGh2SnIyekZyb2xGMEVURTkyeFBrYWoyWFluVEdtV3Q3WUZiOFlQbzZmd9IB0wFBVV95cUxOV3dxa09yZEpLRWg1VDhvZTRORkF0TWI5aUFlTGZrU3BDeEFtWGc3Ry02TGs5ZjRGTXpwWVk0ekN6a196cnNYZDQ3ZGpsUlZwcUx6d0QwNE9RdDlmbWp6cHRjQnhMeHhoZVNNVVkwVVczWm0yWGV6WXhrZjBVWlByZkduNmZ5N3pLcy01MWpMa0x6bkpnUmRZTW82V3ZhVnNGQzNmTm41eTBqak8wX2I3WUsyeDhpUkFlTllraUVsY09BeTdCLWhHLXg3RHJHUmZQWkZn?oc=5"
                 }
               ]
             },
@@ -22546,10 +22555,10 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPSFlHSGF6bmJXNUxhazRyQUx3Y29hYWF6QlNvQUNHVGNvTjdFT1pMc0NmNGZZM3FyYjZZa3NsNUZFbTV1YS0xZ0pPVW8ySUJpOENBUGtQaUtqc0k0eS05Tmh6WU9jbHZxbE05TFdYS1dGVVNJQlpwSUhOSGhEc2t0amFtRkdfT0NzM0NnSnBjNDMxUUczWE9RREFaOGozTzg0VTNaU0RqWnRtZWpncVgwVG95VTU2WGFfSlJ1UUFadkh3dkpJOXhpWTJ4eDJBWU1nZFFITkw4ejE4YzMxUEJMTUJR?oc=5"
                 },
                 {
-                  "data": "2023-09-28T07:00:00.000Z",
-                  "titulo": "Ministro Jader Filho libera R$53 milhões para obras de saneamento em Apucarana",
+                  "data": "2023-02-08T08:00:00.000Z",
+                  "titulo": "Após 25 anos de espera, Residencial Interlagos ganhará rede de esgoto",
                   "fonte": "Prefeitura Municipal de Apucarana",
-                  "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPS1Y3WmRGNGpkQ0pCZktpV3RzU29WYXNsTG1IWTJJYXZNdFhKUEdXRElabWY4aDRmN2pkbzhIeFZKTUlFbnFlSTRETXlfdDBDYlZQRTRwc212a0N6aTZlUERsTUlXSTRDd1V4MHpUXzQ1X3ZVUlJrUVh1V3Q4UEo5WDQtNXJsdjJ3eW5QU2Z2dWliT3VZYXE5Q1JZazZJYm5GYWFPT042ZEVLQW1LVFFFLUU1ZGU?oc=5"
+                  "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQME0yci1xM2ZOVlZPX1cwRHIzS1cwQlJsUGItVnotbmh4VDRrbTlZWDFDSnU2Y2V3aVZNN3h3NWxOREVPU1J3S1FlZXdiMDFHT3hJaDdiWmZkR2hZcWRpWndtTVM3aFlEUlBDdHAxVE5wVEd1TVhRclZRaTFhR3VuUnJNblc4d0RabzFybE1jR2I4VWsyT21mTjdROGwyVGR3UjJLSTMyRDE?oc=5"
                 },
                 {
                   "data": "2024-09-20T07:00:00.000Z",
@@ -22571,6 +22580,12 @@ export const mandateTree = {
                   "titulo": "Rodovia dos Minérios: Segundo trecho duplicado é entregue",
                   "fonte": "Gazeta do Paraná",
                   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQV182clZBRFZ0NF9GOHlMRWlCNk1IODlsU1JXSFRkcU1CdEpXQllIQ0pUOVVXS0lCclJUcXlHSmllTFg3dG9YdnIyUWhGTVdsZk9PZ1JpbDBmcUduVEp0LW5VczlMUU5NcmRhWFN0ZkZicS14QkkzTlFmeHhTMnlha1EyT3FCWkRDeURrSmphenFmMGZzM1FWM1FYcndrZUFEdk9GYQ?oc=5"
+                },
+                {
+                  "data": "2025-05-20T07:00:00.000Z",
+                  "titulo": "Novas obras de duplicação em concreto da Rodovia dos Minérios chegam a 61,6%",
+                  "fonte": "Jornal Ponta Grossa",
+                  "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPNzRWWFZ1TS1Cb3pxYnpQVU5iVk03Y3lpdkhaamhxX1d2YzA1NVlubm1TRjU5TTFvOS1aeEZlMUsyaXkxUjJ1M0NNV0N6RkxNV3I2dUpoVURjdFo4SUZ1X0ZDcEdLckQxQm84NVJxUWlMSmpOZGF0SVdtUDJ1RXFNQU1HNzVVMmp6aFJ2cHlKbk9mSnVvRXVvZklybXp3M3JaTW9HbWcwTkxKMHdoWHQ4TjJiWWs5NVJTZTdvMy1YQUhMcGNOWm1F?oc=5"
                 }
               ]
             },
@@ -22780,12 +22795,6 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOa05pQ3J4SV9yTzVHbXRrbGJRQ2oxLTdMUm1adWxyLWdRQlRjbllSZjd5SkhVN29VdWZZYkEwOWtveU5SVzhYZ0Rzb0wwMWlnbzJlMm5JSl9GVm9kSlBQR0ZhZkl4cmNTZlZsWG55VktlVzROZm44UEhlMmR0cHFseW5qOFNQSk56OUNicDlGb2tjQ1EyWndRbEpJc2VvcC1wSVYtVEVlaGpJZHE5VkZhODROQTFDYUh3bmdkN1lxUVJpbEUwUHplV1dwclZoM3dUMzVXOVhEZG04Zw?oc=5"
                 },
                 {
-                  "data": "2026-08-22T07:00:00.000Z",
-                  "titulo": "Terminal Metropolitano de Londrina a passos de tartaruga",
-                  "fonte": "Paçoca com Cebola",
-                  "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOa0ZvdzVrUlpiQ0tXcmVrdHE5U04tY1NMZDQ1WHhUbDJPbWhQWHpyanZhN3lJWEZYbnhMeGd3Y2VEX2Y3NkliRjl2R2VpU1QtaE52WU9XckVHM0ZuVzdkM3BJVmpybzcxYXdFZ3ZEemxkeF9tQUxWU3lHVHhsWm5OeFY1ZmthdUpoTlVMM2xyeXBHT0N1dnIyRGxZcDF5QW1Rakpr?oc=5"
-                },
-                {
                   "data": "2026-02-05T08:00:00.000Z",
                   "titulo": "Novo Terminal Metropolitano no Paraná sai do papel após 30 anos e ocupa quarteirão inteiro",
                   "fonte": "Tribuna do Paraná",
@@ -22802,6 +22811,12 @@ export const mandateTree = {
                   "titulo": "Terminal de ônibus no Paraná que vai atender 50 mil passageiros por dia tem construção liberada",
                   "fonte": "Bem Paraná",
                   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOSEY1UHdaNF9vTFM3WEJkS19CZHlvcExNMnpWUl9IZ3RmOHBfVUVTZWJOZ3hpWHlyQzdfQTc2U0VzQV9ZVjhGWmI0TzhkOW9EbVVlWnlPQTFrUzdua1lTektfbVFJMkR1NzNycC02ZUpKMEg5eFROLS1Oc3QwQWNQalVRT2dwUjVtYjNYTE9acmZILVczaDFsZ0d3UF9PMmlIY3ZHdXFMU1JoRzBFZkRCaXV4RFVHaEl1R1pkbEYyM3FQcEprUDJfYUF6SEkwdGwySi1qYmtsNy3SAd4BQVVfeXFMTURZOTdkNHViaURBZ2tVLXJDdDN0elVZZTlXUV9uYkduZVpVbFdxSHpsUWs1LXFCek13TE0tRXg3N1dQall4QndBaUQ4UjBUdmpBX1hBWm84bXJFWVNpNnd0VGVWRFdoNEVPSTNnTmNOa3hnQ0VLdGNiMmpjM0RBQWg0QjlWRVM3M1dkNmtVY2tGak9JVEJKLXBlV2R3VnJ5RnJXZXY4Ri0zaC0wRDBSVEpyamJYNnVLdGVpekYtZXczTVI5YVVyT1BUZ2lIa0pvdGNZaG9MS3piZl9OREt3?oc=5"
+                },
+                {
+                  "data": "2026-02-04T08:00:00.000Z",
+                  "titulo": "Governo do Estado autoriza o início da construção do Terminal Metropolitano",
+                  "fonte": "Prefeitura de Cambé",
+                  "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZVpPUk5tdmRKajVYcTJOWkZVUmdTSklna2hrNGNVNnZNVlRVdEJmZHlxTUJQTWg0WWhCdDMydWRwNzgtTFh5TDVEYmFmSlJJMlBoeTh0N1lkX3ZZdGFZNG9SZ05DYzhnemMxb280elozQ0tscDh5S3dLSGQzbFlTZEhIckctTVJrLUo4ejJtZEhLLXpNWTEtMWxBVENYSWZoNGdnUnNrUTVIdk9KWnRQMVFn?oc=5"
                 }
               ]
             },
@@ -22910,10 +22925,10 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOWnU3UXk1aUU3NVFsbnRYNzh6U2plRGFKNXphbDdQR2k0V1lkVzV3REJGYXJnZTZ6dktPWndYX1E0TE1EU3FBRVFhSVBhajdweWNrd1NDR3JaQ0lpZ2tGQjhRd2lEc2I1UlpaTEtuRkxZREdqSzB1dDE3aXJwcUtIUmtRNk5FTFYyQUlQMkRaMUxBeThSdklNQ2x4aFFfdFc2aXpWd292UHYxREtnRnNPUy1DX0ZLQWZlR2xUQ29lbw?oc=5"
                 },
                 {
-                  "data": "2022-11-22T08:00:00.000Z",
-                  "titulo": "Governo do Estado propõe autonomia do Corpo de Bombeiros do Paraná",
-                  "fonte": "Rádio Cultura Foz",
-                  "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQk9XZzJmd0M0dFM1N3hYS1BIcEFna3Y4UDhNbjR2WlN1NzhTVUp0QV9fZjNZZkZzajg2bFlrUUJERzZUbE9TMFNzd240dmtsQVV4clQyd1N2Sjc1am10M3BjQ0ZZNEZvMlJPQVVGbFlsa2NGMGYtcENxVThoWm9wTmhMSlJLeU0tTUlLbklnYzMzS2NnUG40U3ZkSnN4amRpSjlGcGdISmFVbjJNWktIY1dxY9IBuAFBVV95cUxPM2hOX2taUHNvNmd5b1ZLaThDY1lJcnZnS2dMenRVemVDcUgzUnlhSzNxUlR2Q0tCc2U4YXZOd0w1djlrSEFvd2pYMGlMd3BXN0pEaDNubElnWFI5bVYtWTRHeXZsRGNZU2xnT3J5NTZpQ0RlX1VtaGFoTzF1OUJGRGF4WU5nZ3ZrV0lyOUpraW5uZGlCTWxTbGJNaklDUzFxOVlMaWNfMTQ1YjlpV3ZUbGc3YXdJV0lG?oc=5"
+                  "data": "2026-08-11T07:00:00.000Z",
+                  "titulo": "Concurso Bombeiro PR: novo certame autorizado. Confira!",
+                  "fonte": "Estratégia Concursos",
+                  "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9tbnUzWmpva0taTWNNMWxoRnI4Zy1ycHQwaFNncC1tZzV1bEcyV3BwNWFlZldfbGhkSWJmWnhYS1dlVGFJSlpOckR1Y05ZcFlaWlJ0TGUyR2ItdUM4b2Fpczc2ZEEzS0hIcFlBWkln0gFzQVVfeXFMTU1Ra3U3TDA0NTJlRlJKNmRuQ3ppd1VsbFlnYjVsc2J4NkpyQllCQUhnYkg3TFpITThNendCdHFsTzRSem03OHJicGVyQUEyXzNMUTNtbWtQNDhOQUxYT2hTX0JRRlRZNEpwZFpNejZVZnhVNA?oc=5"
                 }
               ]
             },
@@ -22981,12 +22996,6 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNeWhGb05YX0N6LTRaX1JpS3ViT0ZCak9QTVBaWjIzblZfejR0MllJdkhfVDg4UUdTd3puTDRvdV9KbkV5cmhGNldTd3laOXpzQzJlSnd5WFR3WUlLa2xrMmRXZWdyM3drVTNzTTRqNHowb3lKQVRqdkd2NnFscnAyZUFkYlU3VGJNX2w5eTRVNXo?oc=5"
                 },
                 {
-                  "data": "2026-04-24T07:00:00.000Z",
-                  "titulo": "Estado investe R$ 5,3 milhões em estruturas de atendimento às mulheres em Irati",
-                  "fonte": "Hoje no Centro Sul",
-                  "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQckRrbFVGR3VxN3FHeHZzLU9XNXBDTHVaZ1BGYWhwOWdrVXJscV9fLTZhbjFNVllaemdTeW5vTm0zVXUtVndZN2NWNUdKU2w5cFkyclg4a2hHeGlXTEFEVXNUazZPOGJIV1BjSENyc2JwZUpLTDBtWk5yNlpjZU00bXlTRDhVbVk0QnR6SVBieUdFaEhGa1RlVXJrLThkVG5ELUliVVB3bjhfNVU?oc=5"
-                },
-                {
                   "data": "2026-06-18T07:00:00.000Z",
                   "titulo": "Ratinho Junior autoriza nova unidade da Polícia Científica de R$ 6,3 milhões em Cianorte",
                   "fonte": "Canal 38",
@@ -23001,6 +23010,12 @@ export const mandateTree = {
               "status": "nao_cumpriu",
               "descricao": "A promessa de implantar a Casa da Mulher Paranaense não foi cumprida. Durante a campanha, em entrevista à OAB Paraná, Ratinho Junior se comprometeu a criar o programa como complemento à Casa da Mulher Brasileira, do governo federal, para oferecer atendimento a mulheres vítimas de violência doméstica. Até o período analisado, nenhuma unidade da Casa da Mulher Paranaense havia sido concluída ou estava em funcionamento. No Portal da Transparência da Secretaria da Mulher, Igualdade Racial e Pessoa Idosa (Semipi), 14 unidades constam como \"em execução\", enquanto outras 28 aparecem como \"a iniciar\" ou \"prioridade em análise\". O que diz o governo: a Semipi informa que o programa está em implantação em 45 municípios, com projetos em diferentes etapas, como análise, licitação, contratação e execução de obras. Segundo a secretaria, a primeira unidade, em Corbélia, tem entrega prevista para julho de 2026. A expectativa é concluir as 14 unidades em execução até junho de 2027, enquanto as demais dependerão do andamento dos processos conduzidos pelos municípios, com previsão de conclusão no segundo semestre de 2027. Créditos",
               "atualizacoes": [
+                {
+                  "data": "2026-09-29T07:00:00.000Z",
+                  "titulo": "Guaratuba inicia obras da Casa da Mulher Paranaense com aporte de R$ 787 mil",
+                  "fonte": "Agora Litoral",
+                  "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQbThLUHJNRUJkbjltX3B1TnpfM0lKbjdjbUNPTnBpdFI5dERLdjg4SkxtVXpRMjktTVZxSlFUSm4wNUpOTjBDSTFtNWdsVzBFZnFBU0JiSWRsTmdBTjFnejNNblhuNmwzaHpwR2FwNXJfaC1yM0RsT0FBeUE2cS11ekg5d1EzVm9sd0J5TkktN255cjVUc29YSVQ5N1N1QzdYQWV0Q0JGMVlCbHdHRmNZVmJsYXByUQ?oc=5"
+                },
                 {
                   "data": "2022-09-15T07:00:00.000Z",
                   "titulo": "Ratinho Junior diz querer implantar 'Casa da Mulher Paranaense' para atender macrorregiões do estado",
@@ -23020,34 +23035,10 @@ export const mandateTree = {
           ],
           "noticiasGerais": [
             {
-              "data": "2026-10-15T20:23:22.000Z",
-              "titulo": "Moro e Ratinho Junior iniciam transição de governo",
-              "fonte": "Correio do Povo do Paraná",
-              "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQUVV1UDJtazd2eVVtR01uMWh2VU9DYVRpWm8tQldRVDBJZW9TcV9ublVMcmp1RGpfcHNuWDc4R2FMWWRZSjlIMTQydjg5T0Q1ak5STUFhOXNvQjdJaGhXMTlqUDVZVFJ0cmpuZ0VSZEROa3JuYmF6LUhaX1pScXYwWTF6X1pxUnNQNU5uUlRaalg2Yko3TzFr?oc=5"
-            },
-            {
-              "data": "2026-10-15T20:01:47.000Z",
-              "titulo": "Sergio Moro e Ratinho Junior debatem transição de governo",
-              "fonte": "CBN Curitiba",
-              "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOVVBqTEFka0EzUGVvR080YVh0a0xjWmZfeGF5X1hWbnVSTzh5NnhxNDJmMWpTRG5DNlg2STUwUXlRZ3NjU21ISkItUHNyb2x0am8xVUdPT25NUFpPY2RMODBwcWM2dk5TMjlIVDZpaUxWLWptLTVSSnRTUnEwNXpYVHM2aU1RN3VHaUVqbWxQakZ5MkhLdS1oVm93?oc=5"
-            },
-            {
-              "data": "2026-10-15T19:49:34.000Z",
-              "titulo": "Sergio Moro e Ratinho Júnior iniciam transição de governo no Paraná",
-              "fonte": "OCP News",
-              "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQMHR1b3hwbVBKOW1SVVlDeXlxOG12SWdDYU9nemNFd183bXNjUHFsMGkyZ2VLMEtvRWdoWU9mUC0xMGZicTdRTEFkRENhYnJLWjNqSXZnejI2UVpXVXNFVzhUR19iNXVQTHFyRXFoVWgwWUlVMHFaNFJJZkJhNzRmNDNuaWFhYjZ5NUJ2VkhSY1R4TUZ2TE5saw?oc=5"
-            },
-            {
-              "data": "2026-10-15T18:14:58.000Z",
-              "titulo": "Governador eleito do Paraná inicia tratativas para transição de governo com atual gestor",
-              "fonte": "Portal VV8",
-              "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPa0hEcVRzajlyZDBlWnpEWEtXRnczb1hySUZiN09kcjYtYkpRcVlKc1JWT056aGduY3d6MjNuOUd4ZnFhd1g2dmlmcE5ZX3pZSGRudk96ZmotYU9ndTNNdFhFVGxhMnN1UWlLczBjdUQ0TW56UFVFWEh5WEJ3SnV4eWpBbGRuX2E4STRmbFhCQXZhUF80emh6RFRmU0lmNWl5NUZab0xpYmhwNmtMbXJTak1USHc3SlFBZFVOWlBWVkZRbG9wb2c?oc=5"
-            },
-            {
-              "data": "2026-10-15T18:14:42.000Z",
-              "titulo": "Após troca de críticas, Moro e Ratinho Junior ficam frente a frente na transição",
-              "fonte": "Gazeta do Paraná",
-              "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNOXJQaEM4OUdGZjhIelktWXVhU00yNEFRbWZuOHlwWkZxMHM3ajRSVjAzandpcTlsQi1YNDVfb2RGc0s2aFdrR21vY193WVNRMEJ0RlMxSER0ejJWbG1TSzFnNElzVGsxdFloejZaTDctc3FKa2cya2F2ckU1LTctWTBoQWROOHcyVlYzOHJrNlMxZHBGaktnQWw3OTRVWk1ITFU2NXVVM2tjb25pZnhaZURQU3RfS0RX?oc=5"
+              "data": "2026-10-16T21:36:47.000Z",
+              "titulo": "Sérgio Moro e Ratinho Jr. iniciam transição no Paraná",
+              "fonte": "primeira página sc",
+              "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPZkZzb0l6YUZfYnJMM2JBZ1RDcHJ4dmhiZHNoZjRlR05uME5LT3hTNzdtbGF0QTJObXJReklTeXR6VGMwcW5PQkV0ZndNQkUwM1Z4VGhNdjR2aW05UWVyd05oX0NEUW13UGw4bzFUazdGcXhsUmpST1NfRmd2alM4MFhsYjY4ZXkzODZPa0kyRzZEZzM0RXZVd0VObjZFdzJhTGU2SFRib2g5Q3pJRFZMQzRQU1N6WUV3RXA5S1czdnlaWU50QjU2WGhqdTJlSHRFX2h1Rw?oc=5"
             },
             {
               "data": "2026-10-15T18:05:51.000Z",
@@ -23066,24 +23057,6 @@ export const mandateTree = {
               "titulo": "Sergio Moro e Ratinho Junior iniciam transição de governo após embates na campanha eleitoral",
               "fonte": "Gazeta do Povo",
               "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQZTFaeFdfVkFIRE5qQWN6QkRveGZNLVVSVngxWjNOckJ4ZF9vOVoxaHlqY3NuT3paTDhFYzVuRl9ZUi1LWGNqQ3pXc09NS3RZZ2t6MGl1aVR3cmptUUFZMVNPc1VoZ2FYYVlmdGhXd3lqdHFVbGY4ZUNoa01xYVdYLUxtdWVWTG90NXlZbE9ELXIxR0RHVWxMZlJBOWdlVXNLalBlSThYT0w4cmtYUmxGb1BPTU1YY2NHdC01VlZDM1M2UUx6dVFYSF9aYWFKbVRlU1hkU0Z2Yw?oc=5"
-            },
-            {
-              "data": "2026-10-15T15:11:58.000Z",
-              "titulo": "Moro se reúne com Ratinho Junior para definir transição de governo no Paraná",
-              "fonte": "JB Litoral",
-              "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWDVNSXlPbG5hMU1yYXVJUkhLVGtIazgxcXI2NmRJUlk3aFFoOFduZ1hqbHh5ZzhHZUJYRUZrZjNQc1Z4dU5qSGRXcGY1QnJ3WmdjZGdPZnpYUVhLdTZNWTFQTjhyTlFTNUdNTjlMTzgydHQta2pLWks5YllGRmt4d3FSd0t6a0tLQ29WSWNXRENRWXE4cXZPeE1TbDBtdlZJV0ZuTzBUSml3ZzRnZHY4eg?oc=5"
-            },
-            {
-              "data": "2026-10-15T14:44:00.000Z",
-              "titulo": "Ratinho Junior e Moro se reúnem para iniciar transição após atritos na campanha",
-              "fonte": "Tribuna do Paraná",
-              "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQREdPZlZZUEZ3Z1MtYVZyVDFobGVCY0xpTklOR05DMDlwcVFDZ21zeHlGT2NKWlEwR0JtOS0yMmY2V2NnWkhkZmFFaXBTczBXODAtSWRMdG1aU1BteFZ0TEFZR0hWQl84UThISkJLQnZDRnk1M3NIMmtwbk1CN3JVN0NKVjNKeDZvQzJaZDVsdkRnQ3RVejJBejBNeERMM2RHb2dSM09RN0JRSHUyY1hHOUYxdWxjQnBZQUt6WNIBwgFBVV95cUxNSDVxbUVseEFLb0otRmVwTENnRkZmczZZYUNTeGpBVi1BeUItM1dwelE5aG5tYllyaG1VampmOHVpSzdGNnZpeWlzdnp6N2xsTjRrRTBydWF2ZUpMVEh0S3pPNlpyV3RfZUVoZkRObGItcGVEajFPU00xOFhHekFZcExNNGphQThXalM3bUtuUEdIRHhub0w3VG1OZDQ3a2NlaUJKZlNyMDFyUVg3a0JmS2o5UGszd1VYMkw1TjA0WUFCdw?oc=5"
-            },
-            {
-              "data": "2026-10-15T14:23:00.000Z",
-              "titulo": "Moro e Ratinho Júnior se reúnem para alinhar transição de governo",
-              "fonte": "Maringá Post",
-              "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPUFBNengzOGRqQjNqa04xQnBSbVdXdjdXT2xpdlJnUEIyYUgxdG9SNHAxMmVjTlh6Q3NhcjQtX004SjJtc1ZFVHdwV2JSa09iM3lKUy1sakdTWFZSeU5PeGFZUHkzaXh2OW52eXVfaTVOZWxiWGxDZFpqQXI0N2RkWDk4eFczRHJrUlA1VTBoVUIxNDBiN3p5RWY5ZGZWSEJSWnQ1ejRVcw?oc=5"
             },
             {
               "data": "2026-10-15T14:19:17.000Z",
@@ -23105,9 +23078,15 @@ export const mandateTree = {
             },
             {
               "data": "2026-10-10T23:04:28.000Z",
-              "titulo": "Ratinho Jr declara apoio a Flávio Bolsonaro no 2º turno",
+              "titulo": "Ratinho Jr declara apoio a Flávio Bolsonaro no 2º turno | Eleições 2026",
               "fonte": "Valor Econômico",
-              "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPbng0b2dvMHJqNDdqUGlfcmpFZ1djdzlIdXZHVzdYNl9aelNkNjhoVHVzTTdaUnhaVGh2V0dPdkFSeGxIZkNtSnkyMlpyNkQ2MkFvQ19taVI4b3dTa05iYVhTcHBLRDFpQ1VyNEhxTm9BM1hRWmVyY1lDYW5kYUtLOG5GMUhiNU5hSUtZc001MGZQeGJhS05aNGpzWUhDVHRUYUFzSklkLVE5UkhlSmhZR2gzMVpTa2c3UV9Na3NwUThodkXSAdIBQVVfeXFMT2ppU1hodG9kandFWGxfSTRqMEtLbTE2WUZOU0hibUxoNXl0MVdRQkk3dHRCal93UUlNX2FjNUJjNmlTeVhNNk53c0NUeWxWNk1tcHY2TVVPbEJMNDBpbGZxdlZLaTU1d3JQNEszb3F4YjRfcWpxaEVXUGVZVndPUERQemJqUERDNzJoRV9MMnhTZ1J3OHV0MXVXM1dvaU5MVUZ0aHJlcTZ2WVB6RDF4WW5VRDRDS0l3d3B5ajdIdHl1Z3ZmWDJvdk96VURMR2l4Rkt3?oc=5"
+              "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPbng0b2dvMHJqNDdqUGlfcmpFZ1djdzlIdXZHVzdYNl9aelNkNjhoVHVzTTdaUnhaVGh2V0dPdkFSeGxIZkNtSnkyMlpyNkQ2MkFvQ19taVI4b3dTa05iYVhTcHBLRDFpQ1VyNEhxTm9BM1hRWmVyY1lDYW5kYUtLOG5GMUhiNU5hSUtZc001MGZQeGJhS05aNGpzWUhDVHRUYUFzSklkLVE5UkhlSmhZR2gzMVpTa2c3UV9Na3NwUThodkU?oc=5"
+            },
+            {
+              "data": "2026-10-10T22:15:00.000Z",
+              "titulo": "Ratinho Junior declara apoio a Flávio Bolsonaro no 2º turno",
+              "fonte": "Gazeta do Povo",
+              "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOY3N3MjdBQWdjM0xKRmhDTGh0TVFlYlVEM05ZQU55M1R3aHBBTjNFWGhRb2VSYUtBWE1QUXNhTDE3NmFTQWJxczJkMTBFTFpTZGVMc3NRTDZlLWItREtET3dVLU9XN1lUa1RoVUJQZzNDWW1pLUFGQXlWZXcxeldtQnVselRMWTdGcFVzdGFyZDdLLXVtU3N4QUxMVWROekFYS1lXbFd2QmN2Zw?oc=5"
             },
             {
               "data": "2026-10-10T21:58:18.000Z",
@@ -23116,7 +23095,7 @@ export const mandateTree = {
               "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZDVsWUVJeUVvTERNbVprbjlrR3hTV2V4dE1WQWhIcFlLa1N1TmhaQVFIbS1MaXgyODBlcHhJbWpyaV9jNldqV21fVWN0U3U4R3NwRzBiQWFoZlVuTnFXdHJVaWFQc2NtckpRbG5wU083cUlHZ2VJX19VZ3pRb3pjNzhDQnRNVzgySUFvcEJhSG5jOHRneW9MRW9NQmlEOF9mdzMtSkl6WmZ5T0gyeE9R?oc=5"
             },
             {
-              "data": "2026-10-09T01:29:00.000Z",
+              "data": "2026-10-08T07:00:00.000Z",
               "titulo": "Escolha tardia e força do PL: como a sucessão de Ratinho Júnior saiu dos trilhos no Paraná",
               "fonte": "Gazeta do Povo",
               "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQODB0Zmg4U0p2RzhoX3dadVNRbU00ajA2R1RrLUo5SlVIcGpSdi1DNm9iUWgtNUdPTGZvdDhyX0tHTUFaOVhYbGpDWkdER2M0bEI5OXBVck42V015em9Ed0VjYWVzV2hIRzZpYzFndmJTV2p2SEpuRWNtYkg0VVBKMzI1eDRBdkZBT2NzYWRyT0Y3XzUyVTZWbE8zVk0tbWJGd3lXNXJNbXNmamU3WVRvRWgxZ1o3T0FUaGpIVnVHcXFoaHM5TURvUUt1ZWdmeFEzb29wLWhxNGV4U2tDcm1jdjNB?oc=5"
@@ -23128,16 +23107,52 @@ export const mandateTree = {
               "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZXl3YUJBOGZOLTh1YlJscmtIdkZQZjd2cXFHOHpzZGp2VW5GS053ZXlhUWVoVlhJT2ZrS2YwVVNicU8yS0FMaHY5UXNFb0IzQUUwSFJvdlZEN3R6Um9zdXJjYWVkZV9NUXRlOTdFT0RMSDVSaU5McXA4ZDhVV21VQXZyQVFISTVDbGZtZ2JMdURuOHZOTFBYcWV5OVM1VXBIUHZnUGtCTTJpakIzV0p0a1dCcw?oc=5"
             },
             {
-              "data": "2026-10-04T23:57:44.000Z",
-              "titulo": "Sergio Moro é eleito governador do Paraná em 1º turno",
-              "fonte": "JOTA Info",
-              "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQNUF4NVZuUkNPTGd0MnBlbS0yc25HRTJ4SUs3TnQ5bTdXYW9nRFluNjlhb0hpR3dhRER5SVFJWEdEd0NjMTljdzRLTXg3M1FYN3haTG1hc1B3cWJ0ZFhQWnB2bFlnLTRiNllMaTlzNW1ndVU1c3hON01uOTBLTklyd0pIM0REN3ZmalNuSjVETmExc0x6cWxnb3AxeXdja3c?oc=5"
+              "data": "2026-10-05T07:00:00.000Z",
+              "titulo": "Ratinho Júnior parabeniza Moro e fala em transição responsável no Paraná",
+              "fonte": "Gazeta do Povo",
+              "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPUHZ4X0Zod3ZRZEpla01BSjVFR0lrWFR5bEpmQWk5UTltSW9BYlBPUHN2YzBMcDVFa3RYcXZFdmU3WVpMMTdlNFFjQmxqUExNX0UtaFZ2ejhWNmE3NGpfQWlLQlhhbHIwd0V2M0RTaG9jQTVpMUlJOVc3alNpRF91aVlDSWoycEY2ZDh2c0kxWGJ3bHd5V3NWbHdNcW1EUGN5Tklnd2JSLVVrM3FJZnJmSkk2UXVnbGV2bGlkeUlzQjlsSERUenduV1Fobw?oc=5"
             },
             {
               "data": "2026-10-04T22:47:23.000Z",
               "titulo": "Sergio Moro derrota ‘filhote’ de Ratinho Junior no 1º turno",
               "fonte": "Blog do Johnny",
               "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNRVA2cDBfNDdwQ3ViWDROV2hSUGwyaGFyUWlBTGFFZGkya29MaC1RU0ZVQ2lBRTRYSkhFQnlRZG9MU0hSMXowQUk4TTNoblpwZVJWN2YwZE80WXp5MU16eTcwd2VKX3R0ejJPcUtXX3E3VzZWWFYydXNOcU1LYzYxV3VQdVEtSmRCQWZxcUI4ZWNzSFNRVG9vWA?oc=5"
+            },
+            {
+              "data": "2026-10-04T07:00:00.000Z",
+              "titulo": "Sergio Moro é eleito governador do Paraná em 1º turno",
+              "fonte": "JOTA Info",
+              "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQNUF4NVZuUkNPTGd0MnBlbS0yc25HRTJ4SUs3TnQ5bTdXYW9nRFluNjlhb0hpR3dhRER5SVFJWEdEd0NjMTljdzRLTXg3M1FYN3haTG1hc1B3cWJ0ZFhQWnB2bFlnLTRiNllMaTlzNW1ndVU1c3hON01uOTBLTklyd0pIM0REN3ZmalNuSjVETmExc0x6cWxnb3AxeXdja3c?oc=5"
+            },
+            {
+              "data": "2026-10-04T07:00:00.000Z",
+              "titulo": "Sergio Moro é eleito governador do Paraná",
+              "fonte": "Congresso em Foco",
+              "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQalFlOGVBOWdwTy1WUnB6bDZETlg1em1LUU1UYmFSRXVSRXZRT2tBM2lUaElnSUxOQWVHQ3RZbUZldlYzSFNQU1RTX0VZZ0hLZWhlQkYxdzBrUm9reUJoYlRHMXltQ1Bic0t0RVhUSmpSNEdDZmNmdFlabDJYUTRfdkFNS1A0RlhuZDkzbFhBdVI5TGlUdWc?oc=5"
+            },
+            {
+              "data": "2026-10-04T07:00:00.000Z",
+              "titulo": "Sergio Moro é eleito governador do Paraná no primeiro turno com 50,1%",
+              "fonte": "Brasil de Fato",
+              "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQZGVUNGE1anJjYV9ReGo1X1Bsbk9zdDlvNUtYNTcwQk9nRlIwemZGWTFBSXM1WGZYeHpQamlucEoyT2VMc3Q2RHJyNEd5TUszNDhTNEg3NzFONnh4dURrV2ozNGotMzBiUGNxajVLalZGd1hpbEVKUFpQOVIwTEliVnVDME8tQk91UmV6bXNR?oc=5"
+            },
+            {
+              "data": "2026-10-04T07:00:00.000Z",
+              "titulo": "Análise: Com Moro, Bolsonarismo supera grupo de Ratinho Jr no Paraná",
+              "fonte": "CNN Brasil",
+              "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPQkoyUnRyeTZ4dU9zcTRUYXNkNG0xRVluRGlfaWJqb1BzREYzcmh2S20wQTZoMUVSbUJrWXNDOVhaRm5UcVRYRncybTc0YndacEQ3OEg0eUNreWhKMzh0X1RlN0dwMWhtbkNwN3I4UHdEdGw3aWRCSVQ4VTg0UGlyZzVtanF1RV9HSzBqeXBrbWhPUTdOYmc1ajJVR2VLYjBMOUN4TDR1bUMzQzI0bXdwUzRxaEJjTDFkak1RV0Z4dXNJX19JRVE?oc=5"
+            },
+            {
+              "data": "2026-10-04T07:00:00.000Z",
+              "titulo": "Sergio Moro é eleito governador do Paraná no primeiro turno",
+              "fonte": "O GLOBO",
+              "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPTEJXRXRJX0FQdFAyUm9CbDh2dWtnVm9fTnNjV3R4TEdMUk0tb3NsWEw0TUxjM01JbHJFWllZMk11R0dlQVRzX2hUdXV4cXR4ZGNoUDBzODBBbFBUa2tpNXBfRFFSZzZzYUlyRUVXWk9IWWVvOEhOOWVZWGgtUVprWWtCdzJyRjRybnNVV1M0cmo4Z1ZkZ0hDVjE2WjVkWWI2bWlUVm5Gb1MzLTNVanp4amtwMzRiQ2FmUW1DVUc0NkJ5YUppVDlybWJGYXnSAdsBQVVfeXFMTnVNaUkyMzQ1MFZDakRnRHFhNWdnYkNESHNTY2p3b29OM3FxVC1xZXNIcWQ5X2s4TGRJS1c4NUVmMF93ZDMtZXM1ZHVnSFlnMkxrdE9vVWpVU3lmLUJvM1pQUjZ4ODNfQ1JpV1pkd0s5QTBOX1NpNW4xclg1ZklDdkNEMFBpQWt2N1F3Z2d0eUZCS3RDVURNTXNObjAyc2V0dXQ5WGY0cEFLTFlBeXlFaVh3VXhrZ2VYN0g3X0dJSno0N2s0SnJrRnVpXy1jbUsyMGg5UzhQcUZQOHFz?oc=5"
+            },
+            {
+              "data": "2026-10-03T07:00:00.000Z",
+              "titulo": "Quem está na frente para governador no Paraná? Veja os resultados das últimas pesquisas",
+              "fonte": "Valor Econômico",
+              "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPeVVBWko5Q3VmZ1hUUTNtdHhKamxpR1VUZDQ2RTNfNTlBUElHTFFpOVg3ZktNT0t5RnZ5VHVfSTZ5bWVOV0ZuejNOQVBVUmxNdXRndnRUdmRSa1k0RmZhcHpJdkY3M0lWYzVnNHduTHFUazNTNm54d1VsWlNCOVRmQzRQVWE5REtBZUVzVC1haXpsX3ZuUkR3MUlkcl9seVRBOVFwZXNqbHdISkM5bGRqTHFGWlVMVHBVNG1kQ3hJT045eTM4ZzU4blFFS2xuU2RrM0ZNVHB2Nlc4WU5zb1pER2d5aUd6T1ZyMzlF0gH6AUFVX3lxTE8zU1k5ek5NWFdVbU9ZZDl1UFJsZlFWNW1VV040UlpGTEV3cXU5Z2JTd19sN2lnZ3ZiQWszRm9vSXcwTjU4RjcxU0xPaVQyd0YtODFTcUtTSHlEbExqZnZieU54MDlLMjk3X3dtVDVaRFhhY1d3LWprTDV2amVtaFc4TE5qQ2NtMjAtY0tvcG1JbUxHU0h3TXBYaXVWZGVkclBtWlNQcGJVLWllbUEwYm8wNXBvVmRnamV5QjM4SUFwd0ZtcnduNFFlOHdXa3g5VGtGTmo2VnhFQnVORFIyRC1ScFV4RXhTUGszdjNMMldLWDN4N2FKUW5wVlE?oc=5"
             },
             {
               "data": "2026-10-02T07:00:00.000Z",
@@ -23158,16 +23173,40 @@ export const mandateTree = {
               "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTWt1dDNpaktXdDN3Tk5rMkNGU2NXNFA3eHRFVDViZVpySVYxc2RYTE1SbU42SWNIZzRrbWVqQUdNQzdVS2paV0lpQlg4RWx6N1JVaENhWVdic3NNU25TLUxBLUhXRHBsVWpQZVJpYVhHbUtxTzNVbFBaakl2eGZrNUszRm16dWRjZVFNUlRKRTJHS0xOSUV5cXRMZlpfWUVSX3NnX9IBswFBVV95cUxNV2N5blNZMUV6TkhRMGpEM2tCNFpNVHFwYkJsYVUtcVJuVmxCU3g5RmNsd3FLRTVyX2lDODdaYWdHV1VZME1oaG5ZNUhXdm9Gay1UN20wb3dLRTFaMW1qYVhBQUlrV1VId3JwamFmYWtMa1NNUXRxUkllTzJOSnNTaG9CbHV5MV91Vkd2OW5wazduUjEzVldkN255UjNsWjdIT0d6NDBGWTFuQmJxTWtzaFdCTQ?oc=5"
             },
             {
+              "data": "2026-09-28T07:00:00.000Z",
+              "titulo": "Eleições 2026 no Paraná: Sergio Moro cita eliminação da transmissão vertical do HIV; Sandro Alex prioriza filas e regionalização",
+              "fonte": "Agência Aids",
+              "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQNGIzU2FOVlZibEROLUJhd2xiQlRVcVNRWXFEQjRkemluNVFnd0locU9fLVRPYVB1ZHV3SVlpbEVoOEVSaUtaN1M3cFVLeWROYWRjQWZhaktOMnFyV2N4aE9hem55MGRBWF9ZR3dLdFRQRlRTQUM1allvV0ViM0g0NDB3UGw0cmhpTjBvOHV3OXRiNVR4VDdtY2VDcTA0NWlWbTJESEVDQUliYmZfcl9vZkExSmgxV2V2OElhWWpEOFpMb0lyeDBxWWo1aHFMNzRuc1l5VGY1RHJEUTJLaTZKZU1DMTJmN2tZRXZBclRDTWlXaFdQRnc?oc=5"
+            },
+            {
               "data": "2026-09-24T07:00:00.000Z",
               "titulo": "Eleições 2026 no Paraná: Sandro Alex participa de carreatas com Ratinho Junior pelo Norte Pioneiro",
               "fonte": "G1",
               "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQNlE1Q0I5blVQVkV6Zk5wNjI2UWtpQUlqOU5OSXpnSEhaczhCdXJtcmc1UVlkZlU0alQ2b3lPNUlweEVSOG10OUhRWFE4alhVYmttdGhGT0tld0RwMVU0UkZRTUwxMnNuRG5vYnJ2bThMcWY1NlJQMjNFanN2ckVWaDN0a295ZURnQkRhUE9URTg0elFoWlJrZ1lId3cwOW4td2hUcTNqNWhXaW8xcG1MLU5qNGYxV21nb2d1Tjdwalp5d3NWX2l2M1M0Wmd4ZTdvYzNaaGFtalladUZqZmo2Y9IB7wFBVV95cUxPdmVLeWRYNTZMRkNjQ19GM3UxVHBsXzlfYjF6Uldwc2RMZjlNQmh5al80di1NQXRBaTFTWjJQUktYUUROOTFud0cxR0FtZjM5NHdNRTROTjlQeFg0Si14czVEalozcm1IVzZ1TXFBUDlTMEtqSHFHdXNEUTloVk56bVVrWXFLM1Z6YWQwOTFVWG4tUlpZMmZrSGgyOHhzbi02R0NnWDcwVWt0clR2V1pfM3NmLVM0dGJMYjU0UjRIaW5uVzJlVFR6ekVjSVgxNUp4NzAxNmo4dXh2NndVV0p3NXRzd25mTUlFM0lsdnZUMA?oc=5"
             },
             {
+              "data": "2026-09-23T07:00:00.000Z",
+              "titulo": "Eleições 2026 no Paraná: Sandro Alex agenda série de carreatas pelo norte do estado",
+              "fonte": "G1",
+              "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQd2FRSFR1ajBweUtWdUdLTUZraEFoMWdsQjJTTHNBRllrY1pHemFzLXFXVnJUd0hBVk9VN2xJdWZwdmtnb2g2MEJLS0tHckRhY0FqaVV0SHJyY1JEbFlvaThGc3JLSEZTOWFaUUp1SHluVlBpLWxIVU5BamplSGtnOUNheXplRmhVS3lCNzdQTlNmWWZ1U0hNTkRfSXpkZnJWRU5sUzdQaFJUcDZSdktaMEh1Y0NjOURkQnRvbW1ka0RFZ9IB0AFBVV95cUxNTER5RktrX3JGa0hlOG5VYTNtb3ZldVQzT2N1a0NVT25zY2JpWHZLSUFXemw5bUwyMjQ2MHBNaFZRREE5ZUNOcTdqTF9KZHZtN0dqM0ZEMkt4bWVIZERiMFdGOTk5RTZpUHA2NE9vaXpuTllHdEV0TGZEajJBdnF1YUxPZ0ZRZkV3TXg1anZReWtwVXA5N1ZPUU5ySDc0U3VILVhrUDdlMEVRWXJtbFBDUEVQVWFGZ2JDRUpVNldIaEt3RDlJeENRZVZIcW1oRWk3?oc=5"
+            },
+            {
+              "data": "2026-09-23T07:00:00.000Z",
+              "titulo": "Candidatos ao governo do Paraná têm agendas de campanha em nove cidades, com entrevistas, carreatas e reuniões",
+              "fonte": "Agora Litoral",
+              "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPVTkwX2VLY3Z5dmQzNm12VXRLcHpoc2NJdzZIUUk4UkJrTmsxMjMxVEtwUjNpS29FZ05pVWlQa3dySV9GYnZHMDlSS1NMSThIQnM2YzllWER1b2YzZHdUQUY0YUFldTRCZEc2Y19UdGV0TE5MalU4OWxTcE5LT0w0cEkyNmUyNjlkNWp1MzRuMmVvZ1lTR2UtanE0eUdUaXZQWXQzVUVxUFF2eHA0cUxyVGVQYzlSN1E1Ymg0dXpfZFBYdGRIdjdjMUJvYU0ycnV5ZnJJSFU5amJXa21RWjZIY1p3?oc=5"
+            },
+            {
               "data": "2026-09-22T07:00:00.000Z",
               "titulo": "Sandro Alex defende expandir regionalização da saúde e aumentar efetivo das forças de segurança",
               "fonte": "Blog do Johnny",
               "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOZTlESVA0Y2FrWWJsZmV4c0pVQXVmZTJWdnNzVDZGYkREQVRUMmZlM0w1YXJOWGRkNEZMUUl4dkswYy1PY2pIdW9Nb1QzOVU1TXVnMS1vMmMydldhT3VnM3lRc2JtaFM0UEtLZGFuUExPSTJwVnYwc2FYZVNuRDhwVERvMGNSeGx6OU5RaVRLb1ZnZjhkYUJia1JpNWh3ME5OR2lMM2ZHYll0TXd3SXZ2c18zSUdDUTZWLWxjOE44RkpvVmVKSERpcTJmcw?oc=5"
+            },
+            {
+              "data": "2026-09-21T07:00:00.000Z",
+              "titulo": "Ratinho Junior pede continuidade com Sandro Alex: \"ele é resolvedor, pegou a balsa com problemas e entregou a Ponte de Guaratuba”",
+              "fonte": "nossagente.info",
+              "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxORWZZYktJNzZXd0hXTFRReWZfWFZOeHhQTG5nSTlOWnZ1WkpXTDc0LTJvM0lEZ0VQcTZaV2c4b19SUWRvdUZhTDRfUllZalktZFB0ME9RblVSWkRaclRUSHpVMnFlRmMwVVNWeEZjN3BxS2tyWGlVRTVkYjd5eVV5Vzhnbi1FdnA3NExYdm45T1N6NTFwVEFlaW1lZDh4N0llajZYTklTZG5EQU00RzlHV1RvcjRxNF9XODNFZTFSOXh5MG9PRWhrWWI4SGZWZ1QyWUFYUVA1WWpkY0s1YjRvSlRpbDJnNmtLUWowcA?oc=5"
             },
             {
               "data": "2026-09-18T07:00:00.000Z",
@@ -23266,6 +23305,12 @@ export const mandateTree = {
               "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxORmRwQjFIbG5UbGJRWkhCS3VLN2FHZDZJeWZ1dDMxQmxaczhoNjV4UG9tLTY4Vk0tdUJueF9lSmJMUlVOT0NSQUxBOXNjTnBBeHRKckVnaDgwT09RencyQjZCeFFrMTdjMUZ6V3lKWHJFRTVCUnVzWjM0V1E1LUdULVZuWlh5SXBqUEE0SkQ2T0ZoTC1NTmRGYmgyR29TaXg4OWozSVBDUdIBrAFBVV95cUxOVWhOVzZZdFdUUUlUa05haWpqd0ptQk1yVlI0a3NMRll1WHJBX0NQVFVGak1ScTJRemYwUG1RMkF1NGZBRGVvRWlxeHB4Qll6WXBxRTcxVDdDaXp1dzEyRnVmSVBiRElGU2ZKNHJla1FxZFY0bnBRbVJoVUp2N3JRX0hfYmVSbnE5dmVzeUZOUktvZW41YXdic0tKRFVrUTFTWm51MWxLQ3UtV2hh?oc=5"
             },
             {
+              "data": "2026-06-18T07:00:00.000Z",
+              "titulo": "Convenção do PSD para confirmar Sandro Alex como candidato ao governo do estado será em 25 de julho",
+              "fonte": "Diário Indústria & Comércio",
+              "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOU2FsWkJ4cjZUeVBWOWpYTXFNcVRyMENNTnlMM0NiV3l5QzZremJPWW9BYmkxN2xKMGRrLTJ5ZkNySExHRXpKSWlCT3pxdnY2RkI4ZVBuTGJRVmlRaTdJeGdDTU4yWk5PaXBxczN4VkRJcWNSNm9vcjdLUVF2amtjMDBySnJJRjNVOXZRS3dRVC1heUhqeGxJWmNsMmlZTXFRZVJKXzNZTEV6dERDbXdpQ2tpTDlHTUF5d1hLc3hBVzY5N3JTQVltZzJKN3FyWk9YdUpjRnJiS29JX0M2M3FsdWZpOA?oc=5"
+            },
+            {
               "data": "2026-06-03T07:00:00.000Z",
               "titulo": "Ratinho marca obras enquanto Gleisi cola Lula ao Paraná",
               "fonte": "Blog do Esmael",
@@ -23278,22 +23323,16 @@ export const mandateTree = {
               "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZTNKdXF1OTVWQUJzbV9PY2hySjc0d1o0dzF2TDNmZ2MzNHUzT2dXdzRBd2JsMmpiUEJBVWJ0eTJ6OWprZ0s2azdMWW5Jalk4Ry1pME9oZ3ZDb2ZZVVBpeTR3ZzhxNFd3aUozZkwxS1dWTnBCMWNXTDdEVWF2TnZ5Q0VwX3RtWHJFNS1DMld5MXZLcURCUHpHUzBBNlJmTEk4em5Xb1VzR1Z4NUs0UGs4?oc=5"
             },
             {
-              "data": "2026-05-27T07:00:00.000Z",
-              "titulo": "Ratinho Junior anuncia milhões em obras e promete maior programa de recape da história de Cascavel",
-              "fonte": "CGN",
-              "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPNFFud0hBUFpmaUlQaDRQR1ltTXFiM0ZWV3dXdVRKclprYWc0WW9aX3dGaWJSZnQxYjc2OEs0SmVtXy1VMnZ2ZDV5WjFrVmZqVDhxcnA3dkVqbWdsY1ZUeHdqeVFNWGVrR0ZSbGFxNWM0cnJrTXZiNllybVRKZHNUbjlUTi1NU0FidUFqd3djVmZHa0pZNkY4WkEyd0haeV9IcjRjOW5xZUJLc3B3cmgyN29xd0MyeXpkcVJ4MTM3dlJMN0szWUdTRnRsSHkyUdIB0wFBVV95cUxQWko2VGJ5WnVJd1JKQ1BtTHk3c1hBdmJtdzhVV05HMUplcnliOElOZm84LVF4MlJSR2dJSWdMLWotZklyZGdrc3VpOEIxQXJKYU5KQ2twRTVGRXI5aDdUWGdORGJ0ZDdyRWZ3ZVFQcExYRE9Bdko2SzV2ZzdudzBPSEpOTmNwVlRLVll1V3NrLVAxRUFhNF9za1ZpaDQ2MVZoaTAtMlFVYlJpXzNHTVUyZU50OGhoMkY5YTI5R1M3UmhVVUlESG5BNHlwV2xvNWhZM2J3?oc=5"
+              "data": "2026-05-12T07:00:00.000Z",
+              "titulo": "Ratinho terá de escolher se pega verba de Lula contra facções",
+              "fonte": "Blog do Esmael",
+              "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB5V2NlR2U0MnNCczZNNlpqRkJ0c2NMOFhrMXNqSGo1YkU2NDFzMjNMWDlFaW1weThfNlprSVgxR0puaWszYjFxVWJqRE5JY3NJWGFYaGVfcEVJWGZxU2FJcnlFdnQ5cjNBdS01OFFVYjJrNDJm?oc=5"
             },
             {
               "data": "2026-04-14T07:00:00.000Z",
               "titulo": "Quem é Sandro Alex, anunciado por Ratinho Junior como pré-candidato à sucessão no governo do Paraná",
               "fonte": "G1",
               "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOZkcyQzB1Vm40R1BHR3dtSTEtbGZzRmZfcHJkUXczSDRub3p0VjVnbGZPNVJKUld1YTdyWU8tRGZSWUhkek1OeWg2N3J2MzZJaUJTdFI2M3c0VW11U2ZrMDJjcGUxamZ4S1JFazd3YjhvUnBSVlVibEdSeFdfS2hudnFnRnE2RzV4d2wxdURqZHhJWXR3SmljeEtsNDk0WVl0UGVKS3ZYRE13bDk5NlVfN1dKbDBfNS1DaDg5QU9tM3ZOQkRxMG1YVzRhOTVVdWlwaGg2dkpTNXdnWXBDX2Zj0gHuAUFVX3lxTE1JTEFldGNZX3hGMURpc2RCcEd3X1dSUW9EM2FqUUI5Vld3YVRKREs2SUlzUjhtSXF3QjMxMjkyT3Vma3RrYW5QYkdBUFVaZ25FTTFjOWtYQW1jTVlmTGJfcGltNXdWN2hTc0Y0Rm9EQU9QSUxKNXBTSFo4NXQ3emxMSXBXQXo0QkxZc3M5WmdERGh2Wlh1QWxUOEFOT0NiSTYwcTFIbmU5ZWN1ajQyb2puSUdkNzR6a2NRYVdQRVZETnZJSzlPN1JHSGdxTkcxU3c0OGNGbEVTRFQzUk9YTVlHYkpQeFc0S3F6eWZQYVE?oc=5"
-            },
-            {
-              "data": "2026-04-13T07:00:00.000Z",
-              "titulo": "Ratinho Junior escolhe Sandro Alex como pré-candidato à sucessão no governo do Paraná",
-              "fonte": "G1",
-              "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZFVnZjBGSlhoN2hkRnluYWpKV2FsMHA3cGNpZEE1RDlXUHg0dlQteTNxWFh0SHl6Zno0OW1Vb3NuSEs1X3JvM0hscmZnNXJpRG0xVmNqMkhOZnRjcEdFZzBPbTlZM1VySkNpNXN2THMzbWFhNTRhcDk1R2ZSaVBSX0tVY3F4TWJTTU0tcE1KTlRISHg4OHpqTU5hRjTSAasBQVVfeXFMUFJiODVaRmtZa0xTMmU3My0ydTVZNUVRc1J3M0J5YmQ2dVZWN0tPcDRYYnFtVDZtWjVaOGc4dFdCZGU0RmJVU3VWdkFqQUkyTkZEZ0p0bk9Tdkh2RDFVRTg1cDl3cGtJejlRZWxZeFdDd3B0TVd6VlJnYl9VNng2bXplM3dZT1djQTdsY2lCMWRKVmJiNFlydGJQNUlXS1VKUlRCUlVyN1N6VU9N?oc=5"
             },
             {
               "data": "2026-02-05T08:00:00.000Z",
@@ -23318,12 +23357,6 @@ export const mandateTree = {
               "titulo": "Antes de discutir nomes para eleição, é preciso discutir projeto, diz Ratinho Jr.",
               "fonte": "InfoMoney",
               "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNQUhZdU5UaUtRUGtqV3pfd25aVlBPWWpUb29LZVY4SENPeXJ6WGdaRXZDN2Z0UklNZlF5eTJyRC1qMUZWdnIwa2dGVjd5ZkRCWUlhZDIybjBTaVlWSDFwNHZ2Z2R6MmxGRzVTLVhrWGxWNm15RTljQXF4Yll1dlk3LXBkdV93RjE4b280TlU3dUpRT2lsOGZINXF5Q1BhVHpHYVNzT1RtMkJfNDhyaVZHektRT2ViWVlG0gG-AUFVX3lxTE9NdjU3ckIzVU9aYXBjeUM3XzVkbUhNRFl3UnJVVVFFTzBHQndhY3djV28wb1Y4MjdTLXkteUstVjdSalB1UGFFVmZEbWppQU9RTk9OYl92a05pdEdoaXFKUlo2Qlp3T045OWlVcERaYU03M0tNaDNKeE56QkQ0cFYxT0tRMXdJVlVlc09ia1MwS3ozalJyTnNjcS1HSjN6RW9oSGlxSHBOMUtHRXFHNXlhdFdPRGVHZ2FlYUVxM3c?oc=5"
-            },
-            {
-              "data": "2026-01-07T08:00:00.000Z",
-              "titulo": "Ratinho Jr. investe e garante mais segurança pública - PSD",
-              "fonte": "Partido Social Democrático",
-              "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxONU41X3lDQU54X1hzZk80dnJLWVlDTmdYZWdMUHB4MzhGbWRUMlVxdVJ3UEY2N1Q0Z0E2QXNWdjV4X0s1QnJiTGx6c3NHT2k5YWxiZjhPWGVTa1Yxa2ZoZWJyN2NXVGZidVNuR18wdExMT1hDeGtvUUl4WGU2WkZtUHM3d3BVS0E?oc=5"
             },
             {
               "data": "2025-10-10T07:00:00.000Z",
@@ -23354,6 +23387,12 @@ export const mandateTree = {
               "titulo": "Ratinho Junior (PSD) é reeleito governador do Paraná no 1º turno, com 80% das urnas apuradas",
               "fonte": "JB Litoral",
               "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQcnYtQXRjYVpCa3FBR1pGUTZWS3NGWldmTjVVUkxja0xLd01qOWg1ZGRaVzJZbHhULTg5VW1CTWYtRWg4eXhMd1A1bTYtSHVCd1AtSHNXVFk4RENtQVJZc25LeTRQVFNyMFlkOHNicEtxaWJ2V29wWDZsVkJpUTdqZGhFSlZsdWlMNVNRUXdPTFNYVUprX3d6UzJEdVh0VmplQnU3N1ZjRThtZFJTUmFpQWtmbEQyc2NXb2lWazV2TG51WVJYR2twckNjdlpnVENpYkJR?oc=5"
+            },
+            {
+              "data": "2023-02-07T08:00:00.000Z",
+              "titulo": "Obras de infraestrutura devem absorver quase R$ 3,5 bilhões no Paraná",
+              "fonte": "Gazeta do Povo",
+              "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUXZ2SGc5czc5eUp0ZUwteERMcktJRENVbGRmem9iSWZfcEVKdjlwRGZlZ3FOdmVsUURUYlBTUnM0bWUwSVFZTmVkUlZhT005eVcxUVNqTFJ6anV3dkItR2JFWW10c1RkRmkxVEpDUlNJbGVnelVKUHJ6RjJrOU9NeW5ZTXA0RGZX?oc=5"
             },
             {
               "data": "2022-10-02T07:00:00.000Z",
@@ -23435,12 +23474,6 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQUjA4eUc4MEdXT3hjYkRGWl9ITUlzZXN0NzV5U3VidUw2Q1dkYUpkWXlHN0FFMjhCVDVFVjBjWlhueWpFVUJHWU5EUnFFNjdnU25Pd3FPUGpHa2EwSEVXY3V0V0pKTWJPQ2JWY3RLeTB0ZGwyMGdIMFlfbUstUDVfRngtXzViajRkY1JUUVdrSnRMVG5UdHN4dm4xLVFyOHlDSmRfaEVuNHd1cWVEdVJhTw?oc=5"
                 },
                 {
-                  "data": "2026-09-11T07:00:00.000Z",
-                  "titulo": "Em Farroupilha, Eduardo Leite assina convênio para novo sistema no hospital São Carlos",
-                  "fonte": "GZH",
-                  "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNVExNN3F0dEMtQnhjZG1nUHRqOEdhSXZENzJHMkdZVzhLTFRvS05uVWc2YnpuWThuYVJZeWU4Zk45X0FOcmE3QUJhazNUTHcxSjJiTFRlR3dCNGR1czNCQXRPbFNSLXBCVUtQYlktZkRrT0l3T2xvaERBTi1kM0xsR0ZNT3ZMbnVfMEVES0paRHFMZUYtZUliS0RrSnp6blFEcFVMQ3FoTmV5Q1EtWHVJYXg3VEVrNldFdFIwRlhXcUtlQ2x2amk2a3g0QURqWmhnV2Fsc0FXMWhkd29XbUNKamljS2xFTlhYVVJ3NndCYktKb05yWHpQXzJaM3lSODEyXy1RdXFoZ3g3b2c?oc=5"
-                },
-                {
                   "data": "2026-09-03T07:00:00.000Z",
                   "titulo": "Novo Hospital de Três Coroas terá investimento de R$ 48 milhões e 80 leitos",
                   "fonte": "Rádio Taquara FM 105.9",
@@ -23457,6 +23490,12 @@ export const mandateTree = {
                   "titulo": "Hospital de Torres passará a contar com ambulatórios de oftalmologia e ginecologia",
                   "fonte": "a folha torres",
                   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQUXpzWjY1NmlpMnZBZm02RGY5TC1KN1o1dlZEODZWWW9kSHBsMVR1UjFrOVpmVzU1LXVRRWh0bE9rNmNLNUE3d3g2TXNOMHJhbHRCM09lSl8wX0g1VmZrZHk3bXluYmVXSk03dGFudUpjMHZqSENpUFVHWFBTRkpLamcwNGFmR1VpQjRZelB2RmM2b0UwcDBrVUZWVzJtZnBtSjJIaVlvakdsU2Z6NF96Mg?oc=5"
+                },
+                {
+                  "data": "2025-08-11T07:00:00.000Z",
+                  "titulo": "Estado habilita Novo Hamburgo a ofertar atendimento especializado no Ambulatório 60+",
+                  "fonte": "| Prefeitura Municipal de Novo Hamburgo",
+                  "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPRzlKRmo2Vk10MlQ4cWdNZ3JLdU03MDJCMV9IMGdCX3FOa2hERjFhVWhXVGxTelc2RjZoX1F2MWFsb2ZXVEp3QUtOOHc0bGplNWlEXzBubHJmaDlQY21IV1ppTi1DZGVzak96UVc3dk80Q1hxNTlQTzZJM0UtbWg1NXhiMkoycF9hREN2NUEtdGszVU1VR3hzcmtpUU9OV2JWQ2hHbEhFYlVodmJCQ0E3MjlycS1ISVhaX0kwREt3?oc=5"
                 }
               ]
             },
@@ -23486,6 +23525,12 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPb1NmZEw4R3k5d3pvOVRPa2RVSGR5N1Bramo0QVBvSktkb3FLeHEwei10UEFkVkpsTklHNm4wRWp2LWxpTW0wSDZTWVlGUnBEOFZyT3c0NE1TVUtIVmNrTFdSa0x3UldaTmc5U0M1czNnYlN0VXNndjB5RmJ5cmZsbEE2ajhMeEdyalpQRDJmclRNUng2bTZkeGdaS0NnbUl6VVo1WEEtaDF5V05TeWpkU01XUlZQYWM4RXZmblg3MzI1bUtZd2tGeC0yTGh0aW8?oc=5"
                 },
                 {
+                  "data": "2026-10-01T07:00:00.000Z",
+                  "titulo": "Sabatina da Gaúcha: Gabriel Souza promete zerar a fila do SUS em um ano e descarta aumento de impostos",
+                  "fonte": "GZH",
+                  "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxNVi1wRTBmVWZDdjhiUkJTSGpaMGNuLWVjbEN0blpMNXZWdzQta3p2RlFGVmtjeTFxVTNrUkQtdW56QVRSLW9xS2FLb2RSRlkwWW5HQ1FvemdoX0dQdFh5VzAyVmJOTkRiaHRjd3NmemxiQkd0UjlhSHd1OEswNTFOTHAxU3c4WkxWU2FQbVd3WVREWEVIVHAyZktjZnJ0TjE1NWZWUzVIbGo2TWdBQ1lRaW5lQ2RVMWtnWWpjakxJalJUSzRNSHNBWGN6emYybTZUa3R4M1hZbU5YYkl2Y3MyS0dvZy1vRWRNeXVTdjdPcGYyWmpMZDlHYjBTMGlDM2VCRE1LR2prdjYwdGZ5MDZGbU55aDMxZUhRcHFSbkd1UElZQUdp?oc=5"
+                },
+                {
                   "data": "2026-09-14T07:00:00.000Z",
                   "titulo": "Criado há um ano, programa “SUS Gaúcho” deve chegar a quase 30 especialidades nos próximos meses",
                   "fonte": "Jornal O Sul",
@@ -23496,12 +23541,6 @@ export const mandateTree = {
                   "titulo": "SUS Gaúcho ganha inclusão do Hospital de Vera Cruz, no Vale do Rio Pardo, no mutirão de otorrinolaringologia",
                   "fonte": "Sistema Província de Comunicação",
                   "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOcVF2Yy1kcjE3ZzJuejFKeE1ZZ3M3Y1drRDMxTjBMYlFsUHl1N0ZkMFFlbnZkT2lPMTh0N3dUdEw2ZkQ2MWZDWXc0WFVWSGQ1dkhXZEJ6S0d3R1NiTExsSkpxZEhaRjd2d2U3MGphMkZ0dEN4MGdnWU5SSlFpbGdLbUxNMDhPWWkxNk5JdVozOHA1X2dQRXNaNjNpX3FYWkVGenlucUhOMUVLMG5zZnNvaXFvelNNWWZMeEZCdVhTRFg0MC0zWDgzRkIxQzIwUVVpc1IzVlFWcGtLc25fbXNtMHNESHVUdFU?oc=5"
-                },
-                {
-                  "data": "2026-09-14T07:00:00.000Z",
-                  "titulo": "SUS Gaúcho ampliará oferta de consultas em 13 novas especialidades a partir de outubro",
-                  "fonte": "Correio do Povo",
-                  "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQSXJ1ZlB1N1VRWmozQmsyY05qUGp3UnpYOVRITW1iSG1pRVFRNFNaS0dvWk1GVW0wQVd5eUxKelZyaU1ZS1pERVNwdDdCYXBQVzNqSl9wZEFLMUlUcWN4NG9JTUwyQUgtZHhfUUFCMGgzem9QUkNkeHVhbnNtTWlUSmlZWU5pdWN5OGctUEh3aFhPVHRZUFl1engwbTNLSVFuZ2ptdEM0eWxFV2xhcGpQcjBLd0xlRUJJQVc3dGNuWlRUQjVpamdLS2ZDelFSM050WTJxTmEtZHVpOUNWOWZpcW1ERjRncDBUVkE?oc=5"
                 }
               ]
             },
@@ -23519,16 +23558,22 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNOUhlQUtTWWYxUVFjdV9Dazk0MTMwVERWT0hNVThVSWpUMno0SUltRzIzSTAxZ0dqakR0UnFDQWhsUU9FVDB1Ymxsako2VmhHNGtKOERFUjFhdmo1UFl4S09PQU1qeHZVakM1QjBKaGd3d3lUb0VtaDc4aC1xWHlwek9wcG1yNnZQamxVTlM2MlhWeGVqdHJTYU9tRTlOVnBRaGFtNEJJNWZ5WWxyLUFuUkx1UlpnbVEwcXJMME9WV2ZhU3hkNVR0Qw?oc=5"
                 },
                 {
+                  "data": "2025-11-07T08:00:00.000Z",
+                  "titulo": "Governo Leite troca presidente do IPE Saúde",
+                  "fonte": "GZH",
+                  "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPWGh5ZFNPRGFJWGtfREE5UDB3ZFJnamFwUk5icE9qTjB2VDVKQldrNEJVTFoxRWVYc2xiOEFpUGhXcjJwenY1TVNmRXBqQ2w4Zks2ZlI4clVfZ1hFZjVZekJleGcyN0RTeTRIQTFvQUZVbU1EWWFaZWhsY2pWTThvbkExRzlsNmNOUXFla1EtQnVDNG5ibVFLMXpnQU54T0o3YV9ZZW5JYk9WRHQ3ZWdOMm00OF9ZTVdKUU01dW1nY3VQMEM2TFowMWtMVQ?oc=5"
+                },
+                {
                   "data": "2024-04-29T07:00:00.000Z",
                   "titulo": "Crise na saúde: suspensão de atendimentos eletivos pelo IPE Saúde escancara má gestão de Eduardo Leite - CPERS",
                   "fonte": "Sindicato",
                   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQa1czRDVsS3B1NDY5ZUppQWVnU2I0TlAzQjFDMlBsN0NGd2Vkc0hXRDZkMkdDb1FrMUFhNXlMYzZXQ2ZGa0VKVVQtLUkwcTM4S21NVEd6UkpXMkJwQ013LVRwLVdTOUxVeFpZY2JVZzBlUFRxOWl6bEVTODNHX1d2bGJtV3oxSFlwb1ZONTFNNDVabVh6ZVp0al9QSEpUSzRlb0R2UDJLd0VIRGk4bGRmMHdOa2pWTVIwX2lwWXVENks?oc=5"
                 },
                 {
-                  "data": "2025-11-07T08:00:00.000Z",
-                  "titulo": "Governo Leite troca presidente do IPE Saúde",
-                  "fonte": "GZH",
-                  "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPWGh5ZFNPRGFJWGtfREE5UDB3ZFJnamFwUk5icE9qTjB2VDVKQldrNEJVTFoxRWVYc2xiOEFpUGhXcjJwenY1TVNmRXBqQ2w4Zks2ZlI4clVfZ1hFZjVZekJleGcyN0RTeTRIQTFvQUZVbU1EWWFaZWhsY2pWTThvbkExRzlsNmNOUXFla1EtQnVDNG5ibVFLMXpnQU54T0o3YV9ZZW5JYk9WRHQ3ZWdOMm00OF9ZTVdKUU01dW1nY3VQMEM2TFowMWtMVQ?oc=5"
+                  "data": "2025-10-22T07:00:00.000Z",
+                  "titulo": "Leite anuncia aumento do valor pago aos médicos pelo IPE Saúde",
+                  "fonte": "grupo sepé",
+                  "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5jUmVGdm1ILXhOSWdWaFpOd3B3N3dLNlVkM2pLU3ZpSzZBYllPbW9rUUhuS2MzWWNDc1lLOG1TZDhnU0RndUpSVmFSTHdTQm5RM1JaRTlKMlFVSHpnNXptNk1aZzJPdUpPOEx4WGotRQ?oc=5"
                 },
                 {
                   "data": "2023-06-20T07:00:00.000Z",
@@ -23559,12 +23604,6 @@ export const mandateTree = {
                   "titulo": "Milhares de servidores vão às ruas pelo IPE Saúde e pela revisão geral dos salários - CUT",
                   "fonte": "Central Única dos Trabalhadores",
                   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSTlZczlOaGZEcnpvMGN3WDZPaERSSUdtdGVUQ2R4XzE0TUxXdDZYRklvM1lsRWpUUUVmd29LcXM3bFdGb0xJX0V4dGpQR1BHYi0xNXQzTmZ6RjJvUTN3bEJUZGJxN2JpdkVReFRyendHYlRKd0tJOGZUc29Cdl9IUl9YOF83QnhiRy05cWctaW9RMDVwYWJ4dTYwbkhXQzRVcS1obDNyRWo5bXQxQVA3clpRTEFNQmNN?oc=5"
-                },
-                {
-                  "data": "2025-10-22T07:00:00.000Z",
-                  "titulo": "Leite anuncia aumento do valor pago aos médicos pelo IPE Saúde",
-                  "fonte": "grupo sepé",
-                  "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5jUmVGdm1ILXhOSWdWaFpOd3B3N3dLNlVkM2pLU3ZpSzZBYllPbW9rUUhuS2MzWWNDc1lLOG1TZDhnU0RndUpSVmFSTHdTQm5RM1JaRTlKMlFVSHpnNXptNk1aZzJPdUpPOEx4WGotRQ?oc=5"
                 }
               ]
             },
@@ -23582,10 +23621,10 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZThGSVpQdThib2dDaHBPX1IyWjJ2NWdOZHJhalcyOFlhYVMtWkdPalVXb0tGd0dYUE5EbWxwTU9DR3lhZUZ2NHpZQ3FUN2lya29GTlhYWENvSWw2cWYzMFNLY0hPQUJodXVFQ1J1R28yZGlMUG01b3YxZnNHRHRRVVZFc1pVX09scGxFLWt3X1FZdw?oc=5"
                 },
                 {
-                  "data": "2024-05-10T07:00:00.000Z",
-                  "titulo": "Governo do RS anuncia mais de R$ 50 milhões para hospitais e saúde mental",
-                  "fonte": "G1",
-                  "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPRGhfYW9MQ1N2UllYT01QZTVUbjNjWXc2Y3ZnbFNuMC1CMjluQWdPUHZ5di1ucWxUb3luUVQ2OVdZanNDMWVLVjcwRkJpQmJnS0ZTRzhuU1dUajdfc05YRzVtM1dyTW04Rnlzdk0ya1N5cTBtbDBrNlRIYm91ZWM4QXhJOEF5WUJKLVhJb3JfM3VXanR3ak56WlB0VmhmQWZyQnVOYmdZWm9kcEVDY2RSc1ZfcWJoanFzZ25tWk1PdkplLVZSWWItWFljdTZ6YjdMX0dUWllB0gHkAUFVX3lxTE41S0FvOG1SbkV0MnlteVU0ZUNDNzlSeVJjZllaOGQzYkJKQkwtQUV6aWZra2xMX0tDeV9CQ1g0RnZfejFpa2htOG1qUW9zZ1ZNN2Q4ZWMwYjNxMVZ6SXRKaWVBYjRKazBHTzI4em1PNjBzeE8zNGVlMXZfLUo5TjFHLXZ1YWtWeW4yUjQ0Q0EwaEFhektRUnpCSm1jbmZPb0dtS3hpS3d6TFUzRi1oOU8taG9iREI2U3VjazhKRGxxaVVoZzEwcGV3X09MZjN3aE5JcnBlQS1KNHpRSUdXNExRNV9zVQ?oc=5"
+                  "data": "2026-03-17T07:00:00.000Z",
+                  "titulo": "Governo do Estado inaugura revitalização da Unidade de Internação de Saúde Mental do Hospital São Francisco de Paula",
+                  "fonte": "Sistema Província de Comunicação",
+                  "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPd3NtbGtlLTVQbE1wQXBRZWtGLUpOYkdGUlVEN2gzZ3M0OE1tSGNuN1A1dm0zWTExalNOcHVHY1lVRllaY2U4dk5qNF9oMGlzMFBRWXlsOTFkeGpJZmp3elJuLWZSbTExOXNrVnc1SUlwTm8tNTBYMVJ1X2hJeWk1UmhVcjRUMHZlRm5BX3ppQTF0a3RPSzRTbUFyUkdjNnFCX0hiWGNHbTJWVGZkdGFxQ0tmZ1NNcGxZbE1RWVc4Wk1WUC1DZkJhaFZXV1RrZXRXTkxGUENTQUpzclJ1YVcwMWZtRmRVRFJ0dDNWRm5NSkdSRFR1?oc=5"
                 },
                 {
                   "data": "2021-10-31T12:11:20.000Z",
@@ -23658,6 +23697,12 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNenZ5QzV6Y3NQalRYZk9ld0x0Y0lxbUJBd3lDUktCTjNkODJqWGF5b3FoTFFsTWpxbTNOMUxEblRnVjlrR01jeFk4Z2FONmtrS2pJTlQ4bHZGdE1JXy1raG1GUlFwd3hRaENuUE9sWVlqRWZGQzJVTlFRVUtFVVhaVVB5MXF1Tnd4dE5SRm1YS0xmTXU2TFBNYUoyak9wVlFiblNYemJfNGhBS3hNRl9oUGNiQ3hTOTQ?oc=5"
                 },
                 {
+                  "data": "2025-09-10T07:00:00.000Z",
+                  "titulo": "MPRS participa da inauguração da nova Cadeia Pública de Porto Alegre - Ministério Público",
+                  "fonte": "RS",
+                  "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5KdDhfMEZmb1hkbGxaVm5oQXU2WHRLMV91ZHhkOWVOV3I2cFk2eE5LdVhab0ZLSUlrNTJyWWpEbGRhZWJpMk45WE10ZmZMWDg?oc=5"
+                },
+                {
                   "data": "2021-11-19T08:00:00.000Z",
                   "titulo": "Leite anuncia demolição do Presídio Central de Porto Alegre",
                   "fonte": "Jornal do Comércio",
@@ -23691,6 +23736,12 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOUGpxbWM1bFFqdENWZkZmelA5OHhrNUYtREZpVWlRaFhialV0OENyck1OcXFWYmNBTjNvNUtZWDc1UlJLbjVkSmRpU2RjSnF3RUxWU3FpRUpsbHBwWVBNeWtTY2JfRmRUaks3NVpUdEhKclpyNzJRbWs2ckc3MGxSRTI4ZmIyOUUybUYxQlk3NkJncFpRRFc1SE1ZNnFLT01tdFROWFRRWjQxY2VubzZvX2pLZzdtSG9Ud0cySVB6UHFKN1hXcThNeXcxazh5MVRnYmxzZkdXVUNFX3p4cnp6Slc4amVJaFIyeTNOV1VxMjhWa2c0eFdNN0NnZ3VTN1VheGdpZmFB?oc=5"
                 },
                 {
+                  "data": "2021-11-19T08:00:00.000Z",
+                  "titulo": "RS prevê construir nova Cadeia Pública e demolir o antigo Presídio Central",
+                  "fonte": "Correio do Povo",
+                  "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQLV82bmVaRm0wMEpaQXZiR2trdzBCaDFFNjh6NHA4SGNhVHo4SkFVcVBzOTY3VzFvSnRTRjRXaWN6QjgtT1l1Zm9xY096UjktbzFYcVhtLWxlUUl3N2w1VjFFTkxCSEJCUXVQUFZpSFk5R19KbFo5RXNvandISlhXbWJBYkg0ZWhBRTNFek5lRWFuaHR2RnpKWXNHb0gwaE5jV1ZONlVnalRzSjRieEFtRS1kY1hZcWp3MG1Sd0pfWVJBcjdKTU9RT3dqSXRJeXB5aEk2QzNXVU5SZU9DNEJjS2JzOFg3YmNhRHhJQXJRdw?oc=5"
+                },
+                {
                   "data": "2023-11-28T08:00:00.000Z",
                   "titulo": "Inaugurada nova penitenciária em Charqueadas com 1,6 mil vagas; veja fotos",
                   "fonte": "www.abcmais.com",
@@ -23698,21 +23749,9 @@ export const mandateTree = {
                 },
                 {
                   "data": "2021-11-19T08:00:00.000Z",
-                  "titulo": "RS prevê construir nova Cadeia Pública e demolir o antigo Presídio Central",
-                  "fonte": "Correio do Povo",
-                  "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQLV82bmVaRm0wMEpaQXZiR2trdzBCaDFFNjh6NHA4SGNhVHo4SkFVcVBzOTY3VzFvSnRTRjRXaWN6QjgtT1l1Zm9xY096UjktbzFYcVhtLWxlUUl3N2w1VjFFTkxCSEJCUXVQUFZpSFk5R19KbFo5RXNvandISlhXbWJBYkg0ZWhBRTNFek5lRWFuaHR2RnpKWXNHb0gwaE5jV1ZONlVnalRzSjRieEFtRS1kY1hZcWp3MG1Sd0pfWVJBcjdKTU9RT3dqSXRJeXB5aEk2QzNXVU5SZU9DNEJjS2JzOFg3YmNhRHhJQXJRdw?oc=5"
-                },
-                {
-                  "data": "2021-11-19T08:00:00.000Z",
                   "titulo": "Governo anuncia investimento de R$ 450 milhões no sistema penal e socioeducativo do Rio Grande do Sul",
                   "fonte": "Agora RS",
                   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNNTF2MldQaXZTTUE1UnV0SEJzbk5sZkZScjdRa0RBblAzd2czeE96S01oUTJGb2Y2T3pBYlBJdmliblhYUDFEamwxSldhc2ZoQmVDZ2xPeERCYlNfWXBrSkc0cDlZanozOG9PV0N3T0Nwa2ZlQUxvNk0tdVBTUnpjMThDdmxtNjBjSzFSTHlGRllyeXRqcngwQUxNLWVvQVdMVy1rc2xLMjVrbW42VGtaT3hOMEYtb3BPVTIwenlIZ0NLeWtnVGs4akxLX2xIX2s?oc=5"
-                },
-                {
-                  "data": "2023-12-08T08:00:00.000Z",
-                  "titulo": "Após denúncia de agressões, Justiça determina separação de presos por facção na Penitenciária Estadual de Charqueadas 2",
-                  "fonte": "GZH",
-                  "url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxQMU9ETFNnWXVOU1JOQklENTl4UzlJSFhHeVBYVXA1dnZtZVJnZ0ZxcThlX2gzejVaQ1lTeFRxLW9ZWnhrRVV0ODE1a3NnQWpCNU5aYktDd0FfUVhuR2F6WlpydUVkbVFiTTBXLVprM19SbFBQRmhvQ1FYbEJnV2hPWkprdy05b0tid2lTQjBDd2FjN05GOGRQNnAwQkJqeUZKWktEZ3JnbjJRRnZSQ0E0b0VSSlQ1dk8zMmhJWkZ4Y09JVm03eXY4Uy16R1R2cFQydWwtQmN2cEFlUmpNWG1mYndVbHN3TGNad2hFdDlFUk5Rd3RDQ1NEVzFjUnVsdEl6UFFzV1lNR21Pa2lDX3FqbXNUZ1FobmFPbHhlbmVwaFhtRnMxTThrTG9GTW01UW53?oc=5"
                 },
                 {
                   "data": "2019-11-11T08:00:00.000Z",
@@ -23725,6 +23764,12 @@ export const mandateTree = {
                   "titulo": "Governo do RS vai demolir Presídio Central e construir nova cadeia",
                   "fonte": "Agora No Vale",
                   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQNU9QbU9vNXF0YWQzV2hHRjNGUTAtTzdnZ2NtbnpGLUk2aWgwZmpWaDRRQkUxNnhRY1hlc1l3RnRlYWNFTlVOMkN4SzdjODVUZGxaaEpldi16blEyenZuM21aR0tnVUZWUV9PZ2I0R3lnZjRoOGx6bFR5RWVuV0M3VXRXWVpkRVNLSmVsYWYyU2pzekx1T2ktYmlWRm1acndxekRCVFV0YXFBV2t1dHE5aFpwcnprTU9SMjRqb3YxMFV6UU5a?oc=5"
+                },
+                {
+                  "data": "2023-11-28T08:00:00.000Z",
+                  "titulo": "Nova Penitenciária Estadual de Charqueadas II agrega 1,6 mil vagas ao sistema prisional",
+                  "fonte": "Portal de Camaquã",
+                  "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOLTAyRVktTGk3Slo5amtDVy01bjhHWUZwMUpPSmV5VVcwY2RIbU9ZOFUwY1QtbGUyeVk5MGFreE1hTzBkcGRwR3B4el85NGcyQW9NRnIwQnJURlJzUkRVWEJPWFBSc0x2QUtoeVBuLUxpcTZvTEZ6Qk5iS2xnRlZsZzNIb3hfdFlVaDhJY0lRTEN5czFhdlA0czhsQ0VKODZ3b2liNnVXenF1VktkY2YyTTBENUt4MmFCRnBxMWo2LVF5alEzLUV4NDhCWHhBbEZacDVNZ3NWdlVUQQ?oc=5"
                 }
               ]
             },
@@ -23772,10 +23817,10 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPVXpsVWJKN2ZkYkUtZ2ItZVdNZzE0aGZsWmhHd1gwRC1XaGZBeVU5V295T1Q1LW5hUzBTZFUyYTNvbkxUSmhqOG9FTk5sdjAxMU0yOFZ0VnhhWERxZmpqX25iSzhpOVJxS3BlejRpc0hnWk9POERjdlRtTXVNYjIzUVBaV3QxTjJOYVBiUU9JcUFUX0JmU1A1TDJtNklZMXFTQUN3Y3FoaFg4M0FIVGVXZDJ6dU15V2tD?oc=5"
                 },
                 {
-                  "data": "2020-09-26T07:00:00.000Z",
-                  "titulo": "Erechim terá o primeiro presídio privado no RS; no Brasil, experiências semelhantes têm sido criticadas pelo viés mercadológico",
-                  "fonte": "Sul 21",
-                  "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxQeUFab19LQUtBM05sV0NHU1FzYWdldjY3TlJsMnlFbnktd0piMFo0R2JEcldBODFhS09oZUlMMTlidUxMa1ppTEtVTXJWcHVOYl9DNjRETUN0RFhxSHN4a1ZWdkVpZ0o5OEVJTXlsTEZtcUFtSVBMMUd0ZjY2a3R1M1pyWVRNNVRuS21nekUwel9LRkcwMzdKM08tSFl0SmNxbEFIOE1STzRCUUpQYjRHSjJmTFNMLVFWdV8xVzV1cjY5cEdRa1QtMTlWX1FCaXhZSjdyUkhuYjlLN3lOanViRGdSZHAxbkpNZ2FtLU1SaDBjNVRYcmdVdkcxNnFrXzRkNnR0Sk96eXc5dENfSTR6RmJ4Y3JEcVEt?oc=5"
+                  "data": "2024-04-06T07:00:00.000Z",
+                  "titulo": "Assinado contrato para início de parceria público-privada do novo presídio de Erechim",
+                  "fonte": "Correio do Povo",
+                  "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQd3hqV21KY2R2cjNqNGZhQzVTUnhkVEhRdWNkWmJqZDhNWEE1MmEzdXhnTm02Y1FMX2ozdTZXNzhzTGRlR0lieFZiLTF3MHZIYV83XzBQa3ZEdUJUTlgwVUs5ZW9LdGk3RVMwM2Iwa2J0YmhUdXdJQUJnTC1PSjF2TUNnLVdJaTh6VXVXc2stbUFlOFc0R2FNc2FMeUdZR0wzZFNCbzV0UXJkTGdlb2VwUlZscXBzc3p4UE95RkpoSGhpd1g1djJFbHd2LUVrRWtQTk42XzVWUVJWOE55TkFSdHpoenNzLTBNY25HSWhQQ3ZYQ1RMcWhxNTZabjk0eTA?oc=5"
                 }
               ]
             },
@@ -23791,6 +23836,12 @@ export const mandateTree = {
                   "titulo": "Bloqueadores seguem sem funcionar a pleno na maioria das cadeias, e celulares são usados pelo crime organizado",
                   "fonte": "GZH",
                   "url": "https://news.google.com/rss/articles/CBMitAJBVV95cUxQWTctSmJKSVNlcXk2NHdzalZjTXJJcWlKbXFYRWQ5WDE3bXVJc2VNSmM1NUVfMDAxNlFDYm9vTDZCcEhsN1paV1FLclh3Ql8ySndXX2xTMmdoS3ZMSXB5eVNhcTllcTR6UUN3ck1xNHgtSUJyWFc4WTNwdTB6ZlVPLUNzTTdDeUMxamtMS3N4ckJ0bWpLbU01UlR5RkpTZEZhejVhRDFKSnpmVk9adVpMLUdrN1dPRUZGYzFFWUpqWnBocmVTTTRjOVB6cDR3N29oY1Q5TnIxXzdpRkVBYXN5N2JyZDZhU2pmNG54R3FDcW44ZVE3dEN3NVA5UWxZSDFaS0RlMTdELWk0YXJQS01xVFpkNXhVc1FDWFZDbThCX203eFZvMjVmNHczWHJKd1lvMjFTYw?oc=5"
+                },
+                {
+                  "data": "2017-01-04T08:00:00.000Z",
+                  "titulo": "CNJ: 65% dos presídios não têm bloqueadores de celular ou detectores de metais",
+                  "fonte": "O GLOBO",
+                  "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWXFVc1d1Q2N2R3ZDdl9CZTVNUEVIcDYxQ3BhOXRZRjNlTVJrVGc3UUxjVjFYWTE4MkhUZElwSFhuQWdZS0RCSlV5eGJKZkRNZHpfRnJsZGVzYl9xQzRLRUU2N2hDWW5RcGR1YkdMZFVRbkU0Znc0WEp1Nm95ZVA5TThrcDlXZTRMdDk0a2tUckJqYkZNWmd4QlNnT1R3UkVDNDlTdUdZc1FhU0ZQcGs5VzZROHZodUcwOWNJ0gHKAUFVX3lxTE1CWnZfTTBWZXVOUXkxekpaVHNwT0RjYTQzMWVxYzBEWDQ1Vm5WMDhBRDA1TzhNbDBxNkhmZHpVU01vT2wxMEo5MUJkV2laa0NIRGo4cFdXbl9mNXI5SWNNVFo3dEdCSWVraURPallHX2lmQXM1cU5CNzJLY19PeENCVFhGTkJ0b25KYjlqOU5KVVZYak1FTGxqQjBCeEJ2Ulp5b0FURWhwdjBXNE5WamVZTk9hc3ZEbEx2MUZvMW5rb2pYeWE1NUtUOGc?oc=5"
                 },
                 {
                   "data": "2017-01-12T08:00:00.000Z",
@@ -23841,12 +23892,6 @@ export const mandateTree = {
               "descricao": "Durante a campanha à reeleição, Leite prometeu a recomposição do número de agentes das forças policiais do estado. A promessa não foi cumprida: em 2022, de acordo com a Secretaria da Segurança Pública (SSP) à época, a pasta possuía 18.977 servidores na Brigada Militar (BM), 5.582 na Polícia Civil (PC), 1.143 no Instituto-Geral de Perícias (IGP) e 3.020 no Corpo de Bombeiros Militar (CBM) - um total de 28.722 agentes. Este número caiu para 26.762 profissionais em junho de 2026. O governo alega, no entanto, que os números reais de tropa são distintos aos divulgados em 2022. Segundo a gestão Leite, houve uma reavaliação neste ano e constatou que, na verdade, eram 26.224 servidores em 2022, segundo dados do programa RS Seguro. No entanto, não houve contestações do Executivo quanto ao número divulgado à época pelo g1 no momento em que a promessa foi feita. O que diz o governo: o governo afirmou, por meio de nota, que o número de agentes em 2022 está incorreto. \"Atualizamos os dados e, com isso, fica claro que o governador deu prosseguimento à política de reposição responsável de profissionais da segurança pública. De acordo com o Sistema de Gestão Estatística em Segurança Pública, do RS Seguro, em 2022, o efetivo das forças de segurança era de 26.224 servidores. Em 26 de junho de 2026, são 26.762 homens e mulheres, um acréscimo de 538 servidores\".",
               "atualizacoes": [
                 {
-                  "data": "2025-12-04T08:00:00.000Z",
-                  "titulo": "Leite autoriza nomeação de 1,2 mil soldados da Brigada Militar",
-                  "fonte": "GZH",
-                  "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNc3Jlb2tmV29IRy1VSXlsdEJoV3NZT3dSQ3lEbXBUZ0ZBTGN4eklmTWlOaHJWcVJIbHlkVzlESHlnN0VTSFNUN0Yxd0IyQmVCNEo2eTViWHN2MUg3LUtROHBVY1VySWlEWnYwNFVicEtCQk1abjFBWi1MR3VCUm5LNUhRUVN4eVJLVk9POTRxaDNHNDBxbFJlTk5fU20wc2RYV3RzTDdYRFhwdWlYLW1ickRDWm5XZVRvcWRFX2o0UU9LaWZWUGpvN2FoNWZMbVRFeExNYTV0aXI5Tmx4Y3hoRDg5U1dLRGxiaHJtamhBajdENVBWQVpna1l4YUw?oc=5"
-                },
-                {
                   "data": "2023-03-27T07:00:00.000Z",
                   "titulo": "Governo chama 1.331 servidores para segurança e propõe estender prazos de concursos",
                   "fonte": "Sul 21",
@@ -23859,10 +23904,16 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxOVDdUQlRmd0lKdV9FMmsybzBvS1RydjdRNDZEVjdMLVJCTG1OWjNjUzctR1dVa3p1dE9kajFfSmlKQ3dVTlFyWVhnY0Q0b0pYOUNieWhOR0JxRWZ6SGJTaEJPaF9rYnl6WEFjQjZpTWE2R0pEU2NSX0k3cEpseUNFcXpHdzBGSXAxRWc1SEJrcmhtUU1OeWpoU0xGMERBMm1Gb3dBVXhqak1fSzc4a2R2MnBlM3RSaE9POUhqRHhpVzYyNXNaY3BCekJzQ3lJdTRGT055Y0hoNlRZbF9PS3E4TFBDS3plSTRhbVdwd2YtU0thaEhUOFZUeUVYeFhBMHRmQ0dnVkpXN2xtY2FGanVzd2YwUQ?oc=5"
                 },
                 {
-                  "data": "2024-05-07T07:00:00.000Z",
-                  "titulo": "Leite pede envio de 400 agentes da Força Nacional e convoca policiais da reserva",
-                  "fonte": "Correio Braziliense",
-                  "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNTXNNOG5adU12STRmaU5CcExXWXZqbEJEV0pmaXFLbnlOMmtnY2FPbEVaSEJpQkg1d2pLN2dQQmkycmpDQ29ONTBCZG44OHpoZzVMbWdkanFDQ1JIcE9zZml4MlpFWGJ3TGkwMTlMRkhRel9GcXA5eUlVeHRxcERkMktpRGZucDZmNEpUZHpoRExnSkVtNUZXdUpFcUZjMlF3Q2FjWFJKclgtMTlPRXJJMjhZVjBnSUVsaDdxWHZnRzhDSGJMeXE2TGRKZGRjNlNmYnJOOHlvUktXUlhnYkkwY3p30gHnAUFVX3lxTFBrS0Z3QUZ0V0hSdjdhQkk3V0JzVXRKZ0NncTEtREppQXZrUDJDXzUzVEdqdEM2bThQS01LaFVlSTJSckx2aHNIbFhGcXYyUDBSSUVrTU9sZ19OVkRMRVpFQm1XR3UyUnVRazFNT2R2WjBkUWlRSDlUd21aLW1SRTlkZDRFREZBZkFsbkpkR2xGV25tNUZDUmFrNThKSVdmMHN3eURHM3lxUkFyb2xZbTkzUVF4MHRLS3hnLUNUWVRmV3I1SGlHZHprTlpCTlAtWEhOd1J6Z1dMbC04RGhwR1JjTzBwYXR0dw?oc=5"
+                  "data": "2025-12-04T08:00:00.000Z",
+                  "titulo": "Leite autoriza nomeação de 1,2 mil soldados da Brigada Militar",
+                  "fonte": "GZH",
+                  "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNc3Jlb2tmV29IRy1VSXlsdEJoV3NZT3dSQ3lEbXBUZ0ZBTGN4eklmTWlOaHJWcVJIbHlkVzlESHlnN0VTSFNUN0Yxd0IyQmVCNEo2eTViWHN2MUg3LUtROHBVY1VySWlEWnYwNFVicEtCQk1abjFBWi1MR3VCUm5LNUhRUVN4eVJLVk9POTRxaDNHNDBxbFJlTk5fU20wc2RYV3RzTDdYRFhwdWlYLW1ickRDWm5XZVRvcWRFX2o0UU9LaWZWUGpvN2FoNWZMbVRFeExNYTV0aXI5Tmx4Y3hoRDg5U1dLRGxiaHJtamhBajdENVBWQVpna1l4YUw?oc=5"
+                },
+                {
+                  "data": "2025-02-04T08:00:00.000Z",
+                  "titulo": "Leite autoriza novos concursos para a segurança pública no Rio Grande do Sul",
+                  "fonte": "FOLHA DA CIDADE",
+                  "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQWHgtMlI1cXZHN0lvN04wcWxURDZRYzJEc05RNzBJLWxEalU4bW41eGRFdks3ZkNWV3VCUEplNUpJMnBNdUJRZlAwaHducUt0UjQ5Tlk1R1htNExXTzdFR2V3MDZYQzFBN1I2VmpBal9QUHhhY25nSFd2OC1pcURVTG5zTDcyYndKbENzQUJjWTM?oc=5"
                 }
               ]
             },
@@ -24014,10 +24065,10 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPVk5WM3E4OXhmZnhQbUdSV0hucnpER053dlVoM1MxMVZjdDBPdEVNTWVSQ2ZTQU1RNENRQnMwb3phWGF5Q1dBR2dsaWJ6TW1BSjJLWEt4WnBLb1U0eS1pUVhXdlBvSl9NQXpsVlBKUFQzWHBSOW9NVjRvZExKXzZiMnIzcVI4VlpwYWRDVnoxQjRpMHJvYmE4SEtYN2Jmck5KclRTRE9fTkJXUmxZV1J1MXQ5bnc3ZWs?oc=5"
                 },
                 {
-                  "data": "2025-04-03T07:00:00.000Z",
-                  "titulo": "Escola José Rech recebe premiação do Programa Alfabetiza Tchê",
-                  "fonte": "radiosobradinho.com.br",
-                  "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNdDdXSG9ndUZCMVpKOXFsdDRPOGppS1ljNGFIbUhCSURDeEhQUDNHNUJMc0RwcUI4SjZleUdmZmQyMnhjdkE1c0lSXzQzVEVNTldOR2dFS1ozb1c3MEhyeDZfMFhMSGFISkswajZnS09aOVp0UkdzelRMT1kzQ0h2X05fYTl3NEczR2tCaGpDNkRXakZvcWxkY3ZTTmJ2QQ?oc=5"
+                  "data": "2024-03-12T07:00:00.000Z",
+                  "titulo": "Programa Alfabetiza Tchê é lançado com adesão de todos os municípios do Estado",
+                  "fonte": "Portal do Estado do Rio Grande do Sul",
+                  "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZ0RqUlV2eU14dzZuNUtMQ00wa1FGM0ttMUlVLW8tSnQtX3ZrY3VYcnhqd2ZxMFJOUmZMU3BtNUZIVjJHWU15NVl3RVU4dk1udGd4T20zSld5WnZWTlk0TDB0R1lvcFRRYjdQQTJxTVFWaHFwOW1UUXlLVEpoNzdtTzBDeGVyVDVkUVBmRndXUzlUYlBEc3dJRFdFOXhzSUZzeC1xSlFMSkpvYXM?oc=5"
                 },
                 {
                   "data": "2023-08-23T07:00:00.000Z",
@@ -24026,16 +24077,16 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNbmd6RU5zNEhCa3pLdGx4cmxLckdWQ3NEMW92dDZGNDdnU0Z2eFY1SzAtaGlKWFIwRW1UTDlqRXk4aUs5aTVEZFR3T1ZYNnMxbUhjZE95emxFSFVvNFNUa1Jlb3hkRGpBYThJUWJrVkhKZUotTVZyM2ZmNmc5QXRqcnRFMW1uX3E0dWdFVG82Yng1UC1GcW1yeTdMakM3LXJseUdlYlNpb1RGSDdvVDRpS2M1MkpVRzN0?oc=5"
                 },
                 {
+                  "data": "2025-04-03T07:00:00.000Z",
+                  "titulo": "Escola José Rech recebe premiação do Programa Alfabetiza Tchê",
+                  "fonte": "radiosobradinho.com.br",
+                  "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNdDdXSG9ndUZCMVpKOXFsdDRPOGppS1ljNGFIbUhCSURDeEhQUDNHNUJMc0RwcUI4SjZleUdmZmQyMnhjdkE1c0lSXzQzVEVNTldOR2dFS1ozb1c3MEhyeDZfMFhMSGFISkswajZnS09aOVp0UkdzelRMT1kzQ0h2X05fYTl3NEczR2tCaGpDNkRXakZvcWxkY3ZTTmJ2QQ?oc=5"
+                },
+                {
                   "data": "2026-04-27T07:00:00.000Z",
                   "titulo": "Premiação do Programa Alfabetiza Tchê reconhece escolas da 15ª CRE em Porto Alegre",
                   "fonte": "Jornal Bom Dia",
                   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPVWNBcGQ1eFJ5alZuYlFZejNDSVR6R0JTdjUtNl9HaUh5RVpjeHZYYmNGdzhKVmZCdXVTS2htdWVMQ2QySENsOXJSSFIzbUVydWRlQW8tLTVSSDJDR1h4Y3l5eldMV29FeHo3RFU1Z0x2V211dWMyTzAzcjNJdlN5QXlMWFNFc2cwbEpsemZFRWRhRVpuUDR1Sk1zamFnbENQQ3RxRVZzSWs5YUU3N2NNdnFzN1RvaF94bm5YcEFVX05kclRYbXc?oc=5"
-                },
-                {
-                  "data": "2025-04-07T07:00:00.000Z",
-                  "titulo": "Governo do Rio Grande do Sul premia 200 escolas destaques em alfabetização",
-                  "fonte": "Consed",
-                  "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdlRhWWhyVU1hQThqQnRkcWtVTTlSbTl0bjBaZlRfYVRyOUlxSW9jVmxWOEt1b29SY2N2dWdTMlRrV0ZZVE9fSjN3SGRzZ2hlVElOX2YtRU1PamVWVklKVlI3WkZXMTVCWGZZYlRlUm8zbEtPVml5SHRvVDM0ZFZudDUteDEyeTVtQ29uZ3RXZUZqTl9sT0d2OU14c0U4OFY3YjlsSDh2RGhfQUFF?oc=5"
                 },
                 {
                   "data": "2025-04-03T22:36:52.000Z",
@@ -24044,16 +24095,16 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQelU2NmM1T1p6dy1JRG91aXR2Vi1KVDN6cmI0QjhPWm5CQk1SSWlGYVdNQWp1d1Rrd3lEU2FRc0ozSlFjS0NBcHRnU284d2wyLWFldlpTWmx4RzZiOTlubUJYVGFCQlJLcmQtSVBHOUNxbzliTjBpUDZCS05XdUtSOUhqLUtxd3N5ZGxNWS1EVWE?oc=5"
                 },
                 {
+                  "data": "2025-04-07T07:00:00.000Z",
+                  "titulo": "Governo do Rio Grande do Sul premia 200 escolas destaques em alfabetização",
+                  "fonte": "Consed",
+                  "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdlRhWWhyVU1hQThqQnRkcWtVTTlSbTl0bjBaZlRfYVRyOUlxSW9jVmxWOEt1b29SY2N2dWdTMlRrV0ZZVE9fSjN3SGRzZ2hlVElOX2YtRU1PamVWVklKVlI3WkZXMTVCWGZZYlRlUm8zbEtPVml5SHRvVDM0ZFZudDUteDEyeTVtQ29uZ3RXZUZqTl9sT0d2OU14c0U4OFY3YjlsSDh2RGhfQUFF?oc=5"
+                },
+                {
                   "data": "2025-04-02T07:00:00.000Z",
                   "titulo": "Escolas da região são premiadas entre as melhores do Estado em alfabetização",
                   "fonte": "abc+",
                   "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQSWZVWGRUZC00XzNKTFlydUEzbTB1YlpFZWplUG05ZklQUXlabzZXVktpb25YNUxpeHdaSWNubEFCRzVBdFdYUjNHekxGc1VOS3VpYk82RlVtV3UwbFFvVnpHazZxTW8xdmZVbVc1cmdDSnk4aXFoQmxsWFdMd3FoSTR3VldsN1dSVlM0TEVVMUhhOWZ1WURHbnBmNVhUcGtKdUllanlhWTBZR2V1WVY2U1JackwtUmJyaThnZVMxdjZLNWJ4ak1BS05LMzRuUUhCaVd2LUNMNUQyMWZEMmE0WVoxMC1fMV8tMlJJTmt3MjBQX1pS?oc=5"
-                },
-                {
-                  "data": "2024-03-15T07:00:00.000Z",
-                  "titulo": "Programa Alfabetiza Tchê é lançado com adesão de todos os municípios do Estado",
-                  "fonte": "Consed",
-                  "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQV2loNkhSU2NhRS1OVzdtQjNzMThnQXJvME95S3B3eGJuVXl4Mk9hUTVtYkJMVTdrNVVjZ0xibUNkVWMtN04yQVVhNnQ0VWZXWkFONVRnMWJmejBfak1pU09WX2ozLVhLTFpBenVtSXJtSDFBREVFZG1FYXNXUnJUcTRpdEFOLXFvZ2FwMUtELWFyRUJsLVQ4LXJvMXBiOGJFQVhBdncwaVFlek1jNTZqQ2VR?oc=5"
                 }
               ]
             },
@@ -24093,6 +24144,12 @@ export const mandateTree = {
                   "titulo": "Região terá mais oito escolas estaduais em tempo integral",
                   "fonte": "Grupo Chiru",
                   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOdVB5RjM1ZmZSUmIxcnRRb2lWYTFNYTJkaTQtOFFwVkdkTDYxNkE2dTlkQnloN0xvMW9kZEtRVzBqNEdtczMzYWlBb3QxWEFiWGt4Qjl3REktbDVDX2J4STYxclI2Tkswdk9QZk84ZzRwenpudW1hc2Exb0lFRFd3UVR1SWVrX2tPVU4wTnpDWEhPb0hicTBBem5R?oc=5"
+                },
+                {
+                  "data": "2024-11-08T08:00:00.000Z",
+                  "titulo": "Confira a lista das escolas da região que terão ensino médio em tempo integral a partir de 2025",
+                  "fonte": "abc+",
+                  "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNWjVJdlFSaVc4ZlhUaFl6NUN0UW5GaTRyTTk2eHYwTGwzOWxVNDA2VDhONTl5MHlxc2dyLTJnaHluenpmbjdUdTZTRU0zTDZQZW5EdW5CNTZkR2FBUTBDU011eXdTM1hlQ3ZudzFyOURSMllWSDNSd0Y2Uml2SVB1d1FMZG1mcC1zZGZ2Ymx0UkphcmZZZnFEVEt0Y2Y2RV9JYTU2a3lWdWpMUjc0UGJ5ZnJxd0MySGNkWm5EbmM3WTJJUkpZalZqVEV3QmEtMnRnR0dEelBQSk1Idkd0NEE?oc=5"
                 }
               ]
             },
@@ -24162,6 +24219,12 @@ export const mandateTree = {
               "descricao": "Promessa consta no plano de governo do então candidato Eduardo Leite: concluir as barragens Jaguarí e Taquarembó e respectivos canais de irrigação. A promessa foi cumprida em parte, pois a Barragem Jaguarí foi concluída, após investimentos de R$ 365,7 milhões (R$ 249,3 milhões do Estado e R$ 116,4 milhões da União), enquanto a Taquarembó, não foi. O que diz o governo: a assessoria do governo Eduardo Leite contestou o enquadramento em nota e disse que a construção da Taquarembó \"passou dos 61,5% de execução\" e que \"a retomada da construção da Barragem Taquarembó teve seu cronograma ajustado para atender questionamentos do Tribunal de Contas do Estado (TCE-RS), processo que levou um ano para ser completado\".",
               "atualizacoes": [
                 {
+                  "data": "2025-08-25T07:00:00.000Z",
+                  "titulo": "Construção das barragens dos arroios Jaguari e Taquarembó conta com rigoroso cuidado ambiental",
+                  "fonte": "Portal do Estado do Rio Grande do Sul",
+                  "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPRVctNkh3U1VjeFk5QTdnNFhzeWVqcXk0TlpSeXNhYWJEdjlsdExlRHRnajBNZWY1cWN3NEIyLVBhNTEwcnhPbjJseWpIWl9xUzNJSlh1X1Y2c2EyeUd1RU00d2pEN1dRUHJSZEUyc3ZuRUQ1UkpQdWlIZVVPRzQ3bGk0VDExYk5MNXM4eU1kUWFpdzllSEN2eDRlWnRxTXZzek40OElDenFrZ1NzVmxYYnNQaU9hRnFJMFp3?oc=5"
+                },
+                {
                   "data": "2026-03-31T07:00:00.000Z",
                   "titulo": "Governo do Estado entrega obra da Barragem Jaguari, que trará benefícios econômicos e mais segurança climática a São Gabriel",
                   "fonte": "Sistema Província de Comunicação",
@@ -24201,6 +24264,12 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPV2NZLVBPaTUyZGNaWXUwMG5SaGdDWHhheDVjYWFIWDNmeFUzX0dxdkQ5RTVVTWxjZGp0aXZ0NjhVOUM2LUJ0bTAzN2JRMjRPWW5kWnRMWkV6Z0N6TXhiVmJYR2NPb1V0YUluVUZhWEVvUE1NYmhQZGdCemFtSFVNak9fdmVKRFJIb2RPRW9EVlVOQU9DRmVGMHVJNy1GOWFE?oc=5"
                 },
                 {
+                  "data": "2026-10-16T21:23:59.000Z",
+                  "titulo": "Not��cias - Colocação de asfalto na ERS 305 em Crissiumal se aproxima da divisa com Três Passos: Imagens Aéreas e Reportagem",
+                  "fonte": "Guia Crissiumal",
+                  "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPRkN3MXFhLUszb0I2OXZ6amhET2NiOEdfUmlrOU9WRlZtMHJLZEdHWGxwTjJRTUtRUVFfalJFNnZ2alVwNFR0WHdyZ1oyanY4UUZvb0JSMmk5NDhUQWloU2RqaWhHRHpBbXlUSGpUM255QjRJOS15SHJCTXZSSS1BcjRNaXpaOWVXcDlqcXo4ZWRwXzZZanVVRW1qb2R0SjFxUTd4R0RfdkQ3M2dHNTRCTGN3RDR2dTNmZWh1VlU0M180R3JYT3hKdE02WUdtMktTTzJ5TXRjcDhUZFlSSFJ6V0ZDM1BabkhKZHlfczNyM2JIRzVw?oc=5"
+                },
+                {
                   "data": "2026-06-04T07:00:00.000Z",
                   "titulo": "Not��cias - ERS-305: A estrada da espera. 40 anos entre promessas, protestos e a chegada do asfalto",
                   "fonte": "Guia Crissiumal",
@@ -24215,12 +24284,6 @@ export const mandateTree = {
               "status": "em_parte",
               "descricao": "Eduardo Leite prometeu em debate realizar investimentos para reduzir o custo logístico e melhorar o escoamento da produção, citando como exemplos obras de ligações regionais, como o trecho Maçambará-Alegrete. A promessa foi parcialmente cumprida, já que a construção está prevista para ser concluída no segundo semestre. A pavimentação de 52 quilômetros da ERS-566, que conecta os municípios de Alegrete e Maçambará, conta com investimento de R$ 125 milhões e a conclusão dos trabalhos está prevista para o segundo semestre de 2026. Como as obras ainda não foram concluídas, considera-se como \"cumpriu em parte\". O governo afirma que irá concluir até o final do mandato, ainda neste ano. O que diz o governo: a assessoria do governo afirmou, em nota, que a obra \"conta com investimento de R$ 125 milhões e a conclusão dos trabalhos está prevista para o segundo semestre de 2026 (ou seja, terá cumprido)\". \"Entendemos que foi cumprida essa demanda, pois o governador fala em “fazer investimentos estratégicos”. E, de fato, foram realizados investimentos estratégicos. Desde 2019, foram investidos R$ 1 bilhão em ligações regionais, a maior parte a partir de 2023 (R$ 915 milhões), quando essas obras complexas e de longa espera começaram a ser destravadas\", diz a gestão Leite.",
               "atualizacoes": [
-                {
-                  "data": "2023-02-26T08:00:00.000Z",
-                  "titulo": "Visita de Leite em Alegrete é marcada por investimentos de R$ 65 milhões",
-                  "fonte": "Portal Alegrete Tudo",
-                  "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPTDdSa25PejNYRkJHSjU3ZHNkWlhRY3RXZklBV1pJY2pNdVhkNXB2eGwySVMtai1qcFp3QWpibEVUTUw5YWwyMkZ1ZF9LY2M5dUJlNlRkaEtETWFBdHVjQWp3V3h1Rk40aHhsZDdXQzl6SUUzeE90U2JKeW5adTBtWWJUSGdnLUtkWHdZS08wdjRHLUh3SkE5OWxVWnBSMnZVTFdMaFZ0NA?oc=5"
-                },
                 {
                   "data": "2021-09-13T07:00:00.000Z",
                   "titulo": "Obras da RS/566 continuam e os recursos estão garantidos",
@@ -24255,12 +24318,6 @@ export const mandateTree = {
                   "titulo": "Governador Eduardo Leite vistoria reconstrução de ponte na RSC-287 em Santa Maria",
                   "fonte": "Paracatu News",
                   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQNko4UW1ZZ3hzYWtlbFM2bXUwLURSZlhGcWxfXzV5a2ozVE9QSVJsYWZnbmctcnRjNGppVGFEcnRpdG1qeWpmUGk1Tk5Zc0xhSXB1MVE3R1JJN0cybC15dm03a1F4U2trMFRUWHQ1SkRBOHNXS000dDY2bWRtaWhOdFA3T1E2MDM0NFRka3lQdDNCOWhJR0NIU09iZ2FsV2NreTAtdloxV2JXTmFPMGpoN05ZZXRZd2RKeDgzVlN3NmM?oc=5"
-                },
-                {
-                  "data": "2026-05-11T07:00:00.000Z",
-                  "titulo": "Prefeito de Santa Maria dá detalhes sobre andamento do projeto para duplicação da Faixa Nova",
-                  "fonte": "Diário de Santa Maria",
-                  "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQSENXZFM5RmRETUVQSE9nbFhwemhBRDBuQ1U4R2lKdHN1TThwQXV6LWVOeDVWak44SkhCVTJtcWktbFM1SG51MHFHbnVsUXNqY2ZUWXJwbGo2ZEVFUGFpLTdNWGx0M2ZNTENDXzVwd1NnU3NiZmtlNTVCQXNGWVR4REJweFl1TlR4QUpXNDlWeTY0VS1nRjVZNnEtRUtTXzFpdkFqdk41b0RpUWg4b21vWHZWMFBxTHlBdFZJNXhpTFdXR2g1OXh0N2ZqbWE3Y0Mzc2lkcXBqdw?oc=5"
                 },
                 {
                   "data": "2026-07-01T07:00:00.000Z",
@@ -24303,6 +24360,12 @@ export const mandateTree = {
                   "titulo": "Prefeitura de Santa Maria acompanha assinatura do contrato de concessão da RSC-287",
                   "fonte": "Prefeitura de Santa Maria",
                   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNUMtX2VqV1RBcVNmcjlBQWFtb3drVWdudXF5RFdBd1NJQVF2SmFFRS0xdkV0RkVhOFA5UTd2cXM5LVFBbktCVFdUNHRHWGdySFRDR3FoY0p2Z2RMS3Qxdk5OdWFkbWoyTzRfV192dnpfZWNWdmt0SWU1anBKTVRITnJsdERsd3J0SURhOVZWSFYtWkF2Y0ZLZlZlZVNpZDBvUWtYUGd5UU9jbU01ckNoWXE5aXcyMnNSbU5oUkhMdHc3c2dlb1dWVA?oc=5"
+                },
+                {
+                  "data": "2026-03-31T07:00:00.000Z",
+                  "titulo": "Duplicação da RSC-287 no trecho de Vila Mariante está prevista para o segundo semestre",
+                  "fonte": "Folha do Mate",
+                  "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxORElhNXlPbHAxQUdhemdZX2o1dlZSYWVJcDNXUEdndW9fS3hGWUNjXzBVWkpGZmVEaVA5MzRNOU9JQXdIamtkM3NzOTJHcDRsQlg1V3M1cGNiSTVyd3JOWldWMXl6TzEzNzJ2dU12RWk2aUNwTTBiakljZGdWRHZnVUs5aXEzR3ZabzF5M3Q2RzM1VWQ2MThKUGdXUGNhTHY5cGhWdmlzSHpGRVRIN3dUdzRBT0ZiV1JRX0hKSA?oc=5"
                 }
               ]
             },
@@ -24375,12 +24438,6 @@ export const mandateTree = {
                   "titulo": "Plano propõe suspender pagamento da dívida do RS para ampliar investimentos em irrigação",
                   "fonte": "gaz.com.br",
                   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZVdZclAyRUdwclpvOGZNenFZQ3ZuUTU3aWlkSktxVWtzcWdMcTl2UVRBd21UcG5DdFh3T09lOTZuaThmbEJwRExUQTE0c0Z3QlczUFhxR1RiZFpveVNCcXNxcE5Wbk8yTGtzOVBiVFVXZFV6WDdoRmlSRm5PVzRjQ3ZTSDA1cER3NElLRmZRc0VPVzgwR2hKa08xQXl0bmdoOTVPalJVR01hak5WUHJaU1ln?oc=5"
-                },
-                {
-                  "data": "2026-03-18T07:00:00.000Z",
-                  "titulo": "Rio Grande do Sul amplia subvenção para irrigação e libera até R$ 150 mil por produtor",
-                  "fonte": "O Presente Rural",
-                  "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZzJBT0FWOHF5SHcxX1podjZuVkR1SEd0V0R3eEZzVjlFaUtOUTdaR0ZQemRkbmx6ZXdhWlZqWW5oTWF4UkZoYzhKd1MzV01FdDlrYUVWMmFLa21heUxiNmlDTjhvd3BhZ0hjTURKV2pfUEhSTG10TnVMZkZiMWQwU00yM3h1Y2VuMXI3cG8xTTZIbF9WMnV2VjZpZDZCeXlXNEgzb29kTEZmT2liOTF6eVUzSGRpWWs?oc=5"
                 }
               ]
             },
@@ -24411,12 +24468,6 @@ export const mandateTree = {
                   "titulo": "Estados devem recusar proposta do governo para reduzir ICMS nos combustíveis; Fazenda diz que está disposta a negociar",
                   "fonte": "G1",
                   "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPZ1BqWkhkcGdPWFF4c2NuMHBPU1hXWDhBVXo0SDRUaWVMTHNqYjdCb29EQmJoVGJIbERLYVowaUdqWnpEcHRtbThqZU9EUkhFeWVTS3RfdTdsNXFnbjdzVVdONWtFZVMtVEhod0Q5RENVd3FaOGdacmdiTGczLVpGVzg2MThWeTZjUXNwWGR1RmRmUWVaWjNrU1JyWXI4VVhkS2p4MzA3QnlQeVNjc3JtSjk3cm9weHhiS0pfb0hmTWxPd1dYaS1WRTl4NUZ5OVdWVEZrUzFrX0FpQURVUVBZNjhuUDBhRjUzU1Rz0gH6AUFVX3lxTE9CSlBBdXdWUnlSY2VfeXlGeGxiWVJZSEdBX1BoRktOaUt0OFF3UE9zaUt2bXZKNTF5VEF4TTJmaDZIWURUX3djRjB1TDJDdVB6ZU0wUDR4YVd5c0diX29hNGVRdTBMT3kzV2ZWMHNubHI3X3ZRdTkxUUpwSzdkREtrRTRVVXdOVm8xQ1JPS0NnRjVRSkQ1S2o2RGJ5Wi1LNkdrWEZvX0FDREFQYkIzTWFnVUJWX0FzSE1lSVR2cTlHcTNlMHY0aXlPQ0J2TWQ4VGxCdmdrQ0FiSW9qUWU4Zzdub0JRanIwaFlvUWtWVDZTaGJLNGtBcEZrRkE?oc=5"
-                },
-                {
-                  "data": "2026-03-18T07:00:00.000Z",
-                  "titulo": "Governo do RS se recusa a reduzir ICMS e penaliza famílias gaúchas, afirma deputada Sofia Cavedon",
-                  "fonte": "PT Assembleia RS",
-                  "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPemJaVkgxa0x2dGhtOHIwcHk4SjFMV3gzQ2tFMnhUUFVGbEVUajhJQVJFTTBqdGRxbXB1VmV4T0hnazhVcEpfMm4zWUEzUWRTNUtmUUtNcnFLS1VoX1I5XzNyRVlya0paSS1vMTUxSVY2enFubnNZY1QzbE45R3BfRlZvSUNCVThZNS1uS0JSc2JocGxtcWR1YjN0N01JYXFNREcySEdoNVB5RFFhc3ZGZ0ZDXzdhUTRxc01pTVlJYUlkd0FBcmt3N0RNRGN5NXFnWW5sUw?oc=5"
                 },
                 {
                   "data": "2025-10-20T07:00:00.000Z",
@@ -24562,16 +24613,16 @@ export const mandateTree = {
               "descricao": "Durante a campanha, o então candidato afirmou que não vai vender o Banco do Estado do Rio Grande do Sul, o Banrisul, para a iniciativa privada. Leite cumpriu com o compromisso. Apuração: Diego Nuñez e Gustavo FosterEdição: Arthur Stabile e Felipe TurioniDesign: Kayan Albertin Coordenação: Felipe Turioni, José Lopes e Megui Donadoni",
               "atualizacoes": [
                 {
-                  "data": "2021-12-27T08:00:00.000Z",
-                  "titulo": "O Banrisul continuará nosso! Inevitável é o fim do governo Leite. (por Miguel Rossetto)",
-                  "fonte": "Sul 21",
-                  "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZ0YydWF5RnZBbnJlNnFpTV9FVDNIZjBId2RaTkJwN2FoWUpHQURrR2FRdjg3dk5iQWVpbTlFaWpKZEJTQjJJdFpWb1JUQk11elJ0QWl0UHE1MWRvTDF0Vk1iNG90MnlUSGY5T2lZMjVOSXBfa3E1TzJZNDZzYmdTeXBvUzZpVlJVZW80Sm5qbmdMa1Q4VWRpZnk5RkVZUFVBQkQxUkwwVVh1Uk5oQUcyQXBHaUx2Vy1ZVjduaXZR?oc=5"
-                },
-                {
                   "data": "2022-10-11T07:00:00.000Z",
                   "titulo": "Eduardo Leite muda discurso sobre Banrisul; papel desaba",
                   "fonte": "Brazil Journal",
                   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMDlzZ0gyalZpVEl3SlEtdWFhZnB4azNGOGVqdDJsWmRwdy05N1FBS3R4eUdRTC05V3k4aWV0OU9yWUpsWHdWNnNrZVFSZzkwLTQ2RU9CTFFHejNXbFNDTlFiYVV0SnJtNkxaZUNpZ1Uwa2FNRWVDMEZDWVZIRU43OWFQZld3ZUlL?oc=5"
+                },
+                {
+                  "data": "2021-12-27T08:00:00.000Z",
+                  "titulo": "O Banrisul continuará nosso! Inevitável é o fim do governo Leite. (por Miguel Rossetto)",
+                  "fonte": "Sul 21",
+                  "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZ0YydWF5RnZBbnJlNnFpTV9FVDNIZjBId2RaTkJwN2FoWUpHQURrR2FRdjg3dk5iQWVpbTlFaWpKZEJTQjJJdFpWb1JUQk11elJ0QWl0UHE1MWRvTDF0Vk1iNG90MnlUSGY5T2lZMjVOSXBfa3E1TzJZNDZzYmdTeXBvUzZpVlJVZW80Sm5qbmdMa1Q4VWRpZnk5RkVZUFVBQkQxUkwwVVh1Uk5oQUcyQXBHaUx2Vy1ZVjduaXZR?oc=5"
                 },
                 {
                   "data": "2022-10-11T07:00:00.000Z",
@@ -24620,16 +24671,46 @@ export const mandateTree = {
           ],
           "noticiasGerais": [
             {
-              "data": "2026-10-15T22:57:24.000Z",
-              "titulo": "Eduardo Leite pede à União prorrogação de uso do Funrigs",
-              "fonte": "Correio do Povo",
-              "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPRTJxWXFOQzhXRzBxZFFfVEoxeERfWTlZUFZXLVUtU2g4RU9RdGZiUzBneXJITDA4X1IxVENjOVhqUm5GeXpiSzdISUdKSzVTTTBfN1RWRDFIelU0VERuNkY5TzVfWkVvNGp3SWROb1pRNUVzUExaY1RNLWVvcVUwdC1QWjJtUVlrUkU4aFpYYnN2VGtneDUyXzRCV0g2QUtBOUprODdZRlZDdWZqYnRCR09tdjlENEg3TXBfQVJxeUlPclFLT1ZPZjNFMWtvZjdDTTZ6TG1XMm1nRlBKcm9V?oc=5"
+              "data": "2026-10-16T23:18:59.000Z",
+              "titulo": "Alckmin e Leite discutem projetos gaúchos e projetam resolver licença da CMPC \"nos próximos dias\"",
+              "fonte": "GZH",
+              "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxOUGRMUXhsUFQ0a3V2dTdIWVVKRTNZd2Z6Y2hac1FRemozOGhrcHRVenJCWWs5Um9wZVZSQkgtSF9ZMlR5QVBhZ0x6czcwajcwcGdZRTNRREREbXk1bWxYOXFPUFhzN3YzcUVwUVhjZkJaWnRwazBucDhMVHhyNmhUUnU5bFV1MXNkUEFZZTk3ZXRWTDhsZGNjS1dLRTNsNHBSNWt6Q3FiSjJPT0V5YWZmMWFTSnpnejg4OXpIOW5mXy1JMUpQbTdQbUxJelZsVjZHd2dpLThVa3IwUkdMeUdqVk5lQU5reUFuLTRJdmlZbGFRcmpFb0dzUWVTS0VZMmhYMTFROVNESkFjZG1GYlQwS0RNdm8tUGlGM2tPZklNR05hdGVRWERuQUltbGQ?oc=5"
             },
             {
-              "data": "2026-10-15T21:05:15.000Z",
-              "titulo": "Leite pede prorrogação do prazo para execução dos recursos do Funrigs até dezembro de 2028",
-              "fonte": "GZH",
-              "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxOOXMtTEV2VlA3VENUZXBJNGxEY3ZhTVRTdk5kbkYwd1FZWHFmVWRXZGZNSDdkV01zZTRJdnRmV1JPa1NlUkdQaUZLOVBQaDVXOVhhRmVJZXdUQjdiMmFvbUVsdVo3NWkzcFNqa09ES0hoNHQxT3JxbTdBQ2U5UmZXc1BBQ05KUFBvcG5HSVpERV9PZmIweU9kNGFFaDRZbTBMSWFZbDdtN0p1bEhBOEgyOWtqc2dqcUNwVlB6a084a3d4NTlDaHpEYy00TFRoTnB4OWZta194TlVibGFBMWJScHFzdFh4T3p1SHo2VXhBSmI3Yk5SckFmMjVxdzdQSGhiRi1YbEI3eGVETmtKTExKVDdRcjVIOE11cmNINW4zUXlZSGhQTVE?oc=5"
+              "data": "2026-10-16T20:54:51.000Z",
+              "titulo": "Eduardo Leite debate projetos estratégicos para o RS - PSD",
+              "fonte": "Partido Social Democrático",
+              "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdGNwajdNajhQaWk5cnJIZzQwVkFDbkU2QmxFeGtuODRpN0h0bFRFVERUOC1zeGh0WjdhbFhKeWs1SzBKc21uMEZFSWdHNVY3dnR2OTBPb0VVazdYSnhJWFY3Yzg3NFN5NWIwczBmQWhtUFhkS2dHemVtM1otd09VdlhtOXB4MGtn?oc=5"
+            },
+            {
+              "data": "2026-10-16T19:57:32.000Z",
+              "titulo": "Eduardo Leite e Alckmin discutem em São Paulo projetos para o desenvolvimento econômico do RS",
+              "fonte": "Jornal do Comércio",
+              "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOallNVXZDREhpejVRVnhEQW1zVVYzN2cwMF9LN1FVeFZNaTdlTnhvR1lRY3ZMYl9sUnZUTUZ4SXliNjg0U3ZXZ3BHWHo0U0VJOFUyMHowZXJRZFhNZjZiTER6X2tobHNTbHdLQUZ5WXVGT0VXWjRNeTQ4Y2hVYk9pR1dXbGZ1ODkxWExlbV9BTG9IdU9ucFZnWVFPVDlkWmppZ1Bua09zM0lwMXF6LXpRWDh2YXozWUlCOFh3RUpNNk5KbTU3WXNydkFZc09sb3dwYVg4eFhCSVZvbmVMMVV2T21CaTFGbjYzRV9WcA?oc=5"
+            },
+            {
+              "data": "2026-10-16T18:55:30.000Z",
+              "titulo": "Leite apresenta a Alckmin carteira de R$ 28 bilhões em projetos estratégicos para o RS",
+              "fonte": "Jornal O Sul",
+              "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNYVJzQ3d1VXhtNTlsalRkZlVraGdlNEdTUlFrREl3aWxTRy1mMVF6UW5OdFp1V3pyanNEeEY2M2wyb3JEbHBDYUo0TXNtaVRKMWd0aUpiMTVVOUY3eG9za0k3OHNhSWFUT1BpMVdGOE5RbHp5cEVOUFBsMC1QOERldC1YTkFNWUM2TTdyWVFfV0NuZS0xZzRnbHc4eExaelpfOVJnLU16Z2VMMHpCaUI00gG0AUFVX3lxTFBtbFVTQzFGemdsZGlCOGxFemQ5U1R3T3puUlJEQ2xVSEtXUDQ5SmdBcGtlUkh2aEFDUEtTRFN2YUJPTGhCNnptT0JHbEtwSXBPYVRoejZVY21ZcWxFUEFsVHBzM3JFVFZaRDlOUHp1Z0Fpck9TSGsxODBnMXBkakFvRGpVU1NuVXlHMGJjcHotUXBEVTE1aGpjNkxKSDFybHlwMEoxUkxMX2gzMnBfaldDSmVkeQ?oc=5"
+            },
+            {
+              "data": "2026-10-16T18:37:45.000Z",
+              "titulo": "Leite e Alckmin debatem projetos de desenvolvimento econômico do RS",
+              "fonte": "Correio do Povo",
+              "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOWDFCYkRoaF84UjVTcnNteTVrR1VXQlpXRFR4RmVoY1N6Yko2M2N6anBCMC1CZHEwbkJfaGg3XzdNMlJxTWkxVWU5dkNiOEZid3psYW1TMzRIZUFDb1E5cE16N3dQekZ6eFRROHJpMWMybFRCbTQxSmhfazNCTUZ0NjVnNEllRl9tZTNSQzdrWC1vS1RwdUxtV0FXckNyMXpkVG5uY0VqSzBITzA5VlQtZE9INk1SUjd6NUxUQUxwaFI1Rkk5aUtVRi1VNXhxOVgwVHZCVg?oc=5"
+            },
+            {
+              "data": "2026-10-16T16:47:00.000Z",
+              "titulo": "Em São Paulo, Leite e Alckmin discutem projetos estratégicos para o desenvolvimento econômico do RS",
+              "fonte": "Portal do Estado do Rio Grande do Sul",
+              "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOUXlqMjZjWktoa1NZOHdFb0c3THVLQ3JjSG9tcGpYU2VEUERSc0F1eVEtNUxBWDVQNHBWQjBUQWxPVm9DalpqbFBheURITV9XZUpqTURidTJUeDJ0SkRjaGltWWFlbnBmeXJXR1h6bXRrZ2lRN3BZNmszZ3B6ZHU3OXpCZjJjMVZLbVdZdlhBclRhRjllQmx4RzFENlRJSm1mbld3RmttSksyZUFlVWJ6TWg3VDhfOUc2elBJR2Z6d3U?oc=5"
+            },
+            {
+              "data": "2026-10-16T13:50:24.000Z",
+              "titulo": "Ranolfo Vieira Júnior apresenta transição de governo e projetos apresentados à equipe de Zucco",
+              "fonte": "Rádio Acústica FM",
+              "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9UMFhnRWQyUDFKX3VMVTNpNEpLUWl1VE5vaEl3Q1pOX2tfQklxcWJlS0x5aUVkNTdLcko0NTcxTkFHVGJEcDVPSlJHVjYyYVhyZkJPSUp6Y205bGdxRks2bnlTUm1wcVJDbHc2aEg0T0h0N2NzSkZ0SjBieS0?oc=5"
             },
             {
               "data": "2026-10-15T20:52:12.000Z",
@@ -24656,6 +24737,12 @@ export const mandateTree = {
               "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOek03RGtlZUM2VDRKWmllczNBejhpb2JqSXdNMnYxQXZ4QkFicVIwQVc1aXFjMkpGaUJ6VnVDMkRxb3VaMk5QQTlzR0Z0d1hpeVItT3RQd2tuNEotRWtpZnFpdGUybHc3MzB6TG51eHhGN3RRNzlGdE02T1pxY1FFWjk1WnFVSDZYdVdKUUY3U3ZqNkhsUkY0em9iRXhQUlNRLVRQUXNpNjhrN0haODVuY1VB0gHAAUFVX3lxTE55a19kQ3FITjlJR013eWFvMkcyN1F2RmI4VlF6eVNtMlVmdC1YUnJpeENLS0Q4WVhEUXpoLW5UX05PVV96NjV6ZEF1QkRjQ1haX0RraEM2R2J4cHJtZmxHYXA2RHpkZ0E1cWx5SGdzX2hxaktVd0VVVUdJLW9YVlA3MUdWUE9nUnJreEJiRkthQnVvLW1xWWkyOTJXTGZsUlRoejJvN3JnY1NBN2sxeUpIMHV0SVJxZzdJWkdvYW0zVg?oc=5"
             },
             {
+              "data": "2026-10-13T18:14:00.000Z",
+              "titulo": "Leite e Zucco inauguram Escritório de Transição e discutem panorama da administração estadual",
+              "fonte": "Portal do Estado do Rio Grande do Sul",
+              "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPcnd0TkVRbkNVVm9IVXVOVUZBcnBPR0tFRTZwLUFCa3luNzRWc0UxQllwN0pUYndtQ2ZUTTVzTFY1dUdGYVZMSHdYdmtJUGl6QkwtdmZkNE1VNnIwQUZSWFItWW5paTltUk9FMTVtdkQza2IyY2dSVkNjVld6SFZlcDBpVDJWalFuU0ZBY0pDUnVudHRIZjUwdDdNU3MzZmt0V1FKSlIxdlZWQ3FONVMtTTA1UlVHcTZjbFE?oc=5"
+            },
+            {
               "data": "2026-10-12T23:47:35.000Z",
               "titulo": "Escritório que abrigará equipes de transição do governo do RS será inaugurado nesta terça-feira com participação de Leite e Zucco",
               "fonte": "GZH",
@@ -24668,22 +24755,10 @@ export const mandateTree = {
               "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNRmhvMjJTZ1FrRVZfRkM1NzZyUkhiODNDMjZmcF9WaVFBY1ZOaUh0T3liZXFCUGVIUk55ZTF3NUxZN2NaWi0yeVZyVHBNTkprREV5eUgtZjM5M21iTUo4QVZoZldlUW5fcnk4OHY5bWhYMkJRbHRJbTlFZWY2d180d1FzNFZwbkVWXzRGODF1UTlZbU42OXB2LVNINzBBOEdTZE1zQTNuMEhhVWdybFVoM2RaRFByY0VGX0VZOVdCcmVnNy1VeUHSAdQBQVVfeXFMUEZpc3F1YVVHYlpWQXF6VC1WWFVLMVZNZWJpNGdlMEEtQk1uVTByVDNDVGVpRjRBX2FjRTlrQ3RKUVRLc2xlLTJyZElYM0JveHFGT0NvVkpGQzdFUGRGNGpscElGbmU3Nno0TXljVEt5bGg1OERsdkwwSDFucjBJaVg0WDAxLWxabzY2cmM1UDZyMnB4dFhtMU9tUVlQTnpDdjBmOWM0NHFNZWdLRHdHUGMtQkhOYV93dGprT1JYTDZucmlJaUg0Wm13WTBKSlFTejk3Xzc?oc=5"
             },
             {
-              "data": "2026-10-09T23:15:08.000Z",
-              "titulo": "Governador eleito do RS inicia transição com reunião no Palácio Piratini",
-              "fonte": "Canal Rural",
-              "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPemhrZUxJTHFnRG1iNUQzUng3RE00Q0o4TXNERmJ5OWZtQmJMNVRYLXNKU3BBY3FFelZGODJNVDNvY0sxXzhwT3hNTURlaFdjeHB5cGt1T1dhOGw5ZFNOanMxZ2JubWc0d05nMGt5UDU0OGdSWkdndWJTX3Z0Vi12ajd6dG9NZzdfbkg3Qk5LaUZTRG4tRGF1clA1TmlPLUFoam1US2ZNTjd5Q1N5SHZF?oc=5"
-            },
-            {
               "data": "2026-10-09T20:10:13.000Z",
               "titulo": "Eduardo Leite recebe Luciano Zucco para iniciar transição de governo",
               "fonte": "Secretaria de Planejamento, Governança e Gestão",
               "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxObTI5N2l2TU9mMEhhNkZ2SUhlMm9mOXpMVkdqWElZWHNlaFpibjBiekltRk1OeW9qWWUxTXJTQ2x3dVNYYnNnaTQwc3Q4ekstc1BmYWxWUDV3RXVmTTJtelFST0hYY1djVmhsdVlpR3pKZjhrVjBqeFk3Ri1Uc0RpenI5amxCYVBQZGJDY1FoOHlDTENTX3I1NXhiNklKUFpxLXFTZEVtRmpiVmxCTm1JN1lkOA?oc=5"
-            },
-            {
-              "data": "2026-10-09T17:51:16.000Z",
-              "titulo": "'Transição será republicana, com transparência e profundo diálogo', garante Leite em primeira reunião com Zucco",
-              "fonte": "Sul 21",
-              "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQOEUzLW45ZjdjSlYzalQ2dmRrY0xsbWU4LTB0T2xvWHl0dTFod09wME54T1NlOG1pVFpFQlZPRXAya0ZKSXhDWkdqWkY2NWhueGtqUjlRR19ONGpmLWhrN3hIMXM1cFl5andlcWJPOUVUbUV1YmNGc2xpRDVOWWhIU2JxVm8yMWZJT3FhOXhaT1VVem8xeUJsZmIwWFlucnhvNkg3czRUMmpKVUVreGtzak9oakxOLUZrMmFTaGotOHJKdUZ0MWVtV3hnWEtjWUNtRjJGNFJrMEhfZXdNS2dJeUFNbVM4d295S0N3?oc=5"
             },
             {
               "data": "2026-10-06T07:00:00.000Z",
@@ -24722,34 +24797,16 @@ export const mandateTree = {
               "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPWEtPdXNZMEZzY1lVbG5hUXNVbS1UeXAwUFJRdktqbktGYUMwOGp1SFBPczRjMEJlMVFHZDN2MEU3SWZMSmtvSGdFUVo5b0FnRjFpZWU1cGM2OXpmaVgzRGQ4aUlDY1RGWnlZZTVxcnJjdnVTU2x1bXBvV2RHbnp5RUd4N1VvbVVHVVdCUUVObw?oc=5"
             },
             {
-              "data": "2026-10-04T07:00:00.000Z",
-              "titulo": "Luciano Zucco vence Juliana Brizola no primeiro turno e será governador do Rio Grande do Sul",
-              "fonte": "O GLOBO",
-              "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPdFZCSGFxRE5sRkUwOXItVklTS1B6QUtXeU12UGdxWjUyYjdpdU5RaDRXakplQ2o1alNHeFZMa0xXRHp2WkdGMHVRRGx3Xy1PbVhuUGpUVzhuYXQyY0ptNVBnQXJ3THZ1VWlnRzF3N2tZa3ROQmdpUldUcVd5ZjdqR01nOGs5VGRLT0gzWGVZMGIwVHpscGpkQWYzSVd1ZU9DU1JyQW1Ja2Rzel9YR0I4R1UxZmVIWkJHU292Tk9JVHF4Q2dTMEp3bnB6bXJRQktWVDAtQUl3SlBCRGFqYUxjUk5BYWp2emlFVTE2cm9YeFlzaS00QldNTtIBhwJBVV95cUxQUW1fdHVVTHoxdGNCaUtvZkNyeUk2amFMbG9yRkVGSEhBdjE5eVQyZDVwTEJOc1hBTmlPOFNVNXo3RjF2OWxSWk9qbXZaanotY0xlSnZ5Y2t0VmNwalhiY3FfWEZLcm12TVR5b25EV3RuZzVmeXEycEhiR1dPbEJLOHJYekM4bG5fSVE4QTdBTWltWkt2Snp2eE4zMTVDLWVHR3Q2YjNncEI5a1lFYnl3Y2ZhWXhDb3k4UDJtOE02bGhueE9xaHhSQy1UZTFYU2RzZDh3QUNPT2pjMjdqZVc0dTU4RXRmSmg1LTJlVndvbVRKelo0UDhmUXlwMFJVT3l6R2I0UmxScw?oc=5"
-            },
-            {
-              "data": "2026-09-29T12:00:00.000Z",
-              "titulo": "Saúde: veja o que os candidatos ao governo do Estado defendem",
-              "fonte": "GAZ",
-              "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxORjBDbm5iVndEZUpic0EtQ2dBVDMyeDBfTU9XYmFRd3JnRFNVdVZpaklFTl94eFpHQkd5RFRaaXJGczJwSFZiWUdmbWRoM1BEVEtjdzAzSmFMc3g2RDNoMU96aU8zZ2NrWlEyNEx1dlVDVGxYNkdpSFhGaUk2b1ZhZ0hvZzhPbjRWQ1Y4dA?oc=5"
-            },
-            {
               "data": "2026-09-29T07:00:00.000Z",
               "titulo": "Quem são os candidatos ao governo do Rio Grande do Sul (RS) nas eleições 2026",
               "fonte": "JOTA Info",
               "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPWldKUTUzZmR2RldrZFhoOWpKdGROWFZvQkp6Q2MzM0x6czlvamxENGxjVVdSMXFyanp3MXZUdThNZ3pSNmlXLU9ETUdpRFVETGpGakZTcVdEM1FncGIyOVFYZGVoZmR4MjBIYlV4SHYwMmtZczFQSHdhMVlKVENrUlBIcnl5S3VQRUE1TjhmZW8ySVloTUROdlIyaU83Rl91S3llLTZMMXJBY3k1bWt3bFllVkdBc25XR29XYzMyRQ?oc=5"
             },
             {
-              "data": "2026-09-26T07:00:00.000Z",
-              "titulo": "Desafiados pela polarização, Eduardo Leite e Ratinho Jr. vivem cenários distintos para emplacar sucessores",
-              "fonte": "O GLOBO",
-              "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQZkVXQkVfT2Z6cjdXNWhIbEhSNUk4clRMdmdBYk9scXdEMmxBd2RvYjNqOTl1LUZEYVdSeWY4aWRHVXc4ZHBpc0pLemhHeDR3LVlCNEdWR3NicUloNzV0RFdoVEJHdUJLWEJfNTdpc3BsVXVhWDdZczg3eEJyOHlmSnY5ZHRZSXNVUF9acTdCWTFHSF84WmtjVkROUnRvZTV6UnI3ZDNHUkVSLW1Mc2IzU25aYnVLTkF5ZUhpOWVKV2dLQzNMU2lsYTZEcDluanl1NTF5UEpCcU1GTlp6MjZPVDZOX01NZWdDN2pVTV9SY0hHZDVxY0hfVEc4NjJxVVNBNmJoTGV2dnrSAZcCQVVfeXFMUG5valZHUGtmNGFLYzNqb0kyOUxtUjVPMFlxbWYtdUhqQlNPS3BhLTJzY1QwNDRNQXVrUGlacHE5aUhVRkpPUkpyQ0pFVmZCRzczRGMtYVFJVkNBNFV4elVZOU56SjBScXNISl9RS2lTRTM5ZWwxSEt6ZExxZlpxUVZnOEE4RXVieUpuU3RRbmpnN2RSSjN1QTNVMkJSUkNJZF8yOG9xeEFadU5yaURjS2pPaTNpUkJ6Uldzdldqd21LRVhlNmdQV0VmLVBQMWhEclp3TndkTVBmSVg3Zzk2NnhaZ0dDcEU5Mm5LdFNWWHlPWU9laDRZYXdWdE9UZmxPVHRibVZUR25EajNVV3R5Qk54RHdRWUQ0?oc=5"
-            },
-            {
-              "data": "2026-09-21T07:00:00.000Z",
-              "titulo": "Rio Grande do Sul cria fundo para ampliar seguros contra enchentes, com aporte de R$ 102 milhões",
-              "fonte": "Estadão",
-              "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQS3ZpajJObUE0MS1rZksyRE5WQm83ZGFVc0Y4U2tpc0RuZTBfU25UWGh3YTBsTHVyRC1aTmRhVkM1ekhqcmZxUUF2ZmlUQ0RvZlB3NGJ6OTdYZWJ2cHZZTWlOZi1rV250NUxKZGR6eGNaNEI1QVdjdFdDWkZaZW1ybW1RcVUxZ2dsZW1GcFlsMXFaYWgxcFkwME1ObFBOdFgwQTlWMWRYTnRKeTZNREZZYnBDRzkyLWRFRlE4LW9EbTFzOUE5Q3RyetIBzgFBVV95cUxPVHpkUlhOaGIwOEJOOHdOQjlRR3V3SlVGam83Y0lXZG4xb2ZTYzhuSFd2YUhhandMNlBDRW1iVEtrRUdHa0lTUjlZX2pfQUsxd0ZOd0ttd1RKbV9XZWdZRFh1ZnYzWGx2OVpyd09fMUtOeGpLZGhsbVExS2hPMi01T1ZSWU0wZlNIbE1neTFTc1YyWXhZaXY0SnJma0lFdkV0Vm5XZUp4QkRYYXM2bUhkelF5akJ2bENQQzRET2dmclRLNU5hbkJMaUZWRUE1dw?oc=5"
+              "data": "2026-09-29T07:00:00.000Z",
+              "titulo": "Saúde: veja o que os candidatos ao governo do Estado defendem",
+              "fonte": "GAZ",
+              "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxORjBDbm5iVndEZUpic0EtQ2dBVDMyeDBfTU9XYmFRd3JnRFNVdVZpaklFTl94eFpHQkd5RFRaaXJGczJwSFZiWUdmbWRoM1BEVEtjdzAzSmFMc3g2RDNoMU96aU8zZ2NrWlEyNEx1dlVDVGxYNkdpSFhGaUk2b1ZhZ0hvZzhPbjRWQ1Y4dA?oc=5"
             },
             {
               "data": "2026-09-17T14:53:46.000Z",
@@ -24812,12 +24869,6 @@ export const mandateTree = {
               "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxObHRWVHFkdWZyeGlrZGl2ZTNkLWp2dGpIUkVXRnZwTkFBRlZOUjJGU3hMRElQWmU0d2FHd2NYU0VELXl6R3dVWkdCNFNXaFp5Q0ZRZ2VfVHNYWEp5amI5QkZmazV4MnJIaVk3TzVSOG55c0dHZWs0c3l2SE1wT2lBTi01YXEzaWhxOHlCYTV6UmdOS2ZsellEUWlNSWlod1E4OG90NVE3RGo5bG1GOUxHTXZkUE9LR1FHT3hLUlg5NUc5MFVVWnJZ?oc=5"
             },
             {
-              "data": "2026-06-18T07:00:00.000Z",
-              "titulo": "Ato em Pelotas (RS) reúne educadores e estudantes contra PPP das escolas estaduais",
-              "fonte": "Brasil de Fato",
-              "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQQkdYSDdTWmh4SGtMSWR0THBROWhaM1RJMGQ0WTBEMFhabzVfR3dKdGRYZ2NrM214T3NQSnctTGtwdEM4blg3TG1PRGxkSmRvVEdxbS03SmJsbjhCVEctMkF0YWEzaXVkMHQ5NXVjUWZMNnFTMXc0eDAzbmJQWVlmMy1XOTFJM3lLRURXUTlob1otbUV3VnVtdTZpSHk4ejY3aW1NVWZPTzBqZUJXWjJKLWZMZlRtcVlQZmxKbDU3T3l1UQ?oc=5"
-            },
-            {
               "data": "2026-05-28T07:00:00.000Z",
               "titulo": "Programa SUS Gaúcho prevê redução de 54,2% da filas de especialidades eletivas até julho",
               "fonte": "Correio do Povo",
@@ -24866,6 +24917,12 @@ export const mandateTree = {
               "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQaGtOMjFFWTNMdzZtSFlKY0oydW9IZXFFbTJQSHFiOHA3ckVOSGdOMjloYXIxaFpVNm1nMW5kYjJ3UDdGLWRKMFUydktwNjhyMFZWVlh6aG5rWDBOMFd3ZEFmaUdkbUhoMmV4MzU0M3JpOVNNcmhSYndwOVRRbDJsNklTNUJRXzlfWG0tSE5ycndYUTljWEVDY0NibVNzUjBpdVdSN0J5MXJvUjA?oc=5"
             },
             {
+              "data": "2025-11-03T08:00:00.000Z",
+              "titulo": "Leite defende prioridade nacional à segurança pública - PSD",
+              "fonte": "Partido Social Democrático",
+              "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQRTE5RHV5VUc4alZmeEdSemk2bEpKZEZmcXdza3NOcDlUYTRoWDdhNnFxTUVpYnpPdXR0UFJyX2pkVTUwV0RybzV3a3VrX29zTUtsUUR1c0V5NjhlWjFNSUVtdXFnT1NyaTVNLVB2dnhIVXRkX040N3pTUGdCNFF0dzVfZXJ0UVQ5bWc?oc=5"
+            },
+            {
               "data": "2025-09-27T07:00:00.000Z",
               "titulo": "'SUS gaúcho' usa recursos de acordo com MP que permite ao Estado não investir 12% na saúde",
               "fonte": "Sul 21",
@@ -24882,18 +24939,6 @@ export const mandateTree = {
               "titulo": "Governador Eduardo Leite lança SUS Gaúcho e destina R$ 1 bilhão adicional para a saúde até final de 2026",
               "fonte": "Portal do Estado do Rio Grande do Sul",
               "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPTFIxNjFXWFBmc0ZOVlFIc3R3UnE0TExXckFGX0VlOXRnRURadUFMXzFrR3g0c0tXRGV5Q3I4Vy1vVlE0X1Z3SWpObVVJejhiRUdLVVE4ck9RbGwxNEZmUmg3N1hHRU4zZnVLRU43WHRDNVBaSVhfU2hneDAtWnMzWHdsY3FZTVY1SUhMR2c5ZGJVQ0J2dURJQXRZbXM5bUlaSVpjRlhTdVV4enpHOFB4R1hvM2tSSl81a2lMTU5WTnViTWNOWkNv?oc=5"
-            },
-            {
-              "data": "2025-09-25T07:00:00.000Z",
-              "titulo": "Lançado programa SUS Gaúcho, que vai destinar R$ 1 bilhão adicional para a saúde pública do RS até final de 2026",
-              "fonte": "GZH",
-              "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxQdlc0V3drMDRjMm0ta3lSM2ZQZVRVYmtLNzZmMG5WRlhsQndGRl9iY0FickdMaDR5WFlvd3d2R0FXdzY4b2kteU40X1NNVnpiMFRNUWVGRVNodjF3bVdwXzQ5NkF4TVZwM2dyd3ktNjk4MkN4MG5pT0FUQ1BEanBDQjc2MFVGeHdLTW5TLW0xYnlFSUdKQjh6SFp4OGpQRnVJQ3NaalVFVWlDWkdrNHMyMGgzSE9MZjh3Yk15U2QzZ2NkcUlETVpDU3JTN3JwWlBRc1A0clNXNzE0UEZHZkRRUFlQaUJkVHdaOEZXUGVfc2xpVmFpRy02T2FaTEVBNkxkQ2x2QmMxeFZVY0pObWRUQXRwb2w3Q01iLUtqaVdDbGw?oc=5"
-            },
-            {
-              "data": "2025-08-06T07:00:00.000Z",
-              "titulo": "Hospitais da região recebem R$ 26,1 milhões em recurso do governo do Estado",
-              "fonte": "Diário de Santa Maria",
-              "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQVlhGTUd3Y1hnaUdETEZ4b3dUZDJvMVQya1ZxR2dwTTVEQk9tRjJLQVNvTEE5WmhJR0tydWR5WFl6ZS13UFJLT3FwdC1JVjBjVy03d3VOY2RwNWxVZ0pHWWFzSnY2NDNfUFd6YVE3YUZzWkxEWmRzc0FwUUJDVVM1SXlxd1luRWU2elpLRlpkcTd2cmJ4N1E1YWpGVlk0SlN6enVOYm5vRjk5QjR2OVhTZlVuSC1wZWh6dWFNc1Rqbw?oc=5"
             },
             {
               "data": "2025-06-09T07:00:00.000Z",
@@ -24914,16 +24959,22 @@ export const mandateTree = {
               "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZGN4UGVPRTZ6SUtWdGFBR3FuMkRGRUZkVEdmZE1LWUtvb2FzS2RlRElRYV84eTlORWpYdnFCclk1c0NGVXUyY2o3a3luVUVFekF5SWYwSzJvYUpDZ0wtNHltS05vLVNsbl9DbXNIX2RaeTFVQ2RianAxQjdhbHk4VmtySQ?oc=5"
             },
             {
-              "data": "2025-02-19T08:00:00.000Z",
-              "titulo": "Promessas do governo do RS para educação incluem figurar entre os três melhores desempenhos no Ideb até 2035",
-              "fonte": "Diário Gaúcho",
-              "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxNZ205VDZNb3hoLWMxZ2VtQllRSEEwdnRmWlZ6c1RJWlpkaUs5aFVnQ3hmUXRfSlhJSWllVjF0aXdVX3JtQ3ljdEQ4UVhBQTAtN3VZalgtN1Z5b0dZNjc0Qmx1c3VGbnZ4bUNoT1lMZnN2WTZKeWh5ZnVnd2ZUelBnZDJpeDhNb3JrSWxBblZJQUhPa1NNSDNpSlYxTGhkcWZpTE4wVmE5WHltdERvMmN5Qk9sM2NHVmVYLW9QSUlkX0haR1VZQzl3cjJmMHNRNTVHMXVIZmpVTzVJSnhfRWNRMmdCVDdUa2pEX1g4WHpKa0ljUVg0QTBwTGtXdS01U0owWjFjeElSRzd5ZFBySDN3Nk1KX0RId1E1X0RzeHU4ZEltZTRaMkVtdw?oc=5"
+              "data": "2024-12-04T08:00:00.000Z",
+              "titulo": "Notícias - Rio Grande do Sul - Sistema penitenciário gaúcho será reforçado por quase 60 novos servidores",
+              "fonte": "PORTAL FARRAPO",
+              "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNTVFkeDVreHNWYjREWVdRQjdjOXJMWTNMQUwwaWF0R1Q5MGpUX0lqcmhxeXVzTmJfNnZPRzRCZ3BVZkotNHVTd1F0VWhpVmltc0xMN3pwLWxJYlV2c3V4RTFmNjBnb1NSS0c5N0gwVlJwTUFMMW5QSVlhOVVfeU9SRkZ4bFNZTGd0NjNqZTB6bG1weV9lX2tCUEZtVW5tc1BKNVkwM1oxRnUyWFNON3F2akFMOHl5M2dCTzJ3cTE1UWxJUURsY1F4ZTh3U01ZQngzczV6bER0RHg0TjlS?oc=5"
             },
             {
               "data": "2024-07-16T07:00:00.000Z",
               "titulo": "“Nós cansamos de esperar”, diz Leite ao cobrar recursos do governo federal para o RS",
               "fonte": "CNN Brasil",
               "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQd0lPcmx4TUtOYXFKMVpzamFaSU1qRmhOVjZ3SEF3YUVxOHNDczEzTjZEc1NqM2paSFZ3ekUwY1lXMDlKZU95X09CYjdBXzJXdExRRHA3TEtDalhzOFBKdmZTdE51a2FnZW5SWGQ1WERBV2psQjZtaC1aOGlKX2dtZnVSMUQ5RlpaQ194NGxxZFhkSi1zQXV4LTA1eXAtaXZNS29kYmFnaDJ5MGFFeEdBVnhaSkFtbEVCTjBtQlpyRXpMUQ?oc=5"
+            },
+            {
+              "data": "2024-06-05T07:00:00.000Z",
+              "titulo": "Sete hospitais das regiões Norte e Noroeste devem receber recursos do governo estadual; veja a lista",
+              "fonte": "GZH",
+              "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxNZ2F4Tnk2RFJDWFYtY1YzV2paX2x5U1oyWWI2bllhRlZtOHdrS3ZiM3gzMjNYYWx3YmRvWkYwWFEzNmV4cmxVYWFHelVXZFVWOUV5WndGZkI3VFhOUWNfV3Q3elFGWFVvSDlmQlV4NWFydzVHM085UTlQZTd3dDBXZXRraUptVFIwTzRZWTdpb3FIaU1ob1VGbjBrSkprMzkyRFRBMWprbmJqSkt5dVZCa3FWZGtpeXNmYzRMU25pX1ZHMUt5VjBDZmlkdXB3OGVrTTZqb1N2SkNpMmc4ZXlsMmNmS25lTU5RN2p5ZFJvYnE3c2NTUWNsZFQweUxfbXFFYnpHMXFTb0tGbXRGNThaek1VdlZyMzItUWVIdUptUl9nUQ?oc=5"
             },
             {
               "data": "2023-01-16T08:00:00.000Z",
@@ -24972,6 +25023,12 @@ export const mandateTree = {
               "titulo": "Eduardo Leite presta contas de seu governo em evento na CIC Caxias",
               "fonte": "Revista News",
               "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPYXh4dXJVYUpNbEJ6SnpSbmgybW5zS1BiSTdkbFpiOUp4dzl3TnAxNHMtQzJkOGRBWEJFNE5Ma1J6eUVHbGYxVzZhVGlVN1h0ZkM3YkdHSW9nb0R1SGdMT2RuMWFKeXJqR0N6WG9fOUVNWnNVeEtvcG1ySUxMTjFhU01wU29TZmhOak9pckhVX1FzMVQ1eWQ0SEEtTVM2Smd4QWRZblNPSkY?oc=5"
+            },
+            {
+              "data": "2021-11-19T08:00:00.000Z",
+              "titulo": "Doria e Eduardo Leite tiveram aposentadorias e impostos como desafios na pandemia",
+              "fonte": "Folha de S.Paulo",
+              "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPaV80MHkxejFvc3pORVVmZVQyNW1HRXpYcmtVWDkwMDRZM0s5UE9IWnNuSzdjZEpEeUtkMUZ5ZjE0VFRCcV90Y3dJX3hQbE5vNkx0Vm10TW93anF4VjJBdW8wSkZfX25INzZMcnBwM3VpMDdIb3NPc3VGMm5ScXZuSWZPZVFTa1ZnSTRsMWl2UVh6bWhQWExER2dFTGE1SUE5ZFZBeVJhMHZfNEJpVjZPSjdkTGZ1UlhjNFQtclYtb21uYnVObDNfcDVFRdIB0AFBVV95cUxNRExqUXVjUUhxODN3OWFaQVFSQldGZkdPbXd1NTBPYk5UNVFIdVRLdEstdlJXSE1EU005VU56YUd3MjE3ZzFJUmJWUkp3cnNIQjg5UUFxSjNaQ3pwbkpxTWVrSFJxdGhOQ3BYd0tSeVdnbWVMdkpheF9GR3pMQ1RxUzFvVkU4X3pWd180RzM1Tjh4M1Y3VEhSQk0wU2RVVE5lVlVlbkVrLXA2d1pCd1ZzdWMtRTNQNHNsNnM4NV9FUU9Tb1ROWkRpTmctSTB4THBs?oc=5"
             },
             {
               "data": "2021-11-19T08:00:00.000Z",
@@ -25055,6 +25112,18 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQTkVnT3NiRE9pWUgyN01ZUHNYUE1rTnRWTkt6amYwNXA1V2NkX3VKNzZzU2dzN25EeXBCTC1BalNFeGVscGgtTFdWZWRhanJabFFhQ2szeFZVZk1QaU8yaVVhaUVSSGdhQ29IR09GRi1vUk10SEQzd3JiQXdvSjlTXzdVVG42c203dWJkYVhQV2hMTHZSWGE2QjJwWXVhR0lYRU56S1l0SThTcEJUclBTZW40WXBDUQ?oc=5"
                 },
                 {
+                  "data": "2023-12-20T08:00:00.000Z",
+                  "titulo": "Fim de bolsas para cursos a distância no Universidade Gratuita é aprovado na Alesc",
+                  "fonte": "NSC Total",
+                  "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNNnJIbEhJaFQ4ZkFkeUhOQzNDbGl2RVk2U2RObGxyS3o2bjlwMFo3aTczcE1qako0M29xcVRTNFF5YXRSenVaRVdTRFlXU0wweXd3ZGxZTWYxbGZHbmxjYm91NmFmWXNWRVlfVlNBUlR4M3d6UXNNcy15RmJtQkpURGNrNmdEUXphYUV6ZjA5TFZWcEwyUU9zS1RiZUpiZk1WYlBWYm5oQTY2WE5pRXIzVWlYWW05NG80RzY4?oc=5"
+                },
+                {
+                  "data": "2023-07-12T07:00:00.000Z",
+                  "titulo": "'Universidade Gratuita' com teto alto: SC vai pagar curso de medicina gratuito para famílias com renda de até R$ 10,5 mil por pessoa",
+                  "fonte": "O GLOBO",
+                  "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxOWXdUZ0hqc2FyUHdLRUpONEtNcEdCU194REFySm9MTFpmTmZoU0hPRl9HWV80T0l0ZVgzR21SZ0VwYktRWkZtclIwSkNfbGl6T1RvZkdzdG4yZXpTcld0eEpKUmctVGpLQ09mZnRPVDZCZVBSUExXdi0zWm8yS3ZWcGtGYW9NWGdlVEs3bXNaSnAyYVpXOWVvMzA3c0ZNMmJxRmVzWGhoZVNYeTFCV2FTOXg5dWVoSXhLMmhEd0g0ZlIwdVhBQ01FdWFrNWZsbVNHbng3Y1dmb2NoX2Q5NVByWUZ1UnNUa016Y2JNNVN1d2RwYjRkY1YxLXgwUE1LdnVJdmN3RVQtem5JajVaMDAxNVZlMzNWWU9WZ3dUcTRvWVVIbnPSAbICQVVfeXFMT3d6MFpCWm9ydDBMXzlpQXJyTjlaZHAtazl1bktnRTktNWZGbkQ4R0pRZjFlSXI5bmtMbFlqQnctcVBSckM2VUdMdEgxeHZHdUNsUmxWNjNrNGpHSGIwOGRKVTROalloaFJfdXd5SWpYNER4RGFjZ2Uxa0EtZzhtQmpvQ20ySEF5TmVJSkgxQUoxTDBMMmhTcmxZZDM2ek9QbnVGdVB2UENSQzJpb3NVWEJQTFBleDVzNVZVZzVzY1BxSUEtRjNMQ2dzWlY5VkgtMVNNSndRZGZOTlhFVlBya2tpZzdtbV8zblVlRGJtZ0JpZU15LUh1VE80U2xteUFvdzhIM0dRMWdXNW1PcVk0ODNZWXNJbTFUdWxnOXZSMHl6QWNoR0dTWE1kTVF3SFVmSEN3?oc=5"
+                },
+                {
                   "data": "2026-01-15T08:00:00.000Z",
                   "titulo": "Unesc abre inscrições para o Programa Universidade Gratuita",
                   "fonte": "Portal Engeplus",
@@ -25118,12 +25187,6 @@ export const mandateTree = {
                   "titulo": "Governo do Estado inaugura nova estrutura do Complexo Prisional de Tubarão",
                   "fonte": "4oito",
                   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNVENTM2VJSTA0S1IyQXloQ3ptdzZucERvYjJVdGxPVGhMQ20ySnB1TmI4VS1XTVdMN3pfTXJ3ejBVRzdHOUVyaENtaW1LZWZYc0FhQVpac2tTWThSOWx0UlBKZVNoTU5wdFg3VllpZzNOd2RkQkExeUstZUJyQmNOVzZDNEp3MzY1TmdSOFc5U0p1R1dxSnRjZzlxeExRY0o2MEg2UFp0UlJCcGNsUWRqOVFtUQ?oc=5"
-                },
-                {
-                  "data": "2025-03-07T08:00:00.000Z",
-                  "titulo": "SC arrecadou R$28 milhões com a mão de obra dos detentos no sistema prisional do Estado",
-                  "fonte": "Rede Catarinense de Noticias",
-                  "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNLW5IbU9qeGN2R1J1YUpUNElQZXgxdUZ6bnd0X1VTb0VlUlI5X20tMVB4ZkRFQzFUTXdSSW11OW9yczFocktuUGx1bkhyZWRxTTgxWEh0M0NXd1oyYmRpUWJhOWtyaWx4eml6RFBwX3NxcDVTZE1tTHdsVm03eXpxSWpkZjFNSFRNcFlyTE9rTTFUYnNrZVZUQTlnUi1yeWlnLW41R194TjNWSWxULW5vcTJzSWxJN29mNENldzY4Q1FRNmtwUnhOQld5QnBVdllqck5OOEpsYVVfcGZ1?oc=5"
                 }
               ]
             },
@@ -25165,16 +25228,16 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPM1dnUEF1MVctbzEzSi1fVkhGMFBUN09kbHlJQ0l1TVBOV1V0WFU0V2JzcGlBaHV0RzZsRWJPTVNnb2RSb09LYzNlTVlURGx2SU1sV1RjMlFTSG96UHhfNmFUeGxXRjBLUEVuYW9nVmpNdk9rVnRVRDlNVVVqaVg5TGZtcThsdUNQZVRWUUVEc3BvNWN0cE4xN2dfTDRmaUM5X211ZG9naHBCY2s2RmFNWWpVZUhpRm1JWnFMUEtjbkpwclA2SDl3?oc=5"
                 },
                 {
-                  "data": "2025-07-03T07:00:00.000Z",
-                  "titulo": "Santa Catarina terá 26 novas delegacias para proteger mulheres, crianças e idosos; Itapema está na lista",
-                  "fonte": "radiocidadesc.com.br",
-                  "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQVFJwZGFrQXZrZWY4eWVNOVl4WlFYek5RNlRFVllrckJBd2NvRmczbk92bl9IXzd0VzlOZ2lLb3dOQ1M5Q2hLYW9ieXFkaEg0dVBmLVZBVUhIWHY5cm40TVA1NlhwaWFmejI0MU5KejJ0U1haWkVwd3l6dVNXa0JWbUdwMnIwOGFxeHg0azNtYjg4S1NldEhUcTd1bC1EdUYxUWswMTRJQU42U2EyZ0llbVZNZHlZcVNVTGh4UDRPbHkxUkxUREpTZ0ZrbTdZTWE1YUMwQXR4NTVJSWdZ?oc=5"
-                },
-                {
                   "data": "2026-05-08T07:00:00.000Z",
                   "titulo": "SC deixa de investir em acolhimento após alta no feminicídio",
                   "fonte": "ICL Notícias",
                   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNSnlXSjMwM3pyUU5jZTVfRExKOXIxV1FkcFYzTlUzMXE1b2JYWEFGdjdpU2hFcTVQRE12N0JxbUktR3JRSW9Md2xFLW51S09Zb181RXBubE5ZaGdBTEk0SWt1MnBsODlVNU5ESjFJRnlhbXNCaUpxTGVRMXZLSVNkVw?oc=5"
+                },
+                {
+                  "data": "2025-07-03T07:00:00.000Z",
+                  "titulo": "Santa Catarina terá 26 novas delegacias para proteger mulheres, crianças e idosos; Itapema está na lista",
+                  "fonte": "radiocidadesc.com.br",
+                  "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQVFJwZGFrQXZrZWY4eWVNOVl4WlFYek5RNlRFVllrckJBd2NvRmczbk92bl9IXzd0VzlOZ2lLb3dOQ1M5Q2hLYW9ieXFkaEg0dVBmLVZBVUhIWHY5cm40TVA1NlhwaWFmejI0MU5KejJ0U1haWkVwd3l6dVNXa0JWbUdwMnIwOGFxeHg0azNtYjg4S1NldEhUcTd1bC1EdUYxUWswMTRJQU42U2EyZ0llbVZNZHlZcVNVTGh4UDRPbHkxUkxUREpTZ0ZrbTdZTWE1YUMwQXR4NTVJSWdZ?oc=5"
                 }
               ]
             },
@@ -25185,6 +25248,12 @@ export const mandateTree = {
               "status": "cumpriu",
               "descricao": "Em entrevista à Rádio CBN Floripa, foi prometida a criação da Secretaria Estadual de Ciência e Tecnologia. A indicação do secretário da pasta seria feita pela Acate (Associação Catarinense de Tecnologia). A secretaria foi criada na nova reforma administrativa e passou a atuar desde fevereiro de 2023.",
               "atualizacoes": [
+                {
+                  "data": "2026-10-16T11:49:34.000Z",
+                  "titulo": "Santa Catarina realiza 8ª Conferência de Ciência, Tecnologia e Inovação em seis regiões a partir de novembro",
+                  "fonte": "Deolhonailha",
+                  "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZW9OaGlLOUU2OUFKV3BOZjUzdEJ0TUlhVlh0SEd6cGU3QXdvMG9XU1ZMRGtUUVlQNm5qR0llNTY1RUIyLUlWckxtYWxJQzg5RzRqVWFhWkFSbm5oRURPdVRlSzdpZ0dPdEdhb2NYcWxMS3ZmMHU4SlhDY1A1YTZSUTJCTVU3d0JxQjItZUNJUXVkTGllMGU3UEpmU29KbkVMcWxCbVVDOXlyS3FxZ3VOa3FiV25xd3lpZHVZUEhvVzU?oc=5"
+                },
                 {
                   "data": "2026-10-15T19:27:58.000Z",
                   "titulo": "Governo do Estado realiza Conferência de Ciência, Tecnologia e Inovação nas seis mesorregiões de Santa Catarina para definir prioridades do ecossistema",
@@ -25222,12 +25291,6 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQR1dFZWZxcHhQQ3N3d2oxYnFoNjk1TnFYOWRRZ01ITDh3MGVjLS1ycF9ONWgzSGFVLXpWSkJienF3b2pLWlhsc053bzZnYkdEWXdleGlyZW5Oc01UNEZ2M2Y2TDdVdmpDNWJIdk42bHp1dXZua3pFczg0ZGdYd0IyZUN1Tm1GV05kbmFWZTJCU0tvOHV5cEtvc2xn?oc=5"
                 },
                 {
-                  "data": "2024-12-19T08:00:00.000Z",
-                  "titulo": "Centro de Inovação e Ponte Tubarão-Capivari são oficialmente inaugurados",
-                  "fonte": "Prefeitura de Tubarão",
-                  "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPYmU4VElnU0hQby12a3dIMnFIU3BYRlpYenB1RnNEV1RDek9zRE12MXFXc2RodktRR1V1WFFjSHljbTNoaThDZzA1Z2V5cDJWMkcwdDcxaUNSbTJqU2lUM3BMYUJtX3VPbmpLa284Z3dQb2JkWVhBWkhSa3JuajdPNHRxd1IzRmVaZWhIMkRLNGcteTNZX1U1TFlwckJFcjRK?oc=5"
-                },
-                {
                   "data": "2026-06-03T07:00:00.000Z",
                   "titulo": "Inteligência de dados da FIESC vai subsidiar planos de inovação e de desenvolvimento industrial do Estado",
                   "fonte": "FIESC",
@@ -25255,12 +25318,6 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNZHF2d1pMNkVLeEZmQ1QzV202WG92dEJza3JERWlxZUVxdmFka1dBLW9yRTNGZ3NZQzBSQ1VzQ1VjRFNjSy1IZm1uZ2htRjZYR0tMSE5rQ280aHRSblFwTHJzcndHbGE3aXBFbGZxWnlLM2ozWm95YXM1MU1LbWxHTFZSSll4aHB5Vy1mSDNhTTk?oc=5"
                 },
                 {
-                  "data": "2022-05-20T07:00:00.000Z",
-                  "titulo": "\"Não vou privatizar Celesc e Casan\", diz pré-candidato Jorginho Mello",
-                  "fonte": "ND Mais",
-                  "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxObUxRbTBkd25jbEtSVllIdW9iTjNqdWVHOGU2elZuUnlxeTVmMGhqM3lmcU82djNiNmJYQXlzMENiQktHWWVpNTQzWmdNZ0xlZVoybURZMi1CNExEM2dXZUl5MDR6M0staTNMNGVOekNCdWJZM1pEV2lHdzJPRTNrY3JlM3hMNFNYYXk5UWpRc0pUYmd2N2VIMVhLclVhU1U?oc=5"
-                },
-                {
                   "data": "2026-09-21T07:00:00.000Z",
                   "titulo": "Jorginho Mello diz que não irá privatizar a Casan",
                   "fonte": "SCC10",
@@ -25271,6 +25328,12 @@ export const mandateTree = {
                   "titulo": "Privatização da Casan; Internamento de pessoas em situação de rua; As casas de Jorginho; A enxada de Antídio",
                   "fonte": "Karina Manarin",
                   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPVFprTVY0dy1zMER5MUpSZnVJaWxzUzNlNzF0aWYycWlfeU5FdjBlSW9YaDhRTXF1S2RES01WLWJROHh1WjFEYkYyNUJyYUZqczYtMDJVTlRyRXVQQjNlYS1HdUF5OHdWOGRBenhJVmQ2NlRQUUFPNVdwNDQ3aS1mMlB6MHFod0Vha2YwaHBSV2ktaVdGbzdZWm85M2hFa09RUDQ5cmxwVXAzdDRIWnZkLVVXTlI2UER4emdlOWM5b29EOV9WV09SdDhaaWF6TDFBLWRJSDRUbkNwM21oVDZZ?oc=5"
+                },
+                {
+                  "data": "2026-08-19T07:00:00.000Z",
+                  "titulo": "Gelson Merisio descarta privatização da Casan em SC: ‘Tem que permanecer pública’",
+                  "fonte": "ND Mais",
+                  "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNV0c0MjdQRVR4Qm1uckJzbGZvdm9JbG1oYzFNQkN6eWNkVDEyN0E1dl8wclZpMmp4Q1JvbWdsYTVNY0RQbzB1UFo4MVc2ZzdCcnM3b2lmdk01WFlSbU95ZFR1ZW8waTh2TGEtUXdVZ0xhUjFRdWt3M1RtLTRwcHR0RUtNd3RrTnZSWUw4dGtINzRQOV9PakZXNGc0cXBfcG1qT2psdWVZN2FIRmZ0R3Y4?oc=5"
                 },
                 {
                   "data": "2024-08-06T07:00:00.000Z",
@@ -25368,16 +25431,16 @@ export const mandateTree = {
                   "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOTHMzdV8tS29KSl83X1VtMl9PTHF4THQtS0Q5aVljblJRVUluZktJYUtvS0RGemV0elNieWtPcHU4T3FZVURUOF9zeTVJRDYzYnFmVUFqUFc3RnNZZ1VVc29GaWpTSE9PTGtiUVZUckpmTVN1MjA1cm11a18xWGdxUWJTdVg5aGVlM3F5N3pEODlkZndLXzR2bzVUcDBYb0E5VjJhbXlqVEdtVVlXUFBtbzJ2amdscXdaSlp2TThlYm9DMzhOazRvY19PWUxrblVVTG9oSmRTRDFSMHl3MFMzaVFjc3BOVHp6MG5N0gHwAUFVX3lxTE9uY092enVDVmt5cVVKbmFBZDB2NFFIczRzN1FsbHBtQlNnSm1ibGhKXzJRQTRtR1VlMm9NU3BDOVZzOGhPa0xJSzZyNGRCOHFJUXd0MzV5SGtzQUE0RUdWbGRQM09fbFNNZEFhMF9DdkdzUk1TNU1WRExTVnRha1pLcTNHS0d5SHRaRjgzRXVyci0yOHVOQTJiaTREbkkzWG1jQzZyZFh4QjN5bGxhdk9iWFkxSlhYQlpwT2poQ1VxeHVzc1NuUGw5aUFZSnJWbnNQNG5KTGJ0SFMzRjNjLVExdmk5dWVYX2MtTkZ0YklRUQ?oc=5"
                 },
                 {
-                  "data": "2024-02-09T08:00:00.000Z",
-                  "titulo": "Governador assina o Pronampe",
-                  "fonte": "Jornal Metas",
-                  "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQbUZvY2tRWUtqd0E0d1FiaENjZElNMG1vc1hLRnNINmhLY2FlQVBPVU0zNHJWUGtnbWpNeXA4Z1R6cEVncEo2d2Rkc3RyQ2xIbWhKRHQ0LU1kZjRHVGFBYTZNVmpQTm9aWFNCOENoLVUzR2ZfSlNEdk5sVWRZT1hKb2hKb9IBiAFBVV95cUxQMVZ6aDlxZkkzd1pCbGNfMExyZ1NUaTI0LVFJM1lWN3hQS2Q1N2wzbDlVWC1fTEZnZ1BYMGNzb1dWNjVob0NvUHNTNnJBbXhHNmFUVVFlM3l5UVBnVThwb3hfdFp3UENSZ3lTMkRZc3BsNmFYbHRQM0JNOHNabGlyUC0zSkxtbUw0?oc=5"
-                },
-                {
                   "data": "2025-07-29T07:00:00.000Z",
                   "titulo": "Jorginho Mello critica alta da Selic e juros do Pronampe federal",
                   "fonte": "ND Mais",
                   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQRDJ4SWVKMmk5OFZZcjVheDZ2MUQ5N0JIeFhnNE51VjFaU2FXM1VaajVfYUFab0xJZ2FyV2l6WjVGRUFPR3p5U2kyUktzNE16REM2ajNnVVVPUDF5MnF1WDJGWkxDX1JKMUpGdjM1ZGxmdlZyRmw4em5lSUE0TnR3X2x4T0hGdkYtTFFaTFVLM3JHWlprNnE4SVl6eE4?oc=5"
+                },
+                {
+                  "data": "2026-03-18T07:00:00.000Z",
+                  "titulo": "Pronampe Leite BRDE SC movimenta R$ 37 milhões em dez dias",
+                  "fonte": "Blog do Prisco",
+                  "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUVltaVo0ZjZFZjNkSElhMGZVY2xFM2pvTS1jTmRNcjBybjdQcVlPYkIwYWJfbXp2MTZibXUtYVpqaWRyU2dxaURjdGJNZWtxRzFYZWVPcjBsMERWRG9nZWJMQURudk9FcEFxYzBZU2ZSeWJ3VkZBQVNJTldRY0hxNC1wZ2U0V2h4NlVPT1hVNUFXVGFo0gGaAUFVX3lxTE5FQkppRG9hN184cHNaYUpmQkxfSnA3Z2xmc0w5UmxxREx3bkVTWXpRQjhvVXVOUVhKWExieWtQRFRGRFExLTZ3M0N3UWdrSDN4akpxLWtCYXRsZkxOZW1vbDRaOXZBVWRCM3A1Q3BLVEs3djZHSDY4N0lzSkpMZkg4Z0N5QlFzODVtVWkxR0ZvRGVTMW4yMXloTGc?oc=5"
                 },
                 {
                   "data": "2024-04-24T07:00:00.000Z",
@@ -25402,10 +25465,28 @@ export const mandateTree = {
           ],
           "noticiasGerais": [
             {
-              "data": "2026-10-15T16:56:45.000Z",
-              "titulo": "ELEIÇÕES 2026: Confira os Resultados e Cenários na Região da Amplasc",
-              "fonte": "Jornal O Celeiro",
-              "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQYlM2Y044N3czdWxFRl9IWERSYVFsUzM4a08xR19BQnk4czVWcEJSdG4zX2dGT1JZVmhYSnkzVTQ2RWIwbEhONWhmV2dRdy1IRlNKcFdxNVhKNFYxVVJxYlFSRld1cWtxUmRsN0g0ZnVXeTl3dGxHV195RmoxV3U2WmhlekRJVVJjSEVTc1FneVNobWtCR2hwNGVHeEg0cEpiaGJQQV96Z3Y?oc=5"
+              "data": "2026-10-17T02:49:08.000Z",
+              "titulo": "Santa Catarina: PL amplia a hegemonia da extrema direita",
+              "fonte": "Nexo Jornal",
+              "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQRU1YZXJDbm1zcXpHcW9WOW1rZ1hMWC13M0dvUmNLbnU1XzJZOU5WbXJ3X3IzUlBqZmlGdEx1bnk4N3BlaDhxTWptS3ozN2NTbXcwX29GVmJ0Z2cyRXJicnZzVUpPOFA1czhObUVkUFBiSi0xeHAxRVNKU2lUUS1UTWQ3Z0tzUkFxVS00ZklKSlQyQmdRWkMyNXdpZmYxQQ?oc=5"
+            },
+            {
+              "data": "2026-10-16T23:20:17.000Z",
+              "titulo": "Mais de 100 jornalistas cobrem debate entre Lula e Flávio Bolsonaro",
+              "fonte": "band.com.br",
+              "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcllBanJPcDFudkx3LXZUR3VnUk9NcVE4OFZvMTFzX0dYVUZhTVR2MjNXa3F2VXdLZU04M0dVV0FEb2s5aGZNV0t2UXlIQWpZR2ZSS3lrUmFpWWZWZGJyalRwdmVJUHFCVU1xdWE5S25jNkRtSV9aaEYxRnVMel9iYmxKaFNZRUVQTms4dzRva0RHM0NCWHdJQTVTcGtRR25nMVJPRmt1NmFDaDB0Sll3WXQ4eXFlQQ?oc=5"
+            },
+            {
+              "data": "2026-10-16T17:13:05.000Z",
+              "titulo": "A força de Jorginho Mello",
+              "fonte": "A Gazeta SBS",
+              "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5QTTAyenhXSThWS19lSnllY2pZS3lndHU5cXk3U1VvX1VrZ2Y0a1VLZGpnT01LOFg3ZUZhSGtBR0R3OGRackEwUlFWTTJ2NENINFp1MVpscHRyVmhoOW5Wag?oc=5"
+            },
+            {
+              "data": "2026-10-16T16:37:25.000Z",
+              "titulo": "SC firma memorando com região do Marrocos - Agência de Notícias Brasil-Árabe",
+              "fonte": "ANBA",
+              "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1fMUh4dl9NOERTTGVnaEx1UmJDWVotdVR0OURHUDdIUUZ6aE9DclJiY2N3RlVScURIRWVPRkgtc3FFV1J3UUdZUmRQX3hxTzhfbEktWGNqMU9jdFZqel9uc01GVmIyRXpHQ2ljTjEybw?oc=5"
             },
             {
               "data": "2026-10-13T15:38:18.000Z",
@@ -25448,12 +25529,6 @@ export const mandateTree = {
               "titulo": "Jorginho Mello (PL) é reeleito governador de SC",
               "fonte": "Folha de S.Paulo",
               "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQVGFrNkt0Q1F6SVRiTUtTWE5wMkhDXzNiQ2xGRW5TbDhPWEhaWHEwc08xWjhNT3hlVms0VlJRN1BvQkN2ZTM5Y2Jrdk9MN3dzVGNmR1JfQjhQM1IwNFh1MmlWdEZBOFV1c0NSazBYTGRFdmxnMFRNVWRISXhmWnRENjRQRTI1YXc3NF9odUttZlJBbzFnMU9lYkIxUEJlcTdSY01qcFhZYjBPaEZiUjlMdmV3SQ?oc=5"
-            },
-            {
-              "data": "2026-10-04T07:00:00.000Z",
-              "titulo": "Jorginho Mello é reeleito governador de Santa Catarina no 1º turno",
-              "fonte": "CNN Brasil",
-              "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSEw0SVFJSmF6dDdOUzJ1blNMV0hBT1BPSXZyZlYzamZhMzQtN2dfam5jTE8wcUZzWEh3Y3gyLUpOT2pibVdva3BUYmNSQkRNQ003ZEFyT05mOGkwS0E4dDhLb2QwQmE3MDM4TXc0OVgxM3JxV2dVWGR6bGphUDhNeWliSGFCdzEtRTBMU0tTSDVfRWVGaV8wT2RVc2lYUEZDdW9XNXdZRC0?oc=5"
             },
             {
               "data": "2026-10-04T07:00:00.000Z",
@@ -25508,18 +25583,6 @@ export const mandateTree = {
               "titulo": "Qual é o número de Jorginho Mello (PL) para o governo de Santa Catarina?",
               "fonte": "G1",
               "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPaVN2bGwxT0tCQ2RaZGViRGNKY2h2S3NrcGY5d0RTQ29iUTdBSzVsSTMxeWpCeEhId1NrZjdLR0ZUUU5RQVlJc0l3dDh5RDUxVWtUa1hNTkpyZkpWYkpSQ1VLS2N2cklVX05LelpRMnM0U2NVYzdGYmJhZTJ6OXlPX1FRRXlXUHB5QlZrTE44V1FqOF9KSWMzQVE3Nl95SEN5SmFSdHlZRHNsSHVZX1pGajdfSHp0aWlPZ3c5bzJqb0Vja2Q5SklKT0dlNTRBT3FCNjYwSlFwZmhMRjZOS0lxNdIB7wFBVV95cUxQVmdUWlBGbkJWMXpQUjRpRjVnU2VLUnVLT1NuR24xUDcxTXBnRXpIbXMta0YwMmhQVUVLMjhtQm12V0ZXMzRGdWp4QUpqb1dKc2s3eHJHQ3FlYWpiV29BNVZTNnhUWUxzRmp2R3lYcDBucDhfeXNRdTAtWWxDTDI3YWV1eDhvUF9PRFlUR083bzI1dmRRMDE4cHZ0amswYWVPSlZJbVFQREtnMG5kbUtIN1MzdGNWTU8tZnJUdGJEYVRsSXVVZzdLbDJzVlB4b3RzbG9ReG56eGEwYUhOWVNNX0t6bnF1UVNZYUNwR3BBZw?oc=5"
-            },
-            {
-              "data": "2026-09-28T07:00:00.000Z",
-              "titulo": "Santa Catarina tem oito candidatos a governador, veja quais são",
-              "fonte": "Agência Brasil",
-              "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPT1ZLQV9lQXlYYkdrdm4xR1JHOVhCSDNnN2NsRTFxcmg2RzFSTU1aeXh5Q184dm5jS3lmUG9sLUFCMHBuZm5pU3N6UHlCRmVoR1FoemFERjR1OHloR1h1VjdDNWRVTS03NHFwU3J6Skxnbi1lazlyMDlCbnAwQkE5X3pLWGZCVjZVYzJGeVVXbjE2RnVRUHduanJYdTZFY0dBU3I3ZEZwaTZpdS1BUjJuQk5sWkNlMkpLeVE?oc=5"
-            },
-            {
-              "data": "2026-09-28T07:00:00.000Z",
-              "titulo": "Nova pesquisa Quaest em SC pode mostrar se Jorginho Mello já garante vitória no primeiro turno",
-              "fonte": "Valor Econômico",
-              "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNRXFqaGx0ZHVfWTlUT3pDQmpkLWZhM25ZcFFDT2JVVkhMbHc5cHFfUUcyd0N1cUc5LUozMklUWTUycWpqSnF0ZWpndlNlblVTdXl0TzhiNnQ4YXJ3ZzBhOUUxQUhCTkdnalN4Mnd2SWxfUWhrUjIwUXppODdKNWJsRXRUem05M3M3QXdPR2d3NEx1WFRyTm1MeDk5b2pJazloV0dVSmxmVWJqOXA1TU43LXhfRnc4T29lMlBLazhGYVZULWllMk5RU2dHQ3FoUHJwRnJ1NGxyQnBRRC04MmJtcDNLNUpJTkZXSGpzeVF4REFhSlpwVHREczNn0gGIAkFVX3lxTE9YV2NKX3c3S2pYaFFVTVhmeHM2Z0FLREZpQ1FKaW5Ca3BWMDY5a01rRVpMNVc3SkZ5Z2RDSF81Nm5lRVo2VVJqR3dmU1VNNXQ5NFhBTVlaeEpvNldiUWJsWWlaVERPQ3dMR21Ec2RDeldPVk50ZWJfNkJueHVWWFhVVXpXMFZsLUZQcENGdmFKdWgzeXlFTVd4VzRBNmtycWZUVnU3UmhJSmNqa2RITVlTRWVfUndLN3pxQ213RV9acUhCbVpUOHFkMEhlZDZaeWdDLU9TeE5IVk5qbzNIMTludWs3NEtuaG9waTRBUnI3Y1NlNVYxRy04b0ZITUt0VlVLNmFMSWdJZA?oc=5"
             },
             {
               "data": "2026-09-16T07:00:00.000Z",
