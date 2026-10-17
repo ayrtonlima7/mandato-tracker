@@ -1,4 +1,4 @@
-import { geoMercator, geoPath } from 'd3-geo'
+import { geoArea, geoMercator, geoPath } from 'd3-geo'
 import brasilUfRaw from '../assets/brasil-uf.json'
 
 // O GeoJSON de origem (IBGE) usa o sentido de rotação oposto ao que o d3-geo
@@ -10,7 +10,7 @@ function inverterAnel(anel) {
   return [...anel].reverse()
 }
 
-function normalizarGeometria(geometry) {
+export function normalizarGeometria(geometry) {
   if (geometry.type === 'Polygon') {
     return { ...geometry, coordinates: geometry.coordinates.map(inverterAnel) }
   }
@@ -21,6 +21,15 @@ function normalizarGeometria(geometry) {
     }
   }
   return geometry
+}
+
+// Variante defensiva para malhas baixadas em tempo de execução (API de Malhas
+// do IBGE): só inverte se a feição, como veio, cobrir mais de um hemisfério —
+// sinal inequívoco de anel no sentido oposto ao do d3-geo. Assim, se o IBGE um
+// dia passar a publicar no sentido RFC 7946, nada quebra.
+export function normalizarFeature(feature) {
+  if (geoArea(feature) <= 2 * Math.PI) return feature
+  return { ...feature, geometry: normalizarGeometria(feature.geometry) }
 }
 
 export const brasilGeo = {
@@ -98,4 +107,26 @@ export function fotoCabeNaUf(uf) {
 // Ponto para centralizar a foto DENTRO do estado: o centróide projetado.
 export function centroDaFotoNaUf(uf) {
   return CENTROIDE_POR_UF.get(uf) ?? { x: MAPA_LARGURA / 2, y: MAPA_ALTURA / 2 }
+}
+
+// Folga (em unidades do viewBox) entre o estado ampliado e a borda do mapa:
+// deixa espaço para o botão "Voltar" e o do presidente, que flutuam por cima.
+const MARGEM_ZOOM = 70
+
+// Zoom do drilldown: a mesma projeção do Brasil inteiro, só que ampliada e
+// transladada para o estado ocupar o mapa. Reaproveitar a projeção (em vez de
+// ajustar uma nova por estado) mantém municípios e contorno estadual
+// perfeitamente alinhados e permite animar a transição com um único transform.
+export function transformParaUf(uf) {
+  const bounds = BOUNDS_POR_UF.get(uf)
+  if (!bounds) return { k: 1, tx: 0, ty: 0 }
+  const largura = Math.max(bounds.x1 - bounds.x0, 1)
+  const altura = Math.max(bounds.y1 - bounds.y0, 1)
+  const k = Math.min(
+    (MAPA_LARGURA - 2 * MARGEM_ZOOM) / largura,
+    (MAPA_ALTURA - 2 * MARGEM_ZOOM) / altura,
+  )
+  const cx = (bounds.x0 + bounds.x1) / 2
+  const cy = (bounds.y0 + bounds.y1) / 2
+  return { k, tx: MAPA_LARGURA / 2 - k * cx, ty: MAPA_ALTURA / 2 - k * cy }
 }

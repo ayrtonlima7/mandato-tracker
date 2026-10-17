@@ -23,6 +23,142 @@
   transform: translate(3px, 4px);
 }
 
+/* Drilldown: um único transform (translate + scale) no grupo inteiro. O traço
+   não escala junto (non-scaling-stroke), senão um estado ampliado 60x (DF)
+   viraria um borrão de contorno. */
+.brazil-map__zoom {
+  transition: transform 0.45s cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+
+.brazil-map__zoom path {
+  vector-effect: non-scaling-stroke;
+}
+
+/* A sombra é um deslocamento em unidades do mapa: ampliada, ficaria enorme.
+   Some ao entrar; ao sair, só volta depois que o zoom terminou. */
+.brazil-map__sombra {
+  transition: opacity 0.2s ease 0.4s;
+}
+
+.brazil-map--drilldown .brazil-map__sombra {
+  opacity: 0;
+  transition: none;
+}
+
+.brazil-map__estado--contexto {
+  opacity: 0.35;
+  pointer-events: none;
+}
+
+.brazil-map--drilldown .brazil-map__estado {
+  cursor: default;
+}
+
+.brazil-map__municipio {
+  stroke: rgba(var(--cor-azul-rgb), 0.35);
+  stroke-width: 0.6;
+  cursor: pointer;
+}
+
+.brazil-map__municipio-realce {
+  stroke: var(--cor-azul);
+  stroke-width: 1.5;
+}
+
+.brazil-map__municipio-realce--selecionado {
+  fill: rgba(var(--cor-destaque-rgb), 0.18);
+  stroke: var(--cor-destaque);
+  stroke-width: 2.5;
+}
+
+.brazil-map__sr {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.brazil-map__drilldown-topo {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  max-width: calc(100% - 140px);
+}
+
+.brazil-map__voltar,
+.brazil-map__aviso button,
+.brazil-map__abrir-lista {
+  background: var(--cor-papel-card);
+  border: 1.5px solid rgba(var(--cor-azul-rgb), 0.4);
+  border-radius: 999px;
+  box-shadow: 2px 3px 0 rgba(var(--cor-sombra-rgb), 0.16);
+  color: var(--cor-azul);
+  font-size: 0.78rem;
+  font-weight: 700;
+  padding: 6px 12px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.brazil-map__voltar:hover,
+.brazil-map__aviso button:hover,
+.brazil-map__abrir-lista:hover {
+  transform: translateY(-1px);
+}
+
+.brazil-map__voltar:focus-visible,
+.brazil-map__aviso button:focus-visible,
+.brazil-map__abrir-lista:focus-visible {
+  outline: 2px solid var(--cor-azul);
+  outline-offset: 2px;
+}
+
+.brazil-map__drilldown-titulo {
+  font-family: 'Source Serif 4', Georgia, serif;
+  font-weight: 700;
+  font-size: 1.05rem;
+  color: var(--cor-azul);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.brazil-map__aviso {
+  position: absolute;
+  top: 56px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--cor-papel-card);
+  border: 1.5px solid rgba(var(--cor-azul-rgb), 0.3);
+  border-radius: 10px 12px 9px 11px;
+  box-shadow: 3px 4px 0 rgba(var(--cor-sombra-rgb), 0.16);
+  padding: 8px 12px;
+  font-size: 0.78rem;
+  color: var(--cor-marrom);
+  z-index: 4;
+  max-width: calc(100% - 24px);
+}
+
+.brazil-map__aviso--erro {
+  border-color: rgba(var(--cor-destaque-rgb), 0.5);
+  color: var(--cor-destaque);
+}
+
+.brazil-map__abrir-lista {
+  margin-left: 4px;
+}
+
 .brazil-map__estado {
   stroke: rgba(var(--cor-azul-rgb), 0.45);
   stroke-width: 1.25;
@@ -221,5 +357,21 @@
     font-size: 0.62rem;
     padding: 6px 9px;
     gap: 5px 9px;
+  }
+
+  .brazil-map--drilldown .brazil-map__legenda {
+    right: 12px;
+    align-items: center;
+  }
+
+  .brazil-map__drilldown-topo {
+    max-width: calc(100% - 110px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .brazil-map__zoom,
+  .brazil-map__sombra {
+    transition: none;
   }
 }

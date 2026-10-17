@@ -1,5 +1,6 @@
 // Valida a integridade dos dados reais (presidente + governadores + propostas + notícias).
 // Roda no Node, sem navegador, antes do build.
+import { existsSync, readFileSync } from 'node:fs'
 import { mandateTree, STATUS } from '../src/data/mandateData.js'
 
 const erros = []
@@ -59,6 +60,35 @@ for (const p of politicos) {
   }
 }
 
+// 7) Prefeitos eleitos em 2024 (public/data/prefeitos-2024, gerado por fetch-prefeitos.js)
+const PREFEITOS_DIR = new URL('../public/data/prefeitos-2024/', import.meta.url)
+let totalPrefeitos = 0
+if (existsSync(PREFEITOS_DIR)) {
+  for (const uf of UFS) {
+    if (uf === 'DF') continue // sem municípios nem prefeito
+    const arquivo = new URL(`${uf}.json`, PREFEITOS_DIR)
+    if (!existsSync(arquivo)) {
+      erros.push(`Prefeitos: falta ${uf}.json.`)
+      continue
+    }
+    const dados = JSON.parse(readFileSync(arquivo, 'utf8'))
+    assert(dados.uf === uf, `Prefeitos ${uf}.json: campo uf = "${dados.uf}".`)
+    assert(dados.fonte?.url && dados.fonte?.dadosGeradosEm, `Prefeitos ${uf}.json: fonte/data dos dados ausente.`)
+    const codigos = [...Object.keys(dados.municipios ?? {}), ...(dados.semEleito ?? [])]
+    assert(codigos.length > 0, `Prefeitos ${uf}.json: nenhum município.`)
+    assert(new Set(codigos).size === codigos.length, `Prefeitos ${uf}.json: município repetido.`)
+    // Todo código IBGE de uma UF começa com os mesmos 2 dígitos (código da UF).
+    const prefixos = new Set(codigos.map((c) => c.slice(0, 2)))
+    assert(prefixos.size === 1, `Prefeitos ${uf}.json: códigos IBGE de mais de uma UF (${[...prefixos]}).`)
+    for (const c of codigos) assert(/^\d{7}$/.test(c), `Prefeitos ${uf}.json: código IBGE inválido "${c}".`)
+    for (const [c, p] of Object.entries(dados.municipios ?? {})) {
+      assert(p.nomeUrna, `Prefeitos ${uf}.json: ${c} sem nome de urna.`)
+      assert(p.turno === 1 || p.turno === 2, `Prefeitos ${uf}.json: ${c} com turno inválido.`)
+    }
+    totalPrefeitos += Object.keys(dados.municipios ?? {}).length
+  }
+}
+
 if (erros.length) {
   console.error(`❌ ${erros.length} erro(s):`)
   for (const e of erros) console.error('  - ' + e)
@@ -74,5 +104,6 @@ const totalNoticias = politicos.reduce(
   0,
 )
 console.log(
-  `✅ Dados válidos: 1 presidente + ${governadores.length} governadores | ${totalPropostas} propostas | ${totalNoticias} notícias.`,
+  `✅ Dados válidos: 1 presidente + ${governadores.length} governadores | ${totalPropostas} propostas | ${totalNoticias} notícias` +
+    (totalPrefeitos ? ` | ${totalPrefeitos} prefeitos eleitos em 2024.` : '.'),
 )

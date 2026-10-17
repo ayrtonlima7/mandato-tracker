@@ -1,4 +1,5 @@
 import Avatar from '../Avatar/Avatar.jsx'
+import ListaMunicipios from './ListaMunicipios.jsx'
 import './StateSidebar.css'
 
 export default function StateSidebar({
@@ -8,18 +9,34 @@ export default function StateSidebar({
   onSelecionarPolitico,
   onClose,
   saindo = false,
+  municipios,
+  municipioSelecionado,
+  onSelecionarMunicipio,
+  onRecarregarMunicipios,
+  onVerMapa,
 }) {
   return (
     <aside
       className={`state-sidebar ${saindo ? 'state-sidebar--saindo' : ''}`}
       role="dialog"
-      aria-label={`Políticos de ${nomeEstado}`}
+      aria-label={`Políticos e municípios de ${nomeEstado}`}
     >
-      <button type="button" className="state-sidebar__fechar" onClick={onClose} aria-label="Fechar">
+      <button
+        type="button"
+        className="state-sidebar__fechar"
+        onClick={onClose}
+        aria-label="Fechar e voltar ao mapa do Brasil"
+      >
         ×
       </button>
 
       <h2 className="state-sidebar__titulo">{nomeEstado}</h2>
+
+      {onVerMapa && (
+        <button type="button" className="state-sidebar__botao state-sidebar__ver-mapa" onClick={onVerMapa}>
+          Ver mapa dos municípios
+        </button>
+      )}
 
       {grupos.length === 0 ? (
         <p className="state-sidebar__vazio">Nenhum político cadastrado para este estado ainda.</p>
@@ -51,6 +68,16 @@ export default function StateSidebar({
             </ul>
           </section>
         ))
+      )}
+
+      {municipios && (
+        <ListaMunicipios
+          key={municipios.uf}
+          municipios={municipios}
+          municipioSelecionado={municipioSelecionado}
+          onSelecionar={onSelecionarMunicipio}
+          onRecarregar={onRecarregarMunicipios}
+        />
       )}
     </aside>
   )

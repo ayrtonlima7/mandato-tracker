@@ -1,0 +1,101 @@
+.municipio-sidebar__secao {
+  background: rgba(var(--cor-azul-rgb), 0.05);
+  border: 1px solid rgba(var(--cor-azul-rgb), 0.18);
+  border-radius: 10px 12px 11px 13px;
+  padding: 12px 14px;
+  margin-bottom: 18px;
+}
+
+.municipio-sidebar__prefeito {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.municipio-sidebar__prefeito-nome {
+  display: block;
+  font-family: 'Source Serif 4', Georgia, serif;
+  font-size: 1.05rem;
+  color: var(--cor-azul);
+}
+
+.municipio-sidebar__nome-civil {
+  display: block;
+  font-size: 0.72rem;
+  color: var(--cor-cinza);
+  margin-top: 2px;
+}
+
+.municipio-sidebar__dados {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 4px 10px;
+  margin: 10px 0 0;
+  font-size: 0.78rem;
+}
+
+.municipio-sidebar__dados dt {
+  color: var(--cor-cinza);
+}
+
+.municipio-sidebar__dados dd {
+  margin: 0;
+  color: var(--cor-marrom);
+  font-weight: 600;
+}
+
+.municipio-sidebar__aviso {
+  font-size: 0.82rem;
+  color: var(--cor-marrom);
+  margin: 0;
+}
+
+.municipio-sidebar__aviso--erro {
+  color: var(--cor-destaque);
+}
+
+.municipio-sidebar__aviso--erro p {
+  margin: 0 0 8px;
+}
+
+.municipio-sidebar__botao {
+  background: var(--cor-papel-card);
+  border: 1.5px solid rgba(var(--cor-azul-rgb), 0.4);
+  border-radius: 999px;
+  color: var(--cor-azul);
+  font-size: 0.76rem;
+  font-weight: 700;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.municipio-sidebar__botao:focus-visible {
+  outline: 2px solid var(--cor-azul);
+  outline-offset: 2px;
+}
+
+.municipio-sidebar__ressalva {
+  font-size: 0.7rem;
+  color: var(--cor-cinza);
+  margin: 12px 0 0;
+  border-top: 1px dashed rgba(var(--cor-azul-rgb), 0.2);
+  padding-top: 8px;
+}
+
+.municipio-sidebar__fontes {
+  font-size: 0.72rem;
+  color: var(--cor-marrom);
+}
+
+.municipio-sidebar__fontes ul {
+  margin: 0;
+  padding-left: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.municipio-sidebar__fontes a {
+  color: var(--cor-azul);
+  font-weight: 600;
+}
