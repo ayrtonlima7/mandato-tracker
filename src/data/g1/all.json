@@ -11,6 +11,7 @@
     },
     "g1Url": "https://g1.globo.com/politica/noticia/2026/07/22/promessas-de-lula-governo-aprovou-reforma-tributaria-e-isencao-do-ir-e-nao-recriou-ministerio-da-seguranca.ghtml",
     "newsQuery": "Lula presidente",
+    "wikidata": "Q37181",
     "proposals": [
       {
         "title": "Aumentar verba da merenda escolar",
@@ -229,7 +230,7 @@
         "description": "Lula prometeu revogar por decreto, no primeiro dia de governo, os sigilos de até 100 anos impostos pela gestão anterior. O presidente assinou um despacho determinando a reavaliação de tais sigilos pela Controladoria-Geral da União (CGU). A CGU revisou dezenas de casos com deferimento de acesso a registros do Palácio da Alvorada e outros documentos, mas alguns dados permaneceram condicionados a investigações em andamento de eventuais irregularidades. Por outro lado, o próprio governo Lula impôs sigilo de 100 anos a informações que vão desde a agenda da primeira-dama, Janja da Silva, a comunicações diplomáticas sobre o ex-jogador Robinho, condenado e preso por estupro."
       }
     ],
-    "scrapedAt": "2026-10-14T18:29:04.553Z"
+    "scrapedAt": "2026-10-20T05:47:49.753Z"
   },
   {
     "id": "gladson-cameli",
@@ -243,6 +244,7 @@
     },
     "g1Url": "https://g1.globo.com/ac/acre/noticia/2026/07/22/promessas-de-gladson-cameli-e-mailza-assis-gestores-do-acre-fizeram-concurso-para-policia-penal-e-revitalizaram-biblioteca-da-floresta-meta-de-criar-delegacias-da-mulher-nao-foi-cumprida.ghtml",
     "newsQuery": "Gladson Cameli governador Acre",
+    "wikidata": "Q10290029",
     "proposals": [
       {
         "title": "Criar programa de alfabetização com fornecimento de auxílio para transporte e alimentação",
@@ -461,7 +463,7 @@
         "description": "Há também no plano de governo a recuperação da Área de Proteção Ambiental Amapá, contudo, a promessa não saiu do papel. O que diz o governo: A Secretaria de Estado de Meio Ambiente (Sema) discute a implementação do Programa de Resiliência Socioambiental nas APAs Lago do Amapá e Igarapé São Francisco, em Rio Branco, com ações de conservação ambiental, segurança hídrica, restauração florestal, bioeconomia e participação comunitária. O programa prevê recuperação de áreas degradadas, proteção de nascentes, reflorestamento, apoio a sistemas agroflorestais, implantação de sistemas de tratamento de água, fossas sépticas e monitoramento hidrometeorológico. Não há ainda previsão para implementação. (Voltar ao índice) Apuração: Aline Nascimento e Renato MenezesEdição: Vitor Januário e Felipe TurioniDesign: Kayan Albertin Coordenação: Felipe Turioni, José Lopes e Megui Donadoni"
       }
     ],
-    "scrapedAt": "2026-10-14T18:29:06.203Z"
+    "scrapedAt": "2026-10-20T05:47:51.871Z"
   },
   {
     "id": "paulo-dantas",
@@ -475,6 +477,7 @@
     },
     "g1Url": "https://g1.globo.com/al/alagoas/noticia/2026/07/22/promessas-de-paulo-dantas-governador-de-alagoas.ghtml",
     "newsQuery": "Paulo Dantas governador Alagoas",
+    "wikidata": "Q58735514",
     "proposals": [
       {
         "title": "Concluir o Hospital Regional do Médio Sertão em Palmeira dos Índios",
@@ -723,7 +726,7 @@
         "description": "Em 2022, os mestres do Patrimônio Vivo recebiam uma bolsa do estado no valor de R$ 1.818 para garantir a preservação e o fortalecimento da história cultural. Para se candidatar a uma vaga, quando há disponibilidade, é preciso se inscrever junto à Secult. Entre outras regras, é exigido que o candidato more há mais 20 anos em Alagoas e tenha participação em atividades culturais pelo mesmo período. Foi publicada a reformulação da Lei em 10 de setembro de 2025, que fixou em 50 o limite para novas inscrições ativas que, segundo o governo, preserva o equilíbrio do programa e garante a sua sustentabilidade. De acordo com assessoria da Secult, os trabalhadores recebem uma bolsa mensal de um salário mínimo e meio. Voltar ao índice Apuração: Rebecca MouraEdição: Bianca Muniz e Felipe TurioniDesign: Kayan Albertin Coordenação: Felipe Turioni, José Lopes e Megui Donadoni"
       }
     ],
-    "scrapedAt": "2026-10-14T18:29:07.801Z"
+    "scrapedAt": "2026-10-20T05:47:54.000Z"
   },
   {
     "id": "clecio-luis",
@@ -737,6 +740,7 @@
     },
     "g1Url": "https://g1.globo.com/ap/amapa/noticia/2026/07/22/promessas-de-clecio-luis-governador-do-amapa.ghtml",
     "newsQuery": "Clécio Luís governador Amapá",
+    "wikidata": "Q16337273",
     "proposals": [
       {
         "title": "Implantar um CAPS de Porte 3 para saúde mental",
@@ -890,13 +894,13 @@
       },
       {
         "title": "Construir 1.500 unidades habitacionais no Residencial Miracema",
-        "theme": "habitacao-mob",
+        "theme": "habitacao",
         "status": "em_parte",
         "description": "Em 2023, Clécio Luís entregou 1.000 moradias no Residencial Miracema, na Zona Norte de Macapá, às margens da Rodovia Norte-Sul. As outras 500 unidades foram entregues em dezembro de 2022, ainda no governo do ex-governador Waldez Góes. O que diz o governo: O governo alega que cumpriu a promessa, porque construiu mil unidades habitacionais, entre casas e apartamentos, no Conjunto Habitacional Miracema e que a etapa II, com 500 unidades, foi inaugurada quando Clécio Luís já estava eleito e o Plano de Governo já havia sido apresentado no Tribunal Regional Eleitoral para o pleito eleitoral de 2022."
       },
       {
         "title": "Realizar a Expofeira Agropecuária do estado e a Expofeira Agropesc do município do Amapá",
-        "theme": "habitacao-mob",
+        "theme": "habitacao",
         "status": "em_parte",
         "description": "Clécio Luís realizou em 2023 a Expofeira Agropecuária do Estado em Macapá, após quase 10 anos sem o evento no Amapá. A Agropesc do município de Amapá foi realizada no mesmo ano."
       },
@@ -943,7 +947,7 @@
         "description": "O governador Clécio Luís cumpriu o compromisso principalmente pelas Leis nº 3.149/2024, nº 3.152/2024 e nº 3.395/2025, complementadas pela Lei nº 3.150/2024, que juntas formam o novo conjunto de leis e regras. Créditos"
       }
     ],
-    "scrapedAt": "2026-10-14T18:29:09.719Z"
+    "scrapedAt": "2026-10-20T05:47:56.155Z"
   },
   {
     "id": "wilson-lima",
@@ -957,6 +961,7 @@
     },
     "g1Url": "https://g1.globo.com/am/amazonas/noticia/2026/07/22/promessas-de-wilson-lima-ex-governador-do-amazonas.ghtml",
     "newsQuery": "Wilson Lima governador Amazonas",
+    "wikidata": "Q58047696",
     "proposals": [
       {
         "title": "Ampliar serviço de transplantes",
@@ -1127,7 +1132,7 @@
         "description": "O estado promoveu campanhas e ações para atrair turistas por meio da participação em feiras nacionais e internacionais, realização de viagens de imprensa e viagens de familiarização, além de iniciativas de qualificação profissional e capacitação em diversos municípios. Apuração: Juan Gabriel e Sabrina RochaEdição: Bianca Muniz e Felipe TurioniDesign: Kayan Albertin Coordenação: Felipe Turioni, José Lopes e Megui Donadoni"
       }
     ],
-    "scrapedAt": "2026-10-14T18:29:11.287Z"
+    "scrapedAt": "2026-10-20T05:47:58.317Z"
   },
   {
     "id": "jeronimo-rodrigues",
@@ -1141,6 +1146,7 @@
     },
     "g1Url": "https://g1.globo.com/ba/bahia/noticia/2026/07/22/promessas-de-jeronimo-rodrigues-governador-da-bahia.ghtml",
     "newsQuery": "Jerônimo Rodrigues governador Bahia",
+    "wikidata": "Q115058424",
     "proposals": [
       {
         "title": "Ampliar a capacidade da vigilância laboratorial e a cobertura diagnóstica",
@@ -1528,13 +1534,13 @@
       },
       {
         "title": "Instituir Programa de Regularização Fundiária de imóveis urbanos.",
-        "theme": "habitacao-mob",
+        "theme": "habitacao",
         "status": "cumpriu",
         "description": "A promessa foi cumprida através da execução de dois projetos: o Regularização Fundiária Urbana de Interesse Social (Reurb-S) e o Quilombo Legal. O objetivo do Reurb-S é regulamentar áreas urbanas (bairros e assentamentos) ocupadas por pessoas de baixa renda e situação de vulnerabilidade. Já o Quilombo Legal assegura direitos territoriais de comunidades quilombolas com titulação coletiva e na regularização ambiental de territórios tradicionais. Em junho de 2024 foi executada a primeira etapa do projeto Quilombo Legal, quando foram entregues 1.142 Cadastros Estaduais Florestais de Imóveis Rurais (Cefirs) a seis comunidades quilombolas."
       },
       {
         "title": "Emitir 10 mil novos títulos individuais de regularização fundiária, 100 títulos coletivos e 40 títulos para áreas coletivas de fundo e fecho de pasto.",
-        "theme": "habitacao-mob",
+        "theme": "habitacao",
         "status": "em_parte",
         "description": "A promessa foi cumprida parcialmente. Embora o governo tenha emitido títulos individuais de regularização fundiária, a quantidade é menor do que o prometido - foram cerca de 2 mil títulos até maio deste ano. O que diz o governo: Afirma que até maio de 2026 foram entregues mais de 2 mil títulos individuais e que o número chegará até 5 mil ao final de 2026."
       },
@@ -1695,7 +1701,7 @@
         "description": "A ponte Belmonte–Canavieiras ainda não foi construída. Existe um projeto, mas as obras não foram iniciadas. O que diz o governo: Afirma que o projeto básico do equipamento e do trecho da BA-001 entre Belmonte e Canavieiras foi concluído. Apuração: Ailma Teixeira, Jade Coelho e João SouzaEdição: Bianca Muniz e Felipe TurioniDesign: Kayan Albertin Coordenação: Felipe Turioni, José Lopes e Megui Donadoni"
       }
     ],
-    "scrapedAt": "2026-10-14T18:29:12.814Z"
+    "scrapedAt": "2026-10-20T05:48:00.419Z"
   },
   {
     "id": "elmano-de-freitas",
@@ -1709,6 +1715,7 @@
     },
     "g1Url": "https://g1.globo.com/ce/ceara/noticia/2026/07/22/promessas-de-elmano-de-freitas-governador-do-ceara.ghtml",
     "newsQuery": "Elmano de Freitas governador Ceará",
+    "wikidata": "Q18246475",
     "proposals": [
       {
         "title": "Contratar aprovados no concurso da Funsaúde",
@@ -1790,13 +1797,13 @@
       },
       {
         "title": "Cheque Moradia de R$ 20 mil para ajudar a construir casas por meio de mutirões",
-        "theme": "habitacao-mob",
+        "theme": "habitacao",
         "status": "cumpriu",
         "description": "O Cheque Moradia, quando anunciado pela gestão passada, estava dentro do Programa Moradia Ceará, lançado em 2021, em um contexto de contingenciamento do Minha Casa, Minha Vida pelo Governo Federal. Com isso, o subsídio seria destinado à aquisição de materiais de construção. Com o retorno dos investimentos no programa federal a partir de 2023, o governo do Ceará redirecionou a iniciativa para o Entrada Moradia, com o subsídio de R$ 20 mil para a entrada no imóvel financiado dentro das faixas 1 e 2 do Minha Casa, Minha Vida. O Entrada Moradia foi lançado em 2024. Desde então, 9.029 contratos foram registrados na Caixa Econômica Federal com o subsídio do programa."
       },
       {
         "title": "Construir 40 mil unidades habitacionais",
-        "theme": "habitacao-mob",
+        "theme": "habitacao",
         "status": "nao_cumpriu",
         "description": "Unidades habitacionais foram construídas e entregues, mas o número não chega a 40 mil. Entre 2023 e 2024, foram entregues 2.592 unidades habitacionais no Residencial Cidade Jardim, por meio do Programa Minha Casa Minha Vida. Outras 9.029 famílias assinaram contratos pelo Entrada Moradia, que contempla as faixas 1 e 2 do Minha Casa Minha Vida. Atualmente, há 1.542 unidades habitacionais em obras, com entrega prevista em 2026. Outras unidades, no total de 2.776, têm intervenções previstas para começar em 2027. O governo ainda tem outras unidades em licitação (1.088 pelo programa federal Pró-Moradia), quatro projetos em avaliação pela Caixa conforme seleção do Minha Casa Minha Vida 2025 (736 unidades em Caucaia e Maracanaú) e 952 unidades a serem construídas em três residenciais (Fortaleza e Caucaia). O que diz o governo: Conforme dados da assessoria do governo, foram contempladas 11,6 mil famílias até o momento, somando as novas unidades entregues pelo Minha Casa Minha Vida e os contratos assinados pelo Entrada Moradia. Voltar ao índice"
       },
@@ -1813,7 +1820,7 @@
         "description": "O governo não conseguiu firmar uma parceria com o setor privado para continuar as obras do Acquario. Em vez disso, a administração estadual doou o terreno e o esqueleto da obra para a Universidade Federal do Ceará (UFC) construir, no local, um novo campus. O governo afirma que o compromisso central “era dar uma destinação útil, sustentável e definitiva ao espaço, interrompendo anos de paralisação”, por isso “a solução mais vantajosa e de maior impacto social para o Estado consolidou-se por meio de uma parceria com o setor público de ensino superior”. O que diz o governo: O Acquario não será construído, e o novo prédio vai se tornar parte da universidade. Em nota, a assessoria do governo afirmou que, ao longo dos anos, houve avaliações e manifestações de interesse da iniciativa privada para continuidade do projeto original. Com a articulação com a UFC, o governo diz ter resolvido o passivo da obra, o que potencializa a Praia de Iracema como um polo de ciência, tecnologia, turismo acadêmico e preservação ambiental, garantindo o retorno social e econômico do equipamento para a população cearense. *Créditos"
       }
     ],
-    "scrapedAt": "2026-10-14T18:29:14.313Z"
+    "scrapedAt": "2026-10-20T05:48:02.483Z"
   },
   {
     "id": "ibaneis-rocha",
@@ -1827,6 +1834,7 @@
     },
     "g1Url": "https://g1.globo.com/df/distrito-federal/noticia/2026/07/22/promessas-de-ibaneis-e-celina-governador-e-vice-do-distrito-federal.ghtml",
     "newsQuery": "Ibaneis Rocha governador Distrito Federal",
+    "wikidata": "Q58053056",
     "proposals": [
       {
         "title": "Aumentar número de escolas militarizadas",
@@ -1908,24 +1916,24 @@
       },
       {
         "title": "Criar novos bairros",
-        "theme": "habitacao-mob",
+        "theme": "habitacao",
         "status": "em_parte",
         "description": "A promessa de criar novos bairros no Distrito Federal foi cumprida em parte. No programa de governo, Ibaneis Rocha citou dez áreas para expansão urbana ou criação de novos bairros, incluindo a Vargem da Bênção (Recanto das Emas), a região dos Lagos (Sobradinho) e a expansão do Jardins Mangueiral, no Jardim Botânico. Dos dez prometidos, só três avançaram efetivamente. As expansões do Tororó e do Itapoã e o Setor Habitacional Dom Bosco, por exemplo, seguem pendentes. O planejamento urbanístico do Setor Habitacional Jóquei Clube foi aprovado, assim como o parcelamento do solo da expansão da QNR6 em Ceilândia. Houve avanços também na construção do Taquari Etapa 2, um projeto habitacional conduzido pela Terracap. O governo sancionou o novo Plano Diretor de Ordenamento Territorial (Pdot), que orienta a expansão urbana da capital – mas ainda não gerou efeitos práticos nas outras áreas prometidas."
       },
       {
         "title": "Fazer regularização fundiária do Assentamento 26 de Setembro",
-        "theme": "habitacao-mob",
+        "theme": "habitacao",
         "status": "nao_cumpriu",
         "description": "A promessa, feita em entrevista ao podcast do g1, de regularizar a região da 26 de Setembro não foi cumprida. Embora a Câmara Legislativa do Distrito Federal (CLDF) tenha aprovado a criação da Região Administrativa da 26 de Setembro em 30 de junho de 2026 e a governadora em exercício, Celina Leão (PP), tenha sancionado a lei em 3 de julho, oficializando a nova RA, a medida ocorreu após o recorte temporal da análise, que considera apenas os três anos e meio do mandato de Ibaneis Rocha."
       },
       {
         "title": "Construir 40 mil novas moradias e regularizar 150 mil unidades habitacionais",
-        "theme": "habitacao-mob",
+        "theme": "habitacao",
         "status": "nao_cumpriu",
         "description": "A promessa de construir 40 mil novas moradias e regularizar 150 mil unidades habitacionais não foi cumprida. Os números foram citados no programa de governo de Ibaneis, que pretendia beneficiar 525 mil moradores do DF com esses imóveis. O que diz o governo: Segundo a Companhia de Desenvolvimento Habitacional (Codhab) e a Secretaria de Desenvolvimento Urbano e Habitação, o governo entregou 13,8 mil novas moradias desde 2019 (ou seja, nos dois mandatos de Ibaneis) e regularizou 8,1 mil desde 2023."
       }
     ],
-    "scrapedAt": "2026-10-14T18:29:15.859Z"
+    "scrapedAt": "2026-10-20T05:48:04.586Z"
   },
   {
     "id": "renato-casagrande",
@@ -1939,6 +1947,7 @@
     },
     "g1Url": "https://g1.globo.com/es/espirito-santo/noticia/2026/07/22/promessas-de-renato-casagrande-e-ricardo-ferraco-governador-e-vice-do-espirito-santo.ghtml",
     "newsQuery": "Renato Casagrande governador Espírito Santo",
+    "wikidata": "Q945907",
     "proposals": [
       {
         "title": "Inaugurar o Hospital Geral de Cariacica",
@@ -2019,7 +2028,7 @@
         "description": "Em entrevista ao Gazeta Meio Dia em agosto de 2022, Casagrande prometeu: \"Nós vamos alcançar até 2026 todo o saneamento da Grande Vitória. A baía de Vitória, de Vila Velha e de Cariacica não terá mais, até 2026, esgoto doméstico na baía de Vitória\". De acordo com dados da Agência Nacional de Águas, até 2022, o percentual de esgoto não tratado na Grande Vitória era de 33,5% em Vitória, 36,66% em Vila Velha, 56,95% na Serra e 74,93% em Cariacica (considerando os percentuais com e sem coleta que não recebem tratamento). Houve ampliação da cobertura de esgotamento sanitário em municípios da Grande Vitória, com universalização em Vitória e Serra. No entanto, Vila Velha e Cariacica ainda não atingiram os índices prometidos, e não há comprovação de que o lançamento de esgoto doméstico na Baía de Vitória tenha sido completamente eliminado até o momento. O que diz o governo: segundo o governo do estado, a universalização dos serviços de saneamento no Espírito Santo já está contratada, especialmente por meio das parcerias público-privadas. O avanço dessas ações contribui diretamente para a redução progressiva do lançamento de esgoto sem tratamento nos corpos hídricos da Região Metropolitana, incluindo a Baía de Vitória."
       }
     ],
-    "scrapedAt": "2026-10-14T18:29:17.490Z"
+    "scrapedAt": "2026-10-20T05:48:06.519Z"
   },
   {
     "id": "ronaldo-caiado",
@@ -2033,6 +2042,7 @@
     },
     "g1Url": "https://g1.globo.com/go/goias/noticia/2026/07/22/promessas-de-ronaldo-caiado-e-daniel-vilela-governador-e-vice-de-goias.ghtml",
     "newsQuery": "Ronaldo Caiado governador Goiás",
+    "wikidata": "Q10364348",
     "proposals": [
       {
         "title": "Oferecer cursos profissionalizantes em escolas de Ensino Médio",
@@ -2167,7 +2177,7 @@
         "description": "A promessa de criar uma lei para instituir o Sistema Estadual de Turismo não foi cumprida. No plano de governo, a proposta era criar um sistema que incluísse fundo próprio, governança autônoma, fortalecimento do Conselho Estadual e dos Fóruns Regionais de Turismo, além da participação efetiva do setor produtivo privado. Até o período analisado, o governo não enviou à Assembleia Legislativa nenhum projeto de lei sobre o tema. O próprio Plano Estadual do Turismo, publicado pelo governo em julho de 2025, aponta a ausência do Sistema Estadual de Turismo como uma das fragilidades do setor em Goiás. O que diz o governo: Informou que a proposta também não está em elaboração. Apuração: Rafaella BarrosEdição: Megui Donadoni e Victória CócoloDesign: Kayan Albertin Coordenação: Felipe Turioni, José Lopes e Megui Donadoni"
       }
     ],
-    "scrapedAt": "2026-10-14T18:29:19.013Z"
+    "scrapedAt": "2026-10-20T05:48:08.641Z"
   },
   {
     "id": "carlos-brandao",
@@ -2181,6 +2191,7 @@
     },
     "g1Url": "https://g1.globo.com/ma/maranhao/noticia/2026/07/22/promessas-de-carlos-brandao-governador-do-maranhao.ghtml",
     "newsQuery": "Carlos Brandão governador Maranhão",
+    "wikidata": "Q18707872",
     "proposals": [
       {
         "title": "Ampliar a rede estadual de policlínicas",
@@ -2472,13 +2483,13 @@
       },
       {
         "title": "Implantar o conjunto habitacional para servidores públicos",
-        "theme": "habitacao-mob",
+        "theme": "habitacao",
         "status": "nao_cumpriu",
         "description": "O estado não implementou o conjunto habitacional para servidores públicos. Inicialmente previsto para a área da antiga EXPOEMA, em São Luís, o empreendimento foi alterado após estudos técnicos realizados em 2023 e transferido para uma área no bairro Angelim, onde houve readaptação do projeto arquitetônico e novas negociações com instituições parceiras. No entanto, até o momento, nenhum conjunto habitacional para servidores foi construído, e a área inicialmente prevista manteve outra destinação. A promessa consta no plano de governo. O que diz o governo: a gestão Brandão considera que atendeu a promessa em parte porque o projeto foi alterado de local e readaptado."
       },
       {
         "title": "Criar fundo estadual de habitação de interesse social",
-        "theme": "habitacao-mob",
+        "theme": "habitacao",
         "status": "nao_cumpriu",
         "description": "O estado não criou o Fundo Estadual de Habitação e Interesse Social, que já existia desde 2008, quando foi instituído por Lei. Embora o fundo esteja previsto no orçamento atual, as principais ações habitacionais da gestão têm se concentrado em regularização fundiária, com entrega de títulos de propriedade, e no apoio à retomada de conjuntos habitacionais pelo programa Minha Casa, Minha Vida, com recursos federais. Atualmente, o governo informa que o fundo possui cerca de R$ 34 mil em recursos. A promessa consta no plano de governo. O que diz o governo: estado confirma que o Fundo Estadual de Habitação de Interesse Social foi oficialmente criado pela Lei nº 8.758, de 25 de março de 2008, mas alega ter cumprido a promessa. \"É importante ressaltar que o FHIS faz parte de um ecossistema maior de investimentos de habitação do Governo do Estado, que soma R$ 83.587.000 em 2026.\""
       },
@@ -2591,7 +2602,7 @@
         "description": "O estado instituiu incentivo fiscal para contribuintes do ICMS que apoiem financeiramente projetos turísticos aprovados pela Secretaria de Estado do Turismo (SETUR), criando um mecanismo de estímulo ao investimento no setor. A promessa consta no plano de governo. Apuração: Cíntia AraújoEdição: Arthur Stabile e Felipe TurioniDesign: Kayan Albertin Coordenação: Felipe Turioni, José Lopes e Megui Donadoni"
       }
     ],
-    "scrapedAt": "2026-10-14T18:29:20.563Z"
+    "scrapedAt": "2026-10-20T05:48:10.757Z"
   },
   {
     "id": "mauro-mendes",
@@ -2605,6 +2616,7 @@
     },
     "g1Url": "https://g1.globo.com/mt/mato-grosso/noticia/2026/07/22/promessas-de-mauro-mendes-e-otaviano-pivetta-governador-e-vice-de-mt-ampliaram-ensino-integral-e-programa-de-cirurgias-eletivas-meta-de-implantacao-do-brt-nao-foi-cumprida.ghtml",
     "newsQuery": "Mauro Mendes governador Mato Grosso",
+    "wikidata": "Q7724122",
     "proposals": [
       {
         "title": "Reformar e ampliar a Escola de Saúde Pública",
@@ -2865,7 +2877,7 @@
         "description": "A promessa foi cumprida em parte. Duas orlas foram entregues: Santo Antônio de Leverger e Barão de Melgaço. As obras em Cáceres, São Félix do Araguaia e Luciara seguem em andamento, com 61,5%, 85% e 68,69% de execução, respectivamente. O que diz o governo: A previsão é de entrega da orla de São Félix do Araguaia no terceiro trimestre de 2026, enquanto Cáceres e Luciara têm previsão de finalização até o fim do ano. Apuração: Kessillen Lopes e Victória OliveiraEdição: Bianca Muniz e Felipe TurioniDesign: Kayan AlbertinCoordenação: Felipe Turioni, José Lopes e Megui Donadoni"
       }
     ],
-    "scrapedAt": "2026-10-14T18:29:22.156Z"
+    "scrapedAt": "2026-10-20T05:48:12.880Z"
   },
   {
     "id": "eduardo-riedel",
@@ -2879,6 +2891,7 @@
     },
     "g1Url": "https://g1.globo.com/ms/mato-grosso-do-sul/noticia/2026/07/22/promessas-de-eduardo-riedel-governador-de-mato-grosso-do-sul.ghtml",
     "newsQuery": "Eduardo Riedel governador Mato Grosso do Sul",
+    "wikidata": "Q112407628",
     "proposals": [
       {
         "title": "Oferecer educação em tempo integral em 90% da rede estadual de ensino",
@@ -2990,7 +3003,7 @@
       },
       {
         "title": "Construir ao longo dos quatro anos de gestão 70 mil unidades habitacionais",
-        "theme": "habitacao-mob",
+        "theme": "habitacao",
         "status": "em_parte",
         "description": "A política habitacional foi ampliada, mas a meta de construir 70 mil moradias em quatro anos está distante de ser alcançada - a promessa foi cumprida em parte. Segundo dados do governo, 11.935 unidades habitacionais foram entregues e outras 5.497 estão em execução, totalizando 17.432 moradias entre concluídas e em andamento. O número representa cerca de um quarto da meta anunciada durante a campanha. O que diz o governo: Informa que foram entregues 24,9% da meta prometida e que, além da construção de moradias, realizou a entrega de 12.384 títulos de regularização fundiária."
       },
@@ -3001,7 +3014,7 @@
         "description": "A promessa de ampliar de 3% para 5% a participação do turismo no Produto Interno Bruto (PIB) de Mato Grosso do Sul não foi cumprida. A participação do setor na economia estadual permanece em torno de 3%, sem atingir o percentual prometido. O que diz o governo: Informa que o crescimento acelerado de outros setores da economia, como a indústria de celulose e o agronegócio, impactou a participação relativa do turismo no PIB e destaca indicadores de aumento no fluxo de visitantes, no desempenho das atividades turísticas e nos investimentos em infraestrutura do setor. Apuração: Loraine França e José CâmaraEdição: Vitor Januário e Felipe TurioniDesign: Kayan AlbertinCoordenação: Felipe Turioni, José Lopes e Megui Donadoni"
       }
     ],
-    "scrapedAt": "2026-10-14T18:29:23.732Z"
+    "scrapedAt": "2026-10-20T05:48:14.966Z"
   },
   {
     "id": "romeu-zema",
@@ -3015,6 +3028,7 @@
     },
     "g1Url": "https://g1.globo.com/mg/minas-gerais/noticia/2026/07/22/promessas-zema-mateus-simoes-governo-mg.ghtml",
     "newsQuery": "Romeu Zema governador Minas Gerais",
+    "wikidata": "Q57092113",
     "proposals": [
       {
         "title": "Finalizar obras e colocar hospitais regionais em operação",
@@ -3066,7 +3080,7 @@
       },
       {
         "title": "Ampliar políticas de regularização fundiária urbana e rural",
-        "theme": "habitacao-mob",
+        "theme": "habitacao",
         "status": "em_parte",
         "description": "A promessa de expandir ações de regularização fundiária urbana e rural para garantir direito à propriedade foi cumprida em parte. Entre 2019 e 2022, 8.459 imóveis foram regularizados. O estado previa regularizar outros 67 mil nos quatro anos seguintes. O número de imóveis regularizados aumentou, mas não chegou aos 67 mil previstos. Entre 2023 e maio de 2026, foram regularizados 18.958 imóveis urbanos, dos quais 16.127 foram efetivamente titulados. Em relação aos imóveis rurais, 9.169 títulos de propriedade de terra foram entregues no período. O que diz o governo: Afirma que a regularização fundiária urbana é um processo complexo que envolve uma série de etapas e depende da participação de municípios e beneficiários. E que milhares de títulos estão aptos a avançar para a etapa final de formalização. Sobre os imóveis rurais, há previsão de entrega de mais 3.500 títulos neste ano."
       },
@@ -3089,7 +3103,7 @@
         "description": "O fundo estadual para a concessão de microcrédito a agricultores familiares não foi criado. O governo optou por reestruturar o Fundo Estadual de Desenvolvimento Rural (Funderur), instituído em 1995, por meio da Lei nº 24.818/2024. O que diz o governo: Destaca que a atualização da legislação amplia as possibilidades de apoio ao setor rural e prevê linhas de financiamento para os produtores. E que trabalha na estratégia de operacionalização dos recursos que irão compor o fundo. Apuração: Rafaela Mansur e Rodrigo SalgadoEdição: Arthur Stabile e Felipe TurioniDesign: Kayan Albertin Coordenação: Felipe Turioni, José Lopes e Megui Donadoni"
       }
     ],
-    "scrapedAt": "2026-10-14T18:29:25.343Z"
+    "scrapedAt": "2026-10-20T05:48:16.900Z"
   },
   {
     "id": "helder-barbalho",
@@ -3103,6 +3117,7 @@
     },
     "g1Url": "https://g1.globo.com/pa/para/noticia/2026/07/22/promessas-de-helder-e-hana-ghassan-governador-e-vice-do-para.ghtml",
     "newsQuery": "Helder Barbalho governador Pará",
+    "wikidata": "Q3784499",
     "proposals": [
       {
         "title": "Concluir e implementar novas Estações Cidadania",
@@ -3267,7 +3282,7 @@
         "description": "O governo cumpriu a promessa ao criar o Visit Pará, ferramenta que possuí um mapa interativo que contempla diversos destinos turísticos no estado. A ferramenta funciona em dois canais, sendo site e aplicativo, para facilitar a locomoção de turistas. O que diz o governo: Informa que o Visit Pará reúne informações para turistas em português, inglês e espanhol. O serviço, lançado em outubro de 2025, também funciona offline. Apuração: Taymã Carneiro e Valéria MartinsEdição: Felipe Turioni e Vitor JanuárioDesign: Kayan Albertin Coordenação: José Lopes e Megui Donadoni"
       }
     ],
-    "scrapedAt": "2026-10-14T18:29:26.949Z"
+    "scrapedAt": "2026-10-20T05:48:18.995Z"
   },
   {
     "id": "ratinho-junior",
@@ -3281,6 +3296,7 @@
     },
     "g1Url": "https://g1.globo.com/pr/parana/noticia/2026/07/22/promessas-de-ratinho-junior-governador-do-parana-entregou-ponte-de-guaratuba-e-universidade-entrega-terminal-em-londrina-nao-foi-cumprida.ghtml",
     "newsQuery": "Ratinho Junior governador Paraná",
+    "wikidata": "Q10357567",
     "proposals": [
       {
         "title": "Abrir um pronto-socorro na Lapa",
@@ -3445,7 +3461,7 @@
         "description": "Veja mais notícias do estado em g1 Paraná."
       }
     ],
-    "scrapedAt": "2026-10-14T18:29:28.481Z"
+    "scrapedAt": "2026-10-20T05:48:20.950Z"
   },
   {
     "id": "joao-azevedo",
@@ -3459,6 +3475,7 @@
     },
     "g1Url": "https://g1.globo.com/pb/paraiba/noticia/2026/07/22/promessas-de-joao-azevedo-e-lucas-ribeiro-governador-e-vice-da-paraiba.ghtml",
     "newsQuery": "João Azevêdo governador Paraíba",
+    "wikidata": "Q56351397",
     "proposals": [
       {
         "title": "Ampliar programa Conexão Mundo",
@@ -3594,18 +3611,18 @@
       },
       {
         "title": "Expandir o programa Cidade Madura para Catolé do Rocha",
-        "theme": "habitacao-mob",
+        "theme": "habitacao",
         "status": "cumpriu",
         "description": "Em entrevista à Rádio CBN, em outubro de 2022, foi prometido aumentar a capacidade habitacional do programa Cidade Madura, para idosos, construindo 40 novas unidades na cidade de Catolé do Rocha, no Sertão da Paraíba. A promessa foi cumprida. O Residencial Cidade Madura de Catolé do Rocha foi entregue no mês de maio de 2026, com 40 unidades habitacionais. Atualmente, o Programa Cidade Madura conta com 12 unidades, sendo duas em construção."
       },
       {
         "title": "Expandir o programa Parceiros da Habitação (PPH) para as áreas rurais",
-        "theme": "habitacao-mob",
+        "theme": "habitacao",
         "status": "nao_cumpriu",
         "description": "No plano de governo, foi prometido construir unidades habitacionais para a população de baixa renda por meio do PPH em áreas rurais, mas as construções foram realizadas por outro programa para essas áreas. A promessa não foi cumprida. O que diz o governo: Afirma que o PPH foi criado em um período em que o Programa Minha Casa, Minha Vida não disponibilizava recursos para novas habitações. Com a retomada da iniciativa pelo Governo Federal, o estado passou a direcionar os investimentos em habitação rural por meio do programa federal. Apuração: Daniella FechineEdição : Vitor Januário e Felipe TurioniDesign: Kayan AlbertinCoordenação: Felipe Turioni, José Lopes e Megui Donadoni"
       }
     ],
-    "scrapedAt": "2026-10-14T18:29:30.086Z"
+    "scrapedAt": "2026-10-20T05:48:23.049Z"
   },
   {
     "id": "raquel-lyra",
@@ -3619,6 +3636,7 @@
     },
     "g1Url": "https://g1.globo.com/pe/pernambuco/noticia/2026/07/22/promessas-de-raquel-lyra-governadora-de-pernambuco.ghtml",
     "newsQuery": "Raquel Lyra governadora Pernambuco",
+    "wikidata": "Q27267587",
     "proposals": [
       {
         "title": "Implantar prontuário eletrônico único nas unidades de saúde de Pernambuco",
@@ -3844,25 +3862,25 @@
       },
       {
         "title": "Incentivar a reforma de moradias com problemas técnicos",
-        "theme": "habitacao-mob",
+        "theme": "habitacao",
         "status": "cumpriu",
         "description": "Dentro do programa Morar Bem, prometido no plano de governo, a gestão lançou a modalidade \"Reforma no Lar\", que financia obras de até R$ 18 mil em residências em áreas de vulnerabilidade habitacional e resididas por famílias com renda de até 2 salários-mínimos, chefiadas por mulheres. Até maio de 2026, 1.084 obras haviam sido concluídas no Recife, em Olinda e Jaboatão. Outras 69 casas estão em andamento. Ainda segundo o governo, mais 1.820 casas devem ser beneficiadas, mas ainda não há prazo."
       },
       {
         "title": "Construir moradias para pessoas que habitam área de risco",
-        "theme": "habitacao-mob",
+        "theme": "habitacao",
         "status": "em_parte",
         "description": "A promessa foi feita em entrevista à TV Globo e o objetivo era construir, pelo menos, 50 mil moradias para pessoas que estão em casas localizadas em áreas de risco. Pouco mais de 47 mil foram concluídas. O que diz o governo: segundo a gestão, o programa Morar Bem beneficiou 47.392 famílias em diferentes modalidades habitacionais. Com a retomada de obras do Minha Casa, Minha Vida, foram 2.807 casas; na entrega de títulos de propriedade, 15.217; no Entrada Garantida, que oferta subsídio de até R$ 20 mil para compra de imóveis, foram 24.610; já o Reforma no Lar, para requalificação de casas em condições de vulnerabilidade, foram 1.389. Entre as ações voltadas para famílias em áreas de risco, a gestão destaca a indenização de moradores de prédios-caixão condenados, o pagamento de auxílio-moradia para cerca de 6 mil famílias e a entrega de 12 casas para desabrigados das chuvas em Vicência. ⬆️ Voltar ao início desta reportagem."
       },
       {
         "title": "Aumentar acesso ao crédito e à qualificação profissional para o turismo",
-        "theme": "habitacao-mob",
+        "theme": "habitacao",
         "status": "em_parte",
         "description": "A promessa, que consta no plano de governo, foi parcialmente cumprida. Segundo o governo, desde 2023, foram liberados R$ 9,9 milhões por meio do EmpreendeTUR, uma linha de crédito para empreendedores do setor de Turismo em Pernambuco com recursos do Fundo Geral do Turismo (Fungetur), do Ministério do Turismo. Apesar de ter ampliado o acesso ao crédito, não houve mudança na oferta de cursos técnicos ligados ao turismo e de idiomas estrangeiros. O que diz o governo: segundo a gestão, foi elaborada uma minuta do formato a ser executado, mas o projeto está em tramitação na Procuradoria Geral do Estado (PGE)."
       },
       {
         "title": "Criar Distritos Turísticos de Pernambuco",
-        "theme": "habitacao-mob",
+        "theme": "habitacao",
         "status": "nao_cumpriu",
         "description": "Os distritos ainda não foram criados e a promessa, que consta no plano de governo, ainda não foi cumprida. O que diz o governo: segundo a gestão, foi elaborada uma minuta do formato a ser executado, mas o projeto está em tramitação na Procuradoria Geral do Estado (PGE). ⬆️ Voltar ao início desta reportagem."
       },
@@ -3879,7 +3897,7 @@
         "description": ""
       }
     ],
-    "scrapedAt": "2026-10-14T18:29:31.713Z"
+    "scrapedAt": "2026-10-20T05:48:25.137Z"
   },
   {
     "id": "rafael-fonteles",
@@ -3893,6 +3911,8 @@
     },
     "g1Url": "https://g1.globo.com/pi/piaui/noticia/2026/07/22/promessas-de-rafael-fonteles-governador-do-piaui.ghtml",
     "newsQuery": "Rafael Fonteles governador Piauí",
+    "wikidata": "Q111917943",
+    "commonsFile": "Ipea Recebe o Governador do Piauí Rafael Fonteles (54119348754) (cropped).jpg",
     "proposals": [
       {
         "title": "Implantar telemedicina em todos os territórios de desenvolvimento",
@@ -4231,7 +4251,7 @@
         "description": "A principal linha de crédito voltada ao setor turístico no Piauí é o Novo Fundo Geral de Turismo (Fungetur), operado no estado pela Agência de Fomento e Desenvolvimento do Estado do Piauí (Badespi). De acordo com o relatório de operações do fundo, a instituição aplicou R$ 5,96 milhões em novas operações de crédito em 2023. Em fevereiro de 2026, o Governo do Estado anunciou a disponibilidade de mais cerca de R$ 10 milhões em recursos. *Créditos"
       }
     ],
-    "scrapedAt": "2026-10-14T18:29:33.330Z"
+    "scrapedAt": "2026-10-20T05:48:27.252Z"
   },
   {
     "id": "claudio-castro",
@@ -4245,6 +4265,7 @@
     },
     "g1Url": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2026/07/22/promessas-de-claudio-castro-ex-governador-do-rj.ghtml",
     "newsQuery": "Cláudio Castro governador Rio de Janeiro",
+    "wikidata": "Q57965921",
     "proposals": [
       {
         "title": "Inaugurar o Rio Imagem Baixada",
@@ -4326,7 +4347,7 @@
       },
       {
         "title": "Construir pelo menos 5 mil unidades habitacionais",
-        "theme": "habitacao-mob",
+        "theme": "habitacao",
         "status": "em_parte",
         "description": "No plano de governo, a promessa era construir pelo menos 5 mil unidades habitacionais. A meta não foi alcançada. A assessoria de Castro informou que, desde 2023, o governo entregou 368 moradias à população fluminense. \"Atualmente, outras 2.146 unidades habitacionais estão em fase de construção. No âmbito do programa Minha Casa, Minha Vida, 140 moradias estão sendo construídas.\""
       },
@@ -4367,7 +4388,7 @@
         "description": "O programa de governo prometia Construir a Linha 3 do metrô (São Gonçalo-Arariboia). O projeto não saiu do papel. Procurada, a assessoria de Castro afirmou que \"a execução da obra depende da conclusão dos estudos, da modelagem técnica, da viabilidade econômico-financeira, do licenciamento e da definição das fontes de financiamento\"."
       }
     ],
-    "scrapedAt": "2026-10-14T18:29:34.720Z"
+    "scrapedAt": "2026-10-20T05:48:29.331Z"
   },
   {
     "id": "fatima-bezerra",
@@ -4381,6 +4402,7 @@
     },
     "g1Url": "https://g1.globo.com/rn/rio-grande-do-norte/noticia/2026/07/22/promessas-de-fatima-bezerra-governadora-do-rio-grande-do-norte.ghtml",
     "newsQuery": "Fátima Bezerra governadora Rio Grande do Norte",
+    "wikidata": "Q10286993",
     "proposals": [
       {
         "title": "Construir novo hospital na Região Metropolitana de Natal",
@@ -4485,7 +4507,7 @@
         "description": "O Cadastro Nacional de Produtos Artesanais do Ministério da Agricultura e Pecuária apontou que o RN tinha, em maio, 27 selos ARTE concedidos. Quanto aos selos SISBI, o governo do RN informou que entregou 24 novos entre 2022 e 2026, chegando a 35 empresas no estado com esse certificado. Voltar para o início."
       }
     ],
-    "scrapedAt": "2026-10-14T18:29:36.237Z"
+    "scrapedAt": "2026-10-20T05:48:31.429Z"
   },
   {
     "id": "eduardo-leite",
@@ -4499,6 +4521,7 @@
     },
     "g1Url": "https://g1.globo.com/rs/rio-grande-do-sul/noticia/2026/07/22/promessas-eduardo-leite-governador-do-rio-grande-do-sul.ghtml",
     "newsQuery": "Eduardo Leite governador Rio Grande do Sul",
+    "wikidata": "Q16337390",
     "proposals": [
       {
         "title": "Ampliar cirurgias contratadas e consultas especializadas",
@@ -4735,7 +4758,7 @@
         "description": "Durante a campanha, o então candidato afirmou que não vai vender o Banco do Estado do Rio Grande do Sul, o Banrisul, para a iniciativa privada. Leite cumpriu com o compromisso. Apuração: Diego Nuñez e Gustavo FosterEdição: Arthur Stabile e Felipe TurioniDesign: Kayan Albertin Coordenação: Felipe Turioni, José Lopes e Megui Donadoni"
       }
     ],
-    "scrapedAt": "2026-10-14T18:29:37.743Z"
+    "scrapedAt": "2026-10-20T05:48:33.559Z"
   },
   {
     "id": "coronel-marcos-rocha",
@@ -4749,6 +4772,7 @@
     },
     "g1Url": "https://g1.globo.com/ro/rondonia/noticia/2026/07/22/promessas-de-coronel-marcos-rocha-governador-de-rondonia.ghtml",
     "newsQuery": "Coronel Marcos Rocha governador Rondônia",
+    "wikidata": "Q60345250",
     "proposals": [
       {
         "title": "Realizar reforma e ampliação do Centro de Medicina Tropical de Rondônia",
@@ -4872,12 +4896,12 @@
       },
       {
         "title": "Entregar unidades habitacionais",
-        "theme": "habitacao-mob",
+        "theme": "habitacao",
         "status": "cumpriu",
         "description": "A promessa foi cumprida: o governo entregou 592 unidades de moradia popular dos projetos Porto Madero II e V, na capital Porto Velho. Créditos: Apuração: Amanda Oliveira, Jaíne Quele e Quetlen CaetanoEdição: Arthur Stabile e Felipe TurioniDesign: Kayan Albertin Coordenação: Felipe Turioni, José Lopes e Megui Donadoni"
       }
     ],
-    "scrapedAt": "2026-10-14T18:29:39.339Z"
+    "scrapedAt": "2026-10-20T05:48:35.491Z"
   },
   {
     "id": "antonio-denarium",
@@ -4891,6 +4915,7 @@
     },
     "g1Url": "https://g1.globo.com/rr/roraima/noticia/2026/07/22/promessas-de-antonio-denarium-ex-governador-de-roraima.ghtml",
     "newsQuery": "Antonio Denarium governador Roraima",
+    "wikidata": "Q59284403",
     "proposals": [
       {
         "title": "Construir um hospital para vítimas de acidente",
@@ -5073,7 +5098,7 @@
         "description": "A Ceasa não foi criada durante a gestão de Denarium. O que diz o governo: a assessoria do ex-governador não enviou resposta sobre o assunto até a publicação desta reportagem. Créditos:"
       }
     ],
-    "scrapedAt": "2026-10-14T18:29:40.932Z"
+    "scrapedAt": "2026-10-20T05:48:37.559Z"
   },
   {
     "id": "jorginho-mello",
@@ -5087,6 +5112,7 @@
     },
     "g1Url": "https://g1.globo.com/sc/santa-catarina/noticia/2026/07/22/promessas-de-jorginho-mello-governador-de-sc.ghtml",
     "newsQuery": "Jorginho Mello governador Santa Catarina",
+    "wikidata": "Q10308318",
     "proposals": [
       {
         "title": "Disponibilizar gratuitamente todas as vagas das universidades da Acafe",
@@ -5167,7 +5193,7 @@
         "description": "No programa de governo, foi prometida a criação dos programas Pronampe SC e Pronampe Rural nos mesmos moldes do governo federal, com o objetivo de ofertar financiamentos para microempresas e empresas de pequeno porte, com prazo de 72 meses para pagar. Os programas foram criados, mas não ofereceram o prazo máximo prometido. O que diz o governo: Sobre o prazo para quitação dos financiamentos, definiu como um \"detalhe técnico\" e justificou que o limite de até 48 meses adotado nos programas foi definido a partir de critérios técnicos e segue parâmetros utilizados em outras linhas de crédito com características semelhantes operadas pelo Estado. Disse também que os estudos realizados indicaram que esse prazo atende às necessidades da maioria dos tomadores de crédito, permitindo ampliar a capilaridade das ações. O Pronampe SC e o Pronampe Rural foram colocados à disposição dos empreendedores, ampliando o acesso ao crédito para micro e pequenas empresas, produtores rurais e demais segmentos beneficiados pela política pública. Além dos dois, outras modalidades foram implantadas, a exemplo do Pronampe Mulher, Pronampe Inovação, Pronampe Emergencial, Pronampe Emergencial Rural, Pronampe Leite e Pronampe Aquicultura e Pesca. Os financiamentos garantiram oportunidades para novos empreendimentos ou retomada das atividades de empresas atingidas por desastres naturais. Apuração: John Pacheco e Sofia MayerEdição: Vitor Januário e Felipe TurioniDesign: Kayan Albertin Coordenação: Felipe Turioni, José Lopes e Megui Donadoni"
       }
     ],
-    "scrapedAt": "2026-10-14T18:29:42.417Z"
+    "scrapedAt": "2026-10-20T05:48:39.670Z"
   },
   {
     "id": "tarcisio-de-freitas",
@@ -5181,6 +5207,7 @@
     },
     "g1Url": "https://g1.globo.com/sp/sao-paulo/noticia/2026/07/22/promessas-de-tarcisio-governador-de-sp.ghtml",
     "newsQuery": "Tarcísio de Freitas governador São Paulo",
+    "wikidata": "Q60392579",
     "proposals": [
       {
         "title": "Aumentar incentivo financeiro para a cultura com orçamento próprio e incentivos fiscais",
@@ -5412,18 +5439,18 @@
       },
       {
         "title": "Ampliar a regularização fundiária e a oferta de moradias",
-        "theme": "habitacao-mob",
+        "theme": "habitacao",
         "status": "em_parte",
         "description": "A meta anunciada na campanha previa atender 500 mil famílias em quatro anos por meio de regularização fundiária, requalificação de imóveis e produção habitacional. Desde 2023, o governo regularizou 150,7 mil imóveis por meio da CDHU e do programa Cidade Legal. Na área habitacional, o Casa Paulista contabiliza 51 mil moradias entregues com apoio de crédito imobiliário, 30 mil unidades produzidas pela CDHU e 13 mil requalificações de imóveis. Segundo o governo, considerando todas as modalidades dos programas habitacionais, já foram realizados 351,1 mil atendimentos. Além disso, há 153,6 mil unidades habitacionais, regularizações e melhorias em andamento."
       },
       {
         "title": "Construir habitação de interesse social e habitação de mercado popular no Centro da capital paulista",
-        "theme": "habitacao-mob",
+        "theme": "habitacao",
         "status": "em_parte",
         "description": "O governo entregou 739 moradias na região da subprefeitura da Sé, com investimento de R$ 57 milhões, e informou que outras 300 unidades estão em construção. A gestão também mantém em andamento uma parceria com a Faculdade de Direito da USP para implantação de moradias em um terreno da CDHU no Largo de São Francisco. Paralelamente, foi estruturada uma PPP habitacional para viabilizar mais de 6 mil unidades no centro da capital, incluindo habitação de interesse social (HIS) e habitação de mercado popular (HMP). Embora o governo tenha entregue moradias e avançado no planejamento de novos empreendimentos habitacionais na região central, o principal projeto anunciado para ampliar a oferta de HIS e HMP ainda não saiu do papel. Em resposta ao g1, a gestão informou que a PPP habitacional segue em tramitação na Secretaria de Parcerias em Investimentos (SPI). A consulta pública foi concluída, mas ainda restam etapas como a publicação do edital, o leilão e a assinatura do contrato."
       }
     ],
-    "scrapedAt": "2026-10-14T18:29:43.982Z"
+    "scrapedAt": "2026-10-20T05:48:41.695Z"
   },
   {
     "id": "fabio-mitidieri",
@@ -5437,6 +5464,7 @@
     },
     "g1Url": "https://g1.globo.com/se/sergipe/noticia/2026/07/22/promessas-de-fabio-mitidieri-governador-de-sergipe.ghtml",
     "newsQuery": "Fábio Mitidieri governador Sergipe",
+    "wikidata": "Q48871938",
     "proposals": [
       {
         "title": "Ampliar os programas voltados à saúde dos idosos",
@@ -5566,24 +5594,24 @@
       },
       {
         "title": "Ampliar o programa 'Novo Lar' para garantir reformas de casas no valor de até R$ 10 mil",
-        "theme": "habitacao-mob",
+        "theme": "habitacao",
         "status": "cumpriu",
         "description": "O valor do benefício foi ampliado para R$ 15 mil, de acordo com o apurado pelo g1. O governo informou que 577 unidades habitacionais foram requalificadas, distribuídas da seguinte forma: 242 imóveis no biênio 2023–2024 e 335 entre 2025 e 2026. Além disso, outras 32 residências estão com a execução em andamento. A previsão é que, no segundo semestre, mais 204 moradias sejam reformadas."
       },
       {
         "title": "Criar o 'Programa Estadual de Habitação' para construir conjuntos habitacionais, com a redução do déficit habitacional",
-        "theme": "habitacao-mob",
+        "theme": "habitacao",
         "status": "cumpriu",
         "description": "O governo estadual lançou o Programa Casa Sergipana em 2025, desenvolvido em parceria com o governo federal, Caixa Econômica e municípios com empreendimentos em andamento, de acordo com o apurado pelo g1. Segundo a gestão estadual, o investimento total em habitação somou aproximadamente R$ 336,5 milhões entre 2023 e 2025. O valor foi distribuído na construção de novas unidades, concessão de subsídios, ações de regularização fundiária e reforma de moradias, com o objetivo de reduzir o déficit habitacional no estado."
       },
       {
         "title": "Criar programa 'Casa Legal', de regularização fundiária permanente",
-        "theme": "habitacao-mob",
+        "theme": "habitacao",
         "status": "em_parte",
         "description": "O programa está em execução com oito contratos formalizados junto a duas empresas, de acordo com o apurado pelo g1. A meta é regularizar mais de 25 mil imóveis durante os quatro anos. O que diz o governo: O governo estadual informou que foi dada a ordem de serviço para a emissão de 4.834 títulos de regularização fundiária na Grande Aracaju e no Agreste Central. Além disso, outros 59 títulos já foram entregues no município da Barra dos Coqueiros. *Créditos"
       }
     ],
-    "scrapedAt": "2026-10-14T18:29:45.498Z"
+    "scrapedAt": "2026-10-20T05:48:43.956Z"
   },
   {
     "id": "wanderlei-barbosa",
@@ -5597,6 +5625,7 @@
     },
     "g1Url": "https://g1.globo.com/to/tocantins/noticia/2026/07/22/promessas-de-wanderlei-barbosa-governador-do-tocantins.ghtml",
     "newsQuery": "Wanderlei Barbosa governador Tocantins",
+    "wikidata": "Q94175645",
     "proposals": [
       {
         "title": "Implantar 15 novas escolas de tempo integral",
@@ -5707,6 +5736,6 @@
         "description": "O estado prometeu um cartão social para auxiliar famílias com alimento, gás e remédios, mas o programa atende apenas um dos benefícios. A promessa foi cumprida em parte. Não foram realizadas ações voltadas para remédio e gás. O Programa Alimento ofertou R$ 250 mensais para alimentação. O que diz o governo: Destaca que cerca de 7 mil famílias nos 139 municípios foram beneficiadas. O programa deve permanecer ativo até dezembro de 2026. Voltar ao início Apuração: Patrício Reis e Stefani CavalcanteEdição: Bianca Muniz e Felipe TurioniDesign: Kayan Albertin Coordenação: Felipe Turioni, José Lopes e Megui Donadoni"
       }
     ],
-    "scrapedAt": "2026-10-14T18:29:47.095Z"
+    "scrapedAt": "2026-10-20T05:48:46.073Z"
   }
 ]
